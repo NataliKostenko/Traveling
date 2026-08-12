@@ -1,84 +1,84 @@
 #!/bin/bash
 set -uo pipefail
 
-echo "=== Проверка окружения ==="
-echo "WORDPRESS_DB_USER=${WORDPRESS_DB_USER:-<не задан>}"
-echo "WORDPRESS_DB_NAME=${WORDPRESS_DB_NAME:-<не задан>}"
-echo "SITE_DOMAIN=${SITE_DOMAIN:-<не задан>}"
+echo "=== Environment check ==="
+echo "WORDPRESS_DB_USER=${WORDPRESS_DB_USER:-<not set>}"
+echo "WORDPRESS_DB_NAME=${WORDPRESS_DB_NAME:-<not set>}"
+echo "SITE_DOMAIN=${SITE_DOMAIN:-<not set>}"
 
 if [ ! -f /var/www/html/wp-config.php ]; then
-    echo "Создание wp-config.php..."
+    echo "Creating wp-config.php..."
     wp config create --allow-root --path=/var/www/html \
         --dbname="$WORDPRESS_DB_NAME" \
         --dbuser="$WORDPRESS_DB_USER" \
         --dbpass="$WORDPRESS_DB_PASSWORD" \
         --dbhost="${WORDPRESS_DB_HOST:-db:3306}" \
         --skip-check
-    echo "wp-config.php создан."
+    echo "wp-config.php created."
 else
-    echo "wp-config.php уже существует."
+    echo "wp-config.php already exists."
 fi
 
-echo "Определение типа mysql-клиента..."
+echo "Detecting mysql client type..."
 CLIENT_VERSION=$(mysql --version 2>&1)
 echo "$CLIENT_VERSION"
 if echo "$CLIENT_VERSION" | grep -qi "mariadb"; then
-    echo "Клиент: MariaDB -> используем --skip-ssl"
+    echo "Client: MariaDB -> using --skip-ssl"
     MYSQL_OPTS="--skip-ssl"
 else
-    echo "Клиент: MySQL -> используем --ssl-mode=DISABLED"
+    echo "Client: MySQL -> using --ssl-mode=DISABLED"
     MYSQL_OPTS="--ssl-mode=DISABLED"
 fi
 
-echo "Ожидание запуска базы данных..."
+echo "Waiting for the database to start..."
 attempt=0
 max_attempts=60
 until mysql -h"db" -u"$WORDPRESS_DB_USER" -p"$WORDPRESS_DB_PASSWORD" $MYSQL_OPTS -e "SELECT 1;" >/dev/null 2>&1; do
     attempt=$((attempt+1))
-    echo "Попытка $attempt/$max_attempts: база ещё не отвечает..."
+    echo "Attempt $attempt/$max_attempts: database not responding yet..."
     if [ "$attempt" -ge "$max_attempts" ]; then
-        echo "ОШИБКА: не дождались базы данных за $max_attempts секунд."
-        echo "Диагностика последней попытки:"
+        echo "ERROR: database did not respond within $max_attempts seconds."
+        echo "Diagnostics of the last attempt:"
         mysql -h"db" -u"$WORDPRESS_DB_USER" -p"$WORDPRESS_DB_PASSWORD" $MYSQL_OPTS -e "SELECT 1;"
         exit 1
     fi
     sleep 1
 done
-echo "База данных отвечает."
+echo "Database is responding."
 
-echo "Проверка наличия таблицы wp_options..."
+echo "Checking for wp_options table..."
 TABLE_CHECK=$(mysql -h"db" -u"$WORDPRESS_DB_USER" -p"$WORDPRESS_DB_PASSWORD" $MYSQL_OPTS -e "USE $WORDPRESS_DB_NAME; SHOW TABLES;" 2>&1)
-echo "Результат SHOW TABLES:"
+echo "SHOW TABLES result:"
 echo "$TABLE_CHECK"
 
 if ! echo "$TABLE_CHECK" | grep -q "wp_options"; then
-    echo "Импорт шаблона базы данных..."
+    echo "Importing database template..."
     if [ ! -f /templates/clean_local.sql ]; then
-        echo "ОШИБКА: файл /templates/clean_local.sql не найден внутри контейнера!"
+        echo "ERROR: file /templates/clean_local.sql not found inside the container!"
         exit 1
     fi
 
     mysql -h"db" -u"$WORDPRESS_DB_USER" -p"$WORDPRESS_DB_PASSWORD" $MYSQL_OPTS "$WORDPRESS_DB_NAME" < /templates/clean_local.sql
-    echo "Импорт завершён с кодом: $?"
+    echo "Import finished with exit code: $?"
 
     if ! command -v wp >/dev/null 2>&1; then
-        echo "ПРЕДУПРЕЖДЕНИЕ: WP-CLI (wp) не найден, search-replace пропущен."
+        echo "WARNING: WP-CLI (wp) not found, search-replace skipped."
     else
-        echo "Замена плейсхолдера домена..."
+        echo "Replacing domain placeholder..."
         wp search-replace "__SITE_URL__" "http://${SITE_DOMAIN}" --allow-root --path=/var/www/html
 
-        echo "Очистка файлового CSS-кэша с плейсхолдерами (Spectra/Astra/др.)..."
+        echo "Clearing cached CSS files containing the placeholder (Spectra/Astra/etc.)..."
         find /var/www/html/wp-content/uploads -iname "*.css" -exec grep -li "site_url" {} \; 2>/dev/null | while read -r f; do
-            echo "  Удаляю устаревший кэш: $f"
+            echo "  Removing stale cache file: $f"
             rm -f "$f"
         done
 
-        echo "Обновление permalinks..."
+        echo "Flushing permalinks..."
         wp rewrite flush --allow-root --path=/var/www/html
     fi
 else
-    echo "Таблица wp_options уже существует, импорт не требуется."
+    echo "wp_options table already exists, import not required."
 fi
 
-echo "Запуск Apache..."
+echo "Starting Apache..."
 exec "$@"
