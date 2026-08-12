@@ -1,0 +1,5508 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SureCookie 0.0.1-beta.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surecookie\n"
+"Last-Translator: gpt-po v1.3.0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-19T05:50:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: surecookie\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: surecookie.php
+#: inc/integrations/wp-consent-api/actions.php:66
+#: inc/integrations/wp-consent-api/actions.php:74
+msgid "SureCookie"
+msgstr "SureCookie"
+
+#. Plugin URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com"
+msgstr "https://surecookie.com"
+
+#. Description of the plugin
+#: surecookie.php
+msgid "Real cookie consent for WordPress. Browser-based scanning, smart categorization, strict script blocking, and consent logs stored in your database."
+msgstr "ความยินยอมคุกกี้จริงสำหรับ WordPress การสแกนบนเบราว์เซอร์ การจัดหมวดหมู่ที่ชาญฉลาด การบล็อกสคริปต์อย่างเข้มงวด และบันทึกความยินยอมที่เก็บไว้ในฐานข้อมูลของคุณ"
+
+#. Author URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com/"
+msgstr "https://surecookie.com/"
+
+#: admin/menu.php:74
+#: build/admin.js:2
+msgid "Dashboard"
+msgstr "แดชบอร์ด"
+
+#: admin/menu.php:87
+#: admin/menu.php:274
+#: build/admin.js:2
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#: admin/menu.php:82
+#: admin/menu.php:400
+#: build/admin.js:2
+msgid "Logs"
+msgstr "บันทึก"
+
+#: admin/menu.php:91
+#: build/admin.js:2
+msgid "Learn"
+msgstr "เรียนรู้"
+
+#: admin/menu.php:130
+msgid "You don't have access to this page."
+msgstr "คุณไม่มีสิทธิ์เข้าถึงหน้านี้"
+
+#: admin/menu.php:300
+#: admin/menu.php:301
+msgid "Upgrade"
+msgstr "อัปเกรด"
+
+#: admin/onboarding.php:59
+#: build/onboarding.js:14
+msgid "Onboarding"
+msgstr "การเริ่มต้นใช้งาน"
+
+#: admin/onboarding.php:75
+msgid "You do not have sufficient permissions to access this page."
+msgstr "คุณไม่มีสิทธิ์เพียงพอที่จะเข้าถึงหน้านี้"
+
+#: admin/product-promotion.php:110
+msgid "A simple yet powerful way to create modern forms for your website."
+msgstr "วิธีง่ายๆ แต่ทรงพลังในการสร้างฟอร์มสมัยใหม่สำหรับเว็บไซต์ของคุณ"
+
+#: admin/rating-notice.php:234
+msgid "If SureCookie has been helpful, would you mind taking a moment to leave a 5-star review on WordPress.org?"
+msgstr "ถ้า SureCookie มีประโยชน์ คุณช่วยสละเวลาสักครู่เพื่อให้คะแนน 5 ดาวบน WordPress.org ได้ไหม?"
+
+#: admin/rating-notice.php:243
+msgid "Rate SureCookie"
+msgstr "ให้คะแนน SureCookie"
+
+#: admin/rating-notice.php:251
+msgid "Maybe later"
+msgstr "อาจจะทีหลัง"
+
+#: admin/rating-notice.php:255
+msgid "I already did"
+msgstr "ฉันให้คะแนนแล้ว"
+
+#: inc/api/base.php:59
+msgid "You don't have access to do this."
+msgstr "คุณไม่มีสิทธิ์ทำสิ่งนี้"
+
+#: inc/api/base.php:71
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "การตรวจสอบความปลอดภัยล้มเหลว กรุณารีเฟรชหน้าและลองอีกครั้ง"
+
+#: inc/api/base.php:80
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "เซสชันของคุณหมดอายุ กรุณารีเฟรชหน้าและลองอีกครั้ง"
+
+#: inc/api/consent-logs.php:146
+msgid "Search by IP address or Session ID"
+msgstr "ค้นหาตามที่อยู่ IP หรือรหัสเซสชัน"
+
+#: inc/api/consent-logs.php:318
+#: inc/api/consent-logs.php:345
+msgid "Request origin could not be verified."
+msgstr "ไม่สามารถตรวจสอบแหล่งที่มาของคำขอได้"
+
+#: inc/api/consent-logs.php:892
+msgid "Request origin is not allowed."
+msgstr "แหล่งที่มาของคำขอไม่อนุญาต"
+
+#: inc/api/consent-logs.php:448
+msgid "Consent logs retrieved successfully."
+msgstr "ดึงบันทึกความยินยอมสำเร็จ"
+
+#: inc/api/consent-logs.php:490
+msgid "Consent processed successfully (logging disabled)"
+msgstr "ประมวลผลความยินยอมสำเร็จ (ปิดการบันทึก)"
+
+#: inc/api/consent-logs.php:376
+#: inc/api/consent-logs.php:515
+msgid "Too many requests. Please try again later."
+msgstr "คำขอมากเกินไป กรุณาลองใหม่ภายหลัง"
+
+#: inc/api/consent-logs.php:535
+msgid "Preferences should not be empty."
+msgstr "ค่ากำหนดไม่ควรว่างเปล่า"
+
+#: inc/api/consent-logs.php:544
+msgid "Preferences data is too large."
+msgstr "ข้อมูลค่ากำหนดมีขนาดใหญ่เกินไป"
+
+#: inc/api/consent-logs.php:555
+#: inc/api/consent-logs.php:566
+msgid "Invalid preferences format."
+msgstr "รูปแบบค่ากำหนดไม่ถูกต้อง"
+
+#: inc/api/consent-logs.php:575
+msgid "Session ID is required."
+msgstr "ต้องระบุรหัสเซสชัน"
+
+#: inc/api/consent-logs.php:614
+msgid "Accept All is not enabled for this site."
+msgstr "ไม่ได้เปิดใช้งาน Accept All สำหรับไซต์นี้"
+
+#: inc/api/consent-logs.php:641
+msgid "Consent saved successfully."
+msgstr "บันทึกความยินยอมสำเร็จ"
+
+#: inc/api/consent-logs.php:651
+msgid "Failed to save consent."
+msgstr "บันทึกความยินยอมล้มเหลว"
+
+#: inc/api/consent-logs.php:669
+#: inc/api/consent-logs.php:801
+msgid "Invalid log ID"
+msgstr "รหัสบันทึกไม่ถูกต้อง"
+
+#: inc/api/consent-logs.php:681
+msgid "Log not found."
+msgstr "ไม่พบบันทึก"
+
+#: inc/api/consent-logs.php:717
+#: inc/api/consent-logs.php:744
+msgid "Log details retrieved successfully."
+msgstr "ดึงรายละเอียดบันทึกสำเร็จ"
+
+#: inc/api/consent-logs.php:766
+msgid "Invalid log IDs"
+msgstr "รหัสบันทึกไม่ถูกต้อง"
+
+#: inc/api/consent-logs.php:777
+#: inc/api/consent-logs.php:872
+msgid "Failed to delete logs."
+msgstr "ลบบันทึกไม่สำเร็จ"
+
+#. translators: %d: number of logs deleted
+#: inc/api/consent-logs.php:787
+#, php-format
+msgid "%d log(s) deleted successfully."
+msgstr "%d บันทึกถูกลบเรียบร้อยแล้ว"
+
+#: inc/api/consent-logs.php:812
+msgid "Log deleted successfully."
+msgstr "ลบบันทึกสำเร็จ"
+
+#: inc/api/consent-logs.php:821
+msgid "Failed to delete log."
+msgstr "ลบบันทึกไม่สำเร็จ"
+
+#: inc/api/consent-logs.php:863
+msgid "All logs deleted successfully."
+msgstr "ลบบันทึกทั้งหมดสำเร็จ"
+
+#: inc/api/cookie-categories.php:181
+msgid "Failed to create category: "
+msgstr "สร้างหมวดหมู่ไม่สำเร็จ:"
+
+#: inc/api/cookie-categories.php:204
+msgid "Failed to update category: "
+msgstr "อัปเดตหมวดหมู่ไม่สำเร็จ:"
+
+#: inc/api/cookie-categories.php:230
+msgid "Failed to delete category: "
+msgstr "ลบหมวดหมู่ไม่สำเร็จ:"
+
+#: inc/api/cookies.php:302
+msgid "Failed to create custom cookie: "
+msgstr "สร้างคุกกี้แบบกำหนดเองไม่สำเร็จ:"
+
+#: inc/api/cookies.php:324
+msgid "Failed to update custom cookie: "
+msgstr "อัปเดตคุกกี้แบบกำหนดเองไม่สำเร็จ:"
+
+#: inc/api/cookies.php:345
+msgid "Failed to delete custom cookie: "
+msgstr "ลบคุกกี้แบบกำหนดเองไม่สำเร็จ:"
+
+#: inc/api/cookies.php:372
+msgid "Failed to update cookie category: "
+msgstr "อัปเดตหมวดหมู่คุกกี้ไม่สำเร็จ:"
+
+#: inc/api/onboarding.php:134
+msgid "Onboarding data saved successfully."
+msgstr "บันทึกข้อมูลการเริ่มต้นใช้งานสำเร็จ"
+
+#: inc/api/onboarding.php:152
+msgid "Onboarding is already marked as complete."
+msgstr "การเริ่มต้นใช้งานถูกทำเครื่องหมายว่าเสร็จสมบูรณ์แล้ว"
+
+#: inc/api/onboarding.php:162
+msgid "Onboarding marked as complete."
+msgstr "ทำเครื่องหมายการเริ่มต้นใช้งานว่าเสร็จสมบูรณ์"
+
+#: inc/api/plugin.php:121
+msgid "Promotional plugins data retrieved."
+msgstr "ดึงข้อมูลปลั๊กอินส่งเสริมการขายสำเร็จ"
+
+#: inc/api/plugin.php:154
+msgid "You don't have permission to activate plugins."
+msgstr "คุณไม่มีสิทธิ์เปิดใช้งานปลั๊กอิน"
+
+#: inc/api/plugin.php:158
+#: inc/api/plugin.php:191
+msgid "Plugin not found."
+msgstr "ไม่พบปลั๊กอิน"
+
+#: inc/api/plugin.php:172
+#: build/admin.js:2
+msgid "Plugin activated successfully."
+msgstr "เปิดใช้งานปลั๊กอินสำเร็จ"
+
+#: inc/api/plugin.php:187
+msgid "You don't have permission to deactivate plugins."
+msgstr "คุณไม่มีสิทธิ์ปิดใช้งานปลั๊กอิน"
+
+#: inc/api/plugin.php:203
+msgid "Plugin is already inactive."
+msgstr "ปลั๊กอินถูกปิดใช้งานอยู่แล้ว"
+
+#: inc/api/plugin.php:228
+#: build/admin.js:75
+msgid "Plugin deactivated successfully."
+msgstr "ปิดใช้งานปลั๊กอินสำเร็จ"
+
+#: inc/api/plugin.php:290
+msgid "Conflicting plugins retrieved."
+msgstr "ดึงปลั๊กอินที่ขัดแย้งกันสำเร็จ"
+
+#: inc/api/posts.php:199
+msgid "Post not found."
+msgstr "ไม่พบโพสต์"
+
+#: inc/api/scan-history.php:61
+msgid "Scanned history retrieved successfully."
+msgstr "ดึงประวัติการสแกนสำเร็จ"
+
+#: inc/api/scanned-resources.php:78
+msgid "Scanned resources retrieved successfully."
+msgstr "ดึงทรัพยากรที่สแกนสำเร็จ"
+
+#: inc/api/settings.php:120
+msgid "No data found"
+msgstr "ไม่พบข้อมูล"
+
+#: inc/api/settings.php:144
+msgid "Settings updated"
+msgstr "อัปเดตการตั้งค่าแล้ว"
+
+#: inc/functions/get.php:118
+msgid "Essential Cookies"
+msgstr "คุกกี้ที่จำเป็น"
+
+#: inc/functions/get.php:119
+msgid "Required for basic website functionality."
+msgstr "จำเป็นสำหรับการทำงานพื้นฐานของเว็บไซต์"
+
+#: inc/functions/get.php:124
+msgid "Functional Cookies"
+msgstr "คุกกี้ที่ใช้งานได้"
+
+#: inc/functions/get.php:125
+msgid "Enable features like saved preferences and personalized content."
+msgstr "เปิดใช้งานฟีเจอร์เช่นการบันทึกค่าที่ตั้งไว้และเนื้อหาที่ปรับแต่ง"
+
+#: inc/functions/get.php:130
+msgid "Analytics Cookies"
+msgstr "คุกกี้วิเคราะห์"
+
+#: inc/functions/get.php:131
+msgid "Help us understand how visitors use our site so we can improve it."
+msgstr "ช่วยให้เราเข้าใจว่าผู้เยี่ยมชมใช้เว็บไซต์อย่างไรเพื่อปรับปรุงให้ดีขึ้น"
+
+#: inc/functions/get.php:136
+msgid "Marketing Cookies"
+msgstr "คุกกี้การตลาด"
+
+#: inc/functions/get.php:137
+msgid "Used to show you relevant ads based on your interests."
+msgstr "ใช้เพื่อแสดงโฆษณาที่เกี่ยวข้องกับความสนใจของคุณ"
+
+#: inc/functions/get.php:142
+msgid "Uncategorized Cookies"
+msgstr "คุกกี้ที่ไม่ได้จัดหมวดหมู่"
+
+#: inc/functions/get.php:143
+msgid "Cookies that haven't been categorized yet."
+msgstr "คุกกี้ที่ยังไม่ได้จัดหมวดหมู่"
+
+#: inc/integrations/wp-consent-api/actions.php:62
+msgid "days"
+msgstr "วัน"
+
+#: inc/integrations/wp-consent-api/actions.php:69
+msgid "Stores the user's cookie consent preferences."
+msgstr "เก็บค่าความยินยอมของผู้ใช้เกี่ยวกับคุกกี้"
+
+#: inc/integrations/wp-consent-api/actions.php:76
+msgid "1 year"
+msgstr "1 ปี"
+
+#: inc/integrations/wp-consent-api/actions.php:77
+msgid "Tracks consent log sessions for audit purposes."
+msgstr "ติดตามบันทึกความยินยอมสำหรับการตรวจสอบ"
+
+#: inc/modules/auth/api.php:71
+msgid "Authentication is already completed."
+msgstr "การตรวจสอบสิทธิ์เสร็จสมบูรณ์แล้ว"
+
+#: inc/modules/auth/controller.php:71
+msgid "Could not generate secure auth key."
+msgstr "ไม่สามารถสร้างคีย์ตรวจสอบสิทธิ์ที่ปลอดภัยได้"
+
+#: inc/modules/auth/controller.php:88
+msgid "Failed to encode the token data."
+msgstr "เข้ารหัสข้อมูลโทเค็นไม่สำเร็จ"
+
+#: inc/modules/auth/controller.php:179
+msgid "Invalid flow identifier."
+msgstr "รหัสโฟลว์ไม่ถูกต้อง"
+
+#: inc/modules/auth/controller.php:188
+msgid "Failed to decode the access key."
+msgstr "ถอดรหัสคีย์เข้าถึงไม่สำเร็จ"
+
+#: inc/modules/auth/controller.php:193
+msgid "Invalid data format."
+msgstr "รูปแบบข้อมูลไม่ถูกต้อง"
+
+#: inc/modules/auth/controller.php:207
+msgid "Failed to decrypt the access key."
+msgstr "ถอดรหัสคีย์เข้าถึงไม่สำเร็จ"
+
+#: inc/modules/auth/controller.php:213
+msgid "Failed to json decode the decrypted data."
+msgstr "ถอดรหัสข้อมูล JSON ไม่สำเร็จ"
+
+#: inc/modules/auth/controller.php:217
+msgid "No user email found in the decrypted data."
+msgstr "ไม่พบอีเมลผู้ใช้ในข้อมูลที่ถอดรหัส"
+
+#: inc/modules/cookie-policy/api.php:76
+#: build/admin.js:78
+msgid "Cookie Policy page already exists."
+msgstr "หน้านโยบายคุกกี้มีอยู่แล้ว"
+
+#: inc/modules/cookie-policy/api.php:90
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/admin.js:78
+#: build/public.js:1
+msgid "Cookie Policy"
+msgstr "นโยบายคุกกี้"
+
+#: inc/modules/cookie-policy/api.php:112
+msgid "Cookie Policy page created successfully."
+msgstr "สร้างหน้านโยบายคุกกี้สำเร็จ"
+
+#. translators: %s: site name.
+#: inc/modules/cookie-policy/api.php:182
+#, php-format
+msgid "This Cookie Policy explains how %s uses cookies and similar tracking technologies when you visit our website. It describes what these technologies are, why we use them, and your rights to control our use of them."
+msgstr "นโยบายคุกกี้นี้อธิบายว่า %s ใช้คุกกี้และเทคโนโลยีการติดตามที่คล้ายกันอย่างไรเมื่อคุณเยี่ยมชมเว็บไซต์ของเรา อธิบายว่าเทคโนโลยีเหล่านี้คืออะไร ทำไมเราถึงใช้ และสิทธิ์ของคุณในการควบคุมการใช้ของเรา"
+
+#: inc/modules/cookie-policy/api.php:191
+msgid "What Are Cookies"
+msgstr "คุกกี้คืออะไร"
+
+#: inc/modules/cookie-policy/api.php:195
+msgid "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, provide a better browsing experience, and supply information to the owners of the site. Cookies can be \"persistent\" or \"session\" cookies. Persistent cookies remain on your device for a set period or until you delete them, while session cookies are deleted as soon as you close your web browser."
+msgstr "คุกกี้คือไฟล์ข้อความขนาดเล็กที่ถูกเก็บไว้ในคอมพิวเตอร์หรืออุปกรณ์เคลื่อนที่ของคุณเมื่อคุณเยี่ยมชมเว็บไซต์ พวกมันถูกใช้กันอย่างแพร่หลายเพื่อทำให้เว็บไซต์ทำงานได้อย่างมีประสิทธิภาพมากขึ้น ให้ประสบการณ์การท่องเว็บที่ดีขึ้น และให้ข้อมูลแก่เจ้าของเว็บไซต์ คุกกี้สามารถเป็นแบบ \"ถาวร\" หรือ \"เซสชัน\" คุกกี้ถาวรจะอยู่ในอุปกรณ์ของคุณเป็นระยะเวลาที่กำหนดหรือจนกว่าคุณจะลบออก ในขณะที่คุกกี้เซสชันจะถูกลบทันทีที่คุณปิดเว็บเบราว์เซอร์"
+
+#: inc/modules/cookie-policy/api.php:199
+msgid "In addition to cookies, we may also use similar technologies such as pixel tags, web beacons, and local storage to collect and store information. These technologies work in a similar way to cookies and allow us to monitor and improve our website and your experience of it."
+msgstr "นอกเหนือจากคุกกี้แล้ว เรายังอาจใช้เทคโนโลยีที่คล้ายกัน เช่น พิกเซลแท็ก เว็บบีคอน และที่เก็บข้อมูลภายในเครื่อง เพื่อเก็บรวบรวมและจัดเก็บข้อมูล เทคโนโลยีเหล่านี้ทำงานในลักษณะคล้ายกับคุกกี้และช่วยให้เราติดตามและปรับปรุงเว็บไซต์ของเราและประสบการณ์ของคุณในการใช้งาน"
+
+#: inc/modules/cookie-policy/api.php:206
+msgid "Types of Cookies We Use"
+msgstr "ประเภทของคุกกี้ที่เราใช้"
+
+#: inc/modules/cookie-policy/api.php:210
+msgid "We use different types of cookies for various reasons. The table below provides detailed information about the cookies we use, organized by category, including the name of each cookie, its purpose, duration, and the domain it belongs to. Some cookies are essential for the website to function properly, while others help us understand how visitors interact with our site, remember your preferences, or deliver relevant advertising."
+msgstr "เราใช้คุกกี้หลายประเภทด้วยเหตุผลต่าง ๆ ตารางด้านล่างให้ข้อมูลรายละเอียดเกี่ยวกับคุกกี้ที่เราใช้ จัดเรียงตามหมวดหมู่ รวมถึงชื่อของคุกกี้แต่ละตัว วัตถุประสงค์ ระยะเวลา และโดเมนที่คุกกี้นั้นเป็นของ คุกกี้บางตัวจำเป็นสำหรับการทำงานที่ถูกต้องของเว็บไซต์ ในขณะที่คุกกี้อื่น ๆ ช่วยให้เราเข้าใจว่าผู้เยี่ยมชมโต้ตอบกับเว็บไซต์ของเราอย่างไร จำค่าการตั้งค่าของคุณ หรือแสดงโฆษณาที่เกี่ยวข้อง"
+
+#: inc/modules/cookie-policy/api.php:220
+msgid "How to Manage Your Cookie Preferences"
+msgstr "วิธีจัดการการตั้งค่าคุกกี้ของคุณ"
+
+#: inc/modules/cookie-policy/api.php:224
+msgid "When you first visit our website, you will be shown a cookie consent banner that allows you to accept or decline non-essential cookies. You can change your preferences at any time by clicking the cookie preferences option available on our website. Essential cookies cannot be disabled as they are necessary for the basic functioning of the website."
+msgstr "เมื่อคุณเยี่ยมชมเว็บไซต์ของเราเป็นครั้งแรก คุณจะเห็นแบนเนอร์ขอความยินยอมคุกกี้ที่ให้คุณยอมรับหรือปฏิเสธคุกกี้ที่ไม่จำเป็น คุณสามารถเปลี่ยนการตั้งค่าของคุณได้ตลอดเวลาผ่านตัวเลือกการตั้งค่าคุกกี้ที่มีบนเว็บไซต์ของเรา คุกกี้ที่จำเป็นไม่สามารถปิดใช้งานได้เนื่องจากจำเป็นสำหรับการทำงานพื้นฐานของเว็บไซต์"
+
+#: inc/modules/cookie-policy/api.php:228
+msgid "Please note that restricting cookies may impact your experience of the website, as some features and services may not function properly without certain cookies enabled."
+msgstr "โปรดทราบว่าการจำกัดคุกกี้อาจส่งผลต่อประสบการณ์ของคุณในการใช้งานเว็บไซต์ เนื่องจากฟีเจอร์และบริการบางอย่างอาจไม่ทำงานอย่างถูกต้องหากไม่มีการเปิดใช้งานคุกกี้บางตัว"
+
+#: inc/modules/cookie-policy/api.php:235
+msgid "How to Control Cookies in Your Browser"
+msgstr "วิธีควบคุมคุกกี้ในเบราว์เซอร์ของคุณ"
+
+#: inc/modules/cookie-policy/api.php:239
+msgid "Most web browsers allow you to manage your cookie preferences through their settings. You can set your browser to refuse cookies, delete existing cookies, or alert you when a cookie is being set. The steps to manage cookies vary by browser. Below are general instructions for the most common browsers."
+msgstr "เบราว์เซอร์ส่วนใหญ่อนุญาตให้คุณจัดการการตั้งค่าคุกกี้ผ่านการตั้งค่า คุณสามารถตั้งค่าเบราว์เซอร์ให้ปฏิเสธคุกกี้ ลบคุกกี้ที่มีอยู่ หรือแจ้งเตือนเมื่อมีการตั้งค่าคุกกี้ ขั้นตอนการจัดการคุกกี้จะแตกต่างกันไปตามเบราว์เซอร์ ด้านล่างนี้เป็นคำแนะนำทั่วไปสำหรับเบราว์เซอร์ที่ใช้กันมากที่สุด"
+
+#: inc/modules/cookie-policy/api.php:243
+msgid "Google Chrome: Open Settings, go to Privacy and Security, then click on Cookies and other site data. From there, you can block third-party cookies, clear cookies when you close the browser, or block all cookies."
+msgstr "Google Chrome: เปิดการตั้งค่า ไปที่ ความเป็นส่วนตัวและความปลอดภัย แล้วคลิกที่ คุกกี้และข้อมูลไซต์อื่น ๆ จากนั้นคุณสามารถบล็อกคุกกี้ของบุคคลที่สาม ลบคุกกี้เมื่อปิดเบราว์เซอร์ หรือบล็อกคุกกี้ทั้งหมดได้"
+
+#: inc/modules/cookie-policy/api.php:247
+msgid "Mozilla Firefox: Open Settings, go to Privacy and Security, and under Cookies and Site Data you can manage how Firefox handles cookies including clearing data and managing exceptions."
+msgstr "Mozilla Firefox: เปิดการตั้งค่า ไปที่ ความเป็นส่วนตัวและความปลอดภัย และภายใต้ คุกกี้และข้อมูลไซต์ คุณสามารถจัดการวิธีที่ Firefox จัดการคุกกี้ รวมถึงการลบข้อมูลและจัดการข้อยกเว้น"
+
+#: inc/modules/cookie-policy/api.php:251
+msgid "Safari: Open Preferences, go to the Privacy tab, and configure your cookie blocking preferences. Safari also offers an option to prevent cross-site tracking."
+msgstr "Safari: เปิดการตั้งค่า ไปที่แท็บความเป็นส่วนตัว และกำหนดค่าการบล็อกคุกกี้ของคุณ Safari ยังมีตัวเลือกเพื่อป้องกันการติดตามข้ามไซต์ด้วย"
+
+#: inc/modules/cookie-policy/api.php:255
+msgid "Microsoft Edge: Open Settings, go to Privacy, Search, and Services. Under the Cookies section, you can choose to block third-party cookies or all cookies and manage cookie exceptions."
+msgstr "Microsoft Edge: เปิดการตั้งค่า ไปที่ ความเป็นส่วนตัว การค้นหา และบริการ ในส่วนคุกกี้ คุณสามารถเลือกบล็อกคุกกี้ของบุคคลที่สามหรือคุกกี้ทั้งหมด และจัดการข้อยกเว้นคุกกี้ได้"
+
+#: inc/modules/cookie-policy/api.php:262
+msgid "Consequences of Disabling Cookies"
+msgstr "ผลที่ตามมาของการปิดใช้งานคุกกี้"
+
+#: inc/modules/cookie-policy/api.php:266
+msgid "If you choose to disable or decline cookies, some parts of this website may not function as intended. For example, you may not be able to log in, your preferences may not be saved between visits, and certain interactive features may be limited. Disabling essential cookies may make it impossible to use some or all of the services provided through this website."
+msgstr "หากคุณเลือกที่จะปิดใช้งานหรือปฏิเสธคุกกี้ บางส่วนของเว็บไซต์นี้อาจไม่ทำงานตามที่ตั้งใจไว้ ตัวอย่างเช่น คุณอาจไม่สามารถเข้าสู่ระบบได้ การตั้งค่าของคุณอาจไม่ถูกบันทึกระหว่างการเยี่ยมชม และฟีเจอร์โต้ตอบบางอย่างอาจถูกจำกัด การปิดใช้งานคุกกี้ที่จำเป็นอาจทำให้ไม่สามารถใช้บริการบางส่วนหรือทั้งหมดที่เว็บไซต์นี้ให้บริการได้"
+
+#: inc/modules/cookie-policy/api.php:270
+msgid "Disabling analytics or marketing cookies will not affect the core functionality of the website, but it may limit our ability to improve the website based on user behavior or to provide you with personalized content and advertisements."
+msgstr "การปิดใช้งานคุกกี้วิเคราะห์หรือการตลาดจะไม่ส่งผลต่อฟังก์ชันหลักของเว็บไซต์ แต่จะจำกัดความสามารถของเราในการปรับปรุงเว็บไซต์ตามพฤติกรรมผู้ใช้ หรือในการให้เนื้อหาและโฆษณาที่ปรับแต่งเฉพาะตัวแก่คุณ"
+
+#: inc/modules/cookie-policy/api.php:277
+msgid "Changes to This Cookie Policy"
+msgstr "การเปลี่ยนแปลงนโยบายคุกกี้นี้"
+
+#: inc/modules/cookie-policy/api.php:281
+msgid "We may update this Cookie Policy from time to time to reflect changes in technology, legislation, our business operations, or any other reason we determine is necessary or appropriate. Any changes will be posted on this page with an updated revision date. We encourage you to review this Cookie Policy periodically to stay informed about how we are using cookies."
+msgstr "เราอาจอัปเดตนโยบายคุกกี้นี้เป็นครั้งคราวเพื่อสะท้อนการเปลี่ยนแปลงทางเทคโนโลยี กฎหมาย การดำเนินธุรกิจของเรา หรือเหตุผลอื่นใดที่เราพิจารณาว่าจำเป็นหรือเหมาะสม การเปลี่ยนแปลงใด ๆ จะถูกโพสต์บนหน้านี้พร้อมวันที่แก้ไขล่าสุด เราขอแนะนำให้คุณตรวจสอบนโยบายคุกกี้นี้เป็นระยะเพื่อรับทราบวิธีที่เราใช้คุกกี้"
+
+#: inc/modules/cookie-policy/api.php:288
+msgid "Contact Us"
+msgstr "ติดต่อเรา"
+
+#: inc/modules/cookie-policy/api.php:292
+msgid "If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at:"
+msgstr "หากคุณมีคำถามหรือข้อกังวลเกี่ยวกับนโยบายคุกกี้นี้หรือการใช้คุกกี้ของเรา กรุณาติดต่อเราที่:"
+
+#: inc/modules/cookie-policy/api.php:296
+msgid "[Your Company Name], [Your Address], [your-email@example.com]"
+msgstr "[ชื่อบริษัทของคุณ], [ที่อยู่ของคุณ], [your-email@example.com]"
+
+#: inc/modules/cookie-policy/shortcode.php:143
+#: inc/modules/cookie-policy/shortcode.php:144
+msgid "Table of Contents"
+msgstr "สารบัญ"
+
+#: inc/modules/cookie-policy/shortcode.php:203
+#: build/admin.js:25
+msgid "Cookie Name"
+msgstr "ชื่อคุกกี้"
+
+#: inc/modules/cookie-policy/shortcode.php:204
+#: build/admin.js:25
+msgid "Purpose"
+msgstr "วัตถุประสงค์"
+
+#: inc/modules/cookie-policy/shortcode.php:205
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Duration"
+msgstr "ระยะเวลา"
+
+#: inc/modules/cookie-policy/shortcode.php:206
+#: build/admin.js:25
+msgid "Domain"
+msgstr "โดเมน"
+
+#. translators: %s: formatted date string.
+#: inc/modules/cookie-policy/shortcode.php:270
+#, php-format
+msgid "Last updated: %s"
+msgstr "อัปเดตล่าสุด: %s"
+
+#: inc/modules/cookie-policy/shortcode.php:356
+msgid "This website"
+msgstr "เว็บไซต์นี้"
+
+#: inc/modules/google-consent-mode/consent-handler.php:130
+msgid "SureCookie:"
+msgstr "SureCookie:"
+
+#: inc/modules/google-consent-mode/consent-handler.php:132
+msgid "Google Site Kit's Consent Mode is active. Please disable it in Site Kit settings to use SureCookie's implementation."
+msgstr "โหมดยินยอมของ Google Site Kit กำลังทำงาน กรุณาปิดใช้งานในการตั้งค่า Site Kit เพื่อใช้การทำงานของ SureCookie"
+
+#: inc/modules/nudges/api.php:70
+msgid "Invalid type provided."
+msgstr "ประเภทที่ให้มาไม่ถูกต้อง"
+
+#: inc/modules/nudges/api.php:94
+msgid "Could not disable the nudge. Please try again."
+msgstr "ไม่สามารถปิดการแจ้งเตือนได้ กรุณาลองใหม่อีกครั้ง"
+
+#. translators: %s: nudge type
+#: inc/modules/nudges/api.php:100
+#, php-format
+msgid "\"%s\" has been disabled."
+msgstr "\"%s\" ถูกปิดใช้งานแล้ว"
+
+#. translators: %s: Service name (e.g., YouTube, Vimeo, Bunny.net).
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:302
+#: inc/modules/script-blocking/blocker.php:1283
+#, php-format
+msgid "This content is blocked because it requires %s cookies."
+msgstr "เนื้อหานี้ถูกบล็อกเนื่องจากต้องการคุกกี้ %s"
+
+#: inc/integrations/presto-player/block-handler.php:240
+#: inc/modules/script-blocking/blocker.php:1298
+msgid "Accept & Load"
+msgstr "ยอมรับและโหลด"
+
+#: inc/modules/site-scanner/api.php:220
+msgid "Scan cancelled successfully."
+msgstr "ยกเลิกการสแกนสำเร็จแล้ว"
+
+#: inc/modules/site-scanner/api.php:226
+msgid "No active scan to cancel."
+msgstr "ไม่มีการสแกนที่กำลังทำงานเพื่อยกเลิก"
+
+#: inc/modules/site-scanner/api.php:257
+#: inc/modules/site-scanner/saas-client.php:400
+msgid "A scan is already in progress. Please wait for it to complete."
+msgstr "กำลังดำเนินการสแกนอยู่ กรุณารอจนกว่าจะเสร็จสิ้น"
+
+#: inc/modules/site-scanner/api.php:273
+#: inc/modules/site-scanner/cron.php:76
+#: inc/modules/site-scanner/saas-client.php:407
+msgid "No pages selected for scanning."
+msgstr "ไม่ได้เลือกหน้าสำหรับการสแกน."
+
+#: inc/modules/site-scanner/api.php:288
+msgid "Failed to start scan."
+msgstr "ไม่สามารถเริ่มการสแกนได้."
+
+#: inc/modules/site-scanner/api.php:299
+msgid "Cookie scan has been initiated."
+msgstr "การสแกนคุกกี้ได้เริ่มต้นแล้ว."
+
+#: inc/modules/site-scanner/api.php:300
+msgid "The scan is running. You will be notified when it completes."
+msgstr "การสแกนกำลังดำเนินอยู่ คุณจะได้รับแจ้งเมื่อเสร็จสิ้น."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/api.php:312
+#, php-format
+msgid "Failed to start site scanner: %s"
+msgstr "ไม่สามารถเริ่มตัวสแกนไซต์ได้: %s"
+
+#: inc/modules/site-scanner/cron.php:70
+msgid "Starting site scan (triggered by user)."
+msgstr "เริ่มการสแกนไซต์ (โดยผู้ใช้เป็นตัวกระตุ้น)."
+
+#. translators: %s: Plan name
+#: inc/modules/site-scanner/cron.php:92
+#, php-format
+msgid "Plan: %s."
+msgstr "แผน: %s."
+
+#. translators: %d: Number of pages
+#: inc/modules/site-scanner/cron.php:93
+#, php-format
+msgid "Pages selected: %d."
+msgstr "เลือกหน้า: %d."
+
+#: inc/modules/site-scanner/cron.php:95
+msgid "Sending scan request…"
+msgstr "กำลังส่งคำขอสแกน…"
+
+#: inc/modules/site-scanner/cron.php:101
+msgid "Scan already in progress. Skipping."
+msgstr "การสแกนกำลังดำเนินอยู่ ข้ามไป."
+
+#: inc/modules/site-scanner/cron.php:114
+msgid "Scan started successfully."
+msgstr "เริ่มการสแกนสำเร็จ."
+
+#. translators: %s: Group ID
+#: inc/modules/site-scanner/cron.php:115
+#, php-format
+msgid "Group ID: %s"
+msgstr "รหัสกลุ่ม: %s"
+
+#: inc/modules/site-scanner/cron.php:117
+msgid "Checking scan progress…"
+msgstr "กำลังตรวจสอบความคืบหน้าการสแกน…"
+
+#: inc/modules/site-scanner/cron.php:122
+msgid "Scan failed."
+msgstr "การสแกนล้มเหลว."
+
+#: inc/modules/site-scanner/cron.php:166
+msgid "No active scan."
+msgstr "ไม่มีการสแกนที่ใช้งานอยู่."
+
+#: inc/modules/site-scanner/cron.php:186
+msgid "Scan in progress..."
+msgstr "กำลังสแกน..."
+
+#: inc/modules/site-scanner/cron.php:224
+msgid "Scan cancelled by user."
+msgstr "การสแกนถูกยกเลิกโดยผู้ใช้."
+
+#: inc/modules/site-scanner/saas-client.php:281
+msgid "Every 1 Minute (SureCookie Polling)"
+msgstr "ทุก 1 นาที (การตรวจสอบ SureCookie)"
+
+#: inc/modules/site-scanner/saas-client.php:391
+msgid "Cookie scanning is not available for localhost or development sites. Please use a live domain."
+msgstr "ไม่สามารถสแกนคุกกี้สำหรับ localhost หรือไซต์พัฒนาได้ กรุณาใช้โดเมนจริง."
+
+#: inc/modules/site-scanner/saas-client.php:422
+msgid "Could not generate a secure scan token. Please retry."
+msgstr "ไม่สามารถสร้างโทเค็นการสแกนที่ปลอดภัยได้ กรุณาลองใหม่อีกครั้ง."
+
+#: inc/modules/site-scanner/saas-client.php:448
+msgid "Failed to encode scan request."
+msgstr "ไม่สามารถเข้ารหัสคำขอสแกนได้."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/saas-client.php:493
+#, php-format
+msgid "Failed to start scan: %s"
+msgstr "ไม่สามารถเริ่มการสแกนได้: %s"
+
+#: inc/modules/site-scanner/saas-client.php:531
+msgid "Unknown error occurred."
+msgstr "เกิดข้อผิดพลาดที่ไม่ทราบ."
+
+#: inc/modules/site-scanner/saas-client.php:599
+msgid "Scan has been started. You will be notified when it completes."
+msgstr "การสแกนได้เริ่มต้นแล้ว คุณจะได้รับแจ้งเมื่อเสร็จสิ้น."
+
+#: inc/modules/site-scanner/saas-client.php:641
+msgid "Failed to check scan status."
+msgstr "ไม่สามารถตรวจสอบสถานะการสแกนได้."
+
+#: inc/modules/site-scanner/saas-client.php:778
+msgid "Failed to get scan group."
+msgstr "ไม่สามารถรับกลุ่มการสแกนได้."
+
+#: inc/modules/site-scanner/saas-client.php:906
+msgid "Scan timed out. Please try again."
+msgstr "การสแกนหมดเวลา กรุณาลองใหม่อีกครั้ง."
+
+#. translators: 1: completed pages count, 2: total pages count
+#: inc/modules/site-scanner/saas-client.php:944
+#, php-format
+msgid "Progress: %1$d of %2$d pages scanned."
+msgstr "ความคืบหน้า: สแกน %1$d จาก %2$d หน้า."
+
+#. translators: %d: number of failed pages
+#: inc/modules/site-scanner/saas-client.php:954
+#, php-format
+msgid "%d page(s) failed to scan."
+msgstr "%d หน้า(ๆ) สแกนไม่สำเร็จ."
+
+#: inc/modules/site-scanner/saas-client.php:977
+msgid "Scan completed!"
+msgstr "การสแกนเสร็จสมบูรณ์!"
+
+#: inc/modules/site-scanner/saas-client.php:996
+msgid "Scan failed on server."
+msgstr "การสแกนล้มเหลวที่เซิร์ฟเวอร์."
+
+#: inc/modules/site-scanner/saas-client.php:1002
+msgid "Scan is in progress. Checking again…"
+msgstr "การสแกนกำลังดำเนินอยู่ กำลังตรวจสอบอีกครั้ง…"
+
+#: inc/modules/site-scanner/saas-client.php:1043
+msgid "Quota is not available on localhost or development sites."
+msgstr "โควต้าไม่สามารถใช้ได้บน localhost หรือไซต์พัฒนา."
+
+#: inc/modules/site-scanner/saas-client.php:1056
+msgid "Scanner credentials are not yet issued. Run your first scan to register."
+msgstr "ยังไม่ได้ออกข้อมูลรับรองตัวสแกน เริ่มการสแกนครั้งแรกเพื่อสมัคร."
+
+#: inc/modules/site-scanner/saas-client.php:1102
+msgid "Unexpected response from server."
+msgstr "ได้รับการตอบกลับที่ไม่คาดคิดจากเซิร์ฟเวอร์."
+
+#: inc/modules/site-scanner/saas-client.php:1149
+msgid "Authentication required."
+msgstr "ต้องมีการตรวจสอบสิทธิ์."
+
+#: inc/modules/site-scanner/saas-client.php:1159
+msgid "Failed to fetch quota."
+msgstr "ไม่สามารถดึงโควต้าได้."
+
+#: inc/modules/site-scanner/saas-client.php:1476
+msgid "Another registration is already in progress. Please try again in a moment."
+msgstr "มีการลงทะเบียนอื่นกำลังดำเนินอยู่ กรุณาลองใหม่ในอีกสักครู่."
+
+#: inc/modules/site-scanner/saas-client.php:1506
+msgid "Could not determine site domain."
+msgstr "ไม่สามารถระบุโดเมนไซต์ได้."
+
+#: inc/modules/site-scanner/saas-client.php:1518
+msgid "Could not generate a secure registration nonce. Please retry."
+msgstr "ไม่สามารถสร้าง nonce การลงทะเบียนที่ปลอดภัยได้ กรุณาลองใหม่อีกครั้ง."
+
+#: inc/modules/site-scanner/saas-client.php:1546
+msgid "Failed to encode registration request."
+msgstr "ไม่สามารถเข้ารหัสคำขอลงทะเบียนได้."
+
+#. translators: %s: error message from the network call
+#: inc/modules/site-scanner/saas-client.php:1568
+#, php-format
+msgid "Could not reach the SureCookie service: %s"
+msgstr "ไม่สามารถติดต่อบริการ SureCookie ได้: %s"
+
+#: inc/modules/site-scanner/saas-client.php:1582
+msgid "Registration could not be initiated."
+msgstr "ไม่สามารถเริ่มการลงทะเบียนได้."
+
+#: inc/modules/site-scanner/saas-client.php:1597
+msgid "Received an invalid verification token. Please retry."
+msgstr "ได้รับโทเค็นการยืนยันที่ไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง."
+
+#: inc/modules/site-scanner/saas-client.php:1615
+msgid "Failed to encode verification completion."
+msgstr "ไม่สามารถเข้ารหัสการเสร็จสิ้นการยืนยันได้."
+
+#: inc/modules/site-scanner/saas-client.php:1899
+msgid "Failed to fetch results."
+msgstr "ไม่สามารถดึงผลลัพธ์ได้."
+
+#: inc/services/cookie-category-service.php:54
+msgid "Cookie categories retrieved successfully."
+msgstr "ดึงหมวดหมู่คุกกี้สำเร็จ."
+
+#: inc/services/cookie-category-service.php:75
+msgid "Category name is required."
+msgstr "ต้องระบุชื่อหมวดหมู่."
+
+#: inc/services/cookie-category-service.php:86
+msgid "A category with this name already exists."
+msgstr "มีหมวดหมู่ที่มีชื่อนี้อยู่แล้ว."
+
+#: inc/services/cookie-category-service.php:103
+msgid "Category created successfully."
+msgstr "สร้างหมวดหมู่สำเร็จ."
+
+#: inc/services/cookie-category-service.php:124
+#: inc/services/cookie-category-service.php:196
+msgid "Category ID is required."
+msgstr "ต้องระบุรหัสหมวดหมู่."
+
+#: inc/services/cookie-category-service.php:134
+#: inc/services/cookie-category-service.php:215
+msgid "Category not found."
+msgstr "ไม่พบหมวดหมู่."
+
+#: inc/services/cookie-category-service.php:166
+msgid "Category updated successfully."
+msgstr "อัปเดตหมวดหมู่สำเร็จ."
+
+#: inc/services/cookie-category-service.php:205
+msgid "Default categories cannot be deleted."
+msgstr "ไม่สามารถลบหมวดหมู่เริ่มต้นได้."
+
+#: inc/services/cookie-category-service.php:307
+msgid "Category deleted successfully."
+msgstr "ลบหมวดหมู่สำเร็จ."
+
+#: inc/services/cookie-service.php:60
+#: inc/services/cookie-service.php:355
+msgid "No scanned cookies found."
+msgstr "ไม่พบคุกกี้ที่สแกน."
+
+#: inc/services/cookie-service.php:84
+msgid "Scanned cookies retrieved successfully."
+msgstr "ดึงคุกกี้ที่สแกนสำเร็จ."
+
+#: inc/services/cookie-service.php:101
+msgid "Custom cookies retrieved successfully."
+msgstr "ดึงคุกกี้ที่กำหนดเองสำเร็จ."
+
+#: inc/services/cookie-service.php:132
+#: inc/services/cookie-service.php:323
+msgid "Cookie name is required."
+msgstr "ต้องระบุชื่อคุกกี้"
+
+#: inc/services/cookie-service.php:139
+msgid "Cookie category is required."
+msgstr "ต้องระบุหมวดหมู่คุกกี้"
+
+#: inc/services/cookie-service.php:154
+msgid "A cookie with this name already exists."
+msgstr "มีคุกกี้ที่มีชื่อนี้อยู่แล้ว"
+
+#: inc/services/cookie-service.php:191
+msgid "Custom cookie created successfully."
+msgstr "สร้างคุกกี้แบบกำหนดเองสำเร็จ"
+
+#: inc/services/cookie-service.php:210
+#: inc/services/cookie-service.php:280
+msgid "Cookie ID is required."
+msgstr "ต้องระบุรหัสคุกกี้"
+
+#: inc/services/cookie-service.php:219
+#: inc/services/cookie-service.php:289
+msgid "Cookie not found."
+msgstr "ไม่พบคุกกี้"
+
+#: inc/services/cookie-service.php:262
+msgid "Custom cookie updated successfully."
+msgstr "อัปเดตคุกกี้แบบกำหนดเองสำเร็จ"
+
+#: inc/services/cookie-service.php:299
+msgid "Custom cookie deleted successfully."
+msgstr "ลบคุกกี้แบบกำหนดเองสำเร็จ"
+
+#: inc/services/cookie-service.php:330
+msgid "Current category is required."
+msgstr "ต้องระบุหมวดหมู่ปัจจุบัน"
+
+#: inc/services/cookie-service.php:337
+#: inc/services/cookie-service.php:414
+msgid "New category is required."
+msgstr "ต้องระบุหมวดหมู่ใหม่"
+
+#: inc/services/cookie-service.php:345
+msgid "Cookie is already in the selected category."
+msgstr "คุกกี้อยู่ในหมวดหมู่ที่เลือกแล้ว"
+
+#: inc/services/cookie-service.php:363
+msgid "Current category not found in scanned cookies."
+msgstr "ไม่พบหมวดหมู่ปัจจุบันในคุกกี้ที่สแกน"
+
+#: inc/services/cookie-service.php:372
+msgid "Cookie not found in the specified category."
+msgstr "ไม่พบคุกกี้ในหมวดหมู่ที่ระบุ"
+
+#: inc/services/cookie-service.php:384
+msgid "Cookie category updated successfully."
+msgstr "อัปเดตหมวดหมู่คุกกี้สำเร็จ"
+
+#: inc/utils/options.php:48
+msgid "We use cookies to improve your experience and understand how you use our site. You can review your choices at any time."
+msgstr "เราใช้คุกกี้เพื่อปรับปรุงประสบการณ์ของคุณและเข้าใจวิธีที่คุณใช้เว็บไซต์ของเรา คุณสามารถตรวจสอบตัวเลือกของคุณได้ตลอดเวลา"
+
+#: inc/utils/options.php:62
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Only Essential"
+msgstr "เฉพาะสิ่งจำเป็น"
+
+#: inc/utils/options.php:71
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Accept All"
+msgstr "ยอมรับทั้งหมด"
+
+#: inc/utils/options.php:75
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Decline"
+msgstr "ปฏิเสธ"
+
+#: inc/utils/options.php:79
+msgid "Cookie Settings"
+msgstr "การตั้งค่าคุกกี้"
+
+#: inc/utils/options.php:142
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Preferences"
+msgstr "การตั้งค่าความชอบ"
+
+#: inc/utils/options.php:146
+msgid "Privacy Preference"
+msgstr "ความชอบด้านความเป็นส่วนตัว"
+
+#: inc/utils/options.php:150
+msgid "We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience."
+msgstr "เราใช้คุกกี้และเทคโนโลยีที่คล้ายกันเพื่อช่วยปรับเนื้อหาให้เหมาะสม ปรับแต่งและวัดผลโฆษณา และมอบประสบการณ์ที่ดียิ่งขึ้น"
+
+#: inc/utils/options.php:174
+#: build/admin.js:4
+#: build/admin.js:75
+msgid "Cookie Preferences"
+msgstr "การตั้งค่าคุกกี้"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Accepted"
+msgstr "ยอมรับแล้ว"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Partially Accepted"
+msgstr "ยอมรับบางส่วน"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Declined"
+msgstr "ปฏิเสธแล้ว"
+
+#: build/admin.js:1
+msgid "Failed to load consent logs"
+msgstr "ไม่สามารถโหลดบันทึกความยินยอมได้"
+
+#: build/admin.js:1
+msgid "Failed to load conflicting plugins"
+msgstr "ไม่สามารถโหลดปลั๊กอินที่ขัดแย้งกันได้"
+
+#: build/admin.js:1
+msgid "Failed to load cookie categories"
+msgstr "ไม่สามารถโหลดหมวดหมู่คุกกี้ได้"
+
+#: build/admin.js:1
+msgid "Scan cancelled."
+msgstr "ยกเลิกการสแกนแล้ว"
+
+#: build/admin.js:1
+msgid "Failed to cancel scan."
+msgstr "ไม่สามารถยกเลิกการสแกนได้"
+
+#: build/admin.js:1
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "Failed to load settings"
+msgstr "ไม่สามารถโหลดการตั้งค่าได้"
+
+#: build/admin.js:1
+msgid "Failed to save settings"
+msgstr "ไม่สามารถบันทึกการตั้งค่าได้"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "30 days"
+msgstr "30 วัน"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "60 days"
+msgstr "60 วัน"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "90 days"
+msgstr "90 วัน"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "365 days"
+msgstr "365 วัน"
+
+#: build/admin.js:1
+#: build/admin.js:3
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "Never"
+msgstr "ไม่เคย"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Cookie Scanner"
+msgstr "เครื่องสแกนคุกกี้"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "All Cookies"
+msgstr "คุกกี้ทั้งหมด"
+
+#: build/admin.js:2
+msgid "Banner"
+msgstr "แบนเนอร์"
+
+#: build/admin.js:2
+msgid "Content"
+msgstr "เนื้อหา"
+
+#: build/admin.js:2
+msgid "Layout"
+msgstr "เค้าโครง"
+
+#: build/admin.js:2
+#: build/admin.js:78
+msgid "Visibility"
+msgstr "การมองเห็น"
+
+#: build/admin.js:2
+#: build/admin.js:75
+msgid "Re-Consent"
+msgstr "ขอความยินยอมใหม่"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "Custom CSS"
+msgstr "CSS กำหนดเอง"
+
+#: build/admin.js:2
+msgid "Google Consent Mode"
+msgstr "โหมดความยินยอมของ Google"
+
+#: build/admin.js:2
+msgid "Additional Consent"
+msgstr "ความยินยอมเพิ่มเติม"
+
+#: build/admin.js:2
+#: build/admin.js:21
+msgid "Consent Logs"
+msgstr "บันทึกความยินยอม"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication timeout. Please try again."
+msgstr "หมดเวลาการตรวจสอบสิทธิ์ กรุณาลองใหม่อีกครั้ง"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful!"
+msgstr "ตรวจสอบสิทธิ์สำเร็จ!"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "An error occurred during authentication"
+msgstr "เกิดข้อผิดพลาดระหว่างการตรวจสอบสิทธิ์"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication cancelled. Please try again."
+msgstr "ยกเลิกการตรวจสอบสิทธิ์ กรุณาลองใหม่อีกครั้ง"
+
+#: inc/modules/assisted-scan/collector.php:329
+#: build/admin.js:2
+#: build/admin.js:3
+#: build/admin.js:28
+#: build/admin.js:41
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: build/admin.js:2
+#: build/admin.js:5
+#: build/admin.js:6
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Delete"
+msgstr "ลบ"
+
+#: build/admin.js:2
+#: build/admin.js:28
+#: build/admin.js:83
+msgid "Save"
+msgstr "บันทึก"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "No options available"
+msgstr "ไม่มีตัวเลือกให้ใช้งาน"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful"
+msgstr "ตรวจสอบสิทธิ์สำเร็จ"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication completed successfully. Closing tab in 3 seconds…"
+msgstr "ตรวจสอบสิทธิ์เสร็จสมบูรณ์ กำลังปิดแท็บใน 3 วินาที…"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication failed"
+msgstr "ตรวจสอบสิทธิ์ล้มเหลว"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Please return to the SureCookie dashboard and try again."
+msgstr "กรุณากลับไปที่แดชบอร์ด SureCookie และลองใหม่อีกครั้ง"
+
+#: build/admin.js:2
+#: build/onboarding.js:6
+msgid "Let's Get Started"
+msgstr "เริ่มต้นกันเลย"
+
+#: build/admin.js:2
+msgid "Automatic Cookie Detection"
+msgstr "การตรวจจับคุกกี้อัตโนมัติ"
+
+#: build/admin.js:2
+msgid "Smart Categorization"
+msgstr "การจัดหมวดหมู่อัจฉริยะ"
+
+#: build/admin.js:2
+msgid "Compliance Recommendations"
+msgstr "คำแนะนำการปฏิบัติตาม"
+
+#: build/admin.js:2
+msgid "Connect to scan your website"
+msgstr "เชื่อมต่อเพื่อตรวจสอบเว็บไซต์ของคุณ"
+
+#: build/admin.js:2
+msgid "Connect your SureCookie account to automatically detect cookies on your website, categorize them, and get compliance recommendations."
+msgstr "เชื่อมต่อบัญชี SureCookie ของคุณเพื่อตรวจจับคุกกี้บนเว็บไซต์ของคุณโดยอัตโนมัติ จัดหมวดหมู่ และรับคำแนะนำการปฏิบัติตาม"
+
+#: build/admin.js:2
+msgid "Learn more"
+msgstr "เรียนรู้เพิ่มเติม"
+
+#: build/admin.js:2
+msgid "Free Plan Limit Reached"
+msgstr "ถึงขีดจำกัดแผนฟรีแล้ว"
+
+#: build/admin.js:2
+#: build/admin.js:6
+#: build/admin.js:47
+#: build/admin.js:53
+#: build/admin.js:63
+#: build/admin.js:75
+#: build/onboarding.js:7
+msgid "Upgrade Now"
+msgstr "อัปเกรดตอนนี้"
+
+#: build/admin.js:2
+msgid "Unlock this feature"
+msgstr "ปลดล็อกฟีเจอร์นี้"
+
+#: build/admin.js:2
+msgid "WordPress updates API not available."
+msgstr "ไม่สามารถใช้งาน WordPress updates API ได้"
+
+#: build/admin.js:2
+msgid "Plugin activation failed."
+msgstr "การเปิดใช้งานปลั๊กอินล้มเหลว"
+
+#: build/admin.js:2
+msgid "Plugin installation failed."
+msgstr "การติดตั้งปลั๊กอินล้มเหลว"
+
+#: build/admin.js:2
+msgid "Plugin installed and activated successfully."
+msgstr "ติดตั้งและเปิดใช้งานปลั๊กอินสำเร็จ"
+
+#: build/admin.js:2
+msgid "Failed to install and activate plugin."
+msgstr "ไม่สามารถติดตั้งและเปิดใช้งานปลั๊กอินได้"
+
+#: build/admin.js:2
+msgid "Failed to activate plugin."
+msgstr "ไม่สามารถเปิดใช้งานปลั๊กอินได้"
+
+#: build/admin.js:2
+msgid "Install and Activate"
+msgstr "ติดตั้งและเปิดใช้งาน"
+
+#: build/admin.js:2
+msgid "Activate"
+msgstr "เปิดใช้งาน"
+
+#: build/admin.js:2
+msgid "Activated"
+msgstr "เปิดใช้งานแล้ว"
+
+#: build/admin.js:2
+msgid "Settings saved!"
+msgstr "บันทึกการตั้งค่าแล้ว!"
+
+#: build/admin.js:2
+msgid "Your settings have been successfully saved."
+msgstr "การตั้งค่าของคุณถูกบันทึกเรียบร้อยแล้ว"
+
+#: build/admin.js:2
+msgid "Save failed!"
+msgstr "บันทึกล้มเหลว!"
+
+#: build/admin.js:2
+msgid "There was an error saving your settings. Please try again."
+msgstr "เกิดข้อผิดพลาดในการบันทึกการตั้งค่า กรุณาลองใหม่อีกครั้ง"
+
+#: build/admin.js:2
+msgid "Saving…"
+msgstr "กำลังบันทึก…"
+
+#: build/admin.js:2
+msgid "Banner Content"
+msgstr "เนื้อหาแบนเนอร์"
+
+#: build/admin.js:2
+msgid "Configure the text content that appears in your cookie consent banner and preference modal"
+msgstr "กำหนดข้อความที่แสดงในแบนเนอร์การยินยอมคุกกี้และโมดอลการตั้งค่าความชอบ"
+
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "An error occurred while loading settings. Please refresh the page to try again."
+msgstr "เกิดข้อผิดพลาดขณะโหลดการตั้งค่า กรุณารีเฟรชหน้าเพื่อทดลองอีกครั้ง"
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner Switch"
+msgstr "เปิดใช้งานสวิตช์แบนเนอร์คุกกี้"
+
+#: build/admin.js:2
+msgid "Show cookie consent banner to comply with privacy regulations."
+msgstr "แสดงแบนเนอร์การยินยอมคุกกี้เพื่อปฏิบัติตามข้อบังคับความเป็นส่วนตัว"
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner"
+msgstr "เปิดใช้งานแบนเนอร์คุกกี้"
+
+#: build/admin.js:2
+msgid "Consent Banner"
+msgstr "แบนเนอร์การยินยอม"
+
+#: build/admin.js:2
+msgid "Preference Modal"
+msgstr "โมดอลการตั้งค่าความชอบ"
+
+#: build/admin.js:2
+msgid "Banner Heading"
+msgstr "หัวข้อแบนเนอร์"
+
+#: build/admin.js:2
+msgid "Cookie Notice (optional)"
+msgstr "ประกาศคุกกี้ (ไม่บังคับ)"
+
+#: build/admin.js:2
+msgid "Banner Message"
+msgstr "ข้อความแบนเนอร์"
+
+#: build/admin.js:2
+msgid "Enable Accept All Button"
+msgstr "เปิดใช้งานปุ่มยอมรับทั้งหมด"
+
+#: build/admin.js:2
+msgid "Show the \"Accept All\" button on the consent banner. When off, the button is removed from the banner and from the Button Order list."
+msgstr "แสดงปุ่ม \"ยอมรับทั้งหมด\" บนแบนเนอร์การยินยอม เมื่อปิด ปุ่มจะถูกลบออกจากแบนเนอร์และรายการลำดับปุ่ม"
+
+#: build/admin.js:2
+msgid "Preference Modal Title"
+msgstr "ชื่อโมดอลการตั้งค่าความชอบ"
+
+#: build/admin.js:2
+msgid "Preference Modal Description"
+msgstr "คำอธิบายโมดอลการตั้งค่าความชอบ"
+
+#: build/admin.js:2
+msgid "Preference modal description cannot be empty."
+msgstr "คำอธิบายโมดอลการตั้งค่าความชอบต้องไม่ว่างเปล่า"
+
+#: build/admin.js:2
+msgid "Banner message cannot be empty."
+msgstr "ข้อความแบนเนอร์ต้องไม่ว่างเปล่า"
+
+#: build/admin.js:2
+msgid "Button Order"
+msgstr "ลำดับปุ่ม"
+
+#: build/admin.js:2
+msgid "Drag and drop to reorder buttons. This order can be overridden per Geographic Targeting Rule."
+msgstr "ลากและวางเพื่อจัดลำดับปุ่มใหม่ ลำดับนี้สามารถถูกแทนที่ได้ตามกฎการกำหนดเป้าหมายทางภูมิศาสตร์"
+
+#: build/admin.js:2
+msgid "Banner Layout"
+msgstr "รูปแบบแบนเนอร์"
+
+#: build/admin.js:2
+msgid "Configure how and where your cookie banner appears on your website"
+msgstr "กำหนดวิธีและตำแหน่งที่แบนเนอร์คุกกี้ของคุณปรากฏบนเว็บไซต์"
+
+#: build/admin.js:2
+msgid "Upload Logo"
+msgstr "อัปโหลดโลโก้"
+
+#: build/admin.js:2
+msgid "Logo"
+msgstr "โลโก้"
+
+#: build/admin.js:2
+msgid "Select Logo"
+msgstr "เลือกโลโก้"
+
+#: build/admin.js:2
+msgid "Use this logo"
+msgstr "ใช้โลโก้นี้"
+
+#: build/admin.js:2
+msgid "Banner Type"
+msgstr "ประเภทแบนเนอร์"
+
+#: build/admin.js:2
+msgid "Floating Banner"
+msgstr "แบนเนอร์ลอย"
+
+#: build/admin.js:2
+msgid "Full-width Banner"
+msgstr "แบนเนอร์เต็มความกว้าง"
+
+#: build/admin.js:2
+msgid "Banner Width"
+msgstr "ความกว้างแบนเนอร์"
+
+#: build/admin.js:2
+msgid "px"
+msgstr "px"
+
+#: build/admin.js:2
+msgid "Position"
+msgstr "ตำแหน่ง"
+
+#: build/admin.js:2
+msgid "Bottom Left"
+msgstr "ล่างซ้าย"
+
+#: build/admin.js:2
+msgid "Bottom Center"
+msgstr "ล่างกลาง"
+
+#: build/admin.js:2
+msgid "Bottom Right"
+msgstr "ล่างขวา"
+
+#: build/admin.js:2
+msgid "Middle"
+msgstr "กลาง"
+
+#: build/admin.js:2
+msgid "Top"
+msgstr "บน"
+
+#: build/admin.js:2
+msgid "Bottom"
+msgstr "ล่าง"
+
+#: build/admin.js:2
+msgid "Banner Animation"
+msgstr "แอนิเมชันแบนเนอร์"
+
+#: build/admin.js:2
+msgid "Fade"
+msgstr "เลือนหาย"
+
+#: build/admin.js:2
+msgid "Slide"
+msgstr "เลื่อน"
+
+#: build/admin.js:2
+msgid "Color Palette: <span></span>"
+msgstr "ชุดสี: <span></span>"
+
+#: build/admin.js:2
+#: build/admin.js:4
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+#: build/admin.js:4
+msgid "Consent Details"
+msgstr "รายละเอียดการยินยอม"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Unknown"
+msgstr "ไม่ทราบ"
+
+#: build/admin.js:4
+msgid "No data available."
+msgstr "ไม่มีข้อมูล"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Actions"
+msgstr "การดำเนินการ"
+
+#: build/admin.js:4
+msgid "Consent logs"
+msgstr "บันทึกการยินยอม"
+
+#: build/admin.js:4
+msgid "Date & Time"
+msgstr "วันที่และเวลา"
+
+#: build/admin.js:4
+msgid "IP Address"
+msgstr "ที่อยู่ IP"
+
+#: build/admin.js:4
+msgid "Country"
+msgstr "ประเทศ"
+
+#: build/admin.js:4
+#: build/admin.js:76
+msgid "Status"
+msgstr "สถานะ"
+
+#: build/admin.js:4
+msgid "Download PDF"
+msgstr "ดาวน์โหลด PDF"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:5
+#, js-format
+msgid "Download PDF for consent log from %s"
+msgstr "ดาวน์โหลด PDF สำหรับบันทึกการยินยอมจาก %s"
+
+#: build/admin.js:4
+msgid "Session Summary"
+msgstr "สรุปเซสชัน"
+
+#: build/admin.js:4
+msgid "Field"
+msgstr "ฟิลด์"
+
+#: build/admin.js:4
+msgid "Value"
+msgstr "ค่า"
+
+#: build/admin.js:4
+msgid "Session ID"
+msgstr "รหัสเซสชัน"
+
+#: build/admin.js:4
+msgid "Total Records"
+msgstr "จำนวนระเบียนทั้งหมด"
+
+#: build/admin.js:4
+msgid "Date Range"
+msgstr "ช่วงวันที่"
+
+#: build/admin.js:4
+msgid "Consent Record"
+msgstr "บันทึกความยินยอม"
+
+#: build/admin.js:4
+msgid "Log ID"
+msgstr "รหัสบันทึก"
+
+#: build/admin.js:4
+msgid "Timestamp"
+msgstr "เวลาบันทึก"
+
+#: build/admin.js:4
+msgid "Consent Status"
+msgstr "สถานะความยินยอม"
+
+#: build/admin.js:4
+msgid "Consent Preset"
+msgstr "การตั้งค่าความยินยอมล่วงหน้า"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Category"
+msgstr "หมวดหมู่"
+
+#: build/admin.js:4
+msgid "Legal Information"
+msgstr "ข้อมูลทางกฎหมาย"
+
+#: build/admin.js:4
+msgid "Date of Generation"
+msgstr "วันที่สร้าง"
+
+#: build/admin.js:4
+msgid "Website"
+msgstr "เว็บไซต์"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:6
+#, js-format
+msgid "Delete consent log from %s"
+msgstr "ลบบันทึกความยินยอมจาก %s"
+
+#: build/admin.js:6
+msgid "Consent log is empty"
+msgstr "บันทึกความยินยอมว่างเปล่า"
+
+#: build/admin.js:6
+msgid "Your consent logs will be displayed here once users interact with the banner"
+msgstr "บันทึกความยินยอมของคุณจะแสดงที่นี่เมื่อผู้ใช้โต้ตอบกับแบนเนอร์"
+
+#: build/admin.js:6
+msgid "Consent Logging Disabled"
+msgstr "ปิดการบันทึกความยินยอม"
+
+#: build/admin.js:6
+msgid "Enable consent logging to view analytics data and recent consent logs."
+msgstr "เปิดใช้งานการบันทึกความยินยอมเพื่อดูข้อมูลวิเคราะห์และบันทึกความยินยอมล่าสุด"
+
+#: build/admin.js:3
+#: build/admin.js:6
+msgid "Enable Consent Logging"
+msgstr "เปิดใช้งานการบันทึกความยินยอม"
+
+#: build/admin.js:6
+msgid "<span></span> Selected"
+msgstr "<span></span> ที่เลือก"
+
+#: build/admin.js:6
+msgid "Deleting…"
+msgstr "กำลังลบ…"
+
+#: build/admin.js:6
+msgid "All Actions"
+msgstr "การดำเนินการทั้งหมด"
+
+#: build/admin.js:6
+msgid "All Countries"
+msgstr "ทุกประเทศ"
+
+#: build/admin.js:6
+msgid "IP address or Session ID…"
+msgstr "ที่อยู่ IP หรือรหัสเซสชัน…"
+
+#: build/admin.js:6
+msgid "Clear Filters"
+msgstr "ล้างตัวกรอง"
+
+#: build/admin.js:6
+msgid "View All Logs"
+msgstr "ดูบันทึกทั้งหมด"
+
+#: build/admin.js:6
+msgid "Consents"
+msgstr "ความยินยอม"
+
+#: build/admin.js:6
+msgid "No Consents Yet"
+msgstr "ยังไม่มีความยินยอม"
+
+#: build/admin.js:6
+msgid "Data will appear here once visitors interact with the cookie banner."
+msgstr "ข้อมูลจะแสดงที่นี่เมื่อผู้เยี่ยมชมโต้ตอบกับแบนเนอร์คุกกี้"
+
+#. translators: %s: log/logs
+#: build/admin.js:9
+#, js-format
+msgid "Failed to delete consent %s"
+msgstr "ลบความยินยอม %s ไม่สำเร็จ"
+
+#. translators: %s: log/logs
+#: build/admin.js:12
+#, js-format
+msgid "Successfully deleted consent %s"
+msgid_plural "logs"
+msgstr[0] "ลบความยินยอม %s สำเร็จ"
+
+#: build/admin.js:12
+msgid "Failed to delete consent log"
+msgstr "ลบบันทึกความยินยอมไม่สำเร็จ"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Delete Consent Log"
+msgstr "ลบบันทึกความยินยอม"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Are you sure you want to delete this consent log? This action cannot be undone."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบบันทึกความยินยอมนี้? การกระทำนี้ไม่สามารถย้อนกลับได้"
+
+#: build/admin.js:15
+msgid "Delete Selected Consent Logs"
+msgstr "ลบบันทึกความยินยอมที่เลือก"
+
+#. translators: %s: the log string pluralized.
+#: build/admin.js:18
+#, js-format
+msgid "Are you sure you want to delete the selected consent %s? This action cannot be undone."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบความยินยอม %s ที่เลือก? การกระทำนี้ไม่สามารถย้อนกลับได้"
+
+#: build/admin.js:21
+msgid "Failed to load countries"
+msgstr "โหลดประเทศไม่สำเร็จ"
+
+#: build/admin.js:21
+msgid "Page"
+msgstr "หน้า"
+
+#: build/admin.js:21
+msgid "of"
+msgstr "ของ"
+
+#: build/admin.js:21
+msgid "Consent Logs Pagination"
+msgstr "การแบ่งหน้าในบันทึกความยินยอม"
+
+#: build/admin.js:2
+msgid "Consent Duration (in days)"
+msgstr "ระยะเวลาความยินยอม (เป็นวัน)"
+
+#: build/admin.js:2
+msgid "Please enter a value between 1 and 365 days."
+msgstr "กรุณาใส่ค่าระหว่าง 1 ถึง 365 วัน"
+
+#: build/admin.js:2
+msgid "How long user consent remains valid before requiring renewal (1–365 days)."
+msgstr "ระยะเวลาที่ความยินยอมของผู้ใช้ยังคงมีผลก่อนต้องต่ออายุ (1–365 วัน)"
+
+#: build/admin.js:3
+msgid "Enable Consent Logging Switch"
+msgstr "สวิตช์เปิดใช้งานการบันทึกความยินยอม"
+
+#: build/admin.js:3
+msgid "Store consent records in database for compliance reporting and analytics."
+msgstr "เก็บบันทึกความยินยอมในฐานข้อมูลเพื่อรายงานการปฏิบัติตามและวิเคราะห์"
+
+#: build/admin.js:3
+msgid "Clear Logs After"
+msgstr "ล้างบันทึกหลังจาก"
+
+#: build/admin.js:3
+msgid "Select retention period"
+msgstr "เลือกช่วงเวลาการเก็บรักษา"
+
+#: build/admin.js:3
+msgid "Automatically delete consent logs older than the selected period."
+msgstr "ลบบันทึกความยินยอมที่เก่ากว่าระยะเวลาที่เลือกโดยอัตโนมัติ"
+
+#: build/admin.js:53
+msgid "SureCookie admin menu location toggle"
+msgstr "สวิตช์ตำแหน่งเมนูผู้ดูแลระบบ SureCookie"
+
+#: build/admin.js:53
+msgid "Hide SureCookie branding toggle"
+msgstr "สวิตช์ซ่อนแบรนด์ SureCookie"
+
+#: build/admin.js:53
+msgid "Hide SureCookie Branding"
+msgstr "ซ่อนแบรนด์ SureCookie"
+
+#: build/admin.js:53
+msgid "Remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "ลบข้อความ \"ขับเคลื่อนโดย SureCookie\" ออกจากแบนเนอร์ความยินยอมและโมดอลการตั้งค่า"
+
+#: build/admin.js:53
+msgid "to remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "เพื่อลบข้อความ \"ขับเคลื่อนโดย SureCookie\" ออกจากแบนเนอร์ความยินยอมและโมดอลการตั้งค่า"
+
+#: build/admin.js:3
+msgid "Delete data on uninstall toggle"
+msgstr "สวิตช์ลบข้อมูลเมื่อถอนการติดตั้ง"
+
+#: build/admin.js:3
+msgid "Delete Data on Uninstall"
+msgstr "ลบข้อมูลเมื่อถอนการติดตั้ง"
+
+#: build/admin.js:3
+msgid "When enabled, all plugin data including consent logs, settings, and scan results will be permanently deleted when you uninstall SureCookie. Leave disabled to preserve data for compliance records or future reinstallation."
+msgstr "เมื่อเปิดใช้งาน ข้อมูลปลั๊กอินทั้งหมดรวมถึงบันทึกความยินยอม การตั้งค่า และผลการสแกนจะถูกลบอย่างถาวรเมื่อคุณถอนการติดตั้ง SureCookie ปล่อยให้ปิดเพื่อเก็บข้อมูลไว้สำหรับบันทึกการปฏิบัติตามกฎระเบียบหรือการติดตั้งใหม่ในอนาคต"
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie toggle"
+msgstr "สลับการมีส่วนร่วมกับ SureCookie"
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie"
+msgstr "มีส่วนร่วมกับ SureCookie"
+
+#: build/admin.js:53
+msgid "Help shape the future of SureCookie. Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions."
+msgstr "ช่วยกำหนดอนาคตของ SureCookie แบ่งปันวิธีที่คุณใช้ปลั๊กอินเพื่อให้เราสร้างฟีเจอร์ที่สำคัญ แก้ไขปัญหาได้เร็วขึ้น และตัดสินใจได้อย่างชาญฉลาดยิ่งขึ้น"
+
+#: build/admin.js:53
+#: build/admin.js:84
+msgid "Learn More"
+msgstr "เรียนรู้เพิ่มเติม"
+
+#: build/admin.js:3
+msgid "Compliance Notice"
+msgstr "ประกาศการปฏิบัติตามกฎระเบียบ"
+
+#: build/admin.js:3
+msgid "Consent logs may be required to demonstrate proof of consent under GDPR Article 7(1). Consider exporting consent records before uninstalling."
+msgstr "บันทึกความยินยอมอาจจำเป็นเพื่อแสดงหลักฐานการยินยอมภายใต้ GDPR มาตรา 7(1) โปรดพิจารณาส่งออกบันทึกความยินยอมก่อนถอนการติดตั้ง"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/admin.js:76
+#: build/public.js:4
+msgid "Name"
+msgstr "ชื่อ"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Provider"
+msgstr "ผู้ให้บริการ"
+
+#: build/admin.js:25
+msgid "Duration (Days)"
+msgstr "ระยะเวลา (วัน)"
+
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Type"
+msgstr "ประเภท"
+
+#: build/admin.js:23
+#: build/admin.js:78
+#: build/onboarding.js:3
+msgid "Uncategorized"
+msgstr "ไม่ได้จัดหมวดหมู่"
+
+#: build/admin.js:21
+#: build/onboarding.js:1
+msgid "Change Category"
+msgstr "เปลี่ยนหมวดหมู่"
+
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Edit"
+msgstr "แก้ไข"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Scanned"
+msgstr "สแกนแล้ว"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Custom"
+msgstr "กำหนดเอง"
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete the cookie \"<strong></strong>\"? This action cannot be undone."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบคุกกี้ \"<strong></strong>\"? การกระทำนี้ไม่สามารถย้อนกลับได้"
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete this cookie? This action cannot be undone."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบคุกกี้นี้? การกระทำนี้ไม่สามารถย้อนกลับได้"
+
+#: build/admin.js:25
+msgid "Delete Custom Cookie"
+msgstr "ลบคุกกี้กำหนดเอง"
+
+#: build/admin.js:25
+msgid "Change Cookie Category"
+msgstr "เปลี่ยนหมวดหมู่คุกกี้"
+
+#: build/admin.js:25
+msgid "Update Category"
+msgstr "อัปเดตหมวดหมู่"
+
+#: build/admin.js:25
+msgid "Edit Cookie"
+msgstr "แก้ไขคุกกี้"
+
+#: build/admin.js:25
+msgid "Update Cookie"
+msgstr "อัปเดตคุกกี้"
+
+#: build/admin.js:25
+msgid "Add New Cookie"
+msgstr "เพิ่มคุกกี้ใหม่"
+
+#: build/admin.js:25
+msgid "Save Cookie"
+msgstr "บันทึกคุกกี้"
+
+#: build/admin.js:25
+msgid "e.g., my_custom_cookie"
+msgstr "เช่น my_custom_cookie"
+
+#: build/admin.js:25
+#: build/admin.js:28
+#: build/admin.js:76
+msgid "Select a category"
+msgstr "เลือกหมวดหมู่"
+
+#: build/admin.js:25
+msgid "No categories available. Please create a category first."
+msgstr "ไม่มีหมวดหมู่ โปรดสร้างหมวดหมู่ก่อน"
+
+#: build/admin.js:25
+msgid "e.g., 30"
+msgstr "เช่น 30"
+
+#: build/admin.js:25
+msgid "e.g., Your Company Name"
+msgstr "เช่น ชื่อบริษัทของคุณ"
+
+#: build/admin.js:25
+msgid "e.g., .example.com"
+msgstr "เช่น .example.com"
+
+#: build/admin.js:25
+msgid "Description"
+msgstr "คำอธิบาย"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie…"
+msgstr "ป้อนคำอธิบายสำหรับคุกกี้นี้…"
+
+#: build/admin.js:25
+msgid "Describe the purpose of this cookie…"
+msgstr "อธิบายวัตถุประสงค์ของคุกกี้นี้…"
+
+#: build/admin.js:25
+msgid "Category Name"
+msgstr "ชื่อหมวดหมู่"
+
+#: build/admin.js:25
+msgid "e.g., Performance Cookies"
+msgstr "เช่น คุกกี้ประสิทธิภาพ"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie category…"
+msgstr "ป้อนคำอธิบายสำหรับหมวดหมู่คุกกี้นี้…"
+
+#. translators: %1$s is the category name, %2$s is the number of cookies
+#: build/admin.js:28
+#, js-format
+msgid "Are you sure you want to delete this cookie category? <br/> The category \"%1$s\" has %2$s assigned to it:"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบหมวดหมู่คุกกี้นี้? <br/> หมวดหมู่ \"%1$s\" มี %2$s รายการที่ถูกกำหนดไว้:"
+
+#: build/admin.js:28
+msgid "Are you sure you want to delete this cookie category? This action cannot be undone."
+msgid_plural "cookies"
+msgstr[0] "คุณแน่ใจหรือไม่ว่าต้องการลบหมวดหมู่คุกกี้นี้? การกระทำนี้ไม่สามารถย้อนกลับได้"
+
+#: build/admin.js:28
+msgid "Delete Cookie Category"
+msgstr "ลบหมวดหมู่คุกกี้"
+
+#: build/admin.js:28
+msgid "Keep cookies when deleting category"
+msgstr "เก็บคุกกี้ไว้เมื่อทำการลบหมวดหมู่"
+
+#: build/admin.js:28
+msgid "Keep cookies"
+msgstr "เก็บคุกกี้ไว้"
+
+#: build/admin.js:28
+#: build/onboarding.js:4
+msgid "Please enter a category name"
+msgstr "โปรดป้อนชื่อหมวดหมู่"
+
+#: build/admin.js:28
+msgid "No cookie categories found. Click \"Add New Category\" to create one."
+msgstr "ไม่พบหมวดหมู่คุกกี้ คลิก \"เพิ่มหมวดหมู่ใหม่\" เพื่อสร้าง"
+
+#: build/admin.js:28
+msgid "Edit Category"
+msgstr "แก้ไขหมวดหมู่"
+
+#: build/admin.js:28
+msgid "Add New Category"
+msgstr "เพิ่มหมวดหมู่ใหม่"
+
+#: build/admin.js:28
+#: build/admin.js:43
+msgid "Manage Categories"
+msgstr "จัดการหมวดหมู่"
+
+#: build/admin.js:28
+msgid "Manage cookie categories that appear in the privacy preferences modal"
+msgstr "จัดการหมวดหมู่คุกกี้ที่ปรากฏในโมดัลการตั้งค่าความเป็นส่วนตัว"
+
+#: build/admin.js:28
+msgid "Add Category"
+msgstr "เพิ่มหมวดหมู่"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please enter a cookie name"
+msgstr "โปรดป้อนชื่อคุกกี้"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please select a category"
+msgstr "โปรดเลือกหมวดหมู่"
+
+#: build/admin.js:41
+msgid "Failed to load custom cookies"
+msgstr "โหลดคุกกี้กำหนดเองล้มเหลว"
+
+#: build/admin.js:41
+msgid "Failed to create custom cookie"
+msgstr "สร้างคุกกี้กำหนดเองล้มเหลว"
+
+#: build/admin.js:41
+msgid "Custom cookie created successfully"
+msgstr "สร้างคุกกี้กำหนดเองสำเร็จ"
+
+#: build/admin.js:41
+msgid "Failed to update custom cookie"
+msgstr "อัปเดตคุกกี้กำหนดเองล้มเหลว"
+
+#: build/admin.js:41
+msgid "Custom cookie updated successfully"
+msgstr "อัปเดตคุกกี้กำหนดเองสำเร็จ"
+
+#: build/admin.js:41
+msgid "Failed to delete custom cookie"
+msgstr "ลบคุกกี้ที่กำหนดเองไม่สำเร็จ"
+
+#: build/admin.js:41
+msgid "Custom cookie deleted successfully"
+msgstr "ลบคุกกี้ที่กำหนดเองสำเร็จ"
+
+#: build/admin.js:41
+msgid "Failed to update cookie category"
+msgstr "อัปเดตหมวดหมู่คุกกี้ไม่สำเร็จ"
+
+#: build/admin.js:41
+msgid "Cookie category updated successfully"
+msgstr "อัปเดตหมวดหมู่คุกกี้สำเร็จ"
+
+#: build/admin.js:42
+msgid "Failed to create category"
+msgstr "สร้างหมวดหมู่ไม่สำเร็จ"
+
+#: build/admin.js:42
+msgid "Category created successfully"
+msgstr "สร้างหมวดหมู่สำเร็จ"
+
+#: build/admin.js:42
+msgid "Failed to update category"
+msgstr "อัปเดตหมวดหมู่ไม่สำเร็จ"
+
+#: build/admin.js:42
+msgid "Category updated successfully"
+msgstr "อัปเดตหมวดหมู่สำเร็จ"
+
+#: build/admin.js:42
+msgid "Failed to delete category"
+msgstr "ลบหมวดหมู่ไม่สำเร็จ"
+
+#: build/admin.js:42
+msgid "Category deleted successfully"
+msgstr "ลบหมวดหมู่สำเร็จ"
+
+#: build/admin.js:43
+msgid "Create and manage all cookies for your website. These cookies will appear in the selected privacy preference categories."
+msgstr "สร้างและจัดการคุกกี้ทั้งหมดสำหรับเว็บไซต์ของคุณ คุกกี้เหล่านี้จะแสดงในหมวดหมู่ความเป็นส่วนตัวที่เลือกไว้"
+
+#: build/admin.js:43
+msgid "Manage Cookies"
+msgstr "จัดการคุกกี้"
+
+#: build/admin.js:43
+msgid "New Cookie"
+msgstr "คุกกี้ใหม่"
+
+#: build/admin.js:43
+msgid "All your cookies will be displayed here"
+msgstr "คุกกี้ทั้งหมดของคุณจะแสดงที่นี่"
+
+#: build/admin.js:43
+msgid "Click the button below to create your first custom cookie"
+msgstr "คลิกปุ่มด้านล่างเพื่อสร้างคุกกี้ที่กำหนดเองครั้งแรกของคุณ"
+
+#: build/admin.js:43
+msgid "Add custom CSS to style your cookie banner. Changes will be reflected in both preview and frontend after saving."
+msgstr "เพิ่ม CSS ที่กำหนดเองเพื่อจัดรูปแบบแบนเนอร์คุกกี้ของคุณ การเปลี่ยนแปลงจะแสดงในทั้งตัวอย่างและหน้าเว็บไซต์หลังจากบันทึก"
+
+#: build/admin.js:43
+msgid "CSS Code Editor"
+msgstr "ตัวแก้ไขโค้ด CSS"
+
+#: build/admin.js:43
+msgid "Reset Custom CSS"
+msgstr "รีเซ็ต CSS ที่กำหนดเอง"
+
+#: build/admin.js:43
+msgid "Are you sure you want to reset custom CSS? This will remove all your custom styles."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ต CSS ที่กำหนดเอง? การดำเนินการนี้จะลบสไตล์ที่กำหนดเองทั้งหมดของคุณ"
+
+#: build/admin.js:43
+msgid "Custom CSS has been reset. The banner will now use default styles."
+msgstr "CSS ที่กำหนดเองถูกรีเซ็ตแล้ว แบนเนอร์จะใช้สไตล์เริ่มต้นในขณะนี้"
+
+#: build/admin.js:43
+msgid "Write your custom CSS below. Use <strong>!important</strong> to override inline styles.<br />You can target banner elements using classes like <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, etc."
+msgstr "เขียน CSS ที่กำหนดเองของคุณด้านล่าง ใช้ <strong>!important</strong> เพื่อแทนที่สไตล์อินไลน์<br />คุณสามารถกำหนดเป้าหมายองค์ประกอบแบนเนอร์โดยใช้คลาสเช่น <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong> เป็นต้น"
+
+#: build/admin.js:43
+#: build/admin.js:60
+msgid "<span></span> Quick Tips:"
+msgstr "<span></span> เคล็ดลับด่วน:"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-banner</b> to target the cookie banner (works in both preview and frontend)"
+msgstr "ใช้ <b>.surecookie-banner</b> เพื่อกำหนดเป้าหมายแบนเนอร์คุกกี้ (ใช้งานได้ทั้งในตัวอย่างและหน้าเว็บไซต์)"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> for buttons"
+msgstr "ใช้ <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> สำหรับปุ่ม"
+
+#: build/admin.js:43
+msgid "Important: Use <b>!important</b> to override inline styles"
+msgstr "สำคัญ: ใช้ <b>!important</b> เพื่อแทนที่สไตล์อินไลน์"
+
+#: build/admin.js:43
+msgid "Changes take effect after clicking \"Save Changes\" below"
+msgstr "การเปลี่ยนแปลงจะมีผลหลังจากคลิก \"บันทึกการเปลี่ยนแปลง\" ด้านล่าง"
+
+#: build/admin.js:43
+msgid "Your CSS is saved and will persist after page refresh"
+msgstr "CSS ของคุณถูกบันทึกและจะคงอยู่หลังจากรีเฟรชหน้า"
+
+#: build/admin.js:43
+msgid "Disabled"
+msgstr "ปิดใช้งาน"
+
+#: build/admin.js:43
+msgid "Consent Logging"
+msgstr "บันทึกความยินยอม"
+
+#: build/admin.js:43
+msgid "Enable consent logging to view consent analytics"
+msgstr "เปิดใช้งานการบันทึกความยินยอมเพื่อดูการวิเคราะห์ความยินยอม"
+
+#: build/admin.js:43
+msgid "Enable"
+msgstr "เปิดใช้งาน"
+
+#: build/admin.js:43
+msgid "Overview"
+msgstr "ภาพรวม"
+
+#: build/admin.js:43
+msgid "Active"
+msgstr "ใช้งานอยู่"
+
+#: build/admin.js:43
+msgid "Inactive"
+msgstr "ไม่ใช้งาน"
+
+#: build/admin.js:43
+msgid "Cookie Banner"
+msgstr "แบนเนอร์คุกกี้"
+
+#: build/admin.js:43
+#: build/admin.js:47
+msgid "Configure"
+msgstr "กำหนดค่า"
+
+#: build/admin.js:44
+#: build/onboarding.js:4
+msgid "Launch Setup Wizard"
+msgstr "เปิดตัวช่วยตั้งค่า"
+
+#: build/admin.js:44
+msgid "Open Support Ticket"
+msgstr "เปิดตั๋วสนับสนุน"
+
+#: build/admin.js:44
+msgid "Help Center"
+msgstr "ศูนย์ช่วยเหลือ"
+
+#: build/admin.js:44
+msgid "Join our Community"
+msgstr "เข้าร่วมชุมชนของเรา"
+
+#: build/admin.js:44
+msgid "Leave Us a Review"
+msgstr "ให้คะแนนเรา"
+
+#: build/admin.js:44
+msgid "Quick Access"
+msgstr "ทางลัด"
+
+#: build/admin.js:44
+msgid "Recent Consent Logs"
+msgstr "บันทึกความยินยอมล่าสุด"
+
+#: build/admin.js:44
+msgid "Toggle Preview"
+msgstr "สลับตัวอย่าง"
+
+#: build/admin.js:44
+msgid "Click this button to show or hide the cookie consent banner preview."
+msgstr "คลิกปุ่มนี้เพื่อแสดงหรือซ่อนตัวอย่างแบนเนอร์การยินยอมคุกกี้"
+
+#: build/admin.js:44
+msgid "Click here to start"
+msgstr "คลิกที่นี่เพื่อเริ่มต้น"
+
+#: build/admin.js:44
+msgid "design your banner"
+msgstr "ออกแบบแบนเนอร์ของคุณ"
+
+#: build/admin.js:44
+msgid "Here's a preview of the cookie consent banner."
+msgstr "นี่คือตัวอย่างแบนเนอร์การยินยอมคุกกี้"
+
+#: build/admin.js:44
+msgid "You can adjust the content and design settings."
+msgstr "คุณสามารถปรับเนื้อหาและการตั้งค่าการออกแบบได้"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:47
+#, js-format
+msgid "%1$d of %2$d steps complete"
+msgstr "%1$d จาก %2$d ขั้นตอนเสร็จสมบูรณ์"
+
+#: build/admin.js:47
+msgid "You're all set! SureCookie is ready to protect your site."
+msgstr "คุณพร้อมแล้ว! SureCookie พร้อมที่จะปกป้องเว็บไซต์ของคุณ"
+
+#: build/admin.js:47
+#: build/onboarding.js:14
+msgid "Go to Dashboard"
+msgstr "ไปที่แดชบอร์ด"
+
+#: build/admin.js:47
+msgid "Scan Your Site for Cookies"
+msgstr "สแกนเว็บไซต์ของคุณเพื่อหาคุกกี้"
+
+#: build/admin.js:47
+msgid "Run the cookie scanner to discover and categorize cookies your site uses."
+msgstr "เรียกใช้ตัวสแกนคุกกี้เพื่อค้นหาและจัดหมวดหมู่คุกกี้ที่เว็บไซต์ของคุณใช้"
+
+#: build/admin.js:47
+msgid "Scan Now"
+msgstr "สแกนตอนนี้"
+
+#: build/admin.js:47
+msgid "Set up the Consent Banner"
+msgstr "ตั้งค่าแบนเนอร์การยินยอม"
+
+#: build/admin.js:47
+msgid "Customize your cookie consent banner - content, layout, and visibility."
+msgstr "ปรับแต่งแบนเนอร์การยินยอมคุกกี้ของคุณ - เนื้อหา รูปแบบ และการแสดงผล"
+
+#: build/admin.js:47
+msgid "Review Consent Logs"
+msgstr "ตรวจสอบบันทึกการยินยอม"
+
+#: build/admin.js:47
+msgid "See who has consented and when - useful for compliance audits."
+msgstr "ดูว่าใครได้ให้ความยินยอมและเมื่อไหร่ - มีประโยชน์สำหรับการตรวจสอบความสอดคล้อง"
+
+#: build/admin.js:47
+msgid "View Logs"
+msgstr "ดูบันทึก"
+
+#: build/admin.js:47
+msgid "Publish Your Cookie Policy"
+msgstr "เผยแพร่นโยบายคุกกี้ของคุณ"
+
+#: build/admin.js:47
+msgid "Review and publish the cookie policy page on your site."
+msgstr "ตรวจสอบและเผยแพร่หน้านโยบายคุกกี้บนเว็บไซต์ของคุณ"
+
+#: build/admin.js:47
+msgid "Review Page"
+msgstr "ตรวจสอบหน้า"
+
+#: build/admin.js:47
+msgid "Generate a cookie policy page so visitors know how you handle their data."
+msgstr "สร้างหน้านโยบายคุกกี้เพื่อให้ผู้เยี่ยมชมทราบว่าคุณจัดการข้อมูลของพวกเขาอย่างไร"
+
+#: build/admin.js:47
+msgid "Create Page"
+msgstr "สร้างหน้า"
+
+#: build/admin.js:47
+msgid "Get Started with SureCookie"
+msgstr "เริ่มต้นกับ SureCookie"
+
+#: build/admin.js:47
+msgid "Follow these steps to set up cookie consent on your site in minutes."
+msgstr "ทำตามขั้นตอนเหล่านี้เพื่อตั้งค่าการยินยอมคุกกี้บนเว็บไซต์ของคุณในไม่กี่นาที"
+
+#: build/admin.js:47
+msgid "See full documentation →"
+msgstr "ดูเอกสารฉบับเต็ม →"
+
+#: build/admin.js:47
+msgid "Continue Learning"
+msgstr "เรียนรู้ต่อ"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:50
+#, js-format
+msgid "%1$d of %2$d setup steps complete."
+msgstr "%1$d จาก %2$d ขั้นตอนการตั้งค่าเสร็จสมบูรณ์"
+
+#: build/admin.js:50
+msgid "Open Learn"
+msgstr "เปิด Learn"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "All cookies accepted."
+msgstr "ยอมรับคุกกี้ทั้งหมดแล้ว"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Non-essential cookies rejected."
+msgstr "ปฏิเสธคุกกี้ที่ไม่จำเป็น"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preferences saved successfully."
+msgstr "บันทึกการตั้งค่าความชอบเรียบร้อยแล้ว"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Close privacy preferences dialog"
+msgstr "ปิดกล่องโต้ตอบการตั้งค่าความเป็นส่วนตัว"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Always Active"
+msgstr "ใช้งานตลอดเวลา"
+
+#. translators: %s: cookie category name
+#: build/admin.js:52
+#: build/public.js:3
+#, js-format
+msgid "%s: always active, cannot be disabled"
+msgstr "%s: ใช้งานตลอดเวลา ไม่สามารถปิดใช้งานได้"
+
+#: build/admin.js:52
+#: build/public.js:3
+msgid "View Cookies"
+msgstr "ดูคุกกี้"
+
+#. translators: %s: cookie category name
+#: build/admin.js:53
+#: build/public.js:4
+#, js-format
+msgid "%s cookies details"
+msgstr "รายละเอียดคุกกี้ %s"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Expiry"
+msgstr "วันหมดอายุ"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Reject All"
+msgstr "ปฏิเสธทั้งหมด"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Confirm My Choices"
+msgstr "ยืนยันตัวเลือกของฉัน"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by SureCookie (opens in new tab)"
+msgstr "ขับเคลื่อนโดย SureCookie (เปิดในแท็บใหม่)"
+
+#: inc/utils/localize-data.php:222
+#: build/admin.js:4
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by"
+msgstr "ขับเคลื่อนโดย"
+
+#: build/admin.js:53
+msgid "Buttons are for reference only in preview."
+msgstr "ปุ่มเป็นเพียงการอ้างอิงในตัวอย่างเท่านั้น"
+
+#: build/admin.js:53
+msgid "This is a preview"
+msgstr "นี่คือตัวอย่าง"
+
+#: build/admin.js:53
+msgid "Close preview"
+msgstr "ปิดตัวอย่าง"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Complete"
+msgstr "เสร็จสมบูรณ์"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Queued…"
+msgstr "อยู่ในคิว…"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Starting scan…"
+msgstr "เริ่มสแกน…"
+
+#. translators: 1: current page index, 2: total pages
+#: build/admin.js:54
+#, js-format
+msgid "Scanning page %1$d of %2$d…"
+msgstr "กำลังสแกนหน้าที่ %1$d จาก %2$d…"
+
+#: build/admin.js:54
+msgid "Scanning pages…"
+msgstr "กำลังสแกนหน้า…"
+
+#: build/admin.js:54
+msgid "Analyzing cookies…"
+msgstr "กำลังวิเคราะห์คุกกี้…"
+
+#: build/admin.js:54
+msgid "Finalizing…"
+msgstr "กำลังสรุปผล…"
+
+#: build/admin.js:54
+msgid "Scan failed"
+msgstr "การสแกนล้มเหลว"
+
+#: build/admin.js:54
+msgid "In progress…"
+msgstr "กำลังดำเนินการ…"
+
+#: build/admin.js:54
+msgid "Scan progress"
+msgstr "ความคืบหน้าการสแกน"
+
+#. translators: 1: completed pages, 2: total pages
+#: build/admin.js:55
+#, js-format
+msgid "%1$d of %2$d pages scanned"
+msgstr "สแกนหน้า %1$d จาก %2$d แล้ว"
+
+#: build/admin.js:55
+msgid "Preparing scan…"
+msgstr "กำลังเตรียมการสแกน…"
+
+#. translators: %s: estimated time remaining
+#: build/admin.js:56
+#, js-format
+msgid "· ~%s left"
+msgstr "· ~%s เหลือ"
+
+#: build/admin.js:56
+msgid "Scan Completed with Errors"
+msgstr "การสแกนเสร็จสมบูรณ์พร้อมข้อผิดพลาด"
+
+#. translators: %d: number of failed pages
+#: build/admin.js:57
+#, js-format
+msgid "%d page(s) could not be scanned. Check the logs for details."
+msgstr "%d หน้าไม่สามารถสแกนได้ ตรวจสอบบันทึกเพื่อดูรายละเอียด"
+
+#: build/admin.js:57
+msgid "Scan Completed!"
+msgstr "การสแกนเสร็จสมบูรณ์!"
+
+#: build/admin.js:57
+msgid "Cookie scan has been completed successfully."
+msgstr "การสแกนคุกกี้เสร็จสมบูรณ์เรียบร้อยแล้ว"
+
+#: build/admin.js:57
+msgid "Could not copy logs automatically."
+msgstr "ไม่สามารถคัดลอกบันทึกโดยอัตโนมัติได้"
+
+#: build/admin.js:57
+msgid "Logs copied to clipboard!"
+msgstr "คัดลอกบันทึกไปยังคลิปบอร์ดแล้ว!"
+
+#: build/admin.js:57
+msgid "Latest Scanning Logs"
+msgstr "บันทึกล่าสุดของการสแกน"
+
+#: build/admin.js:57
+msgid "View logs from the most recent cookie scanning process."
+msgstr "ดูบันทึกจากกระบวนการสแกนคุกกี้ล่าสุด"
+
+#: build/admin.js:57
+msgid "Copied"
+msgstr "คัดลอกแล้ว"
+
+#: build/admin.js:57
+msgid "Copy"
+msgstr "คัดลอก"
+
+#: build/admin.js:57
+msgid "This field contains the scanning status results only."
+msgstr "ช่องนี้มีเพียงผลลัพธ์สถานะการสแกนเท่านั้น"
+
+#: build/admin.js:57
+msgid "Scan appears stuck"
+msgstr "การสแกนดูเหมือนติดขัด"
+
+#. translators: 1: completed pages, 2: total pages, 3: elapsed time
+#: build/admin.js:58
+#, js-format
+msgid "%1$d of %2$d pages scanned after %3$s with no recent progress."
+msgstr "สแกนหน้า %1$d จาก %2$d แล้วหลังจาก %3$s โดยไม่มีความคืบหน้าล่าสุด"
+
+#. translators: %s: elapsed time
+#: build/admin.js:59
+#, js-format
+msgid "No progress detected after %s."
+msgstr "ไม่พบความคืบหน้าหลังจาก %s"
+
+#: build/admin.js:59
+#: build/admin.js:63
+msgid "Cancelling…"
+msgstr "กำลังยกเลิก…"
+
+#: build/admin.js:59
+msgid "Cancel Scan"
+msgstr "ยกเลิกการสแกน"
+
+#: build/admin.js:59
+msgid "Copy Logs for Support"
+msgstr "คัดลอกบันทึกเพื่อขอความช่วยเหลือ"
+
+#: build/admin.js:60
+msgid "Your scan limit will reset tomorrow."
+msgstr "ขีดจำกัดการสแกนของคุณจะรีเซ็ตในวันพรุ่งนี้"
+
+#: build/admin.js:60
+msgid "The scan runs in the background - you can safely navigate away."
+msgstr "การสแกนทำงานในพื้นหลัง - คุณสามารถเปลี่ยนหน้าได้อย่างปลอดภัย"
+
+#: build/admin.js:60
+msgid "Make sure your site is publicly accessible (not behind basic auth or maintenance mode)."
+msgstr "ตรวจสอบให้แน่ใจว่าเว็บไซต์ของคุณสามารถเข้าถึงได้สาธารณะ (ไม่อยู่หลังการยืนยันตัวตนพื้นฐานหรือโหมดบำรุงรักษา)"
+
+#: build/admin.js:60
+msgid "Check if a firewall or security plugin is blocking external requests to your site."
+msgstr "ตรวจสอบว่าไฟร์วอลล์หรือปลั๊กอินความปลอดภัยบล็อกคำขอภายนอกไปยังเว็บไซต์ของคุณหรือไม่"
+
+#: build/admin.js:60
+msgid "Pages with heavy JavaScript may take longer to scan. If scanning fails repeatedly, try fewer pages."
+msgstr "หน้าที่มี JavaScript หนักอาจใช้เวลาสแกนนานขึ้น หากการสแกนล้มเหลวซ้ำ ๆ ให้ลองสแกนน้อยหน้าลง"
+
+#: build/admin.js:60
+msgid "If issues persist, copy the logs and <a>contact our support team.</a>"
+msgstr "หากปัญหายังคงอยู่ ให้คัดลอกบันทึกและ <a>ติดต่อทีมสนับสนุนของเรา</a>"
+
+#: build/admin.js:60
+msgid "contact our support team"
+msgstr "ติดต่อทีมสนับสนุนของเรา"
+
+#: build/admin.js:63
+#: build/admin.js:78
+#: build/onboarding.js:7
+msgid "(no title)"
+msgstr "(ไม่มีชื่อเรื่อง)"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Failed to initiate scan"
+msgstr "ไม่สามารถเริ่มต้นการสแกนได้"
+
+#. translators: 1: remaining scans, 2: total daily scans
+#: build/admin.js:68
+#: build/onboarding.js:12
+#, js-format
+msgid "You have %1$d of %2$d daily scans remaining"
+msgstr "คุณมี %1$d จาก %2$d การสแกนรายวันเหลืออยู่"
+
+#. translators: %s: time until reset (e.g. "4h 22m")
+#: build/admin.js:69
+#: build/admin.js:71
+#, js-format
+msgid "Resets in %s"
+msgstr "รีเซ็ตใน %s"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Limits refreshed."
+msgstr "รีเฟรชขีดจำกัดเรียบร้อยแล้ว"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Failed to refresh limits."
+msgstr "รีเฟรชขีดจำกัดไม่สำเร็จ"
+
+#: build/admin.js:71
+msgid "Your session expired. Please reload to reconnect."
+msgstr "เซสชันของคุณหมดอายุ กรุณารีโหลดเพื่อเชื่อมต่อใหม่"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "We couldn't fetch your limits right now. Please try again in a moment."
+msgstr "เราไม่สามารถดึงขีดจำกัดของคุณได้ในขณะนี้ กรุณาลองใหม่อีกครั้งในอีกสักครู่"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refreshing…"
+msgstr "กำลังรีเฟรช…"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refresh limits"
+msgstr "รีเฟรชขีดจำกัด"
+
+#. translators: %d: maximum pages
+#: build/admin.js:61
+#: build/admin.js:73
+#: build/onboarding.js:5
+#: build/onboarding.js:14
+#, js-format
+msgid "You have selected more than %d pages"
+msgstr "คุณได้เลือกมากกว่า %d หน้า"
+
+#. translators: %d: maximum pages
+#: build/admin.js:65
+#: build/onboarding.js:9
+#, js-format
+msgid "Your plan supports scanning up to %d pages. Please remove extra pages to continue."
+msgstr "แผนของคุณรองรับการสแกนได้สูงสุด %d หน้า กรุณาลบหน้าที่เกินเพื่อดำเนินการต่อ"
+
+#: build/admin.js:73
+msgid "Daily Limit Reached"
+msgstr "ถึงขีดจำกัดรายวันแล้ว"
+
+#. translators: 1: scans used, 2: scan limit
+#: build/admin.js:74
+#, js-format
+msgid "You've used %1$d of %2$d daily scans. Your credits will refresh automatically tomorrow."
+msgstr "คุณใช้ %1$d จาก %2$d การสแกนรายวัน เครดิตของคุณจะรีเฟรชโดยอัตโนมัติในวันพรุ่งนี้"
+
+#: build/admin.js:74
+msgid "You've used all your scan credits for today. Your credits will refresh automatically tomorrow."
+msgstr "คุณใช้เครดิตสแกนทั้งหมดสำหรับวันนี้ เครดิตของคุณจะรีเฟรชโดยอัตโนมัติในวันพรุ่งนี้"
+
+#: build/admin.js:74
+#: build/onboarding.js:14
+msgid "Scan Started!"
+msgstr "เริ่มการสแกนแล้ว!"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scanning…"
+msgstr "กำลังสแกน…"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Start Scan"
+msgstr "เริ่มสแกน"
+
+#: build/admin.js:63
+msgid "Cancel Stuck Scan"
+msgstr "ยกเลิกการสแกนที่ติดค้าง"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "WordPress Cron is Disabled"
+msgstr "ระบบ WordPress Cron ถูกปิดใช้งาน"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "The WordPress cron system is not working on your site. Cookie scanning may not work as expected. Please enable WP-Cron or set up a server cron job to ensure proper functionality."
+msgstr "ระบบ WordPress cron ไม่ทำงานบนเว็บไซต์ของคุณ การสแกนคุกกี้อาจไม่ทำงานตามที่คาดไว้ กรุณาเปิดใช้งาน WP-Cron หรือตั้งค่า cron job บนเซิร์ฟเวอร์เพื่อให้ทำงานได้อย่างถูกต้อง"
+
+#: build/admin.js:75
+msgid "Select"
+msgstr "เลือก"
+
+#: build/admin.js:75
+msgid "Configure how the \"Cookie Preferences\" button appears on your site, allowing users to update their consent at any time."
+msgstr "กำหนดวิธีที่ปุ่ม \"การตั้งค่าคุกกี้\" ปรากฏบนเว็บไซต์ของคุณ เพื่อให้ผู้ใช้สามารถอัปเดตความยินยอมได้ตลอดเวลา"
+
+#: build/admin.js:75
+msgid "No re-consent method active"
+msgstr "ไม่มีวิธีขอความยินยอมซ้ำที่เปิดใช้งาน"
+
+#: build/admin.js:75
+msgid "Visitors won't be able to update their cookie preferences unless you add a menu item or place the shortcode on a page. You can safely ignore this if the shortcode is already added."
+msgstr "ผู้เยี่ยมชมจะไม่สามารถอัปเดตการตั้งค่าคุกกี้ได้ เว้นแต่คุณจะเพิ่มเมนูหรือวาง shortcode บนหน้า คุณสามารถละเว้นได้อย่างปลอดภัยหากได้เพิ่ม shortcode แล้ว"
+
+#: build/admin.js:75
+msgid "Button Label"
+msgstr "ป้ายปุ่ม"
+
+#: build/admin.js:75
+msgid "The label shown on the Cookie Preferences link."
+msgstr "ป้ายที่แสดงบนลิงก์การตั้งค่าคุกกี้"
+
+#: build/admin.js:75
+msgid "Menu Level"
+msgstr "ระดับเมนู"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode"
+msgstr "รหัสย่อ"
+
+#: build/admin.js:75
+msgid "Floating Widget"
+msgstr "วิดเจ็ตลอย"
+
+#: build/admin.js:75
+msgid "Select a WordPress menu to automatically add the Cookie Preferences link to it. When clicked, it opens the consent preferences modal directly."
+msgstr "เลือกเมนู WordPress เพื่อเพิ่มลิงก์การตั้งค่าคุกกี้โดยอัตโนมัติ เมื่อคลิกจะเปิดหน้าต่างการตั้งค่าความยินยอมโดยตรง"
+
+#: build/admin.js:75
+msgid "No WordPress menus found."
+msgstr "ไม่พบเมนู WordPress"
+
+#: build/admin.js:75
+msgid "Create a menu in Appearance > Menus."
+msgstr "สร้างเมนูใน รูปลักษณ์ > เมนู"
+
+#: build/admin.js:75
+msgid "Select Menu"
+msgstr "เลือกเมนู"
+
+#: build/admin.js:75
+msgid "Use this shortcode to display the Cookie Preferences link anywhere on your site. When clicked, it opens the consent preferences modal directly."
+msgstr "ใช้รหัสย่อนี้เพื่อแสดงลิงก์การตั้งค่าคุกกี้ที่ใดก็ได้บนเว็บไซต์ของคุณ เมื่อคลิกจะเปิดหน้าต่างการตั้งค่าความยินยอมโดยตรง"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode Copied!"
+msgstr "คัดลอกรหัสย่อแล้ว!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Could not copy to clipboard. Please copy the shortcode manually."
+msgstr "ไม่สามารถคัดลอกไปยังคลิปบอร์ดได้ กรุณาคัดลอกรหัสย่อด้วยตนเอง"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copied!"
+msgstr "คัดลอกแล้ว!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copy shortcode"
+msgstr "คัดลอกรหัสย่อ"
+
+#: build/admin.js:75
+msgid "Enable Floating Widget"
+msgstr "เปิดใช้งานวิดเจ็ตลอย"
+
+#: build/admin.js:75
+msgid "to show a floating cookie preferences button on every page."
+msgstr "เพื่อแสดงปุ่มตั้งค่าคุกกี้ลอยบนทุกหน้า"
+
+#: build/admin.js:75
+msgid "Failed to deactivate plugin."
+msgstr "ไม่สามารถปิดใช้งานปลั๊กอินได้"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected."
+msgstr "ตรวจพบปลั๊กอินที่ขัดแย้งกัน"
+
+#: build/admin.js:75
+msgid "It's recommended to deactivate them to avoid issues."
+msgstr "แนะนำให้ปิดใช้งานเพื่อหลีกเลี่ยงปัญหา"
+
+#: build/admin.js:75
+msgid "Deactivate Plugin"
+msgstr "ปิดใช้งานปลั๊กอิน"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected"
+msgstr "ตรวจพบปลั๊กอินที่ขัดแย้งกัน"
+
+#: build/admin.js:75
+msgid "The following plugins may conflict with SureCookie. It's recommended to deactivate them to avoid issues."
+msgstr "ปลั๊กอินต่อไปนี้อาจขัดแย้งกับ SureCookie แนะนำให้ปิดใช้งานเพื่อหลีกเลี่ยงปัญหา"
+
+#: build/admin.js:75
+msgid "Version:"
+msgstr "เวอร์ชัน:"
+
+#: build/admin.js:75
+msgid "Deactivation successful. Reloading the page in 3 seconds."
+msgstr "ปิดใช้งานสำเร็จ กำลังโหลดหน้าซ้ำใน 3 วินาที"
+
+#: build/admin.js:75
+msgid "The plugin could not be deactivated. Please try again."
+msgstr "ไม่สามารถปิดใช้งานปลั๊กอินได้ กรุณาลองอีกครั้ง"
+
+#: build/admin.js:75
+msgid "Deactivating…"
+msgstr "กำลังปิดใช้งาน…"
+
+#: build/admin.js:75
+msgid "Deactivate"
+msgstr "ปิดใช้งาน"
+
+#: build/admin.js:75
+msgid "Close"
+msgstr "ปิด"
+
+#: build/admin.js:75
+msgid "Preview:"
+msgstr "ตัวอย่าง:"
+
+#: build/admin.js:75
+msgid "ON"
+msgstr "เปิด"
+
+#: build/admin.js:75
+msgid "OFF"
+msgstr "ปิด"
+
+#: build/admin.js:75
+msgid "What's New?"
+msgstr "มีอะไรใหม่?"
+
+#: build/admin.js:75
+msgid "Free version"
+msgstr "เวอร์ชันฟรี"
+
+#: build/admin.js:76
+msgid "Knowledge Base"
+msgstr "ฐานความรู้"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Analytics"
+msgstr "การวิเคราะห์"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Marketing"
+msgstr "การตลาด"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Functional"
+msgstr "ฟังก์ชัน"
+
+#: build/admin.js:76
+msgid "Resource"
+msgstr "ทรัพยากร"
+
+#: build/admin.js:76
+msgid "Script"
+msgstr "สคริปต์"
+
+#: build/admin.js:76
+msgid "Iframe"
+msgstr "ไอเฟรม"
+
+#: build/admin.js:78
+msgid "Control where your cookie banner appears on your site."
+msgstr "ควบคุมตำแหน่งที่แบนเนอร์คุกกี้ของคุณปรากฏบนเว็บไซต์"
+
+#: build/admin.js:78
+msgid "Want More Control over Your Cookie Banner?"
+msgstr "ต้องการควบคุมแบนเนอร์คุกกี้ของคุณมากขึ้นหรือไม่?"
+
+#: build/admin.js:78
+msgid "Upgrade to hide it on selected pages, posts, archives, or on specific user roles."
+msgstr "อัปเกรดเพื่อซ่อนบนหน้าที่เลือก, โพสต์, แฟ้มเก็บ หรือบนบทบาทผู้ใช้เฉพาะ"
+
+#: build/admin.js:78
+msgid "The previously selected page no longer exists or could not be loaded."
+msgstr "หน้าที่เลือกไว้ก่อนหน้านี้ไม่มีอยู่หรือไม่สามารถโหลดได้"
+
+#: build/admin.js:78
+msgid "The selected page is not published and will not appear to visitors."
+msgstr "หน้าที่เลือกยังไม่ได้เผยแพร่และจะไม่ปรากฏแก่ผู้เยี่ยมชม"
+
+#: build/admin.js:78
+msgid "Cookie Policy Page"
+msgstr "หน้านโยบายคุกกี้"
+
+#: build/admin.js:78
+msgid "Clear selected page"
+msgstr "ล้างหน้าที่เลือก"
+
+#: build/admin.js:78
+msgid "Select a Page"
+msgstr "เลือกหน้า"
+
+#: build/admin.js:78
+msgid "A link to this page will appear in the consent preferences modal footer."
+msgstr "ลิงก์ไปยังหน้านี้จะแสดงในส่วนท้ายของหน้าต่างการตั้งค่าความยินยอม"
+
+#: build/admin.js:78
+msgid "Auto Generate"
+msgstr "สร้างอัตโนมัติ"
+
+#: build/admin.js:78
+msgid "Automatically create a published Cookie Policy page containing a dynamically generated cookie table that always stays up to date."
+msgstr "สร้างหน้าหน้านโยบายคุกกี้ที่เผยแพร่โดยอัตโนมัติ ซึ่งมีตารางคุกกี้ที่สร้างขึ้นแบบไดนามิกและอัปเดตอยู่เสมอ"
+
+#: build/admin.js:78
+msgid "Cookie Policy page created successfully!"
+msgstr "สร้างหน้าหน้านโยบายคุกกี้สำเร็จแล้ว!"
+
+#: build/admin.js:78
+msgid "Failed to generate page. Please try again."
+msgstr "ไม่สามารถสร้างหน้าได้ กรุณาลองใหม่อีกครั้ง"
+
+#: build/admin.js:78
+msgid "An error occurred while generating the page. Please try again."
+msgstr "เกิดข้อผิดพลาดขณะสร้างหน้า กรุณาลองใหม่อีกครั้ง"
+
+#: build/admin.js:78
+msgid "Page Already Linked"
+msgstr "หน้าเชื่อมโยงแล้ว"
+
+#: build/admin.js:78
+msgid "Generate Cookie Policy Page"
+msgstr "สร้างหน้าหน้านโยบายคุกกี้"
+
+#: build/admin.js:78
+msgid "Edit Page"
+msgstr "แก้ไขหน้า"
+
+#: build/admin.js:78
+msgid "View Page"
+msgstr "ดูหน้า"
+
+#: build/admin.js:78
+msgid "Use this shortcode to display the cookie policy with a dynamically generated cookie table on any page or post. The table always reflects the latest scanned and custom cookies."
+msgstr "ใช้ shortcode นี้เพื่อแสดงนโยบายคุกกี้พร้อมตารางคุกกี้ที่สร้างขึ้นแบบไดนามิกบนหน้าใดก็ได้ ตารางนี้จะแสดงคุกกี้ที่สแกนและกำหนดเองล่าสุดเสมอ"
+
+#: build/admin.js:83
+msgid "Please enter at least one region code"
+msgstr "กรุณาใส่รหัสภูมิภาคอย่างน้อยหนึ่งรหัส"
+
+#: build/admin.js:83
+msgid "Invalid region code format. Use ISO 3166 codes like EU, US, US-CA, or GB."
+msgstr "รูปแบบรหัสภูมิภาคไม่ถูกต้อง ใช้รหัส ISO 3166 เช่น EU, US, US-CA หรือ GB"
+
+#: build/admin.js:83
+msgid "EU/EEA (GDPR)"
+msgstr "EU/EEA (GDPR)"
+
+#: build/admin.js:83
+msgid "California (CCPA)"
+msgstr "แคลิฟอร์เนีย (CCPA)"
+
+#: build/admin.js:83
+msgid "United Kingdom"
+msgstr "สหราชอาณาจักร"
+
+#: build/admin.js:83
+msgid "Brazil (LGPD)"
+msgstr "บราซิล (LGPD)"
+
+#: build/admin.js:83
+msgid "Edit Regional Rule"
+msgstr "แก้ไขกฎภูมิภาค"
+
+#: build/admin.js:83
+msgid "Add Regional Rule"
+msgstr "เพิ่มกฎภูมิภาค"
+
+#: build/admin.js:83
+msgid "Set default consent state for visitors from this region. Google uses the most specific match."
+msgstr "ตั้งค่าระดับความยินยอมเริ่มต้นสำหรับผู้เยี่ยมชมจากภูมิภาคนี้ Google จะใช้การจับคู่ที่เฉพาะเจาะจงที่สุด"
+
+#: build/admin.js:83
+msgid "Add Rule"
+msgstr "เพิ่มกฎ"
+
+#: build/admin.js:83
+msgid "Quick Presets"
+msgstr "การตั้งค่าล่วงหน้าอย่างรวดเร็ว"
+
+#: build/admin.js:83
+msgid "Apply preset:"
+msgstr "ใช้การตั้งค่าล่วงหน้า:"
+
+#: build/admin.js:83
+msgid "Region Codes"
+msgstr "รหัสภูมิภาค"
+
+#: build/admin.js:83
+msgid "Comma-separated ISO 3166 codes: EU, US, US-CA, GB, BR, etc."
+msgstr "รหัส ISO 3166 คั่นด้วยเครื่องหมายจุลภาค: EU, US, US-CA, GB, BR เป็นต้น"
+
+#: build/admin.js:83
+msgid "Default Consent State"
+msgstr "สถานะความยินยอมเริ่มต้น"
+
+#: build/admin.js:83
+msgid "Choose which categories are granted by default for visitors from this region before they interact with the banner."
+msgstr "เลือกหมวดหมู่ที่ได้รับอนุญาตโดยค่าเริ่มต้นสำหรับผู้เยี่ยมชมจากภูมิภาคนี้ก่อนที่พวกเขาจะโต้ตอบกับแบนเนอร์"
+
+#: build/admin.js:83
+msgid "Functional Storage"
+msgstr "การจัดเก็บแบบฟังก์ชัน"
+
+#: build/admin.js:83
+msgid "Enables storage for site functionality like preferences and language."
+msgstr "เปิดใช้งานการจัดเก็บสำหรับฟังก์ชันของไซต์ เช่น การตั้งค่าและภาษา"
+
+#: build/admin.js:83
+msgid "Functional storage default"
+msgstr "ค่าเริ่มต้นการจัดเก็บแบบฟังก์ชัน"
+
+#: build/admin.js:83
+msgid "Analytics Storage"
+msgstr "การจัดเก็บวิเคราะห์"
+
+#: build/admin.js:83
+msgid "Enables storage for analytics purposes like visit duration and page views."
+msgstr "เปิดใช้งานการจัดเก็บเพื่อวัตถุประสงค์วิเคราะห์ เช่น ระยะเวลาการเยี่ยมชมและการดูหน้า"
+
+#: build/admin.js:83
+msgid "Analytics storage default"
+msgstr "ค่าเริ่มต้นการจัดเก็บวิเคราะห์"
+
+#: build/admin.js:83
+msgid "Marketing / Ads Storage"
+msgstr "การจัดเก็บการตลาด/โฆษณา"
+
+#: build/admin.js:83
+msgid "Enables storage for advertising purposes including ad personalization and user data."
+msgstr "เปิดใช้งานการจัดเก็บเพื่อวัตถุประสงค์โฆษณา รวมถึงการปรับแต่งโฆษณาและข้อมูลผู้ใช้"
+
+#: build/admin.js:83
+msgid "Marketing storage default"
+msgstr "ค่าเริ่มต้นการจัดเก็บการตลาด"
+
+#: build/admin.js:83
+msgid "Essential cookies (security_storage) are always granted. These defaults apply before the visitor interacts with the consent banner."
+msgstr "คุกกี้ที่จำเป็น (security_storage) จะได้รับอนุญาตเสมอ ค่าเริ่มต้นเหล่านี้ใช้ก่อนที่ผู้เยี่ยมชมจะโต้ตอบกับแบนเนอร์ความยินยอม"
+
+#: build/admin.js:83
+msgid "Granted"
+msgstr "ได้รับอนุญาต"
+
+#: build/admin.js:83
+msgid "Denied"
+msgstr "ถูกปฏิเสธ"
+
+#: build/admin.js:83
+msgid "Active Regional Rules"
+msgstr "กฎภูมิภาคที่ใช้งานอยู่"
+
+#: build/admin.js:83
+msgid "Set different default consent states per region. Google uses the most specific match (e.g., US-CA overrides US)."
+msgstr "ตั้งค่าสถานะความยินยอมเริ่มต้นแตกต่างกันตามภูมิภาค Google จะใช้การจับคู่ที่เฉพาะเจาะจงที่สุด (เช่น US-CA แทนที่ US)"
+
+#: build/admin.js:83
+msgid "Edit rule for"
+msgstr "แก้ไขกฎสำหรับ"
+
+#: build/admin.js:83
+msgid "Delete rule for"
+msgstr "ลบกฎสำหรับ"
+
+#: build/admin.js:83
+msgid "No regional rules configured. The global default (deny all except essential) applies to all visitors."
+msgstr "ยังไม่มีการตั้งค่ากฎภูมิภาค ค่าเริ่มต้นทั่วโลก (ปฏิเสธทั้งหมดยกเว้นที่จำเป็น) จะใช้กับผู้เยี่ยมชมทั้งหมด"
+
+#. translators: %s: comma-separated duplicate region codes
+#: build/admin.js:84
+#, js-format
+msgid "These region codes already exist in another rule: %s"
+msgstr "รหัสภูมิภาคเหล่านี้มีอยู่แล้วในกฎอื่น: %s"
+
+#: build/admin.js:84
+msgid "Delete Regional Rule"
+msgstr "ลบกฎภูมิภาค"
+
+#: build/admin.js:84
+msgid "Are you sure you want to delete this regional consent rule? Visitors from this region will use the global default."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบกฎความยินยอมภูมิภาคนี้? ผู้เยี่ยมชมจากภูมิภาคนี้จะใช้ค่าเริ่มต้นทั่วโลก"
+
+#: build/admin.js:84
+msgid "Google Consent Mode v2"
+msgstr "โหมดความยินยอมของ Google v2"
+
+#: build/admin.js:84
+msgid "Automatically communicate user consent preferences to Google services."
+msgstr "สื่อสารความต้องการความยินยอมของผู้ใช้ไปยังบริการของ Google โดยอัตโนมัติ"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode Switch"
+msgstr "เปิดใช้งานสวิตช์โหมดความยินยอมของ Google"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode"
+msgstr "เปิดใช้งานโหมดความยินยอมของ Google"
+
+#: build/admin.js:84
+msgid "Supported services: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, and DV360"
+msgstr "บริการที่รองรับ: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight และ DV360"
+
+#: build/admin.js:84
+msgid "Wait Time (milliseconds)"
+msgstr "เวลารอ (มิลลิวินาที)"
+
+#: build/admin.js:84
+msgid "How long Google services wait for consent before making requests. Default: 500ms. Range: 0–2000ms."
+msgstr "ระยะเวลาที่บริการของ Google รอความยินยอมก่อนส่งคำขอ ค่าเริ่มต้น: 500ms ช่วง: 0–2000ms"
+
+#: build/admin.js:84
+msgid "Mandatory for EU/EEA as of March 2024"
+msgstr "บังคับใช้สำหรับ EU/EEA ตั้งแต่มีนาคม 2024"
+
+#: build/admin.js:84
+msgid "Google now requires Consent Mode v2 for all websites using Google services in the European Economic Area."
+msgstr "Google กำหนดให้ใช้โหมดความยินยอม v2 สำหรับเว็บไซต์ที่ใช้บริการ Google ในเขตเศรษฐกิจยุโรปทั้งหมด"
+
+#: build/admin.js:84
+msgid "Learn more about Google Consent Mode v2 →"
+msgstr "เรียนรู้เพิ่มเติมเกี่ยวกับโหมดความยินยอมของ Google v2 →"
+
+#: build/admin.js:84
+msgid "Where should the banner appear?"
+msgstr "แบนเนอร์ควรแสดงที่ใด?"
+
+#: build/admin.js:84
+msgid "Choose where the banner is shown. Visitors outside selected regions will not see it."
+msgstr "เลือกตำแหน่งที่จะแสดงแบนเนอร์ ผู้เยี่ยมชมที่อยู่นอกภูมิภาคที่เลือกจะไม่เห็นแบนเนอร์นี้"
+
+#: build/admin.js:84
+msgid "Show to all visitors worldwide"
+msgstr "แสดงให้ผู้เยี่ยมชมทุกคนทั่วโลก"
+
+#: build/admin.js:84
+msgid "Use the same experience for everyone, regardless of location."
+msgstr "ใช้ประสบการณ์เดียวกันสำหรับทุกคนโดยไม่คำนึงถึงตำแหน่ง"
+
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/admin.js:78
+#: build/admin.js:84
+msgid "Pro"
+msgstr "Pro"
+
+#: build/admin.js:84
+msgid "Show only where required by law"
+msgstr "แสดงเฉพาะในพื้นที่ที่กฎหมายกำหนด"
+
+#: build/admin.js:84
+msgid "Target specific regions with tailored consent experiences."
+msgstr "กำหนดเป้าหมายภูมิภาคเฉพาะด้วยประสบการณ์ความยินยอมที่ปรับแต่งได้"
+
+#: build/admin.js:84
+msgid "Mode: Show to all visitors worldwide"
+msgstr "โหมด: แสดงให้ผู้เยี่ยมชมทุกคนทั่วโลก"
+
+#: build/admin.js:84
+msgid "Your existing banner settings apply to all visitors. No geographic targeting is active."
+msgstr "การตั้งค่าแบนเนอร์ที่มีอยู่ของคุณใช้กับผู้เยี่ยมชมทุกคน ไม่มีการกำหนดเป้าหมายทางภูมิศาสตร์"
+
+#: build/admin.js:84
+msgid "Unlock Regional Targeting"
+msgstr "ปลดล็อกการกำหนดเป้าหมายภูมิภาค"
+
+#: build/admin.js:84
+msgid "Show banner only in selected regions, create custom regional rules, and control fallback behavior."
+msgstr "แสดงแบนเนอร์เฉพาะในภูมิภาคที่เลือก สร้างกฎภูมิภาคที่กำหนดเอง และควบคุมพฤติกรรมสำรอง"
+
+#: build/admin.js:84
+msgid "Location detection uses GeoLite2 data by MaxMind, available from <link>https://www.maxmind.com</link>."
+msgstr "การตรวจจับตำแหน่งใช้ข้อมูล GeoLite2 โดย MaxMind ซึ่งสามารถดูได้ที่ <link>https://www.maxmind.com</link>"
+
+#: build/admin.js:87
+msgid "IAB Transparency & Consent Framework"
+msgstr "กรอบความโปร่งใสและความยินยอมของ IAB"
+
+#: build/admin.js:87
+msgid "Make your consent banner compliant with IAB TCF 2.3 and integrate with the Global Vendor List."
+msgstr "ทำให้แบนเนอร์ความยินยอมของคุณสอดคล้องกับ IAB TCF 2.3 และผสานรวมกับรายการผู้ขายทั่วโลก"
+
+#: build/admin.js:87
+msgid "Unlock IAB TCF 2.3 Compliance - Coming Soon"
+msgstr "ปลดล็อกความสอดคล้องกับ IAB TCF 2.3 - เร็วๆ นี้"
+
+#: build/admin.js:87
+msgid "Enable full TCF mode, generate TC strings, and display the IAB vendor list to your visitors."
+msgstr "เปิดใช้งานโหมด TCF เต็มรูปแบบ สร้างสตริง TC และแสดงรายการผู้ขาย IAB ให้ผู้เยี่ยมชมของคุณ"
+
+#: build/admin.js:87
+msgid "Google Additional Consent (AC)"
+msgstr "ความยินยอมเพิ่มเติมของ Google (AC)"
+
+#: build/admin.js:87
+msgid "Add Google Additional Consent alongside IAB TCF to handle ad-tech vendors not on the IAB Global Vendor List."
+msgstr "เพิ่มความยินยอมเพิ่มเติมของ Google ร่วมกับ IAB TCF เพื่อจัดการกับผู้ขายโฆษณาที่ไม่อยู่ในรายการผู้ขายทั่วโลกของ IAB"
+
+#: build/admin.js:87
+msgid "Unlock Google Additional Consent - Coming Soon"
+msgstr "ปลดล็อกความยินยอมเพิ่มเติมของ Google - เร็วๆ นี้"
+
+#: build/admin.js:87
+msgid "Generate the AC string, mirror the addtl_consent cookie, and display Google's Additional Consent provider list to your visitors - required for full Google Ads / GAM monetization."
+msgstr "สร้างสตริง AC ทำสำเนาคุกกี้ addtl_consent และแสดงรายการผู้ให้บริการความยินยอมเพิ่มเติมของ Google ให้ผู้เยี่ยมชมของคุณ - จำเป็นสำหรับการสร้างรายได้เต็มรูปแบบของ Google Ads / GAM"
+
+#: build/onboarding.js:1
+msgid "Failed to get authentication payload"
+msgstr "ไม่สามารถรับข้อมูลการตรวจสอบสิทธิ์ได้"
+
+#: build/onboarding.js:1
+msgid "An error occurred while connecting"
+msgstr "เกิดข้อผิดพลาดขณะเชื่อมต่อ"
+
+#: build/onboarding.js:6
+msgid "First name is required"
+msgstr "ต้องระบุชื่อจริง"
+
+#: build/onboarding.js:6
+msgid "Email address is required"
+msgstr "ต้องระบุที่อยู่อีเมล"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid email address"
+msgstr "กรุณาใส่ที่อยู่อีเมลที่ถูกต้อง"
+
+#: build/onboarding.js:6
+msgid "Classify cookies automatically"
+msgstr "จัดประเภทคุกกี้โดยอัตโนมัติ"
+
+#: build/onboarding.js:6
+msgid "Get smart compliance recommendations"
+msgstr "รับคำแนะนำการปฏิบัติตามอย่างชาญฉลาด"
+
+#: build/onboarding.js:6
+msgid "Generate privacy-compliant descriptions"
+msgstr "สร้างคำอธิบายที่สอดคล้องกับความเป็นส่วนตัว"
+
+#: build/onboarding.js:6
+msgid "Welcome to SureCookie"
+msgstr "ยินดีต้อนรับสู่ SureCookie"
+
+#: build/onboarding.js:6
+msgid "Privacy compliance made effortless 🍪"
+msgstr "การปฏิบัติตามความเป็นส่วนตัวที่ง่ายดาย 🍪"
+
+#: build/onboarding.js:6
+msgid "Connect Your Account"
+msgstr "เชื่อมต่อบัญชีของคุณ"
+
+#: build/onboarding.js:6
+msgid "Connect your SureCookie account to automatically classify cookies, generate compliant descriptions, and get smart recommendations for your privacy needs."
+msgstr "เชื่อมต่อบัญชี SureCookie ของคุณเพื่อจัดประเภทคุกกี้โดยอัตโนมัติ สร้างคำอธิบายที่สอดคล้อง และรับคำแนะนำที่ชาญฉลาดสำหรับความต้องการด้านความเป็นส่วนตัวของคุณ"
+
+#: build/onboarding.js:6
+msgid "Here's what you can do:"
+msgstr "นี่คือสิ่งที่คุณสามารถทำได้:"
+
+#: build/onboarding.js:6
+msgid "List of capabilities"
+msgstr "รายการความสามารถ"
+
+#: build/onboarding.js:6
+msgid "Connected to SureCookie"
+msgstr "เชื่อมต่อกับ SureCookie แล้ว"
+
+#: build/admin.js:40
+#: build/onboarding.js:7
+#: build/onboarding.js:14
+msgid "Back"
+msgstr "ย้อนกลับ"
+
+#: build/onboarding.js:6
+msgid "Next"
+msgstr "ถัดไป"
+
+#: build/onboarding.js:6
+#: build/onboarding.js:14
+msgid "Skip"
+msgstr "ข้าม"
+
+#: build/onboarding.js:6
+msgid "Connecting…"
+msgstr "กำลังเชื่อมต่อ…"
+
+#: build/onboarding.js:6
+msgid "Connect"
+msgstr "เชื่อมต่อ"
+
+#: build/onboarding.js:11
+msgid "Run a Quick Privacy Scan"
+msgstr "รันการสแกนความเป็นส่วนตัวอย่างรวดเร็ว"
+
+#: build/onboarding.js:11
+msgid "SureCookie will scan your website, detect all cookies, and categorize them automatically.<br/> This helps you stay compliant without spending hours identifying scripts manually."
+msgstr "SureCookie จะสแกนเว็บไซต์ของคุณ ตรวจจับคุกกี้ทั้งหมด และจัดหมวดหมู่โดยอัตโนมัติ<br/> สิ่งนี้ช่วยให้คุณปฏิบัติตามกฎระเบียบโดยไม่ต้องใช้เวลาหลายชั่วโมงในการระบุสคริปต์ด้วยตนเอง"
+
+#: build/onboarding.js:11
+msgid "Account not connected"
+msgstr "ยังไม่ได้เชื่อมต่อบัญชี"
+
+#: build/onboarding.js:11
+msgid "Please <a>go back</a> and connect your SureCookie account to enable cookie scanning."
+msgstr "กรุณา<a>ย้อนกลับ</a>และเชื่อมต่อบัญชี SureCookie ของคุณเพื่อเปิดใช้งานการสแกนคุกกี้"
+
+#: build/onboarding.js:12
+msgid "Your session expired. Please reconnect to continue."
+msgstr "เซสชันของคุณหมดอายุ กรุณาเชื่อมต่อใหม่เพื่อดำเนินการต่อ"
+
+#: build/onboarding.js:14
+msgid "Connect Required"
+msgstr "ต้องเชื่อมต่อ"
+
+#: build/onboarding.js:14
+msgid "Please connect your account to get free scanning credits."
+msgstr "กรุณาเชื่อมต่อบัญชีของคุณเพื่อรับเครดิตการสแกนฟรี"
+
+#: build/onboarding.js:14
+msgid "SureCookie is scanning your pages for cookies. This may take a few minutes."
+msgstr "SureCookie กำลังสแกนหน้าของคุณเพื่อหาคุกกี้ อาจใช้เวลาสักครู่"
+
+#: build/onboarding.js:14
+msgid "Okay, just one last step…"
+msgstr "ตกลง ขั้นตอนสุดท้ายแล้ว…"
+
+#: build/onboarding.js:14
+msgid "Help us tailor your SureCookie experience by sharing a bit about yourself:"
+msgstr "ช่วยเราปรับประสบการณ์ SureCookie ของคุณโดยการบอกข้อมูลเกี่ยวกับตัวคุณเล็กน้อย:"
+
+#: build/onboarding.js:14
+msgid "First Name"
+msgstr "ชื่อจริง"
+
+#: build/onboarding.js:14
+msgid "Enter your first name"
+msgstr "กรอกชื่อจริงของคุณ"
+
+#: build/onboarding.js:14
+msgid "Last Name"
+msgstr "นามสกุล"
+
+#: build/onboarding.js:14
+msgid "Enter your last name"
+msgstr "กรอกนามสกุลของคุณ"
+
+#: build/onboarding.js:14
+msgid "Email Address"
+msgstr "ที่อยู่อีเมล"
+
+#: build/onboarding.js:14
+msgid "Enter your email address"
+msgstr "กรอกที่อยู่อีเมลของคุณ"
+
+#: build/onboarding.js:14
+msgid "Finish"
+msgstr "เสร็จสิ้น"
+
+#: build/onboarding.js:14
+msgid "Block non-essential cookies and trackers until explicit consent"
+msgstr "บล็อกคุกกี้และตัวติดตามที่ไม่จำเป็นจนกว่าจะได้รับความยินยอมอย่างชัดเจน"
+
+#: build/onboarding.js:14
+msgid "Auto-discover common services, categorize them, and preconfigure safe rules"
+msgstr "ค้นหาบริการทั่วไปโดยอัตโนมัติ จัดหมวดหมู่ และตั้งค่ากฎที่ปลอดภัยล่วงหน้า"
+
+#: build/onboarding.js:14
+msgid "You're all set. Let's go live 🚀"
+msgstr "คุณพร้อมแล้ว ไปถ่ายทอดสดกันเถอะ 🚀"
+
+#: build/onboarding.js:14
+msgid "From consent logs to region-based preferences, SureCookie helps you stay compliant while building visitor trust."
+msgstr "ตั้งแต่บันทึกความยินยอมไปจนถึงการตั้งค่าความชอบตามภูมิภาค SureCookie ช่วยให้คุณปฏิบัติตามกฎระเบียบในขณะที่สร้างความไว้วางใจจากผู้เยี่ยมชม"
+
+#: build/onboarding.js:14
+msgid "Here's what SureCookie will do for you now:"
+msgstr "นี่คือสิ่งที่ SureCookie จะทำให้คุณตอนนี้:"
+
+#: build/onboarding.js:14
+msgid "SureCookie Features"
+msgstr "คุณสมบัติของ SureCookie"
+
+#: build/onboarding.js:6
+msgid "Exit Setup"
+msgstr "ออกจากการตั้งค่า"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "This website uses cookies to enhance your browsing experience, personalize content, provide social media features, and analyze our traffic. You can review and manage your cookie settings at any time, or accept all cookies to proceed."
+msgstr "เว็บไซต์นี้ใช้คุกกี้เพื่อเพิ่มประสบการณ์การท่องเว็บของคุณ ปรับแต่งเนื้อหา ให้ฟีเจอร์โซเชียลมีเดีย และวิเคราะห์การเข้าชม คุณสามารถตรวจสอบและจัดการการตั้งค่าคุกกี้ได้ตลอดเวลา หรือยอมรับคุกกี้ทั้งหมดเพื่อดำเนินการต่อ"
+
+#: build/public.js:4
+msgid "Cookie Consent"
+msgstr "ความยินยอมคุกกี้"
+
+#: build/public.js:4
+msgid "Banner logo"
+msgstr "โลโก้แบนเนอร์"
+
+#: build/public.js:4
+msgid "Decline all non-essential cookies"
+msgstr "ปฏิเสธคุกกี้ที่ไม่จำเป็นทั้งหมด"
+
+#: build/public.js:4
+msgid "Manage cookie preferences"
+msgstr "จัดการความชอบคุกกี้"
+
+#: build/public.js:4
+msgid "Accept only essential cookies"
+msgstr "ยอมรับเฉพาะคุกกี้ที่จำเป็น"
+
+#: build/public.js:4
+msgid "Accept all cookies"
+msgstr "ยอมรับคุกกี้ทั้งหมด"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Consent Forwarding"
+msgstr "การส่งต่อความยินยอม"
+
+#: build/admin.js:2
+msgid "Want custom brand colors?"
+msgstr "ต้องการสีแบรนด์ที่กำหนดเองหรือไม่?"
+
+#: build/admin.js:3
+#: build/admin.js:4
+msgid "Received from"
+msgstr "ได้รับจาก"
+
+#: build/admin.js:3
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Received"
+msgstr "ได้รับ"
+
+#. translators: %d: number of sites
+#: build/admin.js:4
+#, js-format
+msgid "Shared to %d site(s)"
+msgstr "แชร์ไปยัง %d เว็บไซต์"
+
+#: build/admin.js:4
+msgid "Consent not received for"
+msgstr "ไม่ได้รับความยินยอมสำหรับ"
+
+#: build/admin.js:4
+msgid "These categories exist only on this site and were not part of the forwarded consent. The visitor will be prompted to set their preferences for these when they visit this site directly."
+msgstr "หมวดหมู่เหล่านี้มีเฉพาะในเว็บไซต์นี้เท่านั้นและไม่ได้เป็นส่วนหนึ่งของความยินยอมที่ส่งต่อ ผู้เยี่ยมชมจะถูกขอให้ตั้งค่าความชอบสำหรับหมวดหมู่เหล่านี้เมื่อพวกเขาเยี่ยมชมเว็บไซต์นี้โดยตรง"
+
+#: build/admin.js:4
+msgid "More information about these categories"
+msgstr "ข้อมูลเพิ่มเติมเกี่ยวกับหมวดหมู่เหล่านี้"
+
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Shared"
+msgstr "แชร์"
+
+#: build/admin.js:4
+msgid "Shared to"
+msgstr "แชร์ไปยัง"
+
+#: build/admin.js:4
+msgid "Consent Session ID"
+msgstr "รหัสเซสชันความยินยอม"
+
+#: build/admin.js:4
+msgid "Localhost"
+msgstr "โฮสต์เครื่องท้องถิ่น"
+
+#: build/admin.js:6
+msgid "Consent log export upgrade"
+msgstr "อัปเกรดการส่งออกบันทึกความยินยอม"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preference sections"
+msgstr "ส่วนความชอบ"
+
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Cookies"
+msgstr "คุกกี้"
+
+#. translators: %d: number of partner sites
+#: build/admin.js:51
+#: build/public.js:2
+#, js-format
+msgid "%d connected site(s)"
+msgstr "%d เว็บไซต์ที่เชื่อมต่อ"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Sites that will receive your consent"
+msgstr "เว็บไซต์ที่จะได้รับความยินยอมของคุณ"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "No partner sites configured."
+msgstr "ไม่มีการตั้งค่าเว็บไซต์พันธมิตร"
+
+#: build/admin.js:53
+msgid "Cookie Notice"
+msgstr "ประกาศคุกกี้"
+
+#: build/admin.js:84
+msgid "Automatically sync cookie consent across multiple domains and forward consent choices to connected services, without asking visitors to consent again."
+msgstr "ซิงค์ความยินยอมคุกกี้โดยอัตโนมัติข้ามหลายโดเมนและส่งต่อการเลือกความยินยอมไปยังบริการที่เชื่อมต่อโดยไม่ต้องขอให้ผู้เยี่ยมชมให้ความยินยอมอีกครั้ง"
+
+#: inc/modules/mcp/server.php:100
+msgid "SureCookie MCP Server"
+msgstr "เซิร์ฟเวอร์ SureCookie MCP"
+
+#: inc/modules/mcp/server.php:101
+msgid "SureCookie MCP Server for cookie consent settings, consent logs, cookie management, and site scanning workflows."
+msgstr "เซิร์ฟเวอร์ SureCookie MCP สำหรับการตั้งค่าความยินยอมคุกกี้ บันทึกความยินยอม การจัดการคุกกี้ และเวิร์กโฟลว์การสแกนไซต์"
+
+#. translators: %s: navigation group label
+#: build/admin.js:2
+#, js-format
+msgid "%s submenu"
+msgstr "%s เมนูย่อย"
+
+#: build/admin.js:2
+msgid "General"
+msgstr "ทั่วไป"
+
+#: build/admin.js:2
+msgid "Consent & Data"
+msgstr "ความยินยอม & ข้อมูล"
+
+#: build/admin.js:2
+msgid "Consent Frameworks"
+msgstr "กรอบความยินยอม"
+
+#: build/admin.js:2
+msgid "IAB-TCF"
+msgstr "IAB-TCF"
+
+#: build/admin.js:2
+msgid "Enter text"
+msgstr "ป้อนข้อความ"
+
+#: build/admin.js:2
+msgid "Enter Banner Message"
+msgstr "ป้อนข้อความแบนเนอร์"
+
+#: build/admin.js:2
+msgid "Control how long consent stays valid and how consent records are stored."
+msgstr "ควบคุมระยะเวลาที่ความยินยอมยังคงใช้ได้และวิธีการจัดเก็บบันทึกความยินยอม"
+
+#: build/admin.js:4
+msgid "N/A"
+msgstr "ไม่มี"
+
+#. translators: %d: number of partner sites that received the forwarded consent.
+#: build/admin.js:15
+#, js-format
+msgid "This consent was shared with %d connected site. Deleting it here will also erase the copy from that site (GDPR Art. 17)."
+msgid_plural "This consent was shared with %d connected sites. Deleting it here will also erase the copies from those sites (GDPR Art. 17)."
+msgstr[0] "ความยินยอมนี้ถูกแชร์กับเว็บไซต์ที่เชื่อมต่อ %d แห่ง การลบที่นี่จะลบสำเนาจากเว็บไซต์ดังกล่าวด้วย (GDPR มาตรา 17)"
+
+#. translators: %d: number of selected logs that were forwarded to partner sites.
+#: build/admin.js:21
+#, js-format
+msgid "%d of these logs was shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgid_plural "%d of these logs were shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgstr[0] "บันทึก %d รายการจากรายการเหล่านี้ถูกแชร์กับเว็บไซต์พันธมิตรที่เชื่อมต่อ การลบจะลบสำเนาที่ส่งต่อเหล่านั้นด้วย (GDPR มาตรา 17)"
+
+#: build/admin.js:53
+msgid "Admin and plugin preferences for SureCookie."
+msgstr "การตั้งค่าผู้ดูแลระบบและปลั๊กอินสำหรับ SureCookie"
+
+#: build/admin.js:53
+msgid "SureCookie Admin Menu"
+msgstr "เมนูผู้ดูแลระบบ SureCookie"
+
+#: build/admin.js:53
+msgid "Toggle to show SureCookie in the main menu or under Settings → SureCookie."
+msgstr "สลับเพื่อแสดง SureCookie ในเมนูหลักหรือภายใต้ การตั้งค่า → SureCookie"
+
+#: build/admin.js:84
+msgid "Connect Your AI Client"
+msgstr "เชื่อมต่อไคลเอนต์ AI ของคุณ"
+
+#: build/admin.js:84
+msgid "Create an Application Password"
+msgstr "สร้างรหัสผ่านแอปพลิเคชัน"
+
+#: build/admin.js:84
+msgid "Open Application Passwords"
+msgstr "เปิดรหัสผ่านแอปพลิเคชัน"
+
+#: build/admin.js:84
+msgid "Add to your AI client:"
+msgstr "เพิ่มไปยังไคลเอนต์ AI ของคุณ:"
+
+#: build/admin.js:84
+msgid "Learn more about the WordPress MCP Adapter"
+msgstr "เรียนรู้เพิ่มเติมเกี่ยวกับ WordPress MCP Adapter"
+
+#: build/admin.js:84
+msgid "Claude Code"
+msgstr "Claude Code"
+
+#: build/admin.js:84
+msgid "Claude Desktop"
+msgstr "Claude Desktop"
+
+#: build/admin.js:84
+msgid "Cursor"
+msgstr "Cursor"
+
+#: build/admin.js:84
+msgid "VS Code"
+msgstr "VS Code"
+
+#: build/admin.js:84
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+#: build/admin.js:84
+msgid "go to Settings → Connectors → Add Connector, paste the endpoint URL, and use your WordPress username + Application Password."
+msgstr "ไปที่ การตั้งค่า → ตัวเชื่อมต่อ → เพิ่มตัวเชื่อมต่อ วาง URL จุดสิ้นสุด และใช้ชื่อผู้ใช้ WordPress + รหัสผ่านแอปพลิเคชันของคุณ"
+
+#: build/admin.js:84
+msgid "Learn more about ChatGPT connectors"
+msgstr "เรียนรู้เพิ่มเติมเกี่ยวกับตัวเชื่อมต่อ ChatGPT"
+
+#: build/admin.js:84
+msgid "SureCookie Only"
+msgstr "เฉพาะ SureCookie"
+
+#: build/admin.js:84
+msgid "Global"
+msgstr "ทั่วโลก"
+
+#: build/admin.js:84
+msgid "Copy setup prompt for AI client"
+msgstr "คัดลอกพรอมต์การตั้งค่าสำหรับไคลเอนต์ AI"
+
+#: build/admin.js:84
+msgid "Prompt copied! Paste it into your AI client."
+msgstr "คัดลอกพรอมต์แล้ว! วางลงในไคลเอนต์ AI ของคุณ"
+
+#: build/admin.js:84
+msgid "Failed to copy prompt to clipboard"
+msgstr "ไม่สามารถคัดลอกพรอมต์ไปยังคลิปบอร์ดได้"
+
+#: build/admin.js:84
+msgid "Copy JSON config"
+msgstr "คัดลอกการตั้งค่า JSON"
+
+#: build/admin.js:84
+msgid "Copied to clipboard"
+msgstr "คัดลอกไปยังคลิปบอร์ดแล้ว"
+
+#: build/admin.js:84
+msgid "Failed to copy to clipboard"
+msgstr "ไม่สามารถคัดลอกไปยังคลิปบอร์ดได้"
+
+#: build/admin.js:84
+msgid "MCP Adapter plugin not detected"
+msgstr "ไม่พบปลั๊กอิน MCP Adapter"
+
+#. translators: %s: WP MCP Adapter plugin name.
+#: build/admin.js:87
+#, js-format
+msgid "To connect AI clients to your site, the %s plugin is required. Download the latest release from GitHub, upload it via Plugins > Add New > Upload Plugin, and activate."
+msgstr "ในการเชื่อมต่อไคลเอนต์ AI กับไซต์ของคุณ จำเป็นต้องใช้ปลั๊กอิน %s ดาวน์โหลดเวอร์ชันล่าสุดจาก GitHub อัปโหลดผ่าน ปลั๊กอิน > เพิ่มใหม่ > อัปโหลดปลั๊กอิน และเปิดใช้งาน"
+
+#: build/admin.js:87
+msgid "Download from GitHub"
+msgstr "ดาวน์โหลดจาก GitHub"
+
+#: build/admin.js:2
+#: build/admin.js:87
+msgid "MCP"
+msgstr "MCP"
+
+#: build/admin.js:87
+msgid "Configure AI client access to SureCookie through the Model Context Protocol."
+msgstr "กำหนดการเข้าถึงไคลเอนต์ AI ไปยัง SureCookie ผ่านโปรโตคอล Model Context"
+
+#: build/admin.js:87
+msgid "Enable MCP"
+msgstr "เปิดใช้งาน MCP"
+
+#: build/admin.js:87
+msgid "Allow AI clients like Claude, ChatGPT, and Cursor to manage your cookie banner, scanner, and consent settings through SureCookie. When disabled, no abilities are registered and AI clients cannot connect."
+msgstr "อนุญาตให้ไคลเอนต์ AI เช่น Claude, ChatGPT และ Cursor จัดการแบนเนอร์คุกกี้ เครื่องสแกน และการตั้งค่าความยินยอมผ่าน SureCookie เมื่อปิดใช้งาน จะไม่มีการลงทะเบียนความสามารถและไคลเอนต์ AI จะไม่สามารถเชื่อมต่อได้"
+
+#: build/admin.js:87
+msgid "WordPress Abilities API not available"
+msgstr "ไม่พบ WordPress Abilities API"
+
+#: build/admin.js:87
+msgid "MCP requires the WordPress Abilities API (WordPress 6.9 or later). Update WordPress to use this feature."
+msgstr "MCP ต้องการ WordPress Abilities API (WordPress 6.9 หรือใหม่กว่า) โปรดอัปเดต WordPress เพื่อใช้ฟีเจอร์นี้"
+
+#: build/admin.js:87
+msgid "Unsaved changes"
+msgstr "การเปลี่ยนแปลงที่ยังไม่ได้บันทึก"
+
+#: build/admin.js:87
+msgid "The MCP endpoint becomes active only after you save your settings."
+msgstr "จุดเชื่อมต่อ MCP จะเริ่มทำงานก็ต่อเมื่อคุณบันทึกการตั้งค่าของคุณแล้วเท่านั้น"
+
+#: inc/api/consent-logs.php:404
+msgid "Unable to determine the current user."
+msgstr "ไม่สามารถระบุผู้ใช้ปัจจุบันได้"
+
+#: inc/api/consent-logs.php:415
+msgid "Consent logs marked as viewed."
+msgstr "บันทึกความยินยอมถูกทำเครื่องหมายว่าได้ดูแล้ว"
+
+#: inc/api/plugin.php:214
+msgid "This plugin is network-activated and must be deactivated by a Network Administrator from Network Admin > Plugins."
+msgstr "ปลั๊กอินนี้ถูกเปิดใช้งานในเครือข่ายและต้องถูกปิดใช้งานโดยผู้ดูแลระบบเครือข่ายจาก เครือข่ายผู้ดูแล > ปลั๊กอิน"
+
+#: inc/api/plugin.php:225
+msgid "Plugin could not be deactivated."
+msgstr "ไม่สามารถปิดใช้งานปลั๊กอินได้"
+
+#: inc/modules/automatic-scanning/api.php:118
+msgid "Enable Automatic Scanning before running a scan."
+msgstr "เปิดใช้งานการสแกนอัตโนมัติก่อนเริ่มการสแกน"
+
+#: inc/modules/automatic-scanning/api.php:122
+msgid "A scan is already in progress."
+msgstr "กำลังดำเนินการสแกนอยู่แล้ว"
+
+#: inc/modules/automatic-scanning/api.php:128
+msgid "Could not start the scan. Please try again."
+msgstr "ไม่สามารถเริ่มการสแกนได้ กรุณาลองใหม่อีกครั้ง"
+
+#: inc/modules/automatic-scanning/api.php:131
+msgid "Scan triggered."
+msgstr "เริ่มการสแกนแล้ว"
+
+#: inc/modules/automatic-scanning/runner.php:100
+msgid "Automatic scan deferred: daily page budget reached. Retrying in ~24 hours."
+msgstr "การสแกนอัตโนมัติถูกเลื่อนออกไป: ถึงงบประมาณหน้ารายวันแล้ว จะลองใหม่ใน ~24 ชั่วโมง"
+
+#: inc/modules/automatic-scanning/runner.php:124
+msgid "Automatic scan skipped: a scan is already in progress."
+msgstr "ข้ามการสแกนอัตโนมัติ: กำลังดำเนินการสแกนอยู่แล้ว"
+
+#: inc/modules/automatic-scanning/runner.php:142
+msgid "Starting automatic (scheduled) scan."
+msgstr "เริ่มการสแกนอัตโนมัติ (ตามกำหนดเวลา)"
+
+#: inc/modules/automatic-scanning/scheduler.php:85
+msgid "Once Monthly (SureCookie)"
+msgstr "เดือนละครั้ง (SureCookie)"
+
+#: inc/modules/automatic-scanning/scheduler.php:92
+msgid "Once Weekly (SureCookie)"
+msgstr "สัปดาห์ละครั้ง (SureCookie)"
+
+#: inc/modules/script-blocking/blocker.php:1279
+msgid "This content is currently blocked."
+msgstr "เนื้อหานี้ถูกบล็อกในขณะนี้"
+
+#: inc/modules/site-scanner/saas-client.php:519
+msgid "Scan deferred by server: daily page budget reached. It will retry automatically."
+msgstr "การสแกนถูกเลื่อนโดยเซิร์ฟเวอร์: ถึงงบประมาณหน้ารายวันแล้ว จะลองใหม่โดยอัตโนมัติ"
+
+#: inc/modules/site-scanner/saas-client.php:524
+msgid "Daily page budget reached. The scheduled scan will retry automatically."
+msgstr "ถึงงบประมาณหน้ารายวันแล้ว การสแกนตามกำหนดเวลาจะลองใหม่โดยอัตโนมัติ"
+
+#: build/admin.js:2
+#: build/admin.js:79
+msgid "Manual"
+msgstr "ด้วยตนเอง"
+
+#: build/admin.js:2
+msgid "Automatic"
+msgstr "อัตโนมัติ"
+
+#: build/admin.js:2
+msgid "Reset to default"
+msgstr "รีเซ็ตเป็นค่าเริ่มต้น"
+
+#: build/admin.js:2
+msgid "Enable Background Overlay"
+msgstr "เปิดใช้งานพื้นหลังซ้อนทับ"
+
+#: build/admin.js:2
+msgid "Background Overlay"
+msgstr "พื้นหลังซ้อนทับ"
+
+#: build/admin.js:2
+msgid "Dim the page behind the banner and limit interaction until the visitor accepts or declines. The overlay is removed after a choice is made."
+msgstr "ทำให้หน้าด้านหลังแบนเนอร์มืดลงและจำกัดการโต้ตอบจนกว่าผู้เยี่ยมชมจะยอมรับหรือปฏิเสธ พื้นหลังซ้อนทับจะถูกลบหลังจากเลือกแล้ว"
+
+#: build/admin.js:2
+msgid "This layout highlights the consent banner and may affect user experience. Ensure it aligns with your regional consent requirements."
+msgstr "เลย์เอาต์นี้เน้นแบนเนอร์ความยินยอมและอาจส่งผลต่อประสบการณ์ผู้ใช้ โปรดตรวจสอบให้แน่ใจว่าเป็นไปตามข้อกำหนดความยินยอมในภูมิภาคของคุณ"
+
+#: build/admin.js:2
+#: build/admin.js:3
+msgid "Re-request Consent"
+msgstr "ขอความยินยอมอีกครั้ง"
+
+#. translators: %s: date/time of the last renewal.
+#: build/admin.js:3
+#, js-format
+msgid "Last Requested: %s"
+msgstr "ขอครั้งล่าสุด: %s"
+
+#: build/admin.js:3
+msgid "Ask all visitors to provide consent again. Use this after updating your cookie policy or adding new trackers. Existing consent will be marked as outdated, and the banner will reappear on the next visit."
+msgstr "ขอให้ผู้เยี่ยมชมทุกคนให้ความยินยอมอีกครั้ง ใช้หลังจากอัปเดตนโยบายคุกกี้หรือเพิ่มตัวติดตามใหม่ ความยินยอมที่มีอยู่จะถูกทำเครื่องหมายว่าไม่ทันสมัย และแบนเนอร์จะปรากฏอีกครั้งในการเยี่ยมชมครั้งถัดไป"
+
+#: build/admin.js:3
+msgid "Consent requested. Visitors will be asked for consent again."
+msgstr "ขอความยินยอมแล้ว ผู้เยี่ยมชมจะถูกขอความยินยอมอีกครั้ง"
+
+#: build/admin.js:3
+msgid "Could not Re-request Consent. Please try again."
+msgstr "ไม่สามารถขอความยินยอมอีกครั้งได้ กรุณาลองใหม่อีกครั้ง"
+
+#: build/admin.js:3
+msgid "Renewing…"
+msgstr "กำลังต่ออายุ…"
+
+#: build/admin.js:3
+msgid "Confirm Re-request"
+msgstr "ยืนยันการขออีกครั้ง"
+
+#: build/admin.js:22
+#: build/onboarding.js:2
+msgid "New"
+msgstr "ใหม่"
+
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Automatic Scanning"
+msgstr "การสแกนอัตโนมัติ"
+
+#: build/admin.js:43
+msgid "Manage"
+msgstr "จัดการ"
+
+#: build/admin.js:43
+msgid "Since the last scan:"
+msgstr "ตั้งแต่การสแกนครั้งล่าสุด:"
+
+#: build/admin.js:43
+msgid "removed"
+msgid_plural "new cookies"
+msgstr[0] "ถูกลบ"
+
+#: build/admin.js:43
+msgid "No scans yet. Schedule automatic scans to track changes over time."
+msgid_plural "new tracker domains"
+msgstr[0] "ยังไม่มีการสแกน กำหนดเวลาการสแกนอัตโนมัติเพื่อติดตามการเปลี่ยนแปลงตามเวลา"
+
+#. translators: %s: next scan date
+#: build/admin.js:44
+#, js-format
+msgid "Next scan: %s"
+msgstr "การสแกนครั้งถัดไป: %s"
+
+#: build/admin.js:44
+msgid "Scheduling is off"
+msgstr "ปิดการกำหนดเวลา"
+
+#: build/admin.js:75
+msgid "Network-activated"
+msgstr "เปิดใช้งานในเครือข่าย"
+
+#: build/admin.js:75
+msgid "Manage in Network Admin"
+msgstr "จัดการในผู้ดูแลระบบเครือข่าย"
+
+#: build/admin.js:76
+msgid "Google Consent Mode is enabled, so SureCookie allows Google's Consent Mode scripts to function correctly. As a result, this script cannot be blocked."
+msgstr "โหมดความยินยอมของ Google ถูกเปิดใช้งาน ดังนั้น SureCookie จึงอนุญาตให้สคริปต์โหมดความยินยอมของ Google ทำงานได้อย่างถูกต้อง ด้วยเหตุนี้สคริปต์นี้จึงไม่สามารถถูกบล็อกได้"
+
+#: build/admin.js:78
+msgid "Necessary"
+msgstr "จำเป็น"
+
+#: build/admin.js:78
+msgid "What Changed in the Last Scan"
+msgstr "มีการเปลี่ยนแปลงอะไรบ้างในการสแกนครั้งล่าสุด"
+
+#: build/admin.js:78
+msgid "Cookies and tracker domains that changed compared to the previous scan."
+msgstr "คุกกี้และโดเมนตัวติดตามที่เปลี่ยนแปลงเมื่อเทียบกับการสแกนก่อนหน้า"
+
+#: build/admin.js:78
+msgid "No differences were detected compared to the previous scan."
+msgstr "ไม่พบความแตกต่างเมื่อเทียบกับการสแกนก่อนหน้า"
+
+#: build/admin.js:78
+msgid "New Cookies"
+msgstr "คุกกี้ใหม่"
+
+#: build/admin.js:78
+msgid "No Longer Detected"
+msgstr "ไม่พบอีกต่อไป"
+
+#: build/admin.js:78
+msgid "Recategorized"
+msgstr "จัดหมวดหมู่ใหม่"
+
+#: build/admin.js:78
+msgid "New Tracker Domains"
+msgstr "โดเมนตัวติดตามใหม่"
+
+#: build/admin.js:78
+msgid "Third-party"
+msgstr "บุคคลที่สาม"
+
+#: build/admin.js:78
+msgid "Monthly"
+msgstr "รายเดือน"
+
+#: build/admin.js:78
+msgid "Re-scan your site once a month."
+msgstr "สแกนไซต์ของคุณใหม่ทุกเดือน"
+
+#: build/admin.js:78
+msgid "Weekly"
+msgstr "รายสัปดาห์"
+
+#: build/admin.js:78
+msgid "Re-scan every week for faster drift detection."
+msgstr "สแกนใหม่ทุกสัปดาห์เพื่อการตรวจจับการเปลี่ยนแปลงที่รวดเร็วขึ้น"
+
+#: build/admin.js:78
+msgid "All Published Content"
+msgstr "เนื้อหาที่เผยแพร่ทั้งหมด"
+
+#: build/admin.js:78
+msgid "Enable Automatic Scanning"
+msgstr "เปิดใช้งานการสแกนอัตโนมัติ"
+
+#: build/admin.js:78
+msgid "Run scheduled scans in the background and detect changes automatically."
+msgstr "รันการสแกนตามกำหนดเวลาในพื้นหลังและตรวจจับการเปลี่ยนแปลงโดยอัตโนมัติ"
+
+#: build/admin.js:78
+msgid "Scan Frequency"
+msgstr "ความถี่ในการสแกน"
+
+#: build/admin.js:78
+msgid "WordPress cron is disabled"
+msgstr "WordPress cron ถูกปิดใช้งาน"
+
+#: build/admin.js:78
+msgid "Scheduled scans rely on cron. Ask your host to set up a real server cron job so automatic scans run on time."
+msgstr "การสแกนตามกำหนดเวลาขึ้นอยู่กับ cron โปรดขอให้โฮสต์ของคุณตั้งค่า cron งานเซิร์ฟเวอร์จริงเพื่อให้การสแกนอัตโนมัติทำงานตรงเวลา"
+
+#: build/admin.js:78
+msgid "Last Scan"
+msgstr "การสแกนล่าสุด"
+
+#. translators: %s: last scan date-time
+#: build/admin.js:79
+#, js-format
+msgid "Scanned on %s"
+msgstr "สแกนเมื่อ %s"
+
+#: build/admin.js:79
+msgid "Scheduled"
+msgstr "ตามกำหนด"
+
+#. translators: %d: number of new cookies
+#: build/admin.js:80
+#, js-format
+msgid "%d New Cookies"
+msgstr "%d คุกกี้ใหม่"
+
+#. translators: %d: number of cookies no longer detected
+#: build/admin.js:81
+#, js-format
+msgid "%d Removed"
+msgstr "%d ถูกลบ"
+
+#. translators: %d: number of recategorized cookies
+#: build/admin.js:82
+#, js-format
+msgid "%d Recategorized"
+msgstr "%d จัดหมวดหมู่ใหม่"
+
+#. translators: %d: number of new tracker domains
+#: build/admin.js:83
+#, js-format
+msgid "%d New Tracker Domains"
+msgstr "%d โดเมนตัวติดตามใหม่"
+
+#: build/admin.js:83
+msgid "View Changes"
+msgstr "ดูการเปลี่ยนแปลง"
+
+#: build/admin.js:83
+msgid "No scans yet - run your first scan to start monitoring changes."
+msgstr "ยังไม่มีการสแกน - เริ่มสแกนครั้งแรกเพื่อเริ่มติดตามการเปลี่ยนแปลง"
+
+#: build/admin.js:83
+msgid "Stay Compliant Automatically"
+msgstr "รักษาความสอดคล้องโดยอัตโนมัติ"
+
+#: build/admin.js:83
+msgid "Get weekly scans, instant alerts, smart classification, and automatic protection from new trackers."
+msgstr "รับการสแกนรายสัปดาห์ การแจ้งเตือนทันที การจัดประเภทอัจฉริยะ และการป้องกันอัตโนมัติจากตัวติดตามใหม่"
+
+#. translators: %d: maximum pages
+#: build/onboarding.js:11
+#, js-format
+msgid "SureCookie agent will visit them like real users to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "ตัวแทน SureCookie จะเยี่ยมชมเหมือนผู้ใช้จริงเพื่อตรวจจับคุกกี้ทั้งหมดที่ใช้งาน อนุญาต %d หน้า ต่อการสแกนเนื่องจากข้อจำกัดของทรัพยากร"
+
+#. translators: 1: remaining pages, 2: total daily page budget
+#: build/admin.js:70
+#, js-format
+msgid "%1$d of %2$d daily pages remaining on this site"
+msgstr "%1$d จาก %2$d หน้าต่อวันที่เหลืออยู่ในไซต์นี้"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "<p>By scanning you accept our <a>terms and conditions</a>.</p>"
+msgstr "<p>โดยการสแกน คุณยอมรับ <a>ข้อกำหนดและเงื่อนไข</a> ของเรา</p>"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Terms and Conditions"
+msgstr "ข้อกำหนดและเงื่อนไข"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Cookie Scanning Not Available on Local Sites"
+msgstr "ไม่สามารถสแกนคุกกี้บนไซต์ท้องถิ่นได้"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "This site is running on a local or development environment that our cloud scanner cannot reach. Cookie scanning will be available once your site is live on a publicly accessible domain."
+msgstr "ไซต์นี้กำลังทำงานบนสภาพแวดล้อมท้องถิ่นหรือสภาพแวดล้อมการพัฒนาที่เครื่องสแกนคลาวด์ของเราไม่สามารถเข้าถึงได้ การสแกนคุกกี้จะพร้อมใช้งานเมื่อไซต์ของคุณเปิดใช้งานบนโดเมนที่เข้าถึงได้สาธารณะ"
+
+#: build/onboarding.js:14
+msgid "Skip for Now"
+msgstr "ข้ามตอนนี้"
+
+#: build/onboarding.js:14
+msgid "Stay in the loop and help shape SureCookie! Get feature updates, and help us build a better SureCookie by sharing how you use the plugin. <a>Terms and Conditions</a>"
+msgstr "ติดตามข่าวสารและช่วยกำหนดทิศทาง SureCookie! รับการอัปเดตฟีเจอร์ และช่วยเราสร้าง SureCookie ที่ดียิ่งขึ้นโดยการแบ่งปันวิธีที่คุณใช้ปลั๊กอินนี้ <a>ข้อกำหนดและเงื่อนไข</a>"
+
+#: admin/product-promotion.php:104
+msgid "Grow traffic of your website with SureRank - a lightweight SEO toolkit plugin for WordPress users who want better rankings without the complexity."
+msgstr "เพิ่มการเข้าชมเว็บไซต์ของคุณด้วย SureRank - ปลั๊กอินชุดเครื่องมือ SEO ที่เบาสำหรับผู้ใช้ WordPress ที่ต้องการอันดับที่ดีขึ้นโดยไม่ยุ่งยากซับซ้อน"
+
+#: admin/rating-notice.php:232
+msgid "Amazing! SureCookie discovered cookies on your site - let's keep growing together!"
+msgstr "ยอดเยี่ยม! SureCookie ค้นพบคุกกี้บนไซต์ของคุณ - มาเติบโตไปด้วยกันต่อไป!"
+
+#. translators: 1: page URL, 2: error message
+#: inc/modules/site-scanner/saas-client.php:989
+#, php-format
+msgid "Page failed: %1$s - %2$s"
+msgstr "หน้าล้มเหลว: %1$s - %2$s"
+
+#: build/admin.js:43
+msgid "WP-Cron disabled - scans won’t run automatically"
+msgstr "WP-Cron ถูกปิดใช้งาน - การสแกนจะไม่ทำงานโดยอัตโนมัติ"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Consider Plan Upgrade"
+msgstr "พิจารณาอัปเกรดแผน"
+
+#. translators: 1: pages scanned, 2: pages submitted
+#: build/admin.js:75
+#, js-format
+msgid "Scanned %1$d of %2$d pages - your daily page budget is used up. The remaining pages will scan after it resets."
+msgstr "สแกนแล้ว %1$d จาก %2$d หน้า - โควตาหน้ารายวันของคุณถูกใช้หมดแล้ว หน้าที่เหลือจะถูกสแกนหลังจากโควตารีเซ็ต"
+
+#: build/admin.js:84
+msgid "Update the environment variables"
+msgstr "อัปเดตตัวแปรสภาพแวดล้อม"
+
+#: build/admin.js:84
+msgid "WP_API_USERNAME"
+msgstr "WP_API_USERNAME"
+
+#: build/admin.js:84
+msgid "Your WordPress username (prefilled)."
+msgstr "ชื่อผู้ใช้ WordPress ของคุณ (กรอกไว้ล่วงหน้า)"
+
+#: build/admin.js:84
+msgid "WP_API_PASSWORD"
+msgstr "WP_API_PASSWORD"
+
+#: build/admin.js:84
+msgid "Replace \"your-application-password\" with the password from Step 1."
+msgstr "แทนที่ \"your-application-password\" ด้วยรหัสผ่านจากขั้นตอนที่ 1"
+
+#: build/admin.js:84
+msgid "Verify Node.js version"
+msgstr "ตรวจสอบเวอร์ชัน Node.js"
+
+#: build/admin.js:84
+msgid "In your terminal, run:"
+msgstr "ในเทอร์มินัลของคุณ ให้รันคำสั่ง:"
+
+#: build/admin.js:84
+msgid "The version must be 20.1 or higher."
+msgstr "เวอร์ชันต้องเป็น 20.1 ขึ้นไป"
+
+#: build/admin.js:84
+msgid "If it is lower, run:"
+msgstr "หากต่ำกว่านั้น ให้รันคำสั่ง:"
+
+#: build/admin.js:84
+msgid "Restart your AI client and paste the copied prompt again into your AI client."
+msgstr "รีสตาร์ทไคลเอนต์ AI ของคุณ แล้ววางพรอมต์ที่คัดลอกไว้ลงในไคลเอนต์ AI ของคุณอีกครั้ง"
+
+#: build/admin.js:84
+msgid "Enjoy your AI client connected to your WordPress site!"
+msgstr "เพลิดเพลินกับไคลเอนต์ AI ที่เชื่อมต่อกับไซต์ WordPress ของคุณ!"
+
+#: admin/rating-notice.php:156
+msgid "Invalid nonce."
+msgstr "nonce ไม่ถูกต้อง."
+
+#: admin/rating-notice.php:158
+msgid "Unauthorized user."
+msgstr "ผู้ใช้ไม่ได้รับอนุญาต."
+
+#: admin/rating-notice.php:171
+msgid "Invalid parameters."
+msgstr "พารามิเตอร์ไม่ถูกต้อง."
+
+#: build/admin.js:9
+#: build/admin.js:12
+#: build/admin.js:18
+msgid "log"
+msgid_plural "logs"
+msgstr[0] "บันทึก"
+
+#: build/admin.js:28
+msgid "cookie"
+msgid_plural "cookies"
+msgstr[0] "คุกกี้"
+
+#: build/admin.js:43
+msgid "new cookie"
+msgid_plural "new cookies"
+msgstr[0] "คุกกี้ใหม่"
+
+#: build/admin.js:43
+msgid "new tracker domain"
+msgid_plural "new tracker domains"
+msgstr[0] "โดเมนตัวติดตามใหม่"
+
+#: build/admin.js:47
+msgid "More scan limits, geographic targeting, re-consent widget, and more."
+msgstr "ขีดจำกัดการสแกนมากขึ้น, การกำหนดเป้าหมายทางภูมิศาสตร์, วิดเจ็ตขอความยินยอมใหม่ และอื่นๆ."
+
+#: inc/integrations/presto-player/block-handler.php:293
+msgid "This audio is blocked until you accept cookies to load it."
+msgstr "เสียงนี้ถูกบล็อกจนกว่าคุณจะยอมรับคุกกี้เพื่อโหลดมัน"
+
+#: inc/integrations/presto-player/block-handler.php:297
+msgid "This video is blocked until you accept cookies to load it."
+msgstr "วิดีโอนี้ถูกบล็อกจนกว่าคุณจะยอมรับคุกกี้เพื่อโหลดมัน"
+
+#: build/admin.js:2
+msgid "Tools"
+msgstr "เครื่องมือ"
+
+#: build/admin.js:2
+msgid "You've used all available AI requests in your Free Plan. Upgrade to SureCookie premium to keep using AI features."
+msgstr "คุณใช้คำขอ AI ที่มีอยู่ทั้งหมดในแผนฟรีของคุณแล้ว อัปเกรดเป็น SureCookie พรีเมียมเพื่อใช้ฟีเจอร์ AI ต่อไป"
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to access this feature."
+msgstr "อัปเกรดเป็น SureCookie พรีเมียมเพื่อเข้าถึงฟีเจอร์นี้"
+
+#: build/admin.js:2
+msgid "Is this button order not showing on the frontend?"
+msgstr "คำสั่งปุ่มนี้ไม่แสดงบนหน้าเว็บไซต์หรือไม่?"
+
+#: build/admin.js:2
+msgid "Visitors who match a region-specific rule will see the button order defined for that region. This global order is shown only to visitors who don't match any regional rules."
+msgstr "ผู้เยี่ยมชมที่ตรงกับกฎเฉพาะภูมิภาคจะเห็นคำสั่งปุ่มที่กำหนดสำหรับภูมิภาคนั้น คำสั่งทั่วโลกนี้จะแสดงเฉพาะผู้เยี่ยมชมที่ไม่ตรงกับกฎภูมิภาคใดๆ"
+
+#: build/admin.js:2
+msgid "Manage Geo Rules"
+msgstr "จัดการกฎภูมิศาสตร์"
+
+#: build/admin.js:2
+msgid "You can add links and basic formatting like bold/italic/link to the banner message."
+msgstr "คุณสามารถเพิ่มลิงก์และการจัดรูปแบบพื้นฐาน เช่น ตัวหนา/ตัวเอียง/ลิงก์ ไปยังข้อความแบนเนอร์ได้"
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to pick custom primary, secondary, foreground, and background colors for your banner."
+msgstr "อัปเกรดเป็น SureCookie พรีเมียมเพื่อเลือกสีหลัก สีรอง สีหน้า และสีพื้นหลังที่กำหนดเองสำหรับแบนเนอร์ของคุณ"
+
+#: build/admin.js:6
+msgid "Export Consent Logs"
+msgstr "ส่งออกบันทึกความยินยอม"
+
+#: build/admin.js:6
+msgid "Upgrade to premium to download CSV report for legal audits and GDPR Article 7 documentation."
+msgstr "อัปเกรดเป็นพรีเมียมเพื่อดาวน์โหลดรายงาน CSV สำหรับการตรวจสอบทางกฎหมายและเอกสาร GDPR บทความ 7"
+
+#: build/admin.js:44
+msgid "Grab the Launch Offer"
+msgstr "รับข้อเสนอเปิดตัว"
+
+#: build/admin.js:47
+msgid "Do More with SureCookie Premium"
+msgstr "ทำได้มากขึ้นด้วย SureCookie พรีเมียม"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Checking your scan limits…"
+msgstr "กำลังตรวจสอบขีดจำกัดการสแกนของคุณ…"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Run your first scan to connect this site with SureCookie. Your plan's full scan limits unlock automatically once the connection is established."
+msgstr "ดำเนินการสแกนครั้งแรกเพื่อเชื่อมต่อเว็บไซต์นี้กับ SureCookie ขีดจำกัดการสแกนเต็มของแผนของคุณจะปลดล็อกโดยอัตโนมัติเมื่อการเชื่อมต่อเสร็จสมบูรณ์"
+
+#. translators: %d: maximum pages
+#: build/admin.js:67
+#, js-format
+msgid "We'll visit the selected content to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "เราจะเยี่ยมชมเนื้อหาที่เลือกเพื่อตรวจจับคุกกี้ทั้งหมดที่ใช้งานอยู่ อนุญาต %d หน้า ต่อการสแกนเนื่องจากข้อจำกัดของทรัพยากร"
+
+#. translators: %d: maximum items
+#: build/admin.js:72
+#: build/onboarding.js:13
+#, js-format
+msgid "Select up to %d items to scan…"
+msgstr "เลือกสูงสุด %d รายการเพื่อสแกน…"
+
+#: build/admin.js:72
+#: build/onboarding.js:13
+msgid "Select Content"
+msgstr "เลือกเนื้อหา"
+
+#: build/admin.js:73
+#: build/onboarding.js:14
+msgid "Select the content you want to scan."
+msgstr "เลือกเนื้อหาที่คุณต้องการสแกน"
+
+#: build/admin.js:74
+msgid "Scanning your content for cookies. This may take a few minutes."
+msgstr "กำลังสแกนเนื้อหาของคุณเพื่อหาคุกกี้ อาจใช้เวลาสักครู่"
+
+#: build/admin.js:75
+msgid "Unlock Geo Rules, Advanced Scanning & more with Pro - Grab the launching offer!"
+msgstr "ปลดล็อกกฎภูมิศาสตร์ การสแกนขั้นสูง และอื่นๆ ด้วย Pro - รับข้อเสนอเปิดตัว!"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Claim the Deal"
+msgstr "รับข้อเสนอ"
+
+#: build/admin.js:78
+msgid "Content from Manual Scan"
+msgstr "เนื้อหาจากการสแกนด้วยตนเอง"
+
+#: build/admin.js:78
+msgid "Reuse the content selected on the Cookie Scanner."
+msgstr "ใช้ซ้ำเนื้อหาที่เลือกในเครื่องสแกนคุกกี้"
+
+#: build/admin.js:78
+msgid "Scan all published content, as per plan limit."
+msgstr "สแกนเนื้อหาที่เผยแพร่ทั้งหมด ตามขีดจำกัดของแผน"
+
+#: build/admin.js:78
+msgid "Selected Content"
+msgstr "เนื้อหาที่เลือก"
+
+#: build/admin.js:78
+msgid "Choose specific content to scan below."
+msgstr "เลือกเนื้อหาเฉพาะเพื่อสแกนด้านล่าง"
+
+#: build/admin.js:78
+msgid "Content to Scan"
+msgstr "เนื้อหาที่จะสแกน"
+
+#: build/admin.js:78
+msgid "Select content to scan…"
+msgstr "เลือกเนื้อหาเพื่อสแกน…"
+
+#: build/onboarding.js:6
+msgid "Launch Offer - Save Big"
+msgstr "ข้อเสนอเปิดตัว - ประหยัดมาก"
+
+#: build/onboarding.js:6
+msgid "Limited Time"
+msgstr "เวลาจำกัด"
+
+#: build/onboarding.js:6
+msgid "Upgrade to Premium and unlock advanced scanning, geo rules, custom branding, and priority support."
+msgstr "อัปเกรดเป็นพรีเมียมและปลดล็อกการสแกนขั้นสูง กฎภูมิศาสตร์ การสร้างแบรนด์ที่กำหนดเอง และการสนับสนุนลำดับความสำคัญ"
+
+#: build/onboarding.js:6
+msgid "Failed to activate license. Please try again."
+msgstr "เปิดใช้งานใบอนุญาตไม่สำเร็จ กรุณาลองใหม่อีกครั้ง"
+
+#: build/onboarding.js:6
+msgid "License Activated!"
+msgstr "เปิดใช้งานใบอนุญาตแล้ว!"
+
+#: build/onboarding.js:6
+msgid "Your license has been successfully activated."
+msgstr "ใบอนุญาตของคุณเปิดใช้งานเรียบร้อยแล้ว"
+
+#: build/onboarding.js:6
+msgid "Activation Failed"
+msgstr "การเปิดใช้งานล้มเหลว"
+
+#: build/onboarding.js:6
+msgid "An error occurred during activation. Please try again."
+msgstr "เกิดข้อผิดพลาดระหว่างการเปิดใช้งาน กรุณาลองใหม่อีกครั้ง"
+
+#: build/onboarding.js:6
+msgid "Invalid License Key"
+msgstr "รหัสใบอนุญาตไม่ถูกต้อง"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid license key."
+msgstr "กรุณาใส่รหัสใบอนุญาตที่ถูกต้อง"
+
+#: build/onboarding.js:6
+msgid "Activate Your License"
+msgstr "เปิดใช้งานใบอนุญาตของคุณ"
+
+#: build/onboarding.js:6
+msgid "Activate your SureCookie license to unlock higher scan limits, automatically classify cookies, and get smart compliance recommendations."
+msgstr "เปิดใช้งานใบอนุญาต SureCookie ของคุณเพื่อปลดล็อกขีดจำกัดการสแกนที่สูงขึ้น จัดประเภทคุกกี้โดยอัตโนมัติ และรับคำแนะนำการปฏิบัติตามอย่างชาญฉลาด"
+
+#: build/onboarding.js:6
+msgid "License activated"
+msgstr "เปิดใช้งานใบอนุญาตแล้ว"
+
+#: build/onboarding.js:6
+msgid "Activating…"
+msgstr "กำลังเปิดใช้งาน…"
+
+#: build/admin.js:63
+#: build/onboarding.js:6
+#: build/onboarding.js:7
+msgid "Activate License"
+msgstr "เปิดใช้งานใบอนุญาต"
+
+#: build/onboarding.js:6
+msgid "License Key"
+msgstr "รหัสใบอนุญาต"
+
+#: build/onboarding.js:6
+msgid "Paste your license key here"
+msgstr "วางรหัสใบอนุญาตของคุณที่นี่"
+
+#. translators: %s: Package name (e.g., SureCookie Pro)
+#: build/onboarding.js:7
+#, js-format
+msgid "Activate your <strong>%s</strong> license to receive professional support and automatic updates directly from your WordPress dashboard. Don't have a license? <a>Get it here »</a>"
+msgstr "เปิดใช้งานใบอนุญาต <strong>%s</strong> ของคุณเพื่อรับการสนับสนุนระดับมืออาชีพและการอัปเดตอัตโนมัติโดยตรงจากแดชบอร์ด WordPress ของคุณ ไม่มีใบอนุญาตใช่ไหม? <a>รับได้ที่นี่ »</a>"
+
+#: build/onboarding.js:7
+msgid "Purchase a SureCookie license"
+msgstr "ซื้อใบอนุญาต SureCookie"
+
+#: build/admin.js:2
+msgid "View Plans"
+msgstr "ดูแผน"
+
+#: build/admin.js:4
+msgid "CONSENT RECORD"
+msgstr "บันทึกความยินยอม"
+
+#: build/admin.js:4
+msgid "This document contains a record of the consent choice stored by SureCookie. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "เอกสารนี้ประกอบด้วยบันทึกของตัวเลือกความยินยอมที่จัดเก็บโดย SureCookie ซึ่งอาจใช้สำหรับเอกสารภายในและการตรวจสอบ ข้อกำหนดทางกฎหมายอาจแตกต่างกันไป"
+
+#: build/admin.js:4
+msgid "This document is automatically generated by the SureCookie plugin and contains a record of the consent choice stored at the time of export. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "เอกสารนี้ถูกสร้างขึ้นโดยอัตโนมัติโดยปลั๊กอิน SureCookie และประกอบด้วยบันทึกของตัวเลือกความยินยอมที่จัดเก็บในเวลาที่ส่งออก ซึ่งอาจใช้สำหรับเอกสารภายในและการตรวจสอบ ข้อกำหนดทางกฎหมายอาจแตกต่างกันไป"
+
+#: build/admin.js:43
+msgid "Enter your custom CSS here"
+msgstr "ป้อน CSS ที่กำหนดเองของคุณที่นี่"
+
+#: build/admin.js:43
+msgid "Use !important to override inline styles"
+msgstr "ใช้ !important เพื่อแทนที่สไตล์แบบอินไลน์"
+
+#: build/admin.js:43
+msgid "Your cookie banner is enabled."
+msgstr "แบนเนอร์คุกกี้ของคุณเปิดใช้งานอยู่"
+
+#: build/admin.js:43
+msgid "Your cookie banner is currently disabled."
+msgstr "แบนเนอร์คุกกี้ของคุณถูกปิดใช้งานในขณะนี้"
+
+#: build/admin.js:2
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Activate SureCookie Pro"
+msgstr "เปิดใช้งาน SureCookie Pro"
+
+#. translators: %d: maximum pages
+#: build/admin.js:64
+#: build/onboarding.js:8
+#, js-format
+msgid "Your first scan can cover up to %d pages while we connect your site. Remove the extra pages to start - Your plan's full limits unlock automatically afterward."
+msgstr "การสแกนครั้งแรกของคุณสามารถครอบคลุมได้ถึง %d หน้าในขณะที่เรากำลังเชื่อมต่อเว็บไซต์ของคุณ ลบหน้าที่เกินออกเพื่อเริ่มต้น - ขีดจำกัดเต็มของแผนของคุณจะปลดล็อกโดยอัตโนมัติหลังจากนั้น"
+
+#. translators: %d: maximum pages
+#: build/admin.js:66
+#: build/onboarding.js:10
+#, js-format
+msgid "The free plan supports scanning up to %d pages. Upgrade now to scan more pages and keep your cookie list updated automatically."
+msgstr "แผนฟรีรองรับการสแกนได้สูงสุด %d หน้า อัปเกรดตอนนี้เพื่อสแกนหน้าเพิ่มเติมและรักษารายการคุกกี้ของคุณให้ทันสมัยโดยอัตโนมัติ"
+
+#. translators: %s: SureCookie plan tier, e.g. "Business"
+#: build/admin.js:76
+#, js-format
+msgid "%s version"
+msgstr "%s เวอร์ชัน"
+
+#: build/onboarding.js:6
+msgid "Let's help you discover cookies, configure consent choices, and improve how your website handles visitor privacy. SureCookie automatically detects and categorizes cookies so you can stay focused on growing your business."
+msgstr "ให้เราช่วยคุณค้นหาคุกกี้ กำหนดค่าตัวเลือกความยินยอม และปรับปรุงวิธีที่เว็บไซต์ของคุณจัดการความเป็นส่วนตัวของผู้เยี่ยมชม SureCookie ตรวจจับและจัดหมวดหมู่คุกกี้โดยอัตโนมัติเพื่อให้คุณสามารถมุ่งเน้นไปที่การเติบโตธุรกิจของคุณ"
+
+#: build/onboarding.js:14
+msgid "Keep consent records locally on the site and export individual records when needed"
+msgstr "เก็บบันทึกความยินยอมไว้ในเว็บไซต์และส่งออกบันทึกแต่ละรายการเมื่อจำเป็น"
+
+#: admin/menu.php:78
+#: build/admin.js:2
+msgid "Tracking Manager"
+msgstr "ผู้จัดการการติดตาม"
+
+#: admin/product-promotion.php:116
+msgid "WordPress emails often go missing or land in spam because web hosts aren't built for reliable delivery. SureMail fixes this by connecting to trusted SMTP services, so your emails reach inboxes, no more lost messages or frustrated customers."
+msgstr "อีเมล WordPress มักจะหายไปหรือตกอยู่ในสแปมเนื่องจากเว็บโฮสต์ไม่ได้ถูกสร้างมาเพื่อการส่งที่เชื่อถือได้ SureMail แก้ไขปัญหานี้โดยเชื่อมต่อกับบริการ SMTP ที่เชื่อถือได้ เพื่อให้อีเมลของคุณถึงกล่องจดหมาย ไม่มีข้อความสูญหายหรือทำให้ลูกค้าหงุดหงิดอีกต่อไป"
+
+#: admin/product-promotion.php:122
+msgid "Spectra Blocks is a complete rebuild of Spectra on WordPress's modern core-block APIs - an AI website builder built directly into the Block Editor."
+msgstr "Spectra Blocks เป็นการสร้างใหม่ทั้งหมดของ Spectra บน API บล็อกแกนหลักสมัยใหม่ของ WordPress — ตัวสร้างเว็บไซต์ AI ที่สร้างขึ้นโดยตรงในตัวแก้ไขบล็อก"
+
+#: inc/api/cookies.php:395
+msgid "Failed to update cookie categories: "
+msgstr "ไม่สามารถอัปเดตหมวดหมู่คุกกี้ได้:"
+
+#. translators: %s: Provider name (e.g., YouTube, Vimeo)
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:236
+#: inc/modules/script-blocking/blocker.php:1294
+#, php-format
+msgid "Accept and load %s content"
+msgstr "ยอมรับและโหลดเนื้อหา %s"
+
+#: inc/modules/assisted-scan/api.php:122
+msgid "An assisted scan is already running. Cancel it before starting another."
+msgstr "การสแกนแบบช่วยเหลือกำลังทำงานอยู่ กรุณายกเลิกก่อนเริ่มการสแกนใหม่"
+
+#: inc/modules/assisted-scan/api.php:144
+#: inc/modules/assisted-scan/api.php:155
+msgid "Select at least one published page to scan."
+msgstr "เลือกหน้าเผยแพร่อย่างน้อยหนึ่งหน้าเพื่อสแกน"
+
+#: inc/modules/assisted-scan/api.php:163
+msgid "Starting assisted scan (collected from your browser)."
+msgstr "เริ่มการสแกนแบบช่วยเหลือ (รวบรวมจากเบราว์เซอร์ของคุณ)"
+
+#. translators: %d: number of pages.
+#: inc/modules/assisted-scan/api.php:167
+#, php-format
+msgid "Pages to visit: %d."
+msgstr "หน้าที่จะเยี่ยมชม: %d."
+
+#: inc/modules/assisted-scan/api.php:197
+#: inc/modules/assisted-scan/api.php:253
+msgid "This scan session has expired. Start the scan again."
+msgstr "เซสชันการสแกนนี้หมดอายุแล้ว เริ่มการสแกนใหม่อีกครั้ง"
+
+#: inc/modules/assisted-scan/api.php:210
+msgid "The scan sent more data than a single page should produce."
+msgstr "การสแกนส่งข้อมูลมากกว่าที่หน้าหนึ่งควรจะผลิตได้"
+
+#: inc/modules/assisted-scan/api.php:222
+msgid "That page is not the one this scan was waiting for."
+msgstr "หน้านั้นไม่ใช่หน้าที่การสแกนนี้กำลังรออยู่"
+
+#: inc/modules/assisted-scan/api.php:275
+#: inc/modules/assisted-scan/api.php:277
+msgid "Assisted scan cancelled."
+msgstr "การสแกนแบบช่วยเหลือถูกยกเลิก"
+
+#. translators: 1: current page number, 2: total pages.
+#: inc/modules/assisted-scan/collector.php:322
+#, php-format
+msgid "SureCookie is scanning page %1$d of %2$d"
+msgstr "SureCookie กำลังสแกนหน้า %1$d จาก %2$d"
+
+#: inc/modules/assisted-scan/collector.php:323
+msgid "Keep this tab in front so the scan can continue."
+msgstr "เก็บแท็บนี้ไว้ข้างหน้าเพื่อให้การสแกนดำเนินต่อไป"
+
+#: inc/modules/assisted-scan/collector.php:324
+msgid "Paused. Bring this tab to the front to continue."
+msgstr "หยุดชั่วคราว นำแท็บนี้ไปข้างหน้าเพื่อดำเนินการต่อ"
+
+#: inc/modules/assisted-scan/collector.php:325
+msgid "Preparing a clean visit…"
+msgstr "กำลังเตรียมการเยี่ยมชมที่สะอาด…"
+
+#. translators: 1: number of cookies, 2: number of services.
+#: inc/modules/assisted-scan/collector.php:327
+#, php-format
+msgid "Scan complete: %1$d cookies, %2$d services found"
+msgstr "สแกนเสร็จสิ้น: พบคุกกี้ %1$d บริการ %2$d"
+
+#: inc/modules/assisted-scan/collector.php:328
+msgid "The scan could not be completed. Return to SureCookie to try again."
+msgstr "ไม่สามารถทำการสแกนให้เสร็จสมบูรณ์ได้ กลับไปที่ SureCookie เพื่อพยายามอีกครั้ง"
+
+#: inc/modules/assisted-scan/collector.php:330
+msgid "SureCookie assisted scan progress"
+msgstr "ความคืบหน้าการสแกนแบบช่วยเหลือของ SureCookie"
+
+#. translators: 1: page number, 2: cookie count, 3: resource count.
+#: inc/modules/assisted-scan/ingest.php:119
+#, php-format
+msgid "Page %1$d collected: %2$d cookies, %3$d third-party resources."
+msgstr "หน้า %1$d รวบรวม: คุกกี้ %2$d ทรัพยากรบุคคลที่สาม %3$d"
+
+#. translators: 1: page number, 2: error reason.
+#: inc/modules/assisted-scan/ingest.php:129
+#, php-format
+msgid "Page %1$d could not be collected (%2$s)."
+msgstr "หน้า %1$d ไม่สามารถรวบรวมได้ (%2$s)"
+
+#. translators: 1: cookie count, 2: service count.
+#: inc/modules/assisted-scan/ingest.php:222
+#, php-format
+msgid "Assisted scan finished: %1$d cookies, %2$d known services."
+msgstr "การสแกนแบบช่วยเหลือเสร็จสิ้น: คุกกี้ %1$d บริการที่รู้จัก %2$d"
+
+#. translators: %s: comma-separated service names.
+#: inc/modules/assisted-scan/ingest.php:232
+#, php-format
+msgid "A first-party check also found: %s. Your browser may have blocked these."
+msgstr "การตรวจสอบฝ่ายแรกยังพบ: %s เบราว์เซอร์ของคุณอาจบล็อกสิ่งเหล่านี้"
+
+#: inc/modules/assisted-scan/session.php:466
+msgid "Assisted scan in progress..."
+msgstr "กำลังดำเนินการสแกนแบบช่วยเหลือ..."
+
+#: inc/modules/assisted-scan/session.php:576
+msgid "Assisted scan finished."
+msgstr "การสแกนแบบช่วยเหลือเสร็จสิ้น"
+
+#: inc/modules/services/api.php:142
+msgid "Unknown service."
+msgstr "บริการไม่ทราบ"
+
+#: inc/modules/services/api.php:153
+msgid "This is a Pro service. Upgrade to add it."
+msgstr "นี่คือบริการ Pro อัปเกรดเพื่อเพิ่มบริการนี้"
+
+#: inc/modules/site-scanner/cron.php:210
+msgid "Assisted scan cancelled by user."
+msgstr "การสแกนแบบช่วยเหลือถูกยกเลิกโดยผู้ใช้"
+
+#: inc/modules/site-scanner/saas-client.php:1653
+msgid "We could not verify your domain because your site's SSL certificate could not be validated (it may be self-signed, expired, or issued for a different domain). Install a valid certificate (for example Let's Encrypt), or scan your live domain that already has one, then retry."
+msgstr "เราไม่สามารถยืนยันโดเมนของคุณได้เนื่องจากใบรับรอง SSL ของไซต์คุณไม่สามารถตรวจสอบได้ (อาจเป็นใบรับรองที่ลงนามเอง หมดอายุ หรือออกให้กับโดเมนอื่น) กรุณาติดตั้งใบรับรองที่ถูกต้อง (เช่น Let's Encrypt) หรือสแกนโดเมนสดของคุณที่มีใบรับรองแล้ว จากนั้นลองอีกครั้ง"
+
+#: inc/modules/site-scanner/saas-client.php:1655
+msgid "We could not verify your domain because your host is blocking our verification request to /wp-json/. This is common on SiteGround. Allowlist our scanner IPs/User-Agent (or ask your host to) and retry - or add your services manually in the meantime."
+msgstr "เราไม่สามารถยืนยันโดเมนของคุณได้เนื่องจากโฮสต์ของคุณบล็อกคำขอยืนยันของเราไปยัง /wp-json/ ซึ่งเป็นเรื่องปกติใน SiteGround กรุณาอนุญาต IP/User-Agent ของเครื่องสแกนของเรา (หรือขอให้โฮสต์ของคุณทำ) แล้วลองอีกครั้ง หรือเพิ่มบริการของคุณด้วยตนเองในระหว่างนี้"
+
+#: inc/modules/site-scanner/saas-client.php:1657
+msgid "We could not reach your site's REST API at /wp-json/. Enable pretty permalinks and make sure no security plugin is disabling the REST API, then retry."
+msgstr "เราไม่สามารถเข้าถึง REST API ของไซต์คุณที่ /wp-json/ ได้ เปิดใช้งาน pretty permalinks และตรวจสอบให้แน่ใจว่าไม่มีปลั๊กอินความปลอดภัยใดปิดใช้งาน REST API จากนั้นลองอีกครั้ง"
+
+#: inc/services/cookie-category-service.php:247
+msgid "Cookies cannot be moved to the category being deleted."
+msgstr "ไม่สามารถย้ายคุกกี้ไปยังหมวดหมู่ที่กำลังถูกลบได้"
+
+#: inc/services/cookie-category-service.php:254
+#: inc/services/cookie-service.php:440
+msgid "The selected category no longer exists. Please reload and try again."
+msgstr "หมวดหมู่ที่เลือกไม่มีอยู่แล้ว กรุณารีโหลดและลองอีกครั้ง"
+
+#: inc/services/cookie-service.php:421
+msgid "No cookies selected."
+msgstr "ไม่ได้เลือกคุกกี้ใดๆ"
+
+#. translators: %d: maximum number of cookies per request.
+#: inc/services/cookie-service.php:430
+#, php-format
+msgid "Too many cookies in one request. Please select up to %d."
+msgstr "คุกกี้ในคำขอเดียวมากเกินไป กรุณาเลือกสูงสุด %d"
+
+#. translators: %d: number of cookies updated.
+#: inc/services/cookie-service.php:547
+#, php-format
+msgid "%d cookie moved to the selected category."
+msgid_plural "%d cookies moved to the selected category."
+msgstr[0] "%d คุกกี้ถูกย้ายไปยังหมวดหมู่ที่เลือก"
+
+#: inc/services/cookie-service.php:555
+msgid "No cookies could be updated."
+msgstr "ไม่สามารถอัปเดตคุกกี้ได้เลย"
+
+#: build/admin.js:2
+msgid "Scanning"
+msgstr "กำลังสแกน"
+
+#: build/admin.js:2
+#: build/admin.js:41
+msgid "Known Services"
+msgstr "บริการที่รู้จัก"
+
+#: build/admin.js:2
+#: build/admin.js:77
+msgid "Scripts and Embeds"
+msgstr "สคริปต์และฝัง"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Geographic Rules"
+msgstr "กฎภูมิศาสตร์"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Consent Sharing"
+msgstr "การแชร์ความยินยอม"
+
+#: build/admin.js:2
+msgid "Add License"
+msgstr "เพิ่มใบอนุญาต"
+
+#. translators: %s: cookie name.
+#: build/admin.js:22
+#: build/onboarding.js:2
+#, js-format
+msgid "Select %s"
+msgstr "เลือก %s"
+
+#. translators: %s: cookie name.
+#: build/admin.js:23
+#: build/onboarding.js:3
+#, js-format
+msgid "Category for %s"
+msgstr "หมวดหมู่สำหรับ %s"
+
+#: build/admin.js:23
+#: build/onboarding.js:3
+msgid "Select category"
+msgstr "เลือกหมวดหมู่"
+
+#. translators: 1: action label, 2: cookie name.
+#: build/admin.js:24
+#: build/onboarding.js:4
+#, js-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %d: number of selected cookies.
+#: build/admin.js:25
+#, js-format
+msgid "%d selected"
+msgstr "%d ที่เลือก"
+
+#: build/admin.js:25
+msgid "Bulk category"
+msgstr "หมวดหมู่จำนวนมาก"
+
+#: build/admin.js:25
+msgid "Move to category…"
+msgstr "ย้ายไปยังหมวดหมู่…"
+
+#: build/admin.js:25
+msgid "Applying…"
+msgstr "กำลังใช้…"
+
+#: build/admin.js:25
+msgid "Apply"
+msgstr "ใช้"
+
+#: build/admin.js:25
+msgid "Clear selection"
+msgstr "ล้างการเลือก"
+
+#: build/admin.js:25
+msgid "Select all cookies"
+msgstr "เลือกคุกกี้ทั้งหมด"
+
+#: build/admin.js:28
+msgid "Assigned cookies will be moved to another category instead of being deleted."
+msgstr "คุกกี้ที่ถูกกำหนดจะถูกย้ายไปยังหมวดหมู่อื่นแทนการลบ"
+
+#: build/admin.js:28
+msgid "Move Cookies To"
+msgstr "ย้ายคุกกี้ไปยัง"
+
+#: build/admin.js:28
+msgid "Search services…"
+msgstr "ค้นหาบริการ…"
+
+#: build/admin.js:28
+msgid "Search services"
+msgstr "ค้นหาบริการ"
+
+#: build/admin.js:28
+#: build/admin.js:37
+msgid "All Categories"
+msgstr "หมวดหมู่ทั้งหมด"
+
+#. translators: %d: number of cookies
+#: build/admin.js:29
+#, js-format
+msgid "%d cookie"
+msgid_plural "%d cookies"
+msgstr[0] "%d คุกกี้"
+
+#. translators: %d: number of iframes
+#: build/admin.js:30
+#, js-format
+msgid "%d iframe"
+msgid_plural "%d iframes"
+msgstr[0] "%d iframe"
+
+#. translators: %d: number of scripts
+#: build/admin.js:31
+#, js-format
+msgid "%d script"
+msgid_plural "%d scripts"
+msgstr[0] "%d สคริปต์"
+
+#: build/admin.js:31
+msgid "Added"
+msgstr "เพิ่มแล้ว"
+
+#: build/admin.js:31
+msgid "Detected"
+msgstr "ตรวจพบ"
+
+#: build/admin.js:31
+msgid "Remove"
+msgstr "ลบ"
+
+#: build/admin.js:31
+msgid "Add Service"
+msgstr "เพิ่มบริการ"
+
+#: build/admin.js:31
+msgid "No services match your search."
+msgstr "ไม่มีบริการที่ตรงกับการค้นหาของคุณ"
+
+#: build/admin.js:31
+msgid "Loads before consent"
+msgstr "โหลดก่อนความยินยอม"
+
+#. translators: %s: service name (e.g. Stripe)
+#: build/admin.js:32
+#, js-format
+msgid "%s is a necessary service, so it loads before consent - its cookies can be set without consent."
+msgstr "%s เป็นบริการที่จำเป็น ดังนั้นจะโหลดก่อนความยินยอม - คุกกี้ของมันสามารถตั้งค่าได้โดยไม่ต้องได้รับความยินยอม"
+
+#: build/admin.js:32
+msgid "Blocked When \"Block Scripts until Consent\" Is On"
+msgstr "ถูกบล็อกเมื่อเปิดใช้งาน \"บล็อกสคริปต์จนกว่าจะได้รับความยินยอม\""
+
+#. translators: %1$s: service name; %2$s: consent category name
+#: build/admin.js:33
+#, js-format
+msgid "When blocking is on, %1$s is blocked until visitors accept “%2$s”, so a scan never sees these cookies. Declaring them here keeps your cookie policy complete."
+msgstr "เมื่อเปิดใช้งานการบล็อก %1$s จะถูกบล็อกจนกว่าผู้เยี่ยมชมจะยอมรับ “%2$s” ดังนั้นการสแกนจะไม่เห็นคุกกี้เหล่านี้ การประกาศที่นี่ช่วยให้ข้อมูลนโยบายคุกกี้ของคุณครบถ้วน"
+
+#. translators: %d: number of cookies
+#: build/admin.js:34
+#, js-format
+msgid "%d cookie added to your cookie policy"
+msgid_plural "%d cookies added to your cookie policy"
+msgstr[0] "%d คุกกี้ถูกเพิ่มในนโยบายคุกกี้ของคุณ"
+
+#. translators: %d: number of iframes
+#: build/admin.js:35
+#, js-format
+msgid "%d embed blocked before consent"
+msgid_plural "%d embeds blocked before consent"
+msgstr[0] "%d ฝังถูกบล็อกก่อนความยินยอม"
+
+#. translators: %d: number of scripts
+#: build/admin.js:36
+#, js-format
+msgid "%d script blocked before consent"
+msgid_plural "%d scripts blocked before consent"
+msgstr[0] "%d สคริปต์ถูกบล็อกก่อนความยินยอม"
+
+#: build/admin.js:36
+msgid "No categories available"
+msgstr "ไม่มีหมวดหมู่ที่ใช้ได้"
+
+#: build/admin.js:36
+msgid "Create a cookie category first - new cookies land in Uncategorized until then."
+msgstr "สร้างหมวดหมู่คุกกี้ก่อน - คุกกี้ใหม่จะอยู่ในหมวดหมู่ไม่ระบุจนกว่าจะสร้าง"
+
+#. translators: %d: number of days
+#: build/admin.js:37
+#, js-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d วัน"
+
+#: build/admin.js:37
+msgid "Session"
+msgstr "เซสชัน"
+
+#: build/admin.js:37
+msgid "Failed to add service"
+msgstr "ไม่สามารถเพิ่มบริการได้"
+
+#: build/admin.js:37
+msgid "Failed to remove service"
+msgstr "ไม่สามารถลบบริการได้"
+
+#: build/admin.js:37
+msgid "Service removed"
+msgstr "บริการถูกลบแล้ว"
+
+#. translators: %s: service name (e.g. YouTube)
+#: build/admin.js:38
+#, js-format
+msgid "Added %s"
+msgstr "เพิ่ม %s แล้ว"
+
+#. translators: %d: number of cookies declared
+#: build/admin.js:39
+#, js-format
+msgid "%d cookie was added to your cookie policy."
+msgid_plural "%d cookies were added to your cookie policy."
+msgstr[0] "%d คุกกี้ถูกเพิ่มในนโยบายคุกกี้ของคุณ"
+
+#: build/admin.js:39
+msgid "This service is now managed. It stays blocked before consent."
+msgstr "บริการนี้ถูกจัดการแล้ว จะถูกบล็อกก่อนความยินยอม"
+
+#. translators: %s: service name
+#: build/admin.js:40
+#: build/admin.js:41
+#, js-format
+msgid "Add %s"
+msgstr "เพิ่ม %s"
+
+#: build/admin.js:40
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Add from a Known Service"
+msgstr "เพิ่มจากบริการที่รู้จัก"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Review what this adds to your cookie policy, then confirm."
+msgstr "ตรวจสอบสิ่งที่เพิ่มในนโยบายคุกกี้ของคุณ จากนั้นยืนยัน"
+
+#: build/admin.js:40
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can't detect before consent - ensuring your cookie policy stays complete."
+msgstr "เพิ่มบริการยอดนิยมอย่าง YouTube หรือ Google Analytics ได้อย่างรวดเร็วในคลิกเดียว เหมาะสำหรับสคริปต์ที่เครื่องสแกนไม่สามารถตรวจจับก่อนความยินยอม เพื่อให้นโยบายคุกกี้ของคุณครบถ้วน"
+
+#: build/admin.js:40
+msgid "Could not load the services catalog. Please try again."
+msgstr "ไม่สามารถโหลดแคตตาล็อกบริการได้ กรุณาลองอีกครั้ง"
+
+#: build/admin.js:40
+msgid "This is a Pro service"
+msgstr "นี่คือบริการ Pro"
+
+#: build/admin.js:40
+msgid "Upgrade to add this service and declare its cookies in one click."
+msgstr "อัปเกรดเพื่อเพิ่มบริการนี้และประกาศคุกกี้ของมันในคลิกเดียว"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Unlock Every Tracking Service"
+msgstr "ปลดล็อกทุกบริการติดตาม"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Free covers the most common services. Upgrade to add any service in the catalog in one click."
+msgstr "ฟรีครอบคลุมบริการที่พบบ่อยที่สุด อัปเกรดเพื่อเพิ่มบริการใดก็ได้ในแคตตาล็อกด้วยการคลิกเพียงครั้งเดียว"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Confirm Add"
+msgstr "ยืนยันการเพิ่ม"
+
+#: build/admin.js:41
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can’t detect before consent - ensuring your cookie policy stays complete."
+msgstr "เพิ่มบริการยอดนิยมอย่าง YouTube หรือ Google Analytics ได้อย่างรวดเร็วด้วยการคลิกเพียงครั้งเดียว เหมาะสำหรับสคริปต์ที่เครื่องสแกนไม่สามารถตรวจจับได้ก่อนการยินยอม - เพื่อให้แน่ใจว่านโยบายคุกกี้ของคุณครบถ้วน"
+
+#: build/admin.js:41
+msgid "Failed to load services"
+msgstr "ไม่สามารถโหลดบริการได้"
+
+#: build/admin.js:41
+msgid "An error occurred while loading services. Please refresh the page to try again."
+msgstr "เกิดข้อผิดพลาดขณะโหลดบริการ กรุณารีเฟรชหน้าเพื่อลองใหม่อีกครั้ง"
+
+#: build/admin.js:41
+msgid "Installed Services"
+msgstr "บริการที่ติดตั้งแล้ว"
+
+#: build/admin.js:41
+msgid "Available Services"
+msgstr "บริการที่มีให้ใช้งาน"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Failed to update cookie categories"
+msgstr "ไม่สามารถอัปเดตหมวดหมู่คุกกี้ได้"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Cookie categories updated"
+msgstr "อัปเดตหมวดหมู่คุกกี้เรียบร้อยแล้ว"
+
+#. translators: %d: number of cookies that could not be updated.
+#: build/admin.js:42
+#, js-format
+msgid "%d cookie(s) could not be updated. Reload and try again."
+msgstr "%d คุกกี้ไม่สามารถอัปเดตได้ โหลดใหม่และลองอีกครั้ง"
+
+#: build/admin.js:42
+msgid "Change Cookie Categories Carefully"
+msgstr "เปลี่ยนหมวดหมู่คุกกี้อย่างระมัดระวัง"
+
+#: build/admin.js:42
+msgid "A cookie's category determines how it behaves when users decline consent. Cookies marked as Essential always remain active. Moving a cookie out of Essential may cause it to be blocked or deleted, which can break features like login or checkout. Similarly, assigning tracking cookies to Essential may conflict with privacy regulations. Your choice is remembered, so a later scan will not move the cookie back."
+msgstr "หมวดหมู่ของคุกกี้กำหนดพฤติกรรมเมื่อผู้ใช้ปฏิเสธความยินยอม คุกกี้ที่ถูกทำเครื่องหมายว่าเป็นสิ่งจำเป็นจะยังคงทำงานเสมอ การย้ายคุกกี้ออกจากหมวดหมู่สิ่งจำเป็นอาจทำให้ถูกบล็อกหรือลบ ซึ่งอาจทำให้ฟีเจอร์เช่นการเข้าสู่ระบบหรือการชำระเงินเสียหาย เช่นเดียวกัน การกำหนดคุกกี้ติดตามเป็นสิ่งจำเป็นอาจขัดแย้งกับข้อบังคับความเป็นส่วนตัว ตัวเลือกของคุณจะถูกจดจำ ดังนั้นการสแกนในภายหลังจะไม่ย้ายคุกกี้กลับ"
+
+#. translators: %s: service name (e.g. Google Analytics)
+#: build/admin.js:43
+#, js-format
+msgid "Looks like %s"
+msgstr "ดูเหมือน %s"
+
+#: build/admin.js:43
+msgid "We spotted cookies from this service. Add it to declare its cookies in one step."
+msgstr "เราพบคุกกี้จากบริการนี้ เพิ่มเพื่อประกาศคุกกี้ของบริการนี้ในขั้นตอนเดียว"
+
+#: build/admin.js:43
+#: build/admin.js:76
+msgid "Add as Service"
+msgstr "เพิ่มเป็นบริการ"
+
+#: build/admin.js:43
+msgid "Dismiss"
+msgstr "ปิด"
+
+#: build/admin.js:50
+msgid "Welcome to SureCookie!"
+msgstr "ยินดีต้อนรับสู่ SureCookie!"
+
+#: build/admin.js:50
+msgid "Get your site compliant in minutes - show a cookie banner, block trackers before consent, and automatically detect cookies used on your site."
+msgstr "ทำให้เว็บไซต์ของคุณเป็นไปตามข้อกำหนดในไม่กี่นาที - แสดงแบนเนอร์คุกกี้ บล็อกตัวติดตามก่อนความยินยอม และตรวจจับคุกกี้ที่ใช้บนเว็บไซต์ของคุณโดยอัตโนมัติ"
+
+#: build/admin.js:50
+msgid "Set Up Cookie Banner"
+msgstr "ตั้งค่าแบนเนอร์คุกกี้"
+
+#: build/admin.js:50
+msgid "Scan My Site"
+msgstr "สแกนเว็บไซต์ของฉัน"
+
+#: build/admin.js:50
+msgid "Start with the banner, then scan your site to detect cookies."
+msgstr "เริ่มด้วยแบนเนอร์ จากนั้นสแกนเว็บไซต์ของคุณเพื่อตรวจจับคุกกี้"
+
+#: build/admin.js:50
+msgid "SureForms Video Thumbnail"
+msgstr "ภาพขนาดย่อวิดีโอ SureForms"
+
+#: build/admin.js:50
+msgid "SureForms: Custom WordPress Forms MADE SIMPLE"
+msgstr "SureForms: ฟอร์ม WordPress ที่ปรับแต่งได้ ง่ายดาย"
+
+#: build/admin.js:59
+msgid "Possible causes: Scan server under heavy load, your site is unreachable from our scanner, your site has CRON issues, or a page caused a browser timeout."
+msgstr "สาเหตุที่เป็นไปได้: เซิร์ฟเวอร์สแกนมีภาระงานสูง เว็บไซต์ของคุณไม่สามารถเข้าถึงได้จากเครื่องสแกนของเรา เว็บไซต์ของคุณมีปัญหา CRON หรือหน้าหนึ่งทำให้เบราว์เซอร์หมดเวลา"
+
+#: build/admin.js:59
+msgid "Some pages could not be analyzed"
+msgstr "บางหน้าสแกนไม่ได้"
+
+#. translators: 1: scanned pages, 2: total pages, 3: failed pages
+#: build/admin.js:60
+#, js-format
+msgid "Scanned %1$d of %2$d pages - %3$d could not be analyzed. The cookies we did find are saved, and results add up across scans, so you can re-run the scan to pick up the rest."
+msgstr "สแกน %1$d จาก %2$d หน้า - %3$d หน้าไม่สามารถวิเคราะห์ได้ คุกกี้ที่พบถูกบันทึกไว้ และผลลัพธ์จะสะสมจากการสแกนหลายครั้ง ดังนั้นคุณสามารถสแกนซ้ำเพื่อเก็บข้อมูลที่เหลือได้"
+
+#: build/admin.js:60
+msgid "Once the scan is complete, the cookies it found appear under <a>Cookies</a>, and the scripts and embeds under <b>Scripts and Embeds</b>."
+msgstr "เมื่อการสแกนเสร็จสิ้น คุกกี้ที่พบจะแสดงภายใต้ <a>คุกกี้</a> และสคริปต์และฝังภายใต้ <b>สคริปต์และฝัง</b>"
+
+#: build/admin.js:60
+msgid "Keep the scan tab in front until it finishes: browsers slow down background tabs."
+msgstr "เก็บแท็บสแกนไว้ด้านหน้า จนกว่าจะเสร็จ: เบราว์เซอร์จะทำงานช้าลงในแท็บพื้นหลัง"
+
+#: build/admin.js:60
+msgid "Pages already collected are saved, so closing the tab early keeps what it found."
+msgstr "หน้าที่เก็บรวบรวมแล้วจะถูกบันทึกไว้ ดังนั้นการปิดแท็บก่อนเวลาเก็บข้อมูลที่พบไว้"
+
+#: build/admin.js:60
+msgid "An ad blocker or privacy extension in this browser can hide trackers from the scan."
+msgstr "ตัวบล็อกโฆษณาหรือส่วนขยายความเป็นส่วนตัวในเบราว์เซอร์นี้อาจซ่อนตัวติดตามจากการสแกน"
+
+#: build/admin.js:60
+msgid "If remote scanning fails, try Assisted Scanner method: <button></button>"
+msgstr "หากการสแกนระยะไกลล้มเหลว ให้ลองใช้วิธีสแกนแบบช่วยเหลือ: <button></button>"
+
+#: build/admin.js:60
+msgid "Switch to Default Scanner"
+msgstr "สลับไปยังเครื่องสแกนเริ่มต้น"
+
+#: build/admin.js:60
+msgid "Switch to Assisted Scanner"
+msgstr "สลับไปยังเครื่องสแกนแบบช่วยเหลือ"
+
+#: build/admin.js:60
+msgid "Scan From This Browser"
+msgstr "สแกนจากเบราว์เซอร์นี้"
+
+#: build/admin.js:60
+msgid "Your host blocked the scanner"
+msgstr "โฮสต์ของคุณบล็อกสแกนเนอร์"
+
+#: build/admin.js:60
+msgid "Your site's firewall or bot protection served our scanner a security challenge instead of your page, so the scan completed without results. This does not affect your visitors, only automated scanners. Allowlist the SureCookie scanner (or ask your host to) and run the scan again."
+msgstr "ไฟร์วอลล์หรือการป้องกันบ็อตของไซต์คุณได้ส่งความท้าทายด้านความปลอดภัยให้กับสแกนเนอร์ของเราแทนหน้าของคุณ ดังนั้นการสแกนจึงเสร็จสิ้นโดยไม่มีผลลัพธ์ ซึ่งสิ่งนี้จะไม่ส่งผลกระทบต่อผู้เยี่ยมชมของคุณ แต่จะส่งผลเฉพาะกับสแกนเนอร์อัตโนมัติเท่านั้น โปรดเพิ่มสแกนเนอร์ SureCookie ในรายการอนุญาต (หรือขอโฮสต์ของคุณให้ทำ) แล้วรันการสแกนอีกครั้ง"
+
+#: build/admin.js:60
+msgid "Services we still detected on your site (via a first-party check):"
+msgstr "บริการที่เรายังคงตรวจพบในไซต์ของคุณ (ผ่านการตรวจสอบโดยตรง):"
+
+#: build/admin.js:60
+msgid "How to allowlist the scanner"
+msgstr "วิธีเพิ่มสแกนเนอร์ในรายการอนุญาต"
+
+#: build/admin.js:60
+msgid "No cookies found in this browser scan"
+msgstr "ไม่พบคุกกี้ในการสแกนเบราว์เซอร์นี้"
+
+#: build/admin.js:60
+msgid "We found services on your pages that your browser did not load, which usually means an ad blocker or privacy extension is active. Try again in a browser with extensions disabled, or add the cookies manually."
+msgstr "เราพบบริการบนหน้าของคุณที่เบราว์เซอร์ของคุณไม่ได้โหลด ซึ่งโดยปกติหมายถึงมีการเปิดใช้งานตัวบล็อกโฆษณาหรือส่วนขยายความเป็นส่วนตัว ลองอีกครั้งในเบราว์เซอร์ที่ปิดใช้งานส่วนขยาย หรือเพิ่มคุกกี้ด้วยตนเอง"
+
+#: build/admin.js:60
+msgid "The scan visited your pages but no cookies were set. Some services only set cookies after a visitor accepts the banner, so they may not appear. You can also add cookies manually."
+msgstr "การสแกนได้เยี่ยมชมหน้าของคุณแต่ไม่มีการตั้งค่าคุกกี้ บางบริการจะตั้งค่าคุกกี้หลังจากผู้เยี่ยมชมยอมรับแบนเนอร์เท่านั้น ดังนั้นอาจไม่ปรากฏขึ้น คุณยังสามารถเพิ่มคุกกี้ด้วยตนเองได้"
+
+#: build/admin.js:60
+msgid "No cookies found in this scan"
+msgstr "ไม่พบคุกกี้ในการสแกนนี้"
+
+#: build/admin.js:60
+msgid "The scanner reached your site but did not detect any cookies. Some services only set cookies after a visitor accepts the banner, so they may not appear in a scan. You can also add cookies manually."
+msgstr "สแกนเนอร์เข้าถึงไซต์ของคุณแต่ไม่ตรวจพบคุกกี้ใดๆ บางบริการจะตั้งค่าคุกกี้หลังจากผู้เยี่ยมชมยอมรับแบนเนอร์เท่านั้น ดังนั้นอาจไม่ปรากฏในการสแกน คุณยังสามารถเพิ่มคุกกี้ด้วยตนเองได้"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser (Best for this site)"
+msgstr "สแกนจากเบราว์เซอร์ของคุณ (ดีที่สุดสำหรับไซต์นี้)"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser"
+msgstr "สแกนจากเบราว์เซอร์ของคุณ"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Our scanner couldn't fully access your site due to server restrictions. This method runs the scan directly in your browser, ensuring accurate detection without being blocked."
+msgstr "สแกนเนอร์ของเราไม่สามารถเข้าถึงไซต์ของคุณได้เต็มที่เนื่องจากข้อจำกัดของเซิร์ฟเวอร์ วิธีนี้จะรันการสแกนโดยตรงในเบราว์เซอร์ของคุณ เพื่อให้ตรวจจับได้อย่างแม่นยำโดยไม่ถูกบล็อก"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Run the scan directly in your browser. This helps detect cookies, scripts, and embeds even when external scanners are blocked."
+msgstr "รันการสแกนโดยตรงในเบราว์เซอร์ของคุณ วิธีนี้ช่วยตรวจจับคุกกี้ สคริปต์ และการฝังแม้เมื่อสแกนเนอร์ภายนอกถูกบล็อก"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Detects cookies, scripts, and embeds as your visitors would see them."
+msgstr "ตรวจจับคุกกี้ สคริปต์ และการฝังตามที่ผู้เยี่ยมชมของคุณจะเห็น"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Works even when hosting or firewall blocks external scans."
+msgstr "ทำงานได้แม้โฮสติ้งหรือไฟร์วอลล์จะบล็อกการสแกนภายนอก"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Results appear automatically in your Tracking Manager."
+msgstr "ผลลัพธ์จะแสดงโดยอัตโนมัติในตัวจัดการการติดตามของคุณ"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Some advanced detections may still require a remote scan when available."
+msgstr "การตรวจจับขั้นสูงบางอย่างอาจยังต้องการการสแกนระยะไกลเมื่อมีให้ใช้งาน"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "How this works"
+msgstr "วิธีการทำงาน"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Before You Start"
+msgstr "ก่อนที่คุณจะเริ่ม"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "To measure cookie duration accurately, this scan temporarily clears cookies for your site in this browser (including your consent choice). Your WordPress login session is preserved, so you'll remain signed in."
+msgstr "เพื่อวัดระยะเวลาคุกกี้อย่างแม่นยำ การสแกนนี้จะล้างคุกกี้สำหรับไซต์ของคุณในเบราว์เซอร์นี้ชั่วคราว (รวมถึงตัวเลือกการยินยอมของคุณ) เซสชันการเข้าสู่ระบบ WordPress ของคุณจะถูกเก็บไว้ ดังนั้นคุณจะยังคงเข้าสู่ระบบอยู่"
+
+#. translators: %d: maximum pages
+#: build/admin.js:62
+#: build/onboarding.js:6
+#, js-format
+msgid "An assisted scan visits up to %d pages. Remove some pages to continue."
+msgstr "การสแกนแบบช่วยเหลือจะเยี่ยมชมได้สูงสุด %d หน้า โปรดลบหน้าบางหน้าเพื่อดำเนินการต่อ"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Scanning in your browser…"
+msgstr "กำลังสแกนในเบราว์เซอร์ของคุณ…"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Start Browser Scan"
+msgstr "เริ่มการสแกนเบราว์เซอร์"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "A new tab opens to scan your selected pages - keep it active until it finishes."
+msgstr "แท็บใหม่จะเปิดขึ้นเพื่อสแกนหน้าที่คุณเลือก - ให้แท็บนี้ทำงานจนกว่าจะเสร็จสิ้น"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Switch Back"
+msgstr "สลับกลับ"
+
+#: build/admin.js:62
+msgid "This page did not load the scanner, so it was skipped. A redirect or a login requirement usually causes this."
+msgstr "หน้านี้ไม่ได้โหลดตัวสแกน จึงถูกข้ามไป โดยปกติจะเกิดจากการเปลี่ยนเส้นทางหรือความต้องการเข้าสู่ระบบ"
+
+#: build/admin.js:62
+msgid "This page took too long to respond."
+msgstr "หน้านี้ใช้เวลาตอบสนองนานเกินไป"
+
+#: build/admin.js:62
+msgid "Skipped because the scan was cancelled."
+msgstr "ข้ามไปเพราะการสแกนถูกยกเลิก"
+
+#: build/admin.js:62
+msgid "This page could not be collected."
+msgstr "ไม่สามารถเก็บรวบรวมหน้านี้ได้"
+
+#: build/admin.js:62
+msgid "Pages In This Scan"
+msgstr "หน้าภายในสแกนนี้"
+
+#. translators: 1: cookie count, 2: script count
+#: build/admin.js:63
+#, js-format
+msgid "%1$d cookies, %2$d scripts"
+msgstr "%1$d คุกกี้, %2$d สคริปต์"
+
+#: build/admin.js:63
+msgid "Collecting…"
+msgstr "กำลังเก็บรวบรวม…"
+
+#: build/admin.js:63
+msgid "Waiting"
+msgstr "กำลังรอ"
+
+#: build/admin.js:63
+msgid "Re-scan"
+msgstr "สแกนใหม่"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Could not start the assisted scan."
+msgstr "ไม่สามารถเริ่มการสแกนช่วยเหลือได้"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Could not start the assisted scan"
+msgstr "ไม่สามารถเริ่มการสแกนช่วยเหลือได้"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Please try again in a moment."
+msgstr "กรุณาลองอีกครั้งในอีกสักครู่"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Your browser blocked the scan window"
+msgstr "เบราว์เซอร์ของคุณบล็อกหน้าต่างสแกน"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Allow pop-ups for this site, then start the scan again."
+msgstr "อนุญาตป๊อปอัปสำหรับไซต์นี้ จากนั้นเริ่มการสแกนอีกครั้ง"
+
+#: build/admin.js:63
+msgid "View Scan Logs"
+msgstr "ดูบันทึกการสแกน"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Scan your website to find cookies, scripts, and trackers that require consent."
+msgstr "สแกนเว็บไซต์ของคุณเพื่อค้นหาคุกกี้ สคริปต์ และตัวติดตามที่ต้องการความยินยอม"
+
+#: build/admin.js:74
+msgid "This is taking a little longer than usual"
+msgstr "กำลังใช้เวลานานกว่าปกติเล็กน้อย"
+
+#: build/admin.js:74
+msgid "A page is taking a while to respond, but your scan is still running in the background. Any cookies already found have been saved. You can leave this page and come back - or cancel and try again with fewer pages."
+msgstr "หน้ากำลังใช้เวลาตอบสนองนาน แต่การสแกนของคุณยังทำงานอยู่เบื้องหลัง คุกกี้ที่พบแล้วถูกบันทึกไว้ คุณสามารถออกจากหน้านี้และกลับมาใหม่ หรือยกเลิกและลองใหม่โดยใช้หน้าน้อยลง"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Queued for Later"
+msgstr "สแกนถูกจัดคิวไว้สำหรับภายหลัง"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Today's page budget is used up, so the remaining pages will scan automatically once it resets. Any cookies already found are saved. To scan sooner, run it again with fewer pages."
+msgstr "งบประมาณหน้าของวันนี้ถูกใช้หมดแล้ว ดังนั้นหน้าที่เหลือจะสแกนอัตโนมัติเมื่อรีเซ็ต คุกกี้ที่พบแล้วถูกบันทึกไว้ หากต้องการสแกนเร็วขึ้น ให้รันใหม่โดยใช้หน้าน้อยลง"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Couldn't Be Completed"
+msgstr "ไม่สามารถทำการสแกนให้เสร็จสมบูรณ์ได้"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "A page may have taken too long to respond. Any cookies already found have been saved, and results add up across scans - nothing is lost. Please try again, scanning fewer pages at a time for a more reliable run."
+msgstr "หน้าอาจใช้เวลาตอบสนองนานเกินไป คุกกี้ที่พบแล้วถูกบันทึกไว้ และผลลัพธ์จะสะสมจากการสแกนหลายครั้ง - ไม่มีอะไรสูญหาย กรุณาลองใหม่โดยสแกนน้อยหน้าต่อครั้งเพื่อความน่าเชื่อถือมากขึ้น"
+
+#: build/admin.js:76
+msgid "iFrame"
+msgstr "iFrame"
+
+#: build/admin.js:76
+msgid "Head"
+msgstr "ส่วนหัว"
+
+#: build/admin.js:76
+msgid "Body"
+msgstr "เนื้อหา"
+
+#: build/admin.js:76
+msgid "Footer"
+msgstr "ส่วนท้าย"
+
+#: build/admin.js:76
+msgid "Anywhere (fallback)"
+msgstr "ทุกที่ (สำรอง)"
+
+#: build/admin.js:76
+msgid "This resource is whitelisted, so it always loads - even before consent."
+msgstr "ทรัพยากรนี้อยู่ในรายการขาว จึงโหลดเสมอ แม้ก่อนได้รับความยินยอม"
+
+#: build/admin.js:76
+msgid "This script is managed by Google Consent Mode and always loads while GCM is enabled."
+msgstr "สคริปต์นี้ถูกจัดการโดยโหมดความยินยอมของ Google และโหลดเสมอเมื่อเปิดใช้งาน GCM"
+
+#: build/admin.js:76
+msgid "This resource matches a whitelist rule (custom entry or common service), so it always loads."
+msgstr "ทรัพยากรนี้ตรงกับกฎรายการขาว (รายการที่กำหนดเองหรือบริการทั่วไป) จึงโหลดเสมอ"
+
+#: build/admin.js:76
+msgid "Script & Iframe"
+msgstr "สคริปต์ & iFrame"
+
+#: build/admin.js:76
+msgid "Blocked until consent"
+msgstr "บล็อกจนกว่าจะได้รับความยินยอม"
+
+#: build/admin.js:76
+msgid "Not blocked"
+msgstr "ไม่ถูกบล็อก"
+
+#: build/admin.js:76
+msgid "Whitelisted"
+msgstr "อยู่ในรายการขาว"
+
+#: build/admin.js:76
+msgid "Managed by GCM"
+msgstr "จัดการโดย GCM"
+
+#: build/admin.js:76
+msgid "Source"
+msgstr "แหล่งที่มา"
+
+#: build/admin.js:76
+msgid "Managed via Known Services - its cookies are declared in your cookie policy."
+msgstr "จัดการผ่านบริการที่รู้จัก - คุกกี้ของมันถูกประกาศในนโยบายคุกกี้ของคุณ"
+
+#: build/admin.js:76
+msgid "Recognized Known Services catalog entry - Click \"Add as Service\" to declare its cookies."
+msgstr "รายการบริการที่รู้จักที่ได้รับการยอมรับ - คลิก \"เพิ่มเป็นบริการ\" เพื่อประกาศคุกกี้ของมัน"
+
+#: build/admin.js:76
+msgid "Managed Service"
+msgstr "บริการที่จัดการ"
+
+#: build/admin.js:76
+msgid "Known Service"
+msgstr "บริการที่รู้จัก"
+
+#: build/admin.js:76
+msgid "Always Allowed"
+msgstr "อนุญาตเสมอ"
+
+#: build/admin.js:76
+msgid "Category for"
+msgstr "หมวดหมู่สำหรับ"
+
+#: build/admin.js:76
+msgid "Block until consent (recommended)"
+msgstr "บล็อกจนกว่าจะได้รับความยินยอม (แนะนำ)"
+
+#: build/admin.js:76
+msgid "Always allowed"
+msgstr "อนุญาตเสมอ"
+
+#: build/admin.js:76
+msgid "Do not block (always load)"
+msgstr "ไม่บล็อก (โหลดเสมอ)"
+
+#: build/admin.js:76
+msgid "Edit Resource"
+msgstr "แก้ไขทรัพยากร"
+
+#: build/admin.js:76
+msgid "Add Script or Embed"
+msgstr "เพิ่มสคริปต์หรือฝัง"
+
+#: build/admin.js:76
+msgid "Update"
+msgstr "อัปเดต"
+
+#: build/admin.js:76
+msgid "Behavior"
+msgstr "พฤติกรรม"
+
+#: build/admin.js:76
+msgid "Whitelisted Resource Warning"
+msgstr "คำเตือนทรัพยากรในรายการอนุญาต"
+
+#: build/admin.js:76
+msgid "If a resource sets cookies, allowing it directly can be a GDPR violation - only whitelist resources you are sure about."
+msgstr "หากทรัพยากรกำหนดคุกกี้ การอนุญาตโดยตรงอาจละเมิด GDPR - ให้อนุญาตเฉพาะทรัพยากรที่คุณมั่นใจเท่านั้น"
+
+#: build/admin.js:76
+msgid "Detected by the scanner, so the value cannot be edited."
+msgstr "ตรวจพบโดยเครื่องสแกน ดังนั้นค่าจึงไม่สามารถแก้ไขได้"
+
+#: build/admin.js:76
+msgid "e.g. Support chat"
+msgstr "เช่น แชทสนับสนุน"
+
+#: build/admin.js:76
+msgid "Domain / Host"
+msgstr "โดเมน / โฮสต์"
+
+#: build/admin.js:76
+msgid "e.g. connect.facebook.net"
+msgstr "เช่น connect.facebook.net"
+
+#: build/admin.js:76
+msgid "The host the resource loads from. Pasting a full tag or URL also works."
+msgstr "โฮสต์ที่ทรัพยากรโหลดจาก การวางแท็กหรือ URL เต็มรูปแบบก็ใช้ได้เช่นกัน"
+
+#: build/admin.js:76
+msgid "Path / Pattern (advanced)"
+msgstr "เส้นทาง / รูปแบบ (ขั้นสูง)"
+
+#: build/admin.js:76
+msgid "e.g. /fbevents.js"
+msgstr "เช่น /fbevents.js"
+
+#: build/admin.js:76
+msgid "Optional: narrow the rule to resources that also contain this path, so only one file on the host is blocked."
+msgstr "ไม่บังคับ: จำกัดกฎให้แคบลงเฉพาะทรัพยากรที่มีเส้นทางนี้ด้วย เพื่อบล็อกไฟล์เดียวบนโฮสต์เท่านั้น"
+
+#: build/admin.js:76
+msgid "Script Keywords"
+msgstr "คำสำคัญของสคริปต์"
+
+#: build/admin.js:76
+msgid "e.g. fbq, fbq.push"
+msgstr "เช่น fbq, fbq.push"
+
+#: build/admin.js:76
+msgid "JavaScript function names to block that depend on the main script (comma separated)."
+msgstr "ชื่อฟังก์ชัน JavaScript ที่จะบล็อกซึ่งขึ้นอยู่กับสคริปต์หลัก (คั่นด้วยเครื่องหมายจุลภาค)"
+
+#: build/admin.js:76
+msgid "Script Location"
+msgstr "ตำแหน่งสคริปต์"
+
+#: build/admin.js:76
+msgid "Anywhere"
+msgstr "ทุกที่"
+
+#: build/admin.js:76
+msgid "Where the script loads on the page. SureCookie only looks for it in this section."
+msgstr "ตำแหน่งที่สคริปต์โหลดบนหน้า SureCookie จะค้นหาเฉพาะในส่วนนี้เท่านั้น"
+
+#: build/admin.js:76
+msgid "This resource stays blocked until the visitor consents to this category."
+msgstr "ทรัพยากรนี้จะถูกบล็อกจนกว่าผู้เยี่ยมชมจะยินยอมในหมวดหมู่นี้"
+
+#: build/admin.js:76
+msgid "Unlock Whitelisting"
+msgstr "ปลดล็อกการอนุญาตในรายการขาว"
+
+#: build/admin.js:76
+msgid "Whitelist your own scripts and common services so essential integrations keep working before consent."
+msgstr "อนุญาตสคริปต์ของคุณเองและบริการทั่วไปเพื่อให้การรวมระบบที่จำเป็นทำงานได้ก่อนการยินยอม"
+
+#. translators: %d: number of GCM-managed services.
+#: build/admin.js:77
+#, js-format
+msgid "Managed by Google Consent Mode (%d)"
+msgstr "จัดการโดยโหมดยินยอมของ Google (%d)"
+
+#: build/admin.js:77
+msgid "View services"
+msgstr "ดูบริการ"
+
+#: build/admin.js:77
+msgid "Managed by Google Consent Mode"
+msgstr "จัดการโดยโหมดยินยอมของ Google"
+
+#: build/admin.js:77
+msgid "Auto-whitelisted"
+msgstr "อนุญาตโดยอัตโนมัติ"
+
+#: build/admin.js:77
+msgid "Enter the script domain or host."
+msgstr "ป้อนโดเมนหรือโฮสต์ของสคริปต์"
+
+#: build/admin.js:77
+msgid "Select a category."
+msgstr "เลือกหมวดหมู่"
+
+#: build/admin.js:77
+msgid "A rule for this script already exists."
+msgstr "มีกฎสำหรับสคริปต์นี้อยู่แล้ว"
+
+#: build/admin.js:77
+msgid "Control how scripts and embeds load based on user consent - block them until allowed or mark essential ones to always run."
+msgstr "ควบคุมวิธีการโหลดสคริปต์และฝังตามการยินยอมของผู้ใช้ - บล็อกจนกว่าจะได้รับอนุญาตหรือทำเครื่องหมายว่าสำคัญให้ทำงานเสมอ"
+
+#: build/admin.js:77
+msgid "Behavior: Always Allowed"
+msgstr "พฤติกรรม: อนุญาตเสมอ"
+
+#: build/admin.js:77
+msgid "Choose scripts and domains that should never be blocked, so tools like reCAPTCHA and other essential integrations keep working. Google Consent Mode scripts are whitelisted automatically when it is enabled."
+msgstr "เลือกสคริปต์และโดเมนที่ไม่ควรถูกบล็อก เพื่อให้เครื่องมือเช่น reCAPTCHA และการรวมระบบที่จำเป็นอื่น ๆ ทำงานได้ สคริปต์โหมดยินยอมของ Google จะได้รับอนุญาตโดยอัตโนมัติเมื่อเปิดใช้งาน"
+
+#: build/admin.js:77
+msgid "Block Scripts and Embeds Until Consent Switch"
+msgstr "บล็อกสคริปต์และฝังจนกว่าจะยินยอม"
+
+#: build/admin.js:77
+msgid "Block Scripts Until Consent"
+msgstr "บล็อกสคริปต์จนกว่าจะยินยอม"
+
+#: build/admin.js:77
+msgid "Prevent non-essential scripts and embeds from loading until users give consent."
+msgstr "ป้องกันไม่ให้สคริปต์และฝังที่ไม่จำเป็นโหลดจนกว่าผู้ใช้จะให้ความยินยอม"
+
+#: build/admin.js:77
+msgid "Detected and Managed Resources"
+msgstr "ทรัพยากรที่ตรวจพบและจัดการ"
+
+#. translators: 1: scanner-detected count, 2: custom rule count
+#: build/admin.js:78
+#, js-format
+msgid "%1$d detected by scanner, %2$d custom"
+msgstr "%1$d ตรวจพบโดยเครื่องสแกน, %2$d กฎที่กำหนดเอง"
+
+#: build/admin.js:78
+msgid "New Resource"
+msgstr "ทรัพยากรใหม่"
+
+#: build/admin.js:78
+msgid "All your scripts will be displayed here"
+msgstr "สคริปต์ทั้งหมดของคุณจะแสดงที่นี่"
+
+#: build/admin.js:78
+msgid "Run a scan to detect third-party resources, or add a script manually."
+msgstr "เรียกใช้การสแกนเพื่อตรวจจับทรัพยากรของบุคคลที่สาม หรือเพิ่มสคริปต์ด้วยตนเอง"
+
+#: build/admin.js:78
+msgid "Add New Resource"
+msgstr "เพิ่มทรัพยากรใหม่"
+
+#: build/admin.js:78
+msgid "Unlock Custom Script Rules & Whitelisting"
+msgstr "ปลดล็อกกฎสคริปต์ที่กำหนดเองและการอนุญาตในรายการขาว"
+
+#: build/admin.js:78
+msgid "Add your own scripts to block under any category, whitelist trusted scripts, and manage it all from one place."
+msgstr "เพิ่มสคริปต์ของคุณเองเพื่อบล็อกภายใต้หมวดหมู่ใดก็ได้ อนุญาตสคริปต์ที่เชื่อถือได้ และจัดการทั้งหมดจากที่เดียว"
+
+#: build/admin.js:78
+msgid "Generate your cookie policy automatically from your settings, or display it anywhere using a shortcode."
+msgstr "สร้างนโยบายคุกกี้ของคุณโดยอัตโนมัติจากการตั้งค่าของคุณ หรือแสดงที่ใดก็ได้โดยใช้รหัสย่อ"
+
+#: build/admin.js:78
+msgid "Automatically re-scan your site and get notified when new cookies or trackers appear."
+msgstr "สแกนไซต์ของคุณใหม่โดยอัตโนมัติและรับการแจ้งเตือนเมื่อมีคุกกี้หรือเครื่องมือติดตามใหม่ปรากฏ"
+
+#: build/admin.js:84
+msgid "Show your cookie banner only in regions where consent is required."
+msgstr "แสดงแบนเนอร์คุกกี้ของคุณเฉพาะในภูมิภาคที่ต้องการความยินยอมเท่านั้น"
+
+#: build/admin.js:84
+msgid "Share visitor consent across your sites so users don’t need to give consent again."
+msgstr "แชร์ความยินยอมของผู้เยี่ยมชมข้ามไซต์ของคุณเพื่อให้ผู้ใช้ไม่ต้องให้ความยินยอมซ้ำอีก"
+
+#: build/admin.js:84
+msgid "Unlock Consent Sharing"
+msgstr "ปลดล็อกการแชร์ความยินยอม"
+
+#: build/admin.js:77
+msgid "Allowed to load while Google Consent Mode is active, instead of being blocked before consent."
+msgstr "อนุญาตให้โหลดในขณะที่โหมดความยินยอมของ Google ทำงาน แทนที่จะถูกบล็อกก่อนการยินยอม"
+
+#: build/admin.js:77
+msgid "These Google services are allowed to load while Google Consent Mode is active, instead of being blocked before consent. For Google tag products, Consent Mode then controls what they may store and which identifiers they may use. It does not stop them from contacting Google. They cannot be removed here."
+msgstr "บริการของ Google เหล่านี้ได้รับอนุญาตให้โหลดในขณะที่โหมดความยินยอมของ Google ทำงาน แทนที่จะถูกบล็อกก่อนการยินยอม สำหรับผลิตภัณฑ์แท็กของ Google โหมดความยินยอมจะควบคุมสิ่งที่พวกเขาอาจจัดเก็บและตัวระบุที่พวกเขาอาจใช้ มันไม่ได้หยุดพวกเขาจากการติดต่อกับ Google พวกเขาไม่สามารถถูกลบที่นี่ได้"

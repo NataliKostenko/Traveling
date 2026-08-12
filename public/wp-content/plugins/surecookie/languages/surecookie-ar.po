@@ -1,0 +1,5579 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SureCookie 0.0.1-beta.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surecookie\n"
+"Last-Translator: gpt-po v1.3.0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-19T05:50:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: surecookie\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: surecookie.php
+#: inc/integrations/wp-consent-api/actions.php:66
+#: inc/integrations/wp-consent-api/actions.php:74
+msgid "SureCookie"
+msgstr "شوركوكي"
+
+#. Plugin URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com"
+msgstr "https://surecookie.com"
+
+#. Description of the plugin
+#: surecookie.php
+msgid "Real cookie consent for WordPress. Browser-based scanning, smart categorization, strict script blocking, and consent logs stored in your database."
+msgstr "موافقة ملفات تعريف الارتباط الحقيقية لـ WordPress. مسح قائم على المتصفح، تصنيف ذكي، حظر صارم للسكريبتات، وسجلات الموافقة مخزنة في قاعدة بياناتك."
+
+#. Author URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com/"
+msgstr "https://surecookie.com/"
+
+#: admin/menu.php:74
+#: build/admin.js:2
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: admin/menu.php:87
+#: admin/menu.php:274
+#: build/admin.js:2
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: admin/menu.php:82
+#: admin/menu.php:400
+#: build/admin.js:2
+msgid "Logs"
+msgstr "السجلات"
+
+#: admin/menu.php:91
+#: build/admin.js:2
+msgid "Learn"
+msgstr "تعلم"
+
+#: admin/menu.php:130
+msgid "You don't have access to this page."
+msgstr "ليس لديك صلاحية الوصول إلى هذه الصفحة."
+
+#: admin/menu.php:300
+#: admin/menu.php:301
+msgid "Upgrade"
+msgstr "ترقية"
+
+#: admin/onboarding.php:59
+#: build/onboarding.js:14
+msgid "Onboarding"
+msgstr "الإعداد الأولي"
+
+#: admin/onboarding.php:75
+msgid "You do not have sufficient permissions to access this page."
+msgstr "ليس لديك الأذونات الكافية للوصول إلى هذه الصفحة."
+
+#: admin/product-promotion.php:110
+msgid "A simple yet powerful way to create modern forms for your website."
+msgstr "طريقة بسيطة لكنها قوية لإنشاء نماذج حديثة لموقعك."
+
+#: admin/rating-notice.php:234
+msgid "If SureCookie has been helpful, would you mind taking a moment to leave a 5-star review on WordPress.org?"
+msgstr "إذا كان SureCookie مفيدًا، هل تمانع في تخصيص لحظة لترك تقييم 5 نجوم على WordPress.org؟"
+
+#: admin/rating-notice.php:243
+msgid "Rate SureCookie"
+msgstr "قيم SureCookie"
+
+#: admin/rating-notice.php:251
+msgid "Maybe later"
+msgstr "ربما لاحقًا"
+
+#: admin/rating-notice.php:255
+msgid "I already did"
+msgstr "لقد فعلت ذلك بالفعل"
+
+#: inc/api/base.php:59
+msgid "You don't have access to do this."
+msgstr "ليس لديك صلاحية للقيام بذلك."
+
+#: inc/api/base.php:71
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "فشل فحص الأمان. يرجى تحديث الصفحة والمحاولة مرة أخرى."
+
+#: inc/api/base.php:80
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "انتهت صلاحية جلستك. يرجى تحديث الصفحة والمحاولة مرة أخرى."
+
+#: inc/api/consent-logs.php:146
+msgid "Search by IP address or Session ID"
+msgstr "البحث بواسطة عنوان IP أو معرف الجلسة"
+
+#: inc/api/consent-logs.php:318
+#: inc/api/consent-logs.php:345
+msgid "Request origin could not be verified."
+msgstr "تعذر التحقق من مصدر الطلب."
+
+#: inc/api/consent-logs.php:892
+msgid "Request origin is not allowed."
+msgstr "مصدر الطلب غير مسموح به."
+
+#: inc/api/consent-logs.php:448
+msgid "Consent logs retrieved successfully."
+msgstr "تم استرجاع سجلات الموافقة بنجاح."
+
+#: inc/api/consent-logs.php:490
+msgid "Consent processed successfully (logging disabled)"
+msgstr "تمت معالجة الموافقة بنجاح (تم تعطيل التسجيل)"
+
+#: inc/api/consent-logs.php:376
+#: inc/api/consent-logs.php:515
+msgid "Too many requests. Please try again later."
+msgstr "طلبات كثيرة جدًا. يرجى المحاولة لاحقًا."
+
+#: inc/api/consent-logs.php:535
+msgid "Preferences should not be empty."
+msgstr "يجب ألا تكون التفضيلات فارغة."
+
+#: inc/api/consent-logs.php:544
+msgid "Preferences data is too large."
+msgstr "بيانات التفضيلات كبيرة جدًا."
+
+#: inc/api/consent-logs.php:555
+#: inc/api/consent-logs.php:566
+msgid "Invalid preferences format."
+msgstr "تنسيق التفضيلات غير صالح."
+
+#: inc/api/consent-logs.php:575
+msgid "Session ID is required."
+msgstr "معرف الجلسة مطلوب."
+
+#: inc/api/consent-logs.php:614
+msgid "Accept All is not enabled for this site."
+msgstr "ميزة قبول الكل غير مفعلة لهذا الموقع."
+
+#: inc/api/consent-logs.php:641
+msgid "Consent saved successfully."
+msgstr "تم حفظ الموافقة بنجاح."
+
+#: inc/api/consent-logs.php:651
+msgid "Failed to save consent."
+msgstr "فشل في حفظ الموافقة."
+
+#: inc/api/consent-logs.php:669
+#: inc/api/consent-logs.php:801
+msgid "Invalid log ID"
+msgstr "معرف السجل غير صالح"
+
+#: inc/api/consent-logs.php:681
+msgid "Log not found."
+msgstr "السجل غير موجود."
+
+#: inc/api/consent-logs.php:717
+#: inc/api/consent-logs.php:744
+msgid "Log details retrieved successfully."
+msgstr "تم استرجاع تفاصيل السجل بنجاح."
+
+#: inc/api/consent-logs.php:766
+msgid "Invalid log IDs"
+msgstr "معرفات السجل غير صالحة"
+
+#: inc/api/consent-logs.php:777
+#: inc/api/consent-logs.php:872
+msgid "Failed to delete logs."
+msgstr "فشل في حذف السجلات."
+
+#. translators: %d: number of logs deleted
+#: inc/api/consent-logs.php:787
+#, php-format
+msgid "%d log(s) deleted successfully."
+msgstr "%d سجل(سجلات) تم حذفها بنجاح."
+
+#: inc/api/consent-logs.php:812
+msgid "Log deleted successfully."
+msgstr "تم حذف السجل بنجاح."
+
+#: inc/api/consent-logs.php:821
+msgid "Failed to delete log."
+msgstr "فشل في حذف السجل."
+
+#: inc/api/consent-logs.php:863
+msgid "All logs deleted successfully."
+msgstr "تم حذف جميع السجلات بنجاح."
+
+#: inc/api/cookie-categories.php:181
+msgid "Failed to create category: "
+msgstr "فشل في إنشاء الفئة:"
+
+#: inc/api/cookie-categories.php:204
+msgid "Failed to update category: "
+msgstr "فشل في تحديث الفئة:"
+
+#: inc/api/cookie-categories.php:230
+msgid "Failed to delete category: "
+msgstr "فشل في حذف الفئة:"
+
+#: inc/api/cookies.php:302
+msgid "Failed to create custom cookie: "
+msgstr "فشل في إنشاء ملف تعريف الارتباط المخصص:"
+
+#: inc/api/cookies.php:324
+msgid "Failed to update custom cookie: "
+msgstr "فشل في تحديث ملف تعريف الارتباط المخصص:"
+
+#: inc/api/cookies.php:345
+msgid "Failed to delete custom cookie: "
+msgstr "فشل في حذف ملف تعريف الارتباط المخصص:"
+
+#: inc/api/cookies.php:372
+msgid "Failed to update cookie category: "
+msgstr "فشل في تحديث فئة ملفات تعريف الارتباط:"
+
+#: inc/api/onboarding.php:134
+msgid "Onboarding data saved successfully."
+msgstr "تم حفظ بيانات الإعداد بنجاح."
+
+#: inc/api/onboarding.php:152
+msgid "Onboarding is already marked as complete."
+msgstr "تم بالفعل وضع علامة على الإعداد كمكتمل."
+
+#: inc/api/onboarding.php:162
+msgid "Onboarding marked as complete."
+msgstr "تم وضع علامة على الإعداد كمكتمل."
+
+#: inc/api/plugin.php:121
+msgid "Promotional plugins data retrieved."
+msgstr "تم استرجاع بيانات الإضافات الترويجية."
+
+#: inc/api/plugin.php:154
+msgid "You don't have permission to activate plugins."
+msgstr "ليس لديك إذن لتفعيل الإضافات."
+
+#: inc/api/plugin.php:158
+#: inc/api/plugin.php:191
+msgid "Plugin not found."
+msgstr "الإضافة غير موجودة."
+
+#: inc/api/plugin.php:172
+#: build/admin.js:2
+msgid "Plugin activated successfully."
+msgstr "تم تفعيل الإضافة بنجاح."
+
+#: inc/api/plugin.php:187
+msgid "You don't have permission to deactivate plugins."
+msgstr "ليس لديك إذن لتعطيل الإضافات."
+
+#: inc/api/plugin.php:203
+msgid "Plugin is already inactive."
+msgstr "الإضافة غير مفعلة بالفعل."
+
+#: inc/api/plugin.php:228
+#: build/admin.js:75
+msgid "Plugin deactivated successfully."
+msgstr "تم تعطيل الإضافة بنجاح."
+
+#: inc/api/plugin.php:290
+msgid "Conflicting plugins retrieved."
+msgstr "تم استرجاع الإضافات المتضاربة."
+
+#: inc/api/posts.php:199
+msgid "Post not found."
+msgstr "المشاركة غير موجودة."
+
+#: inc/api/scan-history.php:61
+msgid "Scanned history retrieved successfully."
+msgstr "تم استرجاع سجل الفحص بنجاح."
+
+#: inc/api/scanned-resources.php:78
+msgid "Scanned resources retrieved successfully."
+msgstr "تم استرجاع الموارد المفحوصة بنجاح."
+
+#: inc/api/settings.php:120
+msgid "No data found"
+msgstr "لم يتم العثور على بيانات"
+
+#: inc/api/settings.php:144
+msgid "Settings updated"
+msgstr "تم تحديث الإعدادات"
+
+#: inc/functions/get.php:118
+msgid "Essential Cookies"
+msgstr "ملفات تعريف الارتباط الأساسية"
+
+#: inc/functions/get.php:119
+msgid "Required for basic website functionality."
+msgstr "مطلوبة لوظائف الموقع الأساسية."
+
+#: inc/functions/get.php:124
+msgid "Functional Cookies"
+msgstr "ملفات تعريف الارتباط الوظيفية"
+
+#: inc/functions/get.php:125
+msgid "Enable features like saved preferences and personalized content."
+msgstr "تمكن من تفعيل ميزات مثل التفضيلات المحفوظة والمحتوى المخصص."
+
+#: inc/functions/get.php:130
+msgid "Analytics Cookies"
+msgstr "ملفات تعريف الارتباط التحليلية"
+
+#: inc/functions/get.php:131
+msgid "Help us understand how visitors use our site so we can improve it."
+msgstr "تساعدنا على فهم كيفية استخدام الزوار لموقعنا حتى نتمكن من تحسينه."
+
+#: inc/functions/get.php:136
+msgid "Marketing Cookies"
+msgstr "ملفات تعريف الارتباط التسويقية"
+
+#: inc/functions/get.php:137
+msgid "Used to show you relevant ads based on your interests."
+msgstr "تستخدم لعرض إعلانات ذات صلة بناءً على اهتماماتك."
+
+#: inc/functions/get.php:142
+msgid "Uncategorized Cookies"
+msgstr "ملفات تعريف الارتباط غير المصنفة"
+
+#: inc/functions/get.php:143
+msgid "Cookies that haven't been categorized yet."
+msgstr "ملفات تعريف الارتباط التي لم يتم تصنيفها بعد."
+
+#: inc/integrations/wp-consent-api/actions.php:62
+msgid "days"
+msgstr "أيام"
+
+#: inc/integrations/wp-consent-api/actions.php:69
+msgid "Stores the user's cookie consent preferences."
+msgstr "يخزن تفضيلات موافقة المستخدم على ملفات تعريف الارتباط."
+
+#: inc/integrations/wp-consent-api/actions.php:76
+msgid "1 year"
+msgstr "سنة واحدة"
+
+#: inc/integrations/wp-consent-api/actions.php:77
+msgid "Tracks consent log sessions for audit purposes."
+msgstr "يتتبع جلسات سجل الموافقة لأغراض التدقيق."
+
+#: inc/modules/auth/api.php:71
+msgid "Authentication is already completed."
+msgstr "تم إكمال المصادقة بالفعل."
+
+#: inc/modules/auth/controller.php:71
+msgid "Could not generate secure auth key."
+msgstr "تعذر إنشاء مفتاح مصادقة آمن."
+
+#: inc/modules/auth/controller.php:88
+msgid "Failed to encode the token data."
+msgstr "فشل في ترميز بيانات الرمز."
+
+#: inc/modules/auth/controller.php:179
+msgid "Invalid flow identifier."
+msgstr "معرف التدفق غير صالح."
+
+#: inc/modules/auth/controller.php:188
+msgid "Failed to decode the access key."
+msgstr "فشل في فك ترميز مفتاح الوصول."
+
+#: inc/modules/auth/controller.php:193
+msgid "Invalid data format."
+msgstr "تنسيق البيانات غير صالح."
+
+#: inc/modules/auth/controller.php:207
+msgid "Failed to decrypt the access key."
+msgstr "فشل في فك تشفير مفتاح الوصول."
+
+#: inc/modules/auth/controller.php:213
+msgid "Failed to json decode the decrypted data."
+msgstr "فشل في فك ترميز JSON للبيانات المفككة."
+
+#: inc/modules/auth/controller.php:217
+msgid "No user email found in the decrypted data."
+msgstr "لم يتم العثور على بريد إلكتروني للمستخدم في البيانات المفككة."
+
+#: inc/modules/cookie-policy/api.php:76
+#: build/admin.js:78
+msgid "Cookie Policy page already exists."
+msgstr "صفحة سياسة ملفات تعريف الارتباط موجودة بالفعل."
+
+#: inc/modules/cookie-policy/api.php:90
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/admin.js:78
+#: build/public.js:1
+msgid "Cookie Policy"
+msgstr "سياسة ملفات تعريف الارتباط"
+
+#: inc/modules/cookie-policy/api.php:112
+msgid "Cookie Policy page created successfully."
+msgstr "تم إنشاء صفحة سياسة ملفات تعريف الارتباط بنجاح."
+
+#. translators: %s: site name.
+#: inc/modules/cookie-policy/api.php:182
+#, php-format
+msgid "This Cookie Policy explains how %s uses cookies and similar tracking technologies when you visit our website. It describes what these technologies are, why we use them, and your rights to control our use of them."
+msgstr "تشرح سياسة ملفات تعريف الارتباط هذه كيف يستخدم %s ملفات تعريف الارتباط وتقنيات التتبع المماثلة عند زيارتك لموقعنا. تصف ما هي هذه التقنيات، ولماذا نستخدمها، وحقوقك في التحكم في استخدامنا لها."
+
+#: inc/modules/cookie-policy/api.php:191
+msgid "What Are Cookies"
+msgstr "ما هي ملفات تعريف الارتباط"
+
+#: inc/modules/cookie-policy/api.php:195
+msgid "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, provide a better browsing experience, and supply information to the owners of the site. Cookies can be \"persistent\" or \"session\" cookies. Persistent cookies remain on your device for a set period or until you delete them, while session cookies are deleted as soon as you close your web browser."
+msgstr "ملفات تعريف الارتباط هي ملفات نصية صغيرة تُخزن على جهاز الكمبيوتر أو الجهاز المحمول الخاص بك عند زيارتك لموقع ويب. تُستخدم على نطاق واسع لجعل المواقع تعمل بكفاءة أكبر، وتوفير تجربة تصفح أفضل، وتزويد مالكي الموقع بالمعلومات. يمكن أن تكون ملفات تعريف الارتباط \"دائمة\" أو \"جلسة\". تبقى ملفات تعريف الارتباط الدائمة على جهازك لفترة محددة أو حتى تقوم بحذفها، بينما تُحذف ملفات تعريف الارتباط الخاصة بالجلسة بمجرد إغلاق متصفح الويب الخاص بك."
+
+#: inc/modules/cookie-policy/api.php:199
+msgid "In addition to cookies, we may also use similar technologies such as pixel tags, web beacons, and local storage to collect and store information. These technologies work in a similar way to cookies and allow us to monitor and improve our website and your experience of it."
+msgstr "بالإضافة إلى الكوكيز، قد نستخدم أيضًا تقنيات مماثلة مثل علامات البكسل، والمنارات الشبكية، والتخزين المحلي لجمع المعلومات وتخزينها. تعمل هذه التقنيات بطريقة مشابهة للكوكيز وتتيح لنا مراقبة وتحسين موقعنا الإلكتروني وتجربتك معه."
+
+#: inc/modules/cookie-policy/api.php:206
+msgid "Types of Cookies We Use"
+msgstr "أنواع الكوكيز التي نستخدمها"
+
+#: inc/modules/cookie-policy/api.php:210
+msgid "We use different types of cookies for various reasons. The table below provides detailed information about the cookies we use, organized by category, including the name of each cookie, its purpose, duration, and the domain it belongs to. Some cookies are essential for the website to function properly, while others help us understand how visitors interact with our site, remember your preferences, or deliver relevant advertising."
+msgstr "نستخدم أنواعًا مختلفة من الكوكيز لأسباب متنوعة. يوفر الجدول أدناه معلومات مفصلة عن الكوكيز التي نستخدمها، منظمة حسب الفئة، بما في ذلك اسم كل كوكي، والغرض منه، ومدة صلاحيته، والنطاق الذي ينتمي إليه. بعض الكوكيز ضرورية لعمل الموقع بشكل صحيح، في حين تساعدنا أخرى على فهم كيفية تفاعل الزوار مع موقعنا، وتذكر تفضيلاتك، أو تقديم إعلانات ذات صلة."
+
+#: inc/modules/cookie-policy/api.php:220
+msgid "How to Manage Your Cookie Preferences"
+msgstr "كيفية إدارة تفضيلات الكوكيز الخاصة بك"
+
+#: inc/modules/cookie-policy/api.php:224
+msgid "When you first visit our website, you will be shown a cookie consent banner that allows you to accept or decline non-essential cookies. You can change your preferences at any time by clicking the cookie preferences option available on our website. Essential cookies cannot be disabled as they are necessary for the basic functioning of the website."
+msgstr "عند زيارتك الأولى لموقعنا، سيتم عرض لافتة موافقة على الكوكيز تتيح لك قبول أو رفض الكوكيز غير الضرورية. يمكنك تغيير تفضيلاتك في أي وقت بالنقر على خيار تفضيلات الكوكيز المتاح على موقعنا. لا يمكن تعطيل الكوكيز الضرورية لأنها ضرورية للوظائف الأساسية للموقع."
+
+#: inc/modules/cookie-policy/api.php:228
+msgid "Please note that restricting cookies may impact your experience of the website, as some features and services may not function properly without certain cookies enabled."
+msgstr "يرجى ملاحظة أن تقييد الكوكيز قد يؤثر على تجربتك في الموقع، حيث قد لا تعمل بعض الميزات والخدمات بشكل صحيح بدون تمكين بعض الكوكيز."
+
+#: inc/modules/cookie-policy/api.php:235
+msgid "How to Control Cookies in Your Browser"
+msgstr "كيفية التحكم في الكوكيز في متصفحك"
+
+#: inc/modules/cookie-policy/api.php:239
+msgid "Most web browsers allow you to manage your cookie preferences through their settings. You can set your browser to refuse cookies, delete existing cookies, or alert you when a cookie is being set. The steps to manage cookies vary by browser. Below are general instructions for the most common browsers."
+msgstr "تسمح معظم متصفحات الويب بإدارة تفضيلات الكوكيز من خلال إعداداتها. يمكنك ضبط متصفحك لرفض الكوكيز، حذف الكوكيز الموجودة، أو تنبيهك عند تعيين كوكي جديد. تختلف خطوات إدارة الكوكيز حسب المتصفح. فيما يلي تعليمات عامة لأكثر المتصفحات شيوعًا."
+
+#: inc/modules/cookie-policy/api.php:243
+msgid "Google Chrome: Open Settings, go to Privacy and Security, then click on Cookies and other site data. From there, you can block third-party cookies, clear cookies when you close the browser, or block all cookies."
+msgstr "جوجل كروم: افتح الإعدادات، اذهب إلى الخصوصية والأمان، ثم انقر على الكوكيز وبيانات الموقع الأخرى. من هناك، يمكنك حظر كوكيز الطرف الثالث، مسح الكوكيز عند إغلاق المتصفح، أو حظر جميع الكوكيز."
+
+#: inc/modules/cookie-policy/api.php:247
+msgid "Mozilla Firefox: Open Settings, go to Privacy and Security, and under Cookies and Site Data you can manage how Firefox handles cookies including clearing data and managing exceptions."
+msgstr "موزيلا فايرفوكس: افتح الإعدادات، اذهب إلى الخصوصية والأمان، وتحت قسم الكوكيز وبيانات الموقع يمكنك إدارة كيفية تعامل فايرفوكس مع الكوكيز بما في ذلك مسح البيانات وإدارة الاستثناءات."
+
+#: inc/modules/cookie-policy/api.php:251
+msgid "Safari: Open Preferences, go to the Privacy tab, and configure your cookie blocking preferences. Safari also offers an option to prevent cross-site tracking."
+msgstr "Safari: افتح التفضيلات، اذهب إلى علامة التبويب الخصوصية، وقم بتكوين تفضيلات حظر ملفات تعريف الارتباط الخاصة بك. كما يقدم Safari خيارًا لمنع التتبع عبر المواقع."
+
+#: inc/modules/cookie-policy/api.php:255
+msgid "Microsoft Edge: Open Settings, go to Privacy, Search, and Services. Under the Cookies section, you can choose to block third-party cookies or all cookies and manage cookie exceptions."
+msgstr "Microsoft Edge: افتح الإعدادات، اذهب إلى الخصوصية والبحث والخدمات. ضمن قسم ملفات تعريف الارتباط، يمكنك اختيار حظر ملفات تعريف الارتباط الخاصة بالطرف الثالث أو جميع ملفات تعريف الارتباط وإدارة استثناءات ملفات تعريف الارتباط."
+
+#: inc/modules/cookie-policy/api.php:262
+msgid "Consequences of Disabling Cookies"
+msgstr "عواقب تعطيل ملفات تعريف الارتباط"
+
+#: inc/modules/cookie-policy/api.php:266
+msgid "If you choose to disable or decline cookies, some parts of this website may not function as intended. For example, you may not be able to log in, your preferences may not be saved between visits, and certain interactive features may be limited. Disabling essential cookies may make it impossible to use some or all of the services provided through this website."
+msgstr "إذا اخترت تعطيل أو رفض ملفات تعريف الارتباط، فقد لا تعمل بعض أجزاء هذا الموقع كما هو مقصود. على سبيل المثال، قد لا تتمكن من تسجيل الدخول، وقد لا يتم حفظ تفضيلاتك بين الزيارات، وقد تكون بعض الميزات التفاعلية محدودة. قد يجعل تعطيل ملفات تعريف الارتباط الأساسية من المستحيل استخدام بعض أو كل الخدمات المقدمة من خلال هذا الموقع."
+
+#: inc/modules/cookie-policy/api.php:270
+msgid "Disabling analytics or marketing cookies will not affect the core functionality of the website, but it may limit our ability to improve the website based on user behavior or to provide you with personalized content and advertisements."
+msgstr "تعطيل ملفات تعريف الارتباط التحليلية أو التسويقية لن يؤثر على الوظائف الأساسية للموقع، لكنه قد يحد من قدرتنا على تحسين الموقع بناءً على سلوك المستخدم أو تقديم محتوى وإعلانات مخصصة لك."
+
+#: inc/modules/cookie-policy/api.php:277
+msgid "Changes to This Cookie Policy"
+msgstr "تغييرات على سياسة ملفات تعريف الارتباط هذه"
+
+#: inc/modules/cookie-policy/api.php:281
+msgid "We may update this Cookie Policy from time to time to reflect changes in technology, legislation, our business operations, or any other reason we determine is necessary or appropriate. Any changes will be posted on this page with an updated revision date. We encourage you to review this Cookie Policy periodically to stay informed about how we are using cookies."
+msgstr "قد نقوم بتحديث سياسة ملفات تعريف الارتباط هذه من وقت لآخر لتعكس التغييرات في التكنولوجيا أو التشريعات أو عمليات أعمالنا أو لأي سبب آخر نراه ضروريًا أو مناسبًا. سيتم نشر أي تغييرات على هذه الصفحة مع تاريخ مراجعة محدث. نشجعك على مراجعة سياسة ملفات تعريف الارتباط هذه بشكل دوري للبقاء على اطلاع بكيفية استخدامنا لملفات تعريف الارتباط."
+
+#: inc/modules/cookie-policy/api.php:288
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+#: inc/modules/cookie-policy/api.php:292
+msgid "If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at:"
+msgstr "إذا كان لديك أي أسئلة أو مخاوف بشأن سياسة ملفات تعريف الارتباط هذه أو استخدامنا لملفات تعريف الارتباط، يرجى الاتصال بنا على:"
+
+#: inc/modules/cookie-policy/api.php:296
+msgid "[Your Company Name], [Your Address], [your-email@example.com]"
+msgstr "[اسم شركتك]، [عنوانك]، [your-email@example.com]"
+
+#: inc/modules/cookie-policy/shortcode.php:143
+#: inc/modules/cookie-policy/shortcode.php:144
+msgid "Table of Contents"
+msgstr "جدول المحتويات"
+
+#: inc/modules/cookie-policy/shortcode.php:203
+#: build/admin.js:25
+msgid "Cookie Name"
+msgstr "اسم ملف تعريف الارتباط"
+
+#: inc/modules/cookie-policy/shortcode.php:204
+#: build/admin.js:25
+msgid "Purpose"
+msgstr "الغرض"
+
+#: inc/modules/cookie-policy/shortcode.php:205
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Duration"
+msgstr "المدة"
+
+#: inc/modules/cookie-policy/shortcode.php:206
+#: build/admin.js:25
+msgid "Domain"
+msgstr "النطاق"
+
+#. translators: %s: formatted date string.
+#: inc/modules/cookie-policy/shortcode.php:270
+#, php-format
+msgid "Last updated: %s"
+msgstr "آخر تحديث: %s"
+
+#: inc/modules/cookie-policy/shortcode.php:356
+msgid "This website"
+msgstr "هذا الموقع"
+
+#: inc/modules/google-consent-mode/consent-handler.php:130
+msgid "SureCookie:"
+msgstr "SureCookie:"
+
+#: inc/modules/google-consent-mode/consent-handler.php:132
+msgid "Google Site Kit's Consent Mode is active. Please disable it in Site Kit settings to use SureCookie's implementation."
+msgstr "وضع الموافقة الخاص بـ Google Site Kit نشط. يرجى تعطيله في إعدادات Site Kit لاستخدام تنفيذ SureCookie."
+
+#: inc/modules/nudges/api.php:70
+msgid "Invalid type provided."
+msgstr "تم تقديم نوع غير صالح."
+
+#: inc/modules/nudges/api.php:94
+msgid "Could not disable the nudge. Please try again."
+msgstr "تعذر تعطيل التنبيه. يرجى المحاولة مرة أخرى."
+
+#. translators: %s: nudge type
+#: inc/modules/nudges/api.php:100
+#, php-format
+msgid "\"%s\" has been disabled."
+msgstr "\"%s\" تم تعطيله."
+
+#. translators: %s: Service name (e.g., YouTube, Vimeo, Bunny.net).
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:302
+#: inc/modules/script-blocking/blocker.php:1283
+#, php-format
+msgid "This content is blocked because it requires %s cookies."
+msgstr "تم حظر هذا المحتوى لأنه يتطلب ملفات تعريف ارتباط %s."
+
+#: inc/integrations/presto-player/block-handler.php:240
+#: inc/modules/script-blocking/blocker.php:1298
+msgid "Accept & Load"
+msgstr "قبول وتحميل"
+
+#: inc/modules/site-scanner/api.php:220
+msgid "Scan cancelled successfully."
+msgstr "تم إلغاء الفحص بنجاح."
+
+#: inc/modules/site-scanner/api.php:226
+msgid "No active scan to cancel."
+msgstr "لا يوجد فحص نشط للإلغاء."
+
+#: inc/modules/site-scanner/api.php:257
+#: inc/modules/site-scanner/saas-client.php:400
+msgid "A scan is already in progress. Please wait for it to complete."
+msgstr "الفحص جارٍ بالفعل. يرجى الانتظار حتى يكتمل."
+
+#: inc/modules/site-scanner/api.php:273
+#: inc/modules/site-scanner/cron.php:76
+#: inc/modules/site-scanner/saas-client.php:407
+msgid "No pages selected for scanning."
+msgstr "لم يتم تحديد صفحات للمسح."
+
+#: inc/modules/site-scanner/api.php:288
+msgid "Failed to start scan."
+msgstr "فشل في بدء المسح."
+
+#: inc/modules/site-scanner/api.php:299
+msgid "Cookie scan has been initiated."
+msgstr "تم بدء مسح الكوكيز."
+
+#: inc/modules/site-scanner/api.php:300
+msgid "The scan is running. You will be notified when it completes."
+msgstr "المسح جارٍ. سيتم إعلامك عند الانتهاء."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/api.php:312
+#, php-format
+msgid "Failed to start site scanner: %s"
+msgstr "فشل في بدء ماسح الموقع: %s"
+
+#: inc/modules/site-scanner/cron.php:70
+msgid "Starting site scan (triggered by user)."
+msgstr "بدء مسح الموقع (تم تشغيله بواسطة المستخدم)."
+
+#. translators: %s: Plan name
+#: inc/modules/site-scanner/cron.php:92
+#, php-format
+msgid "Plan: %s."
+msgstr "الخطة: %s."
+
+#. translators: %d: Number of pages
+#: inc/modules/site-scanner/cron.php:93
+#, php-format
+msgid "Pages selected: %d."
+msgstr "الصفحات المحددة: %d."
+
+#: inc/modules/site-scanner/cron.php:95
+msgid "Sending scan request…"
+msgstr "جارٍ إرسال طلب المسح…"
+
+#: inc/modules/site-scanner/cron.php:101
+msgid "Scan already in progress. Skipping."
+msgstr "المسح جارٍ بالفعل. سيتم التجاوز."
+
+#: inc/modules/site-scanner/cron.php:114
+msgid "Scan started successfully."
+msgstr "تم بدء المسح بنجاح."
+
+#. translators: %s: Group ID
+#: inc/modules/site-scanner/cron.php:115
+#, php-format
+msgid "Group ID: %s"
+msgstr "معرّف المجموعة: %s"
+
+#: inc/modules/site-scanner/cron.php:117
+msgid "Checking scan progress…"
+msgstr "جارٍ التحقق من تقدم المسح…"
+
+#: inc/modules/site-scanner/cron.php:122
+msgid "Scan failed."
+msgstr "فشل المسح."
+
+#: inc/modules/site-scanner/cron.php:166
+msgid "No active scan."
+msgstr "لا يوجد مسح نشط."
+
+#: inc/modules/site-scanner/cron.php:186
+msgid "Scan in progress..."
+msgstr "المسح جارٍ..."
+
+#: inc/modules/site-scanner/cron.php:224
+msgid "Scan cancelled by user."
+msgstr "تم إلغاء المسح بواسطة المستخدم."
+
+#: inc/modules/site-scanner/saas-client.php:281
+msgid "Every 1 Minute (SureCookie Polling)"
+msgstr "كل دقيقة واحدة (استطلاع SureCookie)"
+
+#: inc/modules/site-scanner/saas-client.php:391
+msgid "Cookie scanning is not available for localhost or development sites. Please use a live domain."
+msgstr "مسح الكوكيز غير متاح للمواقع المحلية أو مواقع التطوير. يرجى استخدام نطاق مباشر."
+
+#: inc/modules/site-scanner/saas-client.php:422
+msgid "Could not generate a secure scan token. Please retry."
+msgstr "تعذر إنشاء رمز مسح آمن. يرجى المحاولة مرة أخرى."
+
+#: inc/modules/site-scanner/saas-client.php:448
+msgid "Failed to encode scan request."
+msgstr "فشل في ترميز طلب المسح."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/saas-client.php:493
+#, php-format
+msgid "Failed to start scan: %s"
+msgstr "فشل في بدء المسح: %s"
+
+#: inc/modules/site-scanner/saas-client.php:531
+msgid "Unknown error occurred."
+msgstr "حدث خطأ غير معروف."
+
+#: inc/modules/site-scanner/saas-client.php:599
+msgid "Scan has been started. You will be notified when it completes."
+msgstr "تم بدء المسح. سيتم إعلامك عند الانتهاء."
+
+#: inc/modules/site-scanner/saas-client.php:641
+msgid "Failed to check scan status."
+msgstr "فشل في التحقق من حالة المسح."
+
+#: inc/modules/site-scanner/saas-client.php:778
+msgid "Failed to get scan group."
+msgstr "فشل في الحصول على مجموعة المسح."
+
+#: inc/modules/site-scanner/saas-client.php:906
+msgid "Scan timed out. Please try again."
+msgstr "انتهت مهلة المسح. يرجى المحاولة مرة أخرى."
+
+#. translators: 1: completed pages count, 2: total pages count
+#: inc/modules/site-scanner/saas-client.php:944
+#, php-format
+msgid "Progress: %1$d of %2$d pages scanned."
+msgstr "التقدم: %1$d من %2$d صفحات تم مسحها."
+
+#. translators: %d: number of failed pages
+#: inc/modules/site-scanner/saas-client.php:954
+#, php-format
+msgid "%d page(s) failed to scan."
+msgstr "%d صفحة(صفحات) فشلت في المسح."
+
+#: inc/modules/site-scanner/saas-client.php:977
+msgid "Scan completed!"
+msgstr "اكتمل المسح!"
+
+#: inc/modules/site-scanner/saas-client.php:996
+msgid "Scan failed on server."
+msgstr "فشل المسح على الخادم."
+
+#: inc/modules/site-scanner/saas-client.php:1002
+msgid "Scan is in progress. Checking again…"
+msgstr "المسح جارٍ. جارٍ التحقق مرة أخرى…"
+
+#: inc/modules/site-scanner/saas-client.php:1043
+msgid "Quota is not available on localhost or development sites."
+msgstr "الحصة غير متاحة على المواقع المحلية أو مواقع التطوير."
+
+#: inc/modules/site-scanner/saas-client.php:1056
+msgid "Scanner credentials are not yet issued. Run your first scan to register."
+msgstr "لم يتم إصدار بيانات اعتماد الماسح بعد. قم بتشغيل المسح الأول للتسجيل."
+
+#: inc/modules/site-scanner/saas-client.php:1102
+msgid "Unexpected response from server."
+msgstr "استجابة غير متوقعة من الخادم."
+
+#: inc/modules/site-scanner/saas-client.php:1149
+msgid "Authentication required."
+msgstr "المصادقة مطلوبة."
+
+#: inc/modules/site-scanner/saas-client.php:1159
+msgid "Failed to fetch quota."
+msgstr "فشل في جلب الحصة."
+
+#: inc/modules/site-scanner/saas-client.php:1476
+msgid "Another registration is already in progress. Please try again in a moment."
+msgstr "تسجيل آخر جارٍ بالفعل. يرجى المحاولة مرة أخرى بعد لحظة."
+
+#: inc/modules/site-scanner/saas-client.php:1506
+msgid "Could not determine site domain."
+msgstr "تعذر تحديد نطاق الموقع."
+
+#: inc/modules/site-scanner/saas-client.php:1518
+msgid "Could not generate a secure registration nonce. Please retry."
+msgstr "تعذر إنشاء رمز تسجيل آمن. يرجى المحاولة مرة أخرى."
+
+#: inc/modules/site-scanner/saas-client.php:1546
+msgid "Failed to encode registration request."
+msgstr "فشل في ترميز طلب التسجيل."
+
+#. translators: %s: error message from the network call
+#: inc/modules/site-scanner/saas-client.php:1568
+#, php-format
+msgid "Could not reach the SureCookie service: %s"
+msgstr "تعذر الوصول إلى خدمة SureCookie: %s"
+
+#: inc/modules/site-scanner/saas-client.php:1582
+msgid "Registration could not be initiated."
+msgstr "تعذر بدء التسجيل."
+
+#: inc/modules/site-scanner/saas-client.php:1597
+msgid "Received an invalid verification token. Please retry."
+msgstr "تم استلام رمز تحقق غير صالح. يرجى المحاولة مرة أخرى."
+
+#: inc/modules/site-scanner/saas-client.php:1615
+msgid "Failed to encode verification completion."
+msgstr "فشل في ترميز إكمال التحقق."
+
+#: inc/modules/site-scanner/saas-client.php:1899
+msgid "Failed to fetch results."
+msgstr "فشل في جلب النتائج."
+
+#: inc/services/cookie-category-service.php:54
+msgid "Cookie categories retrieved successfully."
+msgstr "تم استرجاع فئات الكوكيز بنجاح."
+
+#: inc/services/cookie-category-service.php:75
+msgid "Category name is required."
+msgstr "اسم الفئة مطلوب."
+
+#: inc/services/cookie-category-service.php:86
+msgid "A category with this name already exists."
+msgstr "فئة بهذا الاسم موجودة بالفعل."
+
+#: inc/services/cookie-category-service.php:103
+msgid "Category created successfully."
+msgstr "تم إنشاء الفئة بنجاح."
+
+#: inc/services/cookie-category-service.php:124
+#: inc/services/cookie-category-service.php:196
+msgid "Category ID is required."
+msgstr "معرّف الفئة مطلوب."
+
+#: inc/services/cookie-category-service.php:134
+#: inc/services/cookie-category-service.php:215
+msgid "Category not found."
+msgstr "الفئة غير موجودة."
+
+#: inc/services/cookie-category-service.php:166
+msgid "Category updated successfully."
+msgstr "تم تحديث الفئة بنجاح."
+
+#: inc/services/cookie-category-service.php:205
+msgid "Default categories cannot be deleted."
+msgstr "لا يمكن حذف الفئات الافتراضية."
+
+#: inc/services/cookie-category-service.php:307
+msgid "Category deleted successfully."
+msgstr "تم حذف الفئة بنجاح."
+
+#: inc/services/cookie-service.php:60
+#: inc/services/cookie-service.php:355
+msgid "No scanned cookies found."
+msgstr "لم يتم العثور على كوكيز ممسوحة."
+
+#: inc/services/cookie-service.php:84
+msgid "Scanned cookies retrieved successfully."
+msgstr "تم استرجاع الكوكيز الممسوحة بنجاح."
+
+#: inc/services/cookie-service.php:101
+msgid "Custom cookies retrieved successfully."
+msgstr "تم استرجاع الكوكيز المخصصة بنجاح."
+
+#: inc/services/cookie-service.php:132
+#: inc/services/cookie-service.php:323
+msgid "Cookie name is required."
+msgstr "اسم الكوكيز مطلوب."
+
+#: inc/services/cookie-service.php:139
+msgid "Cookie category is required."
+msgstr "فئة الكوكيز مطلوبة."
+
+#: inc/services/cookie-service.php:154
+msgid "A cookie with this name already exists."
+msgstr "كوكيز بهذا الاسم موجود بالفعل."
+
+#: inc/services/cookie-service.php:191
+msgid "Custom cookie created successfully."
+msgstr "تم إنشاء كوكيز مخصص بنجاح."
+
+#: inc/services/cookie-service.php:210
+#: inc/services/cookie-service.php:280
+msgid "Cookie ID is required."
+msgstr "معرف الكوكيز مطلوب."
+
+#: inc/services/cookie-service.php:219
+#: inc/services/cookie-service.php:289
+msgid "Cookie not found."
+msgstr "لم يتم العثور على الكوكيز."
+
+#: inc/services/cookie-service.php:262
+msgid "Custom cookie updated successfully."
+msgstr "تم تحديث الكوكيز المخصص بنجاح."
+
+#: inc/services/cookie-service.php:299
+msgid "Custom cookie deleted successfully."
+msgstr "تم حذف الكوكيز المخصص بنجاح."
+
+#: inc/services/cookie-service.php:330
+msgid "Current category is required."
+msgstr "الفئة الحالية مطلوبة."
+
+#: inc/services/cookie-service.php:337
+#: inc/services/cookie-service.php:414
+msgid "New category is required."
+msgstr "الفئة الجديدة مطلوبة."
+
+#: inc/services/cookie-service.php:345
+msgid "Cookie is already in the selected category."
+msgstr "الكوكيز موجود بالفعل في الفئة المحددة."
+
+#: inc/services/cookie-service.php:363
+msgid "Current category not found in scanned cookies."
+msgstr "لم يتم العثور على الفئة الحالية في الكوكيز الممسوحة."
+
+#: inc/services/cookie-service.php:372
+msgid "Cookie not found in the specified category."
+msgstr "لم يتم العثور على الكوكيز في الفئة المحددة."
+
+#: inc/services/cookie-service.php:384
+msgid "Cookie category updated successfully."
+msgstr "تم تحديث فئة الكوكيز بنجاح."
+
+#: inc/utils/options.php:48
+msgid "We use cookies to improve your experience and understand how you use our site. You can review your choices at any time."
+msgstr "نستخدم الكوكيز لتحسين تجربتك وفهم كيفية استخدامك لموقعنا. يمكنك مراجعة اختياراتك في أي وقت."
+
+#: inc/utils/options.php:62
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Only Essential"
+msgstr "الأساسية فقط"
+
+#: inc/utils/options.php:71
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Accept All"
+msgstr "قبول الكل"
+
+#: inc/utils/options.php:75
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Decline"
+msgstr "رفض"
+
+#: inc/utils/options.php:79
+msgid "Cookie Settings"
+msgstr "إعدادات الكوكيز"
+
+#: inc/utils/options.php:142
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Preferences"
+msgstr "التفضيلات"
+
+#: inc/utils/options.php:146
+msgid "Privacy Preference"
+msgstr "تفضيل الخصوصية"
+
+#: inc/utils/options.php:150
+msgid "We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience."
+msgstr "نستخدم الكوكيز والتقنيات المماثلة للمساعدة في تخصيص المحتوى، وتفصيل وقياس الإعلانات، وتوفير تجربة أفضل."
+
+#: inc/utils/options.php:174
+#: build/admin.js:4
+#: build/admin.js:75
+msgid "Cookie Preferences"
+msgstr "تفضيلات الكوكيز"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Accepted"
+msgstr "تم القبول"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Partially Accepted"
+msgstr "تم القبول جزئياً"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Declined"
+msgstr "تم الرفض"
+
+#: build/admin.js:1
+msgid "Failed to load consent logs"
+msgstr "فشل تحميل سجلات الموافقة"
+
+#: build/admin.js:1
+msgid "Failed to load conflicting plugins"
+msgstr "فشل تحميل الإضافات المتعارضة"
+
+#: build/admin.js:1
+msgid "Failed to load cookie categories"
+msgstr "فشل تحميل فئات الكوكيز"
+
+#: build/admin.js:1
+msgid "Scan cancelled."
+msgstr "تم إلغاء الفحص."
+
+#: build/admin.js:1
+msgid "Failed to cancel scan."
+msgstr "فشل إلغاء الفحص."
+
+#: build/admin.js:1
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "Failed to load settings"
+msgstr "فشل تحميل الإعدادات"
+
+#: build/admin.js:1
+msgid "Failed to save settings"
+msgstr "فشل حفظ الإعدادات"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "30 days"
+msgstr "30 يومًا"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "60 days"
+msgstr "60 يومًا"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "90 days"
+msgstr "90 يومًا"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "365 days"
+msgstr "365 يومًا"
+
+#: build/admin.js:1
+#: build/admin.js:3
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "Never"
+msgstr "أبدًا"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Cookie Scanner"
+msgstr "ماسح الكوكيز"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "All Cookies"
+msgstr "جميع الكوكيز"
+
+#: build/admin.js:2
+msgid "Banner"
+msgstr "الشريط"
+
+#: build/admin.js:2
+msgid "Content"
+msgstr "المحتوى"
+
+#: build/admin.js:2
+msgid "Layout"
+msgstr "التخطيط"
+
+#: build/admin.js:2
+#: build/admin.js:78
+msgid "Visibility"
+msgstr "الرؤية"
+
+#: build/admin.js:2
+#: build/admin.js:75
+msgid "Re-Consent"
+msgstr "إعادة الموافقة"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "Custom CSS"
+msgstr "CSS مخصص"
+
+#: build/admin.js:2
+msgid "Google Consent Mode"
+msgstr "وضع موافقة جوجل"
+
+#: build/admin.js:2
+msgid "Additional Consent"
+msgstr "موافقة إضافية"
+
+#: build/admin.js:2
+#: build/admin.js:21
+msgid "Consent Logs"
+msgstr "سجلات الموافقة"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication timeout. Please try again."
+msgstr "انتهت مهلة المصادقة. يرجى المحاولة مرة أخرى."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful!"
+msgstr "تمت المصادقة بنجاح!"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "An error occurred during authentication"
+msgstr "حدث خطأ أثناء المصادقة"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication cancelled. Please try again."
+msgstr "تم إلغاء المصادقة. يرجى المحاولة مرة أخرى."
+
+#: inc/modules/assisted-scan/collector.php:329
+#: build/admin.js:2
+#: build/admin.js:3
+#: build/admin.js:28
+#: build/admin.js:41
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: build/admin.js:2
+#: build/admin.js:5
+#: build/admin.js:6
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Delete"
+msgstr "حذف"
+
+#: build/admin.js:2
+#: build/admin.js:28
+#: build/admin.js:83
+msgid "Save"
+msgstr "حفظ"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "No options available"
+msgstr "لا توجد خيارات متاحة"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful"
+msgstr "تمت المصادقة بنجاح"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication completed successfully. Closing tab in 3 seconds…"
+msgstr "اكتملت المصادقة بنجاح. سيتم إغلاق التبويب خلال 3 ثوانٍ…"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication failed"
+msgstr "فشلت المصادقة"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Please return to the SureCookie dashboard and try again."
+msgstr "يرجى العودة إلى لوحة تحكم SureCookie والمحاولة مرة أخرى."
+
+#: build/admin.js:2
+#: build/onboarding.js:6
+msgid "Let's Get Started"
+msgstr "لنبدأ"
+
+#: build/admin.js:2
+msgid "Automatic Cookie Detection"
+msgstr "الكشف التلقائي عن الكوكيز"
+
+#: build/admin.js:2
+msgid "Smart Categorization"
+msgstr "التصنيف الذكي"
+
+#: build/admin.js:2
+msgid "Compliance Recommendations"
+msgstr "توصيات الامتثال"
+
+#: build/admin.js:2
+msgid "Connect to scan your website"
+msgstr "الاتصال لفحص موقعك الإلكتروني"
+
+#: build/admin.js:2
+msgid "Connect your SureCookie account to automatically detect cookies on your website, categorize them, and get compliance recommendations."
+msgstr "قم بربط حساب SureCookie الخاص بك لاكتشاف الكوكيز تلقائيًا على موقعك، وتصنيفها، والحصول على توصيات الامتثال."
+
+#: build/admin.js:2
+msgid "Learn more"
+msgstr "تعرف على المزيد"
+
+#: build/admin.js:2
+msgid "Free Plan Limit Reached"
+msgstr "تم الوصول إلى حد الخطة المجانية"
+
+#: build/admin.js:2
+#: build/admin.js:6
+#: build/admin.js:47
+#: build/admin.js:53
+#: build/admin.js:63
+#: build/admin.js:75
+#: build/onboarding.js:7
+msgid "Upgrade Now"
+msgstr "قم بالترقية الآن"
+
+#: build/admin.js:2
+msgid "Unlock this feature"
+msgstr "افتح هذه الميزة"
+
+#: build/admin.js:2
+msgid "WordPress updates API not available."
+msgstr "واجهة برمجة تحديثات ووردبريس غير متوفرة."
+
+#: build/admin.js:2
+msgid "Plugin activation failed."
+msgstr "فشل تفعيل الإضافة."
+
+#: build/admin.js:2
+msgid "Plugin installation failed."
+msgstr "فشل تثبيت الإضافة."
+
+#: build/admin.js:2
+msgid "Plugin installed and activated successfully."
+msgstr "تم تثبيت وتفعيل الإضافة بنجاح."
+
+#: build/admin.js:2
+msgid "Failed to install and activate plugin."
+msgstr "فشل تثبيت وتفعيل الإضافة."
+
+#: build/admin.js:2
+msgid "Failed to activate plugin."
+msgstr "فشل تفعيل الإضافة."
+
+#: build/admin.js:2
+msgid "Install and Activate"
+msgstr "تثبيت وتفعيل"
+
+#: build/admin.js:2
+msgid "Activate"
+msgstr "تفعيل"
+
+#: build/admin.js:2
+msgid "Activated"
+msgstr "تم التفعيل"
+
+#: build/admin.js:2
+msgid "Settings saved!"
+msgstr "تم حفظ الإعدادات!"
+
+#: build/admin.js:2
+msgid "Your settings have been successfully saved."
+msgstr "تم حفظ إعداداتك بنجاح."
+
+#: build/admin.js:2
+msgid "Save failed!"
+msgstr "فشل الحفظ!"
+
+#: build/admin.js:2
+msgid "There was an error saving your settings. Please try again."
+msgstr "حدث خطأ أثناء حفظ إعداداتك. يرجى المحاولة مرة أخرى."
+
+#: build/admin.js:2
+msgid "Saving…"
+msgstr "جارٍ الحفظ…"
+
+#: build/admin.js:2
+msgid "Banner Content"
+msgstr "محتوى الشعار"
+
+#: build/admin.js:2
+msgid "Configure the text content that appears in your cookie consent banner and preference modal"
+msgstr "قم بتكوين محتوى النص الذي يظهر في لافتة موافقة الكوكيز ونموذج التفضيلات"
+
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "An error occurred while loading settings. Please refresh the page to try again."
+msgstr "حدث خطأ أثناء تحميل الإعدادات. يرجى تحديث الصفحة والمحاولة مرة أخرى."
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner Switch"
+msgstr "تفعيل مفتاح لافتة الكوكيز"
+
+#: build/admin.js:2
+msgid "Show cookie consent banner to comply with privacy regulations."
+msgstr "عرض لافتة موافقة الكوكيز للامتثال للوائح الخصوصية."
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner"
+msgstr "تفعيل لافتة الكوكيز"
+
+#: build/admin.js:2
+msgid "Consent Banner"
+msgstr "لافتة الموافقة"
+
+#: build/admin.js:2
+msgid "Preference Modal"
+msgstr "نموذج التفضيلات"
+
+#: build/admin.js:2
+msgid "Banner Heading"
+msgstr "عنوان اللافتة"
+
+#: build/admin.js:2
+msgid "Cookie Notice (optional)"
+msgstr "إشعار الكوكيز (اختياري)"
+
+#: build/admin.js:2
+msgid "Banner Message"
+msgstr "رسالة اللافتة"
+
+#: build/admin.js:2
+msgid "Enable Accept All Button"
+msgstr "تفعيل زر قبول الكل"
+
+#: build/admin.js:2
+msgid "Show the \"Accept All\" button on the consent banner. When off, the button is removed from the banner and from the Button Order list."
+msgstr "عرض زر \"قبول الكل\" على لافتة الموافقة. عند إيقافه، يتم إزالة الزر من اللافتة ومن قائمة ترتيب الأزرار."
+
+#: build/admin.js:2
+msgid "Preference Modal Title"
+msgstr "عنوان نموذج التفضيلات"
+
+#: build/admin.js:2
+msgid "Preference Modal Description"
+msgstr "وصف نموذج التفضيلات"
+
+#: build/admin.js:2
+msgid "Preference modal description cannot be empty."
+msgstr "لا يمكن أن يكون وصف نموذج التفضيلات فارغًا."
+
+#: build/admin.js:2
+msgid "Banner message cannot be empty."
+msgstr "لا يمكن أن تكون رسالة اللافتة فارغة."
+
+#: build/admin.js:2
+msgid "Button Order"
+msgstr "ترتيب الأزرار"
+
+#: build/admin.js:2
+msgid "Drag and drop to reorder buttons. This order can be overridden per Geographic Targeting Rule."
+msgstr "اسحب وأفلت لإعادة ترتيب الأزرار. يمكن تجاوز هذا الترتيب حسب قاعدة الاستهداف الجغرافي."
+
+#: build/admin.js:2
+msgid "Banner Layout"
+msgstr "تخطيط اللافتة"
+
+#: build/admin.js:2
+msgid "Configure how and where your cookie banner appears on your website"
+msgstr "قم بتكوين كيفية ومكان ظهور لافتة الكوكيز على موقعك"
+
+#: build/admin.js:2
+msgid "Upload Logo"
+msgstr "تحميل الشعار"
+
+#: build/admin.js:2
+msgid "Logo"
+msgstr "الشعار"
+
+#: build/admin.js:2
+msgid "Select Logo"
+msgstr "اختر الشعار"
+
+#: build/admin.js:2
+msgid "Use this logo"
+msgstr "استخدم هذا الشعار"
+
+#: build/admin.js:2
+msgid "Banner Type"
+msgstr "نوع اللافتة"
+
+#: build/admin.js:2
+msgid "Floating Banner"
+msgstr "لافتة عائمة"
+
+#: build/admin.js:2
+msgid "Full-width Banner"
+msgstr "لافتة بعرض كامل"
+
+#: build/admin.js:2
+msgid "Banner Width"
+msgstr "عرض اللافتة"
+
+#: build/admin.js:2
+msgid "px"
+msgstr "بكسل"
+
+#: build/admin.js:2
+msgid "Position"
+msgstr "الموضع"
+
+#: build/admin.js:2
+msgid "Bottom Left"
+msgstr "أسفل اليسار"
+
+#: build/admin.js:2
+msgid "Bottom Center"
+msgstr "أسفل الوسط"
+
+#: build/admin.js:2
+msgid "Bottom Right"
+msgstr "أسفل اليمين"
+
+#: build/admin.js:2
+msgid "Middle"
+msgstr "الوسط"
+
+#: build/admin.js:2
+msgid "Top"
+msgstr "أعلى"
+
+#: build/admin.js:2
+msgid "Bottom"
+msgstr "أسفل"
+
+#: build/admin.js:2
+msgid "Banner Animation"
+msgstr "تحريك اللافتة"
+
+#: build/admin.js:2
+msgid "Fade"
+msgstr "تلاشي"
+
+#: build/admin.js:2
+msgid "Slide"
+msgstr "انزلاق"
+
+#: build/admin.js:2
+msgid "Color Palette: <span></span>"
+msgstr "لوحة الألوان: <span></span>"
+
+#: build/admin.js:2
+#: build/admin.js:4
+msgid "Default"
+msgstr "افتراضي"
+
+#: build/admin.js:4
+msgid "Consent Details"
+msgstr "تفاصيل الموافقة"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Unknown"
+msgstr "غير معروف"
+
+#: build/admin.js:4
+msgid "No data available."
+msgstr "لا توجد بيانات متاحة."
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: build/admin.js:4
+msgid "Consent logs"
+msgstr "سجلات الموافقة"
+
+#: build/admin.js:4
+msgid "Date & Time"
+msgstr "التاريخ والوقت"
+
+#: build/admin.js:4
+msgid "IP Address"
+msgstr "عنوان IP"
+
+#: build/admin.js:4
+msgid "Country"
+msgstr "البلد"
+
+#: build/admin.js:4
+#: build/admin.js:76
+msgid "Status"
+msgstr "الحالة"
+
+#: build/admin.js:4
+msgid "Download PDF"
+msgstr "تحميل PDF"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:5
+#, js-format
+msgid "Download PDF for consent log from %s"
+msgstr "تحميل PDF لسجل الموافقة من %s"
+
+#: build/admin.js:4
+msgid "Session Summary"
+msgstr "ملخص الجلسة"
+
+#: build/admin.js:4
+msgid "Field"
+msgstr "الحقل"
+
+#: build/admin.js:4
+msgid "Value"
+msgstr "القيمة"
+
+#: build/admin.js:4
+msgid "Session ID"
+msgstr "معرّف الجلسة"
+
+#: build/admin.js:4
+msgid "Total Records"
+msgstr "إجمالي السجلات"
+
+#: build/admin.js:4
+msgid "Date Range"
+msgstr "نطاق التاريخ"
+
+#: build/admin.js:4
+msgid "Consent Record"
+msgstr "سجل الموافقة"
+
+#: build/admin.js:4
+msgid "Log ID"
+msgstr "معرّف السجل"
+
+#: build/admin.js:4
+msgid "Timestamp"
+msgstr "الطابع الزمني"
+
+#: build/admin.js:4
+msgid "Consent Status"
+msgstr "حالة الموافقة"
+
+#: build/admin.js:4
+msgid "Consent Preset"
+msgstr "إعداد الموافقة المسبق"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Category"
+msgstr "الفئة"
+
+#: build/admin.js:4
+msgid "Legal Information"
+msgstr "المعلومات القانونية"
+
+#: build/admin.js:4
+msgid "Date of Generation"
+msgstr "تاريخ الإنشاء"
+
+#: build/admin.js:4
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:6
+#, js-format
+msgid "Delete consent log from %s"
+msgstr "حذف سجل الموافقة من %s"
+
+#: build/admin.js:6
+msgid "Consent log is empty"
+msgstr "سجل الموافقة فارغ"
+
+#: build/admin.js:6
+msgid "Your consent logs will be displayed here once users interact with the banner"
+msgstr "سيتم عرض سجلات موافقتك هنا بمجرد تفاعل المستخدمين مع الشريط"
+
+#: build/admin.js:6
+msgid "Consent Logging Disabled"
+msgstr "تسجيل الموافقة معطل"
+
+#: build/admin.js:6
+msgid "Enable consent logging to view analytics data and recent consent logs."
+msgstr "قم بتمكين تسجيل الموافقة لعرض بيانات التحليلات وسجلات الموافقة الأخيرة."
+
+#: build/admin.js:3
+#: build/admin.js:6
+msgid "Enable Consent Logging"
+msgstr "تمكين تسجيل الموافقة"
+
+#: build/admin.js:6
+msgid "<span></span> Selected"
+msgstr "<span></span> تم الاختيار"
+
+#: build/admin.js:6
+msgid "Deleting…"
+msgstr "جارٍ الحذف…"
+
+#: build/admin.js:6
+msgid "All Actions"
+msgstr "كل الإجراءات"
+
+#: build/admin.js:6
+msgid "All Countries"
+msgstr "كل البلدان"
+
+#: build/admin.js:6
+msgid "IP address or Session ID…"
+msgstr "عنوان IP أو معرّف الجلسة…"
+
+#: build/admin.js:6
+msgid "Clear Filters"
+msgstr "مسح الفلاتر"
+
+#: build/admin.js:6
+msgid "View All Logs"
+msgstr "عرض كل السجلات"
+
+#: build/admin.js:6
+msgid "Consents"
+msgstr "الموافقات"
+
+#: build/admin.js:6
+msgid "No Consents Yet"
+msgstr "لا توجد موافقات حتى الآن"
+
+#: build/admin.js:6
+msgid "Data will appear here once visitors interact with the cookie banner."
+msgstr "ستظهر البيانات هنا بمجرد تفاعل الزوار مع شريط ملفات تعريف الارتباط."
+
+#. translators: %s: log/logs
+#: build/admin.js:9
+#, js-format
+msgid "Failed to delete consent %s"
+msgstr "فشل في حذف الموافقة %s"
+
+#: build/admin.js:9
+#: build/admin.js:12
+#: build/admin.js:18
+msgid "log"
+msgid_plural "logs"
+msgstr[0] "سجل"
+msgstr[1] "سجل"
+msgstr[2] "سجلان"
+msgstr[3] "سجلات"
+msgstr[4] "سجلاً"
+msgstr[5] "سجل"
+
+#. translators: %s: log/logs
+#: build/admin.js:12
+#, js-format
+msgid "Successfully deleted consent %s"
+msgstr "تم حذف الموافقة %s بنجاح"
+
+#: build/admin.js:12
+msgid "Failed to delete consent log"
+msgstr "فشل في حذف سجل الموافقة"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Delete Consent Log"
+msgstr "حذف سجل الموافقة"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Are you sure you want to delete this consent log? This action cannot be undone."
+msgstr "هل أنت متأكد من رغبتك في حذف سجل الموافقة هذا؟ لا يمكن التراجع عن هذا الإجراء."
+
+#: build/admin.js:15
+msgid "Delete Selected Consent Logs"
+msgstr "حذف سجلات الموافقة المحددة"
+
+#. translators: %s: the log string pluralized.
+#: build/admin.js:18
+#, js-format
+msgid "Are you sure you want to delete the selected consent %s? This action cannot be undone."
+msgstr "هل أنت متأكد من رغبتك في حذف الموافقة %s المحددة؟ لا يمكن التراجع عن هذا الإجراء."
+
+#: build/admin.js:21
+msgid "Failed to load countries"
+msgstr "فشل في تحميل البلدان"
+
+#: build/admin.js:21
+msgid "Page"
+msgstr "الصفحة"
+
+#: build/admin.js:21
+msgid "of"
+msgstr "من"
+
+#: build/admin.js:21
+msgid "Consent Logs Pagination"
+msgstr "ترقيم صفحات سجلات الموافقة"
+
+#: build/admin.js:2
+msgid "Consent Duration (in days)"
+msgstr "مدة الموافقة (بالأيام)"
+
+#: build/admin.js:2
+msgid "Please enter a value between 1 and 365 days."
+msgstr "يرجى إدخال قيمة بين 1 و 365 يومًا."
+
+#: build/admin.js:2
+msgid "How long user consent remains valid before requiring renewal (1–365 days)."
+msgstr "مدة صلاحية موافقة المستخدم قبل الحاجة إلى تجديدها (1–365 يومًا)."
+
+#: build/admin.js:3
+msgid "Enable Consent Logging Switch"
+msgstr "مفتاح تمكين تسجيل الموافقة"
+
+#: build/admin.js:3
+msgid "Store consent records in database for compliance reporting and analytics."
+msgstr "تخزين سجلات الموافقة في قاعدة البيانات لتقارير الامتثال والتحليلات."
+
+#: build/admin.js:3
+msgid "Clear Logs After"
+msgstr "مسح السجلات بعد"
+
+#: build/admin.js:3
+msgid "Select retention period"
+msgstr "اختر فترة الاحتفاظ"
+
+#: build/admin.js:3
+msgid "Automatically delete consent logs older than the selected period."
+msgstr "حذف سجلات الموافقة تلقائيًا التي تزيد عن الفترة المحددة."
+
+#: build/admin.js:53
+msgid "SureCookie admin menu location toggle"
+msgstr "مفتاح موقع قائمة إدارة SureCookie"
+
+#: build/admin.js:53
+msgid "Hide SureCookie branding toggle"
+msgstr "مفتاح إخفاء شعار SureCookie"
+
+#: build/admin.js:53
+msgid "Hide SureCookie Branding"
+msgstr "إخفاء شعار SureCookie"
+
+#: build/admin.js:53
+msgid "Remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "إزالة نص \"مدعوم من SureCookie\" من لافتة الموافقة ونموذج التفضيلات."
+
+#: build/admin.js:53
+msgid "to remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "لإزالة نص \"مدعوم من SureCookie\" من لافتة الموافقة ونموذج التفضيلات."
+
+#: build/admin.js:3
+msgid "Delete data on uninstall toggle"
+msgstr "حذف البيانات عند تبديل إلغاء التثبيت"
+
+#: build/admin.js:3
+msgid "Delete Data on Uninstall"
+msgstr "حذف البيانات عند إلغاء التثبيت"
+
+#: build/admin.js:3
+msgid "When enabled, all plugin data including consent logs, settings, and scan results will be permanently deleted when you uninstall SureCookie. Leave disabled to preserve data for compliance records or future reinstallation."
+msgstr "عند التمكين، سيتم حذف جميع بيانات الإضافة بما في ذلك سجلات الموافقة والإعدادات ونتائج الفحص بشكل دائم عند إلغاء تثبيت SureCookie. اتركه معطلاً للحفاظ على البيانات لسجلات الامتثال أو لإعادة التثبيت في المستقبل."
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie toggle"
+msgstr "المساهمة في تبديل SureCookie"
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie"
+msgstr "المساهمة في SureCookie"
+
+#: build/admin.js:53
+msgid "Help shape the future of SureCookie. Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions."
+msgstr "ساعد في تشكيل مستقبل SureCookie. شارك كيف تستخدم الإضافة حتى نتمكن من بناء ميزات مهمة، وإصلاح المشكلات بشكل أسرع، واتخاذ قرارات أذكى."
+
+#: build/admin.js:53
+#: build/admin.js:84
+msgid "Learn More"
+msgstr "تعرف على المزيد"
+
+#: build/admin.js:3
+msgid "Compliance Notice"
+msgstr "إشعار الامتثال"
+
+#: build/admin.js:3
+msgid "Consent logs may be required to demonstrate proof of consent under GDPR Article 7(1). Consider exporting consent records before uninstalling."
+msgstr "قد تكون سجلات الموافقة مطلوبة لإثبات الموافقة بموجب المادة 7(1) من اللائحة العامة لحماية البيانات GDPR. يُرجى التفكير في تصدير سجلات الموافقة قبل إلغاء التثبيت."
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/admin.js:76
+#: build/public.js:4
+msgid "Name"
+msgstr "الاسم"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Provider"
+msgstr "المزود"
+
+#: build/admin.js:25
+msgid "Duration (Days)"
+msgstr "المدة (أيام)"
+
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Type"
+msgstr "النوع"
+
+#: build/admin.js:23
+#: build/admin.js:78
+#: build/onboarding.js:3
+msgid "Uncategorized"
+msgstr "غير مصنف"
+
+#: build/admin.js:21
+#: build/onboarding.js:1
+msgid "Change Category"
+msgstr "تغيير الفئة"
+
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Edit"
+msgstr "تعديل"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Scanned"
+msgstr "تم الفحص"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Custom"
+msgstr "مخصص"
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete the cookie \"<strong></strong>\"? This action cannot be undone."
+msgstr "هل أنت متأكد أنك تريد حذف ملف تعريف الارتباط \"<strong></strong>\"؟ لا يمكن التراجع عن هذا الإجراء."
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete this cookie? This action cannot be undone."
+msgstr "هل أنت متأكد أنك تريد حذف هذا ملف تعريف الارتباط؟ لا يمكن التراجع عن هذا الإجراء."
+
+#: build/admin.js:25
+msgid "Delete Custom Cookie"
+msgstr "حذف ملف تعريف الارتباط المخصص"
+
+#: build/admin.js:25
+msgid "Change Cookie Category"
+msgstr "تغيير فئة ملف تعريف الارتباط"
+
+#: build/admin.js:25
+msgid "Update Category"
+msgstr "تحديث الفئة"
+
+#: build/admin.js:25
+msgid "Edit Cookie"
+msgstr "تعديل ملف تعريف الارتباط"
+
+#: build/admin.js:25
+msgid "Update Cookie"
+msgstr "تحديث ملف تعريف الارتباط"
+
+#: build/admin.js:25
+msgid "Add New Cookie"
+msgstr "إضافة ملف تعريف ارتباط جديد"
+
+#: build/admin.js:25
+msgid "Save Cookie"
+msgstr "حفظ ملف تعريف الارتباط"
+
+#: build/admin.js:25
+msgid "e.g., my_custom_cookie"
+msgstr "مثال: my_custom_cookie"
+
+#: build/admin.js:25
+#: build/admin.js:28
+#: build/admin.js:76
+msgid "Select a category"
+msgstr "اختر فئة"
+
+#: build/admin.js:25
+msgid "No categories available. Please create a category first."
+msgstr "لا توجد فئات متاحة. يرجى إنشاء فئة أولاً."
+
+#: build/admin.js:25
+msgid "e.g., 30"
+msgstr "مثال: 30"
+
+#: build/admin.js:25
+msgid "e.g., Your Company Name"
+msgstr "مثال: اسم شركتك"
+
+#: build/admin.js:25
+msgid "e.g., .example.com"
+msgstr "مثال: .example.com"
+
+#: build/admin.js:25
+msgid "Description"
+msgstr "الوصف"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie…"
+msgstr "أدخل وصفًا لهذا ملف تعريف الارتباط…"
+
+#: build/admin.js:25
+msgid "Describe the purpose of this cookie…"
+msgstr "وصف الغرض من هذا ملف تعريف الارتباط…"
+
+#: build/admin.js:25
+msgid "Category Name"
+msgstr "اسم الفئة"
+
+#: build/admin.js:25
+msgid "e.g., Performance Cookies"
+msgstr "مثال: ملفات تعريف الارتباط الخاصة بالأداء"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie category…"
+msgstr "أدخل وصفًا لفئة ملفات تعريف الارتباط هذه…"
+
+#. translators: %1$s is the category name, %2$s is the number of cookies
+#: build/admin.js:28
+#, js-format
+msgid "Are you sure you want to delete this cookie category? <br/> The category \"%1$s\" has %2$s assigned to it:"
+msgstr "هل أنت متأكد أنك تريد حذف فئة ملفات تعريف الارتباط هذه؟ <br/> الفئة \"%1$s\" تحتوي على %2$s ملفات تعريف ارتباط مخصصة لها:"
+
+#: build/admin.js:28
+msgid "cookie"
+msgid_plural "cookies"
+msgstr[0] "ملف تعريف ارتباط"
+msgstr[1] "ملف تعريف ارتباط"
+msgstr[2] "ملفا تعريف ارتباط"
+msgstr[3] "ملفات تعريف ارتباط"
+msgstr[4] "ملف تعريف ارتباط"
+msgstr[5] "ملف تعريف ارتباط"
+
+#: build/admin.js:28
+msgid "Are you sure you want to delete this cookie category? This action cannot be undone."
+msgstr "هل أنت متأكد أنك تريد حذف فئة ملفات تعريف الارتباط هذه؟ لا يمكن التراجع عن هذا الإجراء."
+
+#: build/admin.js:28
+msgid "Delete Cookie Category"
+msgstr "حذف فئة ملفات تعريف الارتباط"
+
+#: build/admin.js:28
+msgid "Keep cookies when deleting category"
+msgstr "الاحتفاظ بملفات تعريف الارتباط عند حذف الفئة"
+
+#: build/admin.js:28
+msgid "Keep cookies"
+msgstr "الاحتفاظ بملفات تعريف الارتباط"
+
+#: build/admin.js:28
+#: build/onboarding.js:4
+msgid "Please enter a category name"
+msgstr "يرجى إدخال اسم الفئة"
+
+#: build/admin.js:28
+msgid "No cookie categories found. Click \"Add New Category\" to create one."
+msgstr "لم يتم العثور على فئات ملفات تعريف الارتباط. انقر على \"إضافة فئة جديدة\" لإنشاء واحدة."
+
+#: build/admin.js:28
+msgid "Edit Category"
+msgstr "تعديل الفئة"
+
+#: build/admin.js:28
+msgid "Add New Category"
+msgstr "إضافة فئة جديدة"
+
+#: build/admin.js:28
+#: build/admin.js:43
+msgid "Manage Categories"
+msgstr "إدارة الفئات"
+
+#: build/admin.js:28
+msgid "Manage cookie categories that appear in the privacy preferences modal"
+msgstr "إدارة فئات ملفات تعريف الارتباط التي تظهر في نافذة تفضيلات الخصوصية"
+
+#: build/admin.js:28
+msgid "Add Category"
+msgstr "إضافة فئة"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please enter a cookie name"
+msgstr "يرجى إدخال اسم ملف تعريف الارتباط"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please select a category"
+msgstr "يرجى اختيار فئة"
+
+#: build/admin.js:41
+msgid "Failed to load custom cookies"
+msgstr "فشل في تحميل ملفات تعريف الارتباط المخصصة"
+
+#: build/admin.js:41
+msgid "Failed to create custom cookie"
+msgstr "فشل في إنشاء ملف تعريف ارتباط مخصص"
+
+#: build/admin.js:41
+msgid "Custom cookie created successfully"
+msgstr "تم إنشاء ملف تعريف الارتباط المخصص بنجاح"
+
+#: build/admin.js:41
+msgid "Failed to update custom cookie"
+msgstr "فشل في تحديث ملف تعريف الارتباط المخصص"
+
+#: build/admin.js:41
+msgid "Custom cookie updated successfully"
+msgstr "تم تحديث ملف تعريف الارتباط المخصص بنجاح"
+
+#: build/admin.js:41
+msgid "Failed to delete custom cookie"
+msgstr "فشل في حذف ملف تعريف الارتباط المخصص"
+
+#: build/admin.js:41
+msgid "Custom cookie deleted successfully"
+msgstr "تم حذف ملف تعريف الارتباط المخصص بنجاح"
+
+#: build/admin.js:41
+msgid "Failed to update cookie category"
+msgstr "فشل في تحديث فئة ملف تعريف الارتباط"
+
+#: build/admin.js:41
+msgid "Cookie category updated successfully"
+msgstr "تم تحديث فئة ملف تعريف الارتباط بنجاح"
+
+#: build/admin.js:42
+msgid "Failed to create category"
+msgstr "فشل في إنشاء الفئة"
+
+#: build/admin.js:42
+msgid "Category created successfully"
+msgstr "تم إنشاء الفئة بنجاح"
+
+#: build/admin.js:42
+msgid "Failed to update category"
+msgstr "فشل في تحديث الفئة"
+
+#: build/admin.js:42
+msgid "Category updated successfully"
+msgstr "تم تحديث الفئة بنجاح"
+
+#: build/admin.js:42
+msgid "Failed to delete category"
+msgstr "فشل في حذف الفئة"
+
+#: build/admin.js:42
+msgid "Category deleted successfully"
+msgstr "تم حذف الفئة بنجاح"
+
+#: build/admin.js:43
+msgid "Create and manage all cookies for your website. These cookies will appear in the selected privacy preference categories."
+msgstr "قم بإنشاء وإدارة جميع ملفات تعريف الارتباط لموقعك الإلكتروني. ستظهر هذه الملفات في فئات تفضيلات الخصوصية المحددة."
+
+#: build/admin.js:43
+msgid "Manage Cookies"
+msgstr "إدارة ملفات تعريف الارتباط"
+
+#: build/admin.js:43
+msgid "New Cookie"
+msgstr "ملف تعريف ارتباط جديد"
+
+#: build/admin.js:43
+msgid "All your cookies will be displayed here"
+msgstr "سيتم عرض جميع ملفات تعريف الارتباط الخاصة بك هنا"
+
+#: build/admin.js:43
+msgid "Click the button below to create your first custom cookie"
+msgstr "انقر على الزر أدناه لإنشاء أول ملف تعريف ارتباط مخصص لك"
+
+#: build/admin.js:43
+msgid "Add custom CSS to style your cookie banner. Changes will be reflected in both preview and frontend after saving."
+msgstr "أضف CSS مخصص لتنسيق لافتة ملفات تعريف الارتباط الخاصة بك. ستنعكس التغييرات في كل من المعاينة والواجهة الأمامية بعد الحفظ."
+
+#: build/admin.js:43
+msgid "CSS Code Editor"
+msgstr "محرر كود CSS"
+
+#: build/admin.js:43
+msgid "Reset Custom CSS"
+msgstr "إعادة تعيين CSS المخصص"
+
+#: build/admin.js:43
+msgid "Are you sure you want to reset custom CSS? This will remove all your custom styles."
+msgstr "هل أنت متأكد من رغبتك في إعادة تعيين CSS المخصص؟ سيؤدي هذا إلى إزالة جميع التنسيقات المخصصة الخاصة بك."
+
+#: build/admin.js:43
+msgid "Custom CSS has been reset. The banner will now use default styles."
+msgstr "تم إعادة تعيين CSS المخصص. ستستخدم اللافتة الآن التنسيقات الافتراضية."
+
+#: build/admin.js:43
+msgid "Write your custom CSS below. Use <strong>!important</strong> to override inline styles.<br />You can target banner elements using classes like <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, etc."
+msgstr "اكتب CSS المخصص أدناه. استخدم <strong>!important</strong> لتجاوز التنسيقات المضمنة.<br />يمكنك استهداف عناصر اللافتة باستخدام الفئات مثل <strong>.surecookie-banner</strong>، <strong>.surecookie-accept-btn</strong>، إلخ."
+
+#: build/admin.js:43
+#: build/admin.js:60
+msgid "<span></span> Quick Tips:"
+msgstr "<span></span> نصائح سريعة:"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-banner</b> to target the cookie banner (works in both preview and frontend)"
+msgstr "استخدم <b>.surecookie-banner</b> لاستهداف لافتة ملفات تعريف الارتباط (تعمل في كل من المعاينة والواجهة الأمامية)"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> for buttons"
+msgstr "استخدم <b>.surecookie-accept-btn</b>، <b>.surecookie-decline-btn</b> للأزرار"
+
+#: build/admin.js:43
+msgid "Important: Use <b>!important</b> to override inline styles"
+msgstr "مهم: استخدم <b>!important</b> لتجاوز التنسيقات المضمنة"
+
+#: build/admin.js:43
+msgid "Changes take effect after clicking \"Save Changes\" below"
+msgstr "تسري التغييرات بعد النقر على \"حفظ التغييرات\" أدناه"
+
+#: build/admin.js:43
+msgid "Your CSS is saved and will persist after page refresh"
+msgstr "تم حفظ CSS الخاص بك وسيستمر بعد تحديث الصفحة"
+
+#: build/admin.js:43
+msgid "Disabled"
+msgstr "معطل"
+
+#: build/admin.js:43
+msgid "Consent Logging"
+msgstr "تسجيل الموافقة"
+
+#: build/admin.js:43
+msgid "Enable consent logging to view consent analytics"
+msgstr "قم بتمكين تسجيل الموافقة لعرض تحليلات الموافقة"
+
+#: build/admin.js:43
+msgid "Enable"
+msgstr "تمكين"
+
+#: build/admin.js:43
+msgid "Overview"
+msgstr "نظرة عامة"
+
+#: build/admin.js:43
+msgid "Active"
+msgstr "نشط"
+
+#: build/admin.js:43
+msgid "Inactive"
+msgstr "غير نشط"
+
+#: build/admin.js:43
+msgid "Cookie Banner"
+msgstr "لافتة ملفات تعريف الارتباط"
+
+#: build/admin.js:43
+#: build/admin.js:47
+msgid "Configure"
+msgstr "تكوين"
+
+#: build/admin.js:44
+#: build/onboarding.js:4
+msgid "Launch Setup Wizard"
+msgstr "تشغيل معالج الإعداد"
+
+#: build/admin.js:44
+msgid "Open Support Ticket"
+msgstr "فتح تذكرة دعم"
+
+#: build/admin.js:44
+msgid "Help Center"
+msgstr "مركز المساعدة"
+
+#: build/admin.js:44
+msgid "Join our Community"
+msgstr "انضم إلى مجتمعنا"
+
+#: build/admin.js:44
+msgid "Leave Us a Review"
+msgstr "اترك لنا مراجعة"
+
+#: build/admin.js:44
+msgid "Quick Access"
+msgstr "وصول سريع"
+
+#: build/admin.js:44
+msgid "Recent Consent Logs"
+msgstr "سجلات الموافقة الأخيرة"
+
+#: build/admin.js:44
+msgid "Toggle Preview"
+msgstr "تبديل المعاينة"
+
+#: build/admin.js:44
+msgid "Click this button to show or hide the cookie consent banner preview."
+msgstr "انقر على هذا الزر لإظهار أو إخفاء معاينة لافتة موافقة ملفات تعريف الارتباط."
+
+#: build/admin.js:44
+msgid "Click here to start"
+msgstr "انقر هنا للبدء"
+
+#: build/admin.js:44
+msgid "design your banner"
+msgstr "صمم لافتتك"
+
+#: build/admin.js:44
+msgid "Here's a preview of the cookie consent banner."
+msgstr "إليك معاينة للافتة موافقة ملفات تعريف الارتباط."
+
+#: build/admin.js:44
+msgid "You can adjust the content and design settings."
+msgstr "يمكنك تعديل المحتوى وإعدادات التصميم."
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:47
+#, js-format
+msgid "%1$d of %2$d steps complete"
+msgstr "%1$d من %2$d خطوات مكتملة"
+
+#: build/admin.js:47
+msgid "You're all set! SureCookie is ready to protect your site."
+msgstr "أنت جاهز! SureCookie مستعد لحماية موقعك."
+
+#: build/admin.js:47
+#: build/onboarding.js:14
+msgid "Go to Dashboard"
+msgstr "اذهب إلى لوحة التحكم"
+
+#: build/admin.js:47
+msgid "Scan Your Site for Cookies"
+msgstr "افحص موقعك بحثًا عن الكوكيز"
+
+#: build/admin.js:47
+msgid "Run the cookie scanner to discover and categorize cookies your site uses."
+msgstr "شغّل ماسح الكوكيز لاكتشاف وتصنيف الكوكيز التي يستخدمها موقعك."
+
+#: build/admin.js:47
+msgid "Scan Now"
+msgstr "افحص الآن"
+
+#: build/admin.js:47
+msgid "Set up the Consent Banner"
+msgstr "قم بإعداد لافتة الموافقة"
+
+#: build/admin.js:47
+msgid "Customize your cookie consent banner - content, layout, and visibility."
+msgstr "خصص لافتة موافقة الكوكيز - المحتوى، التخطيط، والرؤية."
+
+#: build/admin.js:47
+msgid "Review Consent Logs"
+msgstr "راجع سجلات الموافقة"
+
+#: build/admin.js:47
+msgid "See who has consented and when - useful for compliance audits."
+msgstr "شاهد من وافق ومتى - مفيد لتدقيقات الامتثال."
+
+#: build/admin.js:47
+msgid "View Logs"
+msgstr "عرض السجلات"
+
+#: build/admin.js:47
+msgid "Publish Your Cookie Policy"
+msgstr "انشر سياسة الكوكيز الخاصة بك"
+
+#: build/admin.js:47
+msgid "Review and publish the cookie policy page on your site."
+msgstr "راجع وانشر صفحة سياسة الكوكيز على موقعك."
+
+#: build/admin.js:47
+msgid "Review Page"
+msgstr "مراجعة الصفحة"
+
+#: build/admin.js:47
+msgid "Generate a cookie policy page so visitors know how you handle their data."
+msgstr "أنشئ صفحة سياسة الكوكيز ليعرف الزوار كيف تتعامل مع بياناتهم."
+
+#: build/admin.js:47
+msgid "Create Page"
+msgstr "إنشاء الصفحة"
+
+#: build/admin.js:47
+msgid "Get Started with SureCookie"
+msgstr "ابدأ مع SureCookie"
+
+#: build/admin.js:47
+msgid "Follow these steps to set up cookie consent on your site in minutes."
+msgstr "اتبع هذه الخطوات لإعداد موافقة الكوكيز على موقعك في دقائق."
+
+#: build/admin.js:47
+msgid "See full documentation →"
+msgstr "شاهد الوثائق الكاملة →"
+
+#: build/admin.js:47
+msgid "Continue Learning"
+msgstr "تابع التعلم"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:50
+#, js-format
+msgid "%1$d of %2$d setup steps complete."
+msgstr "%1$d من %2$d خطوات الإعداد مكتملة."
+
+#: build/admin.js:50
+msgid "Open Learn"
+msgstr "افتح التعلم"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "All cookies accepted."
+msgstr "تم قبول جميع الكوكيز."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Non-essential cookies rejected."
+msgstr "تم رفض الكوكيز غير الأساسية."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preferences saved successfully."
+msgstr "تم حفظ التفضيلات بنجاح."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Close privacy preferences dialog"
+msgstr "أغلق مربع حوار تفضيلات الخصوصية"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Always Active"
+msgstr "نشط دائمًا"
+
+#. translators: %s: cookie category name
+#: build/admin.js:52
+#: build/public.js:3
+#, js-format
+msgid "%s: always active, cannot be disabled"
+msgstr "%s: نشط دائمًا، لا يمكن تعطيله"
+
+#: build/admin.js:52
+#: build/public.js:3
+msgid "View Cookies"
+msgstr "عرض الكوكيز"
+
+#. translators: %s: cookie category name
+#: build/admin.js:53
+#: build/public.js:4
+#, js-format
+msgid "%s cookies details"
+msgstr "%s تفاصيل الكوكيز"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Expiry"
+msgstr "انتهاء الصلاحية"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Reject All"
+msgstr "رفض الكل"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Confirm My Choices"
+msgstr "تأكيد اختياراتي"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by SureCookie (opens in new tab)"
+msgstr "مدعوم من SureCookie (يفتح في تبويب جديد)"
+
+#: inc/utils/localize-data.php:222
+#: build/admin.js:4
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by"
+msgstr "مدعوم من"
+
+#: build/admin.js:53
+msgid "Buttons are for reference only in preview."
+msgstr "الأزرار للمرجعية فقط في المعاينة."
+
+#: build/admin.js:53
+msgid "This is a preview"
+msgstr "هذه معاينة"
+
+#: build/admin.js:53
+msgid "Close preview"
+msgstr "أغلق المعاينة"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Complete"
+msgstr "مكتمل"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Queued…"
+msgstr "قيد الانتظار…"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Starting scan…"
+msgstr "بدء الفحص…"
+
+#. translators: 1: current page index, 2: total pages
+#: build/admin.js:54
+#, js-format
+msgid "Scanning page %1$d of %2$d…"
+msgstr "جارٍ فحص الصفحة %1$d من %2$d…"
+
+#: build/admin.js:54
+msgid "Scanning pages…"
+msgstr "جارٍ فحص الصفحات…"
+
+#: build/admin.js:54
+msgid "Analyzing cookies…"
+msgstr "جارٍ تحليل الكوكيز…"
+
+#: build/admin.js:54
+msgid "Finalizing…"
+msgstr "جارٍ الانتهاء…"
+
+#: build/admin.js:54
+msgid "Scan failed"
+msgstr "فشل الفحص"
+
+#: build/admin.js:54
+msgid "In progress…"
+msgstr "قيد التقدم…"
+
+#: build/admin.js:54
+msgid "Scan progress"
+msgstr "تقدم الفحص"
+
+#. translators: 1: completed pages, 2: total pages
+#: build/admin.js:55
+#, js-format
+msgid "%1$d of %2$d pages scanned"
+msgstr "%1$d من %2$d صفحات تم فحصها"
+
+#: build/admin.js:55
+msgid "Preparing scan…"
+msgstr "جارٍ تحضير الفحص…"
+
+#. translators: %s: estimated time remaining
+#: build/admin.js:56
+#, js-format
+msgid "· ~%s left"
+msgstr "· ~%s متبقي"
+
+#: build/admin.js:56
+msgid "Scan Completed with Errors"
+msgstr "اكتمل الفحص مع وجود أخطاء"
+
+#. translators: %d: number of failed pages
+#: build/admin.js:57
+#, js-format
+msgid "%d page(s) could not be scanned. Check the logs for details."
+msgstr "%d صفحة(صفحات) لم يتمكن من فحصها. تحقق من السجلات للتفاصيل."
+
+#: build/admin.js:57
+msgid "Scan Completed!"
+msgstr "اكتمل الفحص!"
+
+#: build/admin.js:57
+msgid "Cookie scan has been completed successfully."
+msgstr "تم الانتهاء من فحص الكوكيز بنجاح."
+
+#: build/admin.js:57
+msgid "Could not copy logs automatically."
+msgstr "تعذر نسخ السجلات تلقائيًا."
+
+#: build/admin.js:57
+msgid "Logs copied to clipboard!"
+msgstr "تم نسخ السجلات إلى الحافظة!"
+
+#: build/admin.js:57
+msgid "Latest Scanning Logs"
+msgstr "أحدث سجلات الفحص"
+
+#: build/admin.js:57
+msgid "View logs from the most recent cookie scanning process."
+msgstr "عرض السجلات من أحدث عملية فحص للكوكيز."
+
+#: build/admin.js:57
+msgid "Copied"
+msgstr "تم النسخ"
+
+#: build/admin.js:57
+msgid "Copy"
+msgstr "نسخ"
+
+#: build/admin.js:57
+msgid "This field contains the scanning status results only."
+msgstr "يحتوي هذا الحقل على نتائج حالة الفحص فقط."
+
+#: build/admin.js:57
+msgid "Scan appears stuck"
+msgstr "يبدو أن الفحص متوقف"
+
+#. translators: 1: completed pages, 2: total pages, 3: elapsed time
+#: build/admin.js:58
+#, js-format
+msgid "%1$d of %2$d pages scanned after %3$s with no recent progress."
+msgstr "%1$d من %2$d صفحات تم فحصها بعد %3$s بدون تقدم حديث."
+
+#. translators: %s: elapsed time
+#: build/admin.js:59
+#, js-format
+msgid "No progress detected after %s."
+msgstr "لم يتم الكشف عن تقدم بعد %s."
+
+#: build/admin.js:59
+#: build/admin.js:63
+msgid "Cancelling…"
+msgstr "جارٍ الإلغاء…"
+
+#: build/admin.js:59
+msgid "Cancel Scan"
+msgstr "إلغاء الفحص"
+
+#: build/admin.js:59
+msgid "Copy Logs for Support"
+msgstr "نسخ السجلات للدعم"
+
+#: build/admin.js:60
+msgid "Your scan limit will reset tomorrow."
+msgstr "سيتم إعادة تعيين حد الفحص الخاص بك غدًا."
+
+#: build/admin.js:60
+msgid "The scan runs in the background - you can safely navigate away."
+msgstr "يتم تشغيل الفحص في الخلفية - يمكنك التنقل بأمان بعيدًا."
+
+#: build/admin.js:60
+msgid "Make sure your site is publicly accessible (not behind basic auth or maintenance mode)."
+msgstr "تأكد من أن موقعك متاح للجمهور (ليس خلف مصادقة أساسية أو وضع الصيانة)."
+
+#: build/admin.js:60
+msgid "Check if a firewall or security plugin is blocking external requests to your site."
+msgstr "تحقق مما إذا كان جدار حماية أو إضافة أمان تمنع الطلبات الخارجية إلى موقعك."
+
+#: build/admin.js:60
+msgid "Pages with heavy JavaScript may take longer to scan. If scanning fails repeatedly, try fewer pages."
+msgstr "الصفحات التي تحتوي على جافا سكريبت كثيف قد تستغرق وقتًا أطول للفحص. إذا فشل الفحص مرارًا، حاول تقليل عدد الصفحات."
+
+#: build/admin.js:60
+msgid "If issues persist, copy the logs and <a>contact our support team.</a>"
+msgstr "إذا استمرت المشاكل، انسخ السجلات و<a>اتصل بفريق الدعم لدينا.</a>"
+
+#: build/admin.js:60
+msgid "contact our support team"
+msgstr "اتصل بفريق الدعم لدينا"
+
+#: build/admin.js:63
+#: build/admin.js:78
+#: build/onboarding.js:7
+msgid "(no title)"
+msgstr "(بدون عنوان)"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Failed to initiate scan"
+msgstr "فشل في بدء الفحص"
+
+#. translators: 1: remaining scans, 2: total daily scans
+#: build/admin.js:68
+#: build/onboarding.js:12
+#, js-format
+msgid "You have %1$d of %2$d daily scans remaining"
+msgstr "لديك %1$d من %2$d عمليات الفحص اليومية المتبقية"
+
+#. translators: %s: time until reset (e.g. "4h 22m")
+#: build/admin.js:69
+#: build/admin.js:71
+#, js-format
+msgid "Resets in %s"
+msgstr "يتم إعادة التعيين خلال %s"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Limits refreshed."
+msgstr "تم تحديث الحدود."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Failed to refresh limits."
+msgstr "فشل في تحديث الحدود."
+
+#: build/admin.js:71
+msgid "Your session expired. Please reload to reconnect."
+msgstr "انتهت صلاحية جلستك. يرجى إعادة التحميل لإعادة الاتصال."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "We couldn't fetch your limits right now. Please try again in a moment."
+msgstr "لم نتمكن من جلب حدودك الآن. يرجى المحاولة مرة أخرى بعد لحظة."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refreshing…"
+msgstr "جارٍ التحديث…"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refresh limits"
+msgstr "تحديث الحدود"
+
+#. translators: %d: maximum pages
+#: build/admin.js:61
+#: build/admin.js:73
+#: build/onboarding.js:5
+#: build/onboarding.js:14
+#, js-format
+msgid "You have selected more than %d pages"
+msgstr "لقد اخترت أكثر من %d صفحات"
+
+#. translators: %d: maximum pages
+#: build/admin.js:65
+#: build/onboarding.js:9
+#, js-format
+msgid "Your plan supports scanning up to %d pages. Please remove extra pages to continue."
+msgstr "يدعم خطتك فحص حتى %d صفحات. يرجى إزالة الصفحات الزائدة للمتابعة."
+
+#: build/admin.js:73
+msgid "Daily Limit Reached"
+msgstr "تم الوصول إلى الحد اليومي"
+
+#. translators: 1: scans used, 2: scan limit
+#: build/admin.js:74
+#, js-format
+msgid "You've used %1$d of %2$d daily scans. Your credits will refresh automatically tomorrow."
+msgstr "لقد استخدمت %1$d من %2$d عمليات الفحص اليومية. سيتم تحديث رصيدك تلقائيًا غدًا."
+
+#: build/admin.js:74
+msgid "You've used all your scan credits for today. Your credits will refresh automatically tomorrow."
+msgstr "لقد استخدمت جميع أرصدة الفحص الخاصة بك لهذا اليوم. سيتم تحديث رصيدك تلقائيًا غدًا."
+
+#: build/admin.js:74
+#: build/onboarding.js:14
+msgid "Scan Started!"
+msgstr "تم بدء الفحص!"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scanning…"
+msgstr "جارٍ الفحص…"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Start Scan"
+msgstr "ابدأ الفحص"
+
+#: build/admin.js:63
+msgid "Cancel Stuck Scan"
+msgstr "إلغاء الفحص العالق"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "WordPress Cron is Disabled"
+msgstr "تم تعطيل كرون ووردبريس"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "The WordPress cron system is not working on your site. Cookie scanning may not work as expected. Please enable WP-Cron or set up a server cron job to ensure proper functionality."
+msgstr "نظام كرون ووردبريس لا يعمل على موقعك. قد لا يعمل فحص ملفات تعريف الارتباط كما هو متوقع. يرجى تمكين WP-Cron أو إعداد مهمة كرون على الخادم لضمان الوظائف الصحيحة."
+
+#: build/admin.js:75
+msgid "Select"
+msgstr "اختر"
+
+#: build/admin.js:75
+msgid "Configure how the \"Cookie Preferences\" button appears on your site, allowing users to update their consent at any time."
+msgstr "قم بتكوين كيفية ظهور زر \"تفضيلات ملفات تعريف الارتباط\" على موقعك، مما يسمح للمستخدمين بتحديث موافقتهم في أي وقت."
+
+#: build/admin.js:75
+msgid "No re-consent method active"
+msgstr "لا توجد طريقة لإعادة الموافقة نشطة"
+
+#: build/admin.js:75
+msgid "Visitors won't be able to update their cookie preferences unless you add a menu item or place the shortcode on a page. You can safely ignore this if the shortcode is already added."
+msgstr "لن يتمكن الزوار من تحديث تفضيلات ملفات تعريف الارتباط الخاصة بهم ما لم تقم بإضافة عنصر قائمة أو وضع الرمز المختصر على صفحة. يمكنك تجاهل هذا بأمان إذا تم إضافة الرمز المختصر بالفعل."
+
+#: build/admin.js:75
+msgid "Button Label"
+msgstr "تسمية الزر"
+
+#: build/admin.js:75
+msgid "The label shown on the Cookie Preferences link."
+msgstr "التسمية المعروضة على رابط تفضيلات ملفات تعريف الارتباط."
+
+#: build/admin.js:75
+msgid "Menu Level"
+msgstr "مستوى القائمة"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode"
+msgstr "الرمز المختصر"
+
+#: build/admin.js:75
+msgid "Floating Widget"
+msgstr "الأداة العائمة"
+
+#: build/admin.js:75
+msgid "Select a WordPress menu to automatically add the Cookie Preferences link to it. When clicked, it opens the consent preferences modal directly."
+msgstr "اختر قائمة ووردبريس لإضافة رابط تفضيلات ملفات تعريف الارتباط إليها تلقائيًا. عند النقر عليه، يفتح نافذة تفضيلات الموافقة مباشرة."
+
+#: build/admin.js:75
+msgid "No WordPress menus found."
+msgstr "لم يتم العثور على قوائم ووردبريس."
+
+#: build/admin.js:75
+msgid "Create a menu in Appearance > Menus."
+msgstr "قم بإنشاء قائمة في المظهر > القوائم."
+
+#: build/admin.js:75
+msgid "Select Menu"
+msgstr "اختر القائمة"
+
+#: build/admin.js:75
+msgid "Use this shortcode to display the Cookie Preferences link anywhere on your site. When clicked, it opens the consent preferences modal directly."
+msgstr "استخدم هذا الرمز المختصر لعرض رابط تفضيلات ملفات تعريف الارتباط في أي مكان على موقعك. عند النقر عليه، يفتح نافذة تفضيلات الموافقة مباشرة."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode Copied!"
+msgstr "تم نسخ الرمز المختصر!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Could not copy to clipboard. Please copy the shortcode manually."
+msgstr "تعذر النسخ إلى الحافظة. يرجى نسخ الرمز المختصر يدويًا."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copied!"
+msgstr "تم النسخ!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copy shortcode"
+msgstr "نسخ الرمز المختصر"
+
+#: build/admin.js:75
+msgid "Enable Floating Widget"
+msgstr "تمكين الأداة العائمة"
+
+#: build/admin.js:75
+msgid "to show a floating cookie preferences button on every page."
+msgstr "لعرض زر تفضيلات ملفات تعريف الارتباط العائم في كل صفحة."
+
+#: build/admin.js:75
+msgid "Failed to deactivate plugin."
+msgstr "فشل في تعطيل الإضافة."
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected."
+msgstr "تم اكتشاف إضافات متعارضة."
+
+#: build/admin.js:75
+msgid "It's recommended to deactivate them to avoid issues."
+msgstr "يوصى بتعطيلها لتجنب المشاكل."
+
+#: build/admin.js:75
+msgid "Deactivate Plugin"
+msgstr "تعطيل الإضافة"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected"
+msgstr "تم اكتشاف إضافات متعارضة"
+
+#: build/admin.js:75
+msgid "The following plugins may conflict with SureCookie. It's recommended to deactivate them to avoid issues."
+msgstr "قد تتعارض الإضافات التالية مع SureCookie. يُنصح بتعطيلها لتجنب المشاكل."
+
+#: build/admin.js:75
+msgid "Version:"
+msgstr "الإصدار:"
+
+#: build/admin.js:75
+msgid "Deactivation successful. Reloading the page in 3 seconds."
+msgstr "تم التعطيل بنجاح. سيتم إعادة تحميل الصفحة خلال 3 ثوانٍ."
+
+#: build/admin.js:75
+msgid "The plugin could not be deactivated. Please try again."
+msgstr "تعذر تعطيل الإضافة. يرجى المحاولة مرة أخرى."
+
+#: build/admin.js:75
+msgid "Deactivating…"
+msgstr "جارٍ التعطيل…"
+
+#: build/admin.js:75
+msgid "Deactivate"
+msgstr "تعطيل"
+
+#: build/admin.js:75
+msgid "Close"
+msgstr "إغلاق"
+
+#: build/admin.js:75
+msgid "Preview:"
+msgstr "معاينة:"
+
+#: build/admin.js:75
+msgid "ON"
+msgstr "تشغيل"
+
+#: build/admin.js:75
+msgid "OFF"
+msgstr "إيقاف"
+
+#: build/admin.js:75
+msgid "What's New?"
+msgstr "ما الجديد؟"
+
+#: build/admin.js:75
+msgid "Free version"
+msgstr "النسخة المجانية"
+
+#: build/admin.js:76
+msgid "Knowledge Base"
+msgstr "قاعدة المعرفة"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Analytics"
+msgstr "التحليلات"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Marketing"
+msgstr "التسويق"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Functional"
+msgstr "وظيفي"
+
+#: build/admin.js:76
+msgid "Resource"
+msgstr "المورد"
+
+#: build/admin.js:76
+msgid "Script"
+msgstr "سكريبت"
+
+#: build/admin.js:76
+msgid "Iframe"
+msgstr "إطار مضمّن"
+
+#: build/admin.js:78
+msgid "Control where your cookie banner appears on your site."
+msgstr "تحكم في مكان ظهور لافتة ملفات تعريف الارتباط على موقعك."
+
+#: build/admin.js:78
+msgid "Want More Control over Your Cookie Banner?"
+msgstr "هل تريد مزيدًا من التحكم في لافتة ملفات تعريف الارتباط؟"
+
+#: build/admin.js:78
+msgid "Upgrade to hide it on selected pages, posts, archives, or on specific user roles."
+msgstr "قم بالترقية لإخفائها في صفحات أو منشورات أو أرشيفات محددة، أو لأدوار مستخدمين معينة."
+
+#: build/admin.js:78
+msgid "The previously selected page no longer exists or could not be loaded."
+msgstr "الصفحة التي تم اختيارها سابقًا لم تعد موجودة أو لم يمكن تحميلها."
+
+#: build/admin.js:78
+msgid "The selected page is not published and will not appear to visitors."
+msgstr "الصفحة المختارة غير منشورة ولن تظهر للزوار."
+
+#: build/admin.js:78
+msgid "Cookie Policy Page"
+msgstr "صفحة سياسة ملفات تعريف الارتباط"
+
+#: build/admin.js:78
+msgid "Clear selected page"
+msgstr "مسح الصفحة المختارة"
+
+#: build/admin.js:78
+msgid "Select a Page"
+msgstr "اختر صفحة"
+
+#: build/admin.js:78
+msgid "A link to this page will appear in the consent preferences modal footer."
+msgstr "سيظهر رابط لهذه الصفحة في تذييل نافذة تفضيلات الموافقة."
+
+#: build/admin.js:78
+msgid "Auto Generate"
+msgstr "إنشاء تلقائي"
+
+#: build/admin.js:78
+msgid "Automatically create a published Cookie Policy page containing a dynamically generated cookie table that always stays up to date."
+msgstr "إنشاء صفحة سياسة ملفات تعريف الارتباط منشورة تلقائيًا تحتوي على جدول ملفات تعريف ارتباط يتم إنشاؤه ديناميكيًا ويبقى محدثًا دائمًا."
+
+#: build/admin.js:78
+msgid "Cookie Policy page created successfully!"
+msgstr "تم إنشاء صفحة سياسة ملفات تعريف الارتباط بنجاح!"
+
+#: build/admin.js:78
+msgid "Failed to generate page. Please try again."
+msgstr "فشل في إنشاء الصفحة. يرجى المحاولة مرة أخرى."
+
+#: build/admin.js:78
+msgid "An error occurred while generating the page. Please try again."
+msgstr "حدث خطأ أثناء إنشاء الصفحة. يرجى المحاولة مرة أخرى."
+
+#: build/admin.js:78
+msgid "Page Already Linked"
+msgstr "الصفحة مرتبطة بالفعل"
+
+#: build/admin.js:78
+msgid "Generate Cookie Policy Page"
+msgstr "إنشاء صفحة سياسة ملفات تعريف الارتباط"
+
+#: build/admin.js:78
+msgid "Edit Page"
+msgstr "تعديل الصفحة"
+
+#: build/admin.js:78
+msgid "View Page"
+msgstr "عرض الصفحة"
+
+#: build/admin.js:78
+msgid "Use this shortcode to display the cookie policy with a dynamically generated cookie table on any page or post. The table always reflects the latest scanned and custom cookies."
+msgstr "استخدم هذا الرمز القصير لعرض سياسة ملفات تعريف الارتباط مع جدول ملفات تعريف ارتباط يتم إنشاؤه ديناميكيًا على أي صفحة أو منشور. يعكس الجدول دائمًا أحدث ملفات تعريف الارتباط الممسوحة والمخصصة."
+
+#: build/admin.js:83
+msgid "Please enter at least one region code"
+msgstr "يرجى إدخال رمز منطقة واحد على الأقل"
+
+#: build/admin.js:83
+msgid "Invalid region code format. Use ISO 3166 codes like EU, US, US-CA, or GB."
+msgstr "تنسيق رمز المنطقة غير صالح. استخدم رموز ISO 3166 مثل EU، US، US-CA، أو GB."
+
+#: build/admin.js:83
+msgid "EU/EEA (GDPR)"
+msgstr "الاتحاد الأوروبي / المنطقة الاقتصادية الأوروبية (GDPR)"
+
+#: build/admin.js:83
+msgid "California (CCPA)"
+msgstr "كاليفورنيا (CCPA)"
+
+#: build/admin.js:83
+msgid "United Kingdom"
+msgstr "المملكة المتحدة"
+
+#: build/admin.js:83
+msgid "Brazil (LGPD)"
+msgstr "البرازيل (LGPD)"
+
+#: build/admin.js:83
+msgid "Edit Regional Rule"
+msgstr "تعديل القاعدة الإقليمية"
+
+#: build/admin.js:83
+msgid "Add Regional Rule"
+msgstr "إضافة قاعدة إقليمية"
+
+#: build/admin.js:83
+msgid "Set default consent state for visitors from this region. Google uses the most specific match."
+msgstr "تعيين حالة الموافقة الافتراضية للزوار من هذه المنطقة. تستخدم Google التطابق الأكثر تحديدًا."
+
+#: build/admin.js:83
+msgid "Add Rule"
+msgstr "إضافة قاعدة"
+
+#: build/admin.js:83
+msgid "Quick Presets"
+msgstr "الإعدادات المسبقة السريعة"
+
+#: build/admin.js:83
+msgid "Apply preset:"
+msgstr "تطبيق الإعداد المسبق:"
+
+#: build/admin.js:83
+msgid "Region Codes"
+msgstr "رموز المناطق"
+
+#: build/admin.js:83
+msgid "Comma-separated ISO 3166 codes: EU, US, US-CA, GB, BR, etc."
+msgstr "رموز ISO 3166 مفصولة بفواصل: EU، US، US-CA، GB، BR، إلخ."
+
+#: build/admin.js:83
+msgid "Default Consent State"
+msgstr "حالة الموافقة الافتراضية"
+
+#: build/admin.js:83
+msgid "Choose which categories are granted by default for visitors from this region before they interact with the banner."
+msgstr "اختر الفئات التي تُمنح افتراضيًا للزوار من هذه المنطقة قبل تفاعلهم مع الشريط."
+
+#: build/admin.js:83
+msgid "Functional Storage"
+msgstr "التخزين الوظيفي"
+
+#: build/admin.js:83
+msgid "Enables storage for site functionality like preferences and language."
+msgstr "يُمكّن التخزين لوظائف الموقع مثل التفضيلات واللغة."
+
+#: build/admin.js:83
+msgid "Functional storage default"
+msgstr "التخزين الوظيفي الافتراضي"
+
+#: build/admin.js:83
+msgid "Analytics Storage"
+msgstr "تخزين التحليلات"
+
+#: build/admin.js:83
+msgid "Enables storage for analytics purposes like visit duration and page views."
+msgstr "يُمكّن التخزين لأغراض التحليلات مثل مدة الزيارة وعدد مرات مشاهدة الصفحة."
+
+#: build/admin.js:83
+msgid "Analytics storage default"
+msgstr "تخزين التحليلات الافتراضي"
+
+#: build/admin.js:83
+msgid "Marketing / Ads Storage"
+msgstr "تخزين التسويق / الإعلانات"
+
+#: build/admin.js:83
+msgid "Enables storage for advertising purposes including ad personalization and user data."
+msgstr "يُمكّن التخزين لأغراض الإعلان بما في ذلك تخصيص الإعلانات وبيانات المستخدم."
+
+#: build/admin.js:83
+msgid "Marketing storage default"
+msgstr "تخزين التسويق الافتراضي"
+
+#: build/admin.js:83
+msgid "Essential cookies (security_storage) are always granted. These defaults apply before the visitor interacts with the consent banner."
+msgstr "يتم دائمًا منح ملفات تعريف الارتباط الأساسية (security_storage). تنطبق هذه الإعدادات الافتراضية قبل تفاعل الزائر مع شريط الموافقة."
+
+#: build/admin.js:83
+msgid "Granted"
+msgstr "ممنوح"
+
+#: build/admin.js:83
+msgid "Denied"
+msgstr "مرفوض"
+
+#: build/admin.js:83
+msgid "Active Regional Rules"
+msgstr "القواعد الإقليمية النشطة"
+
+#: build/admin.js:83
+msgid "Set different default consent states per region. Google uses the most specific match (e.g., US-CA overrides US)."
+msgstr "تعيين حالات موافقة افتراضية مختلفة حسب المنطقة. تستخدم Google التطابق الأكثر تحديدًا (مثلًا، US-CA يتجاوز US)."
+
+#: build/admin.js:83
+msgid "Edit rule for"
+msgstr "تحرير القاعدة لـ"
+
+#: build/admin.js:83
+msgid "Delete rule for"
+msgstr "حذف القاعدة لـ"
+
+#: build/admin.js:83
+msgid "No regional rules configured. The global default (deny all except essential) applies to all visitors."
+msgstr "لا توجد قواعد إقليمية مكونة. ينطبق الإعداد الافتراضي العالمي (رفض الكل باستثناء الضروري) على جميع الزوار."
+
+#. translators: %s: comma-separated duplicate region codes
+#: build/admin.js:84
+#, js-format
+msgid "These region codes already exist in another rule: %s"
+msgstr "رموز المناطق هذه موجودة بالفعل في قاعدة أخرى: %s"
+
+#: build/admin.js:84
+msgid "Delete Regional Rule"
+msgstr "حذف القاعدة الإقليمية"
+
+#: build/admin.js:84
+msgid "Are you sure you want to delete this regional consent rule? Visitors from this region will use the global default."
+msgstr "هل أنت متأكد من رغبتك في حذف قاعدة الموافقة الإقليمية هذه؟ سيستخدم الزوار من هذه المنطقة الإعداد الافتراضي العالمي."
+
+#: build/admin.js:84
+msgid "Google Consent Mode v2"
+msgstr "وضع موافقة Google الإصدار 2"
+
+#: build/admin.js:84
+msgid "Automatically communicate user consent preferences to Google services."
+msgstr "التواصل تلقائيًا مع تفضيلات موافقة المستخدم لخدمات Google."
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode Switch"
+msgstr "تمكين مفتاح تبديل وضع موافقة Google"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode"
+msgstr "تمكين وضع موافقة Google"
+
+#: build/admin.js:84
+msgid "Supported services: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, and DV360"
+msgstr "الخدمات المدعومة: Analytics 4، إعلانات Google، مدير العلامات، Campaign Manager 360، Ad Manager، Floodlight، و DV360"
+
+#: build/admin.js:84
+msgid "Wait Time (milliseconds)"
+msgstr "وقت الانتظار (بالملي ثانية)"
+
+#: build/admin.js:84
+msgid "How long Google services wait for consent before making requests. Default: 500ms. Range: 0–2000ms."
+msgstr "مدة انتظار خدمات Google للموافقة قبل إجراء الطلبات. الافتراضي: 500 مللي ثانية. النطاق: 0–2000 مللي ثانية."
+
+#: build/admin.js:84
+msgid "Mandatory for EU/EEA as of March 2024"
+msgstr "إلزامي للاتحاد الأوروبي/المنطقة الاقتصادية الأوروبية اعتبارًا من مارس 2024"
+
+#: build/admin.js:84
+msgid "Google now requires Consent Mode v2 for all websites using Google services in the European Economic Area."
+msgstr "تتطلب Google الآن وضع الموافقة الإصدار 2 لجميع المواقع التي تستخدم خدمات Google في المنطقة الاقتصادية الأوروبية."
+
+#: build/admin.js:84
+msgid "Learn more about Google Consent Mode v2 →"
+msgstr "تعرف على المزيد حول وضع موافقة Google الإصدار 2 →"
+
+#: build/admin.js:84
+msgid "Where should the banner appear?"
+msgstr "أين يجب أن تظهر اللافتة؟"
+
+#: build/admin.js:84
+msgid "Choose where the banner is shown. Visitors outside selected regions will not see it."
+msgstr "اختر مكان عرض اللافتة. الزوار خارج المناطق المحددة لن يروا اللافتة."
+
+#: build/admin.js:84
+msgid "Show to all visitors worldwide"
+msgstr "عرض لجميع الزوار في جميع أنحاء العالم"
+
+#: build/admin.js:84
+msgid "Use the same experience for everyone, regardless of location."
+msgstr "استخدم نفس التجربة للجميع، بغض النظر عن الموقع."
+
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/admin.js:78
+#: build/admin.js:84
+msgid "Pro"
+msgstr "احترافي"
+
+#: build/admin.js:84
+msgid "Show only where required by law"
+msgstr "العرض فقط حيثما يقتضي القانون"
+
+#: build/admin.js:84
+msgid "Target specific regions with tailored consent experiences."
+msgstr "استهداف مناطق محددة بتجارب موافقة مخصصة."
+
+#: build/admin.js:84
+msgid "Mode: Show to all visitors worldwide"
+msgstr "الوضع: العرض لجميع الزوار في جميع أنحاء العالم"
+
+#: build/admin.js:84
+msgid "Your existing banner settings apply to all visitors. No geographic targeting is active."
+msgstr "تنطبق إعدادات اللافتة الحالية على جميع الزوار. لا يوجد استهداف جغرافي نشط."
+
+#: build/admin.js:84
+msgid "Unlock Regional Targeting"
+msgstr "فتح الاستهداف الإقليمي"
+
+#: build/admin.js:84
+msgid "Show banner only in selected regions, create custom regional rules, and control fallback behavior."
+msgstr "عرض اللافتة فقط في المناطق المختارة، إنشاء قواعد إقليمية مخصصة، والتحكم في سلوك الاسترجاع."
+
+#: build/admin.js:84
+msgid "Location detection uses GeoLite2 data by MaxMind, available from <link>https://www.maxmind.com</link>."
+msgstr "يستخدم اكتشاف الموقع بيانات GeoLite2 من MaxMind، المتاحة من <link>https://www.maxmind.com</link>."
+
+#: build/admin.js:87
+msgid "IAB Transparency & Consent Framework"
+msgstr "إطار الشفافية والموافقة الخاص بـ IAB"
+
+#: build/admin.js:87
+msgid "Make your consent banner compliant with IAB TCF 2.3 and integrate with the Global Vendor List."
+msgstr "اجعل لافتة الموافقة الخاصة بك متوافقة مع IAB TCF 2.3 وادمجها مع قائمة البائعين العالمية."
+
+#: build/admin.js:87
+msgid "Unlock IAB TCF 2.3 Compliance - Coming Soon"
+msgstr "فتح التوافق مع IAB TCF 2.3 - قريبا"
+
+#: build/admin.js:87
+msgid "Enable full TCF mode, generate TC strings, and display the IAB vendor list to your visitors."
+msgstr "تمكين وضع TCF الكامل، إنشاء سلاسل TC، وعرض قائمة بائعي IAB لزوارك."
+
+#: build/admin.js:87
+msgid "Google Additional Consent (AC)"
+msgstr "موافقة Google الإضافية (AC)"
+
+#: build/admin.js:87
+msgid "Add Google Additional Consent alongside IAB TCF to handle ad-tech vendors not on the IAB Global Vendor List."
+msgstr "أضف موافقة Google الإضافية جنبًا إلى جنب مع IAB TCF للتعامل مع بائعي تقنيات الإعلان غير المدرجين في قائمة بائعي IAB العالمية."
+
+#: build/admin.js:87
+msgid "Unlock Google Additional Consent - Coming Soon"
+msgstr "فتح موافقة جوجل الإضافية - قريبا"
+
+#: build/admin.js:87
+msgid "Generate the AC string, mirror the addtl_consent cookie, and display Google's Additional Consent provider list to your visitors - required for full Google Ads / GAM monetization."
+msgstr "توليد سلسلة AC، عكس ملف تعريف الارتباط addtl_consent، وعرض قائمة مزودي موافقة جوجل الإضافية لزوارك - مطلوب لتحقيق تحقيق الدخل الكامل من إعلانات جوجل / GAM."
+
+#: build/onboarding.js:1
+msgid "Failed to get authentication payload"
+msgstr "فشل في الحصول على حمولة المصادقة"
+
+#: build/onboarding.js:1
+msgid "An error occurred while connecting"
+msgstr "حدث خطأ أثناء الاتصال"
+
+#: build/onboarding.js:6
+msgid "First name is required"
+msgstr "الاسم الأول مطلوب"
+
+#: build/onboarding.js:6
+msgid "Email address is required"
+msgstr "عنوان البريد الإلكتروني مطلوب"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid email address"
+msgstr "يرجى إدخال عنوان بريد إلكتروني صالح"
+
+#: build/onboarding.js:6
+msgid "Classify cookies automatically"
+msgstr "تصنيف ملفات تعريف الارتباط تلقائيًا"
+
+#: build/onboarding.js:6
+msgid "Get smart compliance recommendations"
+msgstr "الحصول على توصيات امتثال ذكية"
+
+#: build/onboarding.js:6
+msgid "Generate privacy-compliant descriptions"
+msgstr "توليد أوصاف متوافقة مع الخصوصية"
+
+#: build/onboarding.js:6
+msgid "Welcome to SureCookie"
+msgstr "مرحبًا بك في SureCookie"
+
+#: build/onboarding.js:6
+msgid "Privacy compliance made effortless 🍪"
+msgstr "الامتثال للخصوصية أصبح سهلاً 🍪"
+
+#: build/onboarding.js:6
+msgid "Connect Your Account"
+msgstr "ربط حسابك"
+
+#: build/onboarding.js:6
+msgid "Connect your SureCookie account to automatically classify cookies, generate compliant descriptions, and get smart recommendations for your privacy needs."
+msgstr "قم بربط حساب SureCookie الخاص بك لتصنيف ملفات تعريف الارتباط تلقائيًا، وتوليد أوصاف متوافقة، والحصول على توصيات ذكية لاحتياجات الخصوصية الخاصة بك."
+
+#: build/onboarding.js:6
+msgid "Here's what you can do:"
+msgstr "إليك ما يمكنك القيام به:"
+
+#: build/onboarding.js:6
+msgid "List of capabilities"
+msgstr "قائمة القدرات"
+
+#: build/onboarding.js:6
+msgid "Connected to SureCookie"
+msgstr "متصل بـ SureCookie"
+
+#: build/admin.js:40
+#: build/onboarding.js:7
+#: build/onboarding.js:14
+msgid "Back"
+msgstr "عودة"
+
+#: build/onboarding.js:6
+msgid "Next"
+msgstr "التالي"
+
+#: build/onboarding.js:6
+#: build/onboarding.js:14
+msgid "Skip"
+msgstr "تخطي"
+
+#: build/onboarding.js:6
+msgid "Connecting…"
+msgstr "جارٍ الاتصال…"
+
+#: build/onboarding.js:6
+msgid "Connect"
+msgstr "اتصال"
+
+#: build/onboarding.js:11
+msgid "Run a Quick Privacy Scan"
+msgstr "تشغيل فحص خصوصية سريع"
+
+#: build/onboarding.js:11
+msgid "SureCookie will scan your website, detect all cookies, and categorize them automatically.<br/> This helps you stay compliant without spending hours identifying scripts manually."
+msgstr "سيقوم SureCookie بفحص موقعك، واكتشاف جميع ملفات تعريف الارتباط، وتصنيفها تلقائيًا.<br/> هذا يساعدك على البقاء متوافقًا دون قضاء ساعات في تحديد البرامج النصية يدويًا."
+
+#: build/onboarding.js:11
+msgid "Account not connected"
+msgstr "الحساب غير متصل"
+
+#: build/onboarding.js:11
+msgid "Please <a>go back</a> and connect your SureCookie account to enable cookie scanning."
+msgstr "يرجى <a>العودة</a> وربط حساب SureCookie الخاص بك لتمكين فحص ملفات تعريف الارتباط."
+
+#: build/onboarding.js:12
+msgid "Your session expired. Please reconnect to continue."
+msgstr "انتهت صلاحية جلستك. يرجى إعادة الاتصال للمتابعة."
+
+#: build/onboarding.js:14
+msgid "Connect Required"
+msgstr "الاتصال مطلوب"
+
+#: build/onboarding.js:14
+msgid "Please connect your account to get free scanning credits."
+msgstr "يرجى ربط حسابك للحصول على أرصدة فحص مجانية."
+
+#: build/onboarding.js:14
+msgid "SureCookie is scanning your pages for cookies. This may take a few minutes."
+msgstr "يقوم SureCookie بفحص صفحاتك بحثًا عن ملفات تعريف الارتباط. قد يستغرق هذا بضع دقائق."
+
+#: build/onboarding.js:14
+msgid "Okay, just one last step…"
+msgstr "حسنًا، خطوة أخيرة فقط…"
+
+#: build/onboarding.js:14
+msgid "Help us tailor your SureCookie experience by sharing a bit about yourself:"
+msgstr "ساعدنا في تخصيص تجربتك مع SureCookie بمشاركة بعض المعلومات عن نفسك:"
+
+#: build/onboarding.js:14
+msgid "First Name"
+msgstr "الاسم الأول"
+
+#: build/onboarding.js:14
+msgid "Enter your first name"
+msgstr "أدخل اسمك الأول"
+
+#: build/onboarding.js:14
+msgid "Last Name"
+msgstr "اسم العائلة"
+
+#: build/onboarding.js:14
+msgid "Enter your last name"
+msgstr "أدخل اسم العائلة"
+
+#: build/onboarding.js:14
+msgid "Email Address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: build/onboarding.js:14
+msgid "Enter your email address"
+msgstr "أدخل عنوان بريدك الإلكتروني"
+
+#: build/onboarding.js:14
+msgid "Finish"
+msgstr "إنهاء"
+
+#: build/onboarding.js:14
+msgid "Block non-essential cookies and trackers until explicit consent"
+msgstr "حظر ملفات تعريف الارتباط والمتعقبات غير الأساسية حتى الحصول على موافقة صريحة"
+
+#: build/onboarding.js:14
+msgid "Auto-discover common services, categorize them, and preconfigure safe rules"
+msgstr "اكتشاف الخدمات الشائعة تلقائيًا، تصنيفها، وتكوين قواعد آمنة مسبقًا"
+
+#: build/onboarding.js:14
+msgid "You're all set. Let's go live 🚀"
+msgstr "كل شيء جاهز. لننطلق 🚀"
+
+#: build/onboarding.js:14
+msgid "From consent logs to region-based preferences, SureCookie helps you stay compliant while building visitor trust."
+msgstr "من سجلات الموافقة إلى التفضيلات القائمة على المنطقة، تساعدك SureCookie على الالتزام بالقوانين مع بناء ثقة الزوار."
+
+#: build/onboarding.js:14
+msgid "Here's what SureCookie will do for you now:"
+msgstr "إليك ما ستفعله SureCookie من أجلك الآن:"
+
+#: build/onboarding.js:14
+msgid "SureCookie Features"
+msgstr "ميزات SureCookie"
+
+#: build/onboarding.js:6
+msgid "Exit Setup"
+msgstr "خروج من الإعداد"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "This website uses cookies to enhance your browsing experience, personalize content, provide social media features, and analyze our traffic. You can review and manage your cookie settings at any time, or accept all cookies to proceed."
+msgstr "يستخدم هذا الموقع ملفات تعريف الارتباط لتحسين تجربة التصفح الخاصة بك، تخصيص المحتوى، توفير ميزات وسائل التواصل الاجتماعي، وتحليل حركة المرور لدينا. يمكنك مراجعة وإدارة إعدادات ملفات تعريف الارتباط في أي وقت، أو قبول جميع ملفات تعريف الارتباط للمتابعة."
+
+#: build/public.js:4
+msgid "Cookie Consent"
+msgstr "موافقة ملفات تعريف الارتباط"
+
+#: build/public.js:4
+msgid "Banner logo"
+msgstr "شعار البانر"
+
+#: build/public.js:4
+msgid "Decline all non-essential cookies"
+msgstr "رفض جميع ملفات تعريف الارتباط غير الأساسية"
+
+#: build/public.js:4
+msgid "Manage cookie preferences"
+msgstr "إدارة تفضيلات ملفات تعريف الارتباط"
+
+#: build/public.js:4
+msgid "Accept only essential cookies"
+msgstr "قبول ملفات تعريف الارتباط الأساسية فقط"
+
+#: build/public.js:4
+msgid "Accept all cookies"
+msgstr "قبول جميع ملفات تعريف الارتباط"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Consent Forwarding"
+msgstr "إعادة توجيه الموافقة"
+
+#: build/admin.js:2
+msgid "Want custom brand colors?"
+msgstr "هل تريد ألوان علامة تجارية مخصصة؟"
+
+#: build/admin.js:3
+#: build/admin.js:4
+msgid "Received from"
+msgstr "تم الاستلام من"
+
+#: build/admin.js:3
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Received"
+msgstr "تم الاستلام"
+
+#. translators: %d: number of sites
+#: build/admin.js:4
+#, js-format
+msgid "Shared to %d site(s)"
+msgstr "تمت المشاركة مع %d موقع"
+
+#: build/admin.js:4
+msgid "Consent not received for"
+msgstr "لم يتم استلام الموافقة لـ"
+
+#: build/admin.js:4
+msgid "These categories exist only on this site and were not part of the forwarded consent. The visitor will be prompted to set their preferences for these when they visit this site directly."
+msgstr "هذه الفئات موجودة فقط على هذا الموقع ولم تكن جزءًا من الموافقة المعاد توجيهها. سيتم مطالبة الزائر بتعيين تفضيلاته لهذه الفئات عند زيارته لهذا الموقع مباشرة."
+
+#: build/admin.js:4
+msgid "More information about these categories"
+msgstr "مزيد من المعلومات حول هذه الفئات"
+
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Shared"
+msgstr "تمت المشاركة"
+
+#: build/admin.js:4
+msgid "Shared to"
+msgstr "تمت المشاركة إلى"
+
+#: build/admin.js:4
+msgid "Consent Session ID"
+msgstr "معرف جلسة الموافقة"
+
+#: build/admin.js:4
+msgid "Localhost"
+msgstr "المضيف المحلي"
+
+#: build/admin.js:6
+msgid "Consent log export upgrade"
+msgstr "ترقية تصدير سجل الموافقة"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preference sections"
+msgstr "أقسام التفضيلات"
+
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Cookies"
+msgstr "الكوكيز"
+
+#. translators: %d: number of partner sites
+#: build/admin.js:51
+#: build/public.js:2
+#, js-format
+msgid "%d connected site(s)"
+msgstr "%d موقع متصل"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Sites that will receive your consent"
+msgstr "المواقع التي ستتلقى موافقتك"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "No partner sites configured."
+msgstr "لا توجد مواقع شريكة مكونة."
+
+#: build/admin.js:53
+msgid "Cookie Notice"
+msgstr "إشعار الكوكيز"
+
+#: build/admin.js:84
+msgid "Automatically sync cookie consent across multiple domains and forward consent choices to connected services, without asking visitors to consent again."
+msgstr "قم بمزامنة موافقة الكوكيز تلقائيًا عبر نطاقات متعددة وأعد توجيه خيارات الموافقة إلى الخدمات المتصلة، دون مطالبة الزائرين بالموافقة مرة أخرى."
+
+#: inc/modules/mcp/server.php:100
+msgid "SureCookie MCP Server"
+msgstr "خادم SureCookie MCP"
+
+#: inc/modules/mcp/server.php:101
+msgid "SureCookie MCP Server for cookie consent settings, consent logs, cookie management, and site scanning workflows."
+msgstr "خادم SureCookie MCP لإعدادات موافقة الكوكيز، سجلات الموافقة، إدارة الكوكيز، وسير عمل فحص الموقع."
+
+#. translators: %s: navigation group label
+#: build/admin.js:2
+#, js-format
+msgid "%s submenu"
+msgstr "%s القائمة الفرعية"
+
+#: build/admin.js:2
+msgid "General"
+msgstr "عام"
+
+#: build/admin.js:2
+msgid "Consent & Data"
+msgstr "الموافقة والبيانات"
+
+#: build/admin.js:2
+msgid "Consent Frameworks"
+msgstr "أُطُر الموافقة"
+
+#: build/admin.js:2
+msgid "IAB-TCF"
+msgstr "IAB-TCF"
+
+#: build/admin.js:2
+msgid "Enter text"
+msgstr "أدخل النص"
+
+#: build/admin.js:2
+msgid "Enter Banner Message"
+msgstr "أدخل رسالة الشريط"
+
+#: build/admin.js:2
+msgid "Control how long consent stays valid and how consent records are stored."
+msgstr "تحكم في مدة صلاحية الموافقة وكيفية تخزين سجلات الموافقة."
+
+#: build/admin.js:4
+msgid "N/A"
+msgstr "غير متوفر"
+
+#. translators: %d: number of partner sites that received the forwarded consent.
+#: build/admin.js:15
+#, js-format
+msgid "This consent was shared with %d connected site. Deleting it here will also erase the copy from that site (GDPR Art. 17)."
+msgid_plural "This consent was shared with %d connected sites. Deleting it here will also erase the copies from those sites (GDPR Art. 17)."
+msgstr[0] "تمت مشاركة هذه الموافقة مع %d موقعًا متصلًا. حذفها هنا سيؤدي أيضًا إلى مسح النسخة من ذلك الموقع (المادة 17 من اللائحة العامة لحماية البيانات)."
+msgstr[1] "تمت مشاركة هذه الموافقة مع %d موقع متصل. حذفها هنا سيؤدي أيضًا إلى مسح النسخة من ذلك الموقع (المادة 17 من اللائحة العامة لحماية البيانات)."
+msgstr[2] "تمت مشاركة هذه الموافقة مع %d موقعين متصلين. حذفها هنا سيؤدي أيضًا إلى مسح النسختين من هذين الموقعين (المادة 17 من اللائحة العامة لحماية البيانات)."
+msgstr[3] "تمت مشاركة هذه الموافقة مع %d مواقع متصلة. حذفها هنا سيؤدي أيضًا إلى مسح النسخ من تلك المواقع (المادة 17 من اللائحة العامة لحماية البيانات)."
+msgstr[4] "تمت مشاركة هذه الموافقة مع %d موقعًا متصلًا. حذفها هنا سيؤدي أيضًا إلى مسح النسخ من تلك المواقع (المادة 17 من اللائحة العامة لحماية البيانات)."
+msgstr[5] "تمت مشاركة هذه الموافقة مع %d موقع متصل. حذفها هنا سيؤدي أيضًا إلى مسح النسخ من تلك المواقع (المادة 17 من اللائحة العامة لحماية البيانات)."
+
+#. translators: %d: number of selected logs that were forwarded to partner sites.
+#: build/admin.js:21
+#, js-format
+msgid "%d of these logs was shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgid_plural "%d of these logs were shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgstr[0] "%d من هذه السجلات تم مشاركته مع مواقع شركاء متصلة. الحذف سيؤدي أيضًا إلى مسح النسخ المحولة (المادة 17 من اللائحة العامة لحماية البيانات)."
+msgstr[1] "%d من هذه السجلات تم مشاركته مع مواقع شركاء متصلة. الحذف سيؤدي أيضًا إلى مسح تلك النسخة المحولة (المادة 17 من اللائحة العامة لحماية البيانات)."
+msgstr[2] "%d من هذه السجلات تم مشاركتهما مع مواقع شركاء متصلة. الحذف سيؤدي أيضًا إلى مسح النسختين المحولتين (المادة 17 من اللائحة العامة لحماية البيانات)."
+msgstr[3] "%d من هذه السجلات تم مشاركتها مع مواقع شركاء متصلة. الحذف سيؤدي أيضًا إلى مسح النسخ المحولة (المادة 17 من اللائحة العامة لحماية البيانات)."
+msgstr[4] "%d من هذه السجلات تم مشاركتها مع مواقع شركاء متصلة. الحذف سيؤدي أيضًا إلى مسح النسخ المحولة (المادة 17 من اللائحة العامة لحماية البيانات)."
+msgstr[5] "%d من هذه السجلات تم مشاركتها مع مواقع شركاء متصلة. الحذف سيؤدي أيضًا إلى مسح النسخ المحولة (المادة 17 من اللائحة العامة لحماية البيانات)."
+
+#: build/admin.js:53
+msgid "Admin and plugin preferences for SureCookie."
+msgstr "تفضيلات المسؤول والإضافات لـ SureCookie."
+
+#: build/admin.js:53
+msgid "SureCookie Admin Menu"
+msgstr "قائمة إدارة SureCookie"
+
+#: build/admin.js:53
+msgid "Toggle to show SureCookie in the main menu or under Settings → SureCookie."
+msgstr "تبديل لإظهار SureCookie في القائمة الرئيسية أو تحت الإعدادات → SureCookie."
+
+#: build/admin.js:84
+msgid "Connect Your AI Client"
+msgstr "اتصل بعميل الذكاء الاصطناعي الخاص بك"
+
+#: build/admin.js:84
+msgid "Create an Application Password"
+msgstr "إنشاء كلمة مرور للتطبيق"
+
+#: build/admin.js:84
+msgid "Open Application Passwords"
+msgstr "فتح كلمات مرور التطبيق"
+
+#: build/admin.js:84
+msgid "Add to your AI client:"
+msgstr "أضف إلى عميل الذكاء الاصطناعي الخاص بك:"
+
+#: build/admin.js:84
+msgid "Learn more about the WordPress MCP Adapter"
+msgstr "تعرف على المزيد حول محول MCP لـ WordPress"
+
+#: build/admin.js:84
+msgid "Claude Code"
+msgstr "Claude Code"
+
+#: build/admin.js:84
+msgid "Claude Desktop"
+msgstr "Claude Desktop"
+
+#: build/admin.js:84
+msgid "Cursor"
+msgstr "Cursor"
+
+#: build/admin.js:84
+msgid "VS Code"
+msgstr "VS Code"
+
+#: build/admin.js:84
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+#: build/admin.js:84
+msgid "go to Settings → Connectors → Add Connector, paste the endpoint URL, and use your WordPress username + Application Password."
+msgstr "اذهب إلى الإعدادات → الموصلات → إضافة موصل، الصق عنوان URL للنقطة النهائية، واستخدم اسم مستخدم WordPress + كلمة مرور التطبيق."
+
+#: build/admin.js:84
+msgid "Learn more about ChatGPT connectors"
+msgstr "تعرف على المزيد حول موصلات ChatGPT"
+
+#: build/admin.js:84
+msgid "SureCookie Only"
+msgstr "SureCookie فقط"
+
+#: build/admin.js:84
+msgid "Global"
+msgstr "عالمي"
+
+#: build/admin.js:84
+msgid "Copy setup prompt for AI client"
+msgstr "نسخ موجه الإعداد لعميل الذكاء الاصطناعي"
+
+#: build/admin.js:84
+msgid "Prompt copied! Paste it into your AI client."
+msgstr "تم نسخ الموجه! الصقه في عميل الذكاء الاصطناعي الخاص بك."
+
+#: build/admin.js:84
+msgid "Failed to copy prompt to clipboard"
+msgstr "فشل في نسخ الموجه إلى الحافظة"
+
+#: build/admin.js:84
+msgid "Copy JSON config"
+msgstr "نسخ تكوين JSON"
+
+#: build/admin.js:84
+msgid "Copied to clipboard"
+msgstr "تم النسخ إلى الحافظة"
+
+#: build/admin.js:84
+msgid "Failed to copy to clipboard"
+msgstr "فشل في النسخ إلى الحافظة"
+
+#: build/admin.js:84
+msgid "MCP Adapter plugin not detected"
+msgstr "لم يتم اكتشاف إضافة MCP Adapter"
+
+#. translators: %s: WP MCP Adapter plugin name.
+#: build/admin.js:87
+#, js-format
+msgid "To connect AI clients to your site, the %s plugin is required. Download the latest release from GitHub, upload it via Plugins > Add New > Upload Plugin, and activate."
+msgstr "لتوصيل عملاء الذكاء الاصطناعي بموقعك، يلزم إضافة %s. قم بتنزيل الإصدار الأخير من GitHub، ارفعها عبر الإضافات > أضف جديد > رفع إضافة، وقم بالتفعيل."
+
+#: build/admin.js:87
+msgid "Download from GitHub"
+msgstr "تنزيل من GitHub"
+
+#: build/admin.js:2
+#: build/admin.js:87
+msgid "MCP"
+msgstr "MCP"
+
+#: build/admin.js:87
+msgid "Configure AI client access to SureCookie through the Model Context Protocol."
+msgstr "تكوين وصول عميل الذكاء الاصطناعي إلى SureCookie عبر بروتوكول سياق النموذج."
+
+#: build/admin.js:87
+msgid "Enable MCP"
+msgstr "تمكين MCP"
+
+#: build/admin.js:87
+msgid "Allow AI clients like Claude, ChatGPT, and Cursor to manage your cookie banner, scanner, and consent settings through SureCookie. When disabled, no abilities are registered and AI clients cannot connect."
+msgstr "السماح لعملاء الذكاء الاصطناعي مثل Claude وChatGPT وCursor بإدارة شريط الكوكيز، الفاحص، وإعدادات الموافقة عبر SureCookie. عند تعطيله، لا يتم تسجيل أي صلاحيات ولا يمكن للعملاء الاتصال."
+
+#: build/admin.js:87
+msgid "WordPress Abilities API not available"
+msgstr "واجهة برمجة تطبيقات صلاحيات WordPress غير متوفرة"
+
+#: build/admin.js:87
+msgid "MCP requires the WordPress Abilities API (WordPress 6.9 or later). Update WordPress to use this feature."
+msgstr "يتطلب MCP واجهة برمجة تطبيقات القدرات في ووردبريس (ووردبريس 6.9 أو أحدث). قم بتحديث ووردبريس لاستخدام هذه الميزة."
+
+#: build/admin.js:87
+msgid "Unsaved changes"
+msgstr "تغييرات غير محفوظة"
+
+#: build/admin.js:87
+msgid "The MCP endpoint becomes active only after you save your settings."
+msgstr "يصبح نقطة نهاية MCP نشطة فقط بعد حفظ إعداداتك."
+
+#: inc/api/consent-logs.php:404
+msgid "Unable to determine the current user."
+msgstr "غير قادر على تحديد المستخدم الحالي."
+
+#: inc/api/consent-logs.php:415
+msgid "Consent logs marked as viewed."
+msgstr "تم وضع علامة على سجلات الموافقة كمشاهدة."
+
+#: inc/api/plugin.php:214
+msgid "This plugin is network-activated and must be deactivated by a Network Administrator from Network Admin > Plugins."
+msgstr "هذه الإضافة مفعلة على مستوى الشبكة ويجب تعطيلها بواسطة مسؤول الشبكة من إدارة الشبكة > الإضافات."
+
+#: inc/api/plugin.php:225
+msgid "Plugin could not be deactivated."
+msgstr "تعذر تعطيل الإضافة."
+
+#: inc/modules/automatic-scanning/api.php:118
+msgid "Enable Automatic Scanning before running a scan."
+msgstr "قم بتمكين الفحص التلقائي قبل تشغيل الفحص."
+
+#: inc/modules/automatic-scanning/api.php:122
+msgid "A scan is already in progress."
+msgstr "الفحص جارٍ بالفعل."
+
+#: inc/modules/automatic-scanning/api.php:128
+msgid "Could not start the scan. Please try again."
+msgstr "تعذر بدء الفحص. يرجى المحاولة مرة أخرى."
+
+#: inc/modules/automatic-scanning/api.php:131
+msgid "Scan triggered."
+msgstr "تم تشغيل الفحص."
+
+#: inc/modules/automatic-scanning/runner.php:100
+msgid "Automatic scan deferred: daily page budget reached. Retrying in ~24 hours."
+msgstr "تم تأجيل الفحص التلقائي: تم الوصول إلى حد صفحات اليوم. سيتم المحاولة مرة أخرى خلال ~24 ساعة."
+
+#: inc/modules/automatic-scanning/runner.php:124
+msgid "Automatic scan skipped: a scan is already in progress."
+msgstr "تم تخطي الفحص التلقائي: الفحص جارٍ بالفعل."
+
+#: inc/modules/automatic-scanning/runner.php:142
+msgid "Starting automatic (scheduled) scan."
+msgstr "بدء الفحص التلقائي (المجدول)."
+
+#: inc/modules/automatic-scanning/scheduler.php:85
+msgid "Once Monthly (SureCookie)"
+msgstr "مرة واحدة شهريًا (SureCookie)"
+
+#: inc/modules/automatic-scanning/scheduler.php:92
+msgid "Once Weekly (SureCookie)"
+msgstr "مرة واحدة أسبوعيًا (SureCookie)"
+
+#: inc/modules/script-blocking/blocker.php:1279
+msgid "This content is currently blocked."
+msgstr "هذا المحتوى محظور حاليًا."
+
+#: inc/modules/site-scanner/saas-client.php:519
+msgid "Scan deferred by server: daily page budget reached. It will retry automatically."
+msgstr "تم تأجيل الفحص بواسطة الخادم: تم الوصول إلى حد صفحات اليوم. سيتم المحاولة تلقائيًا."
+
+#: inc/modules/site-scanner/saas-client.php:524
+msgid "Daily page budget reached. The scheduled scan will retry automatically."
+msgstr "تم الوصول إلى حد صفحات اليوم. سيتم إعادة محاولة الفحص المجدول تلقائيًا."
+
+#: build/admin.js:2
+#: build/admin.js:79
+msgid "Manual"
+msgstr "يدوي"
+
+#: build/admin.js:2
+msgid "Automatic"
+msgstr "تلقائي"
+
+#: build/admin.js:2
+msgid "Reset to default"
+msgstr "إعادة التعيين إلى الافتراضي"
+
+#: build/admin.js:2
+msgid "Enable Background Overlay"
+msgstr "تمكين تراكب الخلفية"
+
+#: build/admin.js:2
+msgid "Background Overlay"
+msgstr "تراكب الخلفية"
+
+#: build/admin.js:2
+msgid "Dim the page behind the banner and limit interaction until the visitor accepts or declines. The overlay is removed after a choice is made."
+msgstr "تعتيم الصفحة خلف الشريط وتقييد التفاعل حتى يقبل الزائر أو يرفض. يتم إزالة التراكب بعد اتخاذ القرار."
+
+#: build/admin.js:2
+msgid "This layout highlights the consent banner and may affect user experience. Ensure it aligns with your regional consent requirements."
+msgstr "يسلط هذا التخطيط الضوء على شريط الموافقة وقد يؤثر على تجربة المستخدم. تأكد من توافقه مع متطلبات الموافقة الإقليمية الخاصة بك."
+
+#: build/admin.js:2
+#: build/admin.js:3
+msgid "Re-request Consent"
+msgstr "إعادة طلب الموافقة"
+
+#. translators: %s: date/time of the last renewal.
+#: build/admin.js:3
+#, js-format
+msgid "Last Requested: %s"
+msgstr "آخر طلب: %s"
+
+#: build/admin.js:3
+msgid "Ask all visitors to provide consent again. Use this after updating your cookie policy or adding new trackers. Existing consent will be marked as outdated, and the banner will reappear on the next visit."
+msgstr "اطلب من جميع الزوار تقديم الموافقة مرة أخرى. استخدم هذا بعد تحديث سياسة الكوكيز أو إضافة متتبعات جديدة. سيتم وضع علامة على الموافقة الحالية على أنها قديمة، وسيظهر الشريط مرة أخرى في الزيارة التالية."
+
+#: build/admin.js:3
+msgid "Consent requested. Visitors will be asked for consent again."
+msgstr "تم طلب الموافقة. سيُطلب من الزوار الموافقة مرة أخرى."
+
+#: build/admin.js:3
+msgid "Could not Re-request Consent. Please try again."
+msgstr "تعذر إعادة طلب الموافقة. يرجى المحاولة مرة أخرى."
+
+#: build/admin.js:3
+msgid "Renewing…"
+msgstr "جارٍ التجديد…"
+
+#: build/admin.js:3
+msgid "Confirm Re-request"
+msgstr "تأكيد إعادة الطلب"
+
+#: build/admin.js:22
+#: build/onboarding.js:2
+msgid "New"
+msgstr "جديد"
+
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Automatic Scanning"
+msgstr "الفحص التلقائي"
+
+#: build/admin.js:43
+msgid "Manage"
+msgstr "إدارة"
+
+#: build/admin.js:43
+msgid "Since the last scan:"
+msgstr "منذ آخر فحص:"
+
+#: build/admin.js:43
+msgid "new cookie"
+msgid_plural "new cookies"
+msgstr[0] "كوكي جديد"
+msgstr[1] "كوكي جديد"
+msgstr[2] "كوكيان جديدان"
+msgstr[3] "كوكيز جديدة"
+msgstr[4] "كوكي جديدًا"
+msgstr[5] "كوكي جديد"
+
+#: build/admin.js:43
+msgid "removed"
+msgstr "تمت الإزالة"
+
+#: build/admin.js:43
+msgid "new tracker domain"
+msgid_plural "new tracker domains"
+msgstr[0] "نطاق متتبع جديد"
+msgstr[1] "نطاق متتبع جديد"
+msgstr[2] "نطاقان متتبعان جديدان"
+msgstr[3] "نطاقات متتبعة جديدة"
+msgstr[4] "نطاقًا متتبعًا جديدًا"
+msgstr[5] "نطاق متتبع جديد"
+
+#: build/admin.js:43
+msgid "No scans yet. Schedule automatic scans to track changes over time."
+msgstr "لا توجد فحوصات حتى الآن. قم بجدولة الفحوصات التلقائية لتتبع التغييرات مع مرور الوقت."
+
+#. translators: %s: next scan date
+#: build/admin.js:44
+#, js-format
+msgid "Next scan: %s"
+msgstr "الفحص التالي: %s"
+
+#: build/admin.js:44
+msgid "Scheduling is off"
+msgstr "الجدولة متوقفة"
+
+#: build/admin.js:75
+msgid "Network-activated"
+msgstr "مفعلة على مستوى الشبكة"
+
+#: build/admin.js:75
+msgid "Manage in Network Admin"
+msgstr "الإدارة في مسؤول الشبكة"
+
+#: build/admin.js:76
+msgid "Google Consent Mode is enabled, so SureCookie allows Google's Consent Mode scripts to function correctly. As a result, this script cannot be blocked."
+msgstr "وضع موافقة Google مفعل، لذا يسمح SureCookie لسكريبتات وضع موافقة Google بالعمل بشكل صحيح. ونتيجة لذلك، لا يمكن حظر هذا السكريبت."
+
+#: build/admin.js:78
+msgid "Necessary"
+msgstr "ضروري"
+
+#: build/admin.js:78
+msgid "What Changed in the Last Scan"
+msgstr "ما الذي تغير في الفحص الأخير"
+
+#: build/admin.js:78
+msgid "Cookies and tracker domains that changed compared to the previous scan."
+msgstr "ملفات تعريف الارتباط ونطاقات المتتبع التي تغيرت مقارنة بالفحص السابق."
+
+#: build/admin.js:78
+msgid "No differences were detected compared to the previous scan."
+msgstr "لم يتم اكتشاف أي اختلافات مقارنة بالفحص السابق."
+
+#: build/admin.js:78
+msgid "New Cookies"
+msgstr "ملفات تعريف ارتباط جديدة"
+
+#: build/admin.js:78
+msgid "No Longer Detected"
+msgstr "لم تعد مكتشفة"
+
+#: build/admin.js:78
+msgid "Recategorized"
+msgstr "تم إعادة تصنيفها"
+
+#: build/admin.js:78
+msgid "New Tracker Domains"
+msgstr "نطاقات متتبع جديدة"
+
+#: build/admin.js:78
+msgid "Third-party"
+msgstr "طرف ثالث"
+
+#: build/admin.js:78
+msgid "Monthly"
+msgstr "شهريًا"
+
+#: build/admin.js:78
+msgid "Re-scan your site once a month."
+msgstr "أعد فحص موقعك مرة واحدة في الشهر."
+
+#: build/admin.js:78
+msgid "Weekly"
+msgstr "أسبوعيًا"
+
+#: build/admin.js:78
+msgid "Re-scan every week for faster drift detection."
+msgstr "أعد الفحص كل أسبوع لاكتشاف التغيرات بشكل أسرع."
+
+#: build/admin.js:78
+msgid "All Published Content"
+msgstr "كل المحتوى المنشور"
+
+#: build/admin.js:78
+msgid "Enable Automatic Scanning"
+msgstr "تفعيل الفحص التلقائي"
+
+#: build/admin.js:78
+msgid "Run scheduled scans in the background and detect changes automatically."
+msgstr "تشغيل الفحوصات المجدولة في الخلفية واكتشاف التغيرات تلقائيًا."
+
+#: build/admin.js:78
+msgid "Scan Frequency"
+msgstr "تكرار الفحص"
+
+#: build/admin.js:78
+msgid "WordPress cron is disabled"
+msgstr "تم تعطيل كرون ووردبريس"
+
+#: build/admin.js:78
+msgid "Scheduled scans rely on cron. Ask your host to set up a real server cron job so automatic scans run on time."
+msgstr "تعتمد الفحوصات المجدولة على كرون. اطلب من مزود الاستضافة إعداد مهمة كرون حقيقية على الخادم لتشغيل الفحوصات التلقائية في الوقت المحدد."
+
+#: build/admin.js:78
+msgid "Last Scan"
+msgstr "آخر فحص"
+
+#. translators: %s: last scan date-time
+#: build/admin.js:79
+#, js-format
+msgid "Scanned on %s"
+msgstr "تم الفحص في %s"
+
+#: build/admin.js:79
+msgid "Scheduled"
+msgstr "مجدول"
+
+#. translators: %d: number of new cookies
+#: build/admin.js:80
+#, js-format
+msgid "%d New Cookies"
+msgstr "%d ملفات تعريف ارتباط جديدة"
+
+#. translators: %d: number of cookies no longer detected
+#: build/admin.js:81
+#, js-format
+msgid "%d Removed"
+msgstr "%d تمت إزالتها"
+
+#. translators: %d: number of recategorized cookies
+#: build/admin.js:82
+#, js-format
+msgid "%d Recategorized"
+msgstr "%d أعيد تصنيفها"
+
+#. translators: %d: number of new tracker domains
+#: build/admin.js:83
+#, js-format
+msgid "%d New Tracker Domains"
+msgstr "%d نطاقات متتبع جديدة"
+
+#: build/admin.js:83
+msgid "View Changes"
+msgstr "عرض التغييرات"
+
+#: build/admin.js:83
+msgid "No scans yet - run your first scan to start monitoring changes."
+msgstr "لا توجد فحوصات حتى الآن - قم بتشغيل الفحص الأول لبدء مراقبة التغييرات."
+
+#: build/admin.js:83
+msgid "Stay Compliant Automatically"
+msgstr "ابق ملتزمًا تلقائيًا"
+
+#: build/admin.js:83
+msgid "Get weekly scans, instant alerts, smart classification, and automatic protection from new trackers."
+msgstr "احصل على فحوصات أسبوعية، وتنبيهات فورية، وتصنيف ذكي، وحماية تلقائية من المتتبعين الجدد."
+
+#. translators: %d: maximum pages
+#: build/onboarding.js:11
+#, js-format
+msgid "SureCookie agent will visit them like real users to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "سيزورهم وكيل SureCookie مثل المستخدمين الحقيقيين لاكتشاف جميع ملفات تعريف الارتباط المستخدمة. مسموح %d صفحات لكل فحص بسبب قيود الموارد."
+
+#. translators: 1: remaining pages, 2: total daily page budget
+#: build/admin.js:70
+#, js-format
+msgid "%1$d of %2$d daily pages remaining on this site"
+msgstr "%1$d من %2$d صفحات يومية متبقية على هذا الموقع"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "<p>By scanning you accept our <a>terms and conditions</a>.</p>"
+msgstr "<p>بالمسح، أنت توافق على <a>الشروط والأحكام</a> الخاصة بنا.</p>"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Terms and Conditions"
+msgstr "الشروط والأحكام"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Cookie Scanning Not Available on Local Sites"
+msgstr "فحص ملفات تعريف الارتباط غير متوفر على المواقع المحلية"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "This site is running on a local or development environment that our cloud scanner cannot reach. Cookie scanning will be available once your site is live on a publicly accessible domain."
+msgstr "يعمل هذا الموقع على بيئة محلية أو بيئة تطوير لا يمكن لفاحص السحابة الوصول إليها. سيكون فحص ملفات تعريف الارتباط متاحًا بمجرد أن يصبح موقعك مباشرًا على نطاق يمكن الوصول إليه علنًا."
+
+#: build/onboarding.js:14
+msgid "Skip for Now"
+msgstr "تخطي الآن"
+
+#: build/onboarding.js:14
+msgid "Stay in the loop and help shape SureCookie! Get feature updates, and help us build a better SureCookie by sharing how you use the plugin. <a>Terms and Conditions</a>"
+msgstr "ابقَ على اطلاع وساعد في تشكيل SureCookie! احصل على تحديثات الميزات وساعدنا في بناء SureCookie أفضل من خلال مشاركة كيفية استخدامك للإضافة. <a>الشروط والأحكام</a>"
+
+#: admin/product-promotion.php:104
+msgid "Grow traffic of your website with SureRank - a lightweight SEO toolkit plugin for WordPress users who want better rankings without the complexity."
+msgstr "زد حركة الزوار في موقعك مع SureRank - إضافة خفيفة لأدوات تحسين محركات البحث (SEO) لمستخدمي WordPress الذين يريدون ترتيبًا أفضل دون تعقيد."
+
+#: admin/rating-notice.php:232
+msgid "Amazing! SureCookie discovered cookies on your site - let's keep growing together!"
+msgstr "رائع! اكتشف SureCookie ملفات تعريف الارتباط على موقعك - لنواصل النمو معًا!"
+
+#. translators: 1: page URL, 2: error message
+#: inc/modules/site-scanner/saas-client.php:989
+#, php-format
+msgid "Page failed: %1$s - %2$s"
+msgstr "فشلت الصفحة: %1$s - %2$s"
+
+#: build/admin.js:43
+msgid "WP-Cron disabled - scans won’t run automatically"
+msgstr "WP-Cron معطل - لن تعمل عمليات الفحص تلقائيًا"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Consider Plan Upgrade"
+msgstr "فكّر في ترقية الخطة"
+
+#. translators: 1: pages scanned, 2: pages submitted
+#: build/admin.js:75
+#, js-format
+msgid "Scanned %1$d of %2$d pages - your daily page budget is used up. The remaining pages will scan after it resets."
+msgstr "تم فحص %1$d من أصل %2$d صفحة - تم استخدام حد صفحات اليوم بالكامل. سيتم فحص الصفحات المتبقية بعد إعادة تعيينه."
+
+#: build/admin.js:84
+msgid "Update the environment variables"
+msgstr "حدّث متغيرات البيئة"
+
+#: build/admin.js:84
+msgid "WP_API_USERNAME"
+msgstr "WP_API_USERNAME"
+
+#: build/admin.js:84
+msgid "Your WordPress username (prefilled)."
+msgstr "اسم مستخدم WordPress الخاص بك (معبأ مسبقًا)."
+
+#: build/admin.js:84
+msgid "WP_API_PASSWORD"
+msgstr "WP_API_PASSWORD"
+
+#: build/admin.js:84
+msgid "Replace \"your-application-password\" with the password from Step 1."
+msgstr "استبدل \"your-application-password\" بكلمة المرور من الخطوة 1."
+
+#: build/admin.js:84
+msgid "Verify Node.js version"
+msgstr "تحقق من إصدار Node.js"
+
+#: build/admin.js:84
+msgid "In your terminal, run:"
+msgstr "في الطرفية (Terminal) الخاصة بك، قم بتشغيل:"
+
+#: build/admin.js:84
+msgid "The version must be 20.1 or higher."
+msgstr "يجب أن يكون الإصدار 20.1 أو أعلى."
+
+#: build/admin.js:84
+msgid "If it is lower, run:"
+msgstr "إذا كان أقل من ذلك، قم بتشغيل:"
+
+#: build/admin.js:84
+msgid "Restart your AI client and paste the copied prompt again into your AI client."
+msgstr "أعد تشغيل عميل الذكاء الاصطناعي الخاص بك والصق الموجّه المنسوخ مرة أخرى في عميل الذكاء الاصطناعي."
+
+#: build/admin.js:84
+msgid "Enjoy your AI client connected to your WordPress site!"
+msgstr "استمتع بعميل الذكاء الاصطناعي متصلاً بموقع WordPress الخاص بك!"
+
+#: admin/rating-notice.php:156
+msgid "Invalid nonce."
+msgstr "رمز nonce غير صالح."
+
+#: admin/rating-notice.php:158
+msgid "Unauthorized user."
+msgstr "مستخدم غير مصرح له."
+
+#: admin/rating-notice.php:171
+msgid "Invalid parameters."
+msgstr "معلمات غير صالحة."
+
+#: build/admin.js:47
+msgid "More scan limits, geographic targeting, re-consent widget, and more."
+msgstr "حدود فحص أكثر، استهداف جغرافي، أداة إعادة الموافقة، والمزيد."
+
+#: inc/integrations/presto-player/block-handler.php:293
+msgid "This audio is blocked until you accept cookies to load it."
+msgstr "هذا الصوت محظور حتى تقبل ملفات تعريف الارتباط لتحميله."
+
+#: inc/integrations/presto-player/block-handler.php:297
+msgid "This video is blocked until you accept cookies to load it."
+msgstr "هذا الفيديو محظور حتى تقبل ملفات تعريف الارتباط لتحميله."
+
+#: build/admin.js:2
+msgid "Tools"
+msgstr "الأدوات"
+
+#: build/admin.js:2
+msgid "You've used all available AI requests in your Free Plan. Upgrade to SureCookie premium to keep using AI features."
+msgstr "لقد استخدمت جميع طلبات الذكاء الاصطناعي المتاحة في خطتك المجانية. قم بالترقية إلى SureCookie بريميوم للاستمرار في استخدام ميزات الذكاء الاصطناعي."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to access this feature."
+msgstr "قم بالترقية إلى SureCookie بريميوم للوصول إلى هذه الميزة."
+
+#: build/admin.js:2
+msgid "Is this button order not showing on the frontend?"
+msgstr "هل لا يظهر ترتيب الأزرار هذا في الواجهة الأمامية؟"
+
+#: build/admin.js:2
+msgid "Visitors who match a region-specific rule will see the button order defined for that region. This global order is shown only to visitors who don't match any regional rules."
+msgstr "سيشاهد الزوار الذين يطابقون قاعدة إقليمية محددة ترتيب الأزرار المعرف لذلك الإقليم. يظهر هذا الترتيب العالمي فقط للزوار الذين لا يطابقون أي قواعد إقليمية."
+
+#: build/admin.js:2
+msgid "Manage Geo Rules"
+msgstr "إدارة قواعد الجغرافيا"
+
+#: build/admin.js:2
+msgid "You can add links and basic formatting like bold/italic/link to the banner message."
+msgstr "يمكنك إضافة روابط وتنسيقات أساسية مثل عريض/مائل/رابط إلى رسالة الشريط."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to pick custom primary, secondary, foreground, and background colors for your banner."
+msgstr "قم بالترقية إلى SureCookie بريميوم لاختيار ألوان أساسية وثانوية وألوان المقدمة والخلفية المخصصة لشريطك."
+
+#: build/admin.js:6
+msgid "Export Consent Logs"
+msgstr "تصدير سجلات الموافقة"
+
+#: build/admin.js:6
+msgid "Upgrade to premium to download CSV report for legal audits and GDPR Article 7 documentation."
+msgstr "قم بالترقية إلى بريميوم لتنزيل تقرير CSV للتدقيقات القانونية وتوثيق المادة 7 من اللائحة العامة لحماية البيانات."
+
+#: build/admin.js:44
+msgid "Grab the Launch Offer"
+msgstr "احصل على عرض الإطلاق"
+
+#: build/admin.js:47
+msgid "Do More with SureCookie Premium"
+msgstr "افعل المزيد مع SureCookie بريميوم"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Checking your scan limits…"
+msgstr "جارٍ التحقق من حدود الفحص الخاصة بك…"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Run your first scan to connect this site with SureCookie. Your plan's full scan limits unlock automatically once the connection is established."
+msgstr "قم بتشغيل الفحص الأول لربط هذا الموقع بـ SureCookie. سيتم فتح حدود الفحص الكاملة لخطتك تلقائيًا بمجرد إنشاء الاتصال."
+
+#. translators: %d: maximum pages
+#: build/admin.js:67
+#, js-format
+msgid "We'll visit the selected content to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "سنزور المحتوى المحدد لاكتشاف جميع ملفات تعريف الارتباط المستخدمة. مسموح بـ %d صفحات لكل فحص بسبب قيود الموارد."
+
+#. translators: %d: maximum items
+#: build/admin.js:72
+#: build/onboarding.js:13
+#, js-format
+msgid "Select up to %d items to scan…"
+msgstr "اختر حتى %d عناصر للفحص…"
+
+#: build/admin.js:72
+#: build/onboarding.js:13
+msgid "Select Content"
+msgstr "اختر المحتوى"
+
+#: build/admin.js:73
+#: build/onboarding.js:14
+msgid "Select the content you want to scan."
+msgstr "اختر المحتوى الذي تريد فحصه."
+
+#: build/admin.js:74
+msgid "Scanning your content for cookies. This may take a few minutes."
+msgstr "جارٍ فحص المحتوى الخاص بك للعثور على ملفات تعريف الارتباط. قد يستغرق هذا بضع دقائق."
+
+#: build/admin.js:75
+msgid "Unlock Geo Rules, Advanced Scanning & more with Pro - Grab the launching offer!"
+msgstr "افتح قواعد الجغرافيا، الفحص المتقدم والمزيد مع Pro - احصل على عرض الإطلاق!"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Claim the Deal"
+msgstr "اطلب العرض"
+
+#: build/admin.js:78
+msgid "Content from Manual Scan"
+msgstr "المحتوى من الفحص اليدوي"
+
+#: build/admin.js:78
+msgid "Reuse the content selected on the Cookie Scanner."
+msgstr "إعادة استخدام المحتوى المحدد في أداة فحص ملفات تعريف الارتباط."
+
+#: build/admin.js:78
+msgid "Scan all published content, as per plan limit."
+msgstr "افحص كل المحتوى المنشور، حسب حد الخطة."
+
+#: build/admin.js:78
+msgid "Selected Content"
+msgstr "المحتوى المحدد"
+
+#: build/admin.js:78
+msgid "Choose specific content to scan below."
+msgstr "اختر محتوى محدد للفحص أدناه."
+
+#: build/admin.js:78
+msgid "Content to Scan"
+msgstr "المحتوى للفحص"
+
+#: build/admin.js:78
+msgid "Select content to scan…"
+msgstr "اختر المحتوى للفحص…"
+
+#: build/onboarding.js:6
+msgid "Launch Offer - Save Big"
+msgstr "عرض الإطلاق - وفر كثيرًا"
+
+#: build/onboarding.js:6
+msgid "Limited Time"
+msgstr "لفترة محدودة"
+
+#: build/onboarding.js:6
+msgid "Upgrade to Premium and unlock advanced scanning, geo rules, custom branding, and priority support."
+msgstr "قم بالترقية إلى بريميوم وافتح الفحص المتقدم، قواعد الجغرافيا، العلامة التجارية المخصصة، والدعم الأولوي."
+
+#: build/onboarding.js:6
+msgid "Failed to activate license. Please try again."
+msgstr "فشل في تفعيل الترخيص. يرجى المحاولة مرة أخرى."
+
+#: build/onboarding.js:6
+msgid "License Activated!"
+msgstr "تم تفعيل الترخيص!"
+
+#: build/onboarding.js:6
+msgid "Your license has been successfully activated."
+msgstr "تم تفعيل الترخيص الخاص بك بنجاح."
+
+#: build/onboarding.js:6
+msgid "Activation Failed"
+msgstr "فشل التفعيل"
+
+#: build/onboarding.js:6
+msgid "An error occurred during activation. Please try again."
+msgstr "حدث خطأ أثناء التفعيل. يرجى المحاولة مرة أخرى."
+
+#: build/onboarding.js:6
+msgid "Invalid License Key"
+msgstr "مفتاح الترخيص غير صالح"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid license key."
+msgstr "يرجى إدخال مفتاح ترخيص صالح."
+
+#: build/onboarding.js:6
+msgid "Activate Your License"
+msgstr "تفعيل الترخيص الخاص بك"
+
+#: build/onboarding.js:6
+msgid "Activate your SureCookie license to unlock higher scan limits, automatically classify cookies, and get smart compliance recommendations."
+msgstr "قم بتفعيل ترخيص SureCookie الخاص بك لفتح حدود فحص أعلى، وتصنيف ملفات تعريف الارتباط تلقائيًا، والحصول على توصيات امتثال ذكية."
+
+#: build/onboarding.js:6
+msgid "License activated"
+msgstr "تم تفعيل الترخيص"
+
+#: build/onboarding.js:6
+msgid "Activating…"
+msgstr "جارٍ التفعيل…"
+
+#: build/admin.js:63
+#: build/onboarding.js:6
+#: build/onboarding.js:7
+msgid "Activate License"
+msgstr "تفعيل الترخيص"
+
+#: build/onboarding.js:6
+msgid "License Key"
+msgstr "مفتاح الترخيص"
+
+#: build/onboarding.js:6
+msgid "Paste your license key here"
+msgstr "الصق مفتاح الترخيص هنا"
+
+#. translators: %s: Package name (e.g., SureCookie Pro)
+#: build/onboarding.js:7
+#, js-format
+msgid "Activate your <strong>%s</strong> license to receive professional support and automatic updates directly from your WordPress dashboard. Don't have a license? <a>Get it here »</a>"
+msgstr "قم بتفعيل ترخيص <strong>%s</strong> الخاص بك لتلقي الدعم المهني والتحديثات التلقائية مباشرة من لوحة تحكم ووردبريس الخاصة بك. لا تملك ترخيصًا؟ <a>احصل عليه من هنا »</a>"
+
+#: build/onboarding.js:7
+msgid "Purchase a SureCookie license"
+msgstr "شراء ترخيص SureCookie"
+
+#: build/admin.js:2
+msgid "View Plans"
+msgstr "عرض الخطط"
+
+#: build/admin.js:4
+msgid "CONSENT RECORD"
+msgstr "سجل الموافقة"
+
+#: build/admin.js:4
+msgid "This document contains a record of the consent choice stored by SureCookie. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "يحتوي هذا المستند على سجل خيار الموافقة المخزن بواسطة SureCookie. قد يُستخدم للتوثيق الداخلي والمراجعة. قد تختلف المتطلبات القانونية."
+
+#: build/admin.js:4
+msgid "This document is automatically generated by the SureCookie plugin and contains a record of the consent choice stored at the time of export. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "يتم إنشاء هذا المستند تلقائيًا بواسطة إضافة SureCookie ويحتوي على سجل خيار الموافقة المخزن في وقت التصدير. قد يُستخدم للتوثيق الداخلي والمراجعة. قد تختلف المتطلبات القانونية."
+
+#: build/admin.js:43
+msgid "Enter your custom CSS here"
+msgstr "أدخل CSS المخصص الخاص بك هنا"
+
+#: build/admin.js:43
+msgid "Use !important to override inline styles"
+msgstr "استخدم !important لتجاوز الأنماط المضمنة"
+
+#: build/admin.js:43
+msgid "Your cookie banner is enabled."
+msgstr "لافتة ملفات تعريف الارتباط الخاصة بك مفعلة."
+
+#: build/admin.js:43
+msgid "Your cookie banner is currently disabled."
+msgstr "لافتة ملفات تعريف الارتباط الخاصة بك معطلة حاليًا."
+
+#: build/admin.js:2
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Activate SureCookie Pro"
+msgstr "تفعيل SureCookie Pro"
+
+#. translators: %d: maximum pages
+#: build/admin.js:64
+#: build/onboarding.js:8
+#, js-format
+msgid "Your first scan can cover up to %d pages while we connect your site. Remove the extra pages to start - Your plan's full limits unlock automatically afterward."
+msgstr "يمكن للمسح الأول الخاص بك تغطية ما يصل إلى %d صفحات أثناء اتصالنا بموقعك. قم بإزالة الصفحات الإضافية للبدء - سيتم فتح الحدود الكاملة لخطةك تلقائيًا بعد ذلك."
+
+#. translators: %d: maximum pages
+#: build/admin.js:66
+#: build/onboarding.js:10
+#, js-format
+msgid "The free plan supports scanning up to %d pages. Upgrade now to scan more pages and keep your cookie list updated automatically."
+msgstr "تدعم الخطة المجانية مسح ما يصل إلى %d صفحات. قم بالترقية الآن لمسح المزيد من الصفحات والحفاظ على تحديث قائمة ملفات تعريف الارتباط تلقائيًا."
+
+#. translators: %s: SureCookie plan tier, e.g. "Business"
+#: build/admin.js:76
+#, js-format
+msgid "%s version"
+msgstr "%s الإصدار"
+
+#: build/onboarding.js:6
+msgid "Let's help you discover cookies, configure consent choices, and improve how your website handles visitor privacy. SureCookie automatically detects and categorizes cookies so you can stay focused on growing your business."
+msgstr "دعنا نساعدك في اكتشاف ملفات تعريف الارتباط، وتكوين خيارات الموافقة، وتحسين كيفية تعامل موقعك مع خصوصية الزوار. يكتشف SureCookie ملفات تعريف الارتباط تلقائيًا ويصنفها حتى تتمكن من التركيز على تنمية عملك."
+
+#: build/onboarding.js:14
+msgid "Keep consent records locally on the site and export individual records when needed"
+msgstr "احتفظ بسجلات الموافقة محليًا على الموقع وقم بتصدير السجلات الفردية عند الحاجة"
+
+#: admin/menu.php:78
+#: build/admin.js:2
+msgid "Tracking Manager"
+msgstr "مدير التتبع"
+
+#: admin/product-promotion.php:116
+msgid "WordPress emails often go missing or land in spam because web hosts aren't built for reliable delivery. SureMail fixes this by connecting to trusted SMTP services, so your emails reach inboxes, no more lost messages or frustrated customers."
+msgstr "غالبًا ما تختفي رسائل البريد الإلكتروني الخاصة بـ WordPress أو تهبط في البريد العشوائي لأن استضافات الويب غير مصممة للتسليم الموثوق. يقوم SureMail بحل هذه المشكلة من خلال الاتصال بخدمات SMTP الموثوقة، بحيث تصل رسائلك إلى صناديق الوارد، ولا مزيد من الرسائل المفقودة أو العملاء المحبطين."
+
+#: admin/product-promotion.php:122
+msgid "Spectra Blocks is a complete rebuild of Spectra on WordPress's modern core-block APIs - an AI website builder built directly into the Block Editor."
+msgstr "Spectra Blocks هو إعادة بناء كاملة لـ Spectra على واجهات برمجة التطبيقات الحديثة للنواة الأساسية لـ WordPress - منشئ مواقع ويب بالذكاء الاصطناعي مدمج مباشرة في محرر الكتل."
+
+#: inc/api/cookies.php:395
+msgid "Failed to update cookie categories: "
+msgstr "فشل تحديث فئات ملفات تعريف الارتباط:"
+
+#. translators: %s: Provider name (e.g., YouTube, Vimeo)
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:236
+#: inc/modules/script-blocking/blocker.php:1294
+#, php-format
+msgid "Accept and load %s content"
+msgstr "قبول وتحميل محتوى %s"
+
+#: inc/modules/assisted-scan/api.php:122
+msgid "An assisted scan is already running. Cancel it before starting another."
+msgstr "مسح مساعد جارٍ بالفعل. قم بإلغائه قبل بدء مسح آخر."
+
+#: inc/modules/assisted-scan/api.php:144
+#: inc/modules/assisted-scan/api.php:155
+msgid "Select at least one published page to scan."
+msgstr "حدد صفحة منشورة واحدة على الأقل للمسح."
+
+#: inc/modules/assisted-scan/api.php:163
+msgid "Starting assisted scan (collected from your browser)."
+msgstr "بدء المسح المساعد (تم جمعه من متصفحك)."
+
+#. translators: %d: number of pages.
+#: inc/modules/assisted-scan/api.php:167
+#, php-format
+msgid "Pages to visit: %d."
+msgstr "الصفحات التي يجب زيارتها: %d."
+
+#: inc/modules/assisted-scan/api.php:197
+#: inc/modules/assisted-scan/api.php:253
+msgid "This scan session has expired. Start the scan again."
+msgstr "انتهت صلاحية جلسة المسح هذه. ابدأ المسح مرة أخرى."
+
+#: inc/modules/assisted-scan/api.php:210
+msgid "The scan sent more data than a single page should produce."
+msgstr "أرسل المسح بيانات أكثر مما يجب أن تنتجه صفحة واحدة."
+
+#: inc/modules/assisted-scan/api.php:222
+msgid "That page is not the one this scan was waiting for."
+msgstr "تلك الصفحة ليست الصفحة التي كان هذا المسح ينتظرها."
+
+#: inc/modules/assisted-scan/api.php:275
+#: inc/modules/assisted-scan/api.php:277
+msgid "Assisted scan cancelled."
+msgstr "تم إلغاء المسح المساعد."
+
+#. translators: 1: current page number, 2: total pages.
+#: inc/modules/assisted-scan/collector.php:322
+#, php-format
+msgid "SureCookie is scanning page %1$d of %2$d"
+msgstr "يقوم SureCookie بمسح الصفحة %1$d من %2$d"
+
+#: inc/modules/assisted-scan/collector.php:323
+msgid "Keep this tab in front so the scan can continue."
+msgstr "احتفظ بهذه النافذة في المقدمة حتى يستمر المسح."
+
+#: inc/modules/assisted-scan/collector.php:324
+msgid "Paused. Bring this tab to the front to continue."
+msgstr "موقوف مؤقتًا. قم بإحضار هذه النافذة إلى الأمام للمتابعة."
+
+#: inc/modules/assisted-scan/collector.php:325
+msgid "Preparing a clean visit…"
+msgstr "تحضير زيارة نظيفة…"
+
+#. translators: 1: number of cookies, 2: number of services.
+#: inc/modules/assisted-scan/collector.php:327
+#, php-format
+msgid "Scan complete: %1$d cookies, %2$d services found"
+msgstr "اكتمل المسح: تم العثور على %1$d ملفات تعريف ارتباط، و %2$d خدمات"
+
+#: inc/modules/assisted-scan/collector.php:328
+msgid "The scan could not be completed. Return to SureCookie to try again."
+msgstr "تعذر إكمال المسح. عد إلى SureCookie وحاول مرة أخرى."
+
+#: inc/modules/assisted-scan/collector.php:330
+msgid "SureCookie assisted scan progress"
+msgstr "تقدم المسح المساعد لـ SureCookie"
+
+#. translators: 1: page number, 2: cookie count, 3: resource count.
+#: inc/modules/assisted-scan/ingest.php:119
+#, php-format
+msgid "Page %1$d collected: %2$d cookies, %3$d third-party resources."
+msgstr "تم جمع الصفحة %1$d: %2$d ملفات تعريف ارتباط، %3$d موارد طرف ثالث."
+
+#. translators: 1: page number, 2: error reason.
+#: inc/modules/assisted-scan/ingest.php:129
+#, php-format
+msgid "Page %1$d could not be collected (%2$s)."
+msgstr "تعذر جمع الصفحة %1$d (%2$s)."
+
+#. translators: 1: cookie count, 2: service count.
+#: inc/modules/assisted-scan/ingest.php:222
+#, php-format
+msgid "Assisted scan finished: %1$d cookies, %2$d known services."
+msgstr "انتهى المسح المساعد: %1$d ملفات تعريف ارتباط، %2$d خدمات معروفة."
+
+#. translators: %s: comma-separated service names.
+#: inc/modules/assisted-scan/ingest.php:232
+#, php-format
+msgid "A first-party check also found: %s. Your browser may have blocked these."
+msgstr "كما وجد فحص الطرف الأول: %s. قد يكون متصفحك قد حظر هذه."
+
+#: inc/modules/assisted-scan/session.php:466
+msgid "Assisted scan in progress..."
+msgstr "المسح المساعد جارٍ..."
+
+#: inc/modules/assisted-scan/session.php:576
+msgid "Assisted scan finished."
+msgstr "انتهى المسح المساعد."
+
+#: inc/modules/services/api.php:142
+msgid "Unknown service."
+msgstr "خدمة غير معروفة."
+
+#: inc/modules/services/api.php:153
+msgid "This is a Pro service. Upgrade to add it."
+msgstr "هذه خدمة احترافية. قم بالترقية لإضافتها."
+
+#: inc/modules/site-scanner/cron.php:210
+msgid "Assisted scan cancelled by user."
+msgstr "تم إلغاء المسح المساعد بواسطة المستخدم."
+
+#: inc/modules/site-scanner/saas-client.php:1653
+msgid "We could not verify your domain because your site's SSL certificate could not be validated (it may be self-signed, expired, or issued for a different domain). Install a valid certificate (for example Let's Encrypt), or scan your live domain that already has one, then retry."
+msgstr "لم نتمكن من التحقق من نطاقك لأن شهادة SSL لموقعك لم يتم التحقق منها (قد تكون موقعة ذاتيًا، منتهية الصلاحية، أو صادرة لنطاق مختلف). قم بتثبيت شهادة صالحة (مثل Let's Encrypt)، أو امسح نطاقك المباشر الذي يحتوي على واحدة، ثم حاول مرة أخرى."
+
+#: inc/modules/site-scanner/saas-client.php:1655
+msgid "We could not verify your domain because your host is blocking our verification request to /wp-json/. This is common on SiteGround. Allowlist our scanner IPs/User-Agent (or ask your host to) and retry - or add your services manually in the meantime."
+msgstr "لم نتمكن من التحقق من نطاقك لأن مضيفك يحظر طلب التحقق الخاص بنا إلى /wp-json/. هذا شائع في SiteGround. أضف عناوين IP/وكيل المستخدم الخاص بالمفحص إلى القائمة البيضاء (أو اطلب من مضيفك ذلك) وحاول مرة أخرى - أو أضف خدماتك يدويًا في هذه الأثناء."
+
+#: inc/modules/site-scanner/saas-client.php:1657
+msgid "We could not reach your site's REST API at /wp-json/. Enable pretty permalinks and make sure no security plugin is disabling the REST API, then retry."
+msgstr "لم نتمكن من الوصول إلى REST API الخاص بموقعك على /wp-json/. قم بتمكين الروابط الدائمة الجميلة وتأكد من عدم تعطيل أي إضافة أمان لـ REST API، ثم أعد المحاولة."
+
+#: inc/services/cookie-category-service.php:247
+msgid "Cookies cannot be moved to the category being deleted."
+msgstr "لا يمكن نقل ملفات تعريف الارتباط إلى الفئة التي يتم حذفها."
+
+#: inc/services/cookie-category-service.php:254
+#: inc/services/cookie-service.php:440
+msgid "The selected category no longer exists. Please reload and try again."
+msgstr "الفئة المحددة لم تعد موجودة. يرجى إعادة التحميل والمحاولة مرة أخرى."
+
+#: inc/services/cookie-service.php:421
+msgid "No cookies selected."
+msgstr "لم يتم تحديد أي ملفات تعريف ارتباط."
+
+#. translators: %d: maximum number of cookies per request.
+#: inc/services/cookie-service.php:430
+#, php-format
+msgid "Too many cookies in one request. Please select up to %d."
+msgstr "عدد كبير جدًا من ملفات تعريف الارتباط في طلب واحد. يرجى اختيار حتى %d."
+
+#. translators: %d: number of cookies updated.
+#: inc/services/cookie-service.php:547
+#, php-format
+msgid "%d cookie moved to the selected category."
+msgid_plural "%d cookies moved to the selected category."
+msgstr[0] "تم نقل %d ملف تعريف ارتباط إلى الفئة المحددة."
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: inc/services/cookie-service.php:555
+msgid "No cookies could be updated."
+msgstr "لم يتم تحديث أي ملفات تعريف ارتباط."
+
+#: build/admin.js:2
+msgid "Scanning"
+msgstr "جارٍ الفحص"
+
+#: build/admin.js:2
+#: build/admin.js:41
+msgid "Known Services"
+msgstr "الخدمات المعروفة"
+
+#: build/admin.js:2
+#: build/admin.js:77
+msgid "Scripts and Embeds"
+msgstr "البرمجيات النصية والتضمينات"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Geographic Rules"
+msgstr "القواعد الجغرافية"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Consent Sharing"
+msgstr "مشاركة الموافقة"
+
+#: build/admin.js:2
+msgid "Add License"
+msgstr "إضافة ترخيص"
+
+#. translators: %s: cookie name.
+#: build/admin.js:22
+#: build/onboarding.js:2
+#, js-format
+msgid "Select %s"
+msgstr "اختر %s"
+
+#. translators: %s: cookie name.
+#: build/admin.js:23
+#: build/onboarding.js:3
+#, js-format
+msgid "Category for %s"
+msgstr "الفئة لـ %s"
+
+#: build/admin.js:23
+#: build/onboarding.js:3
+msgid "Select category"
+msgstr "اختر فئة"
+
+#. translators: 1: action label, 2: cookie name.
+#: build/admin.js:24
+#: build/onboarding.js:4
+#, js-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %d: number of selected cookies.
+#: build/admin.js:25
+#, js-format
+msgid "%d selected"
+msgstr "%d محدد"
+
+#: build/admin.js:25
+msgid "Bulk category"
+msgstr "الفئة الجماعية"
+
+#: build/admin.js:25
+msgid "Move to category…"
+msgstr "نقل إلى الفئة…"
+
+#: build/admin.js:25
+msgid "Applying…"
+msgstr "جارٍ التطبيق…"
+
+#: build/admin.js:25
+msgid "Apply"
+msgstr "تطبيق"
+
+#: build/admin.js:25
+msgid "Clear selection"
+msgstr "مسح التحديد"
+
+#: build/admin.js:25
+msgid "Select all cookies"
+msgstr "تحديد كل ملفات تعريف الارتباط"
+
+#: build/admin.js:28
+msgid "Assigned cookies will be moved to another category instead of being deleted."
+msgstr "سيتم نقل ملفات تعريف الارتباط المعينة إلى فئة أخرى بدلاً من حذفها."
+
+#: build/admin.js:28
+msgid "Move Cookies To"
+msgstr "نقل ملفات تعريف الارتباط إلى"
+
+#: build/admin.js:28
+msgid "Search services…"
+msgstr "البحث في الخدمات…"
+
+#: build/admin.js:28
+msgid "Search services"
+msgstr "البحث في الخدمات"
+
+#: build/admin.js:28
+#: build/admin.js:37
+msgid "All Categories"
+msgstr "كل الفئات"
+
+#. translators: %d: number of cookies
+#: build/admin.js:29
+#, js-format
+msgid "%d cookie"
+msgid_plural "%d cookies"
+msgstr[0] "%d ملف تعريف ارتباط"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %d: number of iframes
+#: build/admin.js:30
+#, js-format
+msgid "%d iframe"
+msgid_plural "%d iframes"
+msgstr[0] "%d إطار مدمج"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %d: number of scripts
+#: build/admin.js:31
+#, js-format
+msgid "%d script"
+msgid_plural "%d scripts"
+msgstr[0] "%d برنامج نصي"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: build/admin.js:31
+msgid "Added"
+msgstr "تمت الإضافة"
+
+#: build/admin.js:31
+msgid "Detected"
+msgstr "تم الكشف"
+
+#: build/admin.js:31
+msgid "Remove"
+msgstr "إزالة"
+
+#: build/admin.js:31
+msgid "Add Service"
+msgstr "إضافة خدمة"
+
+#: build/admin.js:31
+msgid "No services match your search."
+msgstr "لا توجد خدمات تطابق بحثك."
+
+#: build/admin.js:31
+msgid "Loads before consent"
+msgstr "يتم التحميل قبل الموافقة"
+
+#. translators: %s: service name (e.g. Stripe)
+#: build/admin.js:32
+#, js-format
+msgid "%s is a necessary service, so it loads before consent - its cookies can be set without consent."
+msgstr "%s هي خدمة ضرورية، لذا يتم تحميلها قبل الموافقة - يمكن تعيين ملفات تعريف الارتباط الخاصة بها بدون موافقة."
+
+#: build/admin.js:32
+msgid "Blocked When \"Block Scripts until Consent\" Is On"
+msgstr "محظور عند تشغيل \"حظر البرامج النصية حتى الموافقة\""
+
+#. translators: %1$s: service name; %2$s: consent category name
+#: build/admin.js:33
+#, js-format
+msgid "When blocking is on, %1$s is blocked until visitors accept “%2$s”, so a scan never sees these cookies. Declaring them here keeps your cookie policy complete."
+msgstr "عند تشغيل الحظر، يتم حظر %1$s حتى يقبل الزوار “%2$s”، لذلك لا يرى الفحص هذه الملفات. إعلانها هنا يحافظ على سياسة ملفات تعريف الارتباط كاملة."
+
+#. translators: %d: number of cookies
+#: build/admin.js:34
+#, js-format
+msgid "%d cookie added to your cookie policy"
+msgid_plural "%d cookies added to your cookie policy"
+msgstr[0] "%d ملف تعريف ارتباط تمت إضافته إلى سياسة ملفات تعريف الارتباط الخاصة بك"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %d: number of iframes
+#: build/admin.js:35
+#, js-format
+msgid "%d embed blocked before consent"
+msgid_plural "%d embeds blocked before consent"
+msgstr[0] "%d تضمين محظور قبل الموافقة"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#. translators: %d: number of scripts
+#: build/admin.js:36
+#, js-format
+msgid "%d script blocked before consent"
+msgid_plural "%d scripts blocked before consent"
+msgstr[0] "%d برنامج نصي محظور قبل الموافقة"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: build/admin.js:36
+msgid "No categories available"
+msgstr "لا توجد فئات متاحة"
+
+#: build/admin.js:36
+msgid "Create a cookie category first - new cookies land in Uncategorized until then."
+msgstr "قم بإنشاء فئة ملفات تعريف ارتباط أولاً - ستظل ملفات تعريف الارتباط الجديدة في غير مصنفة حتى ذلك الحين."
+
+#. translators: %d: number of days
+#: build/admin.js:37
+#, js-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d يوم"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: build/admin.js:37
+msgid "Session"
+msgstr "جلسة"
+
+#: build/admin.js:37
+msgid "Failed to add service"
+msgstr "فشل في إضافة الخدمة"
+
+#: build/admin.js:37
+msgid "Failed to remove service"
+msgstr "فشل في إزالة الخدمة"
+
+#: build/admin.js:37
+msgid "Service removed"
+msgstr "تمت إزالة الخدمة"
+
+#. translators: %s: service name (e.g. YouTube)
+#: build/admin.js:38
+#, js-format
+msgid "Added %s"
+msgstr "تمت إضافة %s"
+
+#. translators: %d: number of cookies declared
+#: build/admin.js:39
+#, js-format
+msgid "%d cookie was added to your cookie policy."
+msgid_plural "%d cookies were added to your cookie policy."
+msgstr[0] "%d ملف تعريف ارتباط تمت إضافته إلى سياسة ملفات تعريف الارتباط الخاصة بك."
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
+
+#: build/admin.js:39
+msgid "This service is now managed. It stays blocked before consent."
+msgstr "هذه الخدمة الآن مُدارة. تظل محظورة قبل الموافقة."
+
+#. translators: %s: service name
+#: build/admin.js:40
+#: build/admin.js:41
+#, js-format
+msgid "Add %s"
+msgstr "أضف %s"
+
+#: build/admin.js:40
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Add from a Known Service"
+msgstr "أضف من خدمة معروفة"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Review what this adds to your cookie policy, then confirm."
+msgstr "راجع ما تضيفه هذه إلى سياسة ملفات تعريف الارتباط الخاصة بك، ثم أكد."
+
+#: build/admin.js:40
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can't detect before consent - ensuring your cookie policy stays complete."
+msgstr "أضف بسرعة خدمات شائعة مثل YouTube أو Google Analytics بنقرة واحدة. مثالي للبرمجيات النصية التي لا يمكن للكاشفات اكتشافها قبل الموافقة - لضمان بقاء سياسة ملفات تعريف الارتباط كاملة."
+
+#: build/admin.js:40
+msgid "Could not load the services catalog. Please try again."
+msgstr "تعذر تحميل كتالوج الخدمات. يرجى المحاولة مرة أخرى."
+
+#: build/admin.js:40
+msgid "This is a Pro service"
+msgstr "هذه خدمة احترافية"
+
+#: build/admin.js:40
+msgid "Upgrade to add this service and declare its cookies in one click."
+msgstr "قم بالترقية لإضافة هذه الخدمة وإعلان ملفات تعريف الارتباط الخاصة بها بنقرة واحدة."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Unlock Every Tracking Service"
+msgstr "افتح كل خدمات التتبع"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Free covers the most common services. Upgrade to add any service in the catalog in one click."
+msgstr "الخطة المجانية تغطي أكثر الخدمات شيوعًا. قم بالترقية لإضافة أي خدمة في الكتالوج بنقرة واحدة."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Confirm Add"
+msgstr "تأكيد الإضافة"
+
+#: build/admin.js:41
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can’t detect before consent - ensuring your cookie policy stays complete."
+msgstr "أضف بسرعة الخدمات الشائعة مثل YouTube أو Google Analytics بنقرة واحدة. مثالي للسكريبتات التي لا يمكن لأدوات الفحص اكتشافها قبل الموافقة - مما يضمن بقاء سياسة الكوكيز كاملة."
+
+#: build/admin.js:41
+msgid "Failed to load services"
+msgstr "فشل تحميل الخدمات"
+
+#: build/admin.js:41
+msgid "An error occurred while loading services. Please refresh the page to try again."
+msgstr "حدث خطأ أثناء تحميل الخدمات. يرجى تحديث الصفحة والمحاولة مرة أخرى."
+
+#: build/admin.js:41
+msgid "Installed Services"
+msgstr "الخدمات المثبتة"
+
+#: build/admin.js:41
+msgid "Available Services"
+msgstr "الخدمات المتاحة"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Failed to update cookie categories"
+msgstr "فشل تحديث فئات الكوكيز"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Cookie categories updated"
+msgstr "تم تحديث فئات الكوكيز"
+
+#. translators: %d: number of cookies that could not be updated.
+#: build/admin.js:42
+#, js-format
+msgid "%d cookie(s) could not be updated. Reload and try again."
+msgstr "%d ملف تعريف ارتباط لم يتم تحديثه. أعد التحميل وحاول مرة أخرى."
+
+#: build/admin.js:42
+msgid "Change Cookie Categories Carefully"
+msgstr "غيّر فئات الكوكيز بحذر"
+
+#: build/admin.js:42
+msgid "A cookie's category determines how it behaves when users decline consent. Cookies marked as Essential always remain active. Moving a cookie out of Essential may cause it to be blocked or deleted, which can break features like login or checkout. Similarly, assigning tracking cookies to Essential may conflict with privacy regulations. Your choice is remembered, so a later scan will not move the cookie back."
+msgstr "تحدد فئة ملف تعريف الارتباط كيفية تصرفه عندما يرفض المستخدمون الموافقة. تظل ملفات تعريف الارتباط المصنفة كـ \"أساسية\" نشطة دائمًا. قد يؤدي نقل ملف تعريف ارتباط خارج الفئة الأساسية إلى حظره أو حذفه، مما قد يعيق ميزات مثل تسجيل الدخول أو إتمام الشراء. وبالمثل، قد يتعارض تعيين ملفات التتبع إلى الفئة الأساسية مع لوائح الخصوصية. يتم تذكر اختيارك، لذا لن يعيد الفحص لاحقًا نقل ملف تعريف الارتباط."
+
+#. translators: %s: service name (e.g. Google Analytics)
+#: build/admin.js:43
+#, js-format
+msgid "Looks like %s"
+msgstr "يبدو أن %s"
+
+#: build/admin.js:43
+msgid "We spotted cookies from this service. Add it to declare its cookies in one step."
+msgstr "لقد اكتشفنا ملفات تعريف ارتباط من هذه الخدمة. أضفها للإعلان عن ملفات تعريف الارتباط الخاصة بها في خطوة واحدة."
+
+#: build/admin.js:43
+#: build/admin.js:76
+msgid "Add as Service"
+msgstr "أضف كخدمة"
+
+#: build/admin.js:43
+msgid "Dismiss"
+msgstr "رفض"
+
+#: build/admin.js:50
+msgid "Welcome to SureCookie!"
+msgstr "مرحبًا بك في SureCookie!"
+
+#: build/admin.js:50
+msgid "Get your site compliant in minutes - show a cookie banner, block trackers before consent, and automatically detect cookies used on your site."
+msgstr "اجعل موقعك متوافقًا في دقائق - عرض لافتة الكوكيز، حظر المتعقبات قبل الموافقة، واكتشاف ملفات تعريف الارتباط المستخدمة على موقعك تلقائيًا."
+
+#: build/admin.js:50
+msgid "Set Up Cookie Banner"
+msgstr "إعداد لافتة الكوكيز"
+
+#: build/admin.js:50
+msgid "Scan My Site"
+msgstr "افحص موقعي"
+
+#: build/admin.js:50
+msgid "Start with the banner, then scan your site to detect cookies."
+msgstr "ابدأ باللافتة، ثم افحص موقعك لاكتشاف ملفات تعريف الارتباط."
+
+#: build/admin.js:50
+msgid "SureForms Video Thumbnail"
+msgstr "صورة مصغرة لفيديو SureForms"
+
+#: build/admin.js:50
+msgid "SureForms: Custom WordPress Forms MADE SIMPLE"
+msgstr "SureForms: نماذج ووردبريس مخصصة سهلة الصنع"
+
+#: build/admin.js:59
+msgid "Possible causes: Scan server under heavy load, your site is unreachable from our scanner, your site has CRON issues, or a page caused a browser timeout."
+msgstr "الأسباب المحتملة: خادم الفحص تحت حمل ثقيل، موقعك غير متاح من خلال أداة الفحص، موقعك يعاني من مشاكل CRON، أو صفحة تسببت في انتهاء مهلة المتصفح."
+
+#: build/admin.js:59
+msgid "Some pages could not be analyzed"
+msgstr "تعذر تحليل بعض الصفحات"
+
+#. translators: 1: scanned pages, 2: total pages, 3: failed pages
+#: build/admin.js:60
+#, js-format
+msgid "Scanned %1$d of %2$d pages - %3$d could not be analyzed. The cookies we did find are saved, and results add up across scans, so you can re-run the scan to pick up the rest."
+msgstr "تم فحص %1$d من %2$d صفحات - تعذر تحليل %3$d. تم حفظ ملفات تعريف الارتباط التي وجدناها، وتُجمع النتائج عبر عمليات الفحص، لذا يمكنك إعادة الفحص لاستكمال الباقي."
+
+#: build/admin.js:60
+msgid "Once the scan is complete, the cookies it found appear under <a>Cookies</a>, and the scripts and embeds under <b>Scripts and Embeds</b>."
+msgstr "بمجرد اكتمال الفحص، تظهر ملفات تعريف الارتباط التي تم العثور عليها تحت <a>الكوكيز</a>، والسكريبتات والتضمينات تحت <b>السكريبتات والتضمينات</b>."
+
+#: build/admin.js:60
+msgid "Keep the scan tab in front until it finishes: browsers slow down background tabs."
+msgstr "احتفظ بعلامة تبويب الفحص في المقدمة حتى تنتهي: المتصفحات تبطئ علامات التبويب في الخلفية."
+
+#: build/admin.js:60
+msgid "Pages already collected are saved, so closing the tab early keeps what it found."
+msgstr "يتم حفظ الصفحات التي تم جمعها بالفعل، لذا فإن إغلاق العلامة مبكرًا يحتفظ بما تم العثور عليه."
+
+#: build/admin.js:60
+msgid "An ad blocker or privacy extension in this browser can hide trackers from the scan."
+msgstr "يمكن لمُعطل الإعلانات أو امتداد الخصوصية في هذا المتصفح إخفاء المتتبعات عن الفحص."
+
+#: build/admin.js:60
+msgid "If remote scanning fails, try Assisted Scanner method: <button></button>"
+msgstr "إذا فشل الفحص عن بُعد، جرب طريقة الماسح المساعد: <button></button>"
+
+#: build/admin.js:60
+msgid "Switch to Default Scanner"
+msgstr "التبديل إلى الماسح الافتراضي"
+
+#: build/admin.js:60
+msgid "Switch to Assisted Scanner"
+msgstr "التبديل إلى الماسح المساعد"
+
+#: build/admin.js:60
+msgid "Scan From This Browser"
+msgstr "الفحص من هذا المتصفح"
+
+#: build/admin.js:60
+msgid "Your host blocked the scanner"
+msgstr "قام المضيف الخاص بك بحظر الماسح"
+
+#: build/admin.js:60
+msgid "Your site's firewall or bot protection served our scanner a security challenge instead of your page, so the scan completed without results. This does not affect your visitors, only automated scanners. Allowlist the SureCookie scanner (or ask your host to) and run the scan again."
+msgstr "قام جدار الحماية أو حماية الروبوتات في موقعك بتقديم تحدي أمني للماسح بدلاً من صفحتك، لذا اكتمل الفحص بدون نتائج. هذا لا يؤثر على زوارك، فقط على الماسحات الآلية. أضف ماسح SureCookie إلى القائمة البيضاء (أو اطلب من مضيفك ذلك) وأعد تشغيل الفحص."
+
+#: build/admin.js:60
+msgid "Services we still detected on your site (via a first-party check):"
+msgstr "الخدمات التي لا زلنا نكتشفها على موقعك (عبر فحص من الطرف الأول):"
+
+#: build/admin.js:60
+msgid "How to allowlist the scanner"
+msgstr "كيفية إضافة الماسح إلى القائمة البيضاء"
+
+#: build/admin.js:60
+msgid "No cookies found in this browser scan"
+msgstr "لم يتم العثور على ملفات تعريف الارتباط في هذا الفحص من المتصفح"
+
+#: build/admin.js:60
+msgid "We found services on your pages that your browser did not load, which usually means an ad blocker or privacy extension is active. Try again in a browser with extensions disabled, or add the cookies manually."
+msgstr "وجدنا خدمات في صفحاتك لم يتم تحميلها بواسطة متصفحك، مما يعني عادةً أن معطل إعلانات أو امتداد خصوصية نشط. حاول مرة أخرى في متصفح مع تعطيل الإضافات، أو أضف ملفات تعريف الارتباط يدويًا."
+
+#: build/admin.js:60
+msgid "The scan visited your pages but no cookies were set. Some services only set cookies after a visitor accepts the banner, so they may not appear. You can also add cookies manually."
+msgstr "زار الفحص صفحاتك لكن لم يتم تعيين أي ملفات تعريف ارتباط. بعض الخدمات تعيّن ملفات تعريف الارتباط فقط بعد قبول الزائر للشريط، لذا قد لا تظهر. يمكنك أيضًا إضافة ملفات تعريف الارتباط يدويًا."
+
+#: build/admin.js:60
+msgid "No cookies found in this scan"
+msgstr "لم يتم العثور على ملفات تعريف الارتباط في هذا الفحص"
+
+#: build/admin.js:60
+msgid "The scanner reached your site but did not detect any cookies. Some services only set cookies after a visitor accepts the banner, so they may not appear in a scan. You can also add cookies manually."
+msgstr "وصل الماسح إلى موقعك لكنه لم يكتشف أي ملفات تعريف ارتباط. بعض الخدمات تعيّن ملفات تعريف الارتباط فقط بعد قبول الزائر للشريط، لذا قد لا تظهر في الفحص. يمكنك أيضًا إضافة ملفات تعريف الارتباط يدويًا."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser (Best for this site)"
+msgstr "الفحص من متصفحك (الأفضل لهذا الموقع)"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser"
+msgstr "الفحص من متصفحك"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Our scanner couldn't fully access your site due to server restrictions. This method runs the scan directly in your browser, ensuring accurate detection without being blocked."
+msgstr "لم يتمكن ماسحنا من الوصول الكامل إلى موقعك بسبب قيود الخادم. هذه الطريقة تشغل الفحص مباشرة في متصفحك، مما يضمن اكتشافًا دقيقًا دون حظر."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Run the scan directly in your browser. This helps detect cookies, scripts, and embeds even when external scanners are blocked."
+msgstr "شغّل الفحص مباشرة في متصفحك. هذا يساعد على اكتشاف ملفات تعريف الارتباط والسكريبتات والتضمينات حتى عندما يتم حظر الماسحات الخارجية."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Detects cookies, scripts, and embeds as your visitors would see them."
+msgstr "يكتشف ملفات تعريف الارتباط والسكريبتات والتضمينات كما يراها زوارك."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Works even when hosting or firewall blocks external scans."
+msgstr "يعمل حتى عندما يحظر الاستضافة أو جدار الحماية الفحوصات الخارجية."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Results appear automatically in your Tracking Manager."
+msgstr "تظهر النتائج تلقائيًا في مدير التتبع الخاص بك."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Some advanced detections may still require a remote scan when available."
+msgstr "قد تتطلب بعض الاكتشافات المتقدمة فحصًا عن بُعد عندما يكون متاحًا."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "How this works"
+msgstr "كيف يعمل هذا"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Before You Start"
+msgstr "قبل أن تبدأ"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "To measure cookie duration accurately, this scan temporarily clears cookies for your site in this browser (including your consent choice). Your WordPress login session is preserved, so you'll remain signed in."
+msgstr "لقياس مدة ملفات تعريف الارتباط بدقة، يقوم هذا الفحص بمسح ملفات تعريف الارتباط لموقعك مؤقتًا في هذا المتصفح (بما في ذلك اختيار موافقتك). يتم الحفاظ على جلسة تسجيل دخول WordPress الخاصة بك، لذا ستظل مسجلاً للدخول."
+
+#. translators: %d: maximum pages
+#: build/admin.js:62
+#: build/onboarding.js:6
+#, js-format
+msgid "An assisted scan visits up to %d pages. Remove some pages to continue."
+msgstr "يزور الفحص المساعد حتى %d صفحات. قم بإزالة بعض الصفحات للمتابعة."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Scanning in your browser…"
+msgstr "جارٍ الفحص في متصفحك…"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Start Browser Scan"
+msgstr "بدء فحص المتصفح"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "A new tab opens to scan your selected pages - keep it active until it finishes."
+msgstr "يفتح تبويب جديد لفحص الصفحات التي اخترتها - احتفظ به نشطًا حتى ينتهي."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Switch Back"
+msgstr "العودة"
+
+#: build/admin.js:62
+msgid "This page did not load the scanner, so it was skipped. A redirect or a login requirement usually causes this."
+msgstr "لم يتم تحميل الماسح الضوئي في هذه الصفحة، لذا تم تخطيها. عادةً ما يسبب ذلك إعادة توجيه أو متطلبات تسجيل دخول."
+
+#: build/admin.js:62
+msgid "This page took too long to respond."
+msgstr "استغرقت هذه الصفحة وقتًا طويلاً للرد."
+
+#: build/admin.js:62
+msgid "Skipped because the scan was cancelled."
+msgstr "تم التخطي لأن الفحص تم إلغاؤه."
+
+#: build/admin.js:62
+msgid "This page could not be collected."
+msgstr "تعذر جمع هذه الصفحة."
+
+#: build/admin.js:62
+msgid "Pages In This Scan"
+msgstr "الصفحات في هذا الفحص"
+
+#. translators: 1: cookie count, 2: script count
+#: build/admin.js:63
+#, js-format
+msgid "%1$d cookies, %2$d scripts"
+msgstr "%1$d ملفات تعريف الارتباط، %2$d سكريبتات"
+
+#: build/admin.js:63
+msgid "Collecting…"
+msgstr "جارٍ الجمع…"
+
+#: build/admin.js:63
+msgid "Waiting"
+msgstr "انتظار"
+
+#: build/admin.js:63
+msgid "Re-scan"
+msgstr "إعادة الفحص"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Could not start the assisted scan."
+msgstr "تعذر بدء الفحص المساعد."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Could not start the assisted scan"
+msgstr "تعذر بدء الفحص المساعد"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Please try again in a moment."
+msgstr "يرجى المحاولة مرة أخرى بعد لحظة."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Your browser blocked the scan window"
+msgstr "قام متصفحك بحظر نافذة الفحص"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Allow pop-ups for this site, then start the scan again."
+msgstr "اسمح بالنوافذ المنبثقة لهذا الموقع، ثم ابدأ الفحص مرة أخرى."
+
+#: build/admin.js:63
+msgid "View Scan Logs"
+msgstr "عرض سجلات الفحص"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Scan your website to find cookies, scripts, and trackers that require consent."
+msgstr "افحص موقعك للعثور على ملفات تعريف الارتباط والسكريبتات والمتتبعات التي تتطلب موافقة."
+
+#: build/admin.js:74
+msgid "This is taking a little longer than usual"
+msgstr "هذا يستغرق وقتًا أطول من المعتاد"
+
+#: build/admin.js:74
+msgid "A page is taking a while to respond, but your scan is still running in the background. Any cookies already found have been saved. You can leave this page and come back - or cancel and try again with fewer pages."
+msgstr "تستغرق إحدى الصفحات وقتًا للرد، لكن الفحص لا يزال يعمل في الخلفية. تم حفظ أي ملفات تعريف ارتباط تم العثور عليها بالفعل. يمكنك مغادرة هذه الصفحة والعودة - أو الإلغاء والمحاولة مرة أخرى مع صفحات أقل."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Queued for Later"
+msgstr "تم وضع الفحص في قائمة الانتظار لاحقًا"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Today's page budget is used up, so the remaining pages will scan automatically once it resets. Any cookies already found are saved. To scan sooner, run it again with fewer pages."
+msgstr "تم استنفاد ميزانية الصفحات لليوم، لذا ستتم فحص الصفحات المتبقية تلقائيًا بمجرد إعادة التعيين. تم حفظ أي ملفات تعريف ارتباط تم العثور عليها بالفعل. للفحص بشكل أسرع، قم بتشغيله مرة أخرى مع صفحات أقل."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Couldn't Be Completed"
+msgstr "تعذر إكمال الفحص"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "A page may have taken too long to respond. Any cookies already found have been saved, and results add up across scans - nothing is lost. Please try again, scanning fewer pages at a time for a more reliable run."
+msgstr "قد تكون إحدى الصفحات استغرقت وقتًا طويلاً للرد. تم حفظ أي ملفات تعريف ارتباط تم العثور عليها بالفعل، وتُجمع النتائج عبر الفحوصات - لا يُفقد شيء. يرجى المحاولة مرة أخرى، مع فحص عدد أقل من الصفحات في كل مرة للحصول على تشغيل أكثر موثوقية."
+
+#: build/admin.js:76
+msgid "iFrame"
+msgstr "إطار فرعي (iFrame)"
+
+#: build/admin.js:76
+msgid "Head"
+msgstr "رأس الصفحة"
+
+#: build/admin.js:76
+msgid "Body"
+msgstr "المحتوى"
+
+#: build/admin.js:76
+msgid "Footer"
+msgstr "تذييل الصفحة"
+
+#: build/admin.js:76
+msgid "Anywhere (fallback)"
+msgstr "في أي مكان (احتياطي)"
+
+#: build/admin.js:76
+msgid "This resource is whitelisted, so it always loads - even before consent."
+msgstr "هذا المورد مدرج في القائمة البيضاء، لذا يتم تحميله دائمًا - حتى قبل الموافقة."
+
+#: build/admin.js:76
+msgid "This script is managed by Google Consent Mode and always loads while GCM is enabled."
+msgstr "يتم إدارة هذا السكريبت بواسطة وضع موافقة Google ويتم تحميله دائمًا أثناء تمكين GCM."
+
+#: build/admin.js:76
+msgid "This resource matches a whitelist rule (custom entry or common service), so it always loads."
+msgstr "يتطابق هذا المورد مع قاعدة القائمة البيضاء (إدخال مخصص أو خدمة شائعة)، لذا يتم تحميله دائمًا."
+
+#: build/admin.js:76
+msgid "Script & Iframe"
+msgstr "سكريبت وإطار فرعي"
+
+#: build/admin.js:76
+msgid "Blocked until consent"
+msgstr "محظور حتى الموافقة"
+
+#: build/admin.js:76
+msgid "Not blocked"
+msgstr "غير محظور"
+
+#: build/admin.js:76
+msgid "Whitelisted"
+msgstr "مدرج في القائمة البيضاء"
+
+#: build/admin.js:76
+msgid "Managed by GCM"
+msgstr "مدار بواسطة GCM"
+
+#: build/admin.js:76
+msgid "Source"
+msgstr "المصدر"
+
+#: build/admin.js:76
+msgid "Managed via Known Services - its cookies are declared in your cookie policy."
+msgstr "مدار عبر خدمات معروفة - يتم الإعلان عن ملفات تعريف الارتباط الخاصة به في سياسة ملفات تعريف الارتباط الخاصة بك."
+
+#: build/admin.js:76
+msgid "Recognized Known Services catalog entry - Click \"Add as Service\" to declare its cookies."
+msgstr "إدخال في كتالوج الخدمات المعروفة المعترف بها - انقر على \"إضافة كخدمة\" للإعلان عن ملفات تعريف الارتباط الخاصة به."
+
+#: build/admin.js:76
+msgid "Managed Service"
+msgstr "خدمة مدار"
+
+#: build/admin.js:76
+msgid "Known Service"
+msgstr "خدمة معروفة"
+
+#: build/admin.js:76
+msgid "Always Allowed"
+msgstr "مسموح دائمًا"
+
+#: build/admin.js:76
+msgid "Category for"
+msgstr "فئة لـ"
+
+#: build/admin.js:76
+msgid "Block until consent (recommended)"
+msgstr "حظر حتى الموافقة (موصى به)"
+
+#: build/admin.js:76
+msgid "Always allowed"
+msgstr "مسموح دائمًا"
+
+#: build/admin.js:76
+msgid "Do not block (always load)"
+msgstr "عدم الحظر (تحميل دائمًا)"
+
+#: build/admin.js:76
+msgid "Edit Resource"
+msgstr "تعديل المورد"
+
+#: build/admin.js:76
+msgid "Add Script or Embed"
+msgstr "إضافة سكريبت أو تضمين"
+
+#: build/admin.js:76
+msgid "Update"
+msgstr "تحديث"
+
+#: build/admin.js:76
+msgid "Behavior"
+msgstr "السلوك"
+
+#: build/admin.js:76
+msgid "Whitelisted Resource Warning"
+msgstr "تحذير المورد المدرج في القائمة البيضاء"
+
+#: build/admin.js:76
+msgid "If a resource sets cookies, allowing it directly can be a GDPR violation - only whitelist resources you are sure about."
+msgstr "إذا قام المورد بتعيين ملفات تعريف الارتباط، فإن السماح له مباشرة قد يكون انتهاكًا للائحة حماية البيانات العامة - قم بإدراج الموارد في القائمة البيضاء فقط التي تثق بها."
+
+#: build/admin.js:76
+msgid "Detected by the scanner, so the value cannot be edited."
+msgstr "تم الكشف عنه بواسطة الماسح الضوئي، لذلك لا يمكن تعديل القيمة."
+
+#: build/admin.js:76
+msgid "e.g. Support chat"
+msgstr "مثال: دردشة الدعم"
+
+#: build/admin.js:76
+msgid "Domain / Host"
+msgstr "النطاق / المضيف"
+
+#: build/admin.js:76
+msgid "e.g. connect.facebook.net"
+msgstr "مثال: connect.facebook.net"
+
+#: build/admin.js:76
+msgid "The host the resource loads from. Pasting a full tag or URL also works."
+msgstr "المضيف الذي يتم تحميل المورد منه. لصق وسم كامل أو عنوان URL يعمل أيضًا."
+
+#: build/admin.js:76
+msgid "Path / Pattern (advanced)"
+msgstr "المسار / النمط (متقدم)"
+
+#: build/admin.js:76
+msgid "e.g. /fbevents.js"
+msgstr "مثال: /fbevents.js"
+
+#: build/admin.js:76
+msgid "Optional: narrow the rule to resources that also contain this path, so only one file on the host is blocked."
+msgstr "اختياري: ضيق القاعدة لتشمل الموارد التي تحتوي أيضًا على هذا المسار، بحيث يتم حظر ملف واحد فقط على المضيف."
+
+#: build/admin.js:76
+msgid "Script Keywords"
+msgstr "كلمات مفتاحية للسكريبت"
+
+#: build/admin.js:76
+msgid "e.g. fbq, fbq.push"
+msgstr "مثال: fbq, fbq.push"
+
+#: build/admin.js:76
+msgid "JavaScript function names to block that depend on the main script (comma separated)."
+msgstr "أسماء دوال جافا سكريبت للحظر تعتمد على السكريبت الرئيسي (مفصولة بفواصل)."
+
+#: build/admin.js:76
+msgid "Script Location"
+msgstr "موقع السكريبت"
+
+#: build/admin.js:76
+msgid "Anywhere"
+msgstr "في أي مكان"
+
+#: build/admin.js:76
+msgid "Where the script loads on the page. SureCookie only looks for it in this section."
+msgstr "مكان تحميل السكريبت على الصفحة. يبحث SureCookie عنه فقط في هذا القسم."
+
+#: build/admin.js:76
+msgid "This resource stays blocked until the visitor consents to this category."
+msgstr "يبقى هذا المورد محظورًا حتى يوافق الزائر على هذه الفئة."
+
+#: build/admin.js:76
+msgid "Unlock Whitelisting"
+msgstr "إلغاء قفل الإدراج في القائمة البيضاء"
+
+#: build/admin.js:76
+msgid "Whitelist your own scripts and common services so essential integrations keep working before consent."
+msgstr "أدرج سكريبتاتك الخاصة والخدمات الشائعة في القائمة البيضاء حتى تستمر التكاملات الأساسية في العمل قبل الموافقة."
+
+#. translators: %d: number of GCM-managed services.
+#: build/admin.js:77
+#, js-format
+msgid "Managed by Google Consent Mode (%d)"
+msgstr "تدار بواسطة وضع موافقة Google (%d)"
+
+#: build/admin.js:77
+msgid "View services"
+msgstr "عرض الخدمات"
+
+#: build/admin.js:77
+msgid "Managed by Google Consent Mode"
+msgstr "تدار بواسطة وضع موافقة Google"
+
+#: build/admin.js:77
+msgid "Auto-whitelisted"
+msgstr "مُدرج تلقائيًا في القائمة البيضاء"
+
+#: build/admin.js:77
+msgid "Enter the script domain or host."
+msgstr "أدخل نطاق أو مضيف السكريبت."
+
+#: build/admin.js:77
+msgid "Select a category."
+msgstr "اختر فئة."
+
+#: build/admin.js:77
+msgid "A rule for this script already exists."
+msgstr "قاعدة لهذا السكريبت موجودة بالفعل."
+
+#: build/admin.js:77
+msgid "Control how scripts and embeds load based on user consent - block them until allowed or mark essential ones to always run."
+msgstr "تحكم في كيفية تحميل السكريبتات والتضمينات بناءً على موافقة المستخدم - حظرها حتى يُسمح بها أو وسم الضرورية منها لتعمل دائمًا."
+
+#: build/admin.js:77
+msgid "Behavior: Always Allowed"
+msgstr "السلوك: مسموح دائمًا"
+
+#: build/admin.js:77
+msgid "Choose scripts and domains that should never be blocked, so tools like reCAPTCHA and other essential integrations keep working. Google Consent Mode scripts are whitelisted automatically when it is enabled."
+msgstr "اختر السكريبتات والنطاقات التي يجب ألا تُحظر أبدًا، حتى تستمر أدوات مثل reCAPTCHA والتكاملات الأساسية الأخرى في العمل. تُدرج سكريبتات وضع موافقة Google تلقائيًا في القائمة البيضاء عند تفعيلها."
+
+#: build/admin.js:77
+msgid "Block Scripts and Embeds Until Consent Switch"
+msgstr "مفتاح حظر السكريبتات والتضمينات حتى الموافقة"
+
+#: build/admin.js:77
+msgid "Block Scripts Until Consent"
+msgstr "حظر السكريبتات حتى الموافقة"
+
+#: build/admin.js:77
+msgid "Prevent non-essential scripts and embeds from loading until users give consent."
+msgstr "منع تحميل السكريبتات والتضمينات غير الأساسية حتى يمنح المستخدمون الموافقة."
+
+#: build/admin.js:77
+msgid "Detected and Managed Resources"
+msgstr "الموارد المكتشفة والمدارة"
+
+#. translators: 1: scanner-detected count, 2: custom rule count
+#: build/admin.js:78
+#, js-format
+msgid "%1$d detected by scanner, %2$d custom"
+msgstr "%1$d تم اكتشافه بواسطة الماسح، %2$d مخصص"
+
+#: build/admin.js:78
+msgid "New Resource"
+msgstr "مورد جديد"
+
+#: build/admin.js:78
+msgid "All your scripts will be displayed here"
+msgstr "سيتم عرض جميع البرامج النصية الخاصة بك هنا"
+
+#: build/admin.js:78
+msgid "Run a scan to detect third-party resources, or add a script manually."
+msgstr "قم بتشغيل فحص لاكتشاف الموارد الخارجية، أو أضف برنامجًا نصيًا يدويًا."
+
+#: build/admin.js:78
+msgid "Add New Resource"
+msgstr "إضافة مورد جديد"
+
+#: build/admin.js:78
+msgid "Unlock Custom Script Rules & Whitelisting"
+msgstr "فتح قواعد البرامج النصية المخصصة والقائمة البيضاء"
+
+#: build/admin.js:78
+msgid "Add your own scripts to block under any category, whitelist trusted scripts, and manage it all from one place."
+msgstr "أضف برامجك النصية الخاصة للحظر تحت أي فئة، وأدرج البرامج النصية الموثوقة في القائمة البيضاء، وقم بإدارتها كلها من مكان واحد."
+
+#: build/admin.js:78
+msgid "Generate your cookie policy automatically from your settings, or display it anywhere using a shortcode."
+msgstr "قم بإنشاء سياسة ملفات تعريف الارتباط تلقائيًا من إعداداتك، أو عرضها في أي مكان باستخدام رمز قصير."
+
+#: build/admin.js:78
+msgid "Automatically re-scan your site and get notified when new cookies or trackers appear."
+msgstr "أعد فحص موقعك تلقائيًا وتلقى إشعارات عند ظهور ملفات تعريف ارتباط أو متتبعات جديدة."
+
+#: build/admin.js:84
+msgid "Show your cookie banner only in regions where consent is required."
+msgstr "اعرض لافتة ملفات تعريف الارتباط الخاصة بك فقط في المناطق التي يتطلب فيها الحصول على الموافقة."
+
+#: build/admin.js:84
+msgid "Share visitor consent across your sites so users don’t need to give consent again."
+msgstr "شارك موافقة الزائر عبر مواقعك حتى لا يحتاج المستخدمون إلى تقديم الموافقة مرة أخرى."
+
+#: build/admin.js:84
+msgid "Unlock Consent Sharing"
+msgstr "فتح مشاركة الموافقة"
+
+#: build/admin.js:77
+msgid "Allowed to load while Google Consent Mode is active, instead of being blocked before consent."
+msgstr "مسموح بالتحميل أثناء تفعيل وضع موافقة Google، بدلاً من الحظر قبل الموافقة."
+
+#: build/admin.js:77
+msgid "These Google services are allowed to load while Google Consent Mode is active, instead of being blocked before consent. For Google tag products, Consent Mode then controls what they may store and which identifiers they may use. It does not stop them from contacting Google. They cannot be removed here."
+msgstr "يُسمح لهذه الخدمات من Google بالتحميل أثناء تفعيل وضع موافقة Google، بدلاً من الحظر قبل الموافقة. بالنسبة لمنتجات علامات Google، يتحكم وضع الموافقة فيما يمكنهم تخزينه وأي معرفات يمكنهم استخدامها. لا يمنعهم من الاتصال بـ Google. لا يمكن إزالتها هنا."

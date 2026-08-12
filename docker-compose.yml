@@ -1,0 +1,52 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: production_wp_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MYSQL_DATABASE: wordpress_prod
+      MYSQL_USER: wp_prod_user
+      MYSQL_PASSWORD: ${DB_USER_PASSWORD}
+    volumes:
+      - db_production_data:/var/lib/mysql
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "mysqladmin",
+          "ping",
+          "-h",
+          "localhost",
+          "-u",
+          "root",
+          "-p${DB_ROOT_PASSWORD}",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  wordpress:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: production_wp_site
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress_prod
+      WORDPRESS_DB_USER: wp_prod_user
+      WORDPRESS_DB_PASSWORD: ${DB_USER_PASSWORD}
+      SITE_DOMAIN: "localhost:8080"
+    volumes:
+      - wp_uploads_data:/var/www/html/wp-content/uploads
+
+volumes:
+  db_production_data:
+  wp_uploads_data:

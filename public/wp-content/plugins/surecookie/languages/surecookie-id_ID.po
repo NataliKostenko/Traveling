@@ -1,0 +1,5504 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SureCookie 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surecookie\n"
+"Last-Translator: gpt-po v1.3.0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-02-17T04:00:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: surecookie\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: surecookie.php
+#: inc/integrations/wp-consent-api/actions.php:66
+#: inc/integrations/wp-consent-api/actions.php:74
+msgid "SureCookie"
+msgstr "SureCookie"
+
+#. Plugin URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com"
+msgstr "https://surecookie.com"
+
+#. Author URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com/"
+msgstr "https://surecookie.com/"
+
+#: admin/onboarding.php:75
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Anda tidak memiliki izin yang cukup untuk mengakses halaman ini."
+
+#: admin/menu.php:87
+#: admin/menu.php:274
+#: build/admin.js:2
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: admin/product-promotion.php:110
+msgid "A simple yet powerful way to create modern forms for your website."
+msgstr "Cara sederhana namun kuat untuk membuat formulir modern untuk situs web Anda."
+
+#: inc/api/consent-logs.php:448
+msgid "Consent logs retrieved successfully."
+msgstr "Log persetujuan berhasil diambil."
+
+#: inc/api/consent-logs.php:490
+msgid "Consent processed successfully (logging disabled)"
+msgstr "Persetujuan diproses dengan sukses (pencatatan dinonaktifkan)"
+
+#: inc/api/consent-logs.php:535
+msgid "Preferences should not be empty."
+msgstr "Preferensi tidak boleh kosong."
+
+#: inc/api/consent-logs.php:641
+msgid "Consent saved successfully."
+msgstr "Persetujuan berhasil disimpan."
+
+#: inc/api/consent-logs.php:651
+msgid "Failed to save consent."
+msgstr "Gagal menyimpan persetujuan."
+
+#: inc/api/consent-logs.php:669
+#: inc/api/consent-logs.php:801
+msgid "Invalid log ID"
+msgstr "ID log tidak valid"
+
+#: inc/api/consent-logs.php:681
+msgid "Log not found."
+msgstr "Log tidak ditemukan."
+
+#: inc/api/consent-logs.php:717
+#: inc/api/consent-logs.php:744
+msgid "Log details retrieved successfully."
+msgstr "Detail log berhasil diambil."
+
+#: inc/api/consent-logs.php:766
+msgid "Invalid log IDs"
+msgstr "ID log tidak valid"
+
+#. translators: %d: number of logs deleted
+#: inc/api/consent-logs.php:787
+#, php-format
+msgid "%d log(s) deleted successfully."
+msgstr "%d log berhasil dihapus."
+
+#: inc/api/consent-logs.php:777
+#: inc/api/consent-logs.php:872
+msgid "Failed to delete logs."
+msgstr "Gagal menghapus log."
+
+#: inc/api/consent-logs.php:812
+msgid "Log deleted successfully."
+msgstr "Log berhasil dihapus."
+
+#: inc/api/consent-logs.php:821
+msgid "Failed to delete log."
+msgstr "Gagal menghapus log."
+
+#: inc/api/consent-logs.php:863
+msgid "All logs deleted successfully."
+msgstr "Semua log berhasil dihapus."
+
+#: inc/services/cookie-category-service.php:54
+msgid "Cookie categories retrieved successfully."
+msgstr "Kategori cookie berhasil diambil."
+
+#: inc/services/cookie-category-service.php:75
+msgid "Category name is required."
+msgstr "Nama kategori diperlukan."
+
+#: inc/services/cookie-category-service.php:86
+msgid "A category with this name already exists."
+msgstr "Kategori dengan nama ini sudah ada."
+
+#: inc/services/cookie-category-service.php:103
+msgid "Category created successfully."
+msgstr "Kategori berhasil dibuat."
+
+#: inc/api/cookie-categories.php:181
+msgid "Failed to create category: "
+msgstr "Gagal membuat kategori:"
+
+#: inc/services/cookie-category-service.php:124
+#: inc/services/cookie-category-service.php:196
+msgid "Category ID is required."
+msgstr "ID kategori diperlukan."
+
+#: inc/services/cookie-category-service.php:134
+#: inc/services/cookie-category-service.php:215
+msgid "Category not found."
+msgstr "Kategori tidak ditemukan."
+
+#: inc/services/cookie-category-service.php:166
+msgid "Category updated successfully."
+msgstr "Kategori berhasil diperbarui."
+
+#: inc/api/cookie-categories.php:204
+msgid "Failed to update category: "
+msgstr "Gagal memperbarui kategori:"
+
+#: inc/services/cookie-category-service.php:205
+msgid "Default categories cannot be deleted."
+msgstr "Kategori default tidak dapat dihapus."
+
+#: inc/services/cookie-category-service.php:307
+msgid "Category deleted successfully."
+msgstr "Kategori berhasil dihapus."
+
+#: inc/api/cookie-categories.php:230
+msgid "Failed to delete category: "
+msgstr "Gagal menghapus kategori:"
+
+#: inc/services/cookie-service.php:60
+#: inc/services/cookie-service.php:355
+msgid "No scanned cookies found."
+msgstr "Tidak ditemukan cookie yang dipindai."
+
+#: inc/services/cookie-service.php:84
+msgid "Scanned cookies retrieved successfully."
+msgstr "Cookie yang dipindai berhasil diambil."
+
+#: inc/services/cookie-service.php:101
+msgid "Custom cookies retrieved successfully."
+msgstr "Cookie kustom berhasil diambil."
+
+#: inc/services/cookie-service.php:132
+#: inc/services/cookie-service.php:323
+msgid "Cookie name is required."
+msgstr "Nama cookie diperlukan."
+
+#: inc/services/cookie-service.php:139
+msgid "Cookie category is required."
+msgstr "Kategori cookie diperlukan."
+
+#: inc/services/cookie-service.php:154
+msgid "A cookie with this name already exists."
+msgstr "Cookie dengan nama ini sudah ada."
+
+#: inc/services/cookie-service.php:191
+msgid "Custom cookie created successfully."
+msgstr "Cookie kustom berhasil dibuat."
+
+#: inc/api/cookies.php:302
+msgid "Failed to create custom cookie: "
+msgstr "Gagal membuat cookie kustom:"
+
+#: inc/services/cookie-service.php:210
+#: inc/services/cookie-service.php:280
+msgid "Cookie ID is required."
+msgstr "ID cookie diperlukan."
+
+#: inc/services/cookie-service.php:219
+#: inc/services/cookie-service.php:289
+msgid "Cookie not found."
+msgstr "Cookie tidak ditemukan."
+
+#: inc/services/cookie-service.php:262
+msgid "Custom cookie updated successfully."
+msgstr "Cookie kustom berhasil diperbarui."
+
+#: inc/api/cookies.php:324
+msgid "Failed to update custom cookie: "
+msgstr "Gagal memperbarui cookie kustom:"
+
+#: inc/services/cookie-service.php:299
+msgid "Custom cookie deleted successfully."
+msgstr "Cookie kustom berhasil dihapus."
+
+#: inc/api/cookies.php:345
+msgid "Failed to delete custom cookie: "
+msgstr "Gagal menghapus cookie kustom:"
+
+#: inc/services/cookie-service.php:330
+msgid "Current category is required."
+msgstr "Kategori saat ini diperlukan."
+
+#: inc/services/cookie-service.php:337
+#: inc/services/cookie-service.php:414
+msgid "New category is required."
+msgstr "Kategori baru diperlukan."
+
+#: inc/services/cookie-service.php:345
+msgid "Cookie is already in the selected category."
+msgstr "Cookie sudah ada di kategori yang dipilih."
+
+#: inc/services/cookie-service.php:363
+msgid "Current category not found in scanned cookies."
+msgstr "Kategori saat ini tidak ditemukan dalam cookie yang dipindai."
+
+#: inc/services/cookie-service.php:372
+msgid "Cookie not found in the specified category."
+msgstr "Cookie tidak ditemukan dalam kategori yang ditentukan."
+
+#: inc/services/cookie-service.php:384
+msgid "Cookie category updated successfully."
+msgstr "Kategori cookie berhasil diperbarui."
+
+#: inc/api/cookies.php:372
+msgid "Failed to update cookie category: "
+msgstr "Gagal memperbarui kategori cookie:"
+
+#: inc/api/onboarding.php:134
+msgid "Onboarding data saved successfully."
+msgstr "Data onboarding berhasil disimpan."
+
+#: inc/api/onboarding.php:152
+msgid "Onboarding is already marked as complete."
+msgstr "Onboarding sudah ditandai sebagai selesai."
+
+#: inc/api/onboarding.php:162
+msgid "Onboarding marked as complete."
+msgstr "Onboarding ditandai sebagai selesai."
+
+#: inc/api/plugin.php:158
+#: inc/api/plugin.php:191
+msgid "Plugin not found."
+msgstr "Plugin tidak ditemukan."
+
+#: inc/api/plugin.php:203
+msgid "Plugin is already inactive."
+msgstr "Plugin sudah tidak aktif."
+
+#: inc/api/plugin.php:228
+#: build/admin.js:75
+msgid "Plugin deactivated successfully."
+msgstr "Plugin berhasil dinonaktifkan."
+
+#: inc/api/plugin.php:121
+msgid "Promotional plugins data retrieved."
+msgstr "Data plugin promosi berhasil diambil."
+
+#: inc/api/plugin.php:172
+#: build/admin.js:2
+msgid "Plugin activated successfully."
+msgstr "Plugin berhasil diaktifkan."
+
+#: inc/api/plugin.php:290
+msgid "Conflicting plugins retrieved."
+msgstr "Plugin yang bertentangan berhasil diambil."
+
+#: inc/api/scan-history.php:61
+msgid "Scanned history retrieved successfully."
+msgstr "Riwayat pemindaian berhasil diambil."
+
+#: inc/api/settings.php:120
+msgid "No data found"
+msgstr "Tidak ada data ditemukan"
+
+#: inc/api/settings.php:144
+msgid "Settings updated"
+msgstr "Pengaturan diperbarui"
+
+#: inc/functions/get.php:118
+msgid "Essential Cookies"
+msgstr "Cookies Esensial"
+
+#: inc/functions/get.php:124
+msgid "Functional Cookies"
+msgstr "Cookies Fungsional"
+
+#: inc/functions/get.php:130
+msgid "Analytics Cookies"
+msgstr "Cookies Analitik"
+
+#: inc/functions/get.php:136
+msgid "Marketing Cookies"
+msgstr "Cookies Pemasaran"
+
+#: inc/functions/get.php:142
+msgid "Uncategorized Cookies"
+msgstr "Cookies Tanpa Kategori"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "This website uses cookies to enhance your browsing experience, personalize content, provide social media features, and analyze our traffic. You can review and manage your cookie settings at any time, or accept all cookies to proceed."
+msgstr "Situs web ini menggunakan cookies untuk meningkatkan pengalaman browsing Anda, personalisasi konten, menyediakan fitur media sosial, dan menganalisis lalu lintas kami. Anda dapat meninjau dan mengelola pengaturan cookie kapan saja, atau menerima semua cookies untuk melanjutkan."
+
+#: inc/utils/options.php:71
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Accept All"
+msgstr "Terima Semua"
+
+#: inc/utils/options.php:75
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Decline"
+msgstr "Tolak"
+
+#: inc/modules/nudges/api.php:70
+msgid "Invalid type provided."
+msgstr "Jenis yang diberikan tidak valid."
+
+#: inc/modules/nudges/api.php:94
+msgid "Could not disable the nudge. Please try again."
+msgstr "Tidak dapat menonaktifkan dorongan. Silakan coba lagi."
+
+#. translators: %s: nudge type
+#: inc/modules/nudges/api.php:100
+#, php-format
+msgid "\"%s\" has been disabled."
+msgstr "\"%s\" telah dinonaktifkan."
+
+#. translators: %s: Service name (e.g., YouTube, Vimeo, Bunny.net).
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:302
+#: inc/modules/script-blocking/blocker.php:1283
+#, php-format
+msgid "This content is blocked because it requires %s cookies."
+msgstr "Konten ini diblokir karena memerlukan %s cookies."
+
+#: inc/integrations/presto-player/block-handler.php:240
+#: inc/modules/script-blocking/blocker.php:1298
+msgid "Accept & Load"
+msgstr "Terima & Muat"
+
+#: inc/modules/site-scanner/api.php:220
+msgid "Scan cancelled successfully."
+msgstr "Pemindaian dibatalkan dengan sukses."
+
+#: inc/modules/site-scanner/api.php:226
+msgid "No active scan to cancel."
+msgstr "Tidak ada pemindaian aktif untuk dibatalkan."
+
+#: inc/modules/site-scanner/api.php:257
+#: inc/modules/site-scanner/saas-client.php:400
+msgid "A scan is already in progress. Please wait for it to complete."
+msgstr "Pemindaian sudah berlangsung. Harap tunggu hingga selesai."
+
+#: inc/modules/site-scanner/api.php:299
+msgid "Cookie scan has been initiated."
+msgstr "Pemindaian cookie telah dimulai."
+
+#: inc/modules/site-scanner/api.php:300
+msgid "The scan is running. You will be notified when it completes."
+msgstr "Pemindaian sedang berjalan. Anda akan diberitahu saat selesai."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/api.php:312
+#, php-format
+msgid "Failed to start site scanner: %s"
+msgstr "Gagal memulai pemindai situs: %s"
+
+#: inc/modules/site-scanner/cron.php:70
+msgid "Starting site scan (triggered by user)."
+msgstr "Memulai pemindaian situs (dipicu oleh pengguna)."
+
+#: inc/modules/site-scanner/api.php:273
+#: inc/modules/site-scanner/cron.php:76
+#: inc/modules/site-scanner/saas-client.php:407
+msgid "No pages selected for scanning."
+msgstr "Tidak ada halaman yang dipilih untuk dipindai."
+
+#. translators: %s: Plan name
+#: inc/modules/site-scanner/cron.php:92
+#, php-format
+msgid "Plan: %s."
+msgstr "Rencana: %s."
+
+#. translators: %d: Number of pages
+#: inc/modules/site-scanner/cron.php:93
+#, php-format
+msgid "Pages selected: %d."
+msgstr "Halaman yang dipilih: %d."
+
+#: inc/modules/site-scanner/cron.php:95
+msgid "Sending scan request…"
+msgstr "Mengirim permintaan pemindaian…"
+
+#: inc/modules/site-scanner/cron.php:101
+msgid "Scan already in progress. Skipping."
+msgstr "Pemindaian sudah berlangsung. Mengabaikan."
+
+#: inc/modules/site-scanner/cron.php:114
+msgid "Scan started successfully."
+msgstr "Pemindaian berhasil dimulai."
+
+#. translators: %s: Group ID
+#: inc/modules/site-scanner/cron.php:115
+#, php-format
+msgid "Group ID: %s"
+msgstr "ID Grup: %s"
+
+#: inc/modules/site-scanner/cron.php:117
+msgid "Checking scan progress…"
+msgstr "Memeriksa kemajuan pemindaian…"
+
+#: inc/modules/site-scanner/cron.php:166
+msgid "No active scan."
+msgstr "Tidak ada pemindaian aktif."
+
+#: inc/modules/site-scanner/cron.php:186
+msgid "Scan in progress..."
+msgstr "Sedang dalam proses pemindaian..."
+
+#: inc/modules/site-scanner/cron.php:224
+msgid "Scan cancelled by user."
+msgstr "Pemindaian dibatalkan oleh pengguna."
+
+#: inc/modules/site-scanner/saas-client.php:281
+msgid "Every 1 Minute (SureCookie Polling)"
+msgstr "Setiap 1 Menit (Polling SureCookie)"
+
+#: inc/modules/site-scanner/saas-client.php:391
+msgid "Cookie scanning is not available for localhost or development sites. Please use a live domain."
+msgstr "Pemindaian cookie tidak tersedia untuk localhost atau situs pengembangan. Silakan gunakan domain langsung."
+
+#: inc/modules/site-scanner/saas-client.php:448
+msgid "Failed to encode scan request."
+msgstr "Gagal mengkodekan permintaan pemindaian."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/saas-client.php:493
+#, php-format
+msgid "Failed to start scan: %s"
+msgstr "Gagal memulai pemindaian: %s"
+
+#: inc/modules/site-scanner/saas-client.php:531
+msgid "Unknown error occurred."
+msgstr "Terjadi kesalahan yang tidak diketahui."
+
+#: inc/modules/site-scanner/saas-client.php:599
+msgid "Scan has been started. You will be notified when it completes."
+msgstr "Pemindaian telah dimulai. Anda akan diberitahu saat selesai."
+
+#: inc/modules/site-scanner/saas-client.php:641
+msgid "Failed to check scan status."
+msgstr "Gagal memeriksa status pemindaian."
+
+#: inc/modules/site-scanner/saas-client.php:778
+msgid "Failed to get scan group."
+msgstr "Gagal mendapatkan grup pemindaian."
+
+#: inc/modules/site-scanner/saas-client.php:906
+msgid "Scan timed out. Please try again."
+msgstr "Pemindaian waktu habis. Silakan coba lagi."
+
+#: inc/modules/site-scanner/saas-client.php:996
+msgid "Scan failed on server."
+msgstr "Pemindaian gagal di server."
+
+#: inc/modules/site-scanner/saas-client.php:1899
+msgid "Failed to fetch results."
+msgstr "Gagal mengambil hasil."
+
+#: inc/utils/options.php:79
+msgid "Cookie Settings"
+msgstr "Pengaturan Cookie"
+
+#: inc/utils/options.php:142
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Preferences"
+msgstr "Preferensi"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Accepted"
+msgstr "Diterima"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Partially Accepted"
+msgstr "Diterima Sebagian"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Declined"
+msgstr "Ditolak"
+
+#: build/admin.js:1
+msgid "Failed to load consent logs"
+msgstr "Gagal memuat log persetujuan"
+
+#: build/admin.js:1
+msgid "Failed to load cookie categories"
+msgstr "Gagal memuat kategori cookie"
+
+#: build/admin.js:1
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "Failed to load settings"
+msgstr "Gagal memuat pengaturan"
+
+#: build/admin.js:1
+msgid "Failed to save settings"
+msgstr "Gagal menyimpan pengaturan"
+
+#: build/admin.js:1
+#: build/admin.js:3
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "Never"
+msgstr "Tidak Pernah"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "30 days"
+msgstr "30 hari"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "60 days"
+msgstr "60 hari"
+
+#: admin/menu.php:74
+#: build/admin.js:2
+msgid "Dashboard"
+msgstr "Dasbor"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Cookie Scanner"
+msgstr "Pemindai Cookie"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "All Cookies"
+msgstr "Semua Cookie"
+
+#: build/admin.js:2
+msgid "Banner"
+msgstr "Banner"
+
+#: build/admin.js:2
+msgid "Content"
+msgstr "Konten"
+
+#: build/admin.js:2
+msgid "Layout"
+msgstr "Tata Letak"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "Custom CSS"
+msgstr "CSS Kustom"
+
+#: admin/menu.php:82
+#: admin/menu.php:400
+#: build/admin.js:2
+msgid "Logs"
+msgstr "Log"
+
+#: build/admin.js:2
+#: build/admin.js:21
+msgid "Consent Logs"
+msgstr "Log Persetujuan"
+
+#: inc/modules/assisted-scan/collector.php:329
+#: build/admin.js:2
+#: build/admin.js:3
+#: build/admin.js:28
+#: build/admin.js:41
+msgid "Cancel"
+msgstr "Batal"
+
+#: build/admin.js:2
+#: build/admin.js:5
+#: build/admin.js:6
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Delete"
+msgstr "Hapus"
+
+#: build/admin.js:2
+#: build/admin.js:28
+#: build/admin.js:83
+msgid "Save"
+msgstr "Simpan"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "No options available"
+msgstr "Tidak ada opsi yang tersedia"
+
+#: build/admin.js:2
+msgid "Settings saved!"
+msgstr "Pengaturan disimpan!"
+
+#: build/admin.js:2
+msgid "Your settings have been successfully saved."
+msgstr "Pengaturan Anda telah berhasil disimpan."
+
+#: build/admin.js:2
+msgid "Save failed!"
+msgstr "Gagal menyimpan!"
+
+#: build/admin.js:2
+msgid "There was an error saving your settings. Please try again."
+msgstr "Terjadi kesalahan saat menyimpan pengaturan Anda. Silakan coba lagi."
+
+#: build/admin.js:2
+msgid "Saving…"
+msgstr "Menyimpan…"
+
+#: build/admin.js:2
+msgid "WordPress updates API not available."
+msgstr "API pembaruan WordPress tidak tersedia."
+
+#: build/admin.js:2
+msgid "Plugin activation failed."
+msgstr "Aktivasi plugin gagal."
+
+#: build/admin.js:2
+msgid "Plugin installation failed."
+msgstr "Instalasi plugin gagal."
+
+#: build/admin.js:2
+msgid "Plugin installed and activated successfully."
+msgstr "Plugin berhasil diinstal dan diaktifkan."
+
+#: build/admin.js:2
+msgid "Failed to install and activate plugin."
+msgstr "Gagal menginstal dan mengaktifkan plugin."
+
+#: build/admin.js:2
+msgid "Failed to activate plugin."
+msgstr "Gagal mengaktifkan plugin."
+
+#: build/admin.js:2
+msgid "Install and Activate"
+msgstr "Pasang dan Aktifkan"
+
+#: build/admin.js:2
+msgid "Activate"
+msgstr "Aktifkan"
+
+#: build/admin.js:2
+msgid "Activated"
+msgstr "Aktif"
+
+#: build/admin.js:2
+msgid "Banner Content"
+msgstr "Konten Banner"
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner Switch"
+msgstr "Aktifkan Switch Banner Cookie"
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner"
+msgstr "Aktifkan Banner Cookie"
+
+#: build/admin.js:2
+msgid "Cookie Notice (optional)"
+msgstr "Pemberitahuan Cookie (opsional)"
+
+#: build/admin.js:2
+msgid "Enable Accept All Button"
+msgstr "Aktifkan Tombol Terima Semua"
+
+#: build/admin.js:2
+msgid "Button Order"
+msgstr "Urutan Tombol"
+
+#: build/admin.js:2
+msgid "Banner Layout"
+msgstr "Tata Letak Banner"
+
+#: build/admin.js:2
+msgid "Configure how and where your cookie banner appears on your website"
+msgstr "Konfigurasikan bagaimana dan di mana banner cookie Anda muncul di situs web Anda"
+
+#: build/admin.js:2
+msgid "Logo"
+msgstr "Logo"
+
+#: build/admin.js:2
+msgid "Upload Logo"
+msgstr "Unggah Logo"
+
+#: build/admin.js:2
+msgid "Select Logo"
+msgstr "Pilih Logo"
+
+#: build/admin.js:2
+msgid "Use this logo"
+msgstr "Gunakan logo ini"
+
+#: build/admin.js:2
+msgid "Banner Type"
+msgstr "Jenis Banner"
+
+#: build/admin.js:2
+msgid "Floating Banner"
+msgstr "Spanduk Mengambang"
+
+#: build/admin.js:2
+msgid "Full-width Banner"
+msgstr "Spanduk Lebar Penuh"
+
+#: build/admin.js:2
+msgid "Banner Width"
+msgstr "Lebar Spanduk"
+
+#: build/admin.js:2
+msgid "px"
+msgstr "px"
+
+#: build/admin.js:2
+msgid "Position"
+msgstr "Posisi"
+
+#: build/admin.js:2
+msgid "Bottom Left"
+msgstr "Kiri Bawah"
+
+#: build/admin.js:2
+msgid "Bottom Center"
+msgstr "Tengah Bawah"
+
+#: build/admin.js:2
+msgid "Bottom Right"
+msgstr "Kanan Bawah"
+
+#: build/admin.js:2
+msgid "Middle"
+msgstr "Tengah"
+
+#: build/admin.js:2
+msgid "Top"
+msgstr "Atas"
+
+#: build/admin.js:2
+msgid "Bottom"
+msgstr "Bawah"
+
+#: build/admin.js:2
+msgid "Color Palette: <span></span>"
+msgstr "Palet Warna: <span></span>"
+
+#: build/admin.js:2
+#: build/admin.js:4
+msgid "Default"
+msgstr "Default"
+
+#: build/admin.js:4
+msgid "Consent Details"
+msgstr "Detail Persetujuan"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Unknown"
+msgstr "Tidak Diketahui"
+
+#: build/admin.js:4
+msgid "No data available."
+msgstr "Data tidak tersedia."
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Actions"
+msgstr "Tindakan"
+
+#: build/admin.js:4
+msgid "Date & Time"
+msgstr "Tanggal & Waktu"
+
+#: build/admin.js:4
+msgid "IP Address"
+msgstr "Alamat IP"
+
+#: build/admin.js:4
+msgid "Country"
+msgstr "Negara"
+
+#: build/admin.js:4
+#: build/admin.js:76
+msgid "Status"
+msgstr "Status"
+
+#: build/admin.js:4
+msgid "Download PDF"
+msgstr "Unduh PDF"
+
+#: build/admin.js:6
+msgid "Consent log is empty"
+msgstr "Log persetujuan kosong"
+
+#: build/admin.js:6
+msgid "Your consent logs will be displayed here once users interact with the banner"
+msgstr "Log persetujuan Anda akan ditampilkan di sini setelah pengguna berinteraksi dengan spanduk"
+
+#: build/admin.js:6
+msgid "<span></span> Selected"
+msgstr "<span></span> Dipilih"
+
+#: build/admin.js:6
+msgid "Deleting…"
+msgstr "Menghapus…"
+
+#: build/admin.js:6
+msgid "View All Logs"
+msgstr "Lihat Semua Log"
+
+#: build/admin.js:6
+msgid "Consent Logging Disabled"
+msgstr "Pencatatan Persetujuan Dinonaktifkan"
+
+#: build/admin.js:6
+msgid "Enable consent logging to view analytics data and recent consent logs."
+msgstr "Aktifkan pencatatan persetujuan untuk melihat data analitik dan log persetujuan terbaru."
+
+#: build/admin.js:3
+#: build/admin.js:6
+msgid "Enable Consent Logging"
+msgstr "Aktifkan Pencatatan Persetujuan"
+
+#: build/admin.js:6
+msgid "Consents"
+msgstr "Persetujuan"
+
+#: build/admin.js:6
+msgid "No Consents Yet"
+msgstr "Belum Ada Persetujuan"
+
+#: build/admin.js:6
+msgid "Data will appear here once visitors interact with the cookie banner."
+msgstr "Data akan muncul di sini setelah pengunjung berinteraksi dengan spanduk cookie."
+
+#. translators: %s: log/logs
+#: build/admin.js:9
+#, js-format
+msgid "Failed to delete consent %s"
+msgstr "Gagal menghapus persetujuan %s"
+
+#: build/admin.js:9
+#: build/admin.js:12
+#: build/admin.js:18
+msgid "log"
+msgid_plural "logs"
+msgstr[0] "log"
+
+#. translators: %s: log/logs
+#: build/admin.js:12
+#, js-format
+msgid "Successfully deleted consent %s"
+msgstr "Berhasil menghapus persetujuan %s"
+
+#: build/admin.js:12
+msgid "Failed to delete consent log"
+msgstr "Gagal menghapus log persetujuan"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Delete Consent Log"
+msgstr "Hapus Log Persetujuan"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Are you sure you want to delete this consent log? This action cannot be undone."
+msgstr "Anda yakin ingin menghapus log persetujuan ini? Tindakan ini tidak dapat dibatalkan."
+
+#: build/admin.js:15
+msgid "Delete Selected Consent Logs"
+msgstr "Hapus Log Persetujuan yang Dipilih"
+
+#. translators: %s: the log string pluralized.
+#: build/admin.js:18
+#, js-format
+msgid "Are you sure you want to delete the selected consent %s? This action cannot be undone."
+msgstr "Anda yakin ingin menghapus persetujuan %s yang dipilih? Tindakan ini tidak dapat dibatalkan."
+
+#: build/admin.js:21
+msgid "Page"
+msgstr "Halaman"
+
+#: build/admin.js:21
+msgid "of"
+msgstr "dari"
+
+#: build/admin.js:21
+msgid "Consent Logs Pagination"
+msgstr "Pagination Log Persetujuan"
+
+#: build/admin.js:2
+msgid "Consent Duration (in days)"
+msgstr "Durasi Persetujuan (dalam hari)"
+
+#: build/admin.js:2
+msgid "How long user consent remains valid before requiring renewal (1–365 days)."
+msgstr "Berapa lama persetujuan pengguna tetap berlaku sebelum memerlukan pembaruan (1–365 hari)."
+
+#: build/admin.js:3
+msgid "Enable Consent Logging Switch"
+msgstr "Aktifkan Switch Pencatatan Persetujuan"
+
+#: build/admin.js:3
+msgid "Store consent records in database for compliance reporting and analytics."
+msgstr "Simpan catatan persetujuan di database untuk pelaporan kepatuhan dan analitik."
+
+#: build/admin.js:3
+msgid "Clear Logs After"
+msgstr "Hapus Log Setelah"
+
+#: build/admin.js:3
+msgid "Select retention period"
+msgstr "Pilih periode retensi"
+
+#: build/admin.js:3
+msgid "Automatically delete consent logs older than the selected period."
+msgstr "Hapus otomatis log persetujuan yang lebih lama dari periode yang dipilih."
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/admin.js:76
+#: build/public.js:4
+msgid "Name"
+msgstr "Nama"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Category"
+msgstr "Kategori"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Provider"
+msgstr "Penyedia"
+
+#: inc/modules/cookie-policy/shortcode.php:206
+#: build/admin.js:25
+msgid "Domain"
+msgstr "Domain"
+
+#: build/admin.js:25
+msgid "Duration (Days)"
+msgstr "Durasi (Hari)"
+
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Type"
+msgstr "Jenis"
+
+#: build/admin.js:23
+#: build/admin.js:78
+#: build/onboarding.js:3
+msgid "Uncategorized"
+msgstr "Tidak dikategorikan"
+
+#: build/admin.js:21
+#: build/onboarding.js:1
+msgid "Change Category"
+msgstr "Ubah Kategori"
+
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Edit"
+msgstr "Edit"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Scanned"
+msgstr "Dipindai"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Custom"
+msgstr "Kustom"
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete the cookie \"<strong></strong>\"? This action cannot be undone."
+msgstr "Anda yakin ingin menghapus cookie \"<strong></strong>\"? Tindakan ini tidak dapat dibatalkan."
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete this cookie? This action cannot be undone."
+msgstr "Anda yakin ingin menghapus cookie ini? Tindakan ini tidak dapat dibatalkan."
+
+#: build/admin.js:25
+msgid "Delete Custom Cookie"
+msgstr "Hapus Cookie Kustom"
+
+#: build/admin.js:25
+msgid "Change Cookie Category"
+msgstr "Ubah Kategori Cookie"
+
+#: build/admin.js:25
+msgid "Update Category"
+msgstr "Perbarui Kategori"
+
+#: build/admin.js:25
+msgid "Edit Cookie"
+msgstr "Edit Cookie"
+
+#: build/admin.js:25
+msgid "Update Cookie"
+msgstr "Perbarui Cookie"
+
+#: build/admin.js:25
+msgid "Add New Cookie"
+msgstr "Tambah Cookie Baru"
+
+#: build/admin.js:25
+msgid "Save Cookie"
+msgstr "Simpan Cookie"
+
+#: inc/modules/cookie-policy/shortcode.php:203
+#: build/admin.js:25
+msgid "Cookie Name"
+msgstr "Nama Cookie"
+
+#: build/admin.js:25
+msgid "e.g., my_custom_cookie"
+msgstr "contoh, my_custom_cookie"
+
+#: build/admin.js:25
+#: build/admin.js:28
+#: build/admin.js:76
+msgid "Select a category"
+msgstr "Pilih kategori"
+
+#: build/admin.js:25
+msgid "No categories available. Please create a category first."
+msgstr "Tidak ada kategori yang tersedia. Silakan buat kategori terlebih dahulu."
+
+#: build/admin.js:25
+msgid "e.g., 30"
+msgstr "contoh, 30"
+
+#: build/admin.js:25
+msgid "e.g., Your Company Name"
+msgstr "contoh, Nama Perusahaan Anda"
+
+#: build/admin.js:25
+msgid "e.g., .example.com"
+msgstr "contoh, .contoh.com"
+
+#: build/admin.js:25
+msgid "Description"
+msgstr "Deskripsi"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie…"
+msgstr "Masukkan deskripsi untuk cookie ini…"
+
+#: inc/modules/cookie-policy/shortcode.php:204
+#: build/admin.js:25
+msgid "Purpose"
+msgstr "Tujuan"
+
+#: build/admin.js:25
+msgid "Describe the purpose of this cookie…"
+msgstr "Jelaskan tujuan dari cookie ini…"
+
+#: build/admin.js:28
+msgid "No cookie categories found. Click \"Add New Category\" to create one."
+msgstr "Tidak ditemukan kategori cookie. Klik \"Tambah Kategori Baru\" untuk membuatnya."
+
+#: build/admin.js:28
+#: build/admin.js:43
+msgid "Manage Categories"
+msgstr "Kelola Kategori"
+
+#: build/admin.js:28
+msgid "Manage cookie categories that appear in the privacy preferences modal"
+msgstr "Kelola kategori cookie yang muncul di modal preferensi privasi"
+
+#: build/admin.js:28
+msgid "Add New Category"
+msgstr "Tambah Kategori Baru"
+
+#: build/admin.js:28
+msgid "Edit Category"
+msgstr "Edit Kategori"
+
+#: build/admin.js:28
+msgid "Add Category"
+msgstr "Tambah Kategori"
+
+#: build/admin.js:25
+msgid "Category Name"
+msgstr "Nama Kategori"
+
+#: build/admin.js:25
+msgid "e.g., Performance Cookies"
+msgstr "contoh, Cookies Performa"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie category…"
+msgstr "Masukkan deskripsi untuk kategori cookie ini…"
+
+#. translators: %1$s is the category name, %2$s is the number of cookies
+#: build/admin.js:28
+#, js-format
+msgid "Are you sure you want to delete this cookie category? <br/> The category \"%1$s\" has %2$s assigned to it:"
+msgstr "Anda yakin ingin menghapus kategori cookie ini? <br/> Kategori \"%1$s\" memiliki %2$s yang ditugaskan ke dalamnya:"
+
+#: build/admin.js:28
+msgid "cookie"
+msgid_plural "cookies"
+msgstr[0] "cookie"
+
+#: build/admin.js:28
+msgid "Are you sure you want to delete this cookie category? This action cannot be undone."
+msgstr "Anda yakin ingin menghapus kategori cookie ini? Tindakan ini tidak dapat dibatalkan."
+
+#: build/admin.js:28
+msgid "Delete Cookie Category"
+msgstr "Hapus Kategori Cookie"
+
+#: build/admin.js:28
+msgid "Keep cookies"
+msgstr "Pertahankan cookie"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please enter a cookie name"
+msgstr "Silakan masukkan nama cookie"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please select a category"
+msgstr "Silakan pilih kategori"
+
+#: build/admin.js:28
+#: build/onboarding.js:4
+msgid "Please enter a category name"
+msgstr "Silakan masukkan nama kategori"
+
+#: build/admin.js:41
+msgid "Failed to load custom cookies"
+msgstr "Gagal memuat cookie kustom"
+
+#: build/admin.js:41
+msgid "Failed to create custom cookie"
+msgstr "Gagal membuat cookie kustom"
+
+#: build/admin.js:41
+msgid "Custom cookie created successfully"
+msgstr "Cookie kustom berhasil dibuat"
+
+#: build/admin.js:41
+msgid "Failed to update custom cookie"
+msgstr "Gagal memperbarui cookie kustom"
+
+#: build/admin.js:41
+msgid "Custom cookie updated successfully"
+msgstr "Cookie kustom berhasil diperbarui"
+
+#: build/admin.js:41
+msgid "Failed to delete custom cookie"
+msgstr "Gagal menghapus cookie kustom"
+
+#: build/admin.js:41
+msgid "Custom cookie deleted successfully"
+msgstr "Cookie kustom berhasil dihapus"
+
+#: build/admin.js:41
+msgid "Failed to update cookie category"
+msgstr "Gagal memperbarui kategori cookie"
+
+#: build/admin.js:41
+msgid "Cookie category updated successfully"
+msgstr "Kategori cookie berhasil diperbarui"
+
+#: build/admin.js:42
+msgid "Failed to create category"
+msgstr "Gagal membuat kategori"
+
+#: build/admin.js:42
+msgid "Category created successfully"
+msgstr "Kategori berhasil dibuat"
+
+#: build/admin.js:42
+msgid "Failed to update category"
+msgstr "Gagal memperbarui kategori"
+
+#: build/admin.js:42
+msgid "Category updated successfully"
+msgstr "Kategori berhasil diperbarui"
+
+#: build/admin.js:42
+msgid "Failed to delete category"
+msgstr "Gagal menghapus kategori"
+
+#: build/admin.js:42
+msgid "Category deleted successfully"
+msgstr "Kategori berhasil dihapus"
+
+#: build/admin.js:43
+msgid "Create and manage all cookies for your website. These cookies will appear in the selected privacy preference categories."
+msgstr "Buat dan kelola semua cookie untuk situs web Anda. Cookie ini akan muncul di kategori preferensi privasi yang dipilih."
+
+#: build/admin.js:43
+msgid "Manage Cookies"
+msgstr "Kelola Cookie"
+
+#: build/admin.js:43
+msgid "New Cookie"
+msgstr "Cookie Baru"
+
+#: build/admin.js:43
+msgid "Add custom CSS to style your cookie banner. Changes will be reflected in both preview and frontend after saving."
+msgstr "Tambahkan CSS kustom untuk menata banner cookie Anda. Perubahan akan tercermin di pratinjau dan frontend setelah disimpan."
+
+#: build/admin.js:43
+msgid "CSS Code Editor"
+msgstr "Editor Kode CSS"
+
+#: build/admin.js:43
+msgid "Reset Custom CSS"
+msgstr "Reset CSS Kustom"
+
+#: build/admin.js:43
+msgid "Are you sure you want to reset custom CSS? This will remove all your custom styles."
+msgstr "Anda yakin ingin mengatur ulang CSS kustom? Ini akan menghapus semua gaya kustom Anda."
+
+#: build/admin.js:43
+msgid "Custom CSS has been reset. The banner will now use default styles."
+msgstr "CSS kustom telah direset. Banner sekarang akan menggunakan gaya default."
+
+#: build/admin.js:43
+msgid "Write your custom CSS below. Use <strong>!important</strong> to override inline styles.<br />You can target banner elements using classes like <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, etc."
+msgstr "Tulis CSS kustom Anda di bawah. Gunakan <strong>!important</strong> untuk menimpa gaya inline.<br />Anda dapat menargetkan elemen banner menggunakan kelas seperti <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, dll."
+
+#: build/admin.js:43
+#: build/admin.js:60
+msgid "<span></span> Quick Tips:"
+msgstr "<span></span> Tips Cepat:"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-banner</b> to target the cookie banner (works in both preview and frontend)"
+msgstr "Gunakan <b>.surecookie-banner</b> untuk menargetkan banner cookie (berfungsi di pratinjau dan frontend)"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> for buttons"
+msgstr "Gunakan <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> untuk tombol"
+
+#: build/admin.js:43
+msgid "Important: Use <b>!important</b> to override inline styles"
+msgstr "Penting: Gunakan <b>!important</b> untuk mengesampingkan gaya inline"
+
+#: build/admin.js:43
+msgid "Changes take effect after clicking \"Save Changes\" below"
+msgstr "Perubahan berlaku setelah mengklik \"Simpan Perubahan\" di bawah"
+
+#: build/admin.js:43
+msgid "Your CSS is saved and will persist after page refresh"
+msgstr "CSS Anda disimpan dan akan tetap setelah penyegaran halaman"
+
+#: build/admin.js:43
+msgid "Overview"
+msgstr "Ikhtisar"
+
+#: build/admin.js:43
+msgid "Active"
+msgstr "Aktif"
+
+#: build/admin.js:43
+msgid "Inactive"
+msgstr "Tidak Aktif"
+
+#: build/admin.js:43
+msgid "Cookie Banner"
+msgstr "Banner Cookie"
+
+#: build/admin.js:43
+#: build/admin.js:47
+msgid "Configure"
+msgstr "Konfigurasi"
+
+#: build/admin.js:44
+msgid "Open Support Ticket"
+msgstr "Buka Tiket Dukungan"
+
+#: build/admin.js:44
+msgid "Help Center"
+msgstr "Pusat Bantuan"
+
+#: build/admin.js:44
+msgid "Join our Community"
+msgstr "Gabung dengan Komunitas kami"
+
+#: build/admin.js:44
+msgid "Leave Us a Review"
+msgstr "Berikan Ulasan kepada Kami"
+
+#: build/admin.js:44
+msgid "Quick Access"
+msgstr "Akses Cepat"
+
+#: build/admin.js:44
+msgid "Recent Consent Logs"
+msgstr "Log Persetujuan Terbaru"
+
+#: build/admin.js:44
+msgid "Toggle Preview"
+msgstr "Alihkan Pratinjau"
+
+#: build/admin.js:44
+msgid "Click this button to show or hide the cookie consent banner preview."
+msgstr "Klik tombol ini untuk menampilkan atau menyembunyikan pratinjau banner persetujuan cookie."
+
+#: build/admin.js:44
+msgid "Click here to start"
+msgstr "Klik di sini untuk memulai"
+
+#: build/admin.js:44
+msgid "design your banner"
+msgstr "rancang banner Anda"
+
+#: build/admin.js:44
+msgid "Here's a preview of the cookie consent banner."
+msgstr "Berikut adalah pratinjau banner persetujuan cookie."
+
+#: build/admin.js:44
+msgid "You can adjust the content and design settings."
+msgstr "Anda dapat menyesuaikan pengaturan konten dan desain."
+
+#: build/admin.js:6
+msgid "All Countries"
+msgstr "Semua Negara"
+
+#: inc/utils/options.php:146
+msgid "Privacy Preference"
+msgstr "Preferensi Privasi"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Always Active"
+msgstr "Selalu Aktif"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Reject All"
+msgstr "Tolak Semua"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Confirm My Choices"
+msgstr "Konfirmasi Pilihan Saya"
+
+#: inc/utils/localize-data.php:222
+#: build/admin.js:4
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by"
+msgstr "Didukung oleh"
+
+#: build/admin.js:57
+msgid "Scan Completed!"
+msgstr "Pemindaian Selesai!"
+
+#: build/admin.js:57
+msgid "Cookie scan has been completed successfully."
+msgstr "Pemindaian cookie telah berhasil diselesaikan."
+
+#: build/admin.js:57
+msgid "Latest Scanning Logs"
+msgstr "Log Pemindaian Terbaru"
+
+#: build/admin.js:57
+msgid "View logs from the most recent cookie scanning process."
+msgstr "Lihat log dari proses pemindaian cookie terbaru."
+
+#: build/admin.js:57
+msgid "Could not copy logs automatically."
+msgstr "Gagal menyalin log secara otomatis."
+
+#: build/admin.js:57
+msgid "Logs copied to clipboard!"
+msgstr "Log disalin ke clipboard!"
+
+#: build/admin.js:57
+msgid "Copied"
+msgstr "Disalin"
+
+#: build/admin.js:57
+msgid "Copy"
+msgstr "Salin"
+
+#: build/admin.js:57
+msgid "This field contains the scanning status results only."
+msgstr "Bidang ini hanya berisi hasil status pemindaian."
+
+#: build/admin.js:60
+msgid "contact our support team"
+msgstr "hubungi tim dukungan kami"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Failed to initiate scan"
+msgstr "Gagal memulai pemindaian"
+
+#: build/admin.js:63
+#: build/admin.js:78
+#: build/onboarding.js:7
+msgid "(no title)"
+msgstr "(tanpa judul)"
+
+#: build/admin.js:74
+#: build/onboarding.js:14
+msgid "Scan Started!"
+msgstr "Pemindaian Dimulai!"
+
+#: build/onboarding.js:14
+msgid "SureCookie is scanning your pages for cookies. This may take a few minutes."
+msgstr "SureCookie sedang memindai halaman Anda untuk cookie. Ini mungkin memakan waktu beberapa menit."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scanning…"
+msgstr "Memindai…"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Start Scan"
+msgstr "Mulai Pindai"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "WordPress Cron is Disabled"
+msgstr "Cron WordPress Dinonaktifkan"
+
+#: build/admin.js:1
+msgid "Failed to load conflicting plugins"
+msgstr "Gagal memuat plugin yang bertentangan"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected."
+msgstr "Plugin yang bertentangan terdeteksi."
+
+#: build/admin.js:75
+msgid "It's recommended to deactivate them to avoid issues."
+msgstr "Disarankan untuk menonaktifkan mereka untuk menghindari masalah."
+
+#: build/admin.js:75
+msgid "Deactivate Plugin"
+msgstr "Nonaktifkan Plugin"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected"
+msgstr "Plugin yang bertentangan terdeteksi"
+
+#: build/admin.js:75
+msgid "The following plugins may conflict with SureCookie. It's recommended to deactivate them to avoid issues."
+msgstr "Plugin berikut mungkin bertentangan dengan SureCookie. Disarankan untuk menonaktifkan mereka untuk menghindari masalah."
+
+#: build/admin.js:75
+msgid "Version:"
+msgstr "Versi:"
+
+#: build/admin.js:75
+msgid "Deactivation successful. Reloading the page in 3 seconds."
+msgstr "Deaktivasi berhasil. Memuat ulang halaman dalam 3 detik."
+
+#: build/admin.js:75
+msgid "Failed to deactivate plugin."
+msgstr "Gagal menonaktifkan plugin."
+
+#: build/admin.js:75
+msgid "The plugin could not be deactivated. Please try again."
+msgstr "Plugin tidak dapat dinonaktifkan. Silakan coba lagi."
+
+#: build/admin.js:75
+msgid "Deactivating…"
+msgstr "Menonaktifkan…"
+
+#: build/admin.js:75
+msgid "Deactivate"
+msgstr "Nonaktifkan"
+
+#: build/admin.js:75
+msgid "Close"
+msgstr "Tutup"
+
+#: build/admin.js:75
+msgid "Preview:"
+msgstr "Pratinjau:"
+
+#: build/admin.js:75
+msgid "ON"
+msgstr "NYALA"
+
+#: build/admin.js:75
+msgid "OFF"
+msgstr "MATI"
+
+#: build/admin.js:75
+msgid "What's New?"
+msgstr "Apa yang Baru?"
+
+#: build/admin.js:76
+msgid "Knowledge Base"
+msgstr "Basis Pengetahuan"
+
+#: build/onboarding.js:6
+msgid "First name is required"
+msgstr "Nama depan wajib diisi"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid email address"
+msgstr "Harap masukkan alamat email yang valid"
+
+#: build/onboarding.js:6
+msgid "Welcome to SureCookie"
+msgstr "Selamat datang di SureCookie"
+
+#: build/onboarding.js:6
+msgid "Privacy compliance made effortless 🍪"
+msgstr "Kepatuhan privasi dibuat mudah 🍪"
+
+#: build/admin.js:2
+#: build/onboarding.js:6
+msgid "Let's Get Started"
+msgstr "Mari Mulai"
+
+#: build/onboarding.js:11
+msgid "Run a Quick Privacy Scan"
+msgstr "Lakukan Pemindaian Privasi Cepat"
+
+#: build/onboarding.js:11
+msgid "SureCookie will scan your website, detect all cookies, and categorize them automatically.<br/> This helps you stay compliant without spending hours identifying scripts manually."
+msgstr "SureCookie akan memindai situs web Anda, mendeteksi semua cookie, dan mengkategorikannya secara otomatis.<br/> Ini membantu Anda tetap patuh tanpa menghabiskan berjam-jam mengidentifikasi skrip secara manual."
+
+#: build/admin.js:40
+#: build/onboarding.js:7
+#: build/onboarding.js:14
+msgid "Back"
+msgstr "Kembali"
+
+#: build/onboarding.js:14
+msgid "Okay, just one last step…"
+msgstr "Baik, tinggal satu langkah lagi…"
+
+#: build/onboarding.js:14
+msgid "Help us tailor your SureCookie experience by sharing a bit about yourself:"
+msgstr "Bantu kami menyesuaikan pengalaman SureCookie Anda dengan berbagi sedikit tentang diri Anda:"
+
+#: build/onboarding.js:14
+msgid "First Name"
+msgstr "Nama Depan"
+
+#: build/onboarding.js:14
+msgid "Enter your first name"
+msgstr "Masukkan nama depan Anda"
+
+#: build/onboarding.js:14
+msgid "Last Name"
+msgstr "Nama Belakang"
+
+#: build/onboarding.js:14
+msgid "Enter your last name"
+msgstr "Masukkan nama belakang Anda"
+
+#: build/onboarding.js:14
+msgid "Email Address"
+msgstr "Alamat Email"
+
+#: build/onboarding.js:14
+msgid "Enter your email address"
+msgstr "Masukkan alamat email Anda"
+
+#: build/onboarding.js:6
+msgid "Next"
+msgstr "Berikutnya"
+
+#: build/onboarding.js:6
+#: build/onboarding.js:14
+msgid "Skip"
+msgstr "Lewati"
+
+#: build/onboarding.js:14
+msgid "Block non-essential cookies and trackers until explicit consent"
+msgstr "Blokir cookie dan tracker non-esensial sampai ada persetujuan eksplisit"
+
+#: build/onboarding.js:14
+msgid "Auto-discover common services, categorize them, and preconfigure safe rules"
+msgstr "Temukan layanan umum secara otomatis, kategorikan, dan konfigurasikan aturan aman secara pra"
+
+#: build/onboarding.js:14
+msgid "Here's what SureCookie will do for you now:"
+msgstr "Inilah yang akan dilakukan SureCookie untuk Anda sekarang:"
+
+#: build/onboarding.js:14
+msgid "SureCookie Features"
+msgstr "Fitur SureCookie"
+
+#: build/admin.js:47
+#: build/onboarding.js:14
+msgid "Go to Dashboard"
+msgstr "Pergi ke Dashboard"
+
+#: build/onboarding.js:6
+msgid "Exit Setup"
+msgstr "Keluar Pengaturan"
+
+#: admin/menu.php:130
+msgid "You don't have access to this page."
+msgstr "Anda tidak memiliki akses ke halaman ini."
+
+#: admin/onboarding.php:59
+#: build/onboarding.js:14
+msgid "Onboarding"
+msgstr "Pengenalan"
+
+#: inc/api/base.php:59
+msgid "You don't have access to do this."
+msgstr "Anda tidak memiliki akses untuk melakukan ini."
+
+#: inc/api/base.php:71
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "Pemeriksaan keamanan gagal. Silakan segarkan halaman dan coba lagi."
+
+#: inc/api/base.php:80
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "Sesi Anda telah berakhir. Silakan segarkan halaman dan coba lagi."
+
+#: inc/api/consent-logs.php:146
+msgid "Search by IP address or Session ID"
+msgstr "Cari berdasarkan alamat IP atau ID Sesi"
+
+#: inc/api/consent-logs.php:892
+msgid "Request origin is not allowed."
+msgstr "Asal permintaan tidak diizinkan."
+
+#: inc/api/consent-logs.php:575
+msgid "Session ID is required."
+msgstr "ID Sesi diperlukan."
+
+#: inc/api/plugin.php:154
+msgid "You don't have permission to activate plugins."
+msgstr "Anda tidak memiliki izin untuk mengaktifkan plugin."
+
+#: inc/api/plugin.php:187
+msgid "You don't have permission to deactivate plugins."
+msgstr "Anda tidak memiliki izin untuk menonaktifkan plugin."
+
+#: inc/api/scanned-resources.php:78
+msgid "Scanned resources retrieved successfully."
+msgstr "Sumber daya yang dipindai berhasil diambil."
+
+#: inc/functions/get.php:119
+msgid "Required for basic website functionality."
+msgstr "Diperlukan untuk fungsi dasar situs web."
+
+#: inc/functions/get.php:125
+msgid "Enable features like saved preferences and personalized content."
+msgstr "Aktifkan fitur seperti preferensi yang disimpan dan konten yang dipersonalisasi."
+
+#: inc/functions/get.php:131
+msgid "Help us understand how visitors use our site so we can improve it."
+msgstr "Bantu kami memahami bagaimana pengunjung menggunakan situs kami agar kami dapat meningkatkannya."
+
+#: inc/functions/get.php:137
+msgid "Used to show you relevant ads based on your interests."
+msgstr "Digunakan untuk menampilkan iklan yang relevan berdasarkan minat Anda."
+
+#: inc/functions/get.php:143
+msgid "Cookies that haven't been categorized yet."
+msgstr "Cookie yang belum dikategorikan."
+
+#: inc/modules/auth/api.php:71
+msgid "Authentication is already completed."
+msgstr "Autentikasi sudah selesai."
+
+#: inc/modules/auth/controller.php:88
+msgid "Failed to encode the token data."
+msgstr "Gagal mengkodekan data token."
+
+#: inc/modules/auth/controller.php:188
+msgid "Failed to decode the access key."
+msgstr "Gagal mendekode kunci akses."
+
+#: inc/modules/auth/controller.php:193
+msgid "Invalid data format."
+msgstr "Format data tidak valid."
+
+#: inc/modules/auth/controller.php:207
+msgid "Failed to decrypt the access key."
+msgstr "Gagal mendekripsi kunci akses."
+
+#: inc/modules/auth/controller.php:213
+msgid "Failed to json decode the decrypted data."
+msgstr "Gagal melakukan decode json pada data yang didekripsi."
+
+#: inc/modules/auth/controller.php:217
+msgid "No user email found in the decrypted data."
+msgstr "Tidak ditemukan email pengguna dalam data yang didekripsi."
+
+#: inc/modules/cookie-policy/api.php:76
+#: build/admin.js:78
+msgid "Cookie Policy page already exists."
+msgstr "Halaman Kebijakan Cookie sudah ada."
+
+#: inc/modules/cookie-policy/api.php:90
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/admin.js:78
+#: build/public.js:1
+msgid "Cookie Policy"
+msgstr "Kebijakan Cookie"
+
+#: inc/modules/cookie-policy/api.php:112
+msgid "Cookie Policy page created successfully."
+msgstr "Halaman Kebijakan Cookie berhasil dibuat."
+
+#. translators: %s: site name.
+#: inc/modules/cookie-policy/api.php:182
+#, php-format
+msgid "This Cookie Policy explains how %s uses cookies and similar tracking technologies when you visit our website. It describes what these technologies are, why we use them, and your rights to control our use of them."
+msgstr "Kebijakan Cookie ini menjelaskan bagaimana %s menggunakan cookie dan teknologi pelacakan serupa saat Anda mengunjungi situs web kami. Ini menjelaskan apa teknologi tersebut, mengapa kami menggunakannya, dan hak Anda untuk mengontrol penggunaan kami terhadapnya."
+
+#: inc/modules/cookie-policy/api.php:191
+msgid "What Are Cookies"
+msgstr "Apa Itu Cookie"
+
+#: inc/modules/cookie-policy/api.php:195
+msgid "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, provide a better browsing experience, and supply information to the owners of the site. Cookies can be \"persistent\" or \"session\" cookies. Persistent cookies remain on your device for a set period or until you delete them, while session cookies are deleted as soon as you close your web browser."
+msgstr "Cookie adalah file teks kecil yang disimpan di komputer atau perangkat seluler Anda saat Anda mengunjungi sebuah situs web. Cookie banyak digunakan untuk membuat situs web bekerja lebih efisien, memberikan pengalaman menjelajah yang lebih baik, dan menyediakan informasi kepada pemilik situs. Cookie dapat berupa cookie \"persisten\" atau \"sesi\". Cookie persisten tetap ada di perangkat Anda untuk jangka waktu tertentu atau sampai Anda menghapusnya, sedangkan cookie sesi dihapus segera setelah Anda menutup browser web Anda."
+
+#: inc/modules/cookie-policy/api.php:199
+msgid "In addition to cookies, we may also use similar technologies such as pixel tags, web beacons, and local storage to collect and store information. These technologies work in a similar way to cookies and allow us to monitor and improve our website and your experience of it."
+msgstr "Selain cookie, kami juga dapat menggunakan teknologi serupa seperti tag piksel, beacon web, dan penyimpanan lokal untuk mengumpulkan dan menyimpan informasi. Teknologi ini bekerja dengan cara yang mirip dengan cookie dan memungkinkan kami memantau serta meningkatkan situs web kami dan pengalaman Anda menggunakannya."
+
+#: inc/modules/cookie-policy/api.php:206
+msgid "Types of Cookies We Use"
+msgstr "Jenis Cookie yang Kami Gunakan"
+
+#: inc/modules/cookie-policy/api.php:210
+msgid "We use different types of cookies for various reasons. The table below provides detailed information about the cookies we use, organized by category, including the name of each cookie, its purpose, duration, and the domain it belongs to. Some cookies are essential for the website to function properly, while others help us understand how visitors interact with our site, remember your preferences, or deliver relevant advertising."
+msgstr "Kami menggunakan berbagai jenis cookie untuk berbagai alasan. Tabel di bawah ini memberikan informasi rinci tentang cookie yang kami gunakan, diatur berdasarkan kategori, termasuk nama setiap cookie, tujuannya, durasi, dan domain tempat cookie tersebut berada. Beberapa cookie penting agar situs web berfungsi dengan baik, sementara yang lain membantu kami memahami bagaimana pengunjung berinteraksi dengan situs kami, mengingat preferensi Anda, atau menyampaikan iklan yang relevan."
+
+#: inc/modules/cookie-policy/api.php:220
+msgid "How to Manage Your Cookie Preferences"
+msgstr "Cara Mengelola Preferensi Cookie Anda"
+
+#: inc/modules/cookie-policy/api.php:224
+msgid "When you first visit our website, you will be shown a cookie consent banner that allows you to accept or decline non-essential cookies. You can change your preferences at any time by clicking the cookie preferences option available on our website. Essential cookies cannot be disabled as they are necessary for the basic functioning of the website."
+msgstr "Saat Anda pertama kali mengunjungi situs web kami, Anda akan melihat banner persetujuan cookie yang memungkinkan Anda menerima atau menolak cookie yang tidak penting. Anda dapat mengubah preferensi kapan saja dengan mengklik opsi preferensi cookie yang tersedia di situs web kami. Cookie penting tidak dapat dinonaktifkan karena diperlukan untuk fungsi dasar situs web."
+
+#: inc/modules/cookie-policy/api.php:228
+msgid "Please note that restricting cookies may impact your experience of the website, as some features and services may not function properly without certain cookies enabled."
+msgstr "Harap diperhatikan bahwa membatasi cookie dapat memengaruhi pengalaman Anda di situs web, karena beberapa fitur dan layanan mungkin tidak berfungsi dengan baik tanpa cookie tertentu yang diaktifkan."
+
+#: inc/modules/cookie-policy/api.php:235
+msgid "How to Control Cookies in Your Browser"
+msgstr "Cara Mengontrol Cookie di Browser Anda"
+
+#: inc/modules/cookie-policy/api.php:239
+msgid "Most web browsers allow you to manage your cookie preferences through their settings. You can set your browser to refuse cookies, delete existing cookies, or alert you when a cookie is being set. The steps to manage cookies vary by browser. Below are general instructions for the most common browsers."
+msgstr "Sebagian besar browser web memungkinkan Anda mengelola preferensi cookie melalui pengaturannya. Anda dapat mengatur browser untuk menolak cookie, menghapus cookie yang ada, atau memberi peringatan saat cookie sedang disetel. Langkah-langkah mengelola cookie berbeda-beda tergantung browser. Berikut adalah petunjuk umum untuk browser yang paling umum digunakan."
+
+#: inc/modules/cookie-policy/api.php:243
+msgid "Google Chrome: Open Settings, go to Privacy and Security, then click on Cookies and other site data. From there, you can block third-party cookies, clear cookies when you close the browser, or block all cookies."
+msgstr "Google Chrome: Buka Pengaturan, pergi ke Privasi dan Keamanan, lalu klik pada Cookie dan data situs lainnya. Dari sana, Anda dapat memblokir cookie pihak ketiga, menghapus cookie saat menutup browser, atau memblokir semua cookie."
+
+#: inc/modules/cookie-policy/api.php:247
+msgid "Mozilla Firefox: Open Settings, go to Privacy and Security, and under Cookies and Site Data you can manage how Firefox handles cookies including clearing data and managing exceptions."
+msgstr "Mozilla Firefox: Buka Pengaturan, pergi ke Privasi dan Keamanan, dan di bawah Cookie dan Data Situs Anda dapat mengelola bagaimana Firefox menangani cookie termasuk menghapus data dan mengelola pengecualian."
+
+#: inc/modules/cookie-policy/api.php:251
+msgid "Safari: Open Preferences, go to the Privacy tab, and configure your cookie blocking preferences. Safari also offers an option to prevent cross-site tracking."
+msgstr "Safari: Buka Preferensi, pergi ke tab Privasi, dan konfigurasikan preferensi pemblokiran cookie Anda. Safari juga menawarkan opsi untuk mencegah pelacakan lintas situs."
+
+#: inc/modules/cookie-policy/api.php:255
+msgid "Microsoft Edge: Open Settings, go to Privacy, Search, and Services. Under the Cookies section, you can choose to block third-party cookies or all cookies and manage cookie exceptions."
+msgstr "Microsoft Edge: Buka Pengaturan, pergi ke Privasi, Pencarian, dan Layanan. Di bagian Cookie, Anda dapat memilih untuk memblokir cookie pihak ketiga atau semua cookie dan mengelola pengecualian cookie."
+
+#: inc/modules/cookie-policy/api.php:262
+msgid "Consequences of Disabling Cookies"
+msgstr "Konsekuensi Menonaktifkan Cookie"
+
+#: inc/modules/cookie-policy/api.php:266
+msgid "If you choose to disable or decline cookies, some parts of this website may not function as intended. For example, you may not be able to log in, your preferences may not be saved between visits, and certain interactive features may be limited. Disabling essential cookies may make it impossible to use some or all of the services provided through this website."
+msgstr "Jika Anda memilih untuk menonaktifkan atau menolak cookie, beberapa bagian dari situs web ini mungkin tidak berfungsi sebagaimana mestinya. Misalnya, Anda mungkin tidak dapat masuk, preferensi Anda mungkin tidak tersimpan antara kunjungan, dan beberapa fitur interaktif mungkin terbatas. Menonaktifkan cookie penting dapat membuat Anda tidak dapat menggunakan sebagian atau seluruh layanan yang disediakan melalui situs web ini."
+
+#: inc/modules/cookie-policy/api.php:270
+msgid "Disabling analytics or marketing cookies will not affect the core functionality of the website, but it may limit our ability to improve the website based on user behavior or to provide you with personalized content and advertisements."
+msgstr "Menonaktifkan cookie analitik atau pemasaran tidak akan memengaruhi fungsi inti situs web, tetapi dapat membatasi kemampuan kami untuk meningkatkan situs web berdasarkan perilaku pengguna atau memberikan konten dan iklan yang dipersonalisasi kepada Anda."
+
+#: inc/modules/cookie-policy/api.php:277
+msgid "Changes to This Cookie Policy"
+msgstr "Perubahan pada Kebijakan Cookie Ini"
+
+#: inc/modules/cookie-policy/api.php:281
+msgid "We may update this Cookie Policy from time to time to reflect changes in technology, legislation, our business operations, or any other reason we determine is necessary or appropriate. Any changes will be posted on this page with an updated revision date. We encourage you to review this Cookie Policy periodically to stay informed about how we are using cookies."
+msgstr "Kami dapat memperbarui Kebijakan Cookie ini dari waktu ke waktu untuk mencerminkan perubahan teknologi, peraturan, operasi bisnis kami, atau alasan lain yang kami anggap perlu atau sesuai. Setiap perubahan akan diposting di halaman ini dengan tanggal revisi yang diperbarui. Kami mendorong Anda untuk meninjau Kebijakan Cookie ini secara berkala agar tetap mengetahui bagaimana kami menggunakan cookie."
+
+#: inc/modules/cookie-policy/api.php:288
+msgid "Contact Us"
+msgstr "Hubungi Kami"
+
+#: inc/modules/cookie-policy/api.php:292
+msgid "If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at:"
+msgstr "Jika Anda memiliki pertanyaan atau kekhawatiran tentang Kebijakan Cookie ini atau penggunaan cookie oleh kami, silakan hubungi kami di:"
+
+#: inc/modules/cookie-policy/api.php:296
+msgid "[Your Company Name], [Your Address], [your-email@example.com]"
+msgstr "[Nama Perusahaan Anda], [Alamat Anda], [your-email@example.com]"
+
+#: inc/modules/cookie-policy/shortcode.php:143
+#: inc/modules/cookie-policy/shortcode.php:144
+msgid "Table of Contents"
+msgstr "Daftar Isi"
+
+#: inc/modules/cookie-policy/shortcode.php:205
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Duration"
+msgstr "Durasi"
+
+#. translators: %s: formatted date string.
+#: inc/modules/cookie-policy/shortcode.php:270
+#, php-format
+msgid "Last updated: %s"
+msgstr "Terakhir diperbarui: %s"
+
+#: inc/modules/cookie-policy/shortcode.php:356
+msgid "This website"
+msgstr "Situs web ini"
+
+#: inc/modules/google-consent-mode/consent-handler.php:130
+msgid "SureCookie:"
+msgstr "SureCookie:"
+
+#: inc/modules/google-consent-mode/consent-handler.php:132
+msgid "Google Site Kit's Consent Mode is active. Please disable it in Site Kit settings to use SureCookie's implementation."
+msgstr "Mode Persetujuan Google Site Kit aktif. Harap nonaktifkan di pengaturan Site Kit untuk menggunakan implementasi SureCookie."
+
+#: inc/modules/site-scanner/api.php:288
+msgid "Failed to start scan."
+msgstr "Gagal memulai pemindaian."
+
+#. translators: 1: completed pages count, 2: total pages count
+#: inc/modules/site-scanner/saas-client.php:944
+#, php-format
+msgid "Progress: %1$d of %2$d pages scanned."
+msgstr "Progres: %1$d dari %2$d halaman dipindai."
+
+#. translators: %d: number of failed pages
+#: inc/modules/site-scanner/saas-client.php:954
+#, php-format
+msgid "%d page(s) failed to scan."
+msgstr "%d halaman gagal dipindai."
+
+#: inc/modules/site-scanner/saas-client.php:977
+msgid "Scan completed!"
+msgstr "Pemindaian selesai!"
+
+#: inc/modules/site-scanner/saas-client.php:1002
+msgid "Scan is in progress. Checking again…"
+msgstr "Pemindaian sedang berlangsung. Memeriksa lagi…"
+
+#: inc/utils/options.php:48
+msgid "We use cookies to improve your experience and understand how you use our site. You can review your choices at any time."
+msgstr "Kami menggunakan cookie untuk meningkatkan pengalaman Anda dan memahami bagaimana Anda menggunakan situs kami. Anda dapat meninjau pilihan Anda kapan saja."
+
+#: inc/utils/options.php:62
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Only Essential"
+msgstr "Hanya Esensial"
+
+#: inc/utils/options.php:174
+#: build/admin.js:4
+#: build/admin.js:75
+msgid "Cookie Preferences"
+msgstr "Preferensi Cookie"
+
+#: build/admin.js:1
+msgid "Scan cancelled."
+msgstr "Pemindaian dibatalkan."
+
+#: build/admin.js:1
+msgid "Failed to cancel scan."
+msgstr "Gagal membatalkan pemindaian."
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "90 days"
+msgstr "90 hari"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "365 days"
+msgstr "365 hari"
+
+#: build/admin.js:2
+#: build/admin.js:75
+msgid "Re-Consent"
+msgstr "Persetujuan Ulang"
+
+#: build/admin.js:2
+msgid "Google Consent Mode"
+msgstr "Mode Persetujuan Google"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication timeout. Please try again."
+msgstr "Waktu autentikasi habis. Silakan coba lagi."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful!"
+msgstr "Autentikasi berhasil!"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "An error occurred during authentication"
+msgstr "Terjadi kesalahan selama autentikasi"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication cancelled. Please try again."
+msgstr "Autentikasi dibatalkan. Silakan coba lagi."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful"
+msgstr "Autentikasi berhasil"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication completed successfully. Closing tab in 3 seconds…"
+msgstr "Otentikasi berhasil diselesaikan. Menutup tab dalam 3 detik…"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication failed"
+msgstr "Otentikasi gagal"
+
+#: build/admin.js:2
+msgid "Automatic Cookie Detection"
+msgstr "Deteksi Cookie Otomatis"
+
+#: build/admin.js:2
+msgid "Smart Categorization"
+msgstr "Kategorisasi Cerdas"
+
+#: build/admin.js:2
+msgid "Compliance Recommendations"
+msgstr "Rekomendasi Kepatuhan"
+
+#: build/admin.js:2
+msgid "Connect to scan your website"
+msgstr "Hubungkan untuk memindai situs web Anda"
+
+#: build/admin.js:2
+msgid "Connect your SureCookie account to automatically detect cookies on your website, categorize them, and get compliance recommendations."
+msgstr "Hubungkan akun SureCookie Anda untuk secara otomatis mendeteksi cookie di situs web Anda, mengkategorikannya, dan mendapatkan rekomendasi kepatuhan."
+
+#: build/admin.js:2
+msgid "Learn more"
+msgstr "Pelajari lebih lanjut"
+
+#: build/admin.js:2
+msgid "Free Plan Limit Reached"
+msgstr "Batas Paket Gratis Tercapai"
+
+#: build/admin.js:2
+#: build/admin.js:6
+#: build/admin.js:47
+#: build/admin.js:53
+#: build/admin.js:63
+#: build/admin.js:75
+#: build/onboarding.js:7
+msgid "Upgrade Now"
+msgstr "Tingkatkan Sekarang"
+
+#: build/admin.js:2
+msgid "Unlock this feature"
+msgstr "Buka fitur ini"
+
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "An error occurred while loading settings. Please refresh the page to try again."
+msgstr "Terjadi kesalahan saat memuat pengaturan. Silakan segarkan halaman untuk mencoba lagi."
+
+#: build/admin.js:2
+msgid "Show cookie consent banner to comply with privacy regulations."
+msgstr "Tampilkan banner persetujuan cookie untuk mematuhi peraturan privasi."
+
+#: build/admin.js:2
+msgid "Banner Heading"
+msgstr "Judul Banner"
+
+#: build/admin.js:2
+msgid "Banner Message"
+msgstr "Pesan Banner"
+
+#: build/admin.js:2
+msgid "Banner message cannot be empty."
+msgstr "Pesan banner tidak boleh kosong."
+
+#: build/admin.js:2
+msgid "Drag and drop to reorder buttons. This order can be overridden per Geographic Targeting Rule."
+msgstr "Seret dan lepas untuk mengatur ulang tombol. Urutan ini dapat diganti per Aturan Penargetan Geografis."
+
+#: build/admin.js:2
+msgid "Banner Animation"
+msgstr "Animasi Banner"
+
+#: build/admin.js:2
+msgid "Fade"
+msgstr "Memudar"
+
+#: build/admin.js:2
+msgid "Slide"
+msgstr "Geser"
+
+#: build/admin.js:4
+msgid "Consent logs"
+msgstr "Log persetujuan"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:5
+#, js-format
+msgid "Download PDF for consent log from %s"
+msgstr "Unduh PDF untuk log persetujuan dari %s"
+
+#: build/admin.js:4
+msgid "Session Summary"
+msgstr "Ringkasan Sesi"
+
+#: build/admin.js:4
+msgid "Field"
+msgstr "Bidang"
+
+#: build/admin.js:4
+msgid "Value"
+msgstr "Nilai"
+
+#: build/admin.js:4
+msgid "Session ID"
+msgstr "ID Sesi"
+
+#: build/admin.js:4
+msgid "Total Records"
+msgstr "Total Rekaman"
+
+#: build/admin.js:4
+msgid "Date Range"
+msgstr "Rentang Tanggal"
+
+#: build/admin.js:4
+msgid "Consent Record"
+msgstr "Rekam Persetujuan"
+
+#: build/admin.js:4
+msgid "Log ID"
+msgstr "ID Log"
+
+#: build/admin.js:4
+msgid "Timestamp"
+msgstr "Cap Waktu"
+
+#: build/admin.js:4
+msgid "Consent Status"
+msgstr "Status Persetujuan"
+
+#: build/admin.js:4
+msgid "Consent Preset"
+msgstr "Preset Persetujuan"
+
+#: build/admin.js:4
+msgid "Legal Information"
+msgstr "Informasi Hukum"
+
+#: build/admin.js:4
+msgid "Date of Generation"
+msgstr "Tanggal Pembuatan"
+
+#: build/admin.js:4
+msgid "Website"
+msgstr "Situs Web"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:6
+#, js-format
+msgid "Delete consent log from %s"
+msgstr "Hapus log persetujuan dari %s"
+
+#: build/admin.js:6
+msgid "All Actions"
+msgstr "Semua Tindakan"
+
+#: build/admin.js:6
+msgid "IP address or Session ID…"
+msgstr "Alamat IP atau ID Sesi…"
+
+#: build/admin.js:6
+msgid "Clear Filters"
+msgstr "Bersihkan Filter"
+
+#: build/admin.js:21
+msgid "Failed to load countries"
+msgstr "Gagal memuat negara"
+
+#: build/admin.js:2
+msgid "Please enter a value between 1 and 365 days."
+msgstr "Silakan masukkan nilai antara 1 dan 365 hari."
+
+#: build/admin.js:53
+msgid "SureCookie admin menu location toggle"
+msgstr "Toggle lokasi menu admin SureCookie"
+
+#: build/admin.js:3
+msgid "Delete data on uninstall toggle"
+msgstr "Toggle hapus data saat uninstall"
+
+#: build/admin.js:3
+msgid "Delete Data on Uninstall"
+msgstr "Hapus Data saat Uninstall"
+
+#: build/admin.js:3
+msgid "When enabled, all plugin data including consent logs, settings, and scan results will be permanently deleted when you uninstall SureCookie. Leave disabled to preserve data for compliance records or future reinstallation."
+msgstr "Saat diaktifkan, semua data plugin termasuk log persetujuan, pengaturan, dan hasil pemindaian akan dihapus secara permanen saat Anda menghapus instalasi SureCookie. Biarkan nonaktif untuk mempertahankan data sebagai catatan kepatuhan atau instalasi ulang di masa depan."
+
+#: build/admin.js:3
+msgid "Compliance Notice"
+msgstr "Pemberitahuan Kepatuhan"
+
+#: build/admin.js:3
+msgid "Consent logs may be required to demonstrate proof of consent under GDPR Article 7(1). Consider exporting consent records before uninstalling."
+msgstr "Log persetujuan mungkin diperlukan untuk menunjukkan bukti persetujuan berdasarkan GDPR Pasal 7(1). Pertimbangkan untuk mengekspor rekaman persetujuan sebelum menghapus instalasi."
+
+#: build/admin.js:53
+msgid "Hide SureCookie branding toggle"
+msgstr "Toggle sembunyikan branding SureCookie"
+
+#: build/admin.js:53
+msgid "Hide SureCookie Branding"
+msgstr "Sembunyikan Branding SureCookie"
+
+#: build/admin.js:53
+msgid "Remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "Hapus teks \"Powered by SureCookie\" dari banner persetujuan dan modal preferensi."
+
+#: build/admin.js:53
+msgid "to remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "untuk menghapus teks \"Powered by SureCookie\" dari banner persetujuan dan modal preferensi."
+
+#: build/admin.js:28
+msgid "Keep cookies when deleting category"
+msgstr "Pertahankan cookie saat menghapus kategori"
+
+#: build/admin.js:43
+msgid "All your cookies will be displayed here"
+msgstr "Semua cookie Anda akan ditampilkan di sini"
+
+#: build/admin.js:43
+msgid "Click the button below to create your first custom cookie"
+msgstr "Klik tombol di bawah untuk membuat cookie kustom pertama Anda"
+
+#: build/admin.js:43
+msgid "Disabled"
+msgstr "Dinonaktifkan"
+
+#: build/admin.js:43
+msgid "Consent Logging"
+msgstr "Pencatatan Persetujuan"
+
+#: build/admin.js:43
+msgid "Enable consent logging to view consent analytics"
+msgstr "Aktifkan pencatatan persetujuan untuk melihat analitik persetujuan"
+
+#: build/admin.js:43
+msgid "Enable"
+msgstr "Aktifkan"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "All cookies accepted."
+msgstr "Semua cookie diterima."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Non-essential cookies rejected."
+msgstr "Cookie non-esensial ditolak."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preferences saved successfully."
+msgstr "Preferensi berhasil disimpan."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Close privacy preferences dialog"
+msgstr "Tutup dialog preferensi privasi"
+
+#. translators: %s: cookie category name
+#: build/admin.js:52
+#: build/public.js:3
+#, js-format
+msgid "%s: always active, cannot be disabled"
+msgstr "%s: selalu aktif, tidak dapat dinonaktifkan"
+
+#: build/admin.js:52
+#: build/public.js:3
+msgid "View Cookies"
+msgstr "Lihat Cookie"
+
+#. translators: %s: cookie category name
+#: build/admin.js:53
+#: build/public.js:4
+#, js-format
+msgid "%s cookies details"
+msgstr "Detail cookie %s"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Expiry"
+msgstr "Kadaluarsa"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by SureCookie (opens in new tab)"
+msgstr "Powered by SureCookie (buka di tab baru)"
+
+#: build/admin.js:53
+msgid "Buttons are for reference only in preview."
+msgstr "Tombol hanya untuk referensi dalam pratinjau."
+
+#: build/admin.js:53
+msgid "This is a preview"
+msgstr "Ini adalah pratinjau"
+
+#: build/admin.js:53
+msgid "Close preview"
+msgstr "Tutup pratinjau"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Complete"
+msgstr "Selesai"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Queued…"
+msgstr "Dalam antrean…"
+
+#: build/admin.js:54
+msgid "Scanning pages…"
+msgstr "Memindai halaman…"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Starting scan…"
+msgstr "Memulai pemindaian…"
+
+#: build/admin.js:54
+msgid "In progress…"
+msgstr "Sedang berlangsung…"
+
+#. translators: 1: completed pages, 2: total pages
+#: build/admin.js:55
+#, js-format
+msgid "%1$d of %2$d pages scanned"
+msgstr "%1$d dari %2$d halaman dipindai"
+
+#. translators: %s: estimated time remaining
+#: build/admin.js:56
+#, js-format
+msgid "· ~%s left"
+msgstr "· ~%s tersisa"
+
+#: build/admin.js:56
+msgid "Scan Completed with Errors"
+msgstr "Pemindaian Selesai dengan Kesalahan"
+
+#. translators: %d: number of failed pages
+#: build/admin.js:57
+#, js-format
+msgid "%d page(s) could not be scanned. Check the logs for details."
+msgstr "%d halaman tidak dapat dipindai. Periksa log untuk detail."
+
+#: build/admin.js:57
+msgid "Scan appears stuck"
+msgstr "Pemindaian tampak macet"
+
+#. translators: 1: completed pages, 2: total pages, 3: elapsed time
+#: build/admin.js:58
+#, js-format
+msgid "%1$d of %2$d pages scanned after %3$s with no recent progress."
+msgstr "%1$d dari %2$d halaman dipindai setelah %3$s tanpa kemajuan terbaru."
+
+#. translators: %s: elapsed time
+#: build/admin.js:59
+#, js-format
+msgid "No progress detected after %s."
+msgstr "Tidak ada kemajuan terdeteksi setelah %s."
+
+#: build/admin.js:59
+#: build/admin.js:63
+msgid "Cancelling…"
+msgstr "Membatalkan…"
+
+#: build/admin.js:59
+msgid "Cancel Scan"
+msgstr "Batalkan Pemindaian"
+
+#: build/admin.js:59
+msgid "Copy Logs for Support"
+msgstr "Salin Log untuk Dukungan"
+
+#: build/admin.js:60
+msgid "The scan runs in the background - you can safely navigate away."
+msgstr "Pemindaian berjalan di latar belakang - Anda dapat dengan aman menavigasi pergi."
+
+#: build/admin.js:60
+msgid "Make sure your site is publicly accessible (not behind basic auth or maintenance mode)."
+msgstr "Pastikan situs Anda dapat diakses secara publik (tidak di balik otentikasi dasar atau mode pemeliharaan)."
+
+#: build/admin.js:60
+msgid "Check if a firewall or security plugin is blocking external requests to your site."
+msgstr "Periksa apakah firewall atau plugin keamanan memblokir permintaan eksternal ke situs Anda."
+
+#: build/admin.js:60
+msgid "Pages with heavy JavaScript may take longer to scan. If scanning fails repeatedly, try fewer pages."
+msgstr "Halaman dengan JavaScript berat mungkin memerlukan waktu lebih lama untuk dipindai. Jika pemindaian gagal berulang kali, coba kurangi jumlah halaman."
+
+#: build/admin.js:60
+msgid "If issues persist, copy the logs and <a>contact our support team.</a>"
+msgstr "Jika masalah berlanjut, salin log dan <a>hubungi tim dukungan kami.</a>"
+
+#: build/admin.js:73
+msgid "Daily Limit Reached"
+msgstr "Batas Harian Tercapai"
+
+#. translators: 1: scans used, 2: scan limit
+#: build/admin.js:74
+#, js-format
+msgid "You've used %1$d of %2$d daily scans. Your credits will refresh automatically tomorrow."
+msgstr "Anda telah menggunakan %1$d dari %2$d pemindaian harian. Kredit Anda akan diperbarui secara otomatis besok."
+
+#: build/admin.js:74
+msgid "You've used all your scan credits for today. Your credits will refresh automatically tomorrow."
+msgstr "Anda telah menggunakan semua kredit pemindaian untuk hari ini. Kredit Anda akan diperbarui secara otomatis besok."
+
+#: build/admin.js:63
+msgid "Cancel Stuck Scan"
+msgstr "Batalkan Pemindaian Macet"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "The WordPress cron system is not working on your site. Cookie scanning may not work as expected. Please enable WP-Cron or set up a server cron job to ensure proper functionality."
+msgstr "Sistem cron WordPress tidak berfungsi di situs Anda. Pemindaian cookie mungkin tidak berjalan sesuai harapan. Harap aktifkan WP-Cron atau atur pekerjaan cron server untuk memastikan fungsi yang tepat."
+
+#: build/admin.js:75
+msgid "Select"
+msgstr "Pilih"
+
+#: build/admin.js:75
+msgid "Configure how the \"Cookie Preferences\" button appears on your site, allowing users to update their consent at any time."
+msgstr "Konfigurasikan bagaimana tombol \"Preferensi Cookie\" muncul di situs Anda, memungkinkan pengguna untuk memperbarui persetujuan mereka kapan saja."
+
+#: build/admin.js:75
+msgid "No re-consent method active"
+msgstr "Tidak ada metode persetujuan ulang yang aktif"
+
+#: build/admin.js:75
+msgid "Visitors won't be able to update their cookie preferences unless you add a menu item or place the shortcode on a page. You can safely ignore this if the shortcode is already added."
+msgstr "Pengunjung tidak akan dapat memperbarui preferensi cookie mereka kecuali Anda menambahkan item menu atau menempatkan shortcode di halaman. Anda dapat mengabaikan ini jika shortcode sudah ditambahkan."
+
+#: build/admin.js:75
+msgid "Button Label"
+msgstr "Label Tombol"
+
+#: build/admin.js:75
+msgid "The label shown on the Cookie Preferences link."
+msgstr "Label yang ditampilkan pada tautan Preferensi Cookie."
+
+#: build/admin.js:75
+msgid "Menu Level"
+msgstr "Tingkat Menu"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: build/admin.js:75
+msgid "Floating Widget"
+msgstr "Widget Mengambang"
+
+#: build/admin.js:75
+msgid "Select a WordPress menu to automatically add the Cookie Preferences link to it. When clicked, it opens the consent preferences modal directly."
+msgstr "Pilih menu WordPress untuk secara otomatis menambahkan tautan Preferensi Cookie ke dalamnya. Saat diklik, akan membuka modal preferensi persetujuan secara langsung."
+
+#: build/admin.js:75
+msgid "No WordPress menus found."
+msgstr "Tidak ditemukan menu WordPress."
+
+#: build/admin.js:75
+msgid "Create a menu in Appearance > Menus."
+msgstr "Buat menu di Tampilan > Menu."
+
+#: build/admin.js:75
+msgid "Select Menu"
+msgstr "Pilih Menu"
+
+#: build/admin.js:75
+msgid "Use this shortcode to display the Cookie Preferences link anywhere on your site. When clicked, it opens the consent preferences modal directly."
+msgstr "Gunakan shortcode ini untuk menampilkan tautan Preferensi Cookie di mana saja di situs Anda. Saat diklik, akan membuka modal preferensi persetujuan secara langsung."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode Copied!"
+msgstr "Shortcode Disalin!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Could not copy to clipboard. Please copy the shortcode manually."
+msgstr "Tidak dapat menyalin ke clipboard. Silakan salin shortcode secara manual."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copied!"
+msgstr "Disalin!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copy shortcode"
+msgstr "Salin shortcode"
+
+#: build/admin.js:75
+msgid "Enable Floating Widget"
+msgstr "Aktifkan Widget Mengambang"
+
+#: build/admin.js:75
+msgid "to show a floating cookie preferences button on every page."
+msgstr "untuk menampilkan tombol preferensi cookie mengambang di setiap halaman."
+
+#: build/admin.js:75
+msgid "Free version"
+msgstr "Versi gratis"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Analytics"
+msgstr "Analitik"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Marketing"
+msgstr "Pemasaran"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Functional"
+msgstr "Fungsional"
+
+#: build/admin.js:76
+msgid "Resource"
+msgstr "Sumber Daya"
+
+#: build/admin.js:76
+msgid "Script"
+msgstr "Skrip"
+
+#: build/admin.js:76
+msgid "Iframe"
+msgstr "Iframe"
+
+#: build/admin.js:78
+msgid "The selected page is not published and will not appear to visitors."
+msgstr "Halaman yang dipilih tidak dipublikasikan dan tidak akan muncul untuk pengunjung."
+
+#: build/admin.js:78
+msgid "The previously selected page no longer exists or could not be loaded."
+msgstr "Halaman yang sebelumnya dipilih tidak lagi ada atau tidak dapat dimuat."
+
+#: build/admin.js:78
+msgid "Cookie Policy Page"
+msgstr "Halaman Kebijakan Cookie"
+
+#: build/admin.js:78
+msgid "A link to this page will appear in the consent preferences modal footer."
+msgstr "Tautan ke halaman ini akan muncul di footer modal preferensi persetujuan."
+
+#: build/admin.js:78
+msgid "Auto Generate"
+msgstr "Buat Otomatis"
+
+#: build/admin.js:78
+msgid "Automatically create a published Cookie Policy page containing a dynamically generated cookie table that always stays up to date."
+msgstr "Secara otomatis buat halaman Kebijakan Cookie yang dipublikasikan berisi tabel cookie yang dihasilkan secara dinamis yang selalu diperbarui."
+
+#: build/admin.js:78
+msgid "Cookie Policy page created successfully!"
+msgstr "Halaman Kebijakan Cookie berhasil dibuat!"
+
+#: build/admin.js:78
+msgid "Failed to generate page. Please try again."
+msgstr "Gagal membuat halaman. Silakan coba lagi."
+
+#: build/admin.js:78
+msgid "An error occurred while generating the page. Please try again."
+msgstr "Terjadi kesalahan saat membuat halaman. Silakan coba lagi."
+
+#: build/admin.js:78
+msgid "Page Already Linked"
+msgstr "Halaman Sudah Terhubung"
+
+#: build/admin.js:78
+msgid "Generate Cookie Policy Page"
+msgstr "Buat Halaman Kebijakan Cookie"
+
+#: build/admin.js:78
+msgid "Edit Page"
+msgstr "Sunting Halaman"
+
+#: build/admin.js:78
+msgid "View Page"
+msgstr "Lihat Halaman"
+
+#: build/admin.js:78
+msgid "Use this shortcode to display the cookie policy with a dynamically generated cookie table on any page or post. The table always reflects the latest scanned and custom cookies."
+msgstr "Gunakan shortcode ini untuk menampilkan kebijakan cookie dengan tabel cookie yang dibuat secara dinamis di halaman atau postingan mana pun. Tabel selalu mencerminkan cookie yang dipindai dan kustom terbaru."
+
+#: build/admin.js:84
+msgid "Google Consent Mode v2"
+msgstr "Mode Persetujuan Google v2"
+
+#: build/admin.js:84
+msgid "Mandatory for EU/EEA as of March 2024"
+msgstr "Wajib untuk EU/EEA mulai Maret 2024"
+
+#: build/admin.js:84
+msgid "Google now requires Consent Mode v2 for all websites using Google services in the European Economic Area."
+msgstr "Google sekarang mengharuskan Mode Persetujuan v2 untuk semua situs web yang menggunakan layanan Google di Wilayah Ekonomi Eropa."
+
+#: build/admin.js:84
+msgid "Learn more about Google Consent Mode v2 →"
+msgstr "Pelajari lebih lanjut tentang Mode Persetujuan Google v2 →"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode Switch"
+msgstr "Aktifkan Saklar Mode Persetujuan Google"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode"
+msgstr "Aktifkan Mode Persetujuan Google"
+
+#: build/admin.js:84
+msgid "Wait Time (milliseconds)"
+msgstr "Waktu Tunggu (milidetik)"
+
+#: build/admin.js:84
+msgid "How long Google services wait for consent before making requests. Default: 500ms. Range: 0–2000ms."
+msgstr "Berapa lama layanan Google menunggu persetujuan sebelum melakukan permintaan. Default: 500ms. Rentang: 0–2000ms."
+
+#: build/admin.js:84
+msgid "Where should the banner appear?"
+msgstr "Di mana banner harus muncul?"
+
+#: build/admin.js:84
+msgid "Choose where the banner is shown. Visitors outside selected regions will not see it."
+msgstr "Pilih di mana banner ditampilkan. Pengunjung di luar wilayah yang dipilih tidak akan melihatnya."
+
+#: build/admin.js:84
+msgid "Show to all visitors worldwide"
+msgstr "Tampilkan ke semua pengunjung di seluruh dunia"
+
+#: build/admin.js:84
+msgid "Use the same experience for everyone, regardless of location."
+msgstr "Gunakan pengalaman yang sama untuk semua orang, tanpa memandang lokasi."
+
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/admin.js:78
+#: build/admin.js:84
+msgid "Pro"
+msgstr "Pro"
+
+#: build/admin.js:84
+msgid "Show only where required by law"
+msgstr "Tampilkan hanya di tempat yang diwajibkan oleh hukum"
+
+#: build/admin.js:84
+msgid "Target specific regions with tailored consent experiences."
+msgstr "Targetkan wilayah tertentu dengan pengalaman persetujuan yang disesuaikan."
+
+#: build/admin.js:84
+msgid "Mode: Show to all visitors worldwide"
+msgstr "Mode: Tampilkan ke semua pengunjung di seluruh dunia"
+
+#: build/admin.js:84
+msgid "Your existing banner settings apply to all visitors. No geographic targeting is active."
+msgstr "Pengaturan banner Anda yang ada berlaku untuk semua pengunjung. Tidak ada penargetan geografis yang aktif."
+
+#: build/admin.js:84
+msgid "Unlock Regional Targeting"
+msgstr "Buka Kunci Penargetan Regional"
+
+#: build/admin.js:84
+msgid "Show banner only in selected regions, create custom regional rules, and control fallback behavior."
+msgstr "Tampilkan banner hanya di wilayah yang dipilih, buat aturan regional khusus, dan kendalikan perilaku fallback."
+
+#: build/admin.js:84
+msgid "Location detection uses GeoLite2 data by MaxMind, available from <link>https://www.maxmind.com</link>."
+msgstr "Deteksi lokasi menggunakan data GeoLite2 oleh MaxMind, tersedia dari <link>https://www.maxmind.com</link>."
+
+#: build/onboarding.js:1
+msgid "An error occurred while connecting"
+msgstr "Terjadi kesalahan saat menghubungkan"
+
+#: build/onboarding.js:6
+msgid "Email address is required"
+msgstr "Alamat email diperlukan"
+
+#: build/onboarding.js:6
+msgid "Classify cookies automatically"
+msgstr "Klasifikasikan cookie secara otomatis"
+
+#: build/onboarding.js:6
+msgid "Get smart compliance recommendations"
+msgstr "Dapatkan rekomendasi kepatuhan cerdas"
+
+#: build/onboarding.js:6
+msgid "Generate privacy-compliant descriptions"
+msgstr "Buat deskripsi yang sesuai dengan privasi"
+
+#: build/onboarding.js:6
+msgid "Connect Your Account"
+msgstr "Hubungkan Akun Anda"
+
+#: build/onboarding.js:6
+msgid "Connect your SureCookie account to automatically classify cookies, generate compliant descriptions, and get smart recommendations for your privacy needs."
+msgstr "Hubungkan akun SureCookie Anda untuk secara otomatis mengklasifikasikan cookie, membuat deskripsi yang sesuai, dan mendapatkan rekomendasi cerdas untuk kebutuhan privasi Anda."
+
+#: build/onboarding.js:6
+msgid "Here's what you can do:"
+msgstr "Berikut yang dapat Anda lakukan:"
+
+#: build/onboarding.js:6
+msgid "List of capabilities"
+msgstr "Daftar kemampuan"
+
+#: build/onboarding.js:6
+msgid "Connected to SureCookie"
+msgstr "Terhubung ke SureCookie"
+
+#: build/onboarding.js:6
+msgid "Connecting…"
+msgstr "Menghubungkan…"
+
+#: build/onboarding.js:6
+msgid "Connect"
+msgstr "Hubungkan"
+
+#: build/onboarding.js:11
+msgid "Account not connected"
+msgstr "Akun tidak terhubung"
+
+#: build/onboarding.js:14
+msgid "Connect Required"
+msgstr "Koneksi Diperlukan"
+
+#: build/onboarding.js:14
+msgid "Please connect your account to get free scanning credits."
+msgstr "Silakan hubungkan akun Anda untuk mendapatkan kredit pemindaian gratis."
+
+#: build/onboarding.js:14
+msgid "Finish"
+msgstr "Selesai"
+
+#: build/public.js:4
+msgid "Banner logo"
+msgstr "Logo spanduk"
+
+#: build/public.js:4
+msgid "Decline all non-essential cookies"
+msgstr "Tolak semua cookie yang tidak penting"
+
+#: build/public.js:4
+msgid "Manage cookie preferences"
+msgstr "Kelola preferensi cookie"
+
+#: build/public.js:4
+msgid "Accept only essential cookies"
+msgstr "Terima hanya cookie penting"
+
+#: build/public.js:4
+msgid "Accept all cookies"
+msgstr "Terima semua cookie"
+
+#. Description of the plugin
+#: surecookie.php
+msgid "Real cookie consent for WordPress. Browser-based scanning, smart categorization, strict script blocking, and consent logs stored in your database."
+msgstr "Persetujuan cookie nyata untuk WordPress. Pemindaian berbasis browser, kategorisasi cerdas, pemblokiran skrip ketat, dan log persetujuan disimpan di database Anda."
+
+#: admin/menu.php:300
+#: admin/menu.php:301
+msgid "Upgrade"
+msgstr "Tingkatkan"
+
+#: admin/rating-notice.php:234
+msgid "If SureCookie has been helpful, would you mind taking a moment to leave a 5-star review on WordPress.org?"
+msgstr "Jika SureCookie membantu, maukah Anda meluangkan waktu untuk memberikan ulasan bintang 5 di WordPress.org?"
+
+#: admin/rating-notice.php:243
+msgid "Rate SureCookie"
+msgstr "Beri Nilai SureCookie"
+
+#: admin/rating-notice.php:251
+msgid "Maybe later"
+msgstr "Mungkin nanti"
+
+#: admin/rating-notice.php:255
+msgid "I already did"
+msgstr "Saya sudah melakukannya"
+
+#: inc/integrations/wp-consent-api/actions.php:62
+msgid "days"
+msgstr "hari"
+
+#: inc/integrations/wp-consent-api/actions.php:69
+msgid "Stores the user's cookie consent preferences."
+msgstr "Menyimpan preferensi persetujuan cookie pengguna."
+
+#: inc/integrations/wp-consent-api/actions.php:76
+msgid "1 year"
+msgstr "1 tahun"
+
+#: inc/integrations/wp-consent-api/actions.php:77
+msgid "Tracks consent log sessions for audit purposes."
+msgstr "Melacak sesi log persetujuan untuk keperluan audit."
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie toggle"
+msgstr "Kontribusi ke toggle SureCookie"
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie"
+msgstr "Kontribusi ke SureCookie"
+
+#: build/admin.js:53
+#: build/admin.js:84
+msgid "Learn More"
+msgstr "Pelajari Lebih Lanjut"
+
+#: build/admin.js:44
+#: build/onboarding.js:4
+msgid "Launch Setup Wizard"
+msgstr "Luncurkan Wizard Pengaturan"
+
+#. translators: %d: maximum pages
+#: build/admin.js:61
+#: build/admin.js:73
+#: build/onboarding.js:5
+#: build/onboarding.js:14
+#, js-format
+msgid "You have selected more than %d pages"
+msgstr "Anda telah memilih lebih dari %d halaman"
+
+#. translators: %d: maximum pages
+#: build/admin.js:65
+#: build/onboarding.js:9
+#, js-format
+msgid "Your plan supports scanning up to %d pages. Please remove extra pages to continue."
+msgstr "Paket Anda mendukung pemindaian hingga %d halaman. Harap hapus halaman tambahan untuk melanjutkan."
+
+#: build/admin.js:83
+msgid "Please enter at least one region code"
+msgstr "Harap masukkan setidaknya satu kode wilayah"
+
+#: build/admin.js:83
+msgid "Invalid region code format. Use ISO 3166 codes like EU, US, US-CA, or GB."
+msgstr "Format kode wilayah tidak valid. Gunakan kode ISO 3166 seperti EU, US, US-CA, atau GB."
+
+#: build/admin.js:83
+msgid "EU/EEA (GDPR)"
+msgstr "EU/EEA (GDPR)"
+
+#: build/admin.js:83
+msgid "California (CCPA)"
+msgstr "California (CCPA)"
+
+#: build/admin.js:83
+msgid "United Kingdom"
+msgstr "Inggris Raya"
+
+#: build/admin.js:83
+msgid "Brazil (LGPD)"
+msgstr "Brasil (LGPD)"
+
+#: build/admin.js:83
+msgid "Edit Regional Rule"
+msgstr "Edit Aturan Regional"
+
+#: build/admin.js:83
+msgid "Add Regional Rule"
+msgstr "Tambah Aturan Regional"
+
+#: build/admin.js:83
+msgid "Set default consent state for visitors from this region. Google uses the most specific match."
+msgstr "Tetapkan status persetujuan default untuk pengunjung dari wilayah ini. Google menggunakan kecocokan paling spesifik."
+
+#: build/admin.js:83
+msgid "Add Rule"
+msgstr "Tambah Aturan"
+
+#: build/admin.js:83
+msgid "Quick Presets"
+msgstr "Preset Cepat"
+
+#: build/admin.js:83
+msgid "Apply preset:"
+msgstr "Terapkan preset:"
+
+#: build/admin.js:83
+msgid "Region Codes"
+msgstr "Kode Wilayah"
+
+#: build/admin.js:83
+msgid "Comma-separated ISO 3166 codes: EU, US, US-CA, GB, BR, etc."
+msgstr "Kode ISO 3166 yang dipisahkan koma: EU, US, US-CA, GB, BR, dll."
+
+#: build/admin.js:83
+msgid "Default Consent State"
+msgstr "Status Persetujuan Default"
+
+#: build/admin.js:83
+msgid "Choose which categories are granted by default for visitors from this region before they interact with the banner."
+msgstr "Pilih kategori mana yang diberikan secara default untuk pengunjung dari wilayah ini sebelum mereka berinteraksi dengan spanduk."
+
+#: build/admin.js:83
+msgid "Functional Storage"
+msgstr "Penyimpanan Fungsional"
+
+#: build/admin.js:83
+msgid "Enables storage for site functionality like preferences and language."
+msgstr "Mengaktifkan penyimpanan untuk fungsi situs seperti preferensi dan bahasa."
+
+#: build/admin.js:83
+msgid "Functional storage default"
+msgstr "Penyimpanan fungsional default"
+
+#: build/admin.js:83
+msgid "Analytics Storage"
+msgstr "Penyimpanan Analitik"
+
+#: build/admin.js:83
+msgid "Enables storage for analytics purposes like visit duration and page views."
+msgstr "Mengaktifkan penyimpanan untuk tujuan analitik seperti durasi kunjungan dan tampilan halaman."
+
+#: build/admin.js:83
+msgid "Analytics storage default"
+msgstr "Penyimpanan analitik default"
+
+#: build/admin.js:83
+msgid "Marketing / Ads Storage"
+msgstr "Penyimpanan Pemasaran / Iklan"
+
+#: build/admin.js:83
+msgid "Enables storage for advertising purposes including ad personalization and user data."
+msgstr "Mengaktifkan penyimpanan untuk tujuan periklanan termasuk personalisasi iklan dan data pengguna."
+
+#: build/admin.js:83
+msgid "Marketing storage default"
+msgstr "Penyimpanan pemasaran default"
+
+#: build/admin.js:83
+msgid "Essential cookies (security_storage) are always granted. These defaults apply before the visitor interacts with the consent banner."
+msgstr "Cookie penting (security_storage) selalu diberikan. Default ini berlaku sebelum pengunjung berinteraksi dengan banner persetujuan."
+
+#: build/admin.js:83
+msgid "Granted"
+msgstr "Diberikan"
+
+#: build/admin.js:83
+msgid "Denied"
+msgstr "Ditolak"
+
+#: build/admin.js:83
+msgid "Active Regional Rules"
+msgstr "Aturan Regional Aktif"
+
+#: build/admin.js:83
+msgid "Set different default consent states per region. Google uses the most specific match (e.g., US-CA overrides US)."
+msgstr "Tetapkan status persetujuan default yang berbeda per wilayah. Google menggunakan kecocokan paling spesifik (misalnya, US-CA menggantikan US)."
+
+#: build/admin.js:83
+msgid "Edit rule for"
+msgstr "Edit aturan untuk"
+
+#: build/admin.js:83
+msgid "Delete rule for"
+msgstr "Hapus aturan untuk"
+
+#: build/admin.js:83
+msgid "No regional rules configured. The global default (deny all except essential) applies to all visitors."
+msgstr "Tidak ada aturan regional yang dikonfigurasi. Default global (tolak semua kecuali yang penting) berlaku untuk semua pengunjung."
+
+#. translators: %s: comma-separated duplicate region codes
+#: build/admin.js:84
+#, js-format
+msgid "These region codes already exist in another rule: %s"
+msgstr "Kode wilayah ini sudah ada di aturan lain: %s"
+
+#: build/admin.js:84
+msgid "Delete Regional Rule"
+msgstr "Hapus Aturan Regional"
+
+#: build/admin.js:84
+msgid "Are you sure you want to delete this regional consent rule? Visitors from this region will use the global default."
+msgstr "Apakah Anda yakin ingin menghapus aturan persetujuan regional ini? Pengunjung dari wilayah ini akan menggunakan default global."
+
+#: build/admin.js:84
+msgid "Automatically communicate user consent preferences to Google services."
+msgstr "Secara otomatis mengkomunikasikan preferensi persetujuan pengguna ke layanan Google."
+
+#: build/admin.js:84
+msgid "Supported services: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, and DV360"
+msgstr "Layanan yang didukung: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, dan DV360"
+
+#: build/public.js:4
+msgid "Cookie Consent"
+msgstr "Persetujuan Cookie"
+
+#: inc/api/consent-logs.php:318
+#: inc/api/consent-logs.php:345
+msgid "Request origin could not be verified."
+msgstr "Asal permintaan tidak dapat diverifikasi."
+
+#: inc/api/consent-logs.php:614
+msgid "Accept All is not enabled for this site."
+msgstr "Terima Semua tidak diaktifkan untuk situs ini."
+
+#: inc/api/posts.php:199
+msgid "Post not found."
+msgstr "Posting tidak ditemukan."
+
+#: inc/modules/site-scanner/saas-client.php:1043
+msgid "Quota is not available on localhost or development sites."
+msgstr "Kuota tidak tersedia di localhost atau situs pengembangan."
+
+#: inc/modules/site-scanner/saas-client.php:1102
+msgid "Unexpected response from server."
+msgstr "Respons tak terduga dari server."
+
+#: inc/modules/site-scanner/saas-client.php:1149
+msgid "Authentication required."
+msgstr "Diperlukan autentikasi."
+
+#: inc/modules/site-scanner/saas-client.php:1159
+msgid "Failed to fetch quota."
+msgstr "Gagal mengambil kuota."
+
+#: inc/utils/options.php:150
+msgid "We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience."
+msgstr "Kami menggunakan cookie dan teknologi serupa untuk membantu mempersonalisasi konten, menyesuaikan dan mengukur iklan, serta memberikan pengalaman yang lebih baik."
+
+#: build/admin.js:2
+msgid "Configure the text content that appears in your cookie consent banner and preference modal"
+msgstr "Konfigurasikan konten teks yang muncul di banner persetujuan cookie dan modal preferensi Anda"
+
+#: build/admin.js:2
+msgid "Consent Banner"
+msgstr "Banner Persetujuan"
+
+#: build/admin.js:2
+msgid "Preference Modal"
+msgstr "Modal Preferensi"
+
+#: build/admin.js:2
+msgid "Show the \"Accept All\" button on the consent banner. When off, the button is removed from the banner and from the Button Order list."
+msgstr "Tampilkan tombol \"Terima Semua\" pada banner persetujuan. Saat dimatikan, tombol dihapus dari banner dan dari daftar Urutan Tombol."
+
+#: build/admin.js:2
+msgid "Preference Modal Title"
+msgstr "Judul Modal Preferensi"
+
+#: build/admin.js:2
+msgid "Preference Modal Description"
+msgstr "Deskripsi Modal Preferensi"
+
+#: build/admin.js:2
+msgid "Preference modal description cannot be empty."
+msgstr "Deskripsi modal preferensi tidak boleh kosong."
+
+#: build/admin.js:53
+msgid "Help shape the future of SureCookie. Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions."
+msgstr "Bantu bentuk masa depan SureCookie. Bagikan bagaimana Anda menggunakan plugin ini agar kami dapat membangun fitur yang penting, memperbaiki masalah lebih cepat, dan membuat keputusan yang lebih cerdas."
+
+#. translators: 1: current page index, 2: total pages
+#: build/admin.js:54
+#, js-format
+msgid "Scanning page %1$d of %2$d…"
+msgstr "Memindai halaman %1$d dari %2$d…"
+
+#: build/admin.js:54
+msgid "Analyzing cookies…"
+msgstr "Menganalisis cookie…"
+
+#: build/admin.js:54
+msgid "Finalizing…"
+msgstr "Menyelesaikan…"
+
+#: build/admin.js:54
+msgid "Scan failed"
+msgstr "Pemindaian gagal"
+
+#: build/admin.js:54
+msgid "Scan progress"
+msgstr "Progres pemindaian"
+
+#: build/admin.js:55
+msgid "Preparing scan…"
+msgstr "Mempersiapkan pemindaian…"
+
+#: build/admin.js:60
+msgid "Your scan limit will reset tomorrow."
+msgstr "Batas pemindaian Anda akan direset besok."
+
+#. translators: 1: remaining scans, 2: total daily scans
+#: build/admin.js:68
+#: build/onboarding.js:12
+#, js-format
+msgid "You have %1$d of %2$d daily scans remaining"
+msgstr "Anda memiliki %1$d dari %2$d pemindaian harian tersisa"
+
+#. translators: %s: time until reset (e.g. "4h 22m")
+#: build/admin.js:69
+#: build/admin.js:71
+#, js-format
+msgid "Resets in %s"
+msgstr "Reset dalam %s"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Limits refreshed."
+msgstr "Batas telah diperbarui."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Failed to refresh limits."
+msgstr "Gagal memperbarui batas."
+
+#: build/admin.js:71
+msgid "Your session expired. Please reload to reconnect."
+msgstr "Sesi Anda telah berakhir. Silakan muat ulang untuk menyambung kembali."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "We couldn't fetch your limits right now. Please try again in a moment."
+msgstr "Kami tidak dapat mengambil batas Anda saat ini. Silakan coba lagi sebentar lagi."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refreshing…"
+msgstr "Menyegarkan…"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refresh limits"
+msgstr "Segarkan batas"
+
+#: build/admin.js:78
+msgid "Clear selected page"
+msgstr "Bersihkan halaman yang dipilih"
+
+#: build/admin.js:78
+msgid "Select a Page"
+msgstr "Pilih Halaman"
+
+#: build/onboarding.js:11
+msgid "Please <a>go back</a> and connect your SureCookie account to enable cookie scanning."
+msgstr "Silakan <a>kembali</a> dan hubungkan akun SureCookie Anda untuk mengaktifkan pemindaian cookie."
+
+#: build/onboarding.js:12
+msgid "Your session expired. Please reconnect to continue."
+msgstr "Sesi Anda telah berakhir. Silakan sambungkan kembali untuk melanjutkan."
+
+#: build/onboarding.js:14
+msgid "You're all set. Let's go live 🚀"
+msgstr "Anda sudah siap. Mari mulai siaran langsung 🚀"
+
+#: build/onboarding.js:14
+msgid "From consent logs to region-based preferences, SureCookie helps you stay compliant while building visitor trust."
+msgstr "Dari log persetujuan hingga preferensi berbasis wilayah, SureCookie membantu Anda tetap patuh sambil membangun kepercayaan pengunjung."
+
+#: admin/menu.php:91
+#: build/admin.js:2
+msgid "Learn"
+msgstr "Pelajari"
+
+#: inc/api/consent-logs.php:376
+#: inc/api/consent-logs.php:515
+msgid "Too many requests. Please try again later."
+msgstr "Terlalu banyak permintaan. Silakan coba lagi nanti."
+
+#: inc/api/consent-logs.php:544
+msgid "Preferences data is too large."
+msgstr "Data preferensi terlalu besar."
+
+#: inc/api/consent-logs.php:555
+#: inc/api/consent-logs.php:566
+msgid "Invalid preferences format."
+msgstr "Format preferensi tidak valid."
+
+#: inc/modules/auth/controller.php:71
+msgid "Could not generate secure auth key."
+msgstr "Tidak dapat menghasilkan kunci otentikasi yang aman."
+
+#: inc/modules/auth/controller.php:179
+msgid "Invalid flow identifier."
+msgstr "Pengidentifikasi alur tidak valid."
+
+#: inc/modules/site-scanner/cron.php:122
+msgid "Scan failed."
+msgstr "Pemindaian gagal."
+
+#: inc/modules/site-scanner/saas-client.php:422
+msgid "Could not generate a secure scan token. Please retry."
+msgstr "Tidak dapat menghasilkan token pemindaian yang aman. Silakan coba lagi."
+
+#: inc/modules/site-scanner/saas-client.php:1056
+msgid "Scanner credentials are not yet issued. Run your first scan to register."
+msgstr "Kredensial pemindai belum diterbitkan. Jalankan pemindaian pertama Anda untuk mendaftar."
+
+#: inc/modules/site-scanner/saas-client.php:1476
+msgid "Another registration is already in progress. Please try again in a moment."
+msgstr "Pendaftaran lain sudah dalam proses. Silakan coba lagi sebentar lagi."
+
+#: inc/modules/site-scanner/saas-client.php:1506
+msgid "Could not determine site domain."
+msgstr "Tidak dapat menentukan domain situs."
+
+#: inc/modules/site-scanner/saas-client.php:1518
+msgid "Could not generate a secure registration nonce. Please retry."
+msgstr "Tidak dapat menghasilkan nonce pendaftaran yang aman. Silakan coba lagi."
+
+#: inc/modules/site-scanner/saas-client.php:1546
+msgid "Failed to encode registration request."
+msgstr "Gagal mengkodekan permintaan pendaftaran."
+
+#. translators: %s: error message from the network call
+#: inc/modules/site-scanner/saas-client.php:1568
+#, php-format
+msgid "Could not reach the SureCookie service: %s"
+msgstr "Tidak dapat menghubungi layanan SureCookie: %s"
+
+#: inc/modules/site-scanner/saas-client.php:1582
+msgid "Registration could not be initiated."
+msgstr "Pendaftaran tidak dapat dimulai."
+
+#: inc/modules/site-scanner/saas-client.php:1597
+msgid "Received an invalid verification token. Please retry."
+msgstr "Menerima token verifikasi tidak valid. Silakan coba lagi."
+
+#: inc/modules/site-scanner/saas-client.php:1615
+msgid "Failed to encode verification completion."
+msgstr "Gagal mengkodekan penyelesaian verifikasi."
+
+#: build/admin.js:2
+#: build/admin.js:78
+msgid "Visibility"
+msgstr "Visibilitas"
+
+#: build/admin.js:2
+msgid "Additional Consent"
+msgstr "Persetujuan Tambahan"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Please return to the SureCookie dashboard and try again."
+msgstr "Silakan kembali ke dasbor SureCookie dan coba lagi."
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:47
+#, js-format
+msgid "%1$d of %2$d steps complete"
+msgstr "%1$d dari %2$d langkah selesai"
+
+#: build/admin.js:47
+msgid "You're all set! SureCookie is ready to protect your site."
+msgstr "Semua sudah siap! SureCookie siap melindungi situs Anda."
+
+#: build/admin.js:47
+msgid "Scan Your Site for Cookies"
+msgstr "Pindai Situs Anda untuk Cookie"
+
+#: build/admin.js:47
+msgid "Run the cookie scanner to discover and categorize cookies your site uses."
+msgstr "Jalankan pemindai cookie untuk menemukan dan mengkategorikan cookie yang digunakan situs Anda."
+
+#: build/admin.js:47
+msgid "Scan Now"
+msgstr "Pindai Sekarang"
+
+#: build/admin.js:47
+msgid "Set up the Consent Banner"
+msgstr "Atur Banner Persetujuan"
+
+#: build/admin.js:47
+msgid "Customize your cookie consent banner - content, layout, and visibility."
+msgstr "Sesuaikan banner persetujuan cookie Anda - konten, tata letak, dan visibilitas."
+
+#: build/admin.js:47
+msgid "Review Consent Logs"
+msgstr "Tinjau Log Persetujuan"
+
+#: build/admin.js:47
+msgid "See who has consented and when - useful for compliance audits."
+msgstr "Lihat siapa yang telah memberikan persetujuan dan kapan - berguna untuk audit kepatuhan."
+
+#: build/admin.js:47
+msgid "View Logs"
+msgstr "Lihat Log"
+
+#: build/admin.js:47
+msgid "Publish Your Cookie Policy"
+msgstr "Terbitkan Kebijakan Cookie Anda"
+
+#: build/admin.js:47
+msgid "Review and publish the cookie policy page on your site."
+msgstr "Tinjau dan terbitkan halaman kebijakan cookie di situs Anda."
+
+#: build/admin.js:47
+msgid "Review Page"
+msgstr "Tinjau Halaman"
+
+#: build/admin.js:47
+msgid "Generate a cookie policy page so visitors know how you handle their data."
+msgstr "Buat halaman kebijakan cookie agar pengunjung tahu bagaimana Anda menangani data mereka."
+
+#: build/admin.js:47
+msgid "Create Page"
+msgstr "Buat Halaman"
+
+#: build/admin.js:47
+msgid "Get Started with SureCookie"
+msgstr "Mulai dengan SureCookie"
+
+#: build/admin.js:47
+msgid "Follow these steps to set up cookie consent on your site in minutes."
+msgstr "Ikuti langkah-langkah ini untuk mengatur persetujuan cookie di situs Anda dalam beberapa menit."
+
+#: build/admin.js:47
+msgid "See full documentation →"
+msgstr "Lihat dokumentasi lengkap →"
+
+#: build/admin.js:47
+msgid "Continue Learning"
+msgstr "Lanjutkan Belajar"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:50
+#, js-format
+msgid "%1$d of %2$d setup steps complete."
+msgstr "%1$d dari %2$d langkah pengaturan selesai."
+
+#: build/admin.js:50
+msgid "Open Learn"
+msgstr "Buka Pelajari"
+
+#: build/admin.js:78
+msgid "Control where your cookie banner appears on your site."
+msgstr "Kontrol di mana banner cookie Anda muncul di situs Anda."
+
+#: build/admin.js:78
+msgid "Want More Control over Your Cookie Banner?"
+msgstr "Ingin Kontrol Lebih atas Banner Cookie Anda?"
+
+#: build/admin.js:78
+msgid "Upgrade to hide it on selected pages, posts, archives, or on specific user roles."
+msgstr "Tingkatkan untuk menyembunyikannya di halaman, posting, arsip tertentu, atau pada peran pengguna tertentu."
+
+#: build/admin.js:87
+msgid "IAB Transparency & Consent Framework"
+msgstr "Kerangka Transparansi & Persetujuan IAB"
+
+#: build/admin.js:87
+msgid "Make your consent banner compliant with IAB TCF 2.3 and integrate with the Global Vendor List."
+msgstr "Buat banner persetujuan Anda sesuai dengan IAB TCF 2.3 dan integrasikan dengan Daftar Vendor Global."
+
+#: build/admin.js:87
+msgid "Unlock IAB TCF 2.3 Compliance - Coming Soon"
+msgstr "Buka Kepatuhan IAB TCF 2.3 - Segera Hadir"
+
+#: build/admin.js:87
+msgid "Enable full TCF mode, generate TC strings, and display the IAB vendor list to your visitors."
+msgstr "Aktifkan mode TCF penuh, buat string TC, dan tampilkan daftar vendor IAB kepada pengunjung Anda."
+
+#: build/admin.js:87
+msgid "Google Additional Consent (AC)"
+msgstr "Persetujuan Tambahan Google (AC)"
+
+#: build/admin.js:87
+msgid "Add Google Additional Consent alongside IAB TCF to handle ad-tech vendors not on the IAB Global Vendor List."
+msgstr "Tambahkan Persetujuan Tambahan Google bersama IAB TCF untuk menangani vendor ad-tech yang tidak ada di Daftar Vendor Global IAB."
+
+#: build/admin.js:87
+msgid "Unlock Google Additional Consent - Coming Soon"
+msgstr "Buka Persetujuan Tambahan Google - Segera Hadir"
+
+#: build/admin.js:87
+msgid "Generate the AC string, mirror the addtl_consent cookie, and display Google's Additional Consent provider list to your visitors - required for full Google Ads / GAM monetization."
+msgstr "Buat string AC, cerminkan cookie addtl_consent, dan tampilkan daftar penyedia Persetujuan Tambahan Google kepada pengunjung Anda - diperlukan untuk monetisasi penuh Google Ads / GAM."
+
+#: build/onboarding.js:1
+msgid "Failed to get authentication payload"
+msgstr "Gagal mendapatkan payload autentikasi"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Consent Forwarding"
+msgstr "Penerusan Persetujuan"
+
+#: build/admin.js:2
+msgid "Want custom brand colors?"
+msgstr "Ingin warna merek kustom?"
+
+#: build/admin.js:3
+#: build/admin.js:4
+msgid "Received from"
+msgstr "Diterima dari"
+
+#: build/admin.js:3
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Received"
+msgstr "Diterima"
+
+#. translators: %d: number of sites
+#: build/admin.js:4
+#, js-format
+msgid "Shared to %d site(s)"
+msgstr "Dibagikan ke %d situs"
+
+#: build/admin.js:4
+msgid "Consent not received for"
+msgstr "Persetujuan tidak diterima untuk"
+
+#: build/admin.js:4
+msgid "These categories exist only on this site and were not part of the forwarded consent. The visitor will be prompted to set their preferences for these when they visit this site directly."
+msgstr "Kategori ini hanya ada di situs ini dan bukan bagian dari persetujuan yang diteruskan. Pengunjung akan diminta untuk mengatur preferensi mereka untuk kategori ini saat mereka mengunjungi situs ini secara langsung."
+
+#: build/admin.js:4
+msgid "More information about these categories"
+msgstr "Informasi lebih lanjut tentang kategori ini"
+
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Shared"
+msgstr "Dibagikan"
+
+#: build/admin.js:4
+msgid "Shared to"
+msgstr "Dibagikan ke"
+
+#: build/admin.js:4
+msgid "Consent Session ID"
+msgstr "ID Sesi Persetujuan"
+
+#: build/admin.js:4
+msgid "Localhost"
+msgstr "Localhost"
+
+#: build/admin.js:6
+msgid "Consent log export upgrade"
+msgstr "Peningkatan ekspor log persetujuan"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preference sections"
+msgstr "Bagian preferensi"
+
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Cookies"
+msgstr "Cookie"
+
+#. translators: %d: number of partner sites
+#: build/admin.js:51
+#: build/public.js:2
+#, js-format
+msgid "%d connected site(s)"
+msgstr "%d situs terhubung"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Sites that will receive your consent"
+msgstr "Situs yang akan menerima persetujuan Anda"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "No partner sites configured."
+msgstr "Tidak ada situs mitra yang dikonfigurasi."
+
+#: build/admin.js:53
+msgid "Cookie Notice"
+msgstr "Pemberitahuan Cookie"
+
+#: build/admin.js:84
+msgid "Automatically sync cookie consent across multiple domains and forward consent choices to connected services, without asking visitors to consent again."
+msgstr "Sinkronkan persetujuan cookie secara otomatis di beberapa domain dan teruskan pilihan persetujuan ke layanan yang terhubung, tanpa meminta pengunjung untuk memberikan persetujuan lagi."
+
+#: inc/modules/mcp/server.php:100
+msgid "SureCookie MCP Server"
+msgstr "Server SureCookie MCP"
+
+#: inc/modules/mcp/server.php:101
+msgid "SureCookie MCP Server for cookie consent settings, consent logs, cookie management, and site scanning workflows."
+msgstr "Server SureCookie MCP untuk pengaturan persetujuan cookie, log persetujuan, manajemen cookie, dan alur kerja pemindaian situs."
+
+#. translators: %s: navigation group label
+#: build/admin.js:2
+#, js-format
+msgid "%s submenu"
+msgstr "%s submenu"
+
+#: build/admin.js:2
+msgid "General"
+msgstr "Umum"
+
+#: build/admin.js:2
+msgid "Consent & Data"
+msgstr "Persetujuan & Data"
+
+#: build/admin.js:2
+msgid "Consent Frameworks"
+msgstr "Kerangka Persetujuan"
+
+#: build/admin.js:2
+msgid "IAB-TCF"
+msgstr "IAB-TCF"
+
+#: build/admin.js:2
+msgid "Enter text"
+msgstr "Masukkan teks"
+
+#: build/admin.js:2
+msgid "Enter Banner Message"
+msgstr "Masukkan Pesan Banner"
+
+#: build/admin.js:2
+msgid "Control how long consent stays valid and how consent records are stored."
+msgstr "Kontrol berapa lama persetujuan tetap berlaku dan bagaimana catatan persetujuan disimpan."
+
+#: build/admin.js:4
+msgid "N/A"
+msgstr "Tidak Ada"
+
+#. translators: %d: number of partner sites that received the forwarded consent.
+#: build/admin.js:15
+#, js-format
+msgid "This consent was shared with %d connected site. Deleting it here will also erase the copy from that site (GDPR Art. 17)."
+msgid_plural "This consent was shared with %d connected sites. Deleting it here will also erase the copies from those sites (GDPR Art. 17)."
+msgstr[0] "Persetujuan ini dibagikan dengan %d situs yang terhubung. Menghapusnya di sini juga akan menghapus salinannya dari situs tersebut (GDPR Pasal 17)."
+
+#. translators: %d: number of selected logs that were forwarded to partner sites.
+#: build/admin.js:21
+#, js-format
+msgid "%d of these logs was shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgid_plural "%d of these logs were shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgstr[0] "%d dari log ini dibagikan dengan situs mitra yang terhubung. Menghapusnya juga akan menghapus salinan yang diteruskan tersebut (GDPR Pasal 17)."
+
+#: build/admin.js:53
+msgid "Admin and plugin preferences for SureCookie."
+msgstr "Preferensi admin dan plugin untuk SureCookie."
+
+#: build/admin.js:53
+msgid "SureCookie Admin Menu"
+msgstr "Menu Admin SureCookie"
+
+#: build/admin.js:53
+msgid "Toggle to show SureCookie in the main menu or under Settings → SureCookie."
+msgstr "Alihkan untuk menampilkan SureCookie di menu utama atau di bawah Pengaturan → SureCookie."
+
+#: build/admin.js:84
+msgid "Connect Your AI Client"
+msgstr "Hubungkan Klien AI Anda"
+
+#: build/admin.js:84
+msgid "Create an Application Password"
+msgstr "Buat Kata Sandi Aplikasi"
+
+#: build/admin.js:84
+msgid "Open Application Passwords"
+msgstr "Buka Kata Sandi Aplikasi"
+
+#: build/admin.js:84
+msgid "Add to your AI client:"
+msgstr "Tambahkan ke klien AI Anda:"
+
+#: build/admin.js:84
+msgid "Learn more about the WordPress MCP Adapter"
+msgstr "Pelajari lebih lanjut tentang WordPress MCP Adapter"
+
+#: build/admin.js:84
+msgid "Claude Code"
+msgstr "Claude Code"
+
+#: build/admin.js:84
+msgid "Claude Desktop"
+msgstr "Claude Desktop"
+
+#: build/admin.js:84
+msgid "Cursor"
+msgstr "Cursor"
+
+#: build/admin.js:84
+msgid "VS Code"
+msgstr "VS Code"
+
+#: build/admin.js:84
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+#: build/admin.js:84
+msgid "go to Settings → Connectors → Add Connector, paste the endpoint URL, and use your WordPress username + Application Password."
+msgstr "Pergi ke Pengaturan → Konektor → Tambah Konektor, tempel URL endpoint, dan gunakan nama pengguna WordPress + Kata Sandi Aplikasi Anda."
+
+#: build/admin.js:84
+msgid "Learn more about ChatGPT connectors"
+msgstr "Pelajari lebih lanjut tentang konektor ChatGPT"
+
+#: build/admin.js:84
+msgid "SureCookie Only"
+msgstr "Hanya SureCookie"
+
+#: build/admin.js:84
+msgid "Global"
+msgstr "Global"
+
+#: build/admin.js:84
+msgid "Copy setup prompt for AI client"
+msgstr "Salin prompt pengaturan untuk klien AI"
+
+#: build/admin.js:84
+msgid "Prompt copied! Paste it into your AI client."
+msgstr "Prompt disalin! Tempelkan ke klien AI Anda."
+
+#: build/admin.js:84
+msgid "Failed to copy prompt to clipboard"
+msgstr "Gagal menyalin prompt ke clipboard"
+
+#: build/admin.js:84
+msgid "Copy JSON config"
+msgstr "Salin konfigurasi JSON"
+
+#: build/admin.js:84
+msgid "Copied to clipboard"
+msgstr "Disalin ke clipboard"
+
+#: build/admin.js:84
+msgid "Failed to copy to clipboard"
+msgstr "Gagal menyalin ke clipboard"
+
+#: build/admin.js:84
+msgid "MCP Adapter plugin not detected"
+msgstr "Plugin MCP Adapter tidak terdeteksi"
+
+#. translators: %s: WP MCP Adapter plugin name.
+#: build/admin.js:87
+#, js-format
+msgid "To connect AI clients to your site, the %s plugin is required. Download the latest release from GitHub, upload it via Plugins > Add New > Upload Plugin, and activate."
+msgstr "Untuk menghubungkan klien AI ke situs Anda, plugin %s diperlukan. Unduh rilis terbaru dari GitHub, unggah melalui Plugin > Tambah Baru > Unggah Plugin, dan aktifkan."
+
+#: build/admin.js:87
+msgid "Download from GitHub"
+msgstr "Unduh dari GitHub"
+
+#: build/admin.js:2
+#: build/admin.js:87
+msgid "MCP"
+msgstr "MCP"
+
+#: build/admin.js:87
+msgid "Configure AI client access to SureCookie through the Model Context Protocol."
+msgstr "Konfigurasikan akses klien AI ke SureCookie melalui Model Context Protocol."
+
+#: build/admin.js:87
+msgid "Enable MCP"
+msgstr "Aktifkan MCP"
+
+#: build/admin.js:87
+msgid "Allow AI clients like Claude, ChatGPT, and Cursor to manage your cookie banner, scanner, and consent settings through SureCookie. When disabled, no abilities are registered and AI clients cannot connect."
+msgstr "Izinkan klien AI seperti Claude, ChatGPT, dan Cursor untuk mengelola banner cookie, pemindai, dan pengaturan persetujuan Anda melalui SureCookie. Saat dinonaktifkan, tidak ada kemampuan yang terdaftar dan klien AI tidak dapat terhubung."
+
+#: build/admin.js:87
+msgid "WordPress Abilities API not available"
+msgstr "API Kemampuan WordPress tidak tersedia"
+
+#: build/admin.js:87
+msgid "MCP requires the WordPress Abilities API (WordPress 6.9 or later). Update WordPress to use this feature."
+msgstr "MCP memerlukan API Kemampuan WordPress (WordPress 6.9 atau lebih baru). Perbarui WordPress untuk menggunakan fitur ini."
+
+#: build/admin.js:87
+msgid "Unsaved changes"
+msgstr "Perubahan yang belum disimpan"
+
+#: build/admin.js:87
+msgid "The MCP endpoint becomes active only after you save your settings."
+msgstr "Endpoint MCP menjadi aktif hanya setelah Anda menyimpan pengaturan Anda."
+
+#: inc/api/consent-logs.php:404
+msgid "Unable to determine the current user."
+msgstr "Tidak dapat menentukan pengguna saat ini."
+
+#: inc/api/consent-logs.php:415
+msgid "Consent logs marked as viewed."
+msgstr "Log persetujuan ditandai sebagai sudah dilihat."
+
+#: inc/api/plugin.php:214
+msgid "This plugin is network-activated and must be deactivated by a Network Administrator from Network Admin > Plugins."
+msgstr "Plugin ini diaktifkan jaringan dan harus dinonaktifkan oleh Administrator Jaringan dari Admin Jaringan > Plugin."
+
+#: inc/api/plugin.php:225
+msgid "Plugin could not be deactivated."
+msgstr "Plugin tidak dapat dinonaktifkan."
+
+#: inc/modules/automatic-scanning/api.php:118
+msgid "Enable Automatic Scanning before running a scan."
+msgstr "Aktifkan Pemindaian Otomatis sebelum menjalankan pemindaian."
+
+#: inc/modules/automatic-scanning/api.php:122
+msgid "A scan is already in progress."
+msgstr "Pemindaian sudah sedang berlangsung."
+
+#: inc/modules/automatic-scanning/api.php:128
+msgid "Could not start the scan. Please try again."
+msgstr "Tidak dapat memulai pemindaian. Silakan coba lagi."
+
+#: inc/modules/automatic-scanning/api.php:131
+msgid "Scan triggered."
+msgstr "Pemindaian dipicu."
+
+#: inc/modules/automatic-scanning/runner.php:100
+msgid "Automatic scan deferred: daily page budget reached. Retrying in ~24 hours."
+msgstr "Pemindaian otomatis ditunda: anggaran halaman harian tercapai. Mencoba lagi dalam ~24 jam."
+
+#: inc/modules/automatic-scanning/runner.php:124
+msgid "Automatic scan skipped: a scan is already in progress."
+msgstr "Pemindaian otomatis dilewati: pemindaian sudah sedang berlangsung."
+
+#: inc/modules/automatic-scanning/runner.php:142
+msgid "Starting automatic (scheduled) scan."
+msgstr "Memulai pemindaian otomatis (terjadwal)."
+
+#: inc/modules/automatic-scanning/scheduler.php:85
+msgid "Once Monthly (SureCookie)"
+msgstr "Sekali Sebulan (SureCookie)"
+
+#: inc/modules/automatic-scanning/scheduler.php:92
+msgid "Once Weekly (SureCookie)"
+msgstr "Sekali Seminggu (SureCookie)"
+
+#: inc/modules/script-blocking/blocker.php:1279
+msgid "This content is currently blocked."
+msgstr "Konten ini saat ini diblokir."
+
+#: inc/modules/site-scanner/saas-client.php:519
+msgid "Scan deferred by server: daily page budget reached. It will retry automatically."
+msgstr "Pemindaian ditunda oleh server: anggaran halaman harian tercapai. Akan mencoba lagi secara otomatis."
+
+#: inc/modules/site-scanner/saas-client.php:524
+msgid "Daily page budget reached. The scheduled scan will retry automatically."
+msgstr "Anggaran halaman harian tercapai. Pemindaian terjadwal akan mencoba lagi secara otomatis."
+
+#: build/admin.js:2
+#: build/admin.js:79
+msgid "Manual"
+msgstr "Manual"
+
+#: build/admin.js:2
+msgid "Automatic"
+msgstr "Otomatis"
+
+#: build/admin.js:2
+msgid "Reset to default"
+msgstr "Atur ulang ke default"
+
+#: build/admin.js:2
+msgid "Enable Background Overlay"
+msgstr "Aktifkan Lapisan Latar Belakang"
+
+#: build/admin.js:2
+msgid "Background Overlay"
+msgstr "Lapisan Latar Belakang"
+
+#: build/admin.js:2
+msgid "Dim the page behind the banner and limit interaction until the visitor accepts or declines. The overlay is removed after a choice is made."
+msgstr "Redupkan halaman di belakang banner dan batasi interaksi sampai pengunjung menerima atau menolak. Lapisan akan dihapus setelah pilihan dibuat."
+
+#: build/admin.js:2
+msgid "This layout highlights the consent banner and may affect user experience. Ensure it aligns with your regional consent requirements."
+msgstr "Tata letak ini menyoroti banner persetujuan dan dapat memengaruhi pengalaman pengguna. Pastikan sesuai dengan persyaratan persetujuan regional Anda."
+
+#: build/admin.js:2
+#: build/admin.js:3
+msgid "Re-request Consent"
+msgstr "Minta Persetujuan Ulang"
+
+#. translators: %s: date/time of the last renewal.
+#: build/admin.js:3
+#, js-format
+msgid "Last Requested: %s"
+msgstr "Terakhir Diminta: %s"
+
+#: build/admin.js:3
+msgid "Ask all visitors to provide consent again. Use this after updating your cookie policy or adding new trackers. Existing consent will be marked as outdated, and the banner will reappear on the next visit."
+msgstr "Minta semua pengunjung memberikan persetujuan lagi. Gunakan ini setelah memperbarui kebijakan cookie Anda atau menambahkan pelacak baru. Persetujuan yang ada akan ditandai sebagai usang, dan banner akan muncul kembali pada kunjungan berikutnya."
+
+#: build/admin.js:3
+msgid "Consent requested. Visitors will be asked for consent again."
+msgstr "Persetujuan diminta. Pengunjung akan diminta persetujuan lagi."
+
+#: build/admin.js:3
+msgid "Could not Re-request Consent. Please try again."
+msgstr "Tidak dapat Meminta Persetujuan Ulang. Silakan coba lagi."
+
+#: build/admin.js:3
+msgid "Renewing…"
+msgstr "Memperbarui…"
+
+#: build/admin.js:3
+msgid "Confirm Re-request"
+msgstr "Konfirmasi Permintaan Ulang"
+
+#: build/admin.js:22
+#: build/onboarding.js:2
+msgid "New"
+msgstr "Baru"
+
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Automatic Scanning"
+msgstr "Pemindaian Otomatis"
+
+#: build/admin.js:43
+msgid "Manage"
+msgstr "Kelola"
+
+#: build/admin.js:43
+msgid "Since the last scan:"
+msgstr "Sejak pemindaian terakhir:"
+
+#: build/admin.js:43
+msgid "new cookie"
+msgid_plural "new cookies"
+msgstr[0] "cookie baru"
+
+#: build/admin.js:43
+msgid "removed"
+msgstr "dihapus"
+
+#: build/admin.js:43
+msgid "new tracker domain"
+msgid_plural "new tracker domains"
+msgstr[0] "domain pelacak baru"
+
+#: build/admin.js:43
+msgid "No scans yet. Schedule automatic scans to track changes over time."
+msgstr "Belum ada pemindaian. Jadwalkan pemindaian otomatis untuk melacak perubahan dari waktu ke waktu."
+
+#. translators: %s: next scan date
+#: build/admin.js:44
+#, js-format
+msgid "Next scan: %s"
+msgstr "Pemindaian berikutnya: %s"
+
+#: build/admin.js:44
+msgid "Scheduling is off"
+msgstr "Penjadwalan dimatikan"
+
+#: build/admin.js:75
+msgid "Network-activated"
+msgstr "Diaktifkan jaringan"
+
+#: build/admin.js:75
+msgid "Manage in Network Admin"
+msgstr "Kelola di Admin Jaringan"
+
+#: build/admin.js:76
+msgid "Google Consent Mode is enabled, so SureCookie allows Google's Consent Mode scripts to function correctly. As a result, this script cannot be blocked."
+msgstr "Mode Persetujuan Google diaktifkan, jadi SureCookie memungkinkan skrip Mode Persetujuan Google berfungsi dengan benar. Oleh karena itu, skrip ini tidak dapat diblokir."
+
+#: build/admin.js:78
+msgid "Necessary"
+msgstr "Diperlukan"
+
+#: build/admin.js:78
+msgid "What Changed in the Last Scan"
+msgstr "Apa yang Berubah dalam Pemindaian Terakhir"
+
+#: build/admin.js:78
+msgid "Cookies and tracker domains that changed compared to the previous scan."
+msgstr "Cookie dan domain pelacak yang berubah dibandingkan dengan pemindaian sebelumnya."
+
+#: build/admin.js:78
+msgid "No differences were detected compared to the previous scan."
+msgstr "Tidak ada perbedaan yang terdeteksi dibandingkan dengan pemindaian sebelumnya."
+
+#: build/admin.js:78
+msgid "New Cookies"
+msgstr "Cookie Baru"
+
+#: build/admin.js:78
+msgid "No Longer Detected"
+msgstr "Tidak Lagi Terdeteksi"
+
+#: build/admin.js:78
+msgid "Recategorized"
+msgstr "Dikategorikan Ulang"
+
+#: build/admin.js:78
+msgid "New Tracker Domains"
+msgstr "Domain Pelacak Baru"
+
+#: build/admin.js:78
+msgid "Third-party"
+msgstr "Pihak ketiga"
+
+#: build/admin.js:78
+msgid "Monthly"
+msgstr "Bulanan"
+
+#: build/admin.js:78
+msgid "Re-scan your site once a month."
+msgstr "Pindai ulang situs Anda sebulan sekali."
+
+#: build/admin.js:78
+msgid "Weekly"
+msgstr "Mingguan"
+
+#: build/admin.js:78
+msgid "Re-scan every week for faster drift detection."
+msgstr "Pindai ulang setiap minggu untuk deteksi perubahan lebih cepat."
+
+#: build/admin.js:78
+msgid "All Published Content"
+msgstr "Semua Konten yang Diterbitkan"
+
+#: build/admin.js:78
+msgid "Enable Automatic Scanning"
+msgstr "Aktifkan Pemindaian Otomatis"
+
+#: build/admin.js:78
+msgid "Run scheduled scans in the background and detect changes automatically."
+msgstr "Jalankan pemindaian terjadwal di latar belakang dan deteksi perubahan secara otomatis."
+
+#: build/admin.js:78
+msgid "Scan Frequency"
+msgstr "Frekuensi Pemindaian"
+
+#: build/admin.js:78
+msgid "WordPress cron is disabled"
+msgstr "Cron WordPress dinonaktifkan"
+
+#: build/admin.js:78
+msgid "Scheduled scans rely on cron. Ask your host to set up a real server cron job so automatic scans run on time."
+msgstr "Pemindaian terjadwal bergantung pada cron. Minta penyedia hosting Anda untuk mengatur pekerjaan cron server nyata agar pemindaian otomatis berjalan tepat waktu."
+
+#: build/admin.js:78
+msgid "Last Scan"
+msgstr "Pemindaian Terakhir"
+
+#. translators: %s: last scan date-time
+#: build/admin.js:79
+#, js-format
+msgid "Scanned on %s"
+msgstr "Dipindai pada %s"
+
+#: build/admin.js:79
+msgid "Scheduled"
+msgstr "Terjadwal"
+
+#. translators: %d: number of new cookies
+#: build/admin.js:80
+#, js-format
+msgid "%d New Cookies"
+msgstr "%d Cookie Baru"
+
+#. translators: %d: number of cookies no longer detected
+#: build/admin.js:81
+#, js-format
+msgid "%d Removed"
+msgstr "%d Dihapus"
+
+#. translators: %d: number of recategorized cookies
+#: build/admin.js:82
+#, js-format
+msgid "%d Recategorized"
+msgstr "%d Dikategorikan Ulang"
+
+#. translators: %d: number of new tracker domains
+#: build/admin.js:83
+#, js-format
+msgid "%d New Tracker Domains"
+msgstr "%d Domain Pelacak Baru"
+
+#: build/admin.js:83
+msgid "View Changes"
+msgstr "Lihat Perubahan"
+
+#: build/admin.js:83
+msgid "No scans yet - run your first scan to start monitoring changes."
+msgstr "Belum ada pemindaian - jalankan pemindaian pertama Anda untuk mulai memantau perubahan."
+
+#: build/admin.js:83
+msgid "Stay Compliant Automatically"
+msgstr "Tetap Patuh Secara Otomatis"
+
+#: build/admin.js:83
+msgid "Get weekly scans, instant alerts, smart classification, and automatic protection from new trackers."
+msgstr "Dapatkan pemindaian mingguan, peringatan instan, klasifikasi cerdas, dan perlindungan otomatis dari pelacak baru."
+
+#. translators: %d: maximum pages
+#: build/onboarding.js:11
+#, js-format
+msgid "SureCookie agent will visit them like real users to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "Agen SureCookie akan mengunjungi mereka seperti pengguna nyata untuk mendeteksi semua cookie yang digunakan. Diizinkan %d halaman per pemindaian karena keterbatasan sumber daya."
+
+#. translators: 1: remaining pages, 2: total daily page budget
+#: build/admin.js:70
+#, js-format
+msgid "%1$d of %2$d daily pages remaining on this site"
+msgstr "%1$d dari %2$d halaman harian tersisa di situs ini"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "<p>By scanning you accept our <a>terms and conditions</a>.</p>"
+msgstr "<p>Dengan memindai Anda menerima <a>syarat dan ketentuan</a> kami.</p>"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Terms and Conditions"
+msgstr "Syarat dan Ketentuan"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Cookie Scanning Not Available on Local Sites"
+msgstr "Pemindaian Cookie Tidak Tersedia di Situs Lokal"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "This site is running on a local or development environment that our cloud scanner cannot reach. Cookie scanning will be available once your site is live on a publicly accessible domain."
+msgstr "Situs ini berjalan di lingkungan lokal atau pengembangan yang tidak dapat dijangkau pemindai cloud kami. Pemindaian cookie akan tersedia setelah situs Anda aktif di domain yang dapat diakses publik."
+
+#: build/onboarding.js:14
+msgid "Skip for Now"
+msgstr "Lewati untuk Saat Ini"
+
+#: build/onboarding.js:14
+msgid "Stay in the loop and help shape SureCookie! Get feature updates, and help us build a better SureCookie by sharing how you use the plugin. <a>Terms and Conditions</a>"
+msgstr "Tetap terhubung dan bantu bentuk SureCookie! Dapatkan pembaruan fitur, dan bantu kami membangun SureCookie yang lebih baik dengan membagikan bagaimana Anda menggunakan plugin ini. <a>Syarat dan Ketentuan</a>"
+
+#: admin/product-promotion.php:104
+msgid "Grow traffic of your website with SureRank - a lightweight SEO toolkit plugin for WordPress users who want better rankings without the complexity."
+msgstr "Tingkatkan lalu lintas situs web Anda dengan SureRank - plugin toolkit SEO ringan untuk pengguna WordPress yang menginginkan peringkat lebih baik tanpa kerumitan."
+
+#: admin/rating-notice.php:232
+msgid "Amazing! SureCookie discovered cookies on your site - let's keep growing together!"
+msgstr "Luar biasa! SureCookie menemukan cookie di situs Anda - mari terus berkembang bersama!"
+
+#. translators: 1: page URL, 2: error message
+#: inc/modules/site-scanner/saas-client.php:989
+#, php-format
+msgid "Page failed: %1$s - %2$s"
+msgstr "Halaman gagal: %1$s - %2$s"
+
+#: build/admin.js:43
+msgid "WP-Cron disabled - scans won’t run automatically"
+msgstr "WP-Cron dinonaktifkan - pemindaian tidak akan berjalan secara otomatis"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Consider Plan Upgrade"
+msgstr "Pertimbangkan Peningkatan Paket"
+
+#. translators: 1: pages scanned, 2: pages submitted
+#: build/admin.js:75
+#, js-format
+msgid "Scanned %1$d of %2$d pages - your daily page budget is used up. The remaining pages will scan after it resets."
+msgstr "%1$d dari %2$d halaman telah dipindai - kuota halaman harian Anda telah habis. Halaman yang tersisa akan dipindai setelah kuota direset."
+
+#: build/admin.js:84
+msgid "Update the environment variables"
+msgstr "Perbarui variabel lingkungan"
+
+#: build/admin.js:84
+msgid "WP_API_USERNAME"
+msgstr "WP_API_USERNAME"
+
+#: build/admin.js:84
+msgid "Your WordPress username (prefilled)."
+msgstr "Nama pengguna WordPress Anda (terisi otomatis)."
+
+#: build/admin.js:84
+msgid "WP_API_PASSWORD"
+msgstr "WP_API_PASSWORD"
+
+#: build/admin.js:84
+msgid "Replace \"your-application-password\" with the password from Step 1."
+msgstr "Ganti \"your-application-password\" dengan kata sandi dari Langkah 1."
+
+#: build/admin.js:84
+msgid "Verify Node.js version"
+msgstr "Verifikasi versi Node.js"
+
+#: build/admin.js:84
+msgid "In your terminal, run:"
+msgstr "Di terminal Anda, jalankan:"
+
+#: build/admin.js:84
+msgid "The version must be 20.1 or higher."
+msgstr "Versinya harus 20.1 atau lebih tinggi."
+
+#: build/admin.js:84
+msgid "If it is lower, run:"
+msgstr "Jika lebih rendah, jalankan:"
+
+#: build/admin.js:84
+msgid "Restart your AI client and paste the copied prompt again into your AI client."
+msgstr "Mulai ulang klien AI Anda dan tempel kembali prompt yang telah disalin ke klien AI Anda."
+
+#: build/admin.js:84
+msgid "Enjoy your AI client connected to your WordPress site!"
+msgstr "Nikmati klien AI Anda yang terhubung ke situs WordPress Anda!"
+
+#: admin/rating-notice.php:156
+msgid "Invalid nonce."
+msgstr "Nonce tidak valid."
+
+#: admin/rating-notice.php:158
+msgid "Unauthorized user."
+msgstr "Pengguna tidak berwenang."
+
+#: admin/rating-notice.php:171
+msgid "Invalid parameters."
+msgstr "Parameter tidak valid."
+
+#: build/admin.js:47
+msgid "More scan limits, geographic targeting, re-consent widget, and more."
+msgstr "Batas pemindaian lebih banyak, penargetan geografis, widget persetujuan ulang, dan lainnya."
+
+#: inc/integrations/presto-player/block-handler.php:293
+msgid "This audio is blocked until you accept cookies to load it."
+msgstr "Audio ini diblokir sampai Anda menerima cookie untuk memuatnya."
+
+#: inc/integrations/presto-player/block-handler.php:297
+msgid "This video is blocked until you accept cookies to load it."
+msgstr "Video ini diblokir sampai Anda menerima cookie untuk memuatnya."
+
+#: build/admin.js:2
+msgid "Tools"
+msgstr "Alat"
+
+#: build/admin.js:2
+msgid "You've used all available AI requests in your Free Plan. Upgrade to SureCookie premium to keep using AI features."
+msgstr "Anda telah menggunakan semua permintaan AI yang tersedia dalam Paket Gratis Anda. Tingkatkan ke SureCookie premium untuk terus menggunakan fitur AI."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to access this feature."
+msgstr "Tingkatkan ke SureCookie premium untuk mengakses fitur ini."
+
+#: build/admin.js:2
+msgid "Is this button order not showing on the frontend?"
+msgstr "Apakah urutan tombol ini tidak muncul di frontend?"
+
+#: build/admin.js:2
+msgid "Visitors who match a region-specific rule will see the button order defined for that region. This global order is shown only to visitors who don't match any regional rules."
+msgstr "Pengunjung yang sesuai dengan aturan khusus wilayah akan melihat urutan tombol yang ditentukan untuk wilayah tersebut. Urutan global ini hanya ditampilkan kepada pengunjung yang tidak sesuai dengan aturan wilayah manapun."
+
+#: build/admin.js:2
+msgid "Manage Geo Rules"
+msgstr "Kelola Aturan Geo"
+
+#: build/admin.js:2
+msgid "You can add links and basic formatting like bold/italic/link to the banner message."
+msgstr "Anda dapat menambahkan tautan dan pemformatan dasar seperti tebal/miring/tautan ke pesan banner."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to pick custom primary, secondary, foreground, and background colors for your banner."
+msgstr "Tingkatkan ke SureCookie premium untuk memilih warna utama, sekunder, latar depan, dan latar belakang khusus untuk banner Anda."
+
+#: build/admin.js:6
+msgid "Export Consent Logs"
+msgstr "Ekspor Log Persetujuan"
+
+#: build/admin.js:6
+msgid "Upgrade to premium to download CSV report for legal audits and GDPR Article 7 documentation."
+msgstr "Tingkatkan ke premium untuk mengunduh laporan CSV untuk audit hukum dan dokumentasi Pasal 7 GDPR."
+
+#: build/admin.js:44
+msgid "Grab the Launch Offer"
+msgstr "Dapatkan Penawaran Peluncuran"
+
+#: build/admin.js:47
+msgid "Do More with SureCookie Premium"
+msgstr "Lakukan Lebih Banyak dengan SureCookie Premium"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Checking your scan limits…"
+msgstr "Memeriksa batas pemindaian Anda…"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Run your first scan to connect this site with SureCookie. Your plan's full scan limits unlock automatically once the connection is established."
+msgstr "Jalankan pemindaian pertama Anda untuk menghubungkan situs ini dengan SureCookie. Batas pemindaian penuh paket Anda akan terbuka secara otomatis setelah koneksi terjalin."
+
+#. translators: %d: maximum pages
+#: build/admin.js:67
+#, js-format
+msgid "We'll visit the selected content to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "Kami akan mengunjungi konten yang dipilih untuk mendeteksi semua cookie yang digunakan. Diizinkan %d halaman per pemindaian karena keterbatasan sumber daya."
+
+#. translators: %d: maximum items
+#: build/admin.js:72
+#: build/onboarding.js:13
+#, js-format
+msgid "Select up to %d items to scan…"
+msgstr "Pilih hingga %d item untuk dipindai…"
+
+#: build/admin.js:72
+#: build/onboarding.js:13
+msgid "Select Content"
+msgstr "Pilih Konten"
+
+#: build/admin.js:73
+#: build/onboarding.js:14
+msgid "Select the content you want to scan."
+msgstr "Pilih konten yang ingin Anda pindai."
+
+#: build/admin.js:74
+msgid "Scanning your content for cookies. This may take a few minutes."
+msgstr "Memindai konten Anda untuk cookie. Ini mungkin memerlukan beberapa menit."
+
+#: build/admin.js:75
+msgid "Unlock Geo Rules, Advanced Scanning & more with Pro - Grab the launching offer!"
+msgstr "Buka Aturan Geo, Pemindaian Lanjutan & lainnya dengan Pro - Dapatkan penawaran peluncuran!"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Claim the Deal"
+msgstr "Klaim Penawaran"
+
+#: build/admin.js:78
+msgid "Content from Manual Scan"
+msgstr "Konten dari Pemindaian Manual"
+
+#: build/admin.js:78
+msgid "Reuse the content selected on the Cookie Scanner."
+msgstr "Gunakan kembali konten yang dipilih pada Pemindai Cookie."
+
+#: build/admin.js:78
+msgid "Scan all published content, as per plan limit."
+msgstr "Pindai semua konten yang dipublikasikan, sesuai batas paket."
+
+#: build/admin.js:78
+msgid "Selected Content"
+msgstr "Konten Terpilih"
+
+#: build/admin.js:78
+msgid "Choose specific content to scan below."
+msgstr "Pilih konten spesifik untuk dipindai di bawah ini."
+
+#: build/admin.js:78
+msgid "Content to Scan"
+msgstr "Konten untuk Dipindai"
+
+#: build/admin.js:78
+msgid "Select content to scan…"
+msgstr "Pilih konten untuk dipindai…"
+
+#: build/onboarding.js:6
+msgid "Launch Offer - Save Big"
+msgstr "Penawaran Peluncuran - Hemat Besar"
+
+#: build/onboarding.js:6
+msgid "Limited Time"
+msgstr "Waktu Terbatas"
+
+#: build/onboarding.js:6
+msgid "Upgrade to Premium and unlock advanced scanning, geo rules, custom branding, and priority support."
+msgstr "Tingkatkan ke Premium dan buka pemindaian lanjutan, aturan geo, branding khusus, dan dukungan prioritas."
+
+#: build/onboarding.js:6
+msgid "Failed to activate license. Please try again."
+msgstr "Gagal mengaktifkan lisensi. Silakan coba lagi."
+
+#: build/onboarding.js:6
+msgid "License Activated!"
+msgstr "Lisensi Diaktifkan!"
+
+#: build/onboarding.js:6
+msgid "Your license has been successfully activated."
+msgstr "Lisensi Anda telah berhasil diaktifkan."
+
+#: build/onboarding.js:6
+msgid "Activation Failed"
+msgstr "Aktivasi Gagal"
+
+#: build/onboarding.js:6
+msgid "An error occurred during activation. Please try again."
+msgstr "Terjadi kesalahan selama aktivasi. Silakan coba lagi."
+
+#: build/onboarding.js:6
+msgid "Invalid License Key"
+msgstr "Kunci Lisensi Tidak Valid"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid license key."
+msgstr "Silakan masukkan kunci lisensi yang valid."
+
+#: build/onboarding.js:6
+msgid "Activate Your License"
+msgstr "Aktifkan Lisensi Anda"
+
+#: build/onboarding.js:6
+msgid "Activate your SureCookie license to unlock higher scan limits, automatically classify cookies, and get smart compliance recommendations."
+msgstr "Aktifkan lisensi SureCookie Anda untuk membuka batas pemindaian yang lebih tinggi, secara otomatis mengklasifikasikan cookie, dan mendapatkan rekomendasi kepatuhan yang cerdas."
+
+#: build/onboarding.js:6
+msgid "License activated"
+msgstr "Lisensi diaktifkan"
+
+#: build/onboarding.js:6
+msgid "Activating…"
+msgstr "Mengaktifkan…"
+
+#: build/admin.js:63
+#: build/onboarding.js:6
+#: build/onboarding.js:7
+msgid "Activate License"
+msgstr "Aktifkan Lisensi"
+
+#: build/onboarding.js:6
+msgid "License Key"
+msgstr "Kunci Lisensi"
+
+#: build/onboarding.js:6
+msgid "Paste your license key here"
+msgstr "Tempelkan kunci lisensi Anda di sini"
+
+#. translators: %s: Package name (e.g., SureCookie Pro)
+#: build/onboarding.js:7
+#, js-format
+msgid "Activate your <strong>%s</strong> license to receive professional support and automatic updates directly from your WordPress dashboard. Don't have a license? <a>Get it here »</a>"
+msgstr "Aktifkan lisensi <strong>%s</strong> Anda untuk menerima dukungan profesional dan pembaruan otomatis langsung dari dasbor WordPress Anda. Tidak punya lisensi? <a>Dapatkan di sini »</a>"
+
+#: build/onboarding.js:7
+msgid "Purchase a SureCookie license"
+msgstr "Beli lisensi SureCookie"
+
+#: build/admin.js:2
+msgid "View Plans"
+msgstr "Lihat Rencana"
+
+#: build/admin.js:4
+msgid "CONSENT RECORD"
+msgstr "REKAMAN PERSETUJUAN"
+
+#: build/admin.js:4
+msgid "This document contains a record of the consent choice stored by SureCookie. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Dokumen ini berisi rekaman pilihan persetujuan yang disimpan oleh SureCookie. Ini dapat digunakan untuk dokumentasi internal dan tinjauan. Persyaratan hukum dapat bervariasi."
+
+#: build/admin.js:4
+msgid "This document is automatically generated by the SureCookie plugin and contains a record of the consent choice stored at the time of export. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Dokumen ini dibuat secara otomatis oleh plugin SureCookie dan berisi rekaman pilihan persetujuan yang disimpan pada saat ekspor. Ini dapat digunakan untuk dokumentasi internal dan tinjauan. Persyaratan hukum dapat bervariasi."
+
+#: build/admin.js:43
+msgid "Enter your custom CSS here"
+msgstr "Masukkan CSS kustom Anda di sini"
+
+#: build/admin.js:43
+msgid "Use !important to override inline styles"
+msgstr "Gunakan !important untuk mengesampingkan gaya inline"
+
+#: build/admin.js:43
+msgid "Your cookie banner is enabled."
+msgstr "Banner cookie Anda diaktifkan."
+
+#: build/admin.js:43
+msgid "Your cookie banner is currently disabled."
+msgstr "Banner cookie Anda saat ini dinonaktifkan."
+
+#: build/admin.js:2
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Activate SureCookie Pro"
+msgstr "Aktifkan SureCookie Pro"
+
+#. translators: %d: maximum pages
+#: build/admin.js:64
+#: build/onboarding.js:8
+#, js-format
+msgid "Your first scan can cover up to %d pages while we connect your site. Remove the extra pages to start - Your plan's full limits unlock automatically afterward."
+msgstr "Pemindaian pertama Anda dapat mencakup hingga %d halaman saat kami menghubungkan situs Anda. Hapus halaman tambahan untuk memulai - Batas penuh rencana Anda akan terbuka secara otomatis setelahnya."
+
+#. translators: %d: maximum pages
+#: build/admin.js:66
+#: build/onboarding.js:10
+#, js-format
+msgid "The free plan supports scanning up to %d pages. Upgrade now to scan more pages and keep your cookie list updated automatically."
+msgstr "Rencana gratis mendukung pemindaian hingga %d halaman. Tingkatkan sekarang untuk memindai lebih banyak halaman dan menjaga daftar cookie Anda tetap diperbarui secara otomatis."
+
+#. translators: %s: SureCookie plan tier, e.g. "Business"
+#: build/admin.js:76
+#, js-format
+msgid "%s version"
+msgstr "%s versi"
+
+#: build/onboarding.js:6
+msgid "Let's help you discover cookies, configure consent choices, and improve how your website handles visitor privacy. SureCookie automatically detects and categorizes cookies so you can stay focused on growing your business."
+msgstr "Mari bantu Anda menemukan cookie, mengonfigurasi pilihan persetujuan, dan meningkatkan cara situs web Anda menangani privasi pengunjung. SureCookie secara otomatis mendeteksi dan mengkategorikan cookie sehingga Anda dapat tetap fokus mengembangkan bisnis Anda."
+
+#: build/onboarding.js:14
+msgid "Keep consent records locally on the site and export individual records when needed"
+msgstr "Simpan rekaman persetujuan secara lokal di situs dan ekspor rekaman individu saat diperlukan"
+
+#: admin/menu.php:78
+#: build/admin.js:2
+msgid "Tracking Manager"
+msgstr "Manajer Pelacakan"
+
+#: admin/product-promotion.php:116
+msgid "WordPress emails often go missing or land in spam because web hosts aren't built for reliable delivery. SureMail fixes this by connecting to trusted SMTP services, so your emails reach inboxes, no more lost messages or frustrated customers."
+msgstr "Email WordPress sering hilang atau masuk ke spam karena penyedia hosting web tidak dirancang untuk pengiriman yang andal. SureMail memperbaiki ini dengan menghubungkan ke layanan SMTP terpercaya, sehingga email Anda sampai ke kotak masuk, tidak ada lagi pesan yang hilang atau pelanggan yang frustrasi."
+
+#: admin/product-promotion.php:122
+msgid "Spectra Blocks is a complete rebuild of Spectra on WordPress's modern core-block APIs - an AI website builder built directly into the Block Editor."
+msgstr "Spectra Blocks adalah pembangunan ulang lengkap Spectra pada API inti blok modern WordPress - pembuat situs web AI yang dibangun langsung ke dalam Editor Blok."
+
+#: inc/api/cookies.php:395
+msgid "Failed to update cookie categories: "
+msgstr "Gagal memperbarui kategori cookie:"
+
+#. translators: %s: Provider name (e.g., YouTube, Vimeo)
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:236
+#: inc/modules/script-blocking/blocker.php:1294
+#, php-format
+msgid "Accept and load %s content"
+msgstr "Terima dan muat konten %s"
+
+#: inc/modules/assisted-scan/api.php:122
+msgid "An assisted scan is already running. Cancel it before starting another."
+msgstr "Pemindaian terbantu sudah berjalan. Batalkan sebelum memulai yang lain."
+
+#: inc/modules/assisted-scan/api.php:144
+#: inc/modules/assisted-scan/api.php:155
+msgid "Select at least one published page to scan."
+msgstr "Pilih setidaknya satu halaman yang dipublikasikan untuk dipindai."
+
+#: inc/modules/assisted-scan/api.php:163
+msgid "Starting assisted scan (collected from your browser)."
+msgstr "Memulai pemindaian terbantu (dikumpulkan dari browser Anda)."
+
+#. translators: %d: number of pages.
+#: inc/modules/assisted-scan/api.php:167
+#, php-format
+msgid "Pages to visit: %d."
+msgstr "Halaman yang akan dikunjungi: %d."
+
+#: inc/modules/assisted-scan/api.php:197
+#: inc/modules/assisted-scan/api.php:253
+msgid "This scan session has expired. Start the scan again."
+msgstr "Sesi pemindaian ini telah kedaluwarsa. Mulai pemindaian lagi."
+
+#: inc/modules/assisted-scan/api.php:210
+msgid "The scan sent more data than a single page should produce."
+msgstr "Pemindaian mengirimkan data lebih banyak dari yang seharusnya dihasilkan oleh satu halaman."
+
+#: inc/modules/assisted-scan/api.php:222
+msgid "That page is not the one this scan was waiting for."
+msgstr "Halaman itu bukan yang sedang ditunggu oleh pemindaian ini."
+
+#: inc/modules/assisted-scan/api.php:275
+#: inc/modules/assisted-scan/api.php:277
+msgid "Assisted scan cancelled."
+msgstr "Pemindaian terbantu dibatalkan."
+
+#. translators: 1: current page number, 2: total pages.
+#: inc/modules/assisted-scan/collector.php:322
+#, php-format
+msgid "SureCookie is scanning page %1$d of %2$d"
+msgstr "SureCookie sedang memindai halaman %1$d dari %2$d"
+
+#: inc/modules/assisted-scan/collector.php:323
+msgid "Keep this tab in front so the scan can continue."
+msgstr "Jaga tab ini tetap di depan agar pemindaian dapat berlanjut."
+
+#: inc/modules/assisted-scan/collector.php:324
+msgid "Paused. Bring this tab to the front to continue."
+msgstr "Dijeda. Bawa tab ini ke depan untuk melanjutkan."
+
+#: inc/modules/assisted-scan/collector.php:325
+msgid "Preparing a clean visit…"
+msgstr "Mempersiapkan kunjungan bersih…"
+
+#. translators: 1: number of cookies, 2: number of services.
+#: inc/modules/assisted-scan/collector.php:327
+#, php-format
+msgid "Scan complete: %1$d cookies, %2$d services found"
+msgstr "Pemindaian selesai: %1$d cookie, %2$d layanan ditemukan"
+
+#: inc/modules/assisted-scan/collector.php:328
+msgid "The scan could not be completed. Return to SureCookie to try again."
+msgstr "Pemindaian tidak dapat diselesaikan. Kembali ke SureCookie untuk mencoba lagi."
+
+#: inc/modules/assisted-scan/collector.php:330
+msgid "SureCookie assisted scan progress"
+msgstr "Progres pemindaian terbantu SureCookie"
+
+#. translators: 1: page number, 2: cookie count, 3: resource count.
+#: inc/modules/assisted-scan/ingest.php:119
+#, php-format
+msgid "Page %1$d collected: %2$d cookies, %3$d third-party resources."
+msgstr "Halaman %1$d dikumpulkan: %2$d cookie, %3$d sumber pihak ketiga."
+
+#. translators: 1: page number, 2: error reason.
+#: inc/modules/assisted-scan/ingest.php:129
+#, php-format
+msgid "Page %1$d could not be collected (%2$s)."
+msgstr "Halaman %1$d tidak dapat dikumpulkan (%2$s)."
+
+#. translators: 1: cookie count, 2: service count.
+#: inc/modules/assisted-scan/ingest.php:222
+#, php-format
+msgid "Assisted scan finished: %1$d cookies, %2$d known services."
+msgstr "Pemindaian terbantu selesai: %1$d cookie, %2$d layanan dikenal."
+
+#. translators: %s: comma-separated service names.
+#: inc/modules/assisted-scan/ingest.php:232
+#, php-format
+msgid "A first-party check also found: %s. Your browser may have blocked these."
+msgstr "Pemeriksaan pihak pertama juga menemukan: %s. Browser Anda mungkin telah memblokir ini."
+
+#: inc/modules/assisted-scan/session.php:466
+msgid "Assisted scan in progress..."
+msgstr "Pemindaian terbantu sedang berlangsung..."
+
+#: inc/modules/assisted-scan/session.php:576
+msgid "Assisted scan finished."
+msgstr "Pemindaian terbantu selesai."
+
+#: inc/modules/services/api.php:142
+msgid "Unknown service."
+msgstr "Layanan tidak dikenal."
+
+#: inc/modules/services/api.php:153
+msgid "This is a Pro service. Upgrade to add it."
+msgstr "Ini adalah layanan Pro. Tingkatkan untuk menambahkannya."
+
+#: inc/modules/site-scanner/cron.php:210
+msgid "Assisted scan cancelled by user."
+msgstr "Pemindaian terbantu dibatalkan oleh pengguna."
+
+#: inc/modules/site-scanner/saas-client.php:1653
+msgid "We could not verify your domain because your site's SSL certificate could not be validated (it may be self-signed, expired, or issued for a different domain). Install a valid certificate (for example Let's Encrypt), or scan your live domain that already has one, then retry."
+msgstr "Kami tidak dapat memverifikasi domain Anda karena sertifikat SSL situs Anda tidak dapat divalidasi (mungkin sertifikat tanda tangan sendiri, kedaluwarsa, atau diterbitkan untuk domain lain). Pasang sertifikat yang valid (misalnya Let's Encrypt), atau pindai domain langsung Anda yang sudah memilikinya, lalu coba lagi."
+
+#: inc/modules/site-scanner/saas-client.php:1655
+msgid "We could not verify your domain because your host is blocking our verification request to /wp-json/. This is common on SiteGround. Allowlist our scanner IPs/User-Agent (or ask your host to) and retry - or add your services manually in the meantime."
+msgstr "Kami tidak dapat memverifikasi domain Anda karena host Anda memblokir permintaan verifikasi kami ke /wp-json/. Ini umum terjadi di SiteGround. Izinkan IP/User-Agent pemindai kami (atau minta host Anda untuk melakukannya) dan coba lagi - atau tambahkan layanan Anda secara manual sementara waktu."
+
+#: inc/modules/site-scanner/saas-client.php:1657
+msgid "We could not reach your site's REST API at /wp-json/. Enable pretty permalinks and make sure no security plugin is disabling the REST API, then retry."
+msgstr "Kami tidak dapat mengakses REST API situs Anda di /wp-json/. Aktifkan permalink yang rapi dan pastikan tidak ada plugin keamanan yang menonaktifkan REST API, lalu coba lagi."
+
+#: inc/services/cookie-category-service.php:247
+msgid "Cookies cannot be moved to the category being deleted."
+msgstr "Cookie tidak dapat dipindahkan ke kategori yang sedang dihapus."
+
+#: inc/services/cookie-category-service.php:254
+#: inc/services/cookie-service.php:440
+msgid "The selected category no longer exists. Please reload and try again."
+msgstr "Kategori yang dipilih sudah tidak ada. Silakan muat ulang dan coba lagi."
+
+#: inc/services/cookie-service.php:421
+msgid "No cookies selected."
+msgstr "Tidak ada cookie yang dipilih."
+
+#. translators: %d: maximum number of cookies per request.
+#: inc/services/cookie-service.php:430
+#, php-format
+msgid "Too many cookies in one request. Please select up to %d."
+msgstr "Terlalu banyak cookie dalam satu permintaan. Silakan pilih hingga %d."
+
+#. translators: %d: number of cookies updated.
+#: inc/services/cookie-service.php:547
+#, php-format
+msgid "%d cookie moved to the selected category."
+msgid_plural "%d cookies moved to the selected category."
+msgstr[0] "%d cookie dipindahkan ke kategori yang dipilih."
+
+#: inc/services/cookie-service.php:555
+msgid "No cookies could be updated."
+msgstr "Tidak ada cookie yang dapat diperbarui."
+
+#: build/admin.js:2
+msgid "Scanning"
+msgstr "Memindai"
+
+#: build/admin.js:2
+#: build/admin.js:41
+msgid "Known Services"
+msgstr "Layanan Dikenal"
+
+#: build/admin.js:2
+#: build/admin.js:77
+msgid "Scripts and Embeds"
+msgstr "Skrip dan Sematan"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Geographic Rules"
+msgstr "Aturan Geografis"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Consent Sharing"
+msgstr "Berbagi Persetujuan"
+
+#: build/admin.js:2
+msgid "Add License"
+msgstr "Tambah Lisensi"
+
+#. translators: %s: cookie name.
+#: build/admin.js:22
+#: build/onboarding.js:2
+#, js-format
+msgid "Select %s"
+msgstr "Pilih %s"
+
+#. translators: %s: cookie name.
+#: build/admin.js:23
+#: build/onboarding.js:3
+#, js-format
+msgid "Category for %s"
+msgstr "Kategori untuk %s"
+
+#: build/admin.js:23
+#: build/onboarding.js:3
+msgid "Select category"
+msgstr "Pilih kategori"
+
+#. translators: 1: action label, 2: cookie name.
+#: build/admin.js:24
+#: build/onboarding.js:4
+#, js-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %d: number of selected cookies.
+#: build/admin.js:25
+#, js-format
+msgid "%d selected"
+msgstr "%d dipilih"
+
+#: build/admin.js:25
+msgid "Bulk category"
+msgstr "Kategori massal"
+
+#: build/admin.js:25
+msgid "Move to category…"
+msgstr "Pindah ke kategori…"
+
+#: build/admin.js:25
+msgid "Applying…"
+msgstr "Menerapkan…"
+
+#: build/admin.js:25
+msgid "Apply"
+msgstr "Terapkan"
+
+#: build/admin.js:25
+msgid "Clear selection"
+msgstr "Bersihkan pilihan"
+
+#: build/admin.js:25
+msgid "Select all cookies"
+msgstr "Pilih semua cookie"
+
+#: build/admin.js:28
+msgid "Assigned cookies will be moved to another category instead of being deleted."
+msgstr "Cookie yang ditetapkan akan dipindahkan ke kategori lain, bukan dihapus."
+
+#: build/admin.js:28
+msgid "Move Cookies To"
+msgstr "Pindahkan Cookie Ke"
+
+#: build/admin.js:28
+msgid "Search services…"
+msgstr "Cari layanan…"
+
+#: build/admin.js:28
+msgid "Search services"
+msgstr "Cari layanan"
+
+#: build/admin.js:28
+#: build/admin.js:37
+msgid "All Categories"
+msgstr "Semua Kategori"
+
+#. translators: %d: number of cookies
+#: build/admin.js:29
+#, js-format
+msgid "%d cookie"
+msgid_plural "%d cookies"
+msgstr[0] "%d cookie"
+
+#. translators: %d: number of iframes
+#: build/admin.js:30
+#, js-format
+msgid "%d iframe"
+msgid_plural "%d iframes"
+msgstr[0] "%d iframe"
+
+#. translators: %d: number of scripts
+#: build/admin.js:31
+#, js-format
+msgid "%d script"
+msgid_plural "%d scripts"
+msgstr[0] "%d skrip"
+
+#: build/admin.js:31
+msgid "Added"
+msgstr "Ditambahkan"
+
+#: build/admin.js:31
+msgid "Detected"
+msgstr "Terdeteksi"
+
+#: build/admin.js:31
+msgid "Remove"
+msgstr "Hapus"
+
+#: build/admin.js:31
+msgid "Add Service"
+msgstr "Tambah Layanan"
+
+#: build/admin.js:31
+msgid "No services match your search."
+msgstr "Tidak ada layanan yang cocok dengan pencarian Anda."
+
+#: build/admin.js:31
+msgid "Loads before consent"
+msgstr "Dimuat sebelum persetujuan"
+
+#. translators: %s: service name (e.g. Stripe)
+#: build/admin.js:32
+#, js-format
+msgid "%s is a necessary service, so it loads before consent - its cookies can be set without consent."
+msgstr "%s adalah layanan yang diperlukan, jadi dimuat sebelum persetujuan - cookie-nya dapat diatur tanpa persetujuan."
+
+#: build/admin.js:32
+msgid "Blocked When \"Block Scripts until Consent\" Is On"
+msgstr "Diblokir Saat \"Blokir Skrip sampai Persetujuan\" Aktif"
+
+#. translators: %1$s: service name; %2$s: consent category name
+#: build/admin.js:33
+#, js-format
+msgid "When blocking is on, %1$s is blocked until visitors accept “%2$s”, so a scan never sees these cookies. Declaring them here keeps your cookie policy complete."
+msgstr "Saat pemblokiran aktif, %1$s diblokir sampai pengunjung menerima “%2$s”, jadi pemindaian tidak pernah melihat cookie ini. Mendeklarasikannya di sini menjaga kebijakan cookie Anda tetap lengkap."
+
+#. translators: %d: number of cookies
+#: build/admin.js:34
+#, js-format
+msgid "%d cookie added to your cookie policy"
+msgid_plural "%d cookies added to your cookie policy"
+msgstr[0] "%d cookie ditambahkan ke kebijakan cookie Anda"
+
+#. translators: %d: number of iframes
+#: build/admin.js:35
+#, js-format
+msgid "%d embed blocked before consent"
+msgid_plural "%d embeds blocked before consent"
+msgstr[0] "%d sematan diblokir sebelum persetujuan"
+
+#. translators: %d: number of scripts
+#: build/admin.js:36
+#, js-format
+msgid "%d script blocked before consent"
+msgid_plural "%d scripts blocked before consent"
+msgstr[0] "%d skrip diblokir sebelum persetujuan"
+
+#: build/admin.js:36
+msgid "No categories available"
+msgstr "Tidak ada kategori tersedia"
+
+#: build/admin.js:36
+msgid "Create a cookie category first - new cookies land in Uncategorized until then."
+msgstr "Buat kategori cookie terlebih dahulu - cookie baru akan masuk ke Kategori Tidak Dikategorikan sampai saat itu."
+
+#. translators: %d: number of days
+#: build/admin.js:37
+#, js-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d hari"
+
+#: build/admin.js:37
+msgid "Session"
+msgstr "Sesi"
+
+#: build/admin.js:37
+msgid "Failed to add service"
+msgstr "Gagal menambahkan layanan"
+
+#: build/admin.js:37
+msgid "Failed to remove service"
+msgstr "Gagal menghapus layanan"
+
+#: build/admin.js:37
+msgid "Service removed"
+msgstr "Layanan dihapus"
+
+#. translators: %s: service name (e.g. YouTube)
+#: build/admin.js:38
+#, js-format
+msgid "Added %s"
+msgstr "Ditambahkan %s"
+
+#. translators: %d: number of cookies declared
+#: build/admin.js:39
+#, js-format
+msgid "%d cookie was added to your cookie policy."
+msgid_plural "%d cookies were added to your cookie policy."
+msgstr[0] "%d cookie telah ditambahkan ke kebijakan cookie Anda."
+
+#: build/admin.js:39
+msgid "This service is now managed. It stays blocked before consent."
+msgstr "Layanan ini sekarang dikelola. Tetap diblokir sebelum persetujuan."
+
+#. translators: %s: service name
+#: build/admin.js:40
+#: build/admin.js:41
+#, js-format
+msgid "Add %s"
+msgstr "Tambah %s"
+
+#: build/admin.js:40
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Add from a Known Service"
+msgstr "Tambah dari Layanan Dikenal"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Review what this adds to your cookie policy, then confirm."
+msgstr "Tinjau apa yang ditambahkan ke kebijakan cookie Anda, lalu konfirmasi."
+
+#: build/admin.js:40
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can't detect before consent - ensuring your cookie policy stays complete."
+msgstr "Tambahkan dengan cepat layanan populer seperti YouTube atau Google Analytics dengan satu klik. Sempurna untuk skrip yang tidak dapat dideteksi pemindai sebelum persetujuan - memastikan kebijakan cookie Anda tetap lengkap."
+
+#: build/admin.js:40
+msgid "Could not load the services catalog. Please try again."
+msgstr "Tidak dapat memuat katalog layanan. Silakan coba lagi."
+
+#: build/admin.js:40
+msgid "This is a Pro service"
+msgstr "Ini adalah layanan Pro"
+
+#: build/admin.js:40
+msgid "Upgrade to add this service and declare its cookies in one click."
+msgstr "Tingkatkan untuk menambahkan layanan ini dan mendeklarasikan cookie-nya dengan satu klik."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Unlock Every Tracking Service"
+msgstr "Buka Kunci Semua Layanan Pelacakan"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Free covers the most common services. Upgrade to add any service in the catalog in one click."
+msgstr "Gratis mencakup layanan yang paling umum. Tingkatkan untuk menambahkan layanan apa pun dalam katalog dengan satu klik."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Confirm Add"
+msgstr "Konfirmasi Tambah"
+
+#: build/admin.js:41
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can’t detect before consent - ensuring your cookie policy stays complete."
+msgstr "Tambahkan layanan populer seperti YouTube atau Google Analytics dengan satu klik. Sempurna untuk skrip yang tidak dapat dideteksi pemindai sebelum persetujuan - memastikan kebijakan cookie Anda tetap lengkap."
+
+#: build/admin.js:41
+msgid "Failed to load services"
+msgstr "Gagal memuat layanan"
+
+#: build/admin.js:41
+msgid "An error occurred while loading services. Please refresh the page to try again."
+msgstr "Terjadi kesalahan saat memuat layanan. Silakan segarkan halaman untuk mencoba lagi."
+
+#: build/admin.js:41
+msgid "Installed Services"
+msgstr "Layanan Terpasang"
+
+#: build/admin.js:41
+msgid "Available Services"
+msgstr "Layanan Tersedia"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Failed to update cookie categories"
+msgstr "Gagal memperbarui kategori cookie"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Cookie categories updated"
+msgstr "Kategori cookie diperbarui"
+
+#. translators: %d: number of cookies that could not be updated.
+#: build/admin.js:42
+#, js-format
+msgid "%d cookie(s) could not be updated. Reload and try again."
+msgstr "%d cookie tidak dapat diperbarui. Muat ulang dan coba lagi."
+
+#: build/admin.js:42
+msgid "Change Cookie Categories Carefully"
+msgstr "Ubah Kategori Cookie dengan Hati-hati"
+
+#: build/admin.js:42
+msgid "A cookie's category determines how it behaves when users decline consent. Cookies marked as Essential always remain active. Moving a cookie out of Essential may cause it to be blocked or deleted, which can break features like login or checkout. Similarly, assigning tracking cookies to Essential may conflict with privacy regulations. Your choice is remembered, so a later scan will not move the cookie back."
+msgstr "Kategori cookie menentukan bagaimana perilakunya saat pengguna menolak persetujuan. Cookie yang ditandai sebagai Esensial selalu tetap aktif. Memindahkan cookie keluar dari Esensial dapat menyebabkan cookie tersebut diblokir atau dihapus, yang dapat merusak fitur seperti login atau checkout. Demikian pula, menetapkan cookie pelacak ke Esensial dapat bertentangan dengan peraturan privasi. Pilihan Anda akan diingat, sehingga pemindaian berikutnya tidak akan memindahkan cookie kembali."
+
+#. translators: %s: service name (e.g. Google Analytics)
+#: build/admin.js:43
+#, js-format
+msgid "Looks like %s"
+msgstr "Sepertinya %s"
+
+#: build/admin.js:43
+msgid "We spotted cookies from this service. Add it to declare its cookies in one step."
+msgstr "Kami menemukan cookie dari layanan ini. Tambahkan untuk menyatakan cookie-nya dalam satu langkah."
+
+#: build/admin.js:43
+#: build/admin.js:76
+msgid "Add as Service"
+msgstr "Tambahkan sebagai Layanan"
+
+#: build/admin.js:43
+msgid "Dismiss"
+msgstr "Tutup"
+
+#: build/admin.js:50
+msgid "Welcome to SureCookie!"
+msgstr "Selamat datang di SureCookie!"
+
+#: build/admin.js:50
+msgid "Get your site compliant in minutes - show a cookie banner, block trackers before consent, and automatically detect cookies used on your site."
+msgstr "Buat situs Anda patuh dalam hitungan menit - tampilkan banner cookie, blokir pelacak sebelum persetujuan, dan deteksi cookie yang digunakan di situs Anda secara otomatis."
+
+#: build/admin.js:50
+msgid "Set Up Cookie Banner"
+msgstr "Atur Banner Cookie"
+
+#: build/admin.js:50
+msgid "Scan My Site"
+msgstr "Pindai Situs Saya"
+
+#: build/admin.js:50
+msgid "Start with the banner, then scan your site to detect cookies."
+msgstr "Mulai dengan banner, lalu pindai situs Anda untuk mendeteksi cookie."
+
+#: build/admin.js:50
+msgid "SureForms Video Thumbnail"
+msgstr "SureForms Video Thumbnail"
+
+#: build/admin.js:50
+msgid "SureForms: Custom WordPress Forms MADE SIMPLE"
+msgstr "SureForms: Formulir WordPress Kustom YANG MUDAH"
+
+#: build/admin.js:59
+msgid "Possible causes: Scan server under heavy load, your site is unreachable from our scanner, your site has CRON issues, or a page caused a browser timeout."
+msgstr "Kemungkinan penyebab: Server pemindaian dalam beban berat, situs Anda tidak dapat dijangkau dari pemindai kami, situs Anda memiliki masalah CRON, atau sebuah halaman menyebabkan waktu habis browser."
+
+#: build/admin.js:59
+msgid "Some pages could not be analyzed"
+msgstr "Beberapa halaman tidak dapat dianalisis"
+
+#. translators: 1: scanned pages, 2: total pages, 3: failed pages
+#: build/admin.js:60
+#, js-format
+msgid "Scanned %1$d of %2$d pages - %3$d could not be analyzed. The cookies we did find are saved, and results add up across scans, so you can re-run the scan to pick up the rest."
+msgstr "Telah dipindai %1$d dari %2$d halaman - %3$d tidak dapat dianalisis. Cookie yang kami temukan disimpan, dan hasilnya bertambah di setiap pemindaian, jadi Anda dapat menjalankan ulang pemindaian untuk mengambil sisanya."
+
+#: build/admin.js:60
+msgid "Once the scan is complete, the cookies it found appear under <a>Cookies</a>, and the scripts and embeds under <b>Scripts and Embeds</b>."
+msgstr "Setelah pemindaian selesai, cookie yang ditemukan muncul di bawah <a>Cookies</a>, dan skrip serta embed di bawah <b>Scripts and Embeds</b>."
+
+#: build/admin.js:60
+msgid "Keep the scan tab in front until it finishes: browsers slow down background tabs."
+msgstr "Jaga tab pemindaian tetap di depan sampai selesai: browser melambatkan tab latar belakang."
+
+#: build/admin.js:60
+msgid "Pages already collected are saved, so closing the tab early keeps what it found."
+msgstr "Halaman yang sudah dikumpulkan disimpan, jadi menutup tab lebih awal tetap menyimpan apa yang ditemukan."
+
+#: build/admin.js:60
+msgid "An ad blocker or privacy extension in this browser can hide trackers from the scan."
+msgstr "Pemblokir iklan atau ekstensi privasi di browser ini dapat menyembunyikan pelacak dari pemindaian."
+
+#: build/admin.js:60
+msgid "If remote scanning fails, try Assisted Scanner method: <button></button>"
+msgstr "Jika pemindaian jarak jauh gagal, coba metode Pemindai Terbantu: <button></button>"
+
+#: build/admin.js:60
+msgid "Switch to Default Scanner"
+msgstr "Beralih ke Pemindai Default"
+
+#: build/admin.js:60
+msgid "Switch to Assisted Scanner"
+msgstr "Beralih ke Pemindai Terbantu"
+
+#: build/admin.js:60
+msgid "Scan From This Browser"
+msgstr "Pindai Dari Browser Ini"
+
+#: build/admin.js:60
+msgid "Your host blocked the scanner"
+msgstr "Host Anda memblokir pemindai"
+
+#: build/admin.js:60
+msgid "Your site's firewall or bot protection served our scanner a security challenge instead of your page, so the scan completed without results. This does not affect your visitors, only automated scanners. Allowlist the SureCookie scanner (or ask your host to) and run the scan again."
+msgstr "Firewall atau perlindungan bot situs Anda memberikan tantangan keamanan kepada pemindai kami alih-alih halaman Anda, sehingga pemindaian selesai tanpa hasil. Ini tidak memengaruhi pengunjung Anda, hanya pemindai otomatis. Masukkan pemindai SureCookie ke daftar putih (atau minta host Anda melakukannya) dan jalankan pemindaian lagi."
+
+#: build/admin.js:60
+msgid "Services we still detected on your site (via a first-party check):"
+msgstr "Layanan yang masih kami deteksi di situs Anda (melalui pemeriksaan pihak pertama):"
+
+#: build/admin.js:60
+msgid "How to allowlist the scanner"
+msgstr "Cara memasukkan pemindai ke daftar putih"
+
+#: build/admin.js:60
+msgid "No cookies found in this browser scan"
+msgstr "Tidak ditemukan cookie dalam pemindaian browser ini"
+
+#: build/admin.js:60
+msgid "We found services on your pages that your browser did not load, which usually means an ad blocker or privacy extension is active. Try again in a browser with extensions disabled, or add the cookies manually."
+msgstr "Kami menemukan layanan di halaman Anda yang tidak dimuat oleh browser Anda, yang biasanya berarti pemblokir iklan atau ekstensi privasi aktif. Coba lagi di browser dengan ekstensi dinonaktifkan, atau tambahkan cookie secara manual."
+
+#: build/admin.js:60
+msgid "The scan visited your pages but no cookies were set. Some services only set cookies after a visitor accepts the banner, so they may not appear. You can also add cookies manually."
+msgstr "Pemindaian mengunjungi halaman Anda tetapi tidak ada cookie yang disetel. Beberapa layanan hanya menyetel cookie setelah pengunjung menerima banner, jadi mungkin tidak muncul. Anda juga dapat menambahkan cookie secara manual."
+
+#: build/admin.js:60
+msgid "No cookies found in this scan"
+msgstr "Tidak ditemukan cookie dalam pemindaian ini"
+
+#: build/admin.js:60
+msgid "The scanner reached your site but did not detect any cookies. Some services only set cookies after a visitor accepts the banner, so they may not appear in a scan. You can also add cookies manually."
+msgstr "Pemindai mencapai situs Anda tetapi tidak mendeteksi cookie apa pun. Beberapa layanan hanya menyetel cookie setelah pengunjung menerima banner, jadi mungkin tidak muncul dalam pemindaian. Anda juga dapat menambahkan cookie secara manual."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser (Best for this site)"
+msgstr "Pindai dari Browser Anda (Terbaik untuk situs ini)"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser"
+msgstr "Pindai dari Browser Anda"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Our scanner couldn't fully access your site due to server restrictions. This method runs the scan directly in your browser, ensuring accurate detection without being blocked."
+msgstr "Pemindai kami tidak dapat mengakses situs Anda sepenuhnya karena pembatasan server. Metode ini menjalankan pemindaian langsung di browser Anda, memastikan deteksi yang akurat tanpa diblokir."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Run the scan directly in your browser. This helps detect cookies, scripts, and embeds even when external scanners are blocked."
+msgstr "Jalankan pemindaian langsung di browser Anda. Ini membantu mendeteksi cookie, skrip, dan embed bahkan saat pemindai eksternal diblokir."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Detects cookies, scripts, and embeds as your visitors would see them."
+msgstr "Mendeteksi cookie, skrip, dan embed seperti yang dilihat pengunjung Anda."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Works even when hosting or firewall blocks external scans."
+msgstr "Bekerja bahkan saat hosting atau firewall memblokir pemindaian eksternal."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Results appear automatically in your Tracking Manager."
+msgstr "Hasil muncul secara otomatis di Pengelola Pelacakan Anda."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Some advanced detections may still require a remote scan when available."
+msgstr "Beberapa deteksi lanjutan mungkin masih memerlukan pemindaian jarak jauh jika tersedia."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "How this works"
+msgstr "Cara kerja ini"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Before You Start"
+msgstr "Sebelum Anda Mulai"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "To measure cookie duration accurately, this scan temporarily clears cookies for your site in this browser (including your consent choice). Your WordPress login session is preserved, so you'll remain signed in."
+msgstr "Untuk mengukur durasi cookie dengan akurat, pemindaian ini sementara menghapus cookie untuk situs Anda di browser ini (termasuk pilihan persetujuan Anda). Sesi login WordPress Anda tetap terjaga, jadi Anda akan tetap masuk."
+
+#. translators: %d: maximum pages
+#: build/admin.js:62
+#: build/onboarding.js:6
+#, js-format
+msgid "An assisted scan visits up to %d pages. Remove some pages to continue."
+msgstr "Pemindaian terbantu mengunjungi hingga %d halaman. Hapus beberapa halaman untuk melanjutkan."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Scanning in your browser…"
+msgstr "Memindai di peramban Anda…"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Start Browser Scan"
+msgstr "Mulai Pemindaian Peramban"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "A new tab opens to scan your selected pages - keep it active until it finishes."
+msgstr "Tab baru terbuka untuk memindai halaman yang Anda pilih - tetap aktif sampai selesai."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Switch Back"
+msgstr "Beralih Kembali"
+
+#: build/admin.js:62
+msgid "This page did not load the scanner, so it was skipped. A redirect or a login requirement usually causes this."
+msgstr "Halaman ini tidak memuat pemindai, jadi dilewati. Pengalihan atau persyaratan login biasanya menyebabkan ini."
+
+#: build/admin.js:62
+msgid "This page took too long to respond."
+msgstr "Halaman ini membutuhkan waktu terlalu lama untuk merespons."
+
+#: build/admin.js:62
+msgid "Skipped because the scan was cancelled."
+msgstr "Dilewati karena pemindaian dibatalkan."
+
+#: build/admin.js:62
+msgid "This page could not be collected."
+msgstr "Halaman ini tidak dapat dikumpulkan."
+
+#: build/admin.js:62
+msgid "Pages In This Scan"
+msgstr "Halaman Dalam Pemindaian Ini"
+
+#. translators: 1: cookie count, 2: script count
+#: build/admin.js:63
+#, js-format
+msgid "%1$d cookies, %2$d scripts"
+msgstr "%1$d cookie, %2$d skrip"
+
+#: build/admin.js:63
+msgid "Collecting…"
+msgstr "Mengumpulkan…"
+
+#: build/admin.js:63
+msgid "Waiting"
+msgstr "Menunggu"
+
+#: build/admin.js:63
+msgid "Re-scan"
+msgstr "Pindai Ulang"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Could not start the assisted scan."
+msgstr "Tidak dapat memulai pemindaian terbantu."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Could not start the assisted scan"
+msgstr "Tidak dapat memulai pemindaian terbantu"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Please try again in a moment."
+msgstr "Silakan coba lagi sebentar lagi."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Your browser blocked the scan window"
+msgstr "Peramban Anda memblokir jendela pemindaian"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Allow pop-ups for this site, then start the scan again."
+msgstr "Izinkan pop-up untuk situs ini, lalu mulai pemindaian lagi."
+
+#: build/admin.js:63
+msgid "View Scan Logs"
+msgstr "Lihat Log Pemindaian"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Scan your website to find cookies, scripts, and trackers that require consent."
+msgstr "Pindai situs web Anda untuk menemukan cookie, skrip, dan pelacak yang memerlukan persetujuan."
+
+#: build/admin.js:74
+msgid "This is taking a little longer than usual"
+msgstr "Ini memakan waktu sedikit lebih lama dari biasanya"
+
+#: build/admin.js:74
+msgid "A page is taking a while to respond, but your scan is still running in the background. Any cookies already found have been saved. You can leave this page and come back - or cancel and try again with fewer pages."
+msgstr "Sebuah halaman membutuhkan waktu lama untuk merespons, tetapi pemindaian Anda masih berjalan di latar belakang. Cookie yang sudah ditemukan telah disimpan. Anda dapat meninggalkan halaman ini dan kembali - atau batalkan dan coba lagi dengan halaman lebih sedikit."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Queued for Later"
+msgstr "Pemindaian Antri untuk Nanti"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Today's page budget is used up, so the remaining pages will scan automatically once it resets. Any cookies already found are saved. To scan sooner, run it again with fewer pages."
+msgstr "Anggaran halaman hari ini sudah habis, jadi halaman yang tersisa akan dipindai secara otomatis setelah direset. Cookie yang sudah ditemukan disimpan. Untuk memindai lebih cepat, jalankan lagi dengan halaman lebih sedikit."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Couldn't Be Completed"
+msgstr "Pemindaian Tidak Dapat Diselesaikan"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "A page may have taken too long to respond. Any cookies already found have been saved, and results add up across scans - nothing is lost. Please try again, scanning fewer pages at a time for a more reliable run."
+msgstr "Sebuah halaman mungkin membutuhkan waktu terlalu lama untuk merespons. Cookie yang sudah ditemukan telah disimpan, dan hasilnya terakumulasi di seluruh pemindaian - tidak ada yang hilang. Silakan coba lagi, pindai lebih sedikit halaman sekaligus untuk hasil yang lebih andal."
+
+#: build/admin.js:76
+msgid "iFrame"
+msgstr "iFrame"
+
+#: build/admin.js:76
+msgid "Head"
+msgstr "Head"
+
+#: build/admin.js:76
+msgid "Body"
+msgstr "Body"
+
+#: build/admin.js:76
+msgid "Footer"
+msgstr "Footer"
+
+#: build/admin.js:76
+msgid "Anywhere (fallback)"
+msgstr "Di Mana Saja (cadangan)"
+
+#: build/admin.js:76
+msgid "This resource is whitelisted, so it always loads - even before consent."
+msgstr "Sumber daya ini masuk daftar putih, jadi selalu dimuat - bahkan sebelum persetujuan."
+
+#: build/admin.js:76
+msgid "This script is managed by Google Consent Mode and always loads while GCM is enabled."
+msgstr "Skrip ini dikelola oleh Google Consent Mode dan selalu dimuat saat GCM diaktifkan."
+
+#: build/admin.js:76
+msgid "This resource matches a whitelist rule (custom entry or common service), so it always loads."
+msgstr "Sumber daya ini cocok dengan aturan daftar putih (entri khusus atau layanan umum), jadi selalu dimuat."
+
+#: build/admin.js:76
+msgid "Script & Iframe"
+msgstr "Skrip & Iframe"
+
+#: build/admin.js:76
+msgid "Blocked until consent"
+msgstr "Diblokir sampai persetujuan"
+
+#: build/admin.js:76
+msgid "Not blocked"
+msgstr "Tidak diblokir"
+
+#: build/admin.js:76
+msgid "Whitelisted"
+msgstr "Masuk Daftar Putih"
+
+#: build/admin.js:76
+msgid "Managed by GCM"
+msgstr "Dikelola oleh GCM"
+
+#: build/admin.js:76
+msgid "Source"
+msgstr "Sumber"
+
+#: build/admin.js:76
+msgid "Managed via Known Services - its cookies are declared in your cookie policy."
+msgstr "Dikelola melalui Layanan Dikenal - cookienya dinyatakan dalam kebijakan cookie Anda."
+
+#: build/admin.js:76
+msgid "Recognized Known Services catalog entry - Click \"Add as Service\" to declare its cookies."
+msgstr "Entri katalog Layanan Dikenal yang dikenali - Klik \"Tambah sebagai Layanan\" untuk menyatakan cookienya."
+
+#: build/admin.js:76
+msgid "Managed Service"
+msgstr "Layanan yang Dikelola"
+
+#: build/admin.js:76
+msgid "Known Service"
+msgstr "Layanan Dikenal"
+
+#: build/admin.js:76
+msgid "Always Allowed"
+msgstr "Selalu Diizinkan"
+
+#: build/admin.js:76
+msgid "Category for"
+msgstr "Kategori untuk"
+
+#: build/admin.js:76
+msgid "Block until consent (recommended)"
+msgstr "Blokir sampai persetujuan (disarankan)"
+
+#: build/admin.js:76
+msgid "Always allowed"
+msgstr "Selalu diizinkan"
+
+#: build/admin.js:76
+msgid "Do not block (always load)"
+msgstr "Jangan blokir (selalu muat)"
+
+#: build/admin.js:76
+msgid "Edit Resource"
+msgstr "Edit Sumber Daya"
+
+#: build/admin.js:76
+msgid "Add Script or Embed"
+msgstr "Tambahkan Skrip atau Sematkan"
+
+#: build/admin.js:76
+msgid "Update"
+msgstr "Perbarui"
+
+#: build/admin.js:76
+msgid "Behavior"
+msgstr "Perilaku"
+
+#: build/admin.js:76
+msgid "Whitelisted Resource Warning"
+msgstr "Peringatan Sumber Daya Daftar Putih"
+
+#: build/admin.js:76
+msgid "If a resource sets cookies, allowing it directly can be a GDPR violation - only whitelist resources you are sure about."
+msgstr "Jika sebuah sumber daya mengatur cookie, mengizinkannya langsung dapat melanggar GDPR - hanya daftarkan sumber daya yang Anda yakin."
+
+#: build/admin.js:76
+msgid "Detected by the scanner, so the value cannot be edited."
+msgstr "Terdeteksi oleh pemindai, jadi nilainya tidak dapat diedit."
+
+#: build/admin.js:76
+msgid "e.g. Support chat"
+msgstr "mis. Obrolan dukungan"
+
+#: build/admin.js:76
+msgid "Domain / Host"
+msgstr "Domain / Host"
+
+#: build/admin.js:76
+msgid "e.g. connect.facebook.net"
+msgstr "mis. connect.facebook.net"
+
+#: build/admin.js:76
+msgid "The host the resource loads from. Pasting a full tag or URL also works."
+msgstr "Host tempat sumber daya dimuat. Menempelkan tag lengkap atau URL juga berfungsi."
+
+#: build/admin.js:76
+msgid "Path / Pattern (advanced)"
+msgstr "Jalur / Pola (lanjutan)"
+
+#: build/admin.js:76
+msgid "e.g. /fbevents.js"
+msgstr "mis. /fbevents.js"
+
+#: build/admin.js:76
+msgid "Optional: narrow the rule to resources that also contain this path, so only one file on the host is blocked."
+msgstr "Opsional: mempersempit aturan ke sumber daya yang juga mengandung jalur ini, sehingga hanya satu file di host yang diblokir."
+
+#: build/admin.js:76
+msgid "Script Keywords"
+msgstr "Kata Kunci Skrip"
+
+#: build/admin.js:76
+msgid "e.g. fbq, fbq.push"
+msgstr "mis. fbq, fbq.push"
+
+#: build/admin.js:76
+msgid "JavaScript function names to block that depend on the main script (comma separated)."
+msgstr "Nama fungsi JavaScript yang diblokir yang bergantung pada skrip utama (dipisahkan koma)."
+
+#: build/admin.js:76
+msgid "Script Location"
+msgstr "Lokasi Skrip"
+
+#: build/admin.js:76
+msgid "Anywhere"
+msgstr "Di mana saja"
+
+#: build/admin.js:76
+msgid "Where the script loads on the page. SureCookie only looks for it in this section."
+msgstr "Tempat skrip dimuat di halaman. SureCookie hanya mencarinya di bagian ini."
+
+#: build/admin.js:76
+msgid "This resource stays blocked until the visitor consents to this category."
+msgstr "Sumber daya ini tetap diblokir sampai pengunjung menyetujui kategori ini."
+
+#: build/admin.js:76
+msgid "Unlock Whitelisting"
+msgstr "Buka Kunci Daftar Putih"
+
+#: build/admin.js:76
+msgid "Whitelist your own scripts and common services so essential integrations keep working before consent."
+msgstr "Daftarkan skrip Anda sendiri dan layanan umum agar integrasi penting tetap berfungsi sebelum persetujuan."
+
+#. translators: %d: number of GCM-managed services.
+#: build/admin.js:77
+#, js-format
+msgid "Managed by Google Consent Mode (%d)"
+msgstr "Dikelola oleh Google Consent Mode (%d)"
+
+#: build/admin.js:77
+msgid "View services"
+msgstr "Lihat layanan"
+
+#: build/admin.js:77
+msgid "Managed by Google Consent Mode"
+msgstr "Dikelola oleh Google Consent Mode"
+
+#: build/admin.js:77
+msgid "Auto-whitelisted"
+msgstr "Otomatis didaftarkan"
+
+#: build/admin.js:77
+msgid "Enter the script domain or host."
+msgstr "Masukkan domain atau host skrip."
+
+#: build/admin.js:77
+msgid "Select a category."
+msgstr "Pilih kategori."
+
+#: build/admin.js:77
+msgid "A rule for this script already exists."
+msgstr "Aturan untuk skrip ini sudah ada."
+
+#: build/admin.js:77
+msgid "Control how scripts and embeds load based on user consent - block them until allowed or mark essential ones to always run."
+msgstr "Kontrol bagaimana skrip dan sematan dimuat berdasarkan persetujuan pengguna - blokir sampai diizinkan atau tandai yang penting agar selalu berjalan."
+
+#: build/admin.js:77
+msgid "Behavior: Always Allowed"
+msgstr "Perilaku: Selalu Diizinkan"
+
+#: build/admin.js:77
+msgid "Choose scripts and domains that should never be blocked, so tools like reCAPTCHA and other essential integrations keep working. Google Consent Mode scripts are whitelisted automatically when it is enabled."
+msgstr "Pilih skrip dan domain yang tidak boleh diblokir, sehingga alat seperti reCAPTCHA dan integrasi penting lainnya tetap berfungsi. Skrip Google Consent Mode secara otomatis didaftarkan saat diaktifkan."
+
+#: build/admin.js:77
+msgid "Block Scripts and Embeds Until Consent Switch"
+msgstr "Sakelar Blokir Skrip dan Sematan Sampai Persetujuan"
+
+#: build/admin.js:77
+msgid "Block Scripts Until Consent"
+msgstr "Blokir Skrip Sampai Persetujuan"
+
+#: build/admin.js:77
+msgid "Prevent non-essential scripts and embeds from loading until users give consent."
+msgstr "Cegah skrip dan sematan yang tidak penting dimuat sampai pengguna memberikan persetujuan."
+
+#: build/admin.js:77
+msgid "Detected and Managed Resources"
+msgstr "Sumber Daya yang Terdeteksi dan Dikelola"
+
+#. translators: 1: scanner-detected count, 2: custom rule count
+#: build/admin.js:78
+#, js-format
+msgid "%1$d detected by scanner, %2$d custom"
+msgstr "%1$d terdeteksi oleh pemindai, %2$d kustom"
+
+#: build/admin.js:78
+msgid "New Resource"
+msgstr "Sumber Daya Baru"
+
+#: build/admin.js:78
+msgid "All your scripts will be displayed here"
+msgstr "Semua skrip Anda akan ditampilkan di sini"
+
+#: build/admin.js:78
+msgid "Run a scan to detect third-party resources, or add a script manually."
+msgstr "Jalankan pemindaian untuk mendeteksi sumber daya pihak ketiga, atau tambahkan skrip secara manual."
+
+#: build/admin.js:78
+msgid "Add New Resource"
+msgstr "Tambahkan Sumber Daya Baru"
+
+#: build/admin.js:78
+msgid "Unlock Custom Script Rules & Whitelisting"
+msgstr "Buka Kunci Aturan Skrip Kustom & Daftar Putih"
+
+#: build/admin.js:78
+msgid "Add your own scripts to block under any category, whitelist trusted scripts, and manage it all from one place."
+msgstr "Tambahkan skrip Anda sendiri untuk diblokir di bawah kategori apa pun, daftarkan skrip tepercaya, dan kelola semuanya dari satu tempat."
+
+#: build/admin.js:78
+msgid "Generate your cookie policy automatically from your settings, or display it anywhere using a shortcode."
+msgstr "Hasilkan kebijakan cookie Anda secara otomatis dari pengaturan Anda, atau tampilkan di mana saja menggunakan shortcode."
+
+#: build/admin.js:78
+msgid "Automatically re-scan your site and get notified when new cookies or trackers appear."
+msgstr "Secara otomatis pindai ulang situs Anda dan dapatkan pemberitahuan saat cookie atau pelacak baru muncul."
+
+#: build/admin.js:84
+msgid "Show your cookie banner only in regions where consent is required."
+msgstr "Tampilkan banner cookie Anda hanya di wilayah di mana persetujuan diperlukan."
+
+#: build/admin.js:84
+msgid "Share visitor consent across your sites so users don’t need to give consent again."
+msgstr "Bagikan persetujuan pengunjung di seluruh situs Anda sehingga pengguna tidak perlu memberikan persetujuan lagi."
+
+#: build/admin.js:84
+msgid "Unlock Consent Sharing"
+msgstr "Buka Kunci Berbagi Persetujuan"
+
+#: build/admin.js:77
+msgid "Allowed to load while Google Consent Mode is active, instead of being blocked before consent."
+msgstr "Diizinkan untuk dimuat saat Mode Persetujuan Google aktif, alih-alih diblokir sebelum persetujuan."
+
+#: build/admin.js:77
+msgid "These Google services are allowed to load while Google Consent Mode is active, instead of being blocked before consent. For Google tag products, Consent Mode then controls what they may store and which identifiers they may use. It does not stop them from contacting Google. They cannot be removed here."
+msgstr "Layanan Google ini diizinkan untuk dimuat saat Mode Persetujuan Google aktif, alih-alih diblokir sebelum persetujuan. Untuk produk tag Google, Mode Persetujuan kemudian mengontrol apa yang dapat mereka simpan dan pengenal mana yang dapat mereka gunakan. Ini tidak menghentikan mereka untuk menghubungi Google. Mereka tidak dapat dihapus di sini."

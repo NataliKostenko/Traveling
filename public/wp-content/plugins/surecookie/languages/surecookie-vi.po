@@ -1,0 +1,5504 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SureCookie 0.0.1-beta.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surecookie\n"
+"Last-Translator: gpt-po v1.3.0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-19T05:50:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: surecookie\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: surecookie.php
+#: inc/integrations/wp-consent-api/actions.php:66
+#: inc/integrations/wp-consent-api/actions.php:74
+msgid "SureCookie"
+msgstr "SureCookie"
+
+#. Plugin URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com"
+msgstr "https://surecookie.com"
+
+#. Description of the plugin
+#: surecookie.php
+msgid "Real cookie consent for WordPress. Browser-based scanning, smart categorization, strict script blocking, and consent logs stored in your database."
+msgstr "Sự đồng ý cookie thực sự cho WordPress. Quét dựa trên trình duyệt, phân loại thông minh, chặn script nghiêm ngặt và lưu nhật ký đồng ý trong cơ sở dữ liệu của bạn."
+
+#. Author URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com/"
+msgstr "https://surecookie.com/"
+
+#: admin/menu.php:74
+#: build/admin.js:2
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+#: admin/menu.php:87
+#: admin/menu.php:274
+#: build/admin.js:2
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: admin/menu.php:82
+#: admin/menu.php:400
+#: build/admin.js:2
+msgid "Logs"
+msgstr "Nhật ký"
+
+#: admin/menu.php:91
+#: build/admin.js:2
+msgid "Learn"
+msgstr "Tìm hiểu"
+
+#: admin/menu.php:130
+msgid "You don't have access to this page."
+msgstr "Bạn không có quyền truy cập trang này."
+
+#: admin/menu.php:300
+#: admin/menu.php:301
+msgid "Upgrade"
+msgstr "Nâng cấp"
+
+#: admin/onboarding.php:59
+#: build/onboarding.js:14
+msgid "Onboarding"
+msgstr "Hướng dẫn sử dụng"
+
+#: admin/onboarding.php:75
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Bạn không có đủ quyền để truy cập trang này."
+
+#: admin/product-promotion.php:110
+msgid "A simple yet powerful way to create modern forms for your website."
+msgstr "Một cách đơn giản nhưng mạnh mẽ để tạo các biểu mẫu hiện đại cho trang web của bạn."
+
+#: admin/rating-notice.php:234
+msgid "If SureCookie has been helpful, would you mind taking a moment to leave a 5-star review on WordPress.org?"
+msgstr "Nếu SureCookie hữu ích, bạn có thể dành chút thời gian để đánh giá 5 sao trên WordPress.org không?"
+
+#: admin/rating-notice.php:243
+msgid "Rate SureCookie"
+msgstr "Đánh giá SureCookie"
+
+#: admin/rating-notice.php:251
+msgid "Maybe later"
+msgstr "Có thể sau"
+
+#: admin/rating-notice.php:255
+msgid "I already did"
+msgstr "Tôi đã làm rồi"
+
+#: inc/api/base.php:59
+msgid "You don't have access to do this."
+msgstr "Bạn không có quyền thực hiện việc này."
+
+#: inc/api/base.php:71
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "Kiểm tra bảo mật thất bại. Vui lòng làm mới trang và thử lại."
+
+#: inc/api/base.php:80
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "Phiên làm việc của bạn đã hết hạn. Vui lòng làm mới trang và thử lại."
+
+#: inc/api/consent-logs.php:146
+msgid "Search by IP address or Session ID"
+msgstr "Tìm kiếm theo địa chỉ IP hoặc ID Phiên làm việc"
+
+#: inc/api/consent-logs.php:318
+#: inc/api/consent-logs.php:345
+msgid "Request origin could not be verified."
+msgstr "Không thể xác minh nguồn yêu cầu."
+
+#: inc/api/consent-logs.php:892
+msgid "Request origin is not allowed."
+msgstr "Nguồn yêu cầu không được phép."
+
+#: inc/api/consent-logs.php:448
+msgid "Consent logs retrieved successfully."
+msgstr "Lấy nhật ký đồng ý thành công."
+
+#: inc/api/consent-logs.php:490
+msgid "Consent processed successfully (logging disabled)"
+msgstr "Xử lý đồng ý thành công (đã tắt ghi nhật ký)"
+
+#: inc/api/consent-logs.php:376
+#: inc/api/consent-logs.php:515
+msgid "Too many requests. Please try again later."
+msgstr "Quá nhiều yêu cầu. Vui lòng thử lại sau."
+
+#: inc/api/consent-logs.php:535
+msgid "Preferences should not be empty."
+msgstr "Tùy chọn không được để trống."
+
+#: inc/api/consent-logs.php:544
+msgid "Preferences data is too large."
+msgstr "Dữ liệu tùy chọn quá lớn."
+
+#: inc/api/consent-logs.php:555
+#: inc/api/consent-logs.php:566
+msgid "Invalid preferences format."
+msgstr "Định dạng tùy chọn không hợp lệ."
+
+#: inc/api/consent-logs.php:575
+msgid "Session ID is required."
+msgstr "Yêu cầu ID Phiên làm việc."
+
+#: inc/api/consent-logs.php:614
+msgid "Accept All is not enabled for this site."
+msgstr "Chức năng Chấp nhận Tất cả không được bật cho trang này."
+
+#: inc/api/consent-logs.php:641
+msgid "Consent saved successfully."
+msgstr "Lưu đồng ý thành công."
+
+#: inc/api/consent-logs.php:651
+msgid "Failed to save consent."
+msgstr "Lưu đồng ý thất bại."
+
+#: inc/api/consent-logs.php:669
+#: inc/api/consent-logs.php:801
+msgid "Invalid log ID"
+msgstr "ID nhật ký không hợp lệ"
+
+#: inc/api/consent-logs.php:681
+msgid "Log not found."
+msgstr "Không tìm thấy nhật ký."
+
+#: inc/api/consent-logs.php:717
+#: inc/api/consent-logs.php:744
+msgid "Log details retrieved successfully."
+msgstr "Chi tiết nhật ký đã được truy xuất thành công."
+
+#: inc/api/consent-logs.php:766
+msgid "Invalid log IDs"
+msgstr "ID nhật ký không hợp lệ"
+
+#: inc/api/consent-logs.php:777
+#: inc/api/consent-logs.php:872
+msgid "Failed to delete logs."
+msgstr "Xóa nhật ký thất bại."
+
+#. translators: %d: number of logs deleted
+#: inc/api/consent-logs.php:787
+#, php-format
+msgid "%d log(s) deleted successfully."
+msgstr "%d nhật ký đã được xóa thành công."
+
+#: inc/api/consent-logs.php:812
+msgid "Log deleted successfully."
+msgstr "Xóa nhật ký thành công."
+
+#: inc/api/consent-logs.php:821
+msgid "Failed to delete log."
+msgstr "Xóa nhật ký thất bại."
+
+#: inc/api/consent-logs.php:863
+msgid "All logs deleted successfully."
+msgstr "Tất cả nhật ký đã được xóa thành công."
+
+#: inc/api/cookie-categories.php:181
+msgid "Failed to create category: "
+msgstr "Tạo danh mục thất bại:"
+
+#: inc/api/cookie-categories.php:204
+msgid "Failed to update category: "
+msgstr "Cập nhật danh mục thất bại:"
+
+#: inc/api/cookie-categories.php:230
+msgid "Failed to delete category: "
+msgstr "Xóa danh mục thất bại:"
+
+#: inc/api/cookies.php:302
+msgid "Failed to create custom cookie: "
+msgstr "Tạo cookie tùy chỉnh thất bại:"
+
+#: inc/api/cookies.php:324
+msgid "Failed to update custom cookie: "
+msgstr "Cập nhật cookie tùy chỉnh thất bại:"
+
+#: inc/api/cookies.php:345
+msgid "Failed to delete custom cookie: "
+msgstr "Xóa cookie tùy chỉnh thất bại:"
+
+#: inc/api/cookies.php:372
+msgid "Failed to update cookie category: "
+msgstr "Cập nhật danh mục cookie thất bại:"
+
+#: inc/api/onboarding.php:134
+msgid "Onboarding data saved successfully."
+msgstr "Dữ liệu onboarding đã được lưu thành công."
+
+#: inc/api/onboarding.php:152
+msgid "Onboarding is already marked as complete."
+msgstr "Onboarding đã được đánh dấu là hoàn thành."
+
+#: inc/api/onboarding.php:162
+msgid "Onboarding marked as complete."
+msgstr "Onboarding đã được đánh dấu hoàn thành."
+
+#: inc/api/plugin.php:121
+msgid "Promotional plugins data retrieved."
+msgstr "Dữ liệu plugin khuyến mãi đã được truy xuất."
+
+#: inc/api/plugin.php:154
+msgid "You don't have permission to activate plugins."
+msgstr "Bạn không có quyền kích hoạt plugin."
+
+#: inc/api/plugin.php:158
+#: inc/api/plugin.php:191
+msgid "Plugin not found."
+msgstr "Không tìm thấy plugin."
+
+#: inc/api/plugin.php:172
+#: build/admin.js:2
+msgid "Plugin activated successfully."
+msgstr "Kích hoạt plugin thành công."
+
+#: inc/api/plugin.php:187
+msgid "You don't have permission to deactivate plugins."
+msgstr "Bạn không có quyền hủy kích hoạt plugin."
+
+#: inc/api/plugin.php:203
+msgid "Plugin is already inactive."
+msgstr "Plugin đã không hoạt động."
+
+#: inc/api/plugin.php:228
+#: build/admin.js:75
+msgid "Plugin deactivated successfully."
+msgstr "Hủy kích hoạt plugin thành công."
+
+#: inc/api/plugin.php:290
+msgid "Conflicting plugins retrieved."
+msgstr "Các plugin xung đột đã được truy xuất."
+
+#: inc/api/posts.php:199
+msgid "Post not found."
+msgstr "Không tìm thấy bài đăng."
+
+#: inc/api/scan-history.php:61
+msgid "Scanned history retrieved successfully."
+msgstr "Lịch sử quét đã được truy xuất thành công."
+
+#: inc/api/scanned-resources.php:78
+msgid "Scanned resources retrieved successfully."
+msgstr "Tài nguyên quét đã được truy xuất thành công."
+
+#: inc/api/settings.php:120
+msgid "No data found"
+msgstr "Không tìm thấy dữ liệu"
+
+#: inc/api/settings.php:144
+msgid "Settings updated"
+msgstr "Cài đặt đã được cập nhật"
+
+#: inc/functions/get.php:118
+msgid "Essential Cookies"
+msgstr "Cookie thiết yếu"
+
+#: inc/functions/get.php:119
+msgid "Required for basic website functionality."
+msgstr "Cần thiết cho chức năng cơ bản của trang web."
+
+#: inc/functions/get.php:124
+msgid "Functional Cookies"
+msgstr "Cookie chức năng"
+
+#: inc/functions/get.php:125
+msgid "Enable features like saved preferences and personalized content."
+msgstr "Kích hoạt các tính năng như lưu tùy chọn và nội dung cá nhân hóa."
+
+#: inc/functions/get.php:130
+msgid "Analytics Cookies"
+msgstr "Cookie phân tích"
+
+#: inc/functions/get.php:131
+msgid "Help us understand how visitors use our site so we can improve it."
+msgstr "Giúp chúng tôi hiểu cách khách truy cập sử dụng trang web để cải thiện nó."
+
+#: inc/functions/get.php:136
+msgid "Marketing Cookies"
+msgstr "Cookie tiếp thị"
+
+#: inc/functions/get.php:137
+msgid "Used to show you relevant ads based on your interests."
+msgstr "Được sử dụng để hiển thị quảng cáo phù hợp dựa trên sở thích của bạn."
+
+#: inc/functions/get.php:142
+msgid "Uncategorized Cookies"
+msgstr "Cookie chưa phân loại"
+
+#: inc/functions/get.php:143
+msgid "Cookies that haven't been categorized yet."
+msgstr "Cookie chưa được phân loại."
+
+#: inc/integrations/wp-consent-api/actions.php:62
+msgid "days"
+msgstr "ngày"
+
+#: inc/integrations/wp-consent-api/actions.php:69
+msgid "Stores the user's cookie consent preferences."
+msgstr "Lưu trữ tùy chọn đồng ý cookie của người dùng."
+
+#: inc/integrations/wp-consent-api/actions.php:76
+msgid "1 year"
+msgstr "1 năm"
+
+#: inc/integrations/wp-consent-api/actions.php:77
+msgid "Tracks consent log sessions for audit purposes."
+msgstr "Theo dõi các phiên nhật ký đồng ý cho mục đích kiểm toán."
+
+#: inc/modules/auth/api.php:71
+msgid "Authentication is already completed."
+msgstr "Xác thực đã hoàn tất."
+
+#: inc/modules/auth/controller.php:71
+msgid "Could not generate secure auth key."
+msgstr "Không thể tạo khóa xác thực an toàn."
+
+#: inc/modules/auth/controller.php:88
+msgid "Failed to encode the token data."
+msgstr "Mã hóa dữ liệu token thất bại."
+
+#: inc/modules/auth/controller.php:179
+msgid "Invalid flow identifier."
+msgstr "Định danh luồng không hợp lệ."
+
+#: inc/modules/auth/controller.php:188
+msgid "Failed to decode the access key."
+msgstr "Giải mã khóa truy cập thất bại."
+
+#: inc/modules/auth/controller.php:193
+msgid "Invalid data format."
+msgstr "Định dạng dữ liệu không hợp lệ."
+
+#: inc/modules/auth/controller.php:207
+msgid "Failed to decrypt the access key."
+msgstr "Giải mã khóa truy cập thất bại."
+
+#: inc/modules/auth/controller.php:213
+msgid "Failed to json decode the decrypted data."
+msgstr "Giải mã JSON dữ liệu đã giải mã thất bại."
+
+#: inc/modules/auth/controller.php:217
+msgid "No user email found in the decrypted data."
+msgstr "Không tìm thấy email người dùng trong dữ liệu đã giải mã."
+
+#: inc/modules/cookie-policy/api.php:76
+#: build/admin.js:78
+msgid "Cookie Policy page already exists."
+msgstr "Trang Chính sách Cookie đã tồn tại."
+
+#: inc/modules/cookie-policy/api.php:90
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/admin.js:78
+#: build/public.js:1
+msgid "Cookie Policy"
+msgstr "Chính sách Cookie"
+
+#: inc/modules/cookie-policy/api.php:112
+msgid "Cookie Policy page created successfully."
+msgstr "Trang Chính sách Cookie đã được tạo thành công."
+
+#. translators: %s: site name.
+#: inc/modules/cookie-policy/api.php:182
+#, php-format
+msgid "This Cookie Policy explains how %s uses cookies and similar tracking technologies when you visit our website. It describes what these technologies are, why we use them, and your rights to control our use of them."
+msgstr "Chính sách Cookie này giải thích cách %s sử dụng cookie và các công nghệ theo dõi tương tự khi bạn truy cập trang web của chúng tôi. Nó mô tả những công nghệ này là gì, tại sao chúng tôi sử dụng chúng và quyền của bạn để kiểm soát việc chúng tôi sử dụng chúng."
+
+#: inc/modules/cookie-policy/api.php:191
+msgid "What Are Cookies"
+msgstr "Cookie là gì"
+
+#: inc/modules/cookie-policy/api.php:195
+msgid "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, provide a better browsing experience, and supply information to the owners of the site. Cookies can be \"persistent\" or \"session\" cookies. Persistent cookies remain on your device for a set period or until you delete them, while session cookies are deleted as soon as you close your web browser."
+msgstr "Cookie là các tệp văn bản nhỏ được lưu trữ trên máy tính hoặc thiết bị di động của bạn khi bạn truy cập một trang web. Chúng được sử dụng rộng rãi để làm cho các trang web hoạt động hiệu quả hơn, cung cấp trải nghiệm duyệt web tốt hơn và cung cấp thông tin cho chủ sở hữu trang web. Cookie có thể là cookie \"lâu dài\" hoặc cookie \"phiên\". Cookie lâu dài sẽ lưu trên thiết bị của bạn trong một khoảng thời gian nhất định hoặc cho đến khi bạn xóa chúng, trong khi cookie phiên sẽ bị xóa ngay khi bạn đóng trình duyệt web."
+
+#: inc/modules/cookie-policy/api.php:199
+msgid "In addition to cookies, we may also use similar technologies such as pixel tags, web beacons, and local storage to collect and store information. These technologies work in a similar way to cookies and allow us to monitor and improve our website and your experience of it."
+msgstr "Ngoài cookie, chúng tôi cũng có thể sử dụng các công nghệ tương tự như thẻ pixel, beacon web và lưu trữ cục bộ để thu thập và lưu trữ thông tin. Các công nghệ này hoạt động tương tự như cookie và cho phép chúng tôi theo dõi và cải thiện trang web cũng như trải nghiệm của bạn trên đó."
+
+#: inc/modules/cookie-policy/api.php:206
+msgid "Types of Cookies We Use"
+msgstr "Các loại cookie chúng tôi sử dụng"
+
+#: inc/modules/cookie-policy/api.php:210
+msgid "We use different types of cookies for various reasons. The table below provides detailed information about the cookies we use, organized by category, including the name of each cookie, its purpose, duration, and the domain it belongs to. Some cookies are essential for the website to function properly, while others help us understand how visitors interact with our site, remember your preferences, or deliver relevant advertising."
+msgstr "Chúng tôi sử dụng các loại cookie khác nhau vì nhiều lý do. Bảng dưới đây cung cấp thông tin chi tiết về các cookie chúng tôi sử dụng, được tổ chức theo từng loại, bao gồm tên của từng cookie, mục đích, thời gian tồn tại và miền mà nó thuộc về. Một số cookie là cần thiết để trang web hoạt động đúng cách, trong khi những cookie khác giúp chúng tôi hiểu cách khách truy cập tương tác với trang web, ghi nhớ sở thích của bạn hoặc cung cấp quảng cáo phù hợp."
+
+#: inc/modules/cookie-policy/api.php:220
+msgid "How to Manage Your Cookie Preferences"
+msgstr "Cách quản lý sở thích cookie của bạn"
+
+#: inc/modules/cookie-policy/api.php:224
+msgid "When you first visit our website, you will be shown a cookie consent banner that allows you to accept or decline non-essential cookies. You can change your preferences at any time by clicking the cookie preferences option available on our website. Essential cookies cannot be disabled as they are necessary for the basic functioning of the website."
+msgstr "Khi bạn lần đầu truy cập trang web của chúng tôi, bạn sẽ thấy một biểu ngữ đồng ý cookie cho phép bạn chấp nhận hoặc từ chối các cookie không cần thiết. Bạn có thể thay đổi sở thích của mình bất cứ lúc nào bằng cách nhấp vào tùy chọn sở thích cookie có trên trang web của chúng tôi. Cookie cần thiết không thể bị vô hiệu hóa vì chúng cần thiết cho chức năng cơ bản của trang web."
+
+#: inc/modules/cookie-policy/api.php:228
+msgid "Please note that restricting cookies may impact your experience of the website, as some features and services may not function properly without certain cookies enabled."
+msgstr "Xin lưu ý rằng việc hạn chế cookie có thể ảnh hưởng đến trải nghiệm của bạn trên trang web, vì một số tính năng và dịch vụ có thể không hoạt động đúng nếu không bật một số cookie nhất định."
+
+#: inc/modules/cookie-policy/api.php:235
+msgid "How to Control Cookies in Your Browser"
+msgstr "Cách kiểm soát cookie trong trình duyệt của bạn"
+
+#: inc/modules/cookie-policy/api.php:239
+msgid "Most web browsers allow you to manage your cookie preferences through their settings. You can set your browser to refuse cookies, delete existing cookies, or alert you when a cookie is being set. The steps to manage cookies vary by browser. Below are general instructions for the most common browsers."
+msgstr "Hầu hết các trình duyệt web cho phép bạn quản lý sở thích cookie thông qua cài đặt của chúng. Bạn có thể đặt trình duyệt từ chối cookie, xóa cookie hiện có hoặc cảnh báo khi một cookie được thiết lập. Các bước quản lý cookie khác nhau tùy theo trình duyệt. Dưới đây là hướng dẫn chung cho các trình duyệt phổ biến nhất."
+
+#: inc/modules/cookie-policy/api.php:243
+msgid "Google Chrome: Open Settings, go to Privacy and Security, then click on Cookies and other site data. From there, you can block third-party cookies, clear cookies when you close the browser, or block all cookies."
+msgstr "Google Chrome: Mở Cài đặt, vào Quyền riêng tư và Bảo mật, sau đó nhấp vào Cookie và dữ liệu trang web khác. Từ đó, bạn có thể chặn cookie của bên thứ ba, xóa cookie khi đóng trình duyệt hoặc chặn tất cả cookie."
+
+#: inc/modules/cookie-policy/api.php:247
+msgid "Mozilla Firefox: Open Settings, go to Privacy and Security, and under Cookies and Site Data you can manage how Firefox handles cookies including clearing data and managing exceptions."
+msgstr "Mozilla Firefox: Mở Cài đặt, vào Quyền riêng tư và Bảo mật, và dưới phần Cookie và Dữ liệu Trang web bạn có thể quản lý cách Firefox xử lý cookie bao gồm xóa dữ liệu và quản lý ngoại lệ."
+
+#: inc/modules/cookie-policy/api.php:251
+msgid "Safari: Open Preferences, go to the Privacy tab, and configure your cookie blocking preferences. Safari also offers an option to prevent cross-site tracking."
+msgstr "Safari: Mở Preferences, vào tab Privacy và cấu hình tùy chọn chặn cookie của bạn. Safari cũng cung cấp tùy chọn ngăn chặn theo dõi chéo trang web."
+
+#: inc/modules/cookie-policy/api.php:255
+msgid "Microsoft Edge: Open Settings, go to Privacy, Search, and Services. Under the Cookies section, you can choose to block third-party cookies or all cookies and manage cookie exceptions."
+msgstr "Microsoft Edge: Mở Settings, vào Privacy, Search, and Services. Trong phần Cookies, bạn có thể chọn chặn cookie của bên thứ ba hoặc tất cả cookie và quản lý các ngoại lệ cookie."
+
+#: inc/modules/cookie-policy/api.php:262
+msgid "Consequences of Disabling Cookies"
+msgstr "Hậu quả của việc vô hiệu hóa cookie"
+
+#: inc/modules/cookie-policy/api.php:266
+msgid "If you choose to disable or decline cookies, some parts of this website may not function as intended. For example, you may not be able to log in, your preferences may not be saved between visits, and certain interactive features may be limited. Disabling essential cookies may make it impossible to use some or all of the services provided through this website."
+msgstr "Nếu bạn chọn vô hiệu hóa hoặc từ chối cookie, một số phần của trang web này có thể không hoạt động như dự định. Ví dụ, bạn có thể không đăng nhập được, các tùy chọn của bạn có thể không được lưu giữa các lần truy cập, và một số tính năng tương tác có thể bị hạn chế. Vô hiệu hóa cookie thiết yếu có thể khiến bạn không thể sử dụng một số hoặc tất cả các dịch vụ được cung cấp qua trang web này."
+
+#: inc/modules/cookie-policy/api.php:270
+msgid "Disabling analytics or marketing cookies will not affect the core functionality of the website, but it may limit our ability to improve the website based on user behavior or to provide you with personalized content and advertisements."
+msgstr "Vô hiệu hóa cookie phân tích hoặc tiếp thị sẽ không ảnh hưởng đến chức năng cốt lõi của trang web, nhưng có thể hạn chế khả năng của chúng tôi trong việc cải thiện trang web dựa trên hành vi người dùng hoặc cung cấp cho bạn nội dung và quảng cáo cá nhân hóa."
+
+#: inc/modules/cookie-policy/api.php:277
+msgid "Changes to This Cookie Policy"
+msgstr "Thay đổi chính sách cookie này"
+
+#: inc/modules/cookie-policy/api.php:281
+msgid "We may update this Cookie Policy from time to time to reflect changes in technology, legislation, our business operations, or any other reason we determine is necessary or appropriate. Any changes will be posted on this page with an updated revision date. We encourage you to review this Cookie Policy periodically to stay informed about how we are using cookies."
+msgstr "Chúng tôi có thể cập nhật Chính sách Cookie này theo thời gian để phản ánh các thay đổi về công nghệ, luật pháp, hoạt động kinh doanh của chúng tôi hoặc bất kỳ lý do nào khác mà chúng tôi cho là cần thiết hoặc phù hợp. Mọi thay đổi sẽ được đăng trên trang này với ngày sửa đổi cập nhật. Chúng tôi khuyến khích bạn xem lại Chính sách Cookie này định kỳ để luôn được thông báo về cách chúng tôi sử dụng cookie."
+
+#: inc/modules/cookie-policy/api.php:288
+msgid "Contact Us"
+msgstr "Liên hệ với chúng tôi"
+
+#: inc/modules/cookie-policy/api.php:292
+msgid "If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at:"
+msgstr "Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào về Chính sách Cookie này hoặc việc chúng tôi sử dụng cookie, vui lòng liên hệ với chúng tôi tại:"
+
+#: inc/modules/cookie-policy/api.php:296
+msgid "[Your Company Name], [Your Address], [your-email@example.com]"
+msgstr "[Tên Công Ty của Bạn], [Địa Chỉ của Bạn], [your-email@example.com]"
+
+#: inc/modules/cookie-policy/shortcode.php:143
+#: inc/modules/cookie-policy/shortcode.php:144
+msgid "Table of Contents"
+msgstr "Mục lục"
+
+#: inc/modules/cookie-policy/shortcode.php:203
+#: build/admin.js:25
+msgid "Cookie Name"
+msgstr "Tên Cookie"
+
+#: inc/modules/cookie-policy/shortcode.php:204
+#: build/admin.js:25
+msgid "Purpose"
+msgstr "Mục đích"
+
+#: inc/modules/cookie-policy/shortcode.php:205
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Duration"
+msgstr "Thời gian"
+
+#: inc/modules/cookie-policy/shortcode.php:206
+#: build/admin.js:25
+msgid "Domain"
+msgstr "Miền"
+
+#. translators: %s: formatted date string.
+#: inc/modules/cookie-policy/shortcode.php:270
+#, php-format
+msgid "Last updated: %s"
+msgstr "Cập nhật lần cuối: %s"
+
+#: inc/modules/cookie-policy/shortcode.php:356
+msgid "This website"
+msgstr "Trang web này"
+
+#: inc/modules/google-consent-mode/consent-handler.php:130
+msgid "SureCookie:"
+msgstr "SureCookie:"
+
+#: inc/modules/google-consent-mode/consent-handler.php:132
+msgid "Google Site Kit's Consent Mode is active. Please disable it in Site Kit settings to use SureCookie's implementation."
+msgstr "Chế độ Đồng ý của Google Site Kit đang hoạt động. Vui lòng tắt nó trong cài đặt Site Kit để sử dụng triển khai của SureCookie."
+
+#: inc/modules/nudges/api.php:70
+msgid "Invalid type provided."
+msgstr "Loại không hợp lệ được cung cấp."
+
+#: inc/modules/nudges/api.php:94
+msgid "Could not disable the nudge. Please try again."
+msgstr "Không thể vô hiệu hóa nudge. Vui lòng thử lại."
+
+#. translators: %s: nudge type
+#: inc/modules/nudges/api.php:100
+#, php-format
+msgid "\"%s\" has been disabled."
+msgstr "\"%s\" đã bị vô hiệu hóa."
+
+#. translators: %s: Service name (e.g., YouTube, Vimeo, Bunny.net).
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:302
+#: inc/modules/script-blocking/blocker.php:1283
+#, php-format
+msgid "This content is blocked because it requires %s cookies."
+msgstr "Nội dung này bị chặn vì nó yêu cầu cookie %s."
+
+#: inc/integrations/presto-player/block-handler.php:240
+#: inc/modules/script-blocking/blocker.php:1298
+msgid "Accept & Load"
+msgstr "Chấp nhận & Tải"
+
+#: inc/modules/site-scanner/api.php:220
+msgid "Scan cancelled successfully."
+msgstr "Quét đã bị hủy thành công."
+
+#: inc/modules/site-scanner/api.php:226
+msgid "No active scan to cancel."
+msgstr "Không có quét đang hoạt động để hủy."
+
+#: inc/modules/site-scanner/api.php:257
+#: inc/modules/site-scanner/saas-client.php:400
+msgid "A scan is already in progress. Please wait for it to complete."
+msgstr "Một lần quét đang tiến hành. Vui lòng đợi cho đến khi hoàn thành."
+
+#: inc/modules/site-scanner/api.php:273
+#: inc/modules/site-scanner/cron.php:76
+#: inc/modules/site-scanner/saas-client.php:407
+msgid "No pages selected for scanning."
+msgstr "Không có trang nào được chọn để quét."
+
+#: inc/modules/site-scanner/api.php:288
+msgid "Failed to start scan."
+msgstr "Không thể bắt đầu quét."
+
+#: inc/modules/site-scanner/api.php:299
+msgid "Cookie scan has been initiated."
+msgstr "Quét cookie đã được khởi động."
+
+#: inc/modules/site-scanner/api.php:300
+msgid "The scan is running. You will be notified when it completes."
+msgstr "Quét đang chạy. Bạn sẽ được thông báo khi nó hoàn thành."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/api.php:312
+#, php-format
+msgid "Failed to start site scanner: %s"
+msgstr "Không thể bắt đầu trình quét trang: %s"
+
+#: inc/modules/site-scanner/cron.php:70
+msgid "Starting site scan (triggered by user)."
+msgstr "Bắt đầu quét trang (kích hoạt bởi người dùng)."
+
+#. translators: %s: Plan name
+#: inc/modules/site-scanner/cron.php:92
+#, php-format
+msgid "Plan: %s."
+msgstr "Kế hoạch: %s."
+
+#. translators: %d: Number of pages
+#: inc/modules/site-scanner/cron.php:93
+#, php-format
+msgid "Pages selected: %d."
+msgstr "Số trang được chọn: %d."
+
+#: inc/modules/site-scanner/cron.php:95
+msgid "Sending scan request…"
+msgstr "Đang gửi yêu cầu quét…"
+
+#: inc/modules/site-scanner/cron.php:101
+msgid "Scan already in progress. Skipping."
+msgstr "Quét đang tiến hành. Bỏ qua."
+
+#: inc/modules/site-scanner/cron.php:114
+msgid "Scan started successfully."
+msgstr "Quét đã bắt đầu thành công."
+
+#. translators: %s: Group ID
+#: inc/modules/site-scanner/cron.php:115
+#, php-format
+msgid "Group ID: %s"
+msgstr "ID nhóm: %s"
+
+#: inc/modules/site-scanner/cron.php:117
+msgid "Checking scan progress…"
+msgstr "Đang kiểm tra tiến trình quét…"
+
+#: inc/modules/site-scanner/cron.php:122
+msgid "Scan failed."
+msgstr "Quét thất bại."
+
+#: inc/modules/site-scanner/cron.php:166
+msgid "No active scan."
+msgstr "Không có quét đang hoạt động."
+
+#: inc/modules/site-scanner/cron.php:186
+msgid "Scan in progress..."
+msgstr "Quét đang tiến hành..."
+
+#: inc/modules/site-scanner/cron.php:224
+msgid "Scan cancelled by user."
+msgstr "Quét đã bị hủy bởi người dùng."
+
+#: inc/modules/site-scanner/saas-client.php:281
+msgid "Every 1 Minute (SureCookie Polling)"
+msgstr "Mỗi 1 phút (Kiểm tra SureCookie)"
+
+#: inc/modules/site-scanner/saas-client.php:391
+msgid "Cookie scanning is not available for localhost or development sites. Please use a live domain."
+msgstr "Quét cookie không khả dụng cho localhost hoặc các trang phát triển. Vui lòng sử dụng tên miền trực tiếp."
+
+#: inc/modules/site-scanner/saas-client.php:422
+msgid "Could not generate a secure scan token. Please retry."
+msgstr "Không thể tạo mã quét an toàn. Vui lòng thử lại."
+
+#: inc/modules/site-scanner/saas-client.php:448
+msgid "Failed to encode scan request."
+msgstr "Không thể mã hóa yêu cầu quét."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/saas-client.php:493
+#, php-format
+msgid "Failed to start scan: %s"
+msgstr "Không thể bắt đầu quét: %s"
+
+#: inc/modules/site-scanner/saas-client.php:531
+msgid "Unknown error occurred."
+msgstr "Đã xảy ra lỗi không xác định."
+
+#: inc/modules/site-scanner/saas-client.php:599
+msgid "Scan has been started. You will be notified when it completes."
+msgstr "Quét đã được bắt đầu. Bạn sẽ được thông báo khi nó hoàn thành."
+
+#: inc/modules/site-scanner/saas-client.php:641
+msgid "Failed to check scan status."
+msgstr "Không thể kiểm tra trạng thái quét."
+
+#: inc/modules/site-scanner/saas-client.php:778
+msgid "Failed to get scan group."
+msgstr "Không thể lấy nhóm quét."
+
+#: inc/modules/site-scanner/saas-client.php:906
+msgid "Scan timed out. Please try again."
+msgstr "Quét hết thời gian. Vui lòng thử lại."
+
+#. translators: 1: completed pages count, 2: total pages count
+#: inc/modules/site-scanner/saas-client.php:944
+#, php-format
+msgid "Progress: %1$d of %2$d pages scanned."
+msgstr "Tiến trình: %1$d trong %2$d trang đã được quét."
+
+#. translators: %d: number of failed pages
+#: inc/modules/site-scanner/saas-client.php:954
+#, php-format
+msgid "%d page(s) failed to scan."
+msgstr "%d trang đã quét thất bại."
+
+#: inc/modules/site-scanner/saas-client.php:977
+msgid "Scan completed!"
+msgstr "Quét hoàn tất!"
+
+#: inc/modules/site-scanner/saas-client.php:996
+msgid "Scan failed on server."
+msgstr "Quét thất bại trên máy chủ."
+
+#: inc/modules/site-scanner/saas-client.php:1002
+msgid "Scan is in progress. Checking again…"
+msgstr "Quét đang tiến hành. Đang kiểm tra lại…"
+
+#: inc/modules/site-scanner/saas-client.php:1043
+msgid "Quota is not available on localhost or development sites."
+msgstr "Hạn mức không khả dụng trên localhost hoặc các trang phát triển."
+
+#: inc/modules/site-scanner/saas-client.php:1056
+msgid "Scanner credentials are not yet issued. Run your first scan to register."
+msgstr "Thông tin đăng nhập trình quét chưa được cấp. Hãy chạy quét đầu tiên để đăng ký."
+
+#: inc/modules/site-scanner/saas-client.php:1102
+msgid "Unexpected response from server."
+msgstr "Phản hồi không mong đợi từ máy chủ."
+
+#: inc/modules/site-scanner/saas-client.php:1149
+msgid "Authentication required."
+msgstr "Yêu cầu xác thực."
+
+#: inc/modules/site-scanner/saas-client.php:1159
+msgid "Failed to fetch quota."
+msgstr "Không thể lấy hạn mức."
+
+#: inc/modules/site-scanner/saas-client.php:1476
+msgid "Another registration is already in progress. Please try again in a moment."
+msgstr "Một đăng ký khác đang tiến hành. Vui lòng thử lại sau một lúc."
+
+#: inc/modules/site-scanner/saas-client.php:1506
+msgid "Could not determine site domain."
+msgstr "Không thể xác định tên miền trang."
+
+#: inc/modules/site-scanner/saas-client.php:1518
+msgid "Could not generate a secure registration nonce. Please retry."
+msgstr "Không thể tạo nonce đăng ký an toàn. Vui lòng thử lại."
+
+#: inc/modules/site-scanner/saas-client.php:1546
+msgid "Failed to encode registration request."
+msgstr "Không thể mã hóa yêu cầu đăng ký."
+
+#. translators: %s: error message from the network call
+#: inc/modules/site-scanner/saas-client.php:1568
+#, php-format
+msgid "Could not reach the SureCookie service: %s"
+msgstr "Không thể kết nối dịch vụ SureCookie: %s"
+
+#: inc/modules/site-scanner/saas-client.php:1582
+msgid "Registration could not be initiated."
+msgstr "Không thể khởi động đăng ký."
+
+#: inc/modules/site-scanner/saas-client.php:1597
+msgid "Received an invalid verification token. Please retry."
+msgstr "Nhận được mã xác minh không hợp lệ. Vui lòng thử lại."
+
+#: inc/modules/site-scanner/saas-client.php:1615
+msgid "Failed to encode verification completion."
+msgstr "Không thể mã hóa hoàn tất xác minh."
+
+#: inc/modules/site-scanner/saas-client.php:1899
+msgid "Failed to fetch results."
+msgstr "Không thể lấy kết quả."
+
+#: inc/services/cookie-category-service.php:54
+msgid "Cookie categories retrieved successfully."
+msgstr "Danh mục cookie đã được lấy thành công."
+
+#: inc/services/cookie-category-service.php:75
+msgid "Category name is required."
+msgstr "Tên danh mục là bắt buộc."
+
+#: inc/services/cookie-category-service.php:86
+msgid "A category with this name already exists."
+msgstr "Đã tồn tại danh mục với tên này."
+
+#: inc/services/cookie-category-service.php:103
+msgid "Category created successfully."
+msgstr "Danh mục đã được tạo thành công."
+
+#: inc/services/cookie-category-service.php:124
+#: inc/services/cookie-category-service.php:196
+msgid "Category ID is required."
+msgstr "ID danh mục là bắt buộc."
+
+#: inc/services/cookie-category-service.php:134
+#: inc/services/cookie-category-service.php:215
+msgid "Category not found."
+msgstr "Không tìm thấy danh mục."
+
+#: inc/services/cookie-category-service.php:166
+msgid "Category updated successfully."
+msgstr "Danh mục đã được cập nhật thành công."
+
+#: inc/services/cookie-category-service.php:205
+msgid "Default categories cannot be deleted."
+msgstr "Danh mục mặc định không thể bị xóa."
+
+#: inc/services/cookie-category-service.php:307
+msgid "Category deleted successfully."
+msgstr "Danh mục đã được xóa thành công."
+
+#: inc/services/cookie-service.php:60
+#: inc/services/cookie-service.php:355
+msgid "No scanned cookies found."
+msgstr "Không tìm thấy cookie đã quét."
+
+#: inc/services/cookie-service.php:84
+msgid "Scanned cookies retrieved successfully."
+msgstr "Cookie đã quét được lấy thành công."
+
+#: inc/services/cookie-service.php:101
+msgid "Custom cookies retrieved successfully."
+msgstr "Cookie tùy chỉnh được lấy thành công."
+
+#: inc/services/cookie-service.php:132
+#: inc/services/cookie-service.php:323
+msgid "Cookie name is required."
+msgstr "Tên cookie là bắt buộc."
+
+#: inc/services/cookie-service.php:139
+msgid "Cookie category is required."
+msgstr "Danh mục cookie là bắt buộc."
+
+#: inc/services/cookie-service.php:154
+msgid "A cookie with this name already exists."
+msgstr "Đã tồn tại cookie với tên này."
+
+#: inc/services/cookie-service.php:191
+msgid "Custom cookie created successfully."
+msgstr "Tạo cookie tùy chỉnh thành công."
+
+#: inc/services/cookie-service.php:210
+#: inc/services/cookie-service.php:280
+msgid "Cookie ID is required."
+msgstr "ID cookie là bắt buộc."
+
+#: inc/services/cookie-service.php:219
+#: inc/services/cookie-service.php:289
+msgid "Cookie not found."
+msgstr "Không tìm thấy cookie."
+
+#: inc/services/cookie-service.php:262
+msgid "Custom cookie updated successfully."
+msgstr "Cập nhật cookie tùy chỉnh thành công."
+
+#: inc/services/cookie-service.php:299
+msgid "Custom cookie deleted successfully."
+msgstr "Xóa cookie tùy chỉnh thành công."
+
+#: inc/services/cookie-service.php:330
+msgid "Current category is required."
+msgstr "Danh mục hiện tại là bắt buộc."
+
+#: inc/services/cookie-service.php:337
+#: inc/services/cookie-service.php:414
+msgid "New category is required."
+msgstr "Danh mục mới là bắt buộc."
+
+#: inc/services/cookie-service.php:345
+msgid "Cookie is already in the selected category."
+msgstr "Cookie đã nằm trong danh mục được chọn."
+
+#: inc/services/cookie-service.php:363
+msgid "Current category not found in scanned cookies."
+msgstr "Không tìm thấy danh mục hiện tại trong các cookie đã quét."
+
+#: inc/services/cookie-service.php:372
+msgid "Cookie not found in the specified category."
+msgstr "Không tìm thấy cookie trong danh mục được chỉ định."
+
+#: inc/services/cookie-service.php:384
+msgid "Cookie category updated successfully."
+msgstr "Cập nhật danh mục cookie thành công."
+
+#: inc/utils/options.php:48
+msgid "We use cookies to improve your experience and understand how you use our site. You can review your choices at any time."
+msgstr "Chúng tôi sử dụng cookie để cải thiện trải nghiệm của bạn và hiểu cách bạn sử dụng trang web của chúng tôi. Bạn có thể xem lại lựa chọn của mình bất cứ lúc nào."
+
+#: inc/utils/options.php:62
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Only Essential"
+msgstr "Chỉ thiết yếu"
+
+#: inc/utils/options.php:71
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Accept All"
+msgstr "Chấp nhận tất cả"
+
+#: inc/utils/options.php:75
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Decline"
+msgstr "Từ chối"
+
+#: inc/utils/options.php:79
+msgid "Cookie Settings"
+msgstr "Cài đặt cookie"
+
+#: inc/utils/options.php:142
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Preferences"
+msgstr "Sở thích"
+
+#: inc/utils/options.php:146
+msgid "Privacy Preference"
+msgstr "Sở thích quyền riêng tư"
+
+#: inc/utils/options.php:150
+msgid "We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience."
+msgstr "Chúng tôi sử dụng cookie và các công nghệ tương tự để giúp cá nhân hóa nội dung, điều chỉnh và đo lường quảng cáo, và cung cấp trải nghiệm tốt hơn."
+
+#: inc/utils/options.php:174
+#: build/admin.js:4
+#: build/admin.js:75
+msgid "Cookie Preferences"
+msgstr "Sở thích cookie"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Accepted"
+msgstr "Đã chấp nhận"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Partially Accepted"
+msgstr "Chấp nhận một phần"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Declined"
+msgstr "Đã từ chối"
+
+#: build/admin.js:1
+msgid "Failed to load consent logs"
+msgstr "Không tải được nhật ký đồng ý"
+
+#: build/admin.js:1
+msgid "Failed to load conflicting plugins"
+msgstr "Không tải được các plugin xung đột"
+
+#: build/admin.js:1
+msgid "Failed to load cookie categories"
+msgstr "Không tải được danh mục cookie"
+
+#: build/admin.js:1
+msgid "Scan cancelled."
+msgstr "Quét đã bị hủy."
+
+#: build/admin.js:1
+msgid "Failed to cancel scan."
+msgstr "Không hủy được việc quét."
+
+#: build/admin.js:1
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "Failed to load settings"
+msgstr "Không tải được cài đặt"
+
+#: build/admin.js:1
+msgid "Failed to save settings"
+msgstr "Không lưu được cài đặt"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "30 days"
+msgstr "30 ngày"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "60 days"
+msgstr "60 ngày"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "90 days"
+msgstr "90 ngày"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "365 days"
+msgstr "365 ngày"
+
+#: build/admin.js:1
+#: build/admin.js:3
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "Never"
+msgstr "Không bao giờ"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Cookie Scanner"
+msgstr "Trình quét cookie"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "All Cookies"
+msgstr "Tất cả cookie"
+
+#: build/admin.js:2
+msgid "Banner"
+msgstr "Biểu ngữ"
+
+#: build/admin.js:2
+msgid "Content"
+msgstr "Nội dung"
+
+#: build/admin.js:2
+msgid "Layout"
+msgstr "Bố cục"
+
+#: build/admin.js:2
+#: build/admin.js:78
+msgid "Visibility"
+msgstr "Hiển thị"
+
+#: build/admin.js:2
+#: build/admin.js:75
+msgid "Re-Consent"
+msgstr "Đồng ý lại"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "Custom CSS"
+msgstr "CSS tùy chỉnh"
+
+#: build/admin.js:2
+msgid "Google Consent Mode"
+msgstr "Chế độ đồng ý của Google"
+
+#: build/admin.js:2
+msgid "Additional Consent"
+msgstr "Đồng ý bổ sung"
+
+#: build/admin.js:2
+#: build/admin.js:21
+msgid "Consent Logs"
+msgstr "Nhật ký đồng ý"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication timeout. Please try again."
+msgstr "Hết thời gian xác thực. Vui lòng thử lại."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful!"
+msgstr "Xác thực thành công!"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "An error occurred during authentication"
+msgstr "Đã xảy ra lỗi trong quá trình xác thực"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication cancelled. Please try again."
+msgstr "Xác thực bị hủy. Vui lòng thử lại."
+
+#: inc/modules/assisted-scan/collector.php:329
+#: build/admin.js:2
+#: build/admin.js:3
+#: build/admin.js:28
+#: build/admin.js:41
+msgid "Cancel"
+msgstr "Hủy"
+
+#: build/admin.js:2
+#: build/admin.js:5
+#: build/admin.js:6
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Delete"
+msgstr "Xóa"
+
+#: build/admin.js:2
+#: build/admin.js:28
+#: build/admin.js:83
+msgid "Save"
+msgstr "Lưu"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "No options available"
+msgstr "Không có tùy chọn nào"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful"
+msgstr "Xác thực thành công"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication completed successfully. Closing tab in 3 seconds…"
+msgstr "Xác thực hoàn tất thành công. Đóng tab trong 3 giây…"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication failed"
+msgstr "Xác thực thất bại"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Please return to the SureCookie dashboard and try again."
+msgstr "Vui lòng quay lại bảng điều khiển SureCookie và thử lại."
+
+#: build/admin.js:2
+#: build/onboarding.js:6
+msgid "Let's Get Started"
+msgstr "Bắt đầu nào"
+
+#: build/admin.js:2
+msgid "Automatic Cookie Detection"
+msgstr "Phát hiện cookie tự động"
+
+#: build/admin.js:2
+msgid "Smart Categorization"
+msgstr "Phân loại thông minh"
+
+#: build/admin.js:2
+msgid "Compliance Recommendations"
+msgstr "Khuyến nghị tuân thủ"
+
+#: build/admin.js:2
+msgid "Connect to scan your website"
+msgstr "Kết nối để quét trang web của bạn"
+
+#: build/admin.js:2
+msgid "Connect your SureCookie account to automatically detect cookies on your website, categorize them, and get compliance recommendations."
+msgstr "Kết nối tài khoản SureCookie của bạn để tự động phát hiện cookie trên trang web, phân loại chúng và nhận khuyến nghị tuân thủ."
+
+#: build/admin.js:2
+msgid "Learn more"
+msgstr "Tìm hiểu thêm"
+
+#: build/admin.js:2
+msgid "Free Plan Limit Reached"
+msgstr "Đã đạt giới hạn gói miễn phí"
+
+#: build/admin.js:2
+#: build/admin.js:6
+#: build/admin.js:47
+#: build/admin.js:53
+#: build/admin.js:63
+#: build/admin.js:75
+#: build/onboarding.js:7
+msgid "Upgrade Now"
+msgstr "Nâng cấp ngay"
+
+#: build/admin.js:2
+msgid "Unlock this feature"
+msgstr "Mở khóa tính năng này"
+
+#: build/admin.js:2
+msgid "WordPress updates API not available."
+msgstr "API cập nhật WordPress không khả dụng."
+
+#: build/admin.js:2
+msgid "Plugin activation failed."
+msgstr "Kích hoạt plugin thất bại."
+
+#: build/admin.js:2
+msgid "Plugin installation failed."
+msgstr "Cài đặt plugin thất bại."
+
+#: build/admin.js:2
+msgid "Plugin installed and activated successfully."
+msgstr "Plugin đã được cài đặt và kích hoạt thành công."
+
+#: build/admin.js:2
+msgid "Failed to install and activate plugin."
+msgstr "Không thể cài đặt và kích hoạt plugin."
+
+#: build/admin.js:2
+msgid "Failed to activate plugin."
+msgstr "Không thể kích hoạt plugin."
+
+#: build/admin.js:2
+msgid "Install and Activate"
+msgstr "Cài đặt và Kích hoạt"
+
+#: build/admin.js:2
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#: build/admin.js:2
+msgid "Activated"
+msgstr "Đã kích hoạt"
+
+#: build/admin.js:2
+msgid "Settings saved!"
+msgstr "Đã lưu cài đặt!"
+
+#: build/admin.js:2
+msgid "Your settings have been successfully saved."
+msgstr "Cài đặt của bạn đã được lưu thành công."
+
+#: build/admin.js:2
+msgid "Save failed!"
+msgstr "Lưu thất bại!"
+
+#: build/admin.js:2
+msgid "There was an error saving your settings. Please try again."
+msgstr "Đã xảy ra lỗi khi lưu cài đặt của bạn. Vui lòng thử lại."
+
+#: build/admin.js:2
+msgid "Saving…"
+msgstr "Đang lưu…"
+
+#: build/admin.js:2
+msgid "Banner Content"
+msgstr "Nội dung Biểu ngữ"
+
+#: build/admin.js:2
+msgid "Configure the text content that appears in your cookie consent banner and preference modal"
+msgstr "Cấu hình nội dung văn bản xuất hiện trong biểu ngữ đồng ý cookie và cửa sổ tùy chọn của bạn"
+
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "An error occurred while loading settings. Please refresh the page to try again."
+msgstr "Đã xảy ra lỗi khi tải cài đặt. Vui lòng làm mới trang để thử lại."
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner Switch"
+msgstr "Bật công tắc Biểu ngữ Cookie"
+
+#: build/admin.js:2
+msgid "Show cookie consent banner to comply with privacy regulations."
+msgstr "Hiển thị biểu ngữ đồng ý cookie để tuân thủ các quy định về quyền riêng tư."
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner"
+msgstr "Bật Biểu ngữ Cookie"
+
+#: build/admin.js:2
+msgid "Consent Banner"
+msgstr "Biểu ngữ Đồng ý"
+
+#: build/admin.js:2
+msgid "Preference Modal"
+msgstr "Cửa sổ Tùy chọn"
+
+#: build/admin.js:2
+msgid "Banner Heading"
+msgstr "Tiêu đề Biểu ngữ"
+
+#: build/admin.js:2
+msgid "Cookie Notice (optional)"
+msgstr "Thông báo Cookie (tùy chọn)"
+
+#: build/admin.js:2
+msgid "Banner Message"
+msgstr "Thông điệp Biểu ngữ"
+
+#: build/admin.js:2
+msgid "Enable Accept All Button"
+msgstr "Bật nút Chấp nhận Tất cả"
+
+#: build/admin.js:2
+msgid "Show the \"Accept All\" button on the consent banner. When off, the button is removed from the banner and from the Button Order list."
+msgstr "Hiển thị nút \"Chấp nhận Tất cả\" trên biểu ngữ đồng ý. Khi tắt, nút này sẽ bị loại bỏ khỏi biểu ngữ và danh sách Thứ tự Nút."
+
+#: build/admin.js:2
+msgid "Preference Modal Title"
+msgstr "Tiêu đề Cửa sổ Tùy chọn"
+
+#: build/admin.js:2
+msgid "Preference Modal Description"
+msgstr "Mô tả Cửa sổ Tùy chọn"
+
+#: build/admin.js:2
+msgid "Preference modal description cannot be empty."
+msgstr "Mô tả cửa sổ tùy chọn không được để trống."
+
+#: build/admin.js:2
+msgid "Banner message cannot be empty."
+msgstr "Thông điệp biểu ngữ không được để trống."
+
+#: build/admin.js:2
+msgid "Button Order"
+msgstr "Thứ tự Nút"
+
+#: build/admin.js:2
+msgid "Drag and drop to reorder buttons. This order can be overridden per Geographic Targeting Rule."
+msgstr "Kéo và thả để sắp xếp lại các nút. Thứ tự này có thể bị ghi đè theo Quy tắc Định vị Địa lý."
+
+#: build/admin.js:2
+msgid "Banner Layout"
+msgstr "Bố cục Biểu ngữ"
+
+#: build/admin.js:2
+msgid "Configure how and where your cookie banner appears on your website"
+msgstr "Cấu hình cách và vị trí biểu ngữ cookie xuất hiện trên trang web của bạn"
+
+#: build/admin.js:2
+msgid "Upload Logo"
+msgstr "Tải lên Logo"
+
+#: build/admin.js:2
+msgid "Logo"
+msgstr "Logo"
+
+#: build/admin.js:2
+msgid "Select Logo"
+msgstr "Chọn Logo"
+
+#: build/admin.js:2
+msgid "Use this logo"
+msgstr "Sử dụng logo này"
+
+#: build/admin.js:2
+msgid "Banner Type"
+msgstr "Loại Biểu ngữ"
+
+#: build/admin.js:2
+msgid "Floating Banner"
+msgstr "Biểu ngữ Nổi"
+
+#: build/admin.js:2
+msgid "Full-width Banner"
+msgstr "Biểu ngữ Toàn chiều rộng"
+
+#: build/admin.js:2
+msgid "Banner Width"
+msgstr "Chiều rộng Biểu ngữ"
+
+#: build/admin.js:2
+msgid "px"
+msgstr "px"
+
+#: build/admin.js:2
+msgid "Position"
+msgstr "Vị trí"
+
+#: build/admin.js:2
+msgid "Bottom Left"
+msgstr "Dưới cùng bên trái"
+
+#: build/admin.js:2
+msgid "Bottom Center"
+msgstr "Dưới cùng giữa"
+
+#: build/admin.js:2
+msgid "Bottom Right"
+msgstr "Dưới cùng bên phải"
+
+#: build/admin.js:2
+msgid "Middle"
+msgstr "Giữa"
+
+#: build/admin.js:2
+msgid "Top"
+msgstr "Trên cùng"
+
+#: build/admin.js:2
+msgid "Bottom"
+msgstr "Dưới cùng"
+
+#: build/admin.js:2
+msgid "Banner Animation"
+msgstr "Hiệu ứng Biểu ngữ"
+
+#: build/admin.js:2
+msgid "Fade"
+msgstr "Mờ dần"
+
+#: build/admin.js:2
+msgid "Slide"
+msgstr "Trượt"
+
+#: build/admin.js:2
+msgid "Color Palette: <span></span>"
+msgstr "Bảng màu: <span></span>"
+
+#: build/admin.js:2
+#: build/admin.js:4
+msgid "Default"
+msgstr "Mặc định"
+
+#: build/admin.js:4
+msgid "Consent Details"
+msgstr "Chi tiết Đồng ý"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Unknown"
+msgstr "Không rõ"
+
+#: build/admin.js:4
+msgid "No data available."
+msgstr "Không có dữ liệu."
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Actions"
+msgstr "Hành động"
+
+#: build/admin.js:4
+msgid "Consent logs"
+msgstr "Nhật ký đồng ý"
+
+#: build/admin.js:4
+msgid "Date & Time"
+msgstr "Ngày & Giờ"
+
+#: build/admin.js:4
+msgid "IP Address"
+msgstr "Địa chỉ IP"
+
+#: build/admin.js:4
+msgid "Country"
+msgstr "Quốc gia"
+
+#: build/admin.js:4
+#: build/admin.js:76
+msgid "Status"
+msgstr "Trạng thái"
+
+#: build/admin.js:4
+msgid "Download PDF"
+msgstr "Tải xuống PDF"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:5
+#, js-format
+msgid "Download PDF for consent log from %s"
+msgstr "Tải xuống PDF cho nhật ký đồng ý từ %s"
+
+#: build/admin.js:4
+msgid "Session Summary"
+msgstr "Tóm tắt phiên"
+
+#: build/admin.js:4
+msgid "Field"
+msgstr "Trường"
+
+#: build/admin.js:4
+msgid "Value"
+msgstr "Giá trị"
+
+#: build/admin.js:4
+msgid "Session ID"
+msgstr "ID phiên"
+
+#: build/admin.js:4
+msgid "Total Records"
+msgstr "Tổng số bản ghi"
+
+#: build/admin.js:4
+msgid "Date Range"
+msgstr "Khoảng thời gian"
+
+#: build/admin.js:4
+msgid "Consent Record"
+msgstr "Bản ghi đồng ý"
+
+#: build/admin.js:4
+msgid "Log ID"
+msgstr "ID nhật ký"
+
+#: build/admin.js:4
+msgid "Timestamp"
+msgstr "Dấu thời gian"
+
+#: build/admin.js:4
+msgid "Consent Status"
+msgstr "Trạng thái đồng ý"
+
+#: build/admin.js:4
+msgid "Consent Preset"
+msgstr "Cài đặt đồng ý"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Category"
+msgstr "Danh mục"
+
+#: build/admin.js:4
+msgid "Legal Information"
+msgstr "Thông tin pháp lý"
+
+#: build/admin.js:4
+msgid "Date of Generation"
+msgstr "Ngày tạo"
+
+#: build/admin.js:4
+msgid "Website"
+msgstr "Trang web"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:6
+#, js-format
+msgid "Delete consent log from %s"
+msgstr "Xóa nhật ký đồng ý từ %s"
+
+#: build/admin.js:6
+msgid "Consent log is empty"
+msgstr "Nhật ký đồng ý trống"
+
+#: build/admin.js:6
+msgid "Your consent logs will be displayed here once users interact with the banner"
+msgstr "Nhật ký đồng ý của bạn sẽ được hiển thị ở đây khi người dùng tương tác với biểu ngữ"
+
+#: build/admin.js:6
+msgid "Consent Logging Disabled"
+msgstr "Ghi nhật ký đồng ý bị vô hiệu hóa"
+
+#: build/admin.js:6
+msgid "Enable consent logging to view analytics data and recent consent logs."
+msgstr "Bật ghi nhật ký đồng ý để xem dữ liệu phân tích và nhật ký đồng ý gần đây."
+
+#: build/admin.js:3
+#: build/admin.js:6
+msgid "Enable Consent Logging"
+msgstr "Bật ghi nhật ký đồng ý"
+
+#: build/admin.js:6
+msgid "<span></span> Selected"
+msgstr "<span></span> Đã chọn"
+
+#: build/admin.js:6
+msgid "Deleting…"
+msgstr "Đang xóa…"
+
+#: build/admin.js:6
+msgid "All Actions"
+msgstr "Tất cả hành động"
+
+#: build/admin.js:6
+msgid "All Countries"
+msgstr "Tất cả quốc gia"
+
+#: build/admin.js:6
+msgid "IP address or Session ID…"
+msgstr "Địa chỉ IP hoặc ID phiên…"
+
+#: build/admin.js:6
+msgid "Clear Filters"
+msgstr "Xóa bộ lọc"
+
+#: build/admin.js:6
+msgid "View All Logs"
+msgstr "Xem tất cả nhật ký"
+
+#: build/admin.js:6
+msgid "Consents"
+msgstr "Sự đồng ý"
+
+#: build/admin.js:6
+msgid "No Consents Yet"
+msgstr "Chưa có sự đồng ý nào"
+
+#: build/admin.js:6
+msgid "Data will appear here once visitors interact with the cookie banner."
+msgstr "Dữ liệu sẽ xuất hiện ở đây khi khách truy cập tương tác với biểu ngữ cookie."
+
+#. translators: %s: log/logs
+#: build/admin.js:9
+#, js-format
+msgid "Failed to delete consent %s"
+msgstr "Không thể xóa sự đồng ý %s"
+
+#: build/admin.js:9
+#: build/admin.js:12
+#: build/admin.js:18
+msgid "log"
+msgid_plural "logs"
+msgstr[0] "nhật ký"
+
+#. translators: %s: log/logs
+#: build/admin.js:12
+#, js-format
+msgid "Successfully deleted consent %s"
+msgstr "Đã xóa thành công sự đồng ý %s"
+
+#: build/admin.js:12
+msgid "Failed to delete consent log"
+msgstr "Không thể xóa nhật ký đồng ý"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Delete Consent Log"
+msgstr "Xóa nhật ký đồng ý"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Are you sure you want to delete this consent log? This action cannot be undone."
+msgstr "Bạn có chắc chắn muốn xóa nhật ký đồng ý này không? Hành động này không thể hoàn tác."
+
+#: build/admin.js:15
+msgid "Delete Selected Consent Logs"
+msgstr "Xóa các nhật ký đồng ý đã chọn"
+
+#. translators: %s: the log string pluralized.
+#: build/admin.js:18
+#, js-format
+msgid "Are you sure you want to delete the selected consent %s? This action cannot be undone."
+msgstr "Bạn có chắc chắn muốn xóa sự đồng ý %s đã chọn không? Hành động này không thể hoàn tác."
+
+#: build/admin.js:21
+msgid "Failed to load countries"
+msgstr "Không tải được danh sách quốc gia"
+
+#: build/admin.js:21
+msgid "Page"
+msgstr "Trang"
+
+#: build/admin.js:21
+msgid "of"
+msgstr "của"
+
+#: build/admin.js:21
+msgid "Consent Logs Pagination"
+msgstr "Phân trang nhật ký đồng ý"
+
+#: build/admin.js:2
+msgid "Consent Duration (in days)"
+msgstr "Thời gian hiệu lực của sự đồng ý (tính bằng ngày)"
+
+#: build/admin.js:2
+msgid "Please enter a value between 1 and 365 days."
+msgstr "Vui lòng nhập giá trị từ 1 đến 365 ngày."
+
+#: build/admin.js:2
+msgid "How long user consent remains valid before requiring renewal (1–365 days)."
+msgstr "Thời gian sự đồng ý của người dùng còn hiệu lực trước khi cần gia hạn (1–365 ngày)."
+
+#: build/admin.js:3
+msgid "Enable Consent Logging Switch"
+msgstr "Chuyển đổi bật ghi nhật ký đồng ý"
+
+#: build/admin.js:3
+msgid "Store consent records in database for compliance reporting and analytics."
+msgstr "Lưu bản ghi đồng ý trong cơ sở dữ liệu để báo cáo tuân thủ và phân tích."
+
+#: build/admin.js:3
+msgid "Clear Logs After"
+msgstr "Xóa nhật ký sau"
+
+#: build/admin.js:3
+msgid "Select retention period"
+msgstr "Chọn thời gian lưu giữ"
+
+#: build/admin.js:3
+msgid "Automatically delete consent logs older than the selected period."
+msgstr "Tự động xóa các nhật ký đồng ý cũ hơn khoảng thời gian đã chọn."
+
+#: build/admin.js:53
+msgid "SureCookie admin menu location toggle"
+msgstr "Chuyển đổi vị trí menu quản trị SureCookie"
+
+#: build/admin.js:53
+msgid "Hide SureCookie branding toggle"
+msgstr "Chuyển đổi ẩn thương hiệu SureCookie"
+
+#: build/admin.js:53
+msgid "Hide SureCookie Branding"
+msgstr "Ẩn thương hiệu SureCookie"
+
+#: build/admin.js:53
+msgid "Remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "Loại bỏ văn bản \"Powered by SureCookie\" khỏi biểu ngữ đồng ý và cửa sổ tùy chọn."
+
+#: build/admin.js:53
+msgid "to remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "để loại bỏ văn bản \"Powered by SureCookie\" khỏi biểu ngữ đồng ý và cửa sổ tùy chọn."
+
+#: build/admin.js:3
+msgid "Delete data on uninstall toggle"
+msgstr "Chuyển đổi xóa dữ liệu khi gỡ cài đặt"
+
+#: build/admin.js:3
+msgid "Delete Data on Uninstall"
+msgstr "Xóa dữ liệu khi gỡ cài đặt"
+
+#: build/admin.js:3
+msgid "When enabled, all plugin data including consent logs, settings, and scan results will be permanently deleted when you uninstall SureCookie. Leave disabled to preserve data for compliance records or future reinstallation."
+msgstr "Khi bật, tất cả dữ liệu plugin bao gồm nhật ký đồng ý, cài đặt và kết quả quét sẽ bị xóa vĩnh viễn khi bạn gỡ cài đặt SureCookie. Giữ tắt để bảo lưu dữ liệu cho hồ sơ tuân thủ hoặc cài đặt lại trong tương lai."
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie toggle"
+msgstr "Chuyển đổi đóng góp cho SureCookie"
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie"
+msgstr "Đóng góp cho SureCookie"
+
+#: build/admin.js:53
+msgid "Help shape the future of SureCookie. Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions."
+msgstr "Giúp định hình tương lai của SureCookie. Chia sẻ cách bạn sử dụng plugin để chúng tôi có thể xây dựng các tính năng quan trọng, sửa lỗi nhanh hơn và đưa ra quyết định thông minh hơn."
+
+#: build/admin.js:53
+#: build/admin.js:84
+msgid "Learn More"
+msgstr "Tìm hiểu thêm"
+
+#: build/admin.js:3
+msgid "Compliance Notice"
+msgstr "Thông báo tuân thủ"
+
+#: build/admin.js:3
+msgid "Consent logs may be required to demonstrate proof of consent under GDPR Article 7(1). Consider exporting consent records before uninstalling."
+msgstr "Nhật ký đồng ý có thể cần thiết để chứng minh bằng chứng đồng ý theo Điều 7(1) của GDPR. Hãy cân nhắc xuất hồ sơ đồng ý trước khi gỡ cài đặt."
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/admin.js:76
+#: build/public.js:4
+msgid "Name"
+msgstr "Tên"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Provider"
+msgstr "Nhà cung cấp"
+
+#: build/admin.js:25
+msgid "Duration (Days)"
+msgstr "Thời gian (Ngày)"
+
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Type"
+msgstr "Loại"
+
+#: build/admin.js:23
+#: build/admin.js:78
+#: build/onboarding.js:3
+msgid "Uncategorized"
+msgstr "Chưa phân loại"
+
+#: build/admin.js:21
+#: build/onboarding.js:1
+msgid "Change Category"
+msgstr "Thay đổi danh mục"
+
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Scanned"
+msgstr "Đã quét"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Custom"
+msgstr "Tùy chỉnh"
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete the cookie \"<strong></strong>\"? This action cannot be undone."
+msgstr "Bạn có chắc chắn muốn xóa cookie \"<strong></strong>\" không? Hành động này không thể hoàn tác."
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete this cookie? This action cannot be undone."
+msgstr "Bạn có chắc chắn muốn xóa cookie này không? Hành động này không thể hoàn tác."
+
+#: build/admin.js:25
+msgid "Delete Custom Cookie"
+msgstr "Xóa cookie tùy chỉnh"
+
+#: build/admin.js:25
+msgid "Change Cookie Category"
+msgstr "Thay đổi danh mục cookie"
+
+#: build/admin.js:25
+msgid "Update Category"
+msgstr "Cập nhật danh mục"
+
+#: build/admin.js:25
+msgid "Edit Cookie"
+msgstr "Chỉnh sửa cookie"
+
+#: build/admin.js:25
+msgid "Update Cookie"
+msgstr "Cập nhật cookie"
+
+#: build/admin.js:25
+msgid "Add New Cookie"
+msgstr "Thêm cookie mới"
+
+#: build/admin.js:25
+msgid "Save Cookie"
+msgstr "Lưu cookie"
+
+#: build/admin.js:25
+msgid "e.g., my_custom_cookie"
+msgstr "ví dụ, my_custom_cookie"
+
+#: build/admin.js:25
+#: build/admin.js:28
+#: build/admin.js:76
+msgid "Select a category"
+msgstr "Chọn một danh mục"
+
+#: build/admin.js:25
+msgid "No categories available. Please create a category first."
+msgstr "Không có danh mục nào có sẵn. Vui lòng tạo danh mục trước."
+
+#: build/admin.js:25
+msgid "e.g., 30"
+msgstr "ví dụ, 30"
+
+#: build/admin.js:25
+msgid "e.g., Your Company Name"
+msgstr "ví dụ, Tên Công Ty Của Bạn"
+
+#: build/admin.js:25
+msgid "e.g., .example.com"
+msgstr "ví dụ, .example.com"
+
+#: build/admin.js:25
+msgid "Description"
+msgstr "Mô tả"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie…"
+msgstr "Nhập mô tả cho cookie này…"
+
+#: build/admin.js:25
+msgid "Describe the purpose of this cookie…"
+msgstr "Mô tả mục đích của cookie này…"
+
+#: build/admin.js:25
+msgid "Category Name"
+msgstr "Tên danh mục"
+
+#: build/admin.js:25
+msgid "e.g., Performance Cookies"
+msgstr "ví dụ, Cookie Hiệu suất"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie category…"
+msgstr "Nhập mô tả cho danh mục cookie này…"
+
+#. translators: %1$s is the category name, %2$s is the number of cookies
+#: build/admin.js:28
+#, js-format
+msgid "Are you sure you want to delete this cookie category? <br/> The category \"%1$s\" has %2$s assigned to it:"
+msgstr "Bạn có chắc chắn muốn xóa danh mục cookie này không? <br/> Danh mục \"%1$s\" có %2$s cookie được gán:"
+
+#: build/admin.js:28
+msgid "cookie"
+msgid_plural "cookies"
+msgstr[0] "cookie"
+
+#: build/admin.js:28
+msgid "Are you sure you want to delete this cookie category? This action cannot be undone."
+msgstr "Bạn có chắc chắn muốn xóa danh mục cookie này không? Hành động này không thể hoàn tác."
+
+#: build/admin.js:28
+msgid "Delete Cookie Category"
+msgstr "Xóa danh mục cookie"
+
+#: build/admin.js:28
+msgid "Keep cookies when deleting category"
+msgstr "Giữ cookie khi xóa danh mục"
+
+#: build/admin.js:28
+msgid "Keep cookies"
+msgstr "Giữ cookie"
+
+#: build/admin.js:28
+#: build/onboarding.js:4
+msgid "Please enter a category name"
+msgstr "Vui lòng nhập tên danh mục"
+
+#: build/admin.js:28
+msgid "No cookie categories found. Click \"Add New Category\" to create one."
+msgstr "Không tìm thấy danh mục cookie nào. Nhấn \"Thêm danh mục mới\" để tạo một danh mục."
+
+#: build/admin.js:28
+msgid "Edit Category"
+msgstr "Chỉnh sửa danh mục"
+
+#: build/admin.js:28
+msgid "Add New Category"
+msgstr "Thêm danh mục mới"
+
+#: build/admin.js:28
+#: build/admin.js:43
+msgid "Manage Categories"
+msgstr "Quản lý danh mục"
+
+#: build/admin.js:28
+msgid "Manage cookie categories that appear in the privacy preferences modal"
+msgstr "Quản lý các danh mục cookie xuất hiện trong cửa sổ tùy chọn quyền riêng tư"
+
+#: build/admin.js:28
+msgid "Add Category"
+msgstr "Thêm danh mục"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please enter a cookie name"
+msgstr "Vui lòng nhập tên cookie"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please select a category"
+msgstr "Vui lòng chọn một danh mục"
+
+#: build/admin.js:41
+msgid "Failed to load custom cookies"
+msgstr "Không tải được cookie tùy chỉnh"
+
+#: build/admin.js:41
+msgid "Failed to create custom cookie"
+msgstr "Tạo cookie tùy chỉnh thất bại"
+
+#: build/admin.js:41
+msgid "Custom cookie created successfully"
+msgstr "Tạo cookie tùy chỉnh thành công"
+
+#: build/admin.js:41
+msgid "Failed to update custom cookie"
+msgstr "Cập nhật cookie tùy chỉnh thất bại"
+
+#: build/admin.js:41
+msgid "Custom cookie updated successfully"
+msgstr "Cookie tùy chỉnh đã được cập nhật thành công"
+
+#: build/admin.js:41
+msgid "Failed to delete custom cookie"
+msgstr "Không thể xóa cookie tùy chỉnh"
+
+#: build/admin.js:41
+msgid "Custom cookie deleted successfully"
+msgstr "Cookie tùy chỉnh đã được xóa thành công"
+
+#: build/admin.js:41
+msgid "Failed to update cookie category"
+msgstr "Không thể cập nhật danh mục cookie"
+
+#: build/admin.js:41
+msgid "Cookie category updated successfully"
+msgstr "Danh mục cookie đã được cập nhật thành công"
+
+#: build/admin.js:42
+msgid "Failed to create category"
+msgstr "Không thể tạo danh mục"
+
+#: build/admin.js:42
+msgid "Category created successfully"
+msgstr "Danh mục đã được tạo thành công"
+
+#: build/admin.js:42
+msgid "Failed to update category"
+msgstr "Không thể cập nhật danh mục"
+
+#: build/admin.js:42
+msgid "Category updated successfully"
+msgstr "Danh mục đã được cập nhật thành công"
+
+#: build/admin.js:42
+msgid "Failed to delete category"
+msgstr "Không thể xóa danh mục"
+
+#: build/admin.js:42
+msgid "Category deleted successfully"
+msgstr "Danh mục đã được xóa thành công"
+
+#: build/admin.js:43
+msgid "Create and manage all cookies for your website. These cookies will appear in the selected privacy preference categories."
+msgstr "Tạo và quản lý tất cả cookie cho trang web của bạn. Những cookie này sẽ xuất hiện trong các danh mục sở thích bảo mật đã chọn."
+
+#: build/admin.js:43
+msgid "Manage Cookies"
+msgstr "Quản lý cookie"
+
+#: build/admin.js:43
+msgid "New Cookie"
+msgstr "Cookie mới"
+
+#: build/admin.js:43
+msgid "All your cookies will be displayed here"
+msgstr "Tất cả cookie của bạn sẽ được hiển thị ở đây"
+
+#: build/admin.js:43
+msgid "Click the button below to create your first custom cookie"
+msgstr "Nhấn nút bên dưới để tạo cookie tùy chỉnh đầu tiên của bạn"
+
+#: build/admin.js:43
+msgid "Add custom CSS to style your cookie banner. Changes will be reflected in both preview and frontend after saving."
+msgstr "Thêm CSS tùy chỉnh để tạo kiểu cho biểu ngữ cookie của bạn. Các thay đổi sẽ được phản ánh trong cả bản xem trước và giao diện người dùng sau khi lưu."
+
+#: build/admin.js:43
+msgid "CSS Code Editor"
+msgstr "Trình chỉnh sửa mã CSS"
+
+#: build/admin.js:43
+msgid "Reset Custom CSS"
+msgstr "Đặt lại CSS tùy chỉnh"
+
+#: build/admin.js:43
+msgid "Are you sure you want to reset custom CSS? This will remove all your custom styles."
+msgstr "Bạn có chắc muốn đặt lại CSS tùy chỉnh không? Việc này sẽ xóa tất cả các kiểu tùy chỉnh của bạn."
+
+#: build/admin.js:43
+msgid "Custom CSS has been reset. The banner will now use default styles."
+msgstr "CSS tùy chỉnh đã được đặt lại. Biểu ngữ sẽ sử dụng kiểu mặc định."
+
+#: build/admin.js:43
+msgid "Write your custom CSS below. Use <strong>!important</strong> to override inline styles.<br />You can target banner elements using classes like <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, etc."
+msgstr "Viết CSS tùy chỉnh của bạn bên dưới. Sử dụng <strong>!important</strong> để ghi đè các kiểu nội tuyến.<br />Bạn có thể nhắm mục tiêu các phần tử biểu ngữ bằng cách sử dụng các lớp như <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, v.v."
+
+#: build/admin.js:43
+#: build/admin.js:60
+msgid "<span></span> Quick Tips:"
+msgstr "<span></span> Mẹo nhanh:"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-banner</b> to target the cookie banner (works in both preview and frontend)"
+msgstr "Sử dụng <b>.surecookie-banner</b> để nhắm mục tiêu biểu ngữ cookie (hoạt động trong cả bản xem trước và giao diện người dùng)"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> for buttons"
+msgstr "Sử dụng <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> cho các nút"
+
+#: build/admin.js:43
+msgid "Important: Use <b>!important</b> to override inline styles"
+msgstr "Quan trọng: Sử dụng <b>!important</b> để ghi đè các kiểu nội tuyến"
+
+#: build/admin.js:43
+msgid "Changes take effect after clicking \"Save Changes\" below"
+msgstr "Các thay đổi có hiệu lực sau khi nhấn \"Lưu thay đổi\" bên dưới"
+
+#: build/admin.js:43
+msgid "Your CSS is saved and will persist after page refresh"
+msgstr "CSS của bạn đã được lưu và sẽ được giữ nguyên sau khi làm mới trang"
+
+#: build/admin.js:43
+msgid "Disabled"
+msgstr "Đã tắt"
+
+#: build/admin.js:43
+msgid "Consent Logging"
+msgstr "Ghi nhận sự đồng ý"
+
+#: build/admin.js:43
+msgid "Enable consent logging to view consent analytics"
+msgstr "Bật ghi nhận sự đồng ý để xem phân tích sự đồng ý"
+
+#: build/admin.js:43
+msgid "Enable"
+msgstr "Bật"
+
+#: build/admin.js:43
+msgid "Overview"
+msgstr "Tổng quan"
+
+#: build/admin.js:43
+msgid "Active"
+msgstr "Đang hoạt động"
+
+#: build/admin.js:43
+msgid "Inactive"
+msgstr "Không hoạt động"
+
+#: build/admin.js:43
+msgid "Cookie Banner"
+msgstr "Biểu ngữ cookie"
+
+#: build/admin.js:43
+#: build/admin.js:47
+msgid "Configure"
+msgstr "Cấu hình"
+
+#: build/admin.js:44
+#: build/onboarding.js:4
+msgid "Launch Setup Wizard"
+msgstr "Khởi chạy Trình hướng dẫn thiết lập"
+
+#: build/admin.js:44
+msgid "Open Support Ticket"
+msgstr "Mở phiếu hỗ trợ"
+
+#: build/admin.js:44
+msgid "Help Center"
+msgstr "Trung tâm trợ giúp"
+
+#: build/admin.js:44
+msgid "Join our Community"
+msgstr "Tham gia cộng đồng của chúng tôi"
+
+#: build/admin.js:44
+msgid "Leave Us a Review"
+msgstr "Để lại đánh giá cho chúng tôi"
+
+#: build/admin.js:44
+msgid "Quick Access"
+msgstr "Truy cập nhanh"
+
+#: build/admin.js:44
+msgid "Recent Consent Logs"
+msgstr "Nhật ký sự đồng ý gần đây"
+
+#: build/admin.js:44
+msgid "Toggle Preview"
+msgstr "Chuyển đổi xem trước"
+
+#: build/admin.js:44
+msgid "Click this button to show or hide the cookie consent banner preview."
+msgstr "Nhấn nút này để hiển thị hoặc ẩn bản xem trước biểu ngữ sự đồng ý cookie."
+
+#: build/admin.js:44
+msgid "Click here to start"
+msgstr "Nhấn vào đây để bắt đầu"
+
+#: build/admin.js:44
+msgid "design your banner"
+msgstr "thiết kế biểu ngữ của bạn"
+
+#: build/admin.js:44
+msgid "Here's a preview of the cookie consent banner."
+msgstr "Đây là bản xem trước của biểu ngữ sự đồng ý cookie."
+
+#: build/admin.js:44
+msgid "You can adjust the content and design settings."
+msgstr "Bạn có thể điều chỉnh nội dung và cài đặt thiết kế."
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:47
+#, js-format
+msgid "%1$d of %2$d steps complete"
+msgstr "%1$d trong %2$d bước đã hoàn thành"
+
+#: build/admin.js:47
+msgid "You're all set! SureCookie is ready to protect your site."
+msgstr "Bạn đã sẵn sàng! SureCookie đã sẵn sàng bảo vệ trang web của bạn."
+
+#: build/admin.js:47
+#: build/onboarding.js:14
+msgid "Go to Dashboard"
+msgstr "Đi tới Bảng điều khiển"
+
+#: build/admin.js:47
+msgid "Scan Your Site for Cookies"
+msgstr "Quét Trang web của bạn để tìm Cookie"
+
+#: build/admin.js:47
+msgid "Run the cookie scanner to discover and categorize cookies your site uses."
+msgstr "Chạy trình quét cookie để phát hiện và phân loại các cookie mà trang web của bạn sử dụng."
+
+#: build/admin.js:47
+msgid "Scan Now"
+msgstr "Quét Ngay"
+
+#: build/admin.js:47
+msgid "Set up the Consent Banner"
+msgstr "Thiết lập Biểu ngữ Đồng ý"
+
+#: build/admin.js:47
+msgid "Customize your cookie consent banner - content, layout, and visibility."
+msgstr "Tùy chỉnh biểu ngữ đồng ý cookie của bạn - nội dung, bố cục và khả năng hiển thị."
+
+#: build/admin.js:47
+msgid "Review Consent Logs"
+msgstr "Xem lại Nhật ký Đồng ý"
+
+#: build/admin.js:47
+msgid "See who has consented and when - useful for compliance audits."
+msgstr "Xem ai đã đồng ý và khi nào - hữu ích cho kiểm toán tuân thủ."
+
+#: build/admin.js:47
+msgid "View Logs"
+msgstr "Xem Nhật ký"
+
+#: build/admin.js:47
+msgid "Publish Your Cookie Policy"
+msgstr "Xuất bản Chính sách Cookie của bạn"
+
+#: build/admin.js:47
+msgid "Review and publish the cookie policy page on your site."
+msgstr "Xem lại và xuất bản trang chính sách cookie trên trang web của bạn."
+
+#: build/admin.js:47
+msgid "Review Page"
+msgstr "Xem Trang"
+
+#: build/admin.js:47
+msgid "Generate a cookie policy page so visitors know how you handle their data."
+msgstr "Tạo trang chính sách cookie để khách truy cập biết cách bạn xử lý dữ liệu của họ."
+
+#: build/admin.js:47
+msgid "Create Page"
+msgstr "Tạo Trang"
+
+#: build/admin.js:47
+msgid "Get Started with SureCookie"
+msgstr "Bắt đầu với SureCookie"
+
+#: build/admin.js:47
+msgid "Follow these steps to set up cookie consent on your site in minutes."
+msgstr "Làm theo các bước này để thiết lập đồng ý cookie trên trang web của bạn trong vài phút."
+
+#: build/admin.js:47
+msgid "See full documentation →"
+msgstr "Xem tài liệu đầy đủ →"
+
+#: build/admin.js:47
+msgid "Continue Learning"
+msgstr "Tiếp tục Học"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:50
+#, js-format
+msgid "%1$d of %2$d setup steps complete."
+msgstr "%1$d trong %2$d bước thiết lập đã hoàn thành."
+
+#: build/admin.js:50
+msgid "Open Learn"
+msgstr "Mở Học"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "All cookies accepted."
+msgstr "Tất cả cookie đã được chấp nhận."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Non-essential cookies rejected."
+msgstr "Cookie không cần thiết đã bị từ chối."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preferences saved successfully."
+msgstr "Lưu tùy chọn thành công."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Close privacy preferences dialog"
+msgstr "Đóng hộp thoại tùy chọn quyền riêng tư"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Always Active"
+msgstr "Luôn hoạt động"
+
+#. translators: %s: cookie category name
+#: build/admin.js:52
+#: build/public.js:3
+#, js-format
+msgid "%s: always active, cannot be disabled"
+msgstr "%s: luôn hoạt động, không thể tắt"
+
+#: build/admin.js:52
+#: build/public.js:3
+msgid "View Cookies"
+msgstr "Xem Cookie"
+
+#. translators: %s: cookie category name
+#: build/admin.js:53
+#: build/public.js:4
+#, js-format
+msgid "%s cookies details"
+msgstr "%s chi tiết cookie"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Expiry"
+msgstr "Hết hạn"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Reject All"
+msgstr "Từ chối tất cả"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Confirm My Choices"
+msgstr "Xác nhận lựa chọn của tôi"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by SureCookie (opens in new tab)"
+msgstr "Được cung cấp bởi SureCookie (mở trong tab mới)"
+
+#: inc/utils/localize-data.php:222
+#: build/admin.js:4
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by"
+msgstr "Được cung cấp bởi"
+
+#: build/admin.js:53
+msgid "Buttons are for reference only in preview."
+msgstr "Các nút chỉ để tham khảo trong bản xem trước."
+
+#: build/admin.js:53
+msgid "This is a preview"
+msgstr "Đây là bản xem trước"
+
+#: build/admin.js:53
+msgid "Close preview"
+msgstr "Đóng bản xem trước"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Complete"
+msgstr "Hoàn thành"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Queued…"
+msgstr "Đang chờ…"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Starting scan…"
+msgstr "Bắt đầu quét…"
+
+#. translators: 1: current page index, 2: total pages
+#: build/admin.js:54
+#, js-format
+msgid "Scanning page %1$d of %2$d…"
+msgstr "Đang quét trang %1$d trong %2$d…"
+
+#: build/admin.js:54
+msgid "Scanning pages…"
+msgstr "Đang quét các trang…"
+
+#: build/admin.js:54
+msgid "Analyzing cookies…"
+msgstr "Đang phân tích cookie…"
+
+#: build/admin.js:54
+msgid "Finalizing…"
+msgstr "Đang hoàn tất…"
+
+#: build/admin.js:54
+msgid "Scan failed"
+msgstr "Quét thất bại"
+
+#: build/admin.js:54
+msgid "In progress…"
+msgstr "Đang tiến hành…"
+
+#: build/admin.js:54
+msgid "Scan progress"
+msgstr "Tiến trình quét"
+
+#. translators: 1: completed pages, 2: total pages
+#: build/admin.js:55
+#, js-format
+msgid "%1$d of %2$d pages scanned"
+msgstr "%1$d trong %2$d trang đã được quét"
+
+#: build/admin.js:55
+msgid "Preparing scan…"
+msgstr "Đang chuẩn bị quét…"
+
+#. translators: %s: estimated time remaining
+#: build/admin.js:56
+#, js-format
+msgid "· ~%s left"
+msgstr "· ~%s còn lại"
+
+#: build/admin.js:56
+msgid "Scan Completed with Errors"
+msgstr "Quét hoàn thành với lỗi"
+
+#. translators: %d: number of failed pages
+#: build/admin.js:57
+#, js-format
+msgid "%d page(s) could not be scanned. Check the logs for details."
+msgstr "%d trang không thể quét được. Kiểm tra nhật ký để biết chi tiết."
+
+#: build/admin.js:57
+msgid "Scan Completed!"
+msgstr "Quét hoàn thành!"
+
+#: build/admin.js:57
+msgid "Cookie scan has been completed successfully."
+msgstr "Quét cookie đã hoàn thành thành công."
+
+#: build/admin.js:57
+msgid "Could not copy logs automatically."
+msgstr "Không thể tự động sao chép nhật ký."
+
+#: build/admin.js:57
+msgid "Logs copied to clipboard!"
+msgstr "Đã sao chép nhật ký vào clipboard!"
+
+#: build/admin.js:57
+msgid "Latest Scanning Logs"
+msgstr "Nhật ký quét mới nhất"
+
+#: build/admin.js:57
+msgid "View logs from the most recent cookie scanning process."
+msgstr "Xem nhật ký từ quá trình quét cookie gần đây nhất."
+
+#: build/admin.js:57
+msgid "Copied"
+msgstr "Đã sao chép"
+
+#: build/admin.js:57
+msgid "Copy"
+msgstr "Sao chép"
+
+#: build/admin.js:57
+msgid "This field contains the scanning status results only."
+msgstr "Trường này chỉ chứa kết quả trạng thái quét."
+
+#: build/admin.js:57
+msgid "Scan appears stuck"
+msgstr "Quét có vẻ bị kẹt"
+
+#. translators: 1: completed pages, 2: total pages, 3: elapsed time
+#: build/admin.js:58
+#, js-format
+msgid "%1$d of %2$d pages scanned after %3$s with no recent progress."
+msgstr "%1$d trong %2$d trang đã được quét sau %3$s mà không có tiến triển gần đây."
+
+#. translators: %s: elapsed time
+#: build/admin.js:59
+#, js-format
+msgid "No progress detected after %s."
+msgstr "Không phát hiện tiến triển sau %s."
+
+#: build/admin.js:59
+#: build/admin.js:63
+msgid "Cancelling…"
+msgstr "Đang hủy…"
+
+#: build/admin.js:59
+msgid "Cancel Scan"
+msgstr "Hủy quét"
+
+#: build/admin.js:59
+msgid "Copy Logs for Support"
+msgstr "Sao chép nhật ký để hỗ trợ"
+
+#: build/admin.js:60
+msgid "Your scan limit will reset tomorrow."
+msgstr "Giới hạn quét của bạn sẽ được đặt lại vào ngày mai."
+
+#: build/admin.js:60
+msgid "The scan runs in the background - you can safely navigate away."
+msgstr "Quét chạy ở chế độ nền - bạn có thể an toàn điều hướng đi nơi khác."
+
+#: build/admin.js:60
+msgid "Make sure your site is publicly accessible (not behind basic auth or maintenance mode)."
+msgstr "Đảm bảo trang web của bạn có thể truy cập công khai (không bị chặn bởi xác thực cơ bản hoặc chế độ bảo trì)."
+
+#: build/admin.js:60
+msgid "Check if a firewall or security plugin is blocking external requests to your site."
+msgstr "Kiểm tra xem tường lửa hoặc plugin bảo mật có đang chặn các yêu cầu bên ngoài đến trang web của bạn không."
+
+#: build/admin.js:60
+msgid "Pages with heavy JavaScript may take longer to scan. If scanning fails repeatedly, try fewer pages."
+msgstr "Các trang có JavaScript nặng có thể mất nhiều thời gian hơn để quét. Nếu quét thất bại liên tục, hãy thử quét ít trang hơn."
+
+#: build/admin.js:60
+msgid "If issues persist, copy the logs and <a>contact our support team.</a>"
+msgstr "Nếu sự cố vẫn tiếp diễn, sao chép nhật ký và <a>liên hệ với đội hỗ trợ của chúng tôi.</a>"
+
+#: build/admin.js:60
+msgid "contact our support team"
+msgstr "liên hệ với đội hỗ trợ của chúng tôi"
+
+#: build/admin.js:63
+#: build/admin.js:78
+#: build/onboarding.js:7
+msgid "(no title)"
+msgstr "(không có tiêu đề)"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Failed to initiate scan"
+msgstr "Không thể khởi động quét"
+
+#. translators: 1: remaining scans, 2: total daily scans
+#: build/admin.js:68
+#: build/onboarding.js:12
+#, js-format
+msgid "You have %1$d of %2$d daily scans remaining"
+msgstr "Bạn còn %1$d trong tổng số %2$d lượt quét hàng ngày"
+
+#. translators: %s: time until reset (e.g. "4h 22m")
+#: build/admin.js:69
+#: build/admin.js:71
+#, js-format
+msgid "Resets in %s"
+msgstr "Đặt lại sau %s"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Limits refreshed."
+msgstr "Giới hạn đã được làm mới."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Failed to refresh limits."
+msgstr "Không thể làm mới giới hạn."
+
+#: build/admin.js:71
+msgid "Your session expired. Please reload to reconnect."
+msgstr "Phiên làm việc của bạn đã hết hạn. Vui lòng tải lại để kết nối lại."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "We couldn't fetch your limits right now. Please try again in a moment."
+msgstr "Chúng tôi không thể lấy giới hạn của bạn ngay bây giờ. Vui lòng thử lại sau một lúc."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refreshing…"
+msgstr "Đang làm mới…"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refresh limits"
+msgstr "Làm mới giới hạn"
+
+#. translators: %d: maximum pages
+#: build/admin.js:61
+#: build/admin.js:73
+#: build/onboarding.js:5
+#: build/onboarding.js:14
+#, js-format
+msgid "You have selected more than %d pages"
+msgstr "Bạn đã chọn hơn %d trang"
+
+#. translators: %d: maximum pages
+#: build/admin.js:65
+#: build/onboarding.js:9
+#, js-format
+msgid "Your plan supports scanning up to %d pages. Please remove extra pages to continue."
+msgstr "Gói của bạn hỗ trợ quét tối đa %d trang. Vui lòng loại bỏ các trang thừa để tiếp tục."
+
+#: build/admin.js:73
+msgid "Daily Limit Reached"
+msgstr "Đã đạt giới hạn hàng ngày"
+
+#. translators: 1: scans used, 2: scan limit
+#: build/admin.js:74
+#, js-format
+msgid "You've used %1$d of %2$d daily scans. Your credits will refresh automatically tomorrow."
+msgstr "Bạn đã sử dụng %1$d trong tổng số %2$d lượt quét hàng ngày. Tín dụng của bạn sẽ được làm mới tự động vào ngày mai."
+
+#: build/admin.js:74
+msgid "You've used all your scan credits for today. Your credits will refresh automatically tomorrow."
+msgstr "Bạn đã sử dụng hết tín dụng quét trong ngày hôm nay. Tín dụng của bạn sẽ được làm mới tự động vào ngày mai."
+
+#: build/admin.js:74
+#: build/onboarding.js:14
+msgid "Scan Started!"
+msgstr "Bắt đầu quét!"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scanning…"
+msgstr "Đang quét…"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Start Scan"
+msgstr "Bắt đầu quét"
+
+#: build/admin.js:63
+msgid "Cancel Stuck Scan"
+msgstr "Hủy quét bị kẹt"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "WordPress Cron is Disabled"
+msgstr "Cron WordPress bị vô hiệu hóa"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "The WordPress cron system is not working on your site. Cookie scanning may not work as expected. Please enable WP-Cron or set up a server cron job to ensure proper functionality."
+msgstr "Hệ thống cron WordPress không hoạt động trên trang web của bạn. Việc quét cookie có thể không hoạt động như mong đợi. Vui lòng bật WP-Cron hoặc thiết lập công việc cron trên máy chủ để đảm bảo chức năng hoạt động đúng."
+
+#: build/admin.js:75
+msgid "Select"
+msgstr "Chọn"
+
+#: build/admin.js:75
+msgid "Configure how the \"Cookie Preferences\" button appears on your site, allowing users to update their consent at any time."
+msgstr "Cấu hình cách nút \"Tùy chọn Cookie\" hiển thị trên trang web của bạn, cho phép người dùng cập nhật sự đồng ý của họ bất cứ lúc nào."
+
+#: build/admin.js:75
+msgid "No re-consent method active"
+msgstr "Không có phương pháp đồng ý lại nào đang hoạt động"
+
+#: build/admin.js:75
+msgid "Visitors won't be able to update their cookie preferences unless you add a menu item or place the shortcode on a page. You can safely ignore this if the shortcode is already added."
+msgstr "Khách truy cập sẽ không thể cập nhật tùy chọn cookie của họ trừ khi bạn thêm một mục menu hoặc đặt shortcode trên một trang. Bạn có thể yên tâm bỏ qua điều này nếu shortcode đã được thêm."
+
+#: build/admin.js:75
+msgid "Button Label"
+msgstr "Nhãn nút"
+
+#: build/admin.js:75
+msgid "The label shown on the Cookie Preferences link."
+msgstr "Nhãn hiển thị trên liên kết Tùy chọn Cookie."
+
+#: build/admin.js:75
+msgid "Menu Level"
+msgstr "Cấp độ Menu"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: build/admin.js:75
+msgid "Floating Widget"
+msgstr "Tiện ích nổi"
+
+#: build/admin.js:75
+msgid "Select a WordPress menu to automatically add the Cookie Preferences link to it. When clicked, it opens the consent preferences modal directly."
+msgstr "Chọn một menu WordPress để tự động thêm liên kết Tùy chọn Cookie vào đó. Khi nhấp, nó sẽ mở trực tiếp hộp thoại tùy chọn đồng ý."
+
+#: build/admin.js:75
+msgid "No WordPress menus found."
+msgstr "Không tìm thấy menu WordPress nào."
+
+#: build/admin.js:75
+msgid "Create a menu in Appearance > Menus."
+msgstr "Tạo một menu trong Giao diện > Menu."
+
+#: build/admin.js:75
+msgid "Select Menu"
+msgstr "Chọn Menu"
+
+#: build/admin.js:75
+msgid "Use this shortcode to display the Cookie Preferences link anywhere on your site. When clicked, it opens the consent preferences modal directly."
+msgstr "Sử dụng shortcode này để hiển thị liên kết Tùy chọn Cookie ở bất kỳ đâu trên trang web của bạn. Khi nhấp, nó sẽ mở trực tiếp hộp thoại tùy chọn đồng ý."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode Copied!"
+msgstr "Đã sao chép shortcode!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Could not copy to clipboard. Please copy the shortcode manually."
+msgstr "Không thể sao chép vào clipboard. Vui lòng sao chép shortcode thủ công."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copied!"
+msgstr "Đã sao chép!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copy shortcode"
+msgstr "Sao chép shortcode"
+
+#: build/admin.js:75
+msgid "Enable Floating Widget"
+msgstr "Bật Tiện ích nổi"
+
+#: build/admin.js:75
+msgid "to show a floating cookie preferences button on every page."
+msgstr "để hiển thị nút tùy chọn cookie nổi trên mọi trang."
+
+#: build/admin.js:75
+msgid "Failed to deactivate plugin."
+msgstr "Không thể vô hiệu hóa plugin."
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected."
+msgstr "Phát hiện plugin xung đột."
+
+#: build/admin.js:75
+msgid "It's recommended to deactivate them to avoid issues."
+msgstr "Khuyến nghị vô hiệu hóa chúng để tránh sự cố."
+
+#: build/admin.js:75
+msgid "Deactivate Plugin"
+msgstr "Vô hiệu hóa Plugin"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected"
+msgstr "Phát hiện plugin xung đột"
+
+#: build/admin.js:75
+msgid "The following plugins may conflict with SureCookie. It's recommended to deactivate them to avoid issues."
+msgstr "Các plugin sau có thể xung đột với SureCookie. Khuyến nghị vô hiệu hóa chúng để tránh sự cố."
+
+#: build/admin.js:75
+msgid "Version:"
+msgstr "Phiên bản:"
+
+#: build/admin.js:75
+msgid "Deactivation successful. Reloading the page in 3 seconds."
+msgstr "Vô hiệu hóa thành công. Tải lại trang trong 3 giây."
+
+#: build/admin.js:75
+msgid "The plugin could not be deactivated. Please try again."
+msgstr "Không thể vô hiệu hóa plugin. Vui lòng thử lại."
+
+#: build/admin.js:75
+msgid "Deactivating…"
+msgstr "Đang vô hiệu hóa…"
+
+#: build/admin.js:75
+msgid "Deactivate"
+msgstr "Vô hiệu hóa"
+
+#: build/admin.js:75
+msgid "Close"
+msgstr "Đóng"
+
+#: build/admin.js:75
+msgid "Preview:"
+msgstr "Xem trước:"
+
+#: build/admin.js:75
+msgid "ON"
+msgstr "BẬT"
+
+#: build/admin.js:75
+msgid "OFF"
+msgstr "TẮT"
+
+#: build/admin.js:75
+msgid "What's New?"
+msgstr "Có gì mới?"
+
+#: build/admin.js:75
+msgid "Free version"
+msgstr "Phiên bản miễn phí"
+
+#: build/admin.js:76
+msgid "Knowledge Base"
+msgstr "Cơ sở Kiến thức"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Analytics"
+msgstr "Phân tích"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Marketing"
+msgstr "Tiếp thị"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Functional"
+msgstr "Chức năng"
+
+#: build/admin.js:76
+msgid "Resource"
+msgstr "Tài nguyên"
+
+#: build/admin.js:76
+msgid "Script"
+msgstr "Kịch bản"
+
+#: build/admin.js:76
+msgid "Iframe"
+msgstr "Iframe"
+
+#: build/admin.js:78
+msgid "Control where your cookie banner appears on your site."
+msgstr "Kiểm soát vị trí hiển thị biểu ngữ cookie trên trang web của bạn."
+
+#: build/admin.js:78
+msgid "Want More Control over Your Cookie Banner?"
+msgstr "Muốn kiểm soát nhiều hơn biểu ngữ cookie của bạn?"
+
+#: build/admin.js:78
+msgid "Upgrade to hide it on selected pages, posts, archives, or on specific user roles."
+msgstr "Nâng cấp để ẩn nó trên các trang, bài viết, lưu trữ được chọn hoặc trên các vai trò người dùng cụ thể."
+
+#: build/admin.js:78
+msgid "The previously selected page no longer exists or could not be loaded."
+msgstr "Trang đã chọn trước đó không còn tồn tại hoặc không thể tải được."
+
+#: build/admin.js:78
+msgid "The selected page is not published and will not appear to visitors."
+msgstr "Trang được chọn chưa được xuất bản và sẽ không hiển thị với khách truy cập."
+
+#: build/admin.js:78
+msgid "Cookie Policy Page"
+msgstr "Trang Chính sách Cookie"
+
+#: build/admin.js:78
+msgid "Clear selected page"
+msgstr "Xóa trang đã chọn"
+
+#: build/admin.js:78
+msgid "Select a Page"
+msgstr "Chọn một Trang"
+
+#: build/admin.js:78
+msgid "A link to this page will appear in the consent preferences modal footer."
+msgstr "Một liên kết đến trang này sẽ xuất hiện trong phần chân trang của cửa sổ tùy chọn đồng ý."
+
+#: build/admin.js:78
+msgid "Auto Generate"
+msgstr "Tự động tạo"
+
+#: build/admin.js:78
+msgid "Automatically create a published Cookie Policy page containing a dynamically generated cookie table that always stays up to date."
+msgstr "Tự động tạo một trang Chính sách Cookie đã xuất bản chứa bảng cookie được tạo động luôn được cập nhật."
+
+#: build/admin.js:78
+msgid "Cookie Policy page created successfully!"
+msgstr "Tạo trang Chính sách Cookie thành công!"
+
+#: build/admin.js:78
+msgid "Failed to generate page. Please try again."
+msgstr "Tạo trang thất bại. Vui lòng thử lại."
+
+#: build/admin.js:78
+msgid "An error occurred while generating the page. Please try again."
+msgstr "Đã xảy ra lỗi khi tạo trang. Vui lòng thử lại."
+
+#: build/admin.js:78
+msgid "Page Already Linked"
+msgstr "Trang đã được liên kết"
+
+#: build/admin.js:78
+msgid "Generate Cookie Policy Page"
+msgstr "Tạo trang Chính sách Cookie"
+
+#: build/admin.js:78
+msgid "Edit Page"
+msgstr "Chỉnh sửa Trang"
+
+#: build/admin.js:78
+msgid "View Page"
+msgstr "Xem Trang"
+
+#: build/admin.js:78
+msgid "Use this shortcode to display the cookie policy with a dynamically generated cookie table on any page or post. The table always reflects the latest scanned and custom cookies."
+msgstr "Sử dụng shortcode này để hiển thị chính sách cookie với bảng cookie được tạo động trên bất kỳ trang hoặc bài viết nào. Bảng luôn phản ánh các cookie được quét và tùy chỉnh mới nhất."
+
+#: build/admin.js:83
+msgid "Please enter at least one region code"
+msgstr "Vui lòng nhập ít nhất một mã vùng"
+
+#: build/admin.js:83
+msgid "Invalid region code format. Use ISO 3166 codes like EU, US, US-CA, or GB."
+msgstr "Định dạng mã vùng không hợp lệ. Sử dụng mã ISO 3166 như EU, US, US-CA hoặc GB."
+
+#: build/admin.js:83
+msgid "EU/EEA (GDPR)"
+msgstr "EU/EEA (GDPR)"
+
+#: build/admin.js:83
+msgid "California (CCPA)"
+msgstr "California (CCPA)"
+
+#: build/admin.js:83
+msgid "United Kingdom"
+msgstr "Vương quốc Anh"
+
+#: build/admin.js:83
+msgid "Brazil (LGPD)"
+msgstr "Brazil (LGPD)"
+
+#: build/admin.js:83
+msgid "Edit Regional Rule"
+msgstr "Chỉnh sửa Quy tắc Khu vực"
+
+#: build/admin.js:83
+msgid "Add Regional Rule"
+msgstr "Thêm Quy tắc Khu vực"
+
+#: build/admin.js:83
+msgid "Set default consent state for visitors from this region. Google uses the most specific match."
+msgstr "Đặt trạng thái đồng ý mặc định cho khách truy cập từ khu vực này. Google sử dụng kết quả khớp cụ thể nhất."
+
+#: build/admin.js:83
+msgid "Add Rule"
+msgstr "Thêm Quy tắc"
+
+#: build/admin.js:83
+msgid "Quick Presets"
+msgstr "Cài đặt nhanh"
+
+#: build/admin.js:83
+msgid "Apply preset:"
+msgstr "Áp dụng cài đặt sẵn:"
+
+#: build/admin.js:83
+msgid "Region Codes"
+msgstr "Mã Vùng"
+
+#: build/admin.js:83
+msgid "Comma-separated ISO 3166 codes: EU, US, US-CA, GB, BR, etc."
+msgstr "Mã ISO 3166 cách nhau bằng dấu phẩy: EU, US, US-CA, GB, BR, v.v."
+
+#: build/admin.js:83
+msgid "Default Consent State"
+msgstr "Trạng thái Đồng ý Mặc định"
+
+#: build/admin.js:83
+msgid "Choose which categories are granted by default for visitors from this region before they interact with the banner."
+msgstr "Chọn các danh mục được cấp mặc định cho khách truy cập từ khu vực này trước khi họ tương tác với biểu ngữ."
+
+#: build/admin.js:83
+msgid "Functional Storage"
+msgstr "Lưu trữ Chức năng"
+
+#: build/admin.js:83
+msgid "Enables storage for site functionality like preferences and language."
+msgstr "Cho phép lưu trữ cho các chức năng trang web như tùy chọn và ngôn ngữ."
+
+#: build/admin.js:83
+msgid "Functional storage default"
+msgstr "Lưu trữ chức năng mặc định"
+
+#: build/admin.js:83
+msgid "Analytics Storage"
+msgstr "Lưu trữ Phân tích"
+
+#: build/admin.js:83
+msgid "Enables storage for analytics purposes like visit duration and page views."
+msgstr "Cho phép lưu trữ cho mục đích phân tích như thời gian truy cập và lượt xem trang."
+
+#: build/admin.js:83
+msgid "Analytics storage default"
+msgstr "Lưu trữ phân tích mặc định"
+
+#: build/admin.js:83
+msgid "Marketing / Ads Storage"
+msgstr "Lưu trữ Tiếp thị / Quảng cáo"
+
+#: build/admin.js:83
+msgid "Enables storage for advertising purposes including ad personalization and user data."
+msgstr "Cho phép lưu trữ cho mục đích quảng cáo bao gồm cá nhân hóa quảng cáo và dữ liệu người dùng."
+
+#: build/admin.js:83
+msgid "Marketing storage default"
+msgstr "Lưu trữ tiếp thị mặc định"
+
+#: build/admin.js:83
+msgid "Essential cookies (security_storage) are always granted. These defaults apply before the visitor interacts with the consent banner."
+msgstr "Cookie thiết yếu (security_storage) luôn được cấp. Các mặc định này áp dụng trước khi khách truy cập tương tác với biểu ngữ đồng ý."
+
+#: build/admin.js:83
+msgid "Granted"
+msgstr "Được cấp"
+
+#: build/admin.js:83
+msgid "Denied"
+msgstr "Bị từ chối"
+
+#: build/admin.js:83
+msgid "Active Regional Rules"
+msgstr "Quy tắc Khu vực Đang hoạt động"
+
+#: build/admin.js:83
+msgid "Set different default consent states per region. Google uses the most specific match (e.g., US-CA overrides US)."
+msgstr "Đặt trạng thái đồng ý mặc định khác nhau theo khu vực. Google sử dụng kết quả khớp cụ thể nhất (ví dụ, US-CA ghi đè US)."
+
+#: build/admin.js:83
+msgid "Edit rule for"
+msgstr "Chỉnh sửa quy tắc cho"
+
+#: build/admin.js:83
+msgid "Delete rule for"
+msgstr "Xóa quy tắc cho"
+
+#: build/admin.js:83
+msgid "No regional rules configured. The global default (deny all except essential) applies to all visitors."
+msgstr "Chưa có quy tắc vùng nào được cấu hình. Mặc định toàn cầu (từ chối tất cả ngoại trừ những thứ thiết yếu) áp dụng cho tất cả khách truy cập."
+
+#. translators: %s: comma-separated duplicate region codes
+#: build/admin.js:84
+#, js-format
+msgid "These region codes already exist in another rule: %s"
+msgstr "Các mã vùng này đã tồn tại trong một quy tắc khác: %s"
+
+#: build/admin.js:84
+msgid "Delete Regional Rule"
+msgstr "Xóa Quy tắc Vùng"
+
+#: build/admin.js:84
+msgid "Are you sure you want to delete this regional consent rule? Visitors from this region will use the global default."
+msgstr "Bạn có chắc chắn muốn xóa quy tắc đồng ý vùng này không? Khách truy cập từ vùng này sẽ sử dụng mặc định toàn cầu."
+
+#: build/admin.js:84
+msgid "Google Consent Mode v2"
+msgstr "Chế độ Đồng ý Google v2"
+
+#: build/admin.js:84
+msgid "Automatically communicate user consent preferences to Google services."
+msgstr "Tự động truyền đạt sở thích đồng ý của người dùng tới các dịch vụ của Google."
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode Switch"
+msgstr "Bật công tắc Chế độ Đồng ý Google"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode"
+msgstr "Bật Chế độ Đồng ý Google"
+
+#: build/admin.js:84
+msgid "Supported services: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, and DV360"
+msgstr "Các dịch vụ được hỗ trợ: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight và DV360"
+
+#: build/admin.js:84
+msgid "Wait Time (milliseconds)"
+msgstr "Thời gian chờ (mili giây)"
+
+#: build/admin.js:84
+msgid "How long Google services wait for consent before making requests. Default: 500ms. Range: 0–2000ms."
+msgstr "Thời gian các dịch vụ Google chờ đồng ý trước khi thực hiện yêu cầu. Mặc định: 500ms. Phạm vi: 0–2000ms."
+
+#: build/admin.js:84
+msgid "Mandatory for EU/EEA as of March 2024"
+msgstr "Bắt buộc cho EU/EEA từ tháng 3 năm 2024"
+
+#: build/admin.js:84
+msgid "Google now requires Consent Mode v2 for all websites using Google services in the European Economic Area."
+msgstr "Google hiện yêu cầu Chế độ Đồng ý v2 cho tất cả các trang web sử dụng dịch vụ Google trong Khu vực Kinh tế Châu Âu."
+
+#: build/admin.js:84
+msgid "Learn more about Google Consent Mode v2 →"
+msgstr "Tìm hiểu thêm về Chế độ Đồng ý Google v2 →"
+
+#: build/admin.js:84
+msgid "Where should the banner appear?"
+msgstr "Biểu ngữ nên xuất hiện ở đâu?"
+
+#: build/admin.js:84
+msgid "Choose where the banner is shown. Visitors outside selected regions will not see it."
+msgstr "Chọn nơi biểu ngữ được hiển thị. Khách truy cập ngoài các vùng đã chọn sẽ không thấy nó."
+
+#: build/admin.js:84
+msgid "Show to all visitors worldwide"
+msgstr "Hiển thị cho tất cả khách truy cập trên toàn thế giới"
+
+#: build/admin.js:84
+msgid "Use the same experience for everyone, regardless of location."
+msgstr "Sử dụng trải nghiệm giống nhau cho mọi người, bất kể vị trí."
+
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/admin.js:78
+#: build/admin.js:84
+msgid "Pro"
+msgstr "Pro"
+
+#: build/admin.js:84
+msgid "Show only where required by law"
+msgstr "Chỉ hiển thị nơi luật pháp yêu cầu"
+
+#: build/admin.js:84
+msgid "Target specific regions with tailored consent experiences."
+msgstr "Nhắm mục tiêu các vùng cụ thể với trải nghiệm đồng ý được tùy chỉnh."
+
+#: build/admin.js:84
+msgid "Mode: Show to all visitors worldwide"
+msgstr "Chế độ: Hiển thị cho tất cả khách truy cập trên toàn thế giới"
+
+#: build/admin.js:84
+msgid "Your existing banner settings apply to all visitors. No geographic targeting is active."
+msgstr "Cài đặt biểu ngữ hiện tại của bạn áp dụng cho tất cả khách truy cập. Không có nhắm mục tiêu địa lý nào đang hoạt động."
+
+#: build/admin.js:84
+msgid "Unlock Regional Targeting"
+msgstr "Mở khóa Nhắm mục tiêu Vùng"
+
+#: build/admin.js:84
+msgid "Show banner only in selected regions, create custom regional rules, and control fallback behavior."
+msgstr "Chỉ hiển thị biểu ngữ ở các vùng đã chọn, tạo quy tắc vùng tùy chỉnh và kiểm soát hành vi dự phòng."
+
+#: build/admin.js:84
+msgid "Location detection uses GeoLite2 data by MaxMind, available from <link>https://www.maxmind.com</link>."
+msgstr "Phát hiện vị trí sử dụng dữ liệu GeoLite2 của MaxMind, có sẵn từ <link>https://www.maxmind.com</link>."
+
+#: build/admin.js:87
+msgid "IAB Transparency & Consent Framework"
+msgstr "Khung Minh bạch & Đồng ý IAB"
+
+#: build/admin.js:87
+msgid "Make your consent banner compliant with IAB TCF 2.3 and integrate with the Global Vendor List."
+msgstr "Làm cho biểu ngữ đồng ý của bạn tuân thủ IAB TCF 2.3 và tích hợp với Danh sách Nhà cung cấp Toàn cầu."
+
+#: build/admin.js:87
+msgid "Unlock IAB TCF 2.3 Compliance - Coming Soon"
+msgstr "Mở khóa Tuân thủ IAB TCF 2.3 - Sắp ra mắt"
+
+#: build/admin.js:87
+msgid "Enable full TCF mode, generate TC strings, and display the IAB vendor list to your visitors."
+msgstr "Bật chế độ TCF đầy đủ, tạo chuỗi TC và hiển thị danh sách nhà cung cấp IAB cho khách truy cập của bạn."
+
+#: build/admin.js:87
+msgid "Google Additional Consent (AC)"
+msgstr "Đồng ý Bổ sung của Google (AC)"
+
+#: build/admin.js:87
+msgid "Add Google Additional Consent alongside IAB TCF to handle ad-tech vendors not on the IAB Global Vendor List."
+msgstr "Thêm Đồng ý Bổ sung của Google cùng với IAB TCF để xử lý các nhà cung cấp công nghệ quảng cáo không có trong Danh sách Nhà cung cấp Toàn cầu của IAB."
+
+#: build/admin.js:87
+msgid "Unlock Google Additional Consent - Coming Soon"
+msgstr "Mở khóa Google Đồng ý Bổ sung - Sắp ra mắt"
+
+#: build/admin.js:87
+msgid "Generate the AC string, mirror the addtl_consent cookie, and display Google's Additional Consent provider list to your visitors - required for full Google Ads / GAM monetization."
+msgstr "Tạo chuỗi AC, sao chép cookie addtl_consent và hiển thị danh sách nhà cung cấp Đồng ý Bổ sung của Google cho khách truy cập của bạn - yêu cầu để kiếm tiền đầy đủ với Google Ads / GAM."
+
+#: build/onboarding.js:1
+msgid "Failed to get authentication payload"
+msgstr "Không thể lấy dữ liệu xác thực"
+
+#: build/onboarding.js:1
+msgid "An error occurred while connecting"
+msgstr "Đã xảy ra lỗi khi kết nối"
+
+#: build/onboarding.js:6
+msgid "First name is required"
+msgstr "Tên là bắt buộc"
+
+#: build/onboarding.js:6
+msgid "Email address is required"
+msgstr "Địa chỉ email là bắt buộc"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid email address"
+msgstr "Vui lòng nhập địa chỉ email hợp lệ"
+
+#: build/onboarding.js:6
+msgid "Classify cookies automatically"
+msgstr "Tự động phân loại cookie"
+
+#: build/onboarding.js:6
+msgid "Get smart compliance recommendations"
+msgstr "Nhận đề xuất tuân thủ thông minh"
+
+#: build/onboarding.js:6
+msgid "Generate privacy-compliant descriptions"
+msgstr "Tạo mô tả tuân thủ quyền riêng tư"
+
+#: build/onboarding.js:6
+msgid "Welcome to SureCookie"
+msgstr "Chào mừng đến với SureCookie"
+
+#: build/onboarding.js:6
+msgid "Privacy compliance made effortless 🍪"
+msgstr "Tuân thủ quyền riêng tư trở nên dễ dàng 🍪"
+
+#: build/onboarding.js:6
+msgid "Connect Your Account"
+msgstr "Kết nối Tài khoản của bạn"
+
+#: build/onboarding.js:6
+msgid "Connect your SureCookie account to automatically classify cookies, generate compliant descriptions, and get smart recommendations for your privacy needs."
+msgstr "Kết nối tài khoản SureCookie của bạn để tự động phân loại cookie, tạo mô tả tuân thủ và nhận đề xuất thông minh cho nhu cầu quyền riêng tư của bạn."
+
+#: build/onboarding.js:6
+msgid "Here's what you can do:"
+msgstr "Đây là những gì bạn có thể làm:"
+
+#: build/onboarding.js:6
+msgid "List of capabilities"
+msgstr "Danh sách các khả năng"
+
+#: build/onboarding.js:6
+msgid "Connected to SureCookie"
+msgstr "Đã kết nối với SureCookie"
+
+#: build/admin.js:40
+#: build/onboarding.js:7
+#: build/onboarding.js:14
+msgid "Back"
+msgstr "Quay lại"
+
+#: build/onboarding.js:6
+msgid "Next"
+msgstr "Tiếp theo"
+
+#: build/onboarding.js:6
+#: build/onboarding.js:14
+msgid "Skip"
+msgstr "Bỏ qua"
+
+#: build/onboarding.js:6
+msgid "Connecting…"
+msgstr "Đang kết nối…"
+
+#: build/onboarding.js:6
+msgid "Connect"
+msgstr "Kết nối"
+
+#: build/onboarding.js:11
+msgid "Run a Quick Privacy Scan"
+msgstr "Chạy Quét Quyền Riêng Tư Nhanh"
+
+#: build/onboarding.js:11
+msgid "SureCookie will scan your website, detect all cookies, and categorize them automatically.<br/> This helps you stay compliant without spending hours identifying scripts manually."
+msgstr "SureCookie sẽ quét trang web của bạn, phát hiện tất cả cookie và tự động phân loại chúng.<br/> Điều này giúp bạn tuân thủ mà không mất nhiều giờ để xác định các script thủ công."
+
+#: build/onboarding.js:11
+msgid "Account not connected"
+msgstr "Tài khoản chưa được kết nối"
+
+#: build/onboarding.js:11
+msgid "Please <a>go back</a> and connect your SureCookie account to enable cookie scanning."
+msgstr "Vui lòng <a>quay lại</a> và kết nối tài khoản SureCookie của bạn để kích hoạt quét cookie."
+
+#: build/onboarding.js:12
+msgid "Your session expired. Please reconnect to continue."
+msgstr "Phiên làm việc của bạn đã hết hạn. Vui lòng kết nối lại để tiếp tục."
+
+#: build/onboarding.js:14
+msgid "Connect Required"
+msgstr "Yêu cầu Kết nối"
+
+#: build/onboarding.js:14
+msgid "Please connect your account to get free scanning credits."
+msgstr "Vui lòng kết nối tài khoản của bạn để nhận tín dụng quét miễn phí."
+
+#: build/onboarding.js:14
+msgid "SureCookie is scanning your pages for cookies. This may take a few minutes."
+msgstr "SureCookie đang quét các trang của bạn để tìm cookie. Việc này có thể mất vài phút."
+
+#: build/onboarding.js:14
+msgid "Okay, just one last step…"
+msgstr "Được rồi, chỉ còn một bước cuối cùng…"
+
+#: build/onboarding.js:14
+msgid "Help us tailor your SureCookie experience by sharing a bit about yourself:"
+msgstr "Giúp chúng tôi cá nhân hóa trải nghiệm SureCookie của bạn bằng cách chia sẻ một chút về bản thân:"
+
+#: build/onboarding.js:14
+msgid "First Name"
+msgstr "Tên"
+
+#: build/onboarding.js:14
+msgid "Enter your first name"
+msgstr "Nhập tên của bạn"
+
+#: build/onboarding.js:14
+msgid "Last Name"
+msgstr "Họ"
+
+#: build/onboarding.js:14
+msgid "Enter your last name"
+msgstr "Nhập họ của bạn"
+
+#: build/onboarding.js:14
+msgid "Email Address"
+msgstr "Địa chỉ Email"
+
+#: build/onboarding.js:14
+msgid "Enter your email address"
+msgstr "Nhập địa chỉ email của bạn"
+
+#: build/onboarding.js:14
+msgid "Finish"
+msgstr "Hoàn tất"
+
+#: build/onboarding.js:14
+msgid "Block non-essential cookies and trackers until explicit consent"
+msgstr "Chặn cookie và trình theo dõi không cần thiết cho đến khi có sự đồng ý rõ ràng"
+
+#: build/onboarding.js:14
+msgid "Auto-discover common services, categorize them, and preconfigure safe rules"
+msgstr "Tự động phát hiện các dịch vụ phổ biến, phân loại chúng và cấu hình trước các quy tắc an toàn"
+
+#: build/onboarding.js:14
+msgid "You're all set. Let's go live 🚀"
+msgstr "Bạn đã sẵn sàng. Hãy bắt đầu 🚀"
+
+#: build/onboarding.js:14
+msgid "From consent logs to region-based preferences, SureCookie helps you stay compliant while building visitor trust."
+msgstr "Từ nhật ký đồng ý đến các tùy chọn dựa trên vùng, SureCookie giúp bạn tuân thủ quy định đồng thời xây dựng niềm tin với khách truy cập."
+
+#: build/onboarding.js:14
+msgid "Here's what SureCookie will do for you now:"
+msgstr "Đây là những gì SureCookie sẽ làm cho bạn ngay bây giờ:"
+
+#: build/onboarding.js:14
+msgid "SureCookie Features"
+msgstr "Tính năng của SureCookie"
+
+#: build/onboarding.js:6
+msgid "Exit Setup"
+msgstr "Thoát thiết lập"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "This website uses cookies to enhance your browsing experience, personalize content, provide social media features, and analyze our traffic. You can review and manage your cookie settings at any time, or accept all cookies to proceed."
+msgstr "Trang web này sử dụng cookie để nâng cao trải nghiệm duyệt web của bạn, cá nhân hóa nội dung, cung cấp các tính năng mạng xã hội và phân tích lưu lượng truy cập. Bạn có thể xem lại và quản lý cài đặt cookie bất cứ lúc nào, hoặc chấp nhận tất cả cookie để tiếp tục."
+
+#: build/public.js:4
+msgid "Cookie Consent"
+msgstr "Sự đồng ý về cookie"
+
+#: build/public.js:4
+msgid "Banner logo"
+msgstr "Logo biểu ngữ"
+
+#: build/public.js:4
+msgid "Decline all non-essential cookies"
+msgstr "Từ chối tất cả cookie không cần thiết"
+
+#: build/public.js:4
+msgid "Manage cookie preferences"
+msgstr "Quản lý tùy chọn cookie"
+
+#: build/public.js:4
+msgid "Accept only essential cookies"
+msgstr "Chỉ chấp nhận cookie cần thiết"
+
+#: build/public.js:4
+msgid "Accept all cookies"
+msgstr "Chấp nhận tất cả cookie"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Consent Forwarding"
+msgstr "Chuyển tiếp sự đồng ý"
+
+#: build/admin.js:2
+msgid "Want custom brand colors?"
+msgstr "Muốn màu thương hiệu tùy chỉnh?"
+
+#: build/admin.js:3
+#: build/admin.js:4
+msgid "Received from"
+msgstr "Nhận từ"
+
+#: build/admin.js:3
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Received"
+msgstr "Đã nhận"
+
+#. translators: %d: number of sites
+#: build/admin.js:4
+#, js-format
+msgid "Shared to %d site(s)"
+msgstr "Chia sẻ đến %d trang web"
+
+#: build/admin.js:4
+msgid "Consent not received for"
+msgstr "Không nhận được sự đồng ý cho"
+
+#: build/admin.js:4
+msgid "These categories exist only on this site and were not part of the forwarded consent. The visitor will be prompted to set their preferences for these when they visit this site directly."
+msgstr "Các danh mục này chỉ tồn tại trên trang web này và không phải là một phần của sự đồng ý được chuyển tiếp. Khách truy cập sẽ được yêu cầu thiết lập tùy chọn của họ cho những danh mục này khi họ truy cập trực tiếp trang web này."
+
+#: build/admin.js:4
+msgid "More information about these categories"
+msgstr "Thông tin thêm về các danh mục này"
+
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Shared"
+msgstr "Đã chia sẻ"
+
+#: build/admin.js:4
+msgid "Shared to"
+msgstr "Chia sẻ đến"
+
+#: build/admin.js:4
+msgid "Consent Session ID"
+msgstr "ID phiên sự đồng ý"
+
+#: build/admin.js:4
+msgid "Localhost"
+msgstr "Localhost"
+
+#: build/admin.js:6
+msgid "Consent log export upgrade"
+msgstr "Nâng cấp xuất nhật ký sự đồng ý"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preference sections"
+msgstr "Phần tùy chọn"
+
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Cookies"
+msgstr "Cookie"
+
+#. translators: %d: number of partner sites
+#: build/admin.js:51
+#: build/public.js:2
+#, js-format
+msgid "%d connected site(s)"
+msgstr "%d trang web được kết nối"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Sites that will receive your consent"
+msgstr "Các trang web sẽ nhận sự đồng ý của bạn"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "No partner sites configured."
+msgstr "Không có trang đối tác nào được cấu hình."
+
+#: build/admin.js:53
+msgid "Cookie Notice"
+msgstr "Thông báo Cookie"
+
+#: build/admin.js:84
+msgid "Automatically sync cookie consent across multiple domains and forward consent choices to connected services, without asking visitors to consent again."
+msgstr "Tự động đồng bộ sự đồng ý cookie trên nhiều miền và chuyển tiếp lựa chọn sự đồng ý đến các dịch vụ được kết nối, mà không yêu cầu khách truy cập đồng ý lại."
+
+#: inc/modules/mcp/server.php:100
+msgid "SureCookie MCP Server"
+msgstr "Máy chủ SureCookie MCP"
+
+#: inc/modules/mcp/server.php:101
+msgid "SureCookie MCP Server for cookie consent settings, consent logs, cookie management, and site scanning workflows."
+msgstr "Máy chủ SureCookie MCP cho cài đặt đồng ý cookie, nhật ký đồng ý, quản lý cookie và quy trình quét trang web."
+
+#. translators: %s: navigation group label
+#: build/admin.js:2
+#, js-format
+msgid "%s submenu"
+msgstr "%s menu phụ"
+
+#: build/admin.js:2
+msgid "General"
+msgstr "Chung"
+
+#: build/admin.js:2
+msgid "Consent & Data"
+msgstr "Đồng ý & Dữ liệu"
+
+#: build/admin.js:2
+msgid "Consent Frameworks"
+msgstr "Khung đồng ý"
+
+#: build/admin.js:2
+msgid "IAB-TCF"
+msgstr "IAB-TCF"
+
+#: build/admin.js:2
+msgid "Enter text"
+msgstr "Nhập văn bản"
+
+#: build/admin.js:2
+msgid "Enter Banner Message"
+msgstr "Nhập Thông điệp Biểu ngữ"
+
+#: build/admin.js:2
+msgid "Control how long consent stays valid and how consent records are stored."
+msgstr "Kiểm soát thời gian hiệu lực của sự đồng ý và cách lưu trữ hồ sơ đồng ý."
+
+#: build/admin.js:4
+msgid "N/A"
+msgstr "Không áp dụng"
+
+#. translators: %d: number of partner sites that received the forwarded consent.
+#: build/admin.js:15
+#, js-format
+msgid "This consent was shared with %d connected site. Deleting it here will also erase the copy from that site (GDPR Art. 17)."
+msgid_plural "This consent was shared with %d connected sites. Deleting it here will also erase the copies from those sites (GDPR Art. 17)."
+msgstr[0] "Sự đồng ý này đã được chia sẻ với %d trang kết nối. Xóa nó ở đây cũng sẽ xóa bản sao từ trang đó (GDPR Điều 17)."
+
+#. translators: %d: number of selected logs that were forwarded to partner sites.
+#: build/admin.js:21
+#, js-format
+msgid "%d of these logs was shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgid_plural "%d of these logs were shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgstr[0] "%d trong số các nhật ký này đã được chia sẻ với các trang đối tác kết nối. Xóa cũng sẽ xóa các bản sao đã chuyển tiếp đó (GDPR Điều 17)."
+
+#: build/admin.js:53
+msgid "Admin and plugin preferences for SureCookie."
+msgstr "Tùy chọn quản trị và plugin cho SureCookie."
+
+#: build/admin.js:53
+msgid "SureCookie Admin Menu"
+msgstr "Menu Quản trị SureCookie"
+
+#: build/admin.js:53
+msgid "Toggle to show SureCookie in the main menu or under Settings → SureCookie."
+msgstr "Chuyển đổi để hiển thị SureCookie trong menu chính hoặc dưới Cài đặt → SureCookie."
+
+#: build/admin.js:84
+msgid "Connect Your AI Client"
+msgstr "Kết nối Khách hàng AI của bạn"
+
+#: build/admin.js:84
+msgid "Create an Application Password"
+msgstr "Tạo Mật khẩu Ứng dụng"
+
+#: build/admin.js:84
+msgid "Open Application Passwords"
+msgstr "Mở Mật khẩu Ứng dụng"
+
+#: build/admin.js:84
+msgid "Add to your AI client:"
+msgstr "Thêm vào khách hàng AI của bạn:"
+
+#: build/admin.js:84
+msgid "Learn more about the WordPress MCP Adapter"
+msgstr "Tìm hiểu thêm về Bộ điều hợp MCP của WordPress"
+
+#: build/admin.js:84
+msgid "Claude Code"
+msgstr "Claude Code"
+
+#: build/admin.js:84
+msgid "Claude Desktop"
+msgstr "Claude Desktop"
+
+#: build/admin.js:84
+msgid "Cursor"
+msgstr "Cursor"
+
+#: build/admin.js:84
+msgid "VS Code"
+msgstr "VS Code"
+
+#: build/admin.js:84
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+#: build/admin.js:84
+msgid "go to Settings → Connectors → Add Connector, paste the endpoint URL, and use your WordPress username + Application Password."
+msgstr "đi tới Cài đặt → Bộ kết nối → Thêm Bộ kết nối, dán URL điểm cuối và sử dụng tên người dùng WordPress + Mật khẩu Ứng dụng của bạn."
+
+#: build/admin.js:84
+msgid "Learn more about ChatGPT connectors"
+msgstr "Tìm hiểu thêm về các bộ kết nối ChatGPT"
+
+#: build/admin.js:84
+msgid "SureCookie Only"
+msgstr "Chỉ SureCookie"
+
+#: build/admin.js:84
+msgid "Global"
+msgstr "Toàn cầu"
+
+#: build/admin.js:84
+msgid "Copy setup prompt for AI client"
+msgstr "Sao chép lời nhắc thiết lập cho khách hàng AI"
+
+#: build/admin.js:84
+msgid "Prompt copied! Paste it into your AI client."
+msgstr "Lời nhắc đã được sao chép! Dán nó vào khách hàng AI của bạn."
+
+#: build/admin.js:84
+msgid "Failed to copy prompt to clipboard"
+msgstr "Không thể sao chép lời nhắc vào bảng tạm"
+
+#: build/admin.js:84
+msgid "Copy JSON config"
+msgstr "Sao chép cấu hình JSON"
+
+#: build/admin.js:84
+msgid "Copied to clipboard"
+msgstr "Đã sao chép vào bảng tạm"
+
+#: build/admin.js:84
+msgid "Failed to copy to clipboard"
+msgstr "Không thể sao chép vào bảng tạm"
+
+#: build/admin.js:84
+msgid "MCP Adapter plugin not detected"
+msgstr "Không phát hiện plugin MCP Adapter"
+
+#. translators: %s: WP MCP Adapter plugin name.
+#: build/admin.js:87
+#, js-format
+msgid "To connect AI clients to your site, the %s plugin is required. Download the latest release from GitHub, upload it via Plugins > Add New > Upload Plugin, and activate."
+msgstr "Để kết nối khách hàng AI với trang của bạn, cần có plugin %s. Tải bản phát hành mới nhất từ GitHub, tải lên qua Plugins > Thêm mới > Tải plugin lên, và kích hoạt."
+
+#: build/admin.js:87
+msgid "Download from GitHub"
+msgstr "Tải xuống từ GitHub"
+
+#: build/admin.js:2
+#: build/admin.js:87
+msgid "MCP"
+msgstr "MCP"
+
+#: build/admin.js:87
+msgid "Configure AI client access to SureCookie through the Model Context Protocol."
+msgstr "Cấu hình quyền truy cập khách hàng AI vào SureCookie thông qua Giao thức Ngữ cảnh Mô hình."
+
+#: build/admin.js:87
+msgid "Enable MCP"
+msgstr "Bật MCP"
+
+#: build/admin.js:87
+msgid "Allow AI clients like Claude, ChatGPT, and Cursor to manage your cookie banner, scanner, and consent settings through SureCookie. When disabled, no abilities are registered and AI clients cannot connect."
+msgstr "Cho phép các khách hàng AI như Claude, ChatGPT và Cursor quản lý biểu ngữ cookie, trình quét và cài đặt đồng ý của bạn qua SureCookie. Khi tắt, không có quyền nào được đăng ký và khách hàng AI không thể kết nối."
+
+#: build/admin.js:87
+msgid "WordPress Abilities API not available"
+msgstr "API Khả năng WordPress không khả dụng"
+
+#: build/admin.js:87
+msgid "MCP requires the WordPress Abilities API (WordPress 6.9 or later). Update WordPress to use this feature."
+msgstr "MCP yêu cầu API Khả năng của WordPress (WordPress 6.9 trở lên). Cập nhật WordPress để sử dụng tính năng này."
+
+#: build/admin.js:87
+msgid "Unsaved changes"
+msgstr "Các thay đổi chưa được lưu"
+
+#: build/admin.js:87
+msgid "The MCP endpoint becomes active only after you save your settings."
+msgstr "Điểm cuối MCP chỉ hoạt động sau khi bạn lưu cài đặt của mình."
+
+#: inc/api/consent-logs.php:404
+msgid "Unable to determine the current user."
+msgstr "Không thể xác định người dùng hiện tại."
+
+#: inc/api/consent-logs.php:415
+msgid "Consent logs marked as viewed."
+msgstr "Nhật ký đồng ý đã được đánh dấu là đã xem."
+
+#: inc/api/plugin.php:214
+msgid "This plugin is network-activated and must be deactivated by a Network Administrator from Network Admin > Plugins."
+msgstr "Plugin này được kích hoạt trên mạng và phải được quản trị viên mạng vô hiệu hóa từ Quản trị Mạng > Plugins."
+
+#: inc/api/plugin.php:225
+msgid "Plugin could not be deactivated."
+msgstr "Không thể vô hiệu hóa plugin."
+
+#: inc/modules/automatic-scanning/api.php:118
+msgid "Enable Automatic Scanning before running a scan."
+msgstr "Bật Quét Tự động trước khi chạy quét."
+
+#: inc/modules/automatic-scanning/api.php:122
+msgid "A scan is already in progress."
+msgstr "Một lần quét đang được tiến hành."
+
+#: inc/modules/automatic-scanning/api.php:128
+msgid "Could not start the scan. Please try again."
+msgstr "Không thể bắt đầu quét. Vui lòng thử lại."
+
+#: inc/modules/automatic-scanning/api.php:131
+msgid "Scan triggered."
+msgstr "Quét đã được kích hoạt."
+
+#: inc/modules/automatic-scanning/runner.php:100
+msgid "Automatic scan deferred: daily page budget reached. Retrying in ~24 hours."
+msgstr "Quét tự động bị hoãn: đã đạt hạn mức trang hàng ngày. Thử lại sau ~24 giờ."
+
+#: inc/modules/automatic-scanning/runner.php:124
+msgid "Automatic scan skipped: a scan is already in progress."
+msgstr "Quét tự động bị bỏ qua: một lần quét đang được tiến hành."
+
+#: inc/modules/automatic-scanning/runner.php:142
+msgid "Starting automatic (scheduled) scan."
+msgstr "Bắt đầu quét tự động (theo lịch)."
+
+#: inc/modules/automatic-scanning/scheduler.php:85
+msgid "Once Monthly (SureCookie)"
+msgstr "Một lần mỗi tháng (SureCookie)"
+
+#: inc/modules/automatic-scanning/scheduler.php:92
+msgid "Once Weekly (SureCookie)"
+msgstr "Một lần mỗi tuần (SureCookie)"
+
+#: inc/modules/script-blocking/blocker.php:1279
+msgid "This content is currently blocked."
+msgstr "Nội dung này hiện đang bị chặn."
+
+#: inc/modules/site-scanner/saas-client.php:519
+msgid "Scan deferred by server: daily page budget reached. It will retry automatically."
+msgstr "Quét bị hoãn bởi máy chủ: đã đạt hạn mức trang hàng ngày. Nó sẽ tự động thử lại."
+
+#: inc/modules/site-scanner/saas-client.php:524
+msgid "Daily page budget reached. The scheduled scan will retry automatically."
+msgstr "Đã đạt hạn mức trang hàng ngày. Quét theo lịch sẽ tự động thử lại."
+
+#: build/admin.js:2
+#: build/admin.js:79
+msgid "Manual"
+msgstr "Thủ công"
+
+#: build/admin.js:2
+msgid "Automatic"
+msgstr "Tự động"
+
+#: build/admin.js:2
+msgid "Reset to default"
+msgstr "Đặt lại về mặc định"
+
+#: build/admin.js:2
+msgid "Enable Background Overlay"
+msgstr "Bật lớp phủ nền"
+
+#: build/admin.js:2
+msgid "Background Overlay"
+msgstr "Lớp phủ nền"
+
+#: build/admin.js:2
+msgid "Dim the page behind the banner and limit interaction until the visitor accepts or declines. The overlay is removed after a choice is made."
+msgstr "Làm mờ trang phía sau biểu ngữ và giới hạn tương tác cho đến khi khách truy cập chấp nhận hoặc từ chối. Lớp phủ sẽ được gỡ bỏ sau khi có lựa chọn."
+
+#: build/admin.js:2
+msgid "This layout highlights the consent banner and may affect user experience. Ensure it aligns with your regional consent requirements."
+msgstr "Bố cục này làm nổi bật biểu ngữ đồng ý và có thể ảnh hưởng đến trải nghiệm người dùng. Đảm bảo nó phù hợp với yêu cầu đồng ý khu vực của bạn."
+
+#: build/admin.js:2
+#: build/admin.js:3
+msgid "Re-request Consent"
+msgstr "Yêu cầu lại sự đồng ý"
+
+#. translators: %s: date/time of the last renewal.
+#: build/admin.js:3
+#, js-format
+msgid "Last Requested: %s"
+msgstr "Lần yêu cầu cuối: %s"
+
+#: build/admin.js:3
+msgid "Ask all visitors to provide consent again. Use this after updating your cookie policy or adding new trackers. Existing consent will be marked as outdated, and the banner will reappear on the next visit."
+msgstr "Yêu cầu tất cả khách truy cập cung cấp sự đồng ý lại. Sử dụng điều này sau khi cập nhật chính sách cookie hoặc thêm trình theo dõi mới. Sự đồng ý hiện có sẽ được đánh dấu là lỗi thời, và biểu ngữ sẽ xuất hiện lại trong lần truy cập tiếp theo."
+
+#: build/admin.js:3
+msgid "Consent requested. Visitors will be asked for consent again."
+msgstr "Yêu cầu đồng ý đã được gửi. Khách truy cập sẽ được hỏi lại về sự đồng ý."
+
+#: build/admin.js:3
+msgid "Could not Re-request Consent. Please try again."
+msgstr "Không thể yêu cầu lại sự đồng ý. Vui lòng thử lại."
+
+#: build/admin.js:3
+msgid "Renewing…"
+msgstr "Đang làm mới…"
+
+#: build/admin.js:3
+msgid "Confirm Re-request"
+msgstr "Xác nhận yêu cầu lại"
+
+#: build/admin.js:22
+#: build/onboarding.js:2
+msgid "New"
+msgstr "Mới"
+
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Automatic Scanning"
+msgstr "Quét tự động"
+
+#: build/admin.js:43
+msgid "Manage"
+msgstr "Quản lý"
+
+#: build/admin.js:43
+msgid "Since the last scan:"
+msgstr "Kể từ lần quét cuối:"
+
+#: build/admin.js:43
+msgid "new cookie"
+msgid_plural "new cookies"
+msgstr[0] "cookie mới"
+
+#: build/admin.js:43
+msgid "removed"
+msgstr "đã gỡ bỏ"
+
+#: build/admin.js:43
+msgid "new tracker domain"
+msgid_plural "new tracker domains"
+msgstr[0] "miền trình theo dõi mới"
+
+#: build/admin.js:43
+msgid "No scans yet. Schedule automatic scans to track changes over time."
+msgstr "Chưa có lần quét nào. Lên lịch quét tự động để theo dõi thay đổi theo thời gian."
+
+#. translators: %s: next scan date
+#: build/admin.js:44
+#, js-format
+msgid "Next scan: %s"
+msgstr "Lần quét tiếp theo: %s"
+
+#: build/admin.js:44
+msgid "Scheduling is off"
+msgstr "Lên lịch đã tắt"
+
+#: build/admin.js:75
+msgid "Network-activated"
+msgstr "Kích hoạt trên mạng"
+
+#: build/admin.js:75
+msgid "Manage in Network Admin"
+msgstr "Quản lý trong Quản trị Mạng"
+
+#: build/admin.js:76
+msgid "Google Consent Mode is enabled, so SureCookie allows Google's Consent Mode scripts to function correctly. As a result, this script cannot be blocked."
+msgstr "Chế độ Đồng ý của Google được bật, vì vậy SureCookie cho phép các script Chế độ Đồng ý của Google hoạt động đúng. Do đó, script này không thể bị chặn."
+
+#: build/admin.js:78
+msgid "Necessary"
+msgstr "Cần thiết"
+
+#: build/admin.js:78
+msgid "What Changed in the Last Scan"
+msgstr "Những thay đổi trong lần quét cuối cùng"
+
+#: build/admin.js:78
+msgid "Cookies and tracker domains that changed compared to the previous scan."
+msgstr "Cookie và tên miền theo dõi đã thay đổi so với lần quét trước."
+
+#: build/admin.js:78
+msgid "No differences were detected compared to the previous scan."
+msgstr "Không phát hiện sự khác biệt so với lần quét trước."
+
+#: build/admin.js:78
+msgid "New Cookies"
+msgstr "Cookie mới"
+
+#: build/admin.js:78
+msgid "No Longer Detected"
+msgstr "Không còn được phát hiện"
+
+#: build/admin.js:78
+msgid "Recategorized"
+msgstr "Phân loại lại"
+
+#: build/admin.js:78
+msgid "New Tracker Domains"
+msgstr "Tên miền theo dõi mới"
+
+#: build/admin.js:78
+msgid "Third-party"
+msgstr "Bên thứ ba"
+
+#: build/admin.js:78
+msgid "Monthly"
+msgstr "Hàng tháng"
+
+#: build/admin.js:78
+msgid "Re-scan your site once a month."
+msgstr "Quét lại trang của bạn mỗi tháng một lần."
+
+#: build/admin.js:78
+msgid "Weekly"
+msgstr "Hàng tuần"
+
+#: build/admin.js:78
+msgid "Re-scan every week for faster drift detection."
+msgstr "Quét lại mỗi tuần để phát hiện thay đổi nhanh hơn."
+
+#: build/admin.js:78
+msgid "All Published Content"
+msgstr "Tất cả nội dung đã xuất bản"
+
+#: build/admin.js:78
+msgid "Enable Automatic Scanning"
+msgstr "Bật Quét Tự động"
+
+#: build/admin.js:78
+msgid "Run scheduled scans in the background and detect changes automatically."
+msgstr "Chạy các lần quét theo lịch trong nền và tự động phát hiện thay đổi."
+
+#: build/admin.js:78
+msgid "Scan Frequency"
+msgstr "Tần suất quét"
+
+#: build/admin.js:78
+msgid "WordPress cron is disabled"
+msgstr "Cron của WordPress bị vô hiệu hóa"
+
+#: build/admin.js:78
+msgid "Scheduled scans rely on cron. Ask your host to set up a real server cron job so automatic scans run on time."
+msgstr "Các lần quét theo lịch dựa vào cron. Hãy yêu cầu nhà cung cấp lưu trữ thiết lập một công việc cron thực trên máy chủ để các lần quét tự động chạy đúng giờ."
+
+#: build/admin.js:78
+msgid "Last Scan"
+msgstr "Lần quét cuối"
+
+#. translators: %s: last scan date-time
+#: build/admin.js:79
+#, js-format
+msgid "Scanned on %s"
+msgstr "Đã quét vào %s"
+
+#: build/admin.js:79
+msgid "Scheduled"
+msgstr "Đã lên lịch"
+
+#. translators: %d: number of new cookies
+#: build/admin.js:80
+#, js-format
+msgid "%d New Cookies"
+msgstr "%d Cookie mới"
+
+#. translators: %d: number of cookies no longer detected
+#: build/admin.js:81
+#, js-format
+msgid "%d Removed"
+msgstr "%d Đã loại bỏ"
+
+#. translators: %d: number of recategorized cookies
+#: build/admin.js:82
+#, js-format
+msgid "%d Recategorized"
+msgstr "%d Đã phân loại lại"
+
+#. translators: %d: number of new tracker domains
+#: build/admin.js:83
+#, js-format
+msgid "%d New Tracker Domains"
+msgstr "%d Tên miền theo dõi mới"
+
+#: build/admin.js:83
+msgid "View Changes"
+msgstr "Xem thay đổi"
+
+#: build/admin.js:83
+msgid "No scans yet - run your first scan to start monitoring changes."
+msgstr "Chưa có lần quét nào - hãy chạy lần quét đầu tiên để bắt đầu theo dõi thay đổi."
+
+#: build/admin.js:83
+msgid "Stay Compliant Automatically"
+msgstr "Tuân thủ tự động"
+
+#: build/admin.js:83
+msgid "Get weekly scans, instant alerts, smart classification, and automatic protection from new trackers."
+msgstr "Nhận quét hàng tuần, cảnh báo ngay lập tức, phân loại thông minh và bảo vệ tự động khỏi các trình theo dõi mới."
+
+#. translators: %d: maximum pages
+#: build/onboarding.js:11
+#, js-format
+msgid "SureCookie agent will visit them like real users to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "Đại lý SureCookie sẽ truy cập chúng như người dùng thực để phát hiện tất cả cookie đang sử dụng. Cho phép %d trang mỗi lần quét do giới hạn tài nguyên."
+
+#. translators: 1: remaining pages, 2: total daily page budget
+#: build/admin.js:70
+#, js-format
+msgid "%1$d of %2$d daily pages remaining on this site"
+msgstr "%1$d trong %2$d trang hàng ngày còn lại trên trang này"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "<p>By scanning you accept our <a>terms and conditions</a>.</p>"
+msgstr "<p>Bằng cách quét, bạn đồng ý với <a>điều khoản và điều kiện</a> của chúng tôi.</p>"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Terms and Conditions"
+msgstr "Điều khoản và Điều kiện"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Cookie Scanning Not Available on Local Sites"
+msgstr "Quét Cookie không khả dụng trên các trang cục bộ"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "This site is running on a local or development environment that our cloud scanner cannot reach. Cookie scanning will be available once your site is live on a publicly accessible domain."
+msgstr "Trang này đang chạy trên môi trường cục bộ hoặc phát triển mà trình quét đám mây của chúng tôi không thể truy cập. Quét cookie sẽ khả dụng khi trang của bạn hoạt động trên tên miền có thể truy cập công khai."
+
+#: build/onboarding.js:14
+msgid "Skip for Now"
+msgstr "Bỏ qua trước"
+
+#: build/onboarding.js:14
+msgid "Stay in the loop and help shape SureCookie! Get feature updates, and help us build a better SureCookie by sharing how you use the plugin. <a>Terms and Conditions</a>"
+msgstr "Luôn cập nhật và giúp định hình SureCookie! Nhận các cập nhật tính năng, và giúp chúng tôi xây dựng SureCookie tốt hơn bằng cách chia sẻ cách bạn sử dụng plugin. <a>Điều khoản và Điều kiện</a>"
+
+#: admin/product-promotion.php:104
+msgid "Grow traffic of your website with SureRank - a lightweight SEO toolkit plugin for WordPress users who want better rankings without the complexity."
+msgstr "Tăng lưu lượng truy cập cho trang web của bạn với SureRank - một plugin bộ công cụ SEO gọn nhẹ dành cho người dùng WordPress muốn có thứ hạng tốt hơn mà không cần sự phức tạp."
+
+#: admin/rating-notice.php:232
+msgid "Amazing! SureCookie discovered cookies on your site - let's keep growing together!"
+msgstr "Tuyệt vời! SureCookie đã phát hiện cookie trên trang web của bạn - hãy cùng nhau tiếp tục phát triển!"
+
+#. translators: 1: page URL, 2: error message
+#: inc/modules/site-scanner/saas-client.php:989
+#, php-format
+msgid "Page failed: %1$s - %2$s"
+msgstr "Trang thất bại: %1$s - %2$s"
+
+#: build/admin.js:43
+msgid "WP-Cron disabled - scans won’t run automatically"
+msgstr "WP-Cron bị tắt - quét sẽ không tự động chạy"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Consider Plan Upgrade"
+msgstr "Cân nhắc nâng cấp gói"
+
+#. translators: 1: pages scanned, 2: pages submitted
+#: build/admin.js:75
+#, js-format
+msgid "Scanned %1$d of %2$d pages - your daily page budget is used up. The remaining pages will scan after it resets."
+msgstr "Đã quét %1$d trong số %2$d trang - hạn mức trang hàng ngày của bạn đã hết. Các trang còn lại sẽ được quét sau khi hạn mức được đặt lại."
+
+#: build/admin.js:84
+msgid "Update the environment variables"
+msgstr "Cập nhật các biến môi trường"
+
+#: build/admin.js:84
+msgid "WP_API_USERNAME"
+msgstr "WP_API_USERNAME"
+
+#: build/admin.js:84
+msgid "Your WordPress username (prefilled)."
+msgstr "Tên người dùng WordPress của bạn (đã điền sẵn)."
+
+#: build/admin.js:84
+msgid "WP_API_PASSWORD"
+msgstr "WP_API_PASSWORD"
+
+#: build/admin.js:84
+msgid "Replace \"your-application-password\" with the password from Step 1."
+msgstr "Thay thế \"your-application-password\" bằng mật khẩu từ Bước 1."
+
+#: build/admin.js:84
+msgid "Verify Node.js version"
+msgstr "Xác minh phiên bản Node.js"
+
+#: build/admin.js:84
+msgid "In your terminal, run:"
+msgstr "Trong terminal của bạn, hãy chạy:"
+
+#: build/admin.js:84
+msgid "The version must be 20.1 or higher."
+msgstr "Phiên bản phải là 20.1 trở lên."
+
+#: build/admin.js:84
+msgid "If it is lower, run:"
+msgstr "Nếu thấp hơn, hãy chạy:"
+
+#: build/admin.js:84
+msgid "Restart your AI client and paste the copied prompt again into your AI client."
+msgstr "Khởi động lại khách hàng AI của bạn và dán lại lời nhắc đã sao chép vào khách hàng AI của bạn."
+
+#: build/admin.js:84
+msgid "Enjoy your AI client connected to your WordPress site!"
+msgstr "Tận hưởng khách hàng AI của bạn đã được kết nối với trang WordPress của bạn!"
+
+#: admin/rating-notice.php:156
+msgid "Invalid nonce."
+msgstr "Nonce không hợp lệ."
+
+#: admin/rating-notice.php:158
+msgid "Unauthorized user."
+msgstr "Người dùng không được phép."
+
+#: admin/rating-notice.php:171
+msgid "Invalid parameters."
+msgstr "Tham số không hợp lệ."
+
+#: build/admin.js:47
+msgid "More scan limits, geographic targeting, re-consent widget, and more."
+msgstr "Giới hạn quét nhiều hơn, nhắm mục tiêu địa lý, widget đồng ý lại, và nhiều hơn nữa."
+
+#: inc/integrations/presto-player/block-handler.php:293
+msgid "This audio is blocked until you accept cookies to load it."
+msgstr "Âm thanh này bị chặn cho đến khi bạn chấp nhận cookie để tải nó."
+
+#: inc/integrations/presto-player/block-handler.php:297
+msgid "This video is blocked until you accept cookies to load it."
+msgstr "Video này bị chặn cho đến khi bạn chấp nhận cookie để tải nó."
+
+#: build/admin.js:2
+msgid "Tools"
+msgstr "Công cụ"
+
+#: build/admin.js:2
+msgid "You've used all available AI requests in your Free Plan. Upgrade to SureCookie premium to keep using AI features."
+msgstr "Bạn đã sử dụng hết tất cả các yêu cầu AI có sẵn trong Gói Miễn Phí của mình. Nâng cấp lên SureCookie cao cấp để tiếp tục sử dụng các tính năng AI."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to access this feature."
+msgstr "Nâng cấp lên SureCookie cao cấp để truy cập tính năng này."
+
+#: build/admin.js:2
+msgid "Is this button order not showing on the frontend?"
+msgstr "Thứ tự nút này không hiển thị trên giao diện người dùng phải không?"
+
+#: build/admin.js:2
+msgid "Visitors who match a region-specific rule will see the button order defined for that region. This global order is shown only to visitors who don't match any regional rules."
+msgstr "Khách truy cập phù hợp với quy tắc theo vùng sẽ thấy thứ tự nút được định nghĩa cho vùng đó. Thứ tự toàn cầu này chỉ hiển thị cho khách truy cập không phù hợp với bất kỳ quy tắc vùng nào."
+
+#: build/admin.js:2
+msgid "Manage Geo Rules"
+msgstr "Quản lý Quy tắc Địa lý"
+
+#: build/admin.js:2
+msgid "You can add links and basic formatting like bold/italic/link to the banner message."
+msgstr "Bạn có thể thêm liên kết và định dạng cơ bản như in đậm/in nghiêng/liên kết vào thông điệp biểu ngữ."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to pick custom primary, secondary, foreground, and background colors for your banner."
+msgstr "Nâng cấp lên SureCookie cao cấp để chọn màu chính, phụ, tiền cảnh và nền tùy chỉnh cho biểu ngữ của bạn."
+
+#: build/admin.js:6
+msgid "Export Consent Logs"
+msgstr "Xuất Nhật ký Đồng ý"
+
+#: build/admin.js:6
+msgid "Upgrade to premium to download CSV report for legal audits and GDPR Article 7 documentation."
+msgstr "Nâng cấp lên cao cấp để tải báo cáo CSV cho kiểm toán pháp lý và tài liệu Điều 7 GDPR."
+
+#: build/admin.js:44
+msgid "Grab the Launch Offer"
+msgstr "Nhận Ưu Đãi Khởi Động"
+
+#: build/admin.js:47
+msgid "Do More with SureCookie Premium"
+msgstr "Làm Nhiều Hơn với SureCookie Cao Cấp"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Checking your scan limits…"
+msgstr "Đang kiểm tra giới hạn quét của bạn…"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Run your first scan to connect this site with SureCookie. Your plan's full scan limits unlock automatically once the connection is established."
+msgstr "Chạy quét đầu tiên để kết nối trang này với SureCookie. Giới hạn quét đầy đủ của gói sẽ tự động mở khóa khi kết nối được thiết lập."
+
+#. translators: %d: maximum pages
+#: build/admin.js:67
+#, js-format
+msgid "We'll visit the selected content to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "Chúng tôi sẽ truy cập nội dung đã chọn để phát hiện tất cả cookie đang sử dụng. Cho phép %d trang mỗi lần quét do giới hạn tài nguyên."
+
+#. translators: %d: maximum items
+#: build/admin.js:72
+#: build/onboarding.js:13
+#, js-format
+msgid "Select up to %d items to scan…"
+msgstr "Chọn tối đa %d mục để quét…"
+
+#: build/admin.js:72
+#: build/onboarding.js:13
+msgid "Select Content"
+msgstr "Chọn Nội dung"
+
+#: build/admin.js:73
+#: build/onboarding.js:14
+msgid "Select the content you want to scan."
+msgstr "Chọn nội dung bạn muốn quét."
+
+#: build/admin.js:74
+msgid "Scanning your content for cookies. This may take a few minutes."
+msgstr "Đang quét nội dung của bạn để tìm cookie. Việc này có thể mất vài phút."
+
+#: build/admin.js:75
+msgid "Unlock Geo Rules, Advanced Scanning & more with Pro - Grab the launching offer!"
+msgstr "Mở khóa Quy tắc Địa lý, Quét Nâng cao & nhiều hơn nữa với Pro - Nhận ưu đãi khởi động!"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Claim the Deal"
+msgstr "Nhận Ưu Đãi"
+
+#: build/admin.js:78
+msgid "Content from Manual Scan"
+msgstr "Nội dung từ Quét Thủ công"
+
+#: build/admin.js:78
+msgid "Reuse the content selected on the Cookie Scanner."
+msgstr "Tái sử dụng nội dung đã chọn trên Bộ Quét Cookie."
+
+#: build/admin.js:78
+msgid "Scan all published content, as per plan limit."
+msgstr "Quét tất cả nội dung đã xuất bản, theo giới hạn gói."
+
+#: build/admin.js:78
+msgid "Selected Content"
+msgstr "Nội dung Đã chọn"
+
+#: build/admin.js:78
+msgid "Choose specific content to scan below."
+msgstr "Chọn nội dung cụ thể để quét bên dưới."
+
+#: build/admin.js:78
+msgid "Content to Scan"
+msgstr "Nội dung để Quét"
+
+#: build/admin.js:78
+msgid "Select content to scan…"
+msgstr "Chọn nội dung để quét…"
+
+#: build/onboarding.js:6
+msgid "Launch Offer - Save Big"
+msgstr "Ưu Đãi Khởi Động - Tiết Kiệm Lớn"
+
+#: build/onboarding.js:6
+msgid "Limited Time"
+msgstr "Thời gian có hạn"
+
+#: build/onboarding.js:6
+msgid "Upgrade to Premium and unlock advanced scanning, geo rules, custom branding, and priority support."
+msgstr "Nâng cấp lên Cao cấp và mở khóa quét nâng cao, quy tắc địa lý, thương hiệu tùy chỉnh và hỗ trợ ưu tiên."
+
+#: build/onboarding.js:6
+msgid "Failed to activate license. Please try again."
+msgstr "Kích hoạt giấy phép thất bại. Vui lòng thử lại."
+
+#: build/onboarding.js:6
+msgid "License Activated!"
+msgstr "Giấy phép đã được kích hoạt!"
+
+#: build/onboarding.js:6
+msgid "Your license has been successfully activated."
+msgstr "Giấy phép của bạn đã được kích hoạt thành công."
+
+#: build/onboarding.js:6
+msgid "Activation Failed"
+msgstr "Kích hoạt thất bại"
+
+#: build/onboarding.js:6
+msgid "An error occurred during activation. Please try again."
+msgstr "Đã xảy ra lỗi trong quá trình kích hoạt. Vui lòng thử lại."
+
+#: build/onboarding.js:6
+msgid "Invalid License Key"
+msgstr "Khóa bản quyền không hợp lệ"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid license key."
+msgstr "Vui lòng nhập khóa bản quyền hợp lệ."
+
+#: build/onboarding.js:6
+msgid "Activate Your License"
+msgstr "Kích hoạt bản quyền của bạn"
+
+#: build/onboarding.js:6
+msgid "Activate your SureCookie license to unlock higher scan limits, automatically classify cookies, and get smart compliance recommendations."
+msgstr "Kích hoạt bản quyền SureCookie của bạn để mở khóa giới hạn quét cao hơn, tự động phân loại cookie và nhận các đề xuất tuân thủ thông minh."
+
+#: build/onboarding.js:6
+msgid "License activated"
+msgstr "Bản quyền đã được kích hoạt"
+
+#: build/onboarding.js:6
+msgid "Activating…"
+msgstr "Đang kích hoạt…"
+
+#: build/admin.js:63
+#: build/onboarding.js:6
+#: build/onboarding.js:7
+msgid "Activate License"
+msgstr "Kích hoạt bản quyền"
+
+#: build/onboarding.js:6
+msgid "License Key"
+msgstr "Khóa bản quyền"
+
+#: build/onboarding.js:6
+msgid "Paste your license key here"
+msgstr "Dán khóa bản quyền của bạn vào đây"
+
+#. translators: %s: Package name (e.g., SureCookie Pro)
+#: build/onboarding.js:7
+#, js-format
+msgid "Activate your <strong>%s</strong> license to receive professional support and automatic updates directly from your WordPress dashboard. Don't have a license? <a>Get it here »</a>"
+msgstr "Kích hoạt bản quyền <strong>%s</strong> của bạn để nhận hỗ trợ chuyên nghiệp và cập nhật tự động trực tiếp từ bảng điều khiển WordPress của bạn. Chưa có bản quyền? <a>Nhận tại đây »</a>"
+
+#: build/onboarding.js:7
+msgid "Purchase a SureCookie license"
+msgstr "Mua bản quyền SureCookie"
+
+#: build/admin.js:2
+msgid "View Plans"
+msgstr "Xem Kế hoạch"
+
+#: build/admin.js:4
+msgid "CONSENT RECORD"
+msgstr "HỒ SƠ ĐỒNG Ý"
+
+#: build/admin.js:4
+msgid "This document contains a record of the consent choice stored by SureCookie. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Tài liệu này chứa hồ sơ lựa chọn đồng ý được lưu trữ bởi SureCookie. Nó có thể được sử dụng cho tài liệu nội bộ và xem xét. Yêu cầu pháp lý có thể khác nhau."
+
+#: build/admin.js:4
+msgid "This document is automatically generated by the SureCookie plugin and contains a record of the consent choice stored at the time of export. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Tài liệu này được tạo tự động bởi plugin SureCookie và chứa hồ sơ lựa chọn đồng ý được lưu trữ tại thời điểm xuất. Nó có thể được sử dụng cho tài liệu nội bộ và xem xét. Yêu cầu pháp lý có thể khác nhau."
+
+#: build/admin.js:43
+msgid "Enter your custom CSS here"
+msgstr "Nhập CSS tùy chỉnh của bạn ở đây"
+
+#: build/admin.js:43
+msgid "Use !important to override inline styles"
+msgstr "Sử dụng !important để ghi đè các kiểu nội tuyến"
+
+#: build/admin.js:43
+msgid "Your cookie banner is enabled."
+msgstr "Biểu ngữ cookie của bạn đã được bật."
+
+#: build/admin.js:43
+msgid "Your cookie banner is currently disabled."
+msgstr "Biểu ngữ cookie của bạn hiện đang bị tắt."
+
+#: build/admin.js:2
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Activate SureCookie Pro"
+msgstr "Kích hoạt SureCookie Pro"
+
+#. translators: %d: maximum pages
+#: build/admin.js:64
+#: build/onboarding.js:8
+#, js-format
+msgid "Your first scan can cover up to %d pages while we connect your site. Remove the extra pages to start - Your plan's full limits unlock automatically afterward."
+msgstr "Quét đầu tiên của bạn có thể bao phủ lên đến %d trang trong khi chúng tôi kết nối trang web của bạn. Hãy loại bỏ các trang thừa để bắt đầu - Giới hạn đầy đủ của gói của bạn sẽ tự động được mở khóa sau đó."
+
+#. translators: %d: maximum pages
+#: build/admin.js:66
+#: build/onboarding.js:10
+#, js-format
+msgid "The free plan supports scanning up to %d pages. Upgrade now to scan more pages and keep your cookie list updated automatically."
+msgstr "Gói miễn phí hỗ trợ quét lên đến %d trang. Nâng cấp ngay để quét nhiều trang hơn và giữ danh sách cookie của bạn được cập nhật tự động."
+
+#. translators: %s: SureCookie plan tier, e.g. "Business"
+#: build/admin.js:76
+#, js-format
+msgid "%s version"
+msgstr "Phiên bản %s"
+
+#: build/onboarding.js:6
+msgid "Let's help you discover cookies, configure consent choices, and improve how your website handles visitor privacy. SureCookie automatically detects and categorizes cookies so you can stay focused on growing your business."
+msgstr "Hãy để chúng tôi giúp bạn phát hiện cookie, cấu hình lựa chọn đồng ý và cải thiện cách trang web của bạn xử lý quyền riêng tư của khách truy cập. SureCookie tự động phát hiện và phân loại cookie để bạn có thể tập trung vào việc phát triển doanh nghiệp của mình."
+
+#: build/onboarding.js:14
+msgid "Keep consent records locally on the site and export individual records when needed"
+msgstr "Lưu giữ hồ sơ đồng ý tại chỗ trên trang web và xuất các hồ sơ riêng lẻ khi cần thiết"
+
+#: admin/menu.php:78
+#: build/admin.js:2
+msgid "Tracking Manager"
+msgstr "Trình quản lý theo dõi"
+
+#: admin/product-promotion.php:116
+msgid "WordPress emails often go missing or land in spam because web hosts aren't built for reliable delivery. SureMail fixes this by connecting to trusted SMTP services, so your emails reach inboxes, no more lost messages or frustrated customers."
+msgstr "Email WordPress thường bị mất hoặc vào thư mục spam vì các nhà cung cấp web không được xây dựng để gửi thư đáng tin cậy. SureMail khắc phục điều này bằng cách kết nối với các dịch vụ SMTP đáng tin cậy, giúp email của bạn đến hộp thư đến, không còn tin nhắn bị mất hay khách hàng thất vọng."
+
+#: admin/product-promotion.php:122
+msgid "Spectra Blocks is a complete rebuild of Spectra on WordPress's modern core-block APIs - an AI website builder built directly into the Block Editor."
+msgstr "Spectra Blocks là sự xây dựng lại hoàn chỉnh của Spectra trên các API lõi khối hiện đại của WordPress - một trình tạo website AI được tích hợp trực tiếp vào Trình chỉnh sửa Khối."
+
+#: inc/api/cookies.php:395
+msgid "Failed to update cookie categories: "
+msgstr "Không thể cập nhật các loại cookie:"
+
+#. translators: %s: Provider name (e.g., YouTube, Vimeo)
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:236
+#: inc/modules/script-blocking/blocker.php:1294
+#, php-format
+msgid "Accept and load %s content"
+msgstr "Chấp nhận và tải nội dung %s"
+
+#: inc/modules/assisted-scan/api.php:122
+msgid "An assisted scan is already running. Cancel it before starting another."
+msgstr "Một quét hỗ trợ đang chạy. Hủy nó trước khi bắt đầu quét khác."
+
+#: inc/modules/assisted-scan/api.php:144
+#: inc/modules/assisted-scan/api.php:155
+msgid "Select at least one published page to scan."
+msgstr "Chọn ít nhất một trang đã xuất bản để quét."
+
+#: inc/modules/assisted-scan/api.php:163
+msgid "Starting assisted scan (collected from your browser)."
+msgstr "Bắt đầu quét hỗ trợ (thu thập từ trình duyệt của bạn)."
+
+#. translators: %d: number of pages.
+#: inc/modules/assisted-scan/api.php:167
+#, php-format
+msgid "Pages to visit: %d."
+msgstr "Số trang cần truy cập: %d."
+
+#: inc/modules/assisted-scan/api.php:197
+#: inc/modules/assisted-scan/api.php:253
+msgid "This scan session has expired. Start the scan again."
+msgstr "Phiên quét này đã hết hạn. Bắt đầu quét lại."
+
+#: inc/modules/assisted-scan/api.php:210
+msgid "The scan sent more data than a single page should produce."
+msgstr "Quét đã gửi nhiều dữ liệu hơn mức một trang nên tạo ra."
+
+#: inc/modules/assisted-scan/api.php:222
+msgid "That page is not the one this scan was waiting for."
+msgstr "Trang đó không phải là trang mà quét này đang chờ."
+
+#: inc/modules/assisted-scan/api.php:275
+#: inc/modules/assisted-scan/api.php:277
+msgid "Assisted scan cancelled."
+msgstr "Quét hỗ trợ đã bị hủy."
+
+#. translators: 1: current page number, 2: total pages.
+#: inc/modules/assisted-scan/collector.php:322
+#, php-format
+msgid "SureCookie is scanning page %1$d of %2$d"
+msgstr "SureCookie đang quét trang %1$d trong tổng số %2$d"
+
+#: inc/modules/assisted-scan/collector.php:323
+msgid "Keep this tab in front so the scan can continue."
+msgstr "Giữ tab này ở phía trước để quét có thể tiếp tục."
+
+#: inc/modules/assisted-scan/collector.php:324
+msgid "Paused. Bring this tab to the front to continue."
+msgstr "Tạm dừng. Đưa tab này lên trước để tiếp tục."
+
+#: inc/modules/assisted-scan/collector.php:325
+msgid "Preparing a clean visit…"
+msgstr "Chuẩn bị một lượt truy cập sạch sẽ…"
+
+#. translators: 1: number of cookies, 2: number of services.
+#: inc/modules/assisted-scan/collector.php:327
+#, php-format
+msgid "Scan complete: %1$d cookies, %2$d services found"
+msgstr "Quét hoàn tất: tìm thấy %1$d cookie, %2$d dịch vụ"
+
+#: inc/modules/assisted-scan/collector.php:328
+msgid "The scan could not be completed. Return to SureCookie to try again."
+msgstr "Không thể hoàn thành quét. Quay lại SureCookie để thử lại."
+
+#: inc/modules/assisted-scan/collector.php:330
+msgid "SureCookie assisted scan progress"
+msgstr "Tiến trình quét hỗ trợ SureCookie"
+
+#. translators: 1: page number, 2: cookie count, 3: resource count.
+#: inc/modules/assisted-scan/ingest.php:119
+#, php-format
+msgid "Page %1$d collected: %2$d cookies, %3$d third-party resources."
+msgstr "Trang %1$d đã thu thập: %2$d cookie, %3$d tài nguyên bên thứ ba."
+
+#. translators: 1: page number, 2: error reason.
+#: inc/modules/assisted-scan/ingest.php:129
+#, php-format
+msgid "Page %1$d could not be collected (%2$s)."
+msgstr "Không thể thu thập trang %1$d (%2$s)."
+
+#. translators: 1: cookie count, 2: service count.
+#: inc/modules/assisted-scan/ingest.php:222
+#, php-format
+msgid "Assisted scan finished: %1$d cookies, %2$d known services."
+msgstr "Quét hỗ trợ hoàn tất: %1$d cookie, %2$d dịch vụ đã biết."
+
+#. translators: %s: comma-separated service names.
+#: inc/modules/assisted-scan/ingest.php:232
+#, php-format
+msgid "A first-party check also found: %s. Your browser may have blocked these."
+msgstr "Một kiểm tra bên thứ nhất cũng tìm thấy: %s. Trình duyệt của bạn có thể đã chặn những cái này."
+
+#: inc/modules/assisted-scan/session.php:466
+msgid "Assisted scan in progress..."
+msgstr "Quét hỗ trợ đang tiến hành..."
+
+#: inc/modules/assisted-scan/session.php:576
+msgid "Assisted scan finished."
+msgstr "Quét hỗ trợ đã hoàn tất."
+
+#: inc/modules/services/api.php:142
+msgid "Unknown service."
+msgstr "Dịch vụ không xác định."
+
+#: inc/modules/services/api.php:153
+msgid "This is a Pro service. Upgrade to add it."
+msgstr "Đây là dịch vụ Pro. Nâng cấp để thêm nó."
+
+#: inc/modules/site-scanner/cron.php:210
+msgid "Assisted scan cancelled by user."
+msgstr "Quét hỗ trợ bị hủy bởi người dùng."
+
+#: inc/modules/site-scanner/saas-client.php:1653
+msgid "We could not verify your domain because your site's SSL certificate could not be validated (it may be self-signed, expired, or issued for a different domain). Install a valid certificate (for example Let's Encrypt), or scan your live domain that already has one, then retry."
+msgstr "Chúng tôi không thể xác minh tên miền của bạn vì chứng chỉ SSL của trang không thể được xác thực (có thể là tự ký, hết hạn hoặc cấp cho tên miền khác). Cài đặt chứng chỉ hợp lệ (ví dụ Let's Encrypt), hoặc quét tên miền trực tiếp của bạn đã có chứng chỉ, sau đó thử lại."
+
+#: inc/modules/site-scanner/saas-client.php:1655
+msgid "We could not verify your domain because your host is blocking our verification request to /wp-json/. This is common on SiteGround. Allowlist our scanner IPs/User-Agent (or ask your host to) and retry - or add your services manually in the meantime."
+msgstr "Chúng tôi không thể xác minh tên miền của bạn vì máy chủ của bạn đang chặn yêu cầu xác minh của chúng tôi tới /wp-json/. Điều này thường xảy ra trên SiteGround. Hãy cho phép danh sách trắng IP/User-Agent của trình quét chúng tôi (hoặc yêu cầu máy chủ của bạn làm điều đó) và thử lại - hoặc thêm dịch vụ của bạn thủ công trong thời gian chờ."
+
+#: inc/modules/site-scanner/saas-client.php:1657
+msgid "We could not reach your site's REST API at /wp-json/. Enable pretty permalinks and make sure no security plugin is disabling the REST API, then retry."
+msgstr "Chúng tôi không thể truy cập REST API của trang web bạn tại /wp-json/. Hãy bật liên kết tĩnh đẹp và đảm bảo không có plugin bảo mật nào vô hiệu hóa REST API, sau đó thử lại."
+
+#: inc/services/cookie-category-service.php:247
+msgid "Cookies cannot be moved to the category being deleted."
+msgstr "Không thể di chuyển cookie vào danh mục đang bị xóa."
+
+#: inc/services/cookie-category-service.php:254
+#: inc/services/cookie-service.php:440
+msgid "The selected category no longer exists. Please reload and try again."
+msgstr "Danh mục đã chọn không còn tồn tại. Vui lòng tải lại và thử lại."
+
+#: inc/services/cookie-service.php:421
+msgid "No cookies selected."
+msgstr "Chưa chọn cookie nào."
+
+#. translators: %d: maximum number of cookies per request.
+#: inc/services/cookie-service.php:430
+#, php-format
+msgid "Too many cookies in one request. Please select up to %d."
+msgstr "Quá nhiều cookie trong một yêu cầu. Vui lòng chọn tối đa %d."
+
+#. translators: %d: number of cookies updated.
+#: inc/services/cookie-service.php:547
+#, php-format
+msgid "%d cookie moved to the selected category."
+msgid_plural "%d cookies moved to the selected category."
+msgstr[0] "%d cookie đã được chuyển đến danh mục đã chọn."
+
+#: inc/services/cookie-service.php:555
+msgid "No cookies could be updated."
+msgstr "Không có cookie nào được cập nhật."
+
+#: build/admin.js:2
+msgid "Scanning"
+msgstr "Đang quét"
+
+#: build/admin.js:2
+#: build/admin.js:41
+msgid "Known Services"
+msgstr "Dịch vụ đã biết"
+
+#: build/admin.js:2
+#: build/admin.js:77
+msgid "Scripts and Embeds"
+msgstr "Kịch bản và Nhúng"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Geographic Rules"
+msgstr "Quy tắc Địa lý"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Consent Sharing"
+msgstr "Chia sẻ Đồng ý"
+
+#: build/admin.js:2
+msgid "Add License"
+msgstr "Thêm Giấy phép"
+
+#. translators: %s: cookie name.
+#: build/admin.js:22
+#: build/onboarding.js:2
+#, js-format
+msgid "Select %s"
+msgstr "Chọn %s"
+
+#. translators: %s: cookie name.
+#: build/admin.js:23
+#: build/onboarding.js:3
+#, js-format
+msgid "Category for %s"
+msgstr "Danh mục cho %s"
+
+#: build/admin.js:23
+#: build/onboarding.js:3
+msgid "Select category"
+msgstr "Chọn danh mục"
+
+#. translators: 1: action label, 2: cookie name.
+#: build/admin.js:24
+#: build/onboarding.js:4
+#, js-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %d: number of selected cookies.
+#: build/admin.js:25
+#, js-format
+msgid "%d selected"
+msgstr "%d đã chọn"
+
+#: build/admin.js:25
+msgid "Bulk category"
+msgstr "Danh mục hàng loạt"
+
+#: build/admin.js:25
+msgid "Move to category…"
+msgstr "Di chuyển đến danh mục…"
+
+#: build/admin.js:25
+msgid "Applying…"
+msgstr "Đang áp dụng…"
+
+#: build/admin.js:25
+msgid "Apply"
+msgstr "Áp dụng"
+
+#: build/admin.js:25
+msgid "Clear selection"
+msgstr "Xóa lựa chọn"
+
+#: build/admin.js:25
+msgid "Select all cookies"
+msgstr "Chọn tất cả cookie"
+
+#: build/admin.js:28
+msgid "Assigned cookies will be moved to another category instead of being deleted."
+msgstr "Cookie đã được gán sẽ được chuyển đến danh mục khác thay vì bị xóa."
+
+#: build/admin.js:28
+msgid "Move Cookies To"
+msgstr "Di chuyển Cookie đến"
+
+#: build/admin.js:28
+msgid "Search services…"
+msgstr "Tìm kiếm dịch vụ…"
+
+#: build/admin.js:28
+msgid "Search services"
+msgstr "Tìm kiếm dịch vụ"
+
+#: build/admin.js:28
+#: build/admin.js:37
+msgid "All Categories"
+msgstr "Tất cả Danh mục"
+
+#. translators: %d: number of cookies
+#: build/admin.js:29
+#, js-format
+msgid "%d cookie"
+msgid_plural "%d cookies"
+msgstr[0] "%d cookie"
+
+#. translators: %d: number of iframes
+#: build/admin.js:30
+#, js-format
+msgid "%d iframe"
+msgid_plural "%d iframes"
+msgstr[0] "%d iframe"
+
+#. translators: %d: number of scripts
+#: build/admin.js:31
+#, js-format
+msgid "%d script"
+msgid_plural "%d scripts"
+msgstr[0] "%d kịch bản"
+
+#: build/admin.js:31
+msgid "Added"
+msgstr "Đã thêm"
+
+#: build/admin.js:31
+msgid "Detected"
+msgstr "Đã phát hiện"
+
+#: build/admin.js:31
+msgid "Remove"
+msgstr "Xóa"
+
+#: build/admin.js:31
+msgid "Add Service"
+msgstr "Thêm Dịch vụ"
+
+#: build/admin.js:31
+msgid "No services match your search."
+msgstr "Không có dịch vụ nào phù hợp với tìm kiếm của bạn."
+
+#: build/admin.js:31
+msgid "Loads before consent"
+msgstr "Tải trước khi đồng ý"
+
+#. translators: %s: service name (e.g. Stripe)
+#: build/admin.js:32
+#, js-format
+msgid "%s is a necessary service, so it loads before consent - its cookies can be set without consent."
+msgstr "%s là dịch vụ cần thiết, nên nó tải trước khi có sự đồng ý - cookie của nó có thể được đặt mà không cần đồng ý."
+
+#: build/admin.js:32
+msgid "Blocked When \"Block Scripts until Consent\" Is On"
+msgstr "Bị chặn khi \"Chặn Kịch bản cho đến khi Đồng ý\" được bật"
+
+#. translators: %1$s: service name; %2$s: consent category name
+#: build/admin.js:33
+#, js-format
+msgid "When blocking is on, %1$s is blocked until visitors accept “%2$s”, so a scan never sees these cookies. Declaring them here keeps your cookie policy complete."
+msgstr "Khi bật chặn, %1$s bị chặn cho đến khi khách truy cập chấp nhận “%2$s”, nên quá trình quét không bao giờ thấy các cookie này. Khai báo chúng ở đây giúp chính sách cookie của bạn đầy đủ."
+
+#. translators: %d: number of cookies
+#: build/admin.js:34
+#, js-format
+msgid "%d cookie added to your cookie policy"
+msgid_plural "%d cookies added to your cookie policy"
+msgstr[0] "%d cookie đã được thêm vào chính sách cookie của bạn"
+
+#. translators: %d: number of iframes
+#: build/admin.js:35
+#, js-format
+msgid "%d embed blocked before consent"
+msgid_plural "%d embeds blocked before consent"
+msgstr[0] "%d nhúng bị chặn trước khi đồng ý"
+
+#. translators: %d: number of scripts
+#: build/admin.js:36
+#, js-format
+msgid "%d script blocked before consent"
+msgid_plural "%d scripts blocked before consent"
+msgstr[0] "%d kịch bản bị chặn trước khi đồng ý"
+
+#: build/admin.js:36
+msgid "No categories available"
+msgstr "Không có danh mục nào khả dụng"
+
+#: build/admin.js:36
+msgid "Create a cookie category first - new cookies land in Uncategorized until then."
+msgstr "Trước tiên hãy tạo một danh mục cookie - cookie mới sẽ nằm trong Danh mục chưa phân loại cho đến lúc đó."
+
+#. translators: %d: number of days
+#: build/admin.js:37
+#, js-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d ngày"
+
+#: build/admin.js:37
+msgid "Session"
+msgstr "Phiên"
+
+#: build/admin.js:37
+msgid "Failed to add service"
+msgstr "Thêm dịch vụ thất bại"
+
+#: build/admin.js:37
+msgid "Failed to remove service"
+msgstr "Xóa dịch vụ thất bại"
+
+#: build/admin.js:37
+msgid "Service removed"
+msgstr "Dịch vụ đã bị xóa"
+
+#. translators: %s: service name (e.g. YouTube)
+#: build/admin.js:38
+#, js-format
+msgid "Added %s"
+msgstr "Đã thêm %s"
+
+#. translators: %d: number of cookies declared
+#: build/admin.js:39
+#, js-format
+msgid "%d cookie was added to your cookie policy."
+msgid_plural "%d cookies were added to your cookie policy."
+msgstr[0] "%d cookie đã được thêm vào chính sách cookie của bạn."
+
+#: build/admin.js:39
+msgid "This service is now managed. It stays blocked before consent."
+msgstr "Dịch vụ này hiện được quản lý. Nó vẫn bị chặn trước khi đồng ý."
+
+#. translators: %s: service name
+#: build/admin.js:40
+#: build/admin.js:41
+#, js-format
+msgid "Add %s"
+msgstr "Thêm %s"
+
+#: build/admin.js:40
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Add from a Known Service"
+msgstr "Thêm từ Dịch vụ đã biết"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Review what this adds to your cookie policy, then confirm."
+msgstr "Xem lại những gì điều này thêm vào chính sách cookie của bạn, sau đó xác nhận."
+
+#: build/admin.js:40
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can't detect before consent - ensuring your cookie policy stays complete."
+msgstr "Nhanh chóng thêm các dịch vụ phổ biến như YouTube hoặc Google Analytics chỉ với một cú nhấp chuột. Hoàn hảo cho các kịch bản mà bộ quét không thể phát hiện trước khi đồng ý - đảm bảo chính sách cookie của bạn luôn đầy đủ."
+
+#: build/admin.js:40
+msgid "Could not load the services catalog. Please try again."
+msgstr "Không thể tải danh mục dịch vụ. Vui lòng thử lại."
+
+#: build/admin.js:40
+msgid "This is a Pro service"
+msgstr "Đây là dịch vụ Pro"
+
+#: build/admin.js:40
+msgid "Upgrade to add this service and declare its cookies in one click."
+msgstr "Nâng cấp để thêm dịch vụ này và khai báo cookie của nó chỉ với một cú nhấp chuột."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Unlock Every Tracking Service"
+msgstr "Mở khóa Mọi Dịch vụ Theo dõi"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Free covers the most common services. Upgrade to add any service in the catalog in one click."
+msgstr "Miễn phí bao gồm các dịch vụ phổ biến nhất. Nâng cấp để thêm bất kỳ dịch vụ nào trong danh mục chỉ với một cú nhấp chuột."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Confirm Add"
+msgstr "Xác nhận Thêm"
+
+#: build/admin.js:41
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can’t detect before consent - ensuring your cookie policy stays complete."
+msgstr "Nhanh chóng thêm các dịch vụ phổ biến như YouTube hoặc Google Analytics chỉ với một cú nhấp chuột. Hoàn hảo cho các kịch bản mà trình quét không thể phát hiện trước khi có sự đồng ý - đảm bảo chính sách cookie của bạn luôn đầy đủ."
+
+#: build/admin.js:41
+msgid "Failed to load services"
+msgstr "Không tải được dịch vụ"
+
+#: build/admin.js:41
+msgid "An error occurred while loading services. Please refresh the page to try again."
+msgstr "Đã xảy ra lỗi khi tải dịch vụ. Vui lòng làm mới trang để thử lại."
+
+#: build/admin.js:41
+msgid "Installed Services"
+msgstr "Dịch vụ đã cài đặt"
+
+#: build/admin.js:41
+msgid "Available Services"
+msgstr "Dịch vụ có sẵn"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Failed to update cookie categories"
+msgstr "Cập nhật danh mục cookie thất bại"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Cookie categories updated"
+msgstr "Danh mục cookie đã được cập nhật"
+
+#. translators: %d: number of cookies that could not be updated.
+#: build/admin.js:42
+#, js-format
+msgid "%d cookie(s) could not be updated. Reload and try again."
+msgstr "%d cookie không thể được cập nhật. Tải lại và thử lại."
+
+#: build/admin.js:42
+msgid "Change Cookie Categories Carefully"
+msgstr "Thay đổi danh mục Cookie một cách cẩn thận"
+
+#: build/admin.js:42
+msgid "A cookie's category determines how it behaves when users decline consent. Cookies marked as Essential always remain active. Moving a cookie out of Essential may cause it to be blocked or deleted, which can break features like login or checkout. Similarly, assigning tracking cookies to Essential may conflict with privacy regulations. Your choice is remembered, so a later scan will not move the cookie back."
+msgstr "Danh mục của cookie xác định cách nó hoạt động khi người dùng từ chối đồng ý. Cookie được đánh dấu là Thiết yếu luôn luôn hoạt động. Việc chuyển một cookie ra khỏi Thiết yếu có thể khiến nó bị chặn hoặc xóa, điều này có thể làm hỏng các tính năng như đăng nhập hoặc thanh toán. Tương tự, việc gán cookie theo dõi vào Thiết yếu có thể mâu thuẫn với các quy định về quyền riêng tư. Lựa chọn của bạn sẽ được ghi nhớ, vì vậy lần quét sau sẽ không di chuyển cookie trở lại."
+
+#. translators: %s: service name (e.g. Google Analytics)
+#: build/admin.js:43
+#, js-format
+msgid "Looks like %s"
+msgstr "Có vẻ như %s"
+
+#: build/admin.js:43
+msgid "We spotted cookies from this service. Add it to declare its cookies in one step."
+msgstr "Chúng tôi phát hiện cookie từ dịch vụ này. Thêm nó để khai báo cookie của dịch vụ chỉ trong một bước."
+
+#: build/admin.js:43
+#: build/admin.js:76
+msgid "Add as Service"
+msgstr "Thêm làm Dịch vụ"
+
+#: build/admin.js:43
+msgid "Dismiss"
+msgstr "Bỏ qua"
+
+#: build/admin.js:50
+msgid "Welcome to SureCookie!"
+msgstr "Chào mừng đến với SureCookie!"
+
+#: build/admin.js:50
+msgid "Get your site compliant in minutes - show a cookie banner, block trackers before consent, and automatically detect cookies used on your site."
+msgstr "Đảm bảo trang web của bạn tuân thủ chỉ trong vài phút - hiển thị banner cookie, chặn trình theo dõi trước khi có sự đồng ý, và tự động phát hiện cookie được sử dụng trên trang web của bạn."
+
+#: build/admin.js:50
+msgid "Set Up Cookie Banner"
+msgstr "Thiết lập Banner Cookie"
+
+#: build/admin.js:50
+msgid "Scan My Site"
+msgstr "Quét Trang của Tôi"
+
+#: build/admin.js:50
+msgid "Start with the banner, then scan your site to detect cookies."
+msgstr "Bắt đầu với banner, sau đó quét trang web của bạn để phát hiện cookie."
+
+#: build/admin.js:50
+msgid "SureForms Video Thumbnail"
+msgstr "Hình thu nhỏ video SureForms"
+
+#: build/admin.js:50
+msgid "SureForms: Custom WordPress Forms MADE SIMPLE"
+msgstr "SureForms: Mẫu WordPress Tùy chỉnh ĐƠN GIẢN"
+
+#: build/admin.js:59
+msgid "Possible causes: Scan server under heavy load, your site is unreachable from our scanner, your site has CRON issues, or a page caused a browser timeout."
+msgstr "Nguyên nhân có thể: Máy chủ quét đang chịu tải nặng, trang web của bạn không thể truy cập từ trình quét của chúng tôi, trang web của bạn có vấn đề với CRON, hoặc một trang gây ra thời gian chờ trình duyệt."
+
+#: build/admin.js:59
+msgid "Some pages could not be analyzed"
+msgstr "Một số trang không thể phân tích"
+
+#. translators: 1: scanned pages, 2: total pages, 3: failed pages
+#: build/admin.js:60
+#, js-format
+msgid "Scanned %1$d of %2$d pages - %3$d could not be analyzed. The cookies we did find are saved, and results add up across scans, so you can re-run the scan to pick up the rest."
+msgstr "Đã quét %1$d trong tổng số %2$d trang - %3$d trang không thể phân tích. Các cookie chúng tôi tìm thấy đã được lưu, và kết quả cộng dồn qua các lần quét, vì vậy bạn có thể chạy lại quét để lấy phần còn lại."
+
+#: build/admin.js:60
+msgid "Once the scan is complete, the cookies it found appear under <a>Cookies</a>, and the scripts and embeds under <b>Scripts and Embeds</b>."
+msgstr "Khi quét hoàn tất, các cookie được tìm thấy sẽ xuất hiện dưới <a>Cookies</a>, và các script cùng nhúng sẽ nằm dưới <b>Scripts and Embeds</b>."
+
+#: build/admin.js:60
+msgid "Keep the scan tab in front until it finishes: browsers slow down background tabs."
+msgstr "Giữ tab quét ở phía trước cho đến khi hoàn thành: trình duyệt sẽ làm chậm các tab chạy nền."
+
+#: build/admin.js:60
+msgid "Pages already collected are saved, so closing the tab early keeps what it found."
+msgstr "Các trang đã thu thập được lưu lại, vì vậy đóng tab sớm vẫn giữ lại những gì đã tìm thấy."
+
+#: build/admin.js:60
+msgid "An ad blocker or privacy extension in this browser can hide trackers from the scan."
+msgstr "Trình chặn quảng cáo hoặc tiện ích mở rộng quyền riêng tư trong trình duyệt này có thể ẩn các trình theo dõi khỏi quá trình quét."
+
+#: build/admin.js:60
+msgid "If remote scanning fails, try Assisted Scanner method: <button></button>"
+msgstr "Nếu quét từ xa thất bại, hãy thử phương pháp Quét Hỗ trợ: <button></button>"
+
+#: build/admin.js:60
+msgid "Switch to Default Scanner"
+msgstr "Chuyển sang Trình quét Mặc định"
+
+#: build/admin.js:60
+msgid "Switch to Assisted Scanner"
+msgstr "Chuyển sang Trình quét Hỗ trợ"
+
+#: build/admin.js:60
+msgid "Scan From This Browser"
+msgstr "Quét từ Trình duyệt này"
+
+#: build/admin.js:60
+msgid "Your host blocked the scanner"
+msgstr "Máy chủ của bạn đã chặn trình quét"
+
+#: build/admin.js:60
+msgid "Your site's firewall or bot protection served our scanner a security challenge instead of your page, so the scan completed without results. This does not affect your visitors, only automated scanners. Allowlist the SureCookie scanner (or ask your host to) and run the scan again."
+msgstr "Tường lửa hoặc bảo vệ bot của trang web bạn đã gửi cho trình quét của chúng tôi một thử thách bảo mật thay vì trang của bạn, vì vậy quá trình quét hoàn thành mà không có kết quả. Điều này không ảnh hưởng đến khách truy cập của bạn, chỉ ảnh hưởng đến các trình quét tự động. Hãy đưa trình quét SureCookie vào danh sách cho phép (hoặc yêu cầu máy chủ của bạn làm điều đó) và chạy lại quét."
+
+#: build/admin.js:60
+msgid "Services we still detected on your site (via a first-party check):"
+msgstr "Các dịch vụ chúng tôi vẫn phát hiện trên trang của bạn (thông qua kiểm tra bên thứ nhất):"
+
+#: build/admin.js:60
+msgid "How to allowlist the scanner"
+msgstr "Cách đưa trình quét vào danh sách cho phép"
+
+#: build/admin.js:60
+msgid "No cookies found in this browser scan"
+msgstr "Không tìm thấy cookie trong lần quét trình duyệt này"
+
+#: build/admin.js:60
+msgid "We found services on your pages that your browser did not load, which usually means an ad blocker or privacy extension is active. Try again in a browser with extensions disabled, or add the cookies manually."
+msgstr "Chúng tôi tìm thấy các dịch vụ trên trang của bạn mà trình duyệt của bạn không tải, điều này thường có nghĩa là trình chặn quảng cáo hoặc tiện ích mở rộng quyền riêng tư đang hoạt động. Hãy thử lại trong trình duyệt đã tắt tiện ích mở rộng, hoặc thêm cookie thủ công."
+
+#: build/admin.js:60
+msgid "The scan visited your pages but no cookies were set. Some services only set cookies after a visitor accepts the banner, so they may not appear. You can also add cookies manually."
+msgstr "Quá trình quét đã truy cập các trang của bạn nhưng không có cookie nào được thiết lập. Một số dịch vụ chỉ thiết lập cookie sau khi khách truy cập chấp nhận banner, vì vậy chúng có thể không xuất hiện. Bạn cũng có thể thêm cookie thủ công."
+
+#: build/admin.js:60
+msgid "No cookies found in this scan"
+msgstr "Không tìm thấy cookie trong lần quét này"
+
+#: build/admin.js:60
+msgid "The scanner reached your site but did not detect any cookies. Some services only set cookies after a visitor accepts the banner, so they may not appear in a scan. You can also add cookies manually."
+msgstr "Trình quét đã truy cập trang của bạn nhưng không phát hiện cookie nào. Một số dịch vụ chỉ thiết lập cookie sau khi khách truy cập chấp nhận banner, vì vậy chúng có thể không xuất hiện trong quá trình quét. Bạn cũng có thể thêm cookie thủ công."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser (Best for this site)"
+msgstr "Quét từ Trình duyệt của bạn (Tốt nhất cho trang này)"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser"
+msgstr "Quét từ Trình duyệt của bạn"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Our scanner couldn't fully access your site due to server restrictions. This method runs the scan directly in your browser, ensuring accurate detection without being blocked."
+msgstr "Trình quét của chúng tôi không thể truy cập đầy đủ trang của bạn do hạn chế máy chủ. Phương pháp này chạy quét trực tiếp trong trình duyệt của bạn, đảm bảo phát hiện chính xác mà không bị chặn."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Run the scan directly in your browser. This helps detect cookies, scripts, and embeds even when external scanners are blocked."
+msgstr "Chạy quét trực tiếp trong trình duyệt của bạn. Điều này giúp phát hiện cookie, script và nhúng ngay cả khi các trình quét bên ngoài bị chặn."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Detects cookies, scripts, and embeds as your visitors would see them."
+msgstr "Phát hiện cookie, script và nhúng như khách truy cập của bạn sẽ thấy chúng."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Works even when hosting or firewall blocks external scans."
+msgstr "Hoạt động ngay cả khi máy chủ hoặc tường lửa chặn các lần quét bên ngoài."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Results appear automatically in your Tracking Manager."
+msgstr "Kết quả sẽ tự động hiển thị trong Trình quản lý Theo dõi của bạn."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Some advanced detections may still require a remote scan when available."
+msgstr "Một số phát hiện nâng cao có thể vẫn cần quét từ xa khi có thể."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "How this works"
+msgstr "Cách hoạt động"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Before You Start"
+msgstr "Trước khi bạn bắt đầu"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "To measure cookie duration accurately, this scan temporarily clears cookies for your site in this browser (including your consent choice). Your WordPress login session is preserved, so you'll remain signed in."
+msgstr "Để đo chính xác thời gian tồn tại của cookie, lần quét này sẽ tạm thời xóa cookie cho trang của bạn trong trình duyệt này (bao gồm cả lựa chọn đồng ý của bạn). Phiên đăng nhập WordPress của bạn được giữ nguyên, vì vậy bạn sẽ vẫn đăng nhập."
+
+#. translators: %d: maximum pages
+#: build/admin.js:62
+#: build/onboarding.js:6
+#, js-format
+msgid "An assisted scan visits up to %d pages. Remove some pages to continue."
+msgstr "Quét hỗ trợ tối đa %d trang. Hãy loại bỏ một số trang để tiếp tục."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Scanning in your browser…"
+msgstr "Đang quét trong trình duyệt của bạn…"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Start Browser Scan"
+msgstr "Bắt đầu quét trình duyệt"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "A new tab opens to scan your selected pages - keep it active until it finishes."
+msgstr "Một tab mới sẽ mở để quét các trang bạn đã chọn - giữ tab đó hoạt động cho đến khi hoàn thành."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Switch Back"
+msgstr "Chuyển về"
+
+#: build/admin.js:62
+msgid "This page did not load the scanner, so it was skipped. A redirect or a login requirement usually causes this."
+msgstr "Trang này không tải được trình quét, nên đã bị bỏ qua. Thường do chuyển hướng hoặc yêu cầu đăng nhập gây ra."
+
+#: build/admin.js:62
+msgid "This page took too long to respond."
+msgstr "Trang này phản hồi quá lâu."
+
+#: build/admin.js:62
+msgid "Skipped because the scan was cancelled."
+msgstr "Bỏ qua vì quét đã bị hủy."
+
+#: build/admin.js:62
+msgid "This page could not be collected."
+msgstr "Không thể thu thập trang này."
+
+#: build/admin.js:62
+msgid "Pages In This Scan"
+msgstr "Các trang trong lần quét này"
+
+#. translators: 1: cookie count, 2: script count
+#: build/admin.js:63
+#, js-format
+msgid "%1$d cookies, %2$d scripts"
+msgstr "%1$d cookie, %2$d script"
+
+#: build/admin.js:63
+msgid "Collecting…"
+msgstr "Đang thu thập…"
+
+#: build/admin.js:63
+msgid "Waiting"
+msgstr "Đang chờ"
+
+#: build/admin.js:63
+msgid "Re-scan"
+msgstr "Quét lại"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Could not start the assisted scan."
+msgstr "Không thể bắt đầu quét hỗ trợ."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Could not start the assisted scan"
+msgstr "Không thể bắt đầu quét hỗ trợ"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Please try again in a moment."
+msgstr "Vui lòng thử lại sau một lúc."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Your browser blocked the scan window"
+msgstr "Trình duyệt của bạn đã chặn cửa sổ quét"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Allow pop-ups for this site, then start the scan again."
+msgstr "Cho phép cửa sổ bật lên cho trang này, sau đó bắt đầu quét lại."
+
+#: build/admin.js:63
+msgid "View Scan Logs"
+msgstr "Xem nhật ký quét"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Scan your website to find cookies, scripts, and trackers that require consent."
+msgstr "Quét trang web của bạn để tìm cookie, script và trình theo dõi cần sự đồng ý."
+
+#: build/admin.js:74
+msgid "This is taking a little longer than usual"
+msgstr "Việc này mất nhiều thời gian hơn bình thường một chút"
+
+#: build/admin.js:74
+msgid "A page is taking a while to respond, but your scan is still running in the background. Any cookies already found have been saved. You can leave this page and come back - or cancel and try again with fewer pages."
+msgstr "Một trang đang mất thời gian để phản hồi, nhưng quét vẫn đang chạy nền. Bất kỳ cookie nào đã tìm thấy đều được lưu lại. Bạn có thể rời trang này và quay lại - hoặc hủy và thử lại với ít trang hơn."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Queued for Later"
+msgstr "Quét được xếp hàng chờ cho lần sau"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Today's page budget is used up, so the remaining pages will scan automatically once it resets. Any cookies already found are saved. To scan sooner, run it again with fewer pages."
+msgstr "Ngân sách trang hôm nay đã hết, nên các trang còn lại sẽ được quét tự động khi ngân sách được đặt lại. Bất kỳ cookie nào đã tìm thấy đều được lưu. Để quét sớm hơn, hãy chạy lại với ít trang hơn."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Couldn't Be Completed"
+msgstr "Không thể hoàn thành quét"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "A page may have taken too long to respond. Any cookies already found have been saved, and results add up across scans - nothing is lost. Please try again, scanning fewer pages at a time for a more reliable run."
+msgstr "Một trang có thể đã phản hồi quá lâu. Bất kỳ cookie nào đã tìm thấy đều được lưu, và kết quả được cộng dồn qua các lần quét - không mất gì cả. Vui lòng thử lại, quét ít trang hơn mỗi lần để có kết quả đáng tin cậy hơn."
+
+#: build/admin.js:76
+msgid "iFrame"
+msgstr "iFrame"
+
+#: build/admin.js:76
+msgid "Head"
+msgstr "Phần đầu"
+
+#: build/admin.js:76
+msgid "Body"
+msgstr "Phần thân"
+
+#: build/admin.js:76
+msgid "Footer"
+msgstr "Chân trang"
+
+#: build/admin.js:76
+msgid "Anywhere (fallback)"
+msgstr "Bất cứ đâu (dự phòng)"
+
+#: build/admin.js:76
+msgid "This resource is whitelisted, so it always loads - even before consent."
+msgstr "Tài nguyên này được đưa vào danh sách trắng, nên luôn tải - ngay cả trước khi có sự đồng ý."
+
+#: build/admin.js:76
+msgid "This script is managed by Google Consent Mode and always loads while GCM is enabled."
+msgstr "Script này được quản lý bởi Chế độ Đồng ý của Google và luôn tải khi GCM được bật."
+
+#: build/admin.js:76
+msgid "This resource matches a whitelist rule (custom entry or common service), so it always loads."
+msgstr "Tài nguyên này khớp với quy tắc danh sách trắng (mục tùy chỉnh hoặc dịch vụ phổ biến), nên luôn tải."
+
+#: build/admin.js:76
+msgid "Script & Iframe"
+msgstr "Script & Iframe"
+
+#: build/admin.js:76
+msgid "Blocked until consent"
+msgstr "Bị chặn cho đến khi có sự đồng ý"
+
+#: build/admin.js:76
+msgid "Not blocked"
+msgstr "Không bị chặn"
+
+#: build/admin.js:76
+msgid "Whitelisted"
+msgstr "Được đưa vào danh sách trắng"
+
+#: build/admin.js:76
+msgid "Managed by GCM"
+msgstr "Được quản lý bởi GCM"
+
+#: build/admin.js:76
+msgid "Source"
+msgstr "Nguồn"
+
+#: build/admin.js:76
+msgid "Managed via Known Services - its cookies are declared in your cookie policy."
+msgstr "Được quản lý qua Dịch vụ Đã biết - cookie của nó được khai báo trong chính sách cookie của bạn."
+
+#: build/admin.js:76
+msgid "Recognized Known Services catalog entry - Click \"Add as Service\" to declare its cookies."
+msgstr "Mục trong danh mục Dịch vụ Đã biết được nhận diện - Nhấn \"Thêm làm Dịch vụ\" để khai báo cookie của nó."
+
+#: build/admin.js:76
+msgid "Managed Service"
+msgstr "Dịch vụ được quản lý"
+
+#: build/admin.js:76
+msgid "Known Service"
+msgstr "Dịch vụ đã biết"
+
+#: build/admin.js:76
+msgid "Always Allowed"
+msgstr "Luôn được phép"
+
+#: build/admin.js:76
+msgid "Category for"
+msgstr "Danh mục cho"
+
+#: build/admin.js:76
+msgid "Block until consent (recommended)"
+msgstr "Chặn cho đến khi đồng ý (khuyến nghị)"
+
+#: build/admin.js:76
+msgid "Always allowed"
+msgstr "Luôn được phép"
+
+#: build/admin.js:76
+msgid "Do not block (always load)"
+msgstr "Không chặn (luôn tải)"
+
+#: build/admin.js:76
+msgid "Edit Resource"
+msgstr "Chỉnh sửa Tài nguyên"
+
+#: build/admin.js:76
+msgid "Add Script or Embed"
+msgstr "Thêm Script hoặc Nhúng"
+
+#: build/admin.js:76
+msgid "Update"
+msgstr "Cập nhật"
+
+#: build/admin.js:76
+msgid "Behavior"
+msgstr "Hành vi"
+
+#: build/admin.js:76
+msgid "Whitelisted Resource Warning"
+msgstr "Cảnh báo Tài nguyên trong danh sách trắng"
+
+#: build/admin.js:76
+msgid "If a resource sets cookies, allowing it directly can be a GDPR violation - only whitelist resources you are sure about."
+msgstr "Nếu một tài nguyên đặt cookie, cho phép trực tiếp có thể vi phạm GDPR - chỉ đưa vào danh sách trắng những tài nguyên bạn chắc chắn."
+
+#: build/admin.js:76
+msgid "Detected by the scanner, so the value cannot be edited."
+msgstr "Được phát hiện bởi trình quét, vì vậy giá trị không thể chỉnh sửa."
+
+#: build/admin.js:76
+msgid "e.g. Support chat"
+msgstr "ví dụ: Hỗ trợ trò chuyện"
+
+#: build/admin.js:76
+msgid "Domain / Host"
+msgstr "Tên miền / Máy chủ"
+
+#: build/admin.js:76
+msgid "e.g. connect.facebook.net"
+msgstr "ví dụ: connect.facebook.net"
+
+#: build/admin.js:76
+msgid "The host the resource loads from. Pasting a full tag or URL also works."
+msgstr "Máy chủ mà tài nguyên tải từ đó. Dán một thẻ đầy đủ hoặc URL cũng được."
+
+#: build/admin.js:76
+msgid "Path / Pattern (advanced)"
+msgstr "Đường dẫn / Mẫu (nâng cao)"
+
+#: build/admin.js:76
+msgid "e.g. /fbevents.js"
+msgstr "ví dụ: /fbevents.js"
+
+#: build/admin.js:76
+msgid "Optional: narrow the rule to resources that also contain this path, so only one file on the host is blocked."
+msgstr "Tùy chọn: thu hẹp quy tắc cho các tài nguyên cũng chứa đường dẫn này, để chỉ một tệp trên máy chủ bị chặn."
+
+#: build/admin.js:76
+msgid "Script Keywords"
+msgstr "Từ khóa Script"
+
+#: build/admin.js:76
+msgid "e.g. fbq, fbq.push"
+msgstr "ví dụ: fbq, fbq.push"
+
+#: build/admin.js:76
+msgid "JavaScript function names to block that depend on the main script (comma separated)."
+msgstr "Tên hàm JavaScript để chặn phụ thuộc vào script chính (phân tách bằng dấu phẩy)."
+
+#: build/admin.js:76
+msgid "Script Location"
+msgstr "Vị trí Script"
+
+#: build/admin.js:76
+msgid "Anywhere"
+msgstr "Bất cứ đâu"
+
+#: build/admin.js:76
+msgid "Where the script loads on the page. SureCookie only looks for it in this section."
+msgstr "Nơi script tải trên trang. SureCookie chỉ tìm kiếm trong phần này."
+
+#: build/admin.js:76
+msgid "This resource stays blocked until the visitor consents to this category."
+msgstr "Tài nguyên này sẽ bị chặn cho đến khi khách truy cập đồng ý với danh mục này."
+
+#: build/admin.js:76
+msgid "Unlock Whitelisting"
+msgstr "Mở khóa Danh sách trắng"
+
+#: build/admin.js:76
+msgid "Whitelist your own scripts and common services so essential integrations keep working before consent."
+msgstr "Đưa các script của bạn và dịch vụ phổ biến vào danh sách trắng để các tích hợp thiết yếu tiếp tục hoạt động trước khi có sự đồng ý."
+
+#. translators: %d: number of GCM-managed services.
+#: build/admin.js:77
+#, js-format
+msgid "Managed by Google Consent Mode (%d)"
+msgstr "Được quản lý bởi Chế độ Đồng ý của Google (%d)"
+
+#: build/admin.js:77
+msgid "View services"
+msgstr "Xem dịch vụ"
+
+#: build/admin.js:77
+msgid "Managed by Google Consent Mode"
+msgstr "Được quản lý bởi Chế độ Đồng ý của Google"
+
+#: build/admin.js:77
+msgid "Auto-whitelisted"
+msgstr "Tự động đưa vào danh sách trắng"
+
+#: build/admin.js:77
+msgid "Enter the script domain or host."
+msgstr "Nhập tên miền hoặc máy chủ script."
+
+#: build/admin.js:77
+msgid "Select a category."
+msgstr "Chọn một danh mục."
+
+#: build/admin.js:77
+msgid "A rule for this script already exists."
+msgstr "Một quy tắc cho script này đã tồn tại."
+
+#: build/admin.js:77
+msgid "Control how scripts and embeds load based on user consent - block them until allowed or mark essential ones to always run."
+msgstr "Kiểm soát cách các script và nhúng tải dựa trên sự đồng ý của người dùng - chặn chúng cho đến khi được phép hoặc đánh dấu những cái thiết yếu luôn chạy."
+
+#: build/admin.js:77
+msgid "Behavior: Always Allowed"
+msgstr "Hành vi: Luôn được phép"
+
+#: build/admin.js:77
+msgid "Choose scripts and domains that should never be blocked, so tools like reCAPTCHA and other essential integrations keep working. Google Consent Mode scripts are whitelisted automatically when it is enabled."
+msgstr "Chọn các script và tên miền không bao giờ bị chặn, để các công cụ như reCAPTCHA và các tích hợp thiết yếu khác tiếp tục hoạt động. Các script của Chế độ Đồng ý Google được tự động đưa vào danh sách trắng khi được bật."
+
+#: build/admin.js:77
+msgid "Block Scripts and Embeds Until Consent Switch"
+msgstr "Chuyển đổi Chặn Script và Nhúng cho đến khi đồng ý"
+
+#: build/admin.js:77
+msgid "Block Scripts Until Consent"
+msgstr "Chặn Script cho đến khi đồng ý"
+
+#: build/admin.js:77
+msgid "Prevent non-essential scripts and embeds from loading until users give consent."
+msgstr "Ngăn các script và nhúng không thiết yếu tải cho đến khi người dùng đồng ý."
+
+#: build/admin.js:77
+msgid "Detected and Managed Resources"
+msgstr "Tài nguyên đã phát hiện và quản lý"
+
+#. translators: 1: scanner-detected count, 2: custom rule count
+#: build/admin.js:78
+#, js-format
+msgid "%1$d detected by scanner, %2$d custom"
+msgstr "%1$d được phát hiện bởi máy quét, %2$d tùy chỉnh"
+
+#: build/admin.js:78
+msgid "New Resource"
+msgstr "Tài nguyên mới"
+
+#: build/admin.js:78
+msgid "All your scripts will be displayed here"
+msgstr "Tất cả các tập lệnh của bạn sẽ được hiển thị ở đây"
+
+#: build/admin.js:78
+msgid "Run a scan to detect third-party resources, or add a script manually."
+msgstr "Chạy quét để phát hiện tài nguyên bên thứ ba, hoặc thêm tập lệnh thủ công."
+
+#: build/admin.js:78
+msgid "Add New Resource"
+msgstr "Thêm tài nguyên mới"
+
+#: build/admin.js:78
+msgid "Unlock Custom Script Rules & Whitelisting"
+msgstr "Mở khóa Quy tắc Tập lệnh Tùy chỉnh & Danh sách trắng"
+
+#: build/admin.js:78
+msgid "Add your own scripts to block under any category, whitelist trusted scripts, and manage it all from one place."
+msgstr "Thêm tập lệnh của riêng bạn để chặn dưới bất kỳ danh mục nào, đưa tập lệnh tin cậy vào danh sách trắng, và quản lý tất cả từ một nơi."
+
+#: build/admin.js:78
+msgid "Generate your cookie policy automatically from your settings, or display it anywhere using a shortcode."
+msgstr "Tự động tạo chính sách cookie của bạn từ cài đặt, hoặc hiển thị nó ở bất cứ đâu bằng shortcode."
+
+#: build/admin.js:78
+msgid "Automatically re-scan your site and get notified when new cookies or trackers appear."
+msgstr "Tự động quét lại trang web của bạn và nhận thông báo khi có cookie hoặc trình theo dõi mới xuất hiện."
+
+#: build/admin.js:84
+msgid "Show your cookie banner only in regions where consent is required."
+msgstr "Chỉ hiển thị biểu ngữ cookie của bạn ở các khu vực yêu cầu sự đồng ý."
+
+#: build/admin.js:84
+msgid "Share visitor consent across your sites so users don’t need to give consent again."
+msgstr "Chia sẻ sự đồng ý của khách truy cập trên các trang web của bạn để người dùng không cần phải đồng ý lại."
+
+#: build/admin.js:84
+msgid "Unlock Consent Sharing"
+msgstr "Mở khóa Chia sẻ Sự đồng ý"
+
+#: build/admin.js:77
+msgid "Allowed to load while Google Consent Mode is active, instead of being blocked before consent."
+msgstr "Được phép tải khi Chế độ Đồng ý của Google đang hoạt động, thay vì bị chặn trước khi có sự đồng ý."
+
+#: build/admin.js:77
+msgid "These Google services are allowed to load while Google Consent Mode is active, instead of being blocked before consent. For Google tag products, Consent Mode then controls what they may store and which identifiers they may use. It does not stop them from contacting Google. They cannot be removed here."
+msgstr "Các dịch vụ Google này được phép tải khi Chế độ Đồng ý của Google đang hoạt động, thay vì bị chặn trước khi có sự đồng ý. Đối với các sản phẩm thẻ Google, Chế độ Đồng ý sẽ kiểm soát những gì chúng có thể lưu trữ và các định danh mà chúng có thể sử dụng. Nó không ngăn chúng liên hệ với Google. Chúng không thể bị loại bỏ ở đây."

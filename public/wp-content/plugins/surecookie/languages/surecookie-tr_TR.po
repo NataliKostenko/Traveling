@@ -1,0 +1,5519 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SureCookie 0.0.1-beta.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surecookie\n"
+"Last-Translator: gpt-po v1.3.0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-19T05:50:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: surecookie\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: surecookie.php
+#: inc/integrations/wp-consent-api/actions.php:66
+#: inc/integrations/wp-consent-api/actions.php:74
+msgid "SureCookie"
+msgstr "SureCookie"
+
+#. Plugin URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com"
+msgstr "https://surecookie.com"
+
+#. Description of the plugin
+#: surecookie.php
+msgid "Real cookie consent for WordPress. Browser-based scanning, smart categorization, strict script blocking, and consent logs stored in your database."
+msgstr "WordPress için gerçek çerez onayı. Tarayıcı tabanlı tarama, akıllı kategorilendirme, sıkı betik engelleme ve veritabanınızda saklanan onay kayıtları."
+
+#. Author URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com/"
+msgstr "https://surecookie.com/"
+
+#: admin/menu.php:74
+#: build/admin.js:2
+msgid "Dashboard"
+msgstr "Kontrol Paneli"
+
+#: admin/menu.php:87
+#: admin/menu.php:274
+#: build/admin.js:2
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: admin/menu.php:82
+#: admin/menu.php:400
+#: build/admin.js:2
+msgid "Logs"
+msgstr "Kayıtlar"
+
+#: admin/menu.php:91
+#: build/admin.js:2
+msgid "Learn"
+msgstr "Öğren"
+
+#: admin/menu.php:130
+msgid "You don't have access to this page."
+msgstr "Bu sayfaya erişiminiz yok."
+
+#: admin/menu.php:300
+#: admin/menu.php:301
+msgid "Upgrade"
+msgstr "Yükselt"
+
+#: admin/onboarding.php:59
+#: build/onboarding.js:14
+msgid "Onboarding"
+msgstr "Başlangıç"
+
+#: admin/onboarding.php:75
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Bu sayfaya erişmek için yeterli izniniz yok."
+
+#: admin/product-promotion.php:110
+msgid "A simple yet powerful way to create modern forms for your website."
+msgstr "Web siteniz için basit ama güçlü modern formlar oluşturmanın yolu."
+
+#: admin/rating-notice.php:234
+msgid "If SureCookie has been helpful, would you mind taking a moment to leave a 5-star review on WordPress.org?"
+msgstr "SureCookie yardımcı olduysa, WordPress.org'da 5 yıldızlı bir inceleme bırakmak için bir dakikanızı ayırır mısınız?"
+
+#: admin/rating-notice.php:243
+msgid "Rate SureCookie"
+msgstr "SureCookie'u Değerlendir"
+
+#: admin/rating-notice.php:251
+msgid "Maybe later"
+msgstr "Belki sonra"
+
+#: admin/rating-notice.php:255
+msgid "I already did"
+msgstr "Zaten yaptım"
+
+#: inc/api/base.php:59
+msgid "You don't have access to do this."
+msgstr "Bunu yapmak için erişiminiz yok."
+
+#: inc/api/base.php:71
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "Güvenlik kontrolü başarısız oldu. Lütfen sayfayı yenileyin ve tekrar deneyin."
+
+#: inc/api/base.php:80
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "Oturumunuzun süresi doldu. Lütfen sayfayı yenileyin ve tekrar deneyin."
+
+#: inc/api/consent-logs.php:146
+msgid "Search by IP address or Session ID"
+msgstr "IP adresi veya Oturum ID'sine göre ara"
+
+#: inc/api/consent-logs.php:318
+#: inc/api/consent-logs.php:345
+msgid "Request origin could not be verified."
+msgstr "İstek kaynağı doğrulanamadı."
+
+#: inc/api/consent-logs.php:892
+msgid "Request origin is not allowed."
+msgstr "İstek kaynağı izinli değil."
+
+#: inc/api/consent-logs.php:448
+msgid "Consent logs retrieved successfully."
+msgstr "Onay kayıtları başarıyla alındı."
+
+#: inc/api/consent-logs.php:490
+msgid "Consent processed successfully (logging disabled)"
+msgstr "Onay başarıyla işlendi (kayıt devre dışı)"
+
+#: inc/api/consent-logs.php:376
+#: inc/api/consent-logs.php:515
+msgid "Too many requests. Please try again later."
+msgstr "Çok fazla istek. Lütfen daha sonra tekrar deneyin."
+
+#: inc/api/consent-logs.php:535
+msgid "Preferences should not be empty."
+msgstr "Tercihler boş olmamalıdır."
+
+#: inc/api/consent-logs.php:544
+msgid "Preferences data is too large."
+msgstr "Tercih verisi çok büyük."
+
+#: inc/api/consent-logs.php:555
+#: inc/api/consent-logs.php:566
+msgid "Invalid preferences format."
+msgstr "Geçersiz tercih formatı."
+
+#: inc/api/consent-logs.php:575
+msgid "Session ID is required."
+msgstr "Oturum ID'si gereklidir."
+
+#: inc/api/consent-logs.php:614
+msgid "Accept All is not enabled for this site."
+msgstr "Bu site için Tümünü Kabul et etkin değil."
+
+#: inc/api/consent-logs.php:641
+msgid "Consent saved successfully."
+msgstr "Onay başarıyla kaydedildi."
+
+#: inc/api/consent-logs.php:651
+msgid "Failed to save consent."
+msgstr "Onay kaydedilemedi."
+
+#: inc/api/consent-logs.php:669
+#: inc/api/consent-logs.php:801
+msgid "Invalid log ID"
+msgstr "Geçersiz kayıt ID'si"
+
+#: inc/api/consent-logs.php:681
+msgid "Log not found."
+msgstr "Kayıt bulunamadı."
+
+#: inc/api/consent-logs.php:717
+#: inc/api/consent-logs.php:744
+msgid "Log details retrieved successfully."
+msgstr "Kayıt detayları başarıyla alındı."
+
+#: inc/api/consent-logs.php:766
+msgid "Invalid log IDs"
+msgstr "Geçersiz kayıt kimlikleri"
+
+#: inc/api/consent-logs.php:777
+#: inc/api/consent-logs.php:872
+msgid "Failed to delete logs."
+msgstr "Kayıtlar silinemedi."
+
+#. translators: %d: number of logs deleted
+#: inc/api/consent-logs.php:787
+#, php-format
+msgid "%d log(s) deleted successfully."
+msgstr "%d kayıt başarıyla silindi."
+
+#: inc/api/consent-logs.php:812
+msgid "Log deleted successfully."
+msgstr "Kayıt başarıyla silindi."
+
+#: inc/api/consent-logs.php:821
+msgid "Failed to delete log."
+msgstr "Kayıt silinemedi."
+
+#: inc/api/consent-logs.php:863
+msgid "All logs deleted successfully."
+msgstr "Tüm kayıtlar başarıyla silindi."
+
+#: inc/api/cookie-categories.php:181
+msgid "Failed to create category: "
+msgstr "Kategori oluşturulamadı:"
+
+#: inc/api/cookie-categories.php:204
+msgid "Failed to update category: "
+msgstr "Kategori güncellenemedi:"
+
+#: inc/api/cookie-categories.php:230
+msgid "Failed to delete category: "
+msgstr "Kategori silinemedi:"
+
+#: inc/api/cookies.php:302
+msgid "Failed to create custom cookie: "
+msgstr "Özel çerez oluşturulamadı:"
+
+#: inc/api/cookies.php:324
+msgid "Failed to update custom cookie: "
+msgstr "Özel çerez güncellenemedi:"
+
+#: inc/api/cookies.php:345
+msgid "Failed to delete custom cookie: "
+msgstr "Özel çerez silinemedi:"
+
+#: inc/api/cookies.php:372
+msgid "Failed to update cookie category: "
+msgstr "Çerez kategorisi güncellenemedi:"
+
+#: inc/api/onboarding.php:134
+msgid "Onboarding data saved successfully."
+msgstr "Başlangıç verileri başarıyla kaydedildi."
+
+#: inc/api/onboarding.php:152
+msgid "Onboarding is already marked as complete."
+msgstr "Başlangıç zaten tamamlandı olarak işaretlenmiş."
+
+#: inc/api/onboarding.php:162
+msgid "Onboarding marked as complete."
+msgstr "Başlangıç tamamlandı olarak işaretlendi."
+
+#: inc/api/plugin.php:121
+msgid "Promotional plugins data retrieved."
+msgstr "Promosyon eklentileri verileri alındı."
+
+#: inc/api/plugin.php:154
+msgid "You don't have permission to activate plugins."
+msgstr "Eklentileri etkinleştirme izniniz yok."
+
+#: inc/api/plugin.php:158
+#: inc/api/plugin.php:191
+msgid "Plugin not found."
+msgstr "Eklenti bulunamadı."
+
+#: inc/api/plugin.php:172
+#: build/admin.js:2
+msgid "Plugin activated successfully."
+msgstr "Eklenti başarıyla etkinleştirildi."
+
+#: inc/api/plugin.php:187
+msgid "You don't have permission to deactivate plugins."
+msgstr "Eklentileri devre dışı bırakma izniniz yok."
+
+#: inc/api/plugin.php:203
+msgid "Plugin is already inactive."
+msgstr "Eklenti zaten devre dışı."
+
+#: inc/api/plugin.php:228
+#: build/admin.js:75
+msgid "Plugin deactivated successfully."
+msgstr "Eklenti başarıyla devre dışı bırakıldı."
+
+#: inc/api/plugin.php:290
+msgid "Conflicting plugins retrieved."
+msgstr "Çakışan eklentiler alındı."
+
+#: inc/api/posts.php:199
+msgid "Post not found."
+msgstr "Gönderi bulunamadı."
+
+#: inc/api/scan-history.php:61
+msgid "Scanned history retrieved successfully."
+msgstr "Tarama geçmişi başarıyla alındı."
+
+#: inc/api/scanned-resources.php:78
+msgid "Scanned resources retrieved successfully."
+msgstr "Tarama kaynakları başarıyla alındı."
+
+#: inc/api/settings.php:120
+msgid "No data found"
+msgstr "Veri bulunamadı"
+
+#: inc/api/settings.php:144
+msgid "Settings updated"
+msgstr "Ayarlar güncellendi"
+
+#: inc/functions/get.php:118
+msgid "Essential Cookies"
+msgstr "Temel Çerezler"
+
+#: inc/functions/get.php:119
+msgid "Required for basic website functionality."
+msgstr "Temel web sitesi işlevselliği için gereklidir."
+
+#: inc/functions/get.php:124
+msgid "Functional Cookies"
+msgstr "Fonksiyonel Çerezler"
+
+#: inc/functions/get.php:125
+msgid "Enable features like saved preferences and personalized content."
+msgstr "Kaydedilmiş tercihleri ve kişiselleştirilmiş içeriği etkinleştirir."
+
+#: inc/functions/get.php:130
+msgid "Analytics Cookies"
+msgstr "Analitik Çerezler"
+
+#: inc/functions/get.php:131
+msgid "Help us understand how visitors use our site so we can improve it."
+msgstr "Ziyaretçilerin sitemizi nasıl kullandığını anlamamıza yardımcı olur, böylece geliştirebiliriz."
+
+#: inc/functions/get.php:136
+msgid "Marketing Cookies"
+msgstr "Pazarlama Çerezleri"
+
+#: inc/functions/get.php:137
+msgid "Used to show you relevant ads based on your interests."
+msgstr "İlgi alanlarınıza göre size ilgili reklamlar göstermek için kullanılır."
+
+#: inc/functions/get.php:142
+msgid "Uncategorized Cookies"
+msgstr "Kategorize Edilmemiş Çerezler"
+
+#: inc/functions/get.php:143
+msgid "Cookies that haven't been categorized yet."
+msgstr "Henüz kategorize edilmemiş çerezler."
+
+#: inc/integrations/wp-consent-api/actions.php:62
+msgid "days"
+msgstr "gün"
+
+#: inc/integrations/wp-consent-api/actions.php:69
+msgid "Stores the user's cookie consent preferences."
+msgstr "Kullanıcının çerez onayı tercihlerini saklar."
+
+#: inc/integrations/wp-consent-api/actions.php:76
+msgid "1 year"
+msgstr "1 yıl"
+
+#: inc/integrations/wp-consent-api/actions.php:77
+msgid "Tracks consent log sessions for audit purposes."
+msgstr "Denetim amaçlı onay kayıt oturumlarını izler."
+
+#: inc/modules/auth/api.php:71
+msgid "Authentication is already completed."
+msgstr "Kimlik doğrulama zaten tamamlandı."
+
+#: inc/modules/auth/controller.php:71
+msgid "Could not generate secure auth key."
+msgstr "Güvenli kimlik doğrulama anahtarı oluşturulamadı."
+
+#: inc/modules/auth/controller.php:88
+msgid "Failed to encode the token data."
+msgstr "Jeton verileri kodlanamadı."
+
+#: inc/modules/auth/controller.php:179
+msgid "Invalid flow identifier."
+msgstr "Geçersiz akış tanımlayıcısı."
+
+#: inc/modules/auth/controller.php:188
+msgid "Failed to decode the access key."
+msgstr "Erişim anahtarı çözümlenemedi."
+
+#: inc/modules/auth/controller.php:193
+msgid "Invalid data format."
+msgstr "Geçersiz veri formatı."
+
+#: inc/modules/auth/controller.php:207
+msgid "Failed to decrypt the access key."
+msgstr "Erişim anahtarı şifresi çözülemedi."
+
+#: inc/modules/auth/controller.php:213
+msgid "Failed to json decode the decrypted data."
+msgstr "Şifrelenmiş veriler json olarak çözümlenemedi."
+
+#: inc/modules/auth/controller.php:217
+msgid "No user email found in the decrypted data."
+msgstr "Şifrelenmiş verilerde kullanıcı e-postası bulunamadı."
+
+#: inc/modules/cookie-policy/api.php:76
+#: build/admin.js:78
+msgid "Cookie Policy page already exists."
+msgstr "Çerez Politikası sayfası zaten mevcut."
+
+#: inc/modules/cookie-policy/api.php:90
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/admin.js:78
+#: build/public.js:1
+msgid "Cookie Policy"
+msgstr "Çerez Politikası"
+
+#: inc/modules/cookie-policy/api.php:112
+msgid "Cookie Policy page created successfully."
+msgstr "Çerez Politikası sayfası başarıyla oluşturuldu."
+
+#. translators: %s: site name.
+#: inc/modules/cookie-policy/api.php:182
+#, php-format
+msgid "This Cookie Policy explains how %s uses cookies and similar tracking technologies when you visit our website. It describes what these technologies are, why we use them, and your rights to control our use of them."
+msgstr "Bu Çerez Politikası, %s sitesinin web sitemizi ziyaret ettiğinizde çerezleri ve benzer izleme teknolojilerini nasıl kullandığını açıklar. Bu teknolojilerin ne olduğunu, neden kullandığımızı ve bunların kullanımını kontrol etme haklarınızı anlatır."
+
+#: inc/modules/cookie-policy/api.php:191
+msgid "What Are Cookies"
+msgstr "Çerezler Nedir"
+
+#: inc/modules/cookie-policy/api.php:195
+msgid "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, provide a better browsing experience, and supply information to the owners of the site. Cookies can be \"persistent\" or \"session\" cookies. Persistent cookies remain on your device for a set period or until you delete them, while session cookies are deleted as soon as you close your web browser."
+msgstr "Çerezler, bir web sitesini ziyaret ettiğinizde bilgisayarınızda veya mobil cihazınızda depolanan küçük metin dosyalarıdır. Web sitelerinin daha verimli çalışmasını sağlamak, daha iyi bir gezinme deneyimi sunmak ve site sahiplerine bilgi sağlamak için yaygın olarak kullanılırlar. Çerezler \"kalıcı\" veya \"oturum\" çerezleri olabilir. Kalıcı çerezler cihazınızda belirli bir süre kalır veya siz silene kadar saklanır, oturum çerezleri ise web tarayıcınızı kapattığınızda silinir."
+
+#: inc/modules/cookie-policy/api.php:199
+msgid "In addition to cookies, we may also use similar technologies such as pixel tags, web beacons, and local storage to collect and store information. These technologies work in a similar way to cookies and allow us to monitor and improve our website and your experience of it."
+msgstr "Çerezlere ek olarak, bilgi toplamak ve depolamak için piksel etiketleri, web işaretçileri ve yerel depolama gibi benzer teknolojileri de kullanabiliriz. Bu teknolojiler çerezlere benzer şekilde çalışır ve web sitemizi ve sizin deneyiminizi izlememize ve geliştirmemize olanak tanır."
+
+#: inc/modules/cookie-policy/api.php:206
+msgid "Types of Cookies We Use"
+msgstr "Kullandığımız Çerez Türleri"
+
+#: inc/modules/cookie-policy/api.php:210
+msgid "We use different types of cookies for various reasons. The table below provides detailed information about the cookies we use, organized by category, including the name of each cookie, its purpose, duration, and the domain it belongs to. Some cookies are essential for the website to function properly, while others help us understand how visitors interact with our site, remember your preferences, or deliver relevant advertising."
+msgstr "Farklı nedenlerle çeşitli türlerde çerezler kullanıyoruz. Aşağıdaki tablo, kullandığımız çerezler hakkında, her bir çerezin adı, amacı, süresi ve ait olduğu alan adı dahil olmak üzere kategori bazında ayrıntılı bilgi sağlar. Bazı çerezler web sitesinin düzgün çalışması için gereklidir, diğerleri ise ziyaretçilerin sitemizle nasıl etkileşimde bulunduğunu anlamamıza, tercihlerinizi hatırlamamıza veya ilgili reklamları sunmamıza yardımcı olur."
+
+#: inc/modules/cookie-policy/api.php:220
+msgid "How to Manage Your Cookie Preferences"
+msgstr "Çerez Tercihlerinizi Nasıl Yönetirsiniz"
+
+#: inc/modules/cookie-policy/api.php:224
+msgid "When you first visit our website, you will be shown a cookie consent banner that allows you to accept or decline non-essential cookies. You can change your preferences at any time by clicking the cookie preferences option available on our website. Essential cookies cannot be disabled as they are necessary for the basic functioning of the website."
+msgstr "Web sitemizi ilk ziyaret ettiğinizde, önemsiz çerezleri kabul etmenize veya reddetmenize olanak tanıyan bir çerez onay bannerı gösterilecektir. Tercihlerinizi, web sitemizde bulunan çerez tercihleri seçeneğine tıklayarak istediğiniz zaman değiştirebilirsiniz. Temel işlevsellik için gerekli olan çerezler devre dışı bırakılamaz."
+
+#: inc/modules/cookie-policy/api.php:228
+msgid "Please note that restricting cookies may impact your experience of the website, as some features and services may not function properly without certain cookies enabled."
+msgstr "Çerezleri kısıtlamanın, bazı özelliklerin ve hizmetlerin belirli çerezler etkinleştirilmeden düzgün çalışmaması nedeniyle web sitesi deneyiminizi etkileyebileceğini lütfen unutmayın."
+
+#: inc/modules/cookie-policy/api.php:235
+msgid "How to Control Cookies in Your Browser"
+msgstr "Tarayıcınızda Çerezleri Nasıl Kontrol Edersiniz"
+
+#: inc/modules/cookie-policy/api.php:239
+msgid "Most web browsers allow you to manage your cookie preferences through their settings. You can set your browser to refuse cookies, delete existing cookies, or alert you when a cookie is being set. The steps to manage cookies vary by browser. Below are general instructions for the most common browsers."
+msgstr "Çoğu web tarayıcısı, ayarları aracılığıyla çerez tercihlerinizi yönetmenize olanak tanır. Tarayıcınızı çerezleri reddedecek, mevcut çerezleri silecek veya bir çerez ayarlandığında sizi uyaracak şekilde ayarlayabilirsiniz. Çerez yönetme adımları tarayıcıya göre değişir. Aşağıda en yaygın tarayıcılar için genel talimatlar bulunmaktadır."
+
+#: inc/modules/cookie-policy/api.php:243
+msgid "Google Chrome: Open Settings, go to Privacy and Security, then click on Cookies and other site data. From there, you can block third-party cookies, clear cookies when you close the browser, or block all cookies."
+msgstr "Google Chrome: Ayarları açın, Gizlilik ve Güvenlik bölümüne gidin, ardından Çerezler ve diğer site verileri seçeneğine tıklayın. Buradan üçüncü taraf çerezlerini engelleyebilir, tarayıcıyı kapattığınızda çerezleri temizleyebilir veya tüm çerezleri engelleyebilirsiniz."
+
+#: inc/modules/cookie-policy/api.php:247
+msgid "Mozilla Firefox: Open Settings, go to Privacy and Security, and under Cookies and Site Data you can manage how Firefox handles cookies including clearing data and managing exceptions."
+msgstr "Mozilla Firefox: Ayarları açın, Gizlilik ve Güvenlik bölümüne gidin ve Çerezler ve Site Verileri altında Firefox’un çerezleri nasıl yönettiğini, verileri temizlemeyi ve istisnaları yönetmeyi ayarlayabilirsiniz."
+
+#: inc/modules/cookie-policy/api.php:251
+msgid "Safari: Open Preferences, go to the Privacy tab, and configure your cookie blocking preferences. Safari also offers an option to prevent cross-site tracking."
+msgstr "Safari: Tercihleri açın, Gizlilik sekmesine gidin ve çerez engelleme tercihlerinizi yapılandırın. Safari ayrıca çapraz site takibini önleme seçeneği sunar."
+
+#: inc/modules/cookie-policy/api.php:255
+msgid "Microsoft Edge: Open Settings, go to Privacy, Search, and Services. Under the Cookies section, you can choose to block third-party cookies or all cookies and manage cookie exceptions."
+msgstr "Microsoft Edge: Ayarları açın, Gizlilik, Arama ve Hizmetler bölümüne gidin. Çerezler bölümünde, üçüncü taraf çerezlerini veya tüm çerezleri engellemeyi seçebilir ve çerez istisnalarını yönetebilirsiniz."
+
+#: inc/modules/cookie-policy/api.php:262
+msgid "Consequences of Disabling Cookies"
+msgstr "Çerezleri Devre Dışı Bırakmanın Sonuçları"
+
+#: inc/modules/cookie-policy/api.php:266
+msgid "If you choose to disable or decline cookies, some parts of this website may not function as intended. For example, you may not be able to log in, your preferences may not be saved between visits, and certain interactive features may be limited. Disabling essential cookies may make it impossible to use some or all of the services provided through this website."
+msgstr "Çerezleri devre dışı bırakmayı veya reddetmeyi seçerseniz, bu web sitesinin bazı bölümleri amaçlandığı gibi çalışmayabilir. Örneğin, giriş yapamayabilir, tercihlerinizi ziyaretler arasında kaydedemeyebilir ve bazı etkileşimli özellikler sınırlı olabilir. Temel çerezlerin devre dışı bırakılması, bu web sitesi üzerinden sunulan bazı veya tüm hizmetlerin kullanılamamasına neden olabilir."
+
+#: inc/modules/cookie-policy/api.php:270
+msgid "Disabling analytics or marketing cookies will not affect the core functionality of the website, but it may limit our ability to improve the website based on user behavior or to provide you with personalized content and advertisements."
+msgstr "Analitik veya pazarlama çerezlerini devre dışı bırakmak, web sitesinin temel işlevselliğini etkilemez, ancak kullanıcı davranışına dayalı olarak web sitesini geliştirme veya size kişiselleştirilmiş içerik ve reklamlar sunma yeteneğimizi sınırlayabilir."
+
+#: inc/modules/cookie-policy/api.php:277
+msgid "Changes to This Cookie Policy"
+msgstr "Bu Çerez Politikası'ndaki Değişiklikler"
+
+#: inc/modules/cookie-policy/api.php:281
+msgid "We may update this Cookie Policy from time to time to reflect changes in technology, legislation, our business operations, or any other reason we determine is necessary or appropriate. Any changes will be posted on this page with an updated revision date. We encourage you to review this Cookie Policy periodically to stay informed about how we are using cookies."
+msgstr "Teknoloji, mevzuat, iş operasyonlarımız veya gerekli veya uygun gördüğümüz diğer herhangi bir nedenle bu Çerez Politikası'nı zaman zaman güncelleyebiliriz. Herhangi bir değişiklik, güncellenmiş revizyon tarihi ile bu sayfada yayınlanacaktır. Çerezleri nasıl kullandığımız hakkında bilgi sahibi olmak için bu Çerez Politikası'nı periyodik olarak gözden geçirmenizi öneririz."
+
+#: inc/modules/cookie-policy/api.php:288
+msgid "Contact Us"
+msgstr "İletişim"
+
+#: inc/modules/cookie-policy/api.php:292
+msgid "If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at:"
+msgstr "Bu Çerez Politikası veya çerez kullanımımız hakkında herhangi bir sorunuz veya endişeniz varsa, lütfen bizimle iletişime geçin:"
+
+#: inc/modules/cookie-policy/api.php:296
+msgid "[Your Company Name], [Your Address], [your-email@example.com]"
+msgstr "[Şirket Adınız], [Adresiniz], [your-email@example.com]"
+
+#: inc/modules/cookie-policy/shortcode.php:143
+#: inc/modules/cookie-policy/shortcode.php:144
+msgid "Table of Contents"
+msgstr "İçindekiler"
+
+#: inc/modules/cookie-policy/shortcode.php:203
+#: build/admin.js:25
+msgid "Cookie Name"
+msgstr "Çerez Adı"
+
+#: inc/modules/cookie-policy/shortcode.php:204
+#: build/admin.js:25
+msgid "Purpose"
+msgstr "Amaç"
+
+#: inc/modules/cookie-policy/shortcode.php:205
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Duration"
+msgstr "Süre"
+
+#: inc/modules/cookie-policy/shortcode.php:206
+#: build/admin.js:25
+msgid "Domain"
+msgstr "Alan Adı"
+
+#. translators: %s: formatted date string.
+#: inc/modules/cookie-policy/shortcode.php:270
+#, php-format
+msgid "Last updated: %s"
+msgstr "Son güncelleme: %s"
+
+#: inc/modules/cookie-policy/shortcode.php:356
+msgid "This website"
+msgstr "Bu web sitesi"
+
+#: inc/modules/google-consent-mode/consent-handler.php:130
+msgid "SureCookie:"
+msgstr "SureCookie:"
+
+#: inc/modules/google-consent-mode/consent-handler.php:132
+msgid "Google Site Kit's Consent Mode is active. Please disable it in Site Kit settings to use SureCookie's implementation."
+msgstr "Google Site Kit'in Onay Modu aktiftir. SureCookie'nin uygulamasını kullanmak için Site Kit ayarlarında devre dışı bırakın."
+
+#: inc/modules/nudges/api.php:70
+msgid "Invalid type provided."
+msgstr "Geçersiz tür sağlandı."
+
+#: inc/modules/nudges/api.php:94
+msgid "Could not disable the nudge. Please try again."
+msgstr "Nudge devre dışı bırakılamadı. Lütfen tekrar deneyin."
+
+#. translators: %s: nudge type
+#: inc/modules/nudges/api.php:100
+#, php-format
+msgid "\"%s\" has been disabled."
+msgstr "\"%s\" devre dışı bırakıldı."
+
+#. translators: %s: Service name (e.g., YouTube, Vimeo, Bunny.net).
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:302
+#: inc/modules/script-blocking/blocker.php:1283
+#, php-format
+msgid "This content is blocked because it requires %s cookies."
+msgstr "Bu içerik, %s çerezleri gerektirdiği için engellenmiştir."
+
+#: inc/integrations/presto-player/block-handler.php:240
+#: inc/modules/script-blocking/blocker.php:1298
+msgid "Accept & Load"
+msgstr "Kabul Et ve Yükle"
+
+#: inc/modules/site-scanner/api.php:220
+msgid "Scan cancelled successfully."
+msgstr "Tarama başarıyla iptal edildi."
+
+#: inc/modules/site-scanner/api.php:226
+msgid "No active scan to cancel."
+msgstr "İptal edilecek aktif tarama yok."
+
+#: inc/modules/site-scanner/api.php:257
+#: inc/modules/site-scanner/saas-client.php:400
+msgid "A scan is already in progress. Please wait for it to complete."
+msgstr "Bir tarama zaten devam ediyor. Lütfen tamamlanmasını bekleyin."
+
+#: inc/modules/site-scanner/api.php:273
+#: inc/modules/site-scanner/cron.php:76
+#: inc/modules/site-scanner/saas-client.php:407
+msgid "No pages selected for scanning."
+msgstr "Tarama için sayfa seçilmedi."
+
+#: inc/modules/site-scanner/api.php:288
+msgid "Failed to start scan."
+msgstr "Tarama başlatılamadı."
+
+#: inc/modules/site-scanner/api.php:299
+msgid "Cookie scan has been initiated."
+msgstr "Çerez taraması başlatıldı."
+
+#: inc/modules/site-scanner/api.php:300
+msgid "The scan is running. You will be notified when it completes."
+msgstr "Tarama devam ediyor. Tamamlandığında bilgilendirileceksiniz."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/api.php:312
+#, php-format
+msgid "Failed to start site scanner: %s"
+msgstr "Site tarayıcısı başlatılamadı: %s"
+
+#: inc/modules/site-scanner/cron.php:70
+msgid "Starting site scan (triggered by user)."
+msgstr "Site taraması başlatılıyor (kullanıcı tarafından tetiklendi)."
+
+#. translators: %s: Plan name
+#: inc/modules/site-scanner/cron.php:92
+#, php-format
+msgid "Plan: %s."
+msgstr "Plan: %s."
+
+#. translators: %d: Number of pages
+#: inc/modules/site-scanner/cron.php:93
+#, php-format
+msgid "Pages selected: %d."
+msgstr "Seçilen sayfalar: %d."
+
+#: inc/modules/site-scanner/cron.php:95
+msgid "Sending scan request…"
+msgstr "Tarama isteği gönderiliyor…"
+
+#: inc/modules/site-scanner/cron.php:101
+msgid "Scan already in progress. Skipping."
+msgstr "Tarama zaten devam ediyor. Atlanıyor."
+
+#: inc/modules/site-scanner/cron.php:114
+msgid "Scan started successfully."
+msgstr "Tarama başarıyla başlatıldı."
+
+#. translators: %s: Group ID
+#: inc/modules/site-scanner/cron.php:115
+#, php-format
+msgid "Group ID: %s"
+msgstr "Grup Kimliği: %s"
+
+#: inc/modules/site-scanner/cron.php:117
+msgid "Checking scan progress…"
+msgstr "Tarama ilerlemesi kontrol ediliyor…"
+
+#: inc/modules/site-scanner/cron.php:122
+msgid "Scan failed."
+msgstr "Tarama başarısız oldu."
+
+#: inc/modules/site-scanner/cron.php:166
+msgid "No active scan."
+msgstr "Aktif tarama yok."
+
+#: inc/modules/site-scanner/cron.php:186
+msgid "Scan in progress..."
+msgstr "Tarama devam ediyor..."
+
+#: inc/modules/site-scanner/cron.php:224
+msgid "Scan cancelled by user."
+msgstr "Tarama kullanıcı tarafından iptal edildi."
+
+#: inc/modules/site-scanner/saas-client.php:281
+msgid "Every 1 Minute (SureCookie Polling)"
+msgstr "Her 1 Dakika (SureCookie Anketi)"
+
+#: inc/modules/site-scanner/saas-client.php:391
+msgid "Cookie scanning is not available for localhost or development sites. Please use a live domain."
+msgstr "Çerez taraması localhost veya geliştirme siteleri için kullanılamaz. Lütfen canlı bir alan adı kullanın."
+
+#: inc/modules/site-scanner/saas-client.php:422
+msgid "Could not generate a secure scan token. Please retry."
+msgstr "Güvenli bir tarama belirteci oluşturulamadı. Lütfen tekrar deneyin."
+
+#: inc/modules/site-scanner/saas-client.php:448
+msgid "Failed to encode scan request."
+msgstr "Tarama isteği kodlanamadı."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/saas-client.php:493
+#, php-format
+msgid "Failed to start scan: %s"
+msgstr "Tarama başlatılamadı: %s"
+
+#: inc/modules/site-scanner/saas-client.php:531
+msgid "Unknown error occurred."
+msgstr "Bilinmeyen bir hata oluştu."
+
+#: inc/modules/site-scanner/saas-client.php:599
+msgid "Scan has been started. You will be notified when it completes."
+msgstr "Tarama başlatıldı. Tamamlandığında bilgilendirileceksiniz."
+
+#: inc/modules/site-scanner/saas-client.php:641
+msgid "Failed to check scan status."
+msgstr "Tarama durumu kontrol edilemedi."
+
+#: inc/modules/site-scanner/saas-client.php:778
+msgid "Failed to get scan group."
+msgstr "Tarama grubu alınamadı."
+
+#: inc/modules/site-scanner/saas-client.php:906
+msgid "Scan timed out. Please try again."
+msgstr "Tarama zaman aşımına uğradı. Lütfen tekrar deneyin."
+
+#. translators: 1: completed pages count, 2: total pages count
+#: inc/modules/site-scanner/saas-client.php:944
+#, php-format
+msgid "Progress: %1$d of %2$d pages scanned."
+msgstr "İlerleme: %1$d sayfa %2$d sayfadan tarandı."
+
+#. translators: %d: number of failed pages
+#: inc/modules/site-scanner/saas-client.php:954
+#, php-format
+msgid "%d page(s) failed to scan."
+msgstr "%d sayfa taranamadı."
+
+#: inc/modules/site-scanner/saas-client.php:977
+msgid "Scan completed!"
+msgstr "Tarama tamamlandı!"
+
+#: inc/modules/site-scanner/saas-client.php:996
+msgid "Scan failed on server."
+msgstr "Sunucuda tarama başarısız oldu."
+
+#: inc/modules/site-scanner/saas-client.php:1002
+msgid "Scan is in progress. Checking again…"
+msgstr "Tarama devam ediyor. Tekrar kontrol ediliyor…"
+
+#: inc/modules/site-scanner/saas-client.php:1043
+msgid "Quota is not available on localhost or development sites."
+msgstr "Kotaya localhost veya geliştirme sitelerinde erişilemez."
+
+#: inc/modules/site-scanner/saas-client.php:1056
+msgid "Scanner credentials are not yet issued. Run your first scan to register."
+msgstr "Tarayıcı kimlik bilgileri henüz verilmedi. Kayıt için ilk taramanızı yapın."
+
+#: inc/modules/site-scanner/saas-client.php:1102
+msgid "Unexpected response from server."
+msgstr "Sunucudan beklenmeyen yanıt alındı."
+
+#: inc/modules/site-scanner/saas-client.php:1149
+msgid "Authentication required."
+msgstr "Kimlik doğrulama gerekli."
+
+#: inc/modules/site-scanner/saas-client.php:1159
+msgid "Failed to fetch quota."
+msgstr "Kota alınamadı."
+
+#: inc/modules/site-scanner/saas-client.php:1476
+msgid "Another registration is already in progress. Please try again in a moment."
+msgstr "Başka bir kayıt işlemi zaten devam ediyor. Lütfen biraz sonra tekrar deneyin."
+
+#: inc/modules/site-scanner/saas-client.php:1506
+msgid "Could not determine site domain."
+msgstr "Site alan adı belirlenemedi."
+
+#: inc/modules/site-scanner/saas-client.php:1518
+msgid "Could not generate a secure registration nonce. Please retry."
+msgstr "Güvenli bir kayıt nonce'u oluşturulamadı. Lütfen tekrar deneyin."
+
+#: inc/modules/site-scanner/saas-client.php:1546
+msgid "Failed to encode registration request."
+msgstr "Kayıt isteği kodlanamadı."
+
+#. translators: %s: error message from the network call
+#: inc/modules/site-scanner/saas-client.php:1568
+#, php-format
+msgid "Could not reach the SureCookie service: %s"
+msgstr "SureCookie servisine ulaşılamadı: %s"
+
+#: inc/modules/site-scanner/saas-client.php:1582
+msgid "Registration could not be initiated."
+msgstr "Kayıt başlatılamadı."
+
+#: inc/modules/site-scanner/saas-client.php:1597
+msgid "Received an invalid verification token. Please retry."
+msgstr "Geçersiz doğrulama belirteci alındı. Lütfen tekrar deneyin."
+
+#: inc/modules/site-scanner/saas-client.php:1615
+msgid "Failed to encode verification completion."
+msgstr "Doğrulama tamamlanması kodlanamadı."
+
+#: inc/modules/site-scanner/saas-client.php:1899
+msgid "Failed to fetch results."
+msgstr "Sonuçlar alınamadı."
+
+#: inc/services/cookie-category-service.php:54
+msgid "Cookie categories retrieved successfully."
+msgstr "Çerez kategorileri başarıyla alındı."
+
+#: inc/services/cookie-category-service.php:75
+msgid "Category name is required."
+msgstr "Kategori adı gereklidir."
+
+#: inc/services/cookie-category-service.php:86
+msgid "A category with this name already exists."
+msgstr "Bu ada sahip bir kategori zaten mevcut."
+
+#: inc/services/cookie-category-service.php:103
+msgid "Category created successfully."
+msgstr "Kategori başarıyla oluşturuldu."
+
+#: inc/services/cookie-category-service.php:124
+#: inc/services/cookie-category-service.php:196
+msgid "Category ID is required."
+msgstr "Kategori Kimliği gereklidir."
+
+#: inc/services/cookie-category-service.php:134
+#: inc/services/cookie-category-service.php:215
+msgid "Category not found."
+msgstr "Kategori bulunamadı."
+
+#: inc/services/cookie-category-service.php:166
+msgid "Category updated successfully."
+msgstr "Kategori başarıyla güncellendi."
+
+#: inc/services/cookie-category-service.php:205
+msgid "Default categories cannot be deleted."
+msgstr "Varsayılan kategoriler silinemez."
+
+#: inc/services/cookie-category-service.php:307
+msgid "Category deleted successfully."
+msgstr "Kategori başarıyla silindi."
+
+#: inc/services/cookie-service.php:60
+#: inc/services/cookie-service.php:355
+msgid "No scanned cookies found."
+msgstr "Tarama yapılmış çerez bulunamadı."
+
+#: inc/services/cookie-service.php:84
+msgid "Scanned cookies retrieved successfully."
+msgstr "Tarama yapılmış çerezler başarıyla alındı."
+
+#: inc/services/cookie-service.php:101
+msgid "Custom cookies retrieved successfully."
+msgstr "Özel çerezler başarıyla alındı."
+
+#: inc/services/cookie-service.php:132
+#: inc/services/cookie-service.php:323
+msgid "Cookie name is required."
+msgstr "Çerez adı gereklidir."
+
+#: inc/services/cookie-service.php:139
+msgid "Cookie category is required."
+msgstr "Çerez kategorisi gereklidir."
+
+#: inc/services/cookie-service.php:154
+msgid "A cookie with this name already exists."
+msgstr "Bu isimde bir çerez zaten mevcut."
+
+#: inc/services/cookie-service.php:191
+msgid "Custom cookie created successfully."
+msgstr "Özel çerez başarıyla oluşturuldu."
+
+#: inc/services/cookie-service.php:210
+#: inc/services/cookie-service.php:280
+msgid "Cookie ID is required."
+msgstr "Çerez ID'si gereklidir."
+
+#: inc/services/cookie-service.php:219
+#: inc/services/cookie-service.php:289
+msgid "Cookie not found."
+msgstr "Çerez bulunamadı."
+
+#: inc/services/cookie-service.php:262
+msgid "Custom cookie updated successfully."
+msgstr "Özel çerez başarıyla güncellendi."
+
+#: inc/services/cookie-service.php:299
+msgid "Custom cookie deleted successfully."
+msgstr "Özel çerez başarıyla silindi."
+
+#: inc/services/cookie-service.php:330
+msgid "Current category is required."
+msgstr "Mevcut kategori gereklidir."
+
+#: inc/services/cookie-service.php:337
+#: inc/services/cookie-service.php:414
+msgid "New category is required."
+msgstr "Yeni kategori gereklidir."
+
+#: inc/services/cookie-service.php:345
+msgid "Cookie is already in the selected category."
+msgstr "Çerez zaten seçilen kategoride."
+
+#: inc/services/cookie-service.php:363
+msgid "Current category not found in scanned cookies."
+msgstr "Mevcut kategori taranan çerezlerde bulunamadı."
+
+#: inc/services/cookie-service.php:372
+msgid "Cookie not found in the specified category."
+msgstr "Belirtilen kategoride çerez bulunamadı."
+
+#: inc/services/cookie-service.php:384
+msgid "Cookie category updated successfully."
+msgstr "Çerez kategorisi başarıyla güncellendi."
+
+#: inc/utils/options.php:48
+msgid "We use cookies to improve your experience and understand how you use our site. You can review your choices at any time."
+msgstr "Deneyiminizi geliştirmek ve sitemizi nasıl kullandığınızı anlamak için çerezler kullanıyoruz. Tercihlerinizi istediğiniz zaman gözden geçirebilirsiniz."
+
+#: inc/utils/options.php:62
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Only Essential"
+msgstr "Yalnızca Gerekli"
+
+#: inc/utils/options.php:71
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Accept All"
+msgstr "Tümünü Kabul Et"
+
+#: inc/utils/options.php:75
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Decline"
+msgstr "Reddet"
+
+#: inc/utils/options.php:79
+msgid "Cookie Settings"
+msgstr "Çerez Ayarları"
+
+#: inc/utils/options.php:142
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: inc/utils/options.php:146
+msgid "Privacy Preference"
+msgstr "Gizlilik Tercihi"
+
+#: inc/utils/options.php:150
+msgid "We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience."
+msgstr "İçeriği kişiselleştirmeye, reklamları uyarlamaya ve ölçmeye ve daha iyi bir deneyim sunmaya yardımcı olmak için çerezler ve benzer teknolojiler kullanıyoruz."
+
+#: inc/utils/options.php:174
+#: build/admin.js:4
+#: build/admin.js:75
+msgid "Cookie Preferences"
+msgstr "Çerez Tercihleri"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Accepted"
+msgstr "Kabul Edildi"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Partially Accepted"
+msgstr "Kısmen Kabul Edildi"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Declined"
+msgstr "Reddedildi"
+
+#: build/admin.js:1
+msgid "Failed to load consent logs"
+msgstr "Onay kayıtları yüklenemedi"
+
+#: build/admin.js:1
+msgid "Failed to load conflicting plugins"
+msgstr "Çakışan eklentiler yüklenemedi"
+
+#: build/admin.js:1
+msgid "Failed to load cookie categories"
+msgstr "Çerez kategorileri yüklenemedi"
+
+#: build/admin.js:1
+msgid "Scan cancelled."
+msgstr "Tarama iptal edildi."
+
+#: build/admin.js:1
+msgid "Failed to cancel scan."
+msgstr "Tarama iptali başarısız oldu."
+
+#: build/admin.js:1
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "Failed to load settings"
+msgstr "Ayarlar yüklenemedi"
+
+#: build/admin.js:1
+msgid "Failed to save settings"
+msgstr "Ayarlar kaydedilemedi"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "30 days"
+msgstr "30 gün"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "60 days"
+msgstr "60 gün"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "90 days"
+msgstr "90 gün"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "365 days"
+msgstr "365 gün"
+
+#: build/admin.js:1
+#: build/admin.js:3
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "Never"
+msgstr "Asla"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Cookie Scanner"
+msgstr "Çerez Tarayıcı"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "All Cookies"
+msgstr "Tüm Çerezler"
+
+#: build/admin.js:2
+msgid "Banner"
+msgstr "Afiş"
+
+#: build/admin.js:2
+msgid "Content"
+msgstr "İçerik"
+
+#: build/admin.js:2
+msgid "Layout"
+msgstr "Düzen"
+
+#: build/admin.js:2
+#: build/admin.js:78
+msgid "Visibility"
+msgstr "Görünürlük"
+
+#: build/admin.js:2
+#: build/admin.js:75
+msgid "Re-Consent"
+msgstr "Yeniden Onay"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "Custom CSS"
+msgstr "Özel CSS"
+
+#: build/admin.js:2
+msgid "Google Consent Mode"
+msgstr "Google Onay Modu"
+
+#: build/admin.js:2
+msgid "Additional Consent"
+msgstr "Ek Onay"
+
+#: build/admin.js:2
+#: build/admin.js:21
+msgid "Consent Logs"
+msgstr "Onay Kayıtları"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication timeout. Please try again."
+msgstr "Kimlik doğrulama süresi doldu. Lütfen tekrar deneyin."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful!"
+msgstr "Kimlik doğrulama başarılı!"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "An error occurred during authentication"
+msgstr "Kimlik doğrulama sırasında bir hata oluştu"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication cancelled. Please try again."
+msgstr "Kimlik doğrulama iptal edildi. Lütfen tekrar deneyin."
+
+#: inc/modules/assisted-scan/collector.php:329
+#: build/admin.js:2
+#: build/admin.js:3
+#: build/admin.js:28
+#: build/admin.js:41
+msgid "Cancel"
+msgstr "İptal"
+
+#: build/admin.js:2
+#: build/admin.js:5
+#: build/admin.js:6
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Delete"
+msgstr "Sil"
+
+#: build/admin.js:2
+#: build/admin.js:28
+#: build/admin.js:83
+msgid "Save"
+msgstr "Kaydet"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "No options available"
+msgstr "Seçenek yok"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful"
+msgstr "Kimlik doğrulama başarılı"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication completed successfully. Closing tab in 3 seconds…"
+msgstr "Kimlik doğrulama başarıyla tamamlandı. Sekme 3 saniye içinde kapanıyor…"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication failed"
+msgstr "Kimlik doğrulama başarısız"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Please return to the SureCookie dashboard and try again."
+msgstr "Lütfen SureCookie kontrol paneline dönün ve tekrar deneyin."
+
+#: build/admin.js:2
+#: build/onboarding.js:6
+msgid "Let's Get Started"
+msgstr "Başlayalım"
+
+#: build/admin.js:2
+msgid "Automatic Cookie Detection"
+msgstr "Otomatik Çerez Tespiti"
+
+#: build/admin.js:2
+msgid "Smart Categorization"
+msgstr "Akıllı Kategorilendirme"
+
+#: build/admin.js:2
+msgid "Compliance Recommendations"
+msgstr "Uyumluluk Önerileri"
+
+#: build/admin.js:2
+msgid "Connect to scan your website"
+msgstr "Web sitenizi taramak için bağlanın"
+
+#: build/admin.js:2
+msgid "Connect your SureCookie account to automatically detect cookies on your website, categorize them, and get compliance recommendations."
+msgstr "SureCookie hesabınızı bağlayarak web sitenizdeki çerezleri otomatik olarak tespit edin, kategorilere ayırın ve uyumluluk önerileri alın."
+
+#: build/admin.js:2
+msgid "Learn more"
+msgstr "Daha fazla bilgi"
+
+#: build/admin.js:2
+msgid "Free Plan Limit Reached"
+msgstr "Ücretsiz Plan Limiti Doldu"
+
+#: build/admin.js:2
+#: build/admin.js:6
+#: build/admin.js:47
+#: build/admin.js:53
+#: build/admin.js:63
+#: build/admin.js:75
+#: build/onboarding.js:7
+msgid "Upgrade Now"
+msgstr "Şimdi Yükselt"
+
+#: build/admin.js:2
+msgid "Unlock this feature"
+msgstr "Bu özelliğin kilidini aç"
+
+#: build/admin.js:2
+msgid "WordPress updates API not available."
+msgstr "WordPress güncellemeleri API'si kullanılamıyor."
+
+#: build/admin.js:2
+msgid "Plugin activation failed."
+msgstr "Eklenti etkinleştirme başarısız oldu."
+
+#: build/admin.js:2
+msgid "Plugin installation failed."
+msgstr "Eklenti kurulumu başarısız oldu."
+
+#: build/admin.js:2
+msgid "Plugin installed and activated successfully."
+msgstr "Eklenti başarıyla yüklendi ve etkinleştirildi."
+
+#: build/admin.js:2
+msgid "Failed to install and activate plugin."
+msgstr "Eklenti yüklenip etkinleştirilemedi."
+
+#: build/admin.js:2
+msgid "Failed to activate plugin."
+msgstr "Eklenti etkinleştirilemedi."
+
+#: build/admin.js:2
+msgid "Install and Activate"
+msgstr "Yükle ve Etkinleştir"
+
+#: build/admin.js:2
+msgid "Activate"
+msgstr "Etkinleştir"
+
+#: build/admin.js:2
+msgid "Activated"
+msgstr "Etkinleştirildi"
+
+#: build/admin.js:2
+msgid "Settings saved!"
+msgstr "Ayarlar kaydedildi!"
+
+#: build/admin.js:2
+msgid "Your settings have been successfully saved."
+msgstr "Ayarlarınız başarıyla kaydedildi."
+
+#: build/admin.js:2
+msgid "Save failed!"
+msgstr "Kaydetme başarısız!"
+
+#: build/admin.js:2
+msgid "There was an error saving your settings. Please try again."
+msgstr "Ayarlarınız kaydedilirken bir hata oluştu. Lütfen tekrar deneyin."
+
+#: build/admin.js:2
+msgid "Saving…"
+msgstr "Kaydediliyor…"
+
+#: build/admin.js:2
+msgid "Banner Content"
+msgstr "Banner İçeriği"
+
+#: build/admin.js:2
+msgid "Configure the text content that appears in your cookie consent banner and preference modal"
+msgstr "Çerez onay banner'ınızda ve tercih modalinde görünen metin içeriğini yapılandırın"
+
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "An error occurred while loading settings. Please refresh the page to try again."
+msgstr "Ayarlar yüklenirken bir hata oluştu. Lütfen tekrar denemek için sayfayı yenileyin."
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner Switch"
+msgstr "Çerez Banner Anahtarını Etkinleştir"
+
+#: build/admin.js:2
+msgid "Show cookie consent banner to comply with privacy regulations."
+msgstr "Gizlilik düzenlemelerine uymak için çerez onay banner'ını göster."
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner"
+msgstr "Çerez Banner'ını Etkinleştir"
+
+#: build/admin.js:2
+msgid "Consent Banner"
+msgstr "Onay Banner'ı"
+
+#: build/admin.js:2
+msgid "Preference Modal"
+msgstr "Tercih Modalı"
+
+#: build/admin.js:2
+msgid "Banner Heading"
+msgstr "Banner Başlığı"
+
+#: build/admin.js:2
+msgid "Cookie Notice (optional)"
+msgstr "Çerez Bildirimi (isteğe bağlı)"
+
+#: build/admin.js:2
+msgid "Banner Message"
+msgstr "Banner Mesajı"
+
+#: build/admin.js:2
+msgid "Enable Accept All Button"
+msgstr "Tümünü Kabul Et Butonunu Etkinleştir"
+
+#: build/admin.js:2
+msgid "Show the \"Accept All\" button on the consent banner. When off, the button is removed from the banner and from the Button Order list."
+msgstr "Onay banner'ında \"Tümünü Kabul Et\" butonunu göster. Kapalıysa, buton banner'dan ve Buton Sırası listesinden kaldırılır."
+
+#: build/admin.js:2
+msgid "Preference Modal Title"
+msgstr "Tercih Modalı Başlığı"
+
+#: build/admin.js:2
+msgid "Preference Modal Description"
+msgstr "Tercih Modalı Açıklaması"
+
+#: build/admin.js:2
+msgid "Preference modal description cannot be empty."
+msgstr "Tercih modalı açıklaması boş olamaz."
+
+#: build/admin.js:2
+msgid "Banner message cannot be empty."
+msgstr "Banner mesajı boş olamaz."
+
+#: build/admin.js:2
+msgid "Button Order"
+msgstr "Buton Sırası"
+
+#: build/admin.js:2
+msgid "Drag and drop to reorder buttons. This order can be overridden per Geographic Targeting Rule."
+msgstr "Butonların sırasını değiştirmek için sürükleyip bırakın. Bu sıra Coğrafi Hedefleme Kuralına göre geçersiz kılınabilir."
+
+#: build/admin.js:2
+msgid "Banner Layout"
+msgstr "Banner Düzeni"
+
+#: build/admin.js:2
+msgid "Configure how and where your cookie banner appears on your website"
+msgstr "Çerez banner'ınızın web sitenizde nasıl ve nerede görüneceğini yapılandırın"
+
+#: build/admin.js:2
+msgid "Upload Logo"
+msgstr "Logo Yükle"
+
+#: build/admin.js:2
+msgid "Logo"
+msgstr "Logo"
+
+#: build/admin.js:2
+msgid "Select Logo"
+msgstr "Logo Seç"
+
+#: build/admin.js:2
+msgid "Use this logo"
+msgstr "Bu logoyu kullan"
+
+#: build/admin.js:2
+msgid "Banner Type"
+msgstr "Banner Türü"
+
+#: build/admin.js:2
+msgid "Floating Banner"
+msgstr "Yüzen Banner"
+
+#: build/admin.js:2
+msgid "Full-width Banner"
+msgstr "Tam Genişlik Banner"
+
+#: build/admin.js:2
+msgid "Banner Width"
+msgstr "Banner Genişliği"
+
+#: build/admin.js:2
+msgid "px"
+msgstr "px"
+
+#: build/admin.js:2
+msgid "Position"
+msgstr "Konum"
+
+#: build/admin.js:2
+msgid "Bottom Left"
+msgstr "Alt Sol"
+
+#: build/admin.js:2
+msgid "Bottom Center"
+msgstr "Alt Orta"
+
+#: build/admin.js:2
+msgid "Bottom Right"
+msgstr "Alt Sağ"
+
+#: build/admin.js:2
+msgid "Middle"
+msgstr "Orta"
+
+#: build/admin.js:2
+msgid "Top"
+msgstr "Üst"
+
+#: build/admin.js:2
+msgid "Bottom"
+msgstr "Alt"
+
+#: build/admin.js:2
+msgid "Banner Animation"
+msgstr "Banner Animasyonu"
+
+#: build/admin.js:2
+msgid "Fade"
+msgstr "Solma"
+
+#: build/admin.js:2
+msgid "Slide"
+msgstr "Kaydırma"
+
+#: build/admin.js:2
+msgid "Color Palette: <span></span>"
+msgstr "Renk Paleti: <span></span>"
+
+#: build/admin.js:2
+#: build/admin.js:4
+msgid "Default"
+msgstr "Varsayılan"
+
+#: build/admin.js:4
+msgid "Consent Details"
+msgstr "Onay Detayları"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#: build/admin.js:4
+msgid "No data available."
+msgstr "Veri yok."
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Actions"
+msgstr "Eylemler"
+
+#: build/admin.js:4
+msgid "Consent logs"
+msgstr "Onay kayıtları"
+
+#: build/admin.js:4
+msgid "Date & Time"
+msgstr "Tarih & Saat"
+
+#: build/admin.js:4
+msgid "IP Address"
+msgstr "IP Adresi"
+
+#: build/admin.js:4
+msgid "Country"
+msgstr "Ülke"
+
+#: build/admin.js:4
+#: build/admin.js:76
+msgid "Status"
+msgstr "Durum"
+
+#: build/admin.js:4
+msgid "Download PDF"
+msgstr "PDF İndir"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:5
+#, js-format
+msgid "Download PDF for consent log from %s"
+msgstr "%s tarihli onay kaydı için PDF indir"
+
+#: build/admin.js:4
+msgid "Session Summary"
+msgstr "Oturum Özeti"
+
+#: build/admin.js:4
+msgid "Field"
+msgstr "Alan"
+
+#: build/admin.js:4
+msgid "Value"
+msgstr "Değer"
+
+#: build/admin.js:4
+msgid "Session ID"
+msgstr "Oturum Kimliği"
+
+#: build/admin.js:4
+msgid "Total Records"
+msgstr "Toplam Kayıt"
+
+#: build/admin.js:4
+msgid "Date Range"
+msgstr "Tarih Aralığı"
+
+#: build/admin.js:4
+msgid "Consent Record"
+msgstr "Onay Kaydı"
+
+#: build/admin.js:4
+msgid "Log ID"
+msgstr "Günlük Kimliği"
+
+#: build/admin.js:4
+msgid "Timestamp"
+msgstr "Zaman Damgası"
+
+#: build/admin.js:4
+msgid "Consent Status"
+msgstr "Onay Durumu"
+
+#: build/admin.js:4
+msgid "Consent Preset"
+msgstr "Onay Ön Ayarı"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Category"
+msgstr "Kategori"
+
+#: build/admin.js:4
+msgid "Legal Information"
+msgstr "Yasal Bilgiler"
+
+#: build/admin.js:4
+msgid "Date of Generation"
+msgstr "Oluşturulma Tarihi"
+
+#: build/admin.js:4
+msgid "Website"
+msgstr "Web Sitesi"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:6
+#, js-format
+msgid "Delete consent log from %s"
+msgstr "%s tarihli onay kaydını sil"
+
+#: build/admin.js:6
+msgid "Consent log is empty"
+msgstr "Onay kaydı boş"
+
+#: build/admin.js:6
+msgid "Your consent logs will be displayed here once users interact with the banner"
+msgstr "Kullanıcılar banner ile etkileşime girdikçe onay kayıtlarınız burada görüntülenecektir"
+
+#: build/admin.js:6
+msgid "Consent Logging Disabled"
+msgstr "Onay Kaydı Devre Dışı"
+
+#: build/admin.js:6
+msgid "Enable consent logging to view analytics data and recent consent logs."
+msgstr "Analiz verilerini ve son onay kayıtlarını görüntülemek için onay kaydını etkinleştirin."
+
+#: build/admin.js:3
+#: build/admin.js:6
+msgid "Enable Consent Logging"
+msgstr "Onay Kaydını Etkinleştir"
+
+#: build/admin.js:6
+msgid "<span></span> Selected"
+msgstr "<span></span> Seçildi"
+
+#: build/admin.js:6
+msgid "Deleting…"
+msgstr "Siliniyor…"
+
+#: build/admin.js:6
+msgid "All Actions"
+msgstr "Tüm İşlemler"
+
+#: build/admin.js:6
+msgid "All Countries"
+msgstr "Tüm Ülkeler"
+
+#: build/admin.js:6
+msgid "IP address or Session ID…"
+msgstr "IP adresi veya Oturum Kimliği…"
+
+#: build/admin.js:6
+msgid "Clear Filters"
+msgstr "Filtreleri Temizle"
+
+#: build/admin.js:6
+msgid "View All Logs"
+msgstr "Tüm Kayıtları Görüntüle"
+
+#: build/admin.js:6
+msgid "Consents"
+msgstr "Onaylar"
+
+#: build/admin.js:6
+msgid "No Consents Yet"
+msgstr "Henüz Onay Yok"
+
+#: build/admin.js:6
+msgid "Data will appear here once visitors interact with the cookie banner."
+msgstr "Ziyaretçiler çerez bannerı ile etkileşime girdikçe veriler burada görünecektir."
+
+#. translators: %s: log/logs
+#: build/admin.js:9
+#, js-format
+msgid "Failed to delete consent %s"
+msgstr "Onay %s silinemedi"
+
+#: build/admin.js:9
+#: build/admin.js:12
+#: build/admin.js:18
+msgid "log"
+msgid_plural "logs"
+msgstr[0] "kayıt"
+msgstr[1] "kayıtlar"
+
+#. translators: %s: log/logs
+#: build/admin.js:12
+#, js-format
+msgid "Successfully deleted consent %s"
+msgstr "Onay %s başarıyla silindi"
+
+#: build/admin.js:12
+msgid "Failed to delete consent log"
+msgstr "Onay kaydı silinemedi"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Delete Consent Log"
+msgstr "Onay Kaydını Sil"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Are you sure you want to delete this consent log? This action cannot be undone."
+msgstr "Bu onay kaydını silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+
+#: build/admin.js:15
+msgid "Delete Selected Consent Logs"
+msgstr "Seçilen Onay Kayıtlarını Sil"
+
+#. translators: %s: the log string pluralized.
+#: build/admin.js:18
+#, js-format
+msgid "Are you sure you want to delete the selected consent %s? This action cannot be undone."
+msgstr "Seçilen onay %s silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+
+#: build/admin.js:21
+msgid "Failed to load countries"
+msgstr "Ülkeler yüklenemedi"
+
+#: build/admin.js:21
+msgid "Page"
+msgstr "Sayfa"
+
+#: build/admin.js:21
+msgid "of"
+msgstr "-"
+
+#: build/admin.js:21
+msgid "Consent Logs Pagination"
+msgstr "Onay Kayıtları Sayfalaması"
+
+#: build/admin.js:2
+msgid "Consent Duration (in days)"
+msgstr "Onay Süresi (gün olarak)"
+
+#: build/admin.js:2
+msgid "Please enter a value between 1 and 365 days."
+msgstr "Lütfen 1 ile 365 gün arasında bir değer girin."
+
+#: build/admin.js:2
+msgid "How long user consent remains valid before requiring renewal (1–365 days)."
+msgstr "Kullanıcı onayının yenilenmeden önce geçerli kalma süresi (1–365 gün)."
+
+#: build/admin.js:3
+msgid "Enable Consent Logging Switch"
+msgstr "Onay Kaydı Anahtarı"
+
+#: build/admin.js:3
+msgid "Store consent records in database for compliance reporting and analytics."
+msgstr "Uyum raporlaması ve analiz için onay kayıtlarını veritabanında saklayın."
+
+#: build/admin.js:3
+msgid "Clear Logs After"
+msgstr "Kayıtları Temizle"
+
+#: build/admin.js:3
+msgid "Select retention period"
+msgstr "Saklama süresini seçin"
+
+#: build/admin.js:3
+msgid "Automatically delete consent logs older than the selected period."
+msgstr "Seçilen süreden daha eski onay kayıtlarını otomatik olarak silin."
+
+#: build/admin.js:53
+msgid "SureCookie admin menu location toggle"
+msgstr "SureCookie yönetici menüsü konumu anahtarı"
+
+#: build/admin.js:53
+msgid "Hide SureCookie branding toggle"
+msgstr "SureCookie markasını gizleme anahtarı"
+
+#: build/admin.js:53
+msgid "Hide SureCookie Branding"
+msgstr "SureCookie Markasını Gizle"
+
+#: build/admin.js:53
+msgid "Remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "Onay bannerı ve tercih penceresinden \"Powered by SureCookie\" metnini kaldırın."
+
+#: build/admin.js:53
+msgid "to remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "Onay bannerı ve tercih penceresinden \"Powered by SureCookie\" metnini kaldırmak için."
+
+#: build/admin.js:3
+msgid "Delete data on uninstall toggle"
+msgstr "Kaldırma sırasında verileri silme anahtarı"
+
+#: build/admin.js:3
+msgid "Delete Data on Uninstall"
+msgstr "Kaldırma sırasında Verileri Sil"
+
+#: build/admin.js:3
+msgid "When enabled, all plugin data including consent logs, settings, and scan results will be permanently deleted when you uninstall SureCookie. Leave disabled to preserve data for compliance records or future reinstallation."
+msgstr "Etkinleştirildiğinde, onay kayıtları, ayarlar ve tarama sonuçları dahil olmak üzere tüm eklenti verileri SureCookie kaldırıldığında kalıcı olarak silinecektir. Uyumluluk kayıtları veya gelecekteki yeniden yükleme için verileri korumak istiyorsanız devre dışı bırakın."
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie toggle"
+msgstr "SureCookie'ye Katkıda Bulun anahtarı"
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie"
+msgstr "SureCookie'ye Katkıda Bulun"
+
+#: build/admin.js:53
+msgid "Help shape the future of SureCookie. Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions."
+msgstr "SureCookie'nin geleceğini şekillendirmeye yardımcı olun. Eklentiyi nasıl kullandığınızı paylaşın, böylece önemli özellikler geliştirebilir, sorunları daha hızlı çözebilir ve daha akıllı kararlar alabiliriz."
+
+#: build/admin.js:53
+#: build/admin.js:84
+msgid "Learn More"
+msgstr "Daha Fazla Bilgi"
+
+#: build/admin.js:3
+msgid "Compliance Notice"
+msgstr "Uyumluluk Bildirimi"
+
+#: build/admin.js:3
+msgid "Consent logs may be required to demonstrate proof of consent under GDPR Article 7(1). Consider exporting consent records before uninstalling."
+msgstr "Onay kayıtları, GDPR Madde 7(1) kapsamında onay kanıtı göstermek için gerekebilir. Kaldırmadan önce onay kayıtlarını dışa aktarmayı düşünün."
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/admin.js:76
+#: build/public.js:4
+msgid "Name"
+msgstr "İsim"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Provider"
+msgstr "Sağlayıcı"
+
+#: build/admin.js:25
+msgid "Duration (Days)"
+msgstr "Süre (Gün)"
+
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Type"
+msgstr "Tür"
+
+#: build/admin.js:23
+#: build/admin.js:78
+#: build/onboarding.js:3
+msgid "Uncategorized"
+msgstr "Kategorize Edilmemiş"
+
+#: build/admin.js:21
+#: build/onboarding.js:1
+msgid "Change Category"
+msgstr "Kategoriyi Değiştir"
+
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Edit"
+msgstr "Düzenle"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Scanned"
+msgstr "Taranan"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Custom"
+msgstr "Özel"
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete the cookie \"<strong></strong>\"? This action cannot be undone."
+msgstr "\"<strong></strong>\" çerezini silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete this cookie? This action cannot be undone."
+msgstr "Bu çerezi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+
+#: build/admin.js:25
+msgid "Delete Custom Cookie"
+msgstr "Özel Çerezi Sil"
+
+#: build/admin.js:25
+msgid "Change Cookie Category"
+msgstr "Çerez Kategorisini Değiştir"
+
+#: build/admin.js:25
+msgid "Update Category"
+msgstr "Kategoriyi Güncelle"
+
+#: build/admin.js:25
+msgid "Edit Cookie"
+msgstr "Çerezi Düzenle"
+
+#: build/admin.js:25
+msgid "Update Cookie"
+msgstr "Çerezi Güncelle"
+
+#: build/admin.js:25
+msgid "Add New Cookie"
+msgstr "Yeni Çerez Ekle"
+
+#: build/admin.js:25
+msgid "Save Cookie"
+msgstr "Çerezi Kaydet"
+
+#: build/admin.js:25
+msgid "e.g., my_custom_cookie"
+msgstr "örneğin, my_custom_cookie"
+
+#: build/admin.js:25
+#: build/admin.js:28
+#: build/admin.js:76
+msgid "Select a category"
+msgstr "Bir kategori seçin"
+
+#: build/admin.js:25
+msgid "No categories available. Please create a category first."
+msgstr "Mevcut kategori yok. Lütfen önce bir kategori oluşturun."
+
+#: build/admin.js:25
+msgid "e.g., 30"
+msgstr "örneğin, 30"
+
+#: build/admin.js:25
+msgid "e.g., Your Company Name"
+msgstr "örneğin, Şirketinizin Adı"
+
+#: build/admin.js:25
+msgid "e.g., .example.com"
+msgstr "örneğin, .example.com"
+
+#: build/admin.js:25
+msgid "Description"
+msgstr "Açıklama"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie…"
+msgstr "Bu çerez için bir açıklama girin…"
+
+#: build/admin.js:25
+msgid "Describe the purpose of this cookie…"
+msgstr "Bu çerezin amacını açıklayın…"
+
+#: build/admin.js:25
+msgid "Category Name"
+msgstr "Kategori Adı"
+
+#: build/admin.js:25
+msgid "e.g., Performance Cookies"
+msgstr "örneğin, Performans Çerezleri"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie category…"
+msgstr "Bu çerez kategorisi için bir açıklama girin…"
+
+#. translators: %1$s is the category name, %2$s is the number of cookies
+#: build/admin.js:28
+#, js-format
+msgid "Are you sure you want to delete this cookie category? <br/> The category \"%1$s\" has %2$s assigned to it:"
+msgstr "Bu çerez kategorisini silmek istediğinizden emin misiniz? <br/> \"%1$s\" kategorisine %2$s atanmıştır:"
+
+#: build/admin.js:28
+msgid "cookie"
+msgid_plural "cookies"
+msgstr[0] "çerez"
+msgstr[1] "çerezler"
+
+#: build/admin.js:28
+msgid "Are you sure you want to delete this cookie category? This action cannot be undone."
+msgstr "Bu çerez kategorisini silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+
+#: build/admin.js:28
+msgid "Delete Cookie Category"
+msgstr "Çerez Kategorisini Sil"
+
+#: build/admin.js:28
+msgid "Keep cookies when deleting category"
+msgstr "Kategori silinirken çerezleri tut"
+
+#: build/admin.js:28
+msgid "Keep cookies"
+msgstr "Çerezleri tut"
+
+#: build/admin.js:28
+#: build/onboarding.js:4
+msgid "Please enter a category name"
+msgstr "Lütfen bir kategori adı girin"
+
+#: build/admin.js:28
+msgid "No cookie categories found. Click \"Add New Category\" to create one."
+msgstr "Çerez kategorisi bulunamadı. Oluşturmak için \"Yeni Kategori Ekle\"ye tıklayın."
+
+#: build/admin.js:28
+msgid "Edit Category"
+msgstr "Kategoriyi Düzenle"
+
+#: build/admin.js:28
+msgid "Add New Category"
+msgstr "Yeni Kategori Ekle"
+
+#: build/admin.js:28
+#: build/admin.js:43
+msgid "Manage Categories"
+msgstr "Kategorileri Yönet"
+
+#: build/admin.js:28
+msgid "Manage cookie categories that appear in the privacy preferences modal"
+msgstr "Gizlilik tercihleri modülünde görünen çerez kategorilerini yönetin"
+
+#: build/admin.js:28
+msgid "Add Category"
+msgstr "Kategori Ekle"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please enter a cookie name"
+msgstr "Lütfen bir çerez adı girin"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please select a category"
+msgstr "Lütfen bir kategori seçin"
+
+#: build/admin.js:41
+msgid "Failed to load custom cookies"
+msgstr "Özel çerezler yüklenemedi"
+
+#: build/admin.js:41
+msgid "Failed to create custom cookie"
+msgstr "Özel çerez oluşturulamadı"
+
+#: build/admin.js:41
+msgid "Custom cookie created successfully"
+msgstr "Özel çerez başarıyla oluşturuldu"
+
+#: build/admin.js:41
+msgid "Failed to update custom cookie"
+msgstr "Özel çerez güncellenemedi"
+
+#: build/admin.js:41
+msgid "Custom cookie updated successfully"
+msgstr "Özel çerez başarıyla güncellendi"
+
+#: build/admin.js:41
+msgid "Failed to delete custom cookie"
+msgstr "Özel çerez silinemedi"
+
+#: build/admin.js:41
+msgid "Custom cookie deleted successfully"
+msgstr "Özel çerez başarıyla silindi"
+
+#: build/admin.js:41
+msgid "Failed to update cookie category"
+msgstr "Çerez kategorisi güncellenemedi"
+
+#: build/admin.js:41
+msgid "Cookie category updated successfully"
+msgstr "Çerez kategorisi başarıyla güncellendi"
+
+#: build/admin.js:42
+msgid "Failed to create category"
+msgstr "Kategori oluşturulamadı"
+
+#: build/admin.js:42
+msgid "Category created successfully"
+msgstr "Kategori başarıyla oluşturuldu"
+
+#: build/admin.js:42
+msgid "Failed to update category"
+msgstr "Kategori güncellenemedi"
+
+#: build/admin.js:42
+msgid "Category updated successfully"
+msgstr "Kategori başarıyla güncellendi"
+
+#: build/admin.js:42
+msgid "Failed to delete category"
+msgstr "Kategori silinemedi"
+
+#: build/admin.js:42
+msgid "Category deleted successfully"
+msgstr "Kategori başarıyla silindi"
+
+#: build/admin.js:43
+msgid "Create and manage all cookies for your website. These cookies will appear in the selected privacy preference categories."
+msgstr "Web siteniz için tüm çerezleri oluşturun ve yönetin. Bu çerezler seçilen gizlilik tercih kategorilerinde görünecektir."
+
+#: build/admin.js:43
+msgid "Manage Cookies"
+msgstr "Çerezleri Yönet"
+
+#: build/admin.js:43
+msgid "New Cookie"
+msgstr "Yeni Çerez"
+
+#: build/admin.js:43
+msgid "All your cookies will be displayed here"
+msgstr "Tüm çerezleriniz burada görüntülenecektir"
+
+#: build/admin.js:43
+msgid "Click the button below to create your first custom cookie"
+msgstr "İlk özel çerezinizi oluşturmak için aşağıdaki düğmeye tıklayın"
+
+#: build/admin.js:43
+msgid "Add custom CSS to style your cookie banner. Changes will be reflected in both preview and frontend after saving."
+msgstr "Çerez banner'ınızı stilize etmek için özel CSS ekleyin. Değişiklikler kaydedildikten sonra hem önizleme hem de ön uçta yansıtılacaktır."
+
+#: build/admin.js:43
+msgid "CSS Code Editor"
+msgstr "CSS Kod Editörü"
+
+#: build/admin.js:43
+msgid "Reset Custom CSS"
+msgstr "Özel CSS'yi Sıfırla"
+
+#: build/admin.js:43
+msgid "Are you sure you want to reset custom CSS? This will remove all your custom styles."
+msgstr "Özel CSS'yi sıfırlamak istediğinizden emin misiniz? Bu, tüm özel stillerinizi kaldıracaktır."
+
+#: build/admin.js:43
+msgid "Custom CSS has been reset. The banner will now use default styles."
+msgstr "Özel CSS sıfırlandı. Banner artık varsayılan stilleri kullanacak."
+
+#: build/admin.js:43
+msgid "Write your custom CSS below. Use <strong>!important</strong> to override inline styles.<br />You can target banner elements using classes like <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, etc."
+msgstr "Aşağıya özel CSS'nizi yazın. Satır içi stilleri geçersiz kılmak için <strong>!important</strong> kullanın.<br />Banner öğelerini <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong> gibi sınıflarla hedefleyebilirsiniz."
+
+#: build/admin.js:43
+#: build/admin.js:60
+msgid "<span></span> Quick Tips:"
+msgstr "<span></span> Hızlı İpuçları:"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-banner</b> to target the cookie banner (works in both preview and frontend)"
+msgstr "<b>.surecookie-banner</b> kullanarak çerez banner'ını hedefleyin (hem önizlemede hem de ön uçta çalışır)"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> for buttons"
+msgstr "<b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> düğmeler için kullanın"
+
+#: build/admin.js:43
+msgid "Important: Use <b>!important</b> to override inline styles"
+msgstr "Önemli: Satır içi stilleri geçersiz kılmak için <b>!important</b> kullanın"
+
+#: build/admin.js:43
+msgid "Changes take effect after clicking \"Save Changes\" below"
+msgstr "Değişiklikler aşağıdaki \"Değişiklikleri Kaydet\"e tıkladıktan sonra geçerli olur"
+
+#: build/admin.js:43
+msgid "Your CSS is saved and will persist after page refresh"
+msgstr "CSS'niz kaydedildi ve sayfa yenilendikten sonra da kalıcı olacaktır"
+
+#: build/admin.js:43
+msgid "Disabled"
+msgstr "Devre Dışı"
+
+#: build/admin.js:43
+msgid "Consent Logging"
+msgstr "Onay Kaydı"
+
+#: build/admin.js:43
+msgid "Enable consent logging to view consent analytics"
+msgstr "Onay analizlerini görüntülemek için onay kaydını etkinleştirin"
+
+#: build/admin.js:43
+msgid "Enable"
+msgstr "Etkinleştir"
+
+#: build/admin.js:43
+msgid "Overview"
+msgstr "Genel Bakış"
+
+#: build/admin.js:43
+msgid "Active"
+msgstr "Aktif"
+
+#: build/admin.js:43
+msgid "Inactive"
+msgstr "Pasif"
+
+#: build/admin.js:43
+msgid "Cookie Banner"
+msgstr "Çerez Banner'ı"
+
+#: build/admin.js:43
+#: build/admin.js:47
+msgid "Configure"
+msgstr "Yapılandır"
+
+#: build/admin.js:44
+#: build/onboarding.js:4
+msgid "Launch Setup Wizard"
+msgstr "Kurulum Sihirbazını Başlat"
+
+#: build/admin.js:44
+msgid "Open Support Ticket"
+msgstr "Destek Talebi Aç"
+
+#: build/admin.js:44
+msgid "Help Center"
+msgstr "Yardım Merkezi"
+
+#: build/admin.js:44
+msgid "Join our Community"
+msgstr "Topluluğumuza Katılın"
+
+#: build/admin.js:44
+msgid "Leave Us a Review"
+msgstr "Bize Yorum Bırakın"
+
+#: build/admin.js:44
+msgid "Quick Access"
+msgstr "Hızlı Erişim"
+
+#: build/admin.js:44
+msgid "Recent Consent Logs"
+msgstr "Son Onay Kayıtları"
+
+#: build/admin.js:44
+msgid "Toggle Preview"
+msgstr "Önizlemeyi Aç/Kapat"
+
+#: build/admin.js:44
+msgid "Click this button to show or hide the cookie consent banner preview."
+msgstr "Çerez onayı banner önizlemesini göstermek veya gizlemek için bu düğmeye tıklayın."
+
+#: build/admin.js:44
+msgid "Click here to start"
+msgstr "Başlamak için buraya tıklayın"
+
+#: build/admin.js:44
+msgid "design your banner"
+msgstr "banner'ınızı tasarlayın"
+
+#: build/admin.js:44
+msgid "Here's a preview of the cookie consent banner."
+msgstr "İşte çerez onayı banner'ının bir önizlemesi."
+
+#: build/admin.js:44
+msgid "You can adjust the content and design settings."
+msgstr "İçerik ve tasarım ayarlarını ayarlayabilirsiniz."
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:47
+#, js-format
+msgid "%1$d of %2$d steps complete"
+msgstr "%1$d / %2$d adım tamamlandı"
+
+#: build/admin.js:47
+msgid "You're all set! SureCookie is ready to protect your site."
+msgstr "Her şey hazır! SureCookie sitenizi korumaya hazır."
+
+#: build/admin.js:47
+#: build/onboarding.js:14
+msgid "Go to Dashboard"
+msgstr "Kontrol Paneline Git"
+
+#: build/admin.js:47
+msgid "Scan Your Site for Cookies"
+msgstr "Sitenizi Çerezler İçin Tara"
+
+#: build/admin.js:47
+msgid "Run the cookie scanner to discover and categorize cookies your site uses."
+msgstr "Sitenizin kullandığı çerezleri keşfetmek ve kategorize etmek için çerez tarayıcısını çalıştırın."
+
+#: build/admin.js:47
+msgid "Scan Now"
+msgstr "Şimdi Tara"
+
+#: build/admin.js:47
+msgid "Set up the Consent Banner"
+msgstr "Onay Banner'ını Ayarla"
+
+#: build/admin.js:47
+msgid "Customize your cookie consent banner - content, layout, and visibility."
+msgstr "Çerez onay banner'ınızı özelleştirin - içerik, düzen ve görünürlük."
+
+#: build/admin.js:47
+msgid "Review Consent Logs"
+msgstr "Onay Kayıtlarını İncele"
+
+#: build/admin.js:47
+msgid "See who has consented and when - useful for compliance audits."
+msgstr "Kimlerin ne zaman onay verdiğini görün - uyumluluk denetimleri için faydalıdır."
+
+#: build/admin.js:47
+msgid "View Logs"
+msgstr "Kayıtları Görüntüle"
+
+#: build/admin.js:47
+msgid "Publish Your Cookie Policy"
+msgstr "Çerez Politikanızı Yayınlayın"
+
+#: build/admin.js:47
+msgid "Review and publish the cookie policy page on your site."
+msgstr "Sitenizdeki çerez politikası sayfasını gözden geçirin ve yayınlayın."
+
+#: build/admin.js:47
+msgid "Review Page"
+msgstr "Sayfayı İncele"
+
+#: build/admin.js:47
+msgid "Generate a cookie policy page so visitors know how you handle their data."
+msgstr "Ziyaretçilerin verilerini nasıl işlediğinizi bilmeleri için bir çerez politikası sayfası oluşturun."
+
+#: build/admin.js:47
+msgid "Create Page"
+msgstr "Sayfa Oluştur"
+
+#: build/admin.js:47
+msgid "Get Started with SureCookie"
+msgstr "SureCookie ile Başlayın"
+
+#: build/admin.js:47
+msgid "Follow these steps to set up cookie consent on your site in minutes."
+msgstr "Sitenizde çerez onayını dakikalar içinde ayarlamak için bu adımları izleyin."
+
+#: build/admin.js:47
+msgid "See full documentation →"
+msgstr "Tam dokümantasyonu gör →"
+
+#: build/admin.js:47
+msgid "Continue Learning"
+msgstr "Öğrenmeye Devam Et"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:50
+#, js-format
+msgid "%1$d of %2$d setup steps complete."
+msgstr "%1$d / %2$d kurulum adımı tamamlandı."
+
+#: build/admin.js:50
+msgid "Open Learn"
+msgstr "Öğrenmeyi Aç"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "All cookies accepted."
+msgstr "Tüm çerezler kabul edildi."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Non-essential cookies rejected."
+msgstr "Zorunlu olmayan çerezler reddedildi."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preferences saved successfully."
+msgstr "Tercihler başarıyla kaydedildi."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Close privacy preferences dialog"
+msgstr "Gizlilik tercihleri penceresini kapat"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Always Active"
+msgstr "Her Zaman Aktif"
+
+#. translators: %s: cookie category name
+#: build/admin.js:52
+#: build/public.js:3
+#, js-format
+msgid "%s: always active, cannot be disabled"
+msgstr "%s: her zaman aktif, devre dışı bırakılamaz"
+
+#: build/admin.js:52
+#: build/public.js:3
+msgid "View Cookies"
+msgstr "Çerezleri Görüntüle"
+
+#. translators: %s: cookie category name
+#: build/admin.js:53
+#: build/public.js:4
+#, js-format
+msgid "%s cookies details"
+msgstr "%s çerez detayları"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Expiry"
+msgstr "Son Kullanma"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Reject All"
+msgstr "Tümünü Reddet"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Confirm My Choices"
+msgstr "Seçimlerimi Onayla"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by SureCookie (opens in new tab)"
+msgstr "SureCookie tarafından desteklenmektedir (yeni sekmede açılır)"
+
+#: inc/utils/localize-data.php:222
+#: build/admin.js:4
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by"
+msgstr "Tarafından desteklenmektedir"
+
+#: build/admin.js:53
+msgid "Buttons are for reference only in preview."
+msgstr "Düğmeler sadece önizlemede referans içindir."
+
+#: build/admin.js:53
+msgid "This is a preview"
+msgstr "Bu bir önizlemedir"
+
+#: build/admin.js:53
+msgid "Close preview"
+msgstr "Önizlemeyi kapat"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Complete"
+msgstr "Tamamlandı"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Queued…"
+msgstr "Kuyrukta…"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Starting scan…"
+msgstr "Tarama başlatılıyor…"
+
+#. translators: 1: current page index, 2: total pages
+#: build/admin.js:54
+#, js-format
+msgid "Scanning page %1$d of %2$d…"
+msgstr "%1$d / %2$d sayfa taranıyor…"
+
+#: build/admin.js:54
+msgid "Scanning pages…"
+msgstr "Sayfalar taranıyor…"
+
+#: build/admin.js:54
+msgid "Analyzing cookies…"
+msgstr "Çerezler analiz ediliyor…"
+
+#: build/admin.js:54
+msgid "Finalizing…"
+msgstr "Sonlandırılıyor…"
+
+#: build/admin.js:54
+msgid "Scan failed"
+msgstr "Tarama başarısız oldu"
+
+#: build/admin.js:54
+msgid "In progress…"
+msgstr "Devam ediyor…"
+
+#: build/admin.js:54
+msgid "Scan progress"
+msgstr "Tarama ilerlemesi"
+
+#. translators: 1: completed pages, 2: total pages
+#: build/admin.js:55
+#, js-format
+msgid "%1$d of %2$d pages scanned"
+msgstr "%1$d / %2$d sayfa tarandı"
+
+#: build/admin.js:55
+msgid "Preparing scan…"
+msgstr "Tarama hazırlanıyor…"
+
+#. translators: %s: estimated time remaining
+#: build/admin.js:56
+#, js-format
+msgid "· ~%s left"
+msgstr "· ~%s kaldı"
+
+#: build/admin.js:56
+msgid "Scan Completed with Errors"
+msgstr "Hatalarla Tarama Tamamlandı"
+
+#. translators: %d: number of failed pages
+#: build/admin.js:57
+#, js-format
+msgid "%d page(s) could not be scanned. Check the logs for details."
+msgstr "%d sayfa taranamadı. Detaylar için kayıtları kontrol edin."
+
+#: build/admin.js:57
+msgid "Scan Completed!"
+msgstr "Tarama Tamamlandı!"
+
+#: build/admin.js:57
+msgid "Cookie scan has been completed successfully."
+msgstr "Çerez taraması başarıyla tamamlandı."
+
+#: build/admin.js:57
+msgid "Could not copy logs automatically."
+msgstr "Kayıtlar otomatik olarak kopyalanamadı."
+
+#: build/admin.js:57
+msgid "Logs copied to clipboard!"
+msgstr "Kayıtlar panoya kopyalandı!"
+
+#: build/admin.js:57
+msgid "Latest Scanning Logs"
+msgstr "Son Tarama Kayıtları"
+
+#: build/admin.js:57
+msgid "View logs from the most recent cookie scanning process."
+msgstr "En son çerez tarama sürecinin kayıtlarını görüntüleyin."
+
+#: build/admin.js:57
+msgid "Copied"
+msgstr "Kopyalandı"
+
+#: build/admin.js:57
+msgid "Copy"
+msgstr "Kopyala"
+
+#: build/admin.js:57
+msgid "This field contains the scanning status results only."
+msgstr "Bu alan sadece tarama durumu sonuçlarını içerir."
+
+#: build/admin.js:57
+msgid "Scan appears stuck"
+msgstr "Tarama takılmış gibi görünüyor"
+
+#. translators: 1: completed pages, 2: total pages, 3: elapsed time
+#: build/admin.js:58
+#, js-format
+msgid "%1$d of %2$d pages scanned after %3$s with no recent progress."
+msgstr "%1$d / %2$d sayfa %3$s sonra tarandı ancak son zamanlarda ilerleme yok."
+
+#. translators: %s: elapsed time
+#: build/admin.js:59
+#, js-format
+msgid "No progress detected after %s."
+msgstr "%s sonra ilerleme tespit edilmedi."
+
+#: build/admin.js:59
+#: build/admin.js:63
+msgid "Cancelling…"
+msgstr "İptal ediliyor…"
+
+#: build/admin.js:59
+msgid "Cancel Scan"
+msgstr "Taramayı İptal Et"
+
+#: build/admin.js:59
+msgid "Copy Logs for Support"
+msgstr "Destek için Kayıtları Kopyala"
+
+#: build/admin.js:60
+msgid "Your scan limit will reset tomorrow."
+msgstr "Tarama limitiniz yarın sıfırlanacak."
+
+#: build/admin.js:60
+msgid "The scan runs in the background - you can safely navigate away."
+msgstr "Tarama arka planda çalışır - güvenle başka sayfalara gidebilirsiniz."
+
+#: build/admin.js:60
+msgid "Make sure your site is publicly accessible (not behind basic auth or maintenance mode)."
+msgstr "Sitenizin herkese açık erişilebilir olduğundan emin olun (temel kimlik doğrulama veya bakım modunun arkasında olmamalı)."
+
+#: build/admin.js:60
+msgid "Check if a firewall or security plugin is blocking external requests to your site."
+msgstr "Bir güvenlik duvarı veya güvenlik eklentisinin sitenize gelen dış istekleri engelleyip engellemediğini kontrol edin."
+
+#: build/admin.js:60
+msgid "Pages with heavy JavaScript may take longer to scan. If scanning fails repeatedly, try fewer pages."
+msgstr "Ağır JavaScript içeren sayfaların taranması daha uzun sürebilir. Tarama tekrar tekrar başarısız olursa, daha az sayfa deneyin."
+
+#: build/admin.js:60
+msgid "If issues persist, copy the logs and <a>contact our support team.</a>"
+msgstr "Sorunlar devam ederse, günlükleri kopyalayın ve <a>destek ekibimizle iletişime geçin.</a>"
+
+#: build/admin.js:60
+msgid "contact our support team"
+msgstr "destek ekibimizle iletişime geçin"
+
+#: build/admin.js:63
+#: build/admin.js:78
+#: build/onboarding.js:7
+msgid "(no title)"
+msgstr "(başlık yok)"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Failed to initiate scan"
+msgstr "Tarama başlatılamadı"
+
+#. translators: 1: remaining scans, 2: total daily scans
+#: build/admin.js:68
+#: build/onboarding.js:12
+#, js-format
+msgid "You have %1$d of %2$d daily scans remaining"
+msgstr "Günlük %2$d taramadan %1$d tarama hakkınız kaldı"
+
+#. translators: %s: time until reset (e.g. "4h 22m")
+#: build/admin.js:69
+#: build/admin.js:71
+#, js-format
+msgid "Resets in %s"
+msgstr "%s içinde sıfırlanacak"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Limits refreshed."
+msgstr "Limitler yenilendi."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Failed to refresh limits."
+msgstr "Limitler yenilenemedi."
+
+#: build/admin.js:71
+msgid "Your session expired. Please reload to reconnect."
+msgstr "Oturumunuzun süresi doldu. Yeniden bağlanmak için lütfen sayfayı yenileyin."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "We couldn't fetch your limits right now. Please try again in a moment."
+msgstr "Şu anda limitlerinizi alamıyoruz. Lütfen bir süre sonra tekrar deneyin."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refreshing…"
+msgstr "Yenileniyor…"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refresh limits"
+msgstr "Limitleri yenile"
+
+#. translators: %d: maximum pages
+#: build/admin.js:61
+#: build/admin.js:73
+#: build/onboarding.js:5
+#: build/onboarding.js:14
+#, js-format
+msgid "You have selected more than %d pages"
+msgstr "%d sayfadan fazlasını seçtiniz"
+
+#. translators: %d: maximum pages
+#: build/admin.js:65
+#: build/onboarding.js:9
+#, js-format
+msgid "Your plan supports scanning up to %d pages. Please remove extra pages to continue."
+msgstr "%d sayfaya kadar tarama planınız tarafından desteklenmektedir. Devam etmek için ekstra sayfaları kaldırın."
+
+#: build/admin.js:73
+msgid "Daily Limit Reached"
+msgstr "Günlük Limit Aşıldı"
+
+#. translators: 1: scans used, 2: scan limit
+#: build/admin.js:74
+#, js-format
+msgid "You've used %1$d of %2$d daily scans. Your credits will refresh automatically tomorrow."
+msgstr "Günlük %2$d taramadan %1$d tarama kullandınız. Kredileriniz yarın otomatik olarak yenilenecek."
+
+#: build/admin.js:74
+msgid "You've used all your scan credits for today. Your credits will refresh automatically tomorrow."
+msgstr "Bugün tüm tarama kredilerinizi kullandınız. Kredileriniz yarın otomatik olarak yenilenecek."
+
+#: build/admin.js:74
+#: build/onboarding.js:14
+msgid "Scan Started!"
+msgstr "Tarama Başladı!"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scanning…"
+msgstr "Taranıyor…"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Start Scan"
+msgstr "Taramayı Başlat"
+
+#: build/admin.js:63
+msgid "Cancel Stuck Scan"
+msgstr "Takılı Kalan Taramayı İptal Et"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "WordPress Cron is Disabled"
+msgstr "WordPress Cron Devre Dışı"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "The WordPress cron system is not working on your site. Cookie scanning may not work as expected. Please enable WP-Cron or set up a server cron job to ensure proper functionality."
+msgstr "WordPress cron sistemi sitenizde çalışmıyor. Çerez taraması beklenildiği gibi çalışmayabilir. Doğru işleyiş için WP-Cron'u etkinleştirin veya sunucu cron işi kurun."
+
+#: build/admin.js:75
+msgid "Select"
+msgstr "Seç"
+
+#: build/admin.js:75
+msgid "Configure how the \"Cookie Preferences\" button appears on your site, allowing users to update their consent at any time."
+msgstr "Sitenizde \"Çerez Tercihleri\" düğmesinin nasıl görüneceğini yapılandırın, böylece kullanıcılar istedikleri zaman onaylarını güncelleyebilir."
+
+#: build/admin.js:75
+msgid "No re-consent method active"
+msgstr "Yeniden onay yöntemi etkin değil"
+
+#: build/admin.js:75
+msgid "Visitors won't be able to update their cookie preferences unless you add a menu item or place the shortcode on a page. You can safely ignore this if the shortcode is already added."
+msgstr "Ziyaretçiler, bir menü öğesi eklemediğiniz veya kısa kodu bir sayfaya yerleştirmediğiniz sürece çerez tercihlerini güncelleyemezler. Kısa kod zaten eklendiyse bunu güvenle göz ardı edebilirsiniz."
+
+#: build/admin.js:75
+msgid "Button Label"
+msgstr "Düğme Etiketi"
+
+#: build/admin.js:75
+msgid "The label shown on the Cookie Preferences link."
+msgstr "Çerez Tercihleri bağlantısında gösterilen etiket."
+
+#: build/admin.js:75
+msgid "Menu Level"
+msgstr "Menü Seviyesi"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode"
+msgstr "Kısa Kod"
+
+#: build/admin.js:75
+msgid "Floating Widget"
+msgstr "Yüzen Widget"
+
+#: build/admin.js:75
+msgid "Select a WordPress menu to automatically add the Cookie Preferences link to it. When clicked, it opens the consent preferences modal directly."
+msgstr "Çerez Tercihleri bağlantısını otomatik olarak eklemek için bir WordPress menüsü seçin. Tıklandığında, doğrudan onay tercihleri modali açılır."
+
+#: build/admin.js:75
+msgid "No WordPress menus found."
+msgstr "WordPress menüsü bulunamadı."
+
+#: build/admin.js:75
+msgid "Create a menu in Appearance > Menus."
+msgstr "Görünüm > Menüler bölümünde bir menü oluşturun."
+
+#: build/admin.js:75
+msgid "Select Menu"
+msgstr "Menü Seç"
+
+#: build/admin.js:75
+msgid "Use this shortcode to display the Cookie Preferences link anywhere on your site. When clicked, it opens the consent preferences modal directly."
+msgstr "Çerez Tercihleri bağlantısını sitenizin herhangi bir yerinde göstermek için bu kısa kodu kullanın. Tıklandığında, doğrudan onay tercihleri modali açılır."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode Copied!"
+msgstr "Kısa kod kopyalandı!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Could not copy to clipboard. Please copy the shortcode manually."
+msgstr "Panoya kopyalanamadı. Lütfen kısa kodu manuel olarak kopyalayın."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copied!"
+msgstr "Kopyalandı!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copy shortcode"
+msgstr "Kısa kodu kopyala"
+
+#: build/admin.js:75
+msgid "Enable Floating Widget"
+msgstr "Yüzen Widget'ı Etkinleştir"
+
+#: build/admin.js:75
+msgid "to show a floating cookie preferences button on every page."
+msgstr "her sayfada yüzen bir çerez tercihleri düğmesi göstermek için."
+
+#: build/admin.js:75
+msgid "Failed to deactivate plugin."
+msgstr "Eklenti devre dışı bırakılamadı."
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected."
+msgstr "Çakışan Eklentiler Tespit Edildi."
+
+#: build/admin.js:75
+msgid "It's recommended to deactivate them to avoid issues."
+msgstr "Sorunları önlemek için devre dışı bırakmanız önerilir."
+
+#: build/admin.js:75
+msgid "Deactivate Plugin"
+msgstr "Eklentiyi Devre Dışı Bırak"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected"
+msgstr "Çakışan Eklentiler Tespit Edildi"
+
+#: build/admin.js:75
+msgid "The following plugins may conflict with SureCookie. It's recommended to deactivate them to avoid issues."
+msgstr "Aşağıdaki eklentiler SureCookie ile çakışabilir. Sorunları önlemek için devre dışı bırakmanız önerilir."
+
+#: build/admin.js:75
+msgid "Version:"
+msgstr "Sürüm:"
+
+#: build/admin.js:75
+msgid "Deactivation successful. Reloading the page in 3 seconds."
+msgstr "Devre dışı bırakma başarılı. Sayfa 3 saniye içinde yeniden yüklenecek."
+
+#: build/admin.js:75
+msgid "The plugin could not be deactivated. Please try again."
+msgstr "Eklenti devre dışı bırakılamadı. Lütfen tekrar deneyin."
+
+#: build/admin.js:75
+msgid "Deactivating…"
+msgstr "Devre dışı bırakılıyor…"
+
+#: build/admin.js:75
+msgid "Deactivate"
+msgstr "Devre Dışı Bırak"
+
+#: build/admin.js:75
+msgid "Close"
+msgstr "Kapat"
+
+#: build/admin.js:75
+msgid "Preview:"
+msgstr "Önizleme:"
+
+#: build/admin.js:75
+msgid "ON"
+msgstr "AÇIK"
+
+#: build/admin.js:75
+msgid "OFF"
+msgstr "KAPALI"
+
+#: build/admin.js:75
+msgid "What's New?"
+msgstr "Yenilikler?"
+
+#: build/admin.js:75
+msgid "Free version"
+msgstr "Ücretsiz sürüm"
+
+#: build/admin.js:76
+msgid "Knowledge Base"
+msgstr "Bilgi Bankası"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Analytics"
+msgstr "Analitik"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Marketing"
+msgstr "Pazarlama"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Functional"
+msgstr "Fonksiyonel"
+
+#: build/admin.js:76
+msgid "Resource"
+msgstr "Kaynak"
+
+#: build/admin.js:76
+msgid "Script"
+msgstr "Betik"
+
+#: build/admin.js:76
+msgid "Iframe"
+msgstr "Iframe"
+
+#: build/admin.js:78
+msgid "Control where your cookie banner appears on your site."
+msgstr "Çerez bannerınızın sitenizde nerede görüneceğini kontrol edin."
+
+#: build/admin.js:78
+msgid "Want More Control over Your Cookie Banner?"
+msgstr "Çerez Bannerınız Üzerinde Daha Fazla Kontrol Mü İstiyorsunuz?"
+
+#: build/admin.js:78
+msgid "Upgrade to hide it on selected pages, posts, archives, or on specific user roles."
+msgstr "Seçili sayfalarda, yazılarda, arşivlerde veya belirli kullanıcı rollerinde gizlemek için yükseltin."
+
+#: build/admin.js:78
+msgid "The previously selected page no longer exists or could not be loaded."
+msgstr "Daha önce seçilen sayfa artık mevcut değil veya yüklenemedi."
+
+#: build/admin.js:78
+msgid "The selected page is not published and will not appear to visitors."
+msgstr "Seçilen sayfa yayımlanmamış ve ziyaretçilere görünmeyecektir."
+
+#: build/admin.js:78
+msgid "Cookie Policy Page"
+msgstr "Çerez Politikası Sayfası"
+
+#: build/admin.js:78
+msgid "Clear selected page"
+msgstr "Seçilen sayfayı temizle"
+
+#: build/admin.js:78
+msgid "Select a Page"
+msgstr "Bir Sayfa Seçin"
+
+#: build/admin.js:78
+msgid "A link to this page will appear in the consent preferences modal footer."
+msgstr "Bu sayfaya bir bağlantı, onay tercihleri modal altbilgisinde görünecektir."
+
+#: build/admin.js:78
+msgid "Auto Generate"
+msgstr "Otomatik Oluştur"
+
+#: build/admin.js:78
+msgid "Automatically create a published Cookie Policy page containing a dynamically generated cookie table that always stays up to date."
+msgstr "Her zaman güncel kalan dinamik olarak oluşturulan bir çerez tablosu içeren yayımlanmış bir Çerez Politikası sayfası otomatik olarak oluşturun."
+
+#: build/admin.js:78
+msgid "Cookie Policy page created successfully!"
+msgstr "Çerez Politikası sayfası başarıyla oluşturuldu!"
+
+#: build/admin.js:78
+msgid "Failed to generate page. Please try again."
+msgstr "Sayfa oluşturulamadı. Lütfen tekrar deneyin."
+
+#: build/admin.js:78
+msgid "An error occurred while generating the page. Please try again."
+msgstr "Sayfa oluşturulurken bir hata oluştu. Lütfen tekrar deneyin."
+
+#: build/admin.js:78
+msgid "Page Already Linked"
+msgstr "Sayfa Zaten Bağlandı"
+
+#: build/admin.js:78
+msgid "Generate Cookie Policy Page"
+msgstr "Çerez Politikası Sayfası Oluştur"
+
+#: build/admin.js:78
+msgid "Edit Page"
+msgstr "Sayfayı Düzenle"
+
+#: build/admin.js:78
+msgid "View Page"
+msgstr "Sayfayı Görüntüle"
+
+#: build/admin.js:78
+msgid "Use this shortcode to display the cookie policy with a dynamically generated cookie table on any page or post. The table always reflects the latest scanned and custom cookies."
+msgstr "Bu kısa kodu, dinamik olarak oluşturulan bir çerez tablosu ile çerez politikasını herhangi bir sayfa veya gönderide göstermek için kullanın. Tablo her zaman en son taranan ve özel çerezleri yansıtır."
+
+#: build/admin.js:83
+msgid "Please enter at least one region code"
+msgstr "Lütfen en az bir bölge kodu girin"
+
+#: build/admin.js:83
+msgid "Invalid region code format. Use ISO 3166 codes like EU, US, US-CA, or GB."
+msgstr "Geçersiz bölge kodu formatı. EU, US, US-CA veya GB gibi ISO 3166 kodlarını kullanın."
+
+#: build/admin.js:83
+msgid "EU/EEA (GDPR)"
+msgstr "AB/AEA (GDPR)"
+
+#: build/admin.js:83
+msgid "California (CCPA)"
+msgstr "Kaliforniya (CCPA)"
+
+#: build/admin.js:83
+msgid "United Kingdom"
+msgstr "Birleşik Krallık"
+
+#: build/admin.js:83
+msgid "Brazil (LGPD)"
+msgstr "Brezilya (LGPD)"
+
+#: build/admin.js:83
+msgid "Edit Regional Rule"
+msgstr "Bölgesel Kuralı Düzenle"
+
+#: build/admin.js:83
+msgid "Add Regional Rule"
+msgstr "Bölgesel Kural Ekle"
+
+#: build/admin.js:83
+msgid "Set default consent state for visitors from this region. Google uses the most specific match."
+msgstr "Bu bölgeden gelen ziyaretçiler için varsayılan onay durumunu ayarlayın. Google en spesifik eşleşmeyi kullanır."
+
+#: build/admin.js:83
+msgid "Add Rule"
+msgstr "Kural Ekle"
+
+#: build/admin.js:83
+msgid "Quick Presets"
+msgstr "Hızlı Ön Ayarlar"
+
+#: build/admin.js:83
+msgid "Apply preset:"
+msgstr "Ön ayarı uygula:"
+
+#: build/admin.js:83
+msgid "Region Codes"
+msgstr "Bölge Kodları"
+
+#: build/admin.js:83
+msgid "Comma-separated ISO 3166 codes: EU, US, US-CA, GB, BR, etc."
+msgstr "Virgülle ayrılmış ISO 3166 kodları: EU, US, US-CA, GB, BR, vb."
+
+#: build/admin.js:83
+msgid "Default Consent State"
+msgstr "Varsayılan Onay Durumu"
+
+#: build/admin.js:83
+msgid "Choose which categories are granted by default for visitors from this region before they interact with the banner."
+msgstr "Ziyaretçiler banner ile etkileşime girmeden önce bu bölgeden gelenler için varsayılan olarak hangi kategorilerin verileceğini seçin."
+
+#: build/admin.js:83
+msgid "Functional Storage"
+msgstr "Fonksiyonel Depolama"
+
+#: build/admin.js:83
+msgid "Enables storage for site functionality like preferences and language."
+msgstr "Tercihler ve dil gibi site işlevselliği için depolamayı etkinleştirir."
+
+#: build/admin.js:83
+msgid "Functional storage default"
+msgstr "Fonksiyonel depolama varsayılanı"
+
+#: build/admin.js:83
+msgid "Analytics Storage"
+msgstr "Analitik Depolama"
+
+#: build/admin.js:83
+msgid "Enables storage for analytics purposes like visit duration and page views."
+msgstr "Ziyaret süresi ve sayfa görüntülemeleri gibi analitik amaçlar için depolamayı etkinleştirir."
+
+#: build/admin.js:83
+msgid "Analytics storage default"
+msgstr "Analitik depolama varsayılanı"
+
+#: build/admin.js:83
+msgid "Marketing / Ads Storage"
+msgstr "Pazarlama / Reklam Depolaması"
+
+#: build/admin.js:83
+msgid "Enables storage for advertising purposes including ad personalization and user data."
+msgstr "Reklam kişiselleştirme ve kullanıcı verileri dahil olmak üzere reklam amaçları için depolamayı etkinleştirir."
+
+#: build/admin.js:83
+msgid "Marketing storage default"
+msgstr "Pazarlama depolama varsayılanı"
+
+#: build/admin.js:83
+msgid "Essential cookies (security_storage) are always granted. These defaults apply before the visitor interacts with the consent banner."
+msgstr "Temel çerezler (security_storage) her zaman verilir. Bu varsayılanlar, ziyaretçi onay banner ile etkileşime girmeden önce uygulanır."
+
+#: build/admin.js:83
+msgid "Granted"
+msgstr "Verildi"
+
+#: build/admin.js:83
+msgid "Denied"
+msgstr "Reddedildi"
+
+#: build/admin.js:83
+msgid "Active Regional Rules"
+msgstr "Aktif Bölgesel Kurallar"
+
+#: build/admin.js:83
+msgid "Set different default consent states per region. Google uses the most specific match (e.g., US-CA overrides US)."
+msgstr "Bölgeye göre farklı varsayılan onay durumları ayarlayın. Google en spesifik eşleşmeyi kullanır (örneğin, US-CA, US'nin önüne geçer)."
+
+#: build/admin.js:83
+msgid "Edit rule for"
+msgstr "Kuralı düzenle"
+
+#: build/admin.js:83
+msgid "Delete rule for"
+msgstr "Kuralı sil"
+
+#: build/admin.js:83
+msgid "No regional rules configured. The global default (deny all except essential) applies to all visitors."
+msgstr "Bölgesel kural yapılandırılmamış. Küresel varsayılan (temel olanlar hariç tümünü reddet) tüm ziyaretçiler için geçerlidir."
+
+#. translators: %s: comma-separated duplicate region codes
+#: build/admin.js:84
+#, js-format
+msgid "These region codes already exist in another rule: %s"
+msgstr "Bu bölge kodları başka bir kuralda zaten mevcut: %s"
+
+#: build/admin.js:84
+msgid "Delete Regional Rule"
+msgstr "Bölgesel Kuralı Sil"
+
+#: build/admin.js:84
+msgid "Are you sure you want to delete this regional consent rule? Visitors from this region will use the global default."
+msgstr "Bu bölgesel onay kuralını silmek istediğinizden emin misiniz? Bu bölgeden gelen ziyaretçiler küresel varsayılanı kullanacaktır."
+
+#: build/admin.js:84
+msgid "Google Consent Mode v2"
+msgstr "Google Onay Modu v2"
+
+#: build/admin.js:84
+msgid "Automatically communicate user consent preferences to Google services."
+msgstr "Kullanıcı onay tercihlerini otomatik olarak Google hizmetlerine iletin."
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode Switch"
+msgstr "Google Onay Modu Anahtarını Etkinleştir"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode"
+msgstr "Google Onay Modunu Etkinleştir"
+
+#: build/admin.js:84
+msgid "Supported services: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, and DV360"
+msgstr "Desteklenen hizmetler: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight ve DV360"
+
+#: build/admin.js:84
+msgid "Wait Time (milliseconds)"
+msgstr "Bekleme Süresi (milisaniye)"
+
+#: build/admin.js:84
+msgid "How long Google services wait for consent before making requests. Default: 500ms. Range: 0–2000ms."
+msgstr "Google hizmetlerinin istek yapmadan önce onay bekleme süresi. Varsayılan: 500ms. Aralık: 0–2000ms."
+
+#: build/admin.js:84
+msgid "Mandatory for EU/EEA as of March 2024"
+msgstr "Mart 2024 itibarıyla AB/AEA için zorunlu"
+
+#: build/admin.js:84
+msgid "Google now requires Consent Mode v2 for all websites using Google services in the European Economic Area."
+msgstr "Google artık Avrupa Ekonomik Alanında Google hizmetlerini kullanan tüm web siteleri için Onay Modu v2 gerektiriyor."
+
+#: build/admin.js:84
+msgid "Learn more about Google Consent Mode v2 →"
+msgstr "Google Onay Modu v2 hakkında daha fazla bilgi edinin →"
+
+#: build/admin.js:84
+msgid "Where should the banner appear?"
+msgstr "Banner nerede görünmeli?"
+
+#: build/admin.js:84
+msgid "Choose where the banner is shown. Visitors outside selected regions will not see it."
+msgstr "Bannerın gösterileceği yeri seçin. Seçilen bölgelerin dışındaki ziyaretçiler bannerı görmeyecektir."
+
+#: build/admin.js:84
+msgid "Show to all visitors worldwide"
+msgstr "Tüm dünya genelindeki ziyaretçilere göster"
+
+#: build/admin.js:84
+msgid "Use the same experience for everyone, regardless of location."
+msgstr "Konum fark etmeksizin herkese aynı deneyimi sunun."
+
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/admin.js:78
+#: build/admin.js:84
+msgid "Pro"
+msgstr "Pro"
+
+#: build/admin.js:84
+msgid "Show only where required by law"
+msgstr "Yalnızca yasal olarak gerekli olan yerlerde göster"
+
+#: build/admin.js:84
+msgid "Target specific regions with tailored consent experiences."
+msgstr "Belirli bölgeleri hedefleyerek özel onay deneyimleri oluşturun."
+
+#: build/admin.js:84
+msgid "Mode: Show to all visitors worldwide"
+msgstr "Mod: Tüm dünya genelindeki ziyaretçilere göster"
+
+#: build/admin.js:84
+msgid "Your existing banner settings apply to all visitors. No geographic targeting is active."
+msgstr "Mevcut banner ayarlarınız tüm ziyaretçiler için geçerlidir. Coğrafi hedefleme aktif değildir."
+
+#: build/admin.js:84
+msgid "Unlock Regional Targeting"
+msgstr "Bölgesel Hedeflemeyi Aç"
+
+#: build/admin.js:84
+msgid "Show banner only in selected regions, create custom regional rules, and control fallback behavior."
+msgstr "Bannerı yalnızca seçilen bölgelerde gösterin, özel bölgesel kurallar oluşturun ve yedek davranışı kontrol edin."
+
+#: build/admin.js:84
+msgid "Location detection uses GeoLite2 data by MaxMind, available from <link>https://www.maxmind.com</link>."
+msgstr "Konum tespiti MaxMind tarafından sağlanan GeoLite2 verilerini kullanır, <link>https://www.maxmind.com</link> adresinden temin edilebilir."
+
+#: build/admin.js:87
+msgid "IAB Transparency & Consent Framework"
+msgstr "IAB Şeffaflık ve Onay Çerçevesi"
+
+#: build/admin.js:87
+msgid "Make your consent banner compliant with IAB TCF 2.3 and integrate with the Global Vendor List."
+msgstr "Onay bannerınızı IAB TCF 2.3 ile uyumlu hale getirin ve Küresel Satıcı Listesi ile entegre edin."
+
+#: build/admin.js:87
+msgid "Unlock IAB TCF 2.3 Compliance - Coming Soon"
+msgstr "IAB TCF 2.3 Uyumluluğunu Aç - Yakında"
+
+#: build/admin.js:87
+msgid "Enable full TCF mode, generate TC strings, and display the IAB vendor list to your visitors."
+msgstr "Tam TCF modunu etkinleştirin, TC dizeleri oluşturun ve IAB satıcı listesini ziyaretçilerinize gösterin."
+
+#: build/admin.js:87
+msgid "Google Additional Consent (AC)"
+msgstr "Google Ek Onay (AC)"
+
+#: build/admin.js:87
+msgid "Add Google Additional Consent alongside IAB TCF to handle ad-tech vendors not on the IAB Global Vendor List."
+msgstr "IAB Küresel Satıcı Listesinde olmayan reklam teknolojisi satıcılarını yönetmek için IAB TCF ile birlikte Google Ek Onayı ekleyin."
+
+#: build/admin.js:87
+msgid "Unlock Google Additional Consent - Coming Soon"
+msgstr "Google Ek Onayını Aç - Yakında"
+
+#: build/admin.js:87
+msgid "Generate the AC string, mirror the addtl_consent cookie, and display Google's Additional Consent provider list to your visitors - required for full Google Ads / GAM monetization."
+msgstr "AC dizisini oluşturun, addtl_consent çerezini yansıtın ve ziyaretçilerinize Google'ın Ek Onay sağlayıcı listesini gösterin - tam Google Reklamları / GAM gelir elde etme için gereklidir."
+
+#: build/onboarding.js:1
+msgid "Failed to get authentication payload"
+msgstr "Kimlik doğrulama yükü alınamadı"
+
+#: build/onboarding.js:1
+msgid "An error occurred while connecting"
+msgstr "Bağlanırken bir hata oluştu"
+
+#: build/onboarding.js:6
+msgid "First name is required"
+msgstr "İsim gerekli"
+
+#: build/onboarding.js:6
+msgid "Email address is required"
+msgstr "E-posta adresi gerekli"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid email address"
+msgstr "Lütfen geçerli bir e-posta adresi girin"
+
+#: build/onboarding.js:6
+msgid "Classify cookies automatically"
+msgstr "Çerezleri otomatik sınıflandır"
+
+#: build/onboarding.js:6
+msgid "Get smart compliance recommendations"
+msgstr "Akıllı uyumluluk önerileri al"
+
+#: build/onboarding.js:6
+msgid "Generate privacy-compliant descriptions"
+msgstr "Gizlilik uyumlu açıklamalar oluştur"
+
+#: build/onboarding.js:6
+msgid "Welcome to SureCookie"
+msgstr "SureCookie'ye hoş geldiniz"
+
+#: build/onboarding.js:6
+msgid "Privacy compliance made effortless 🍪"
+msgstr "Gizlilik uyumu zahmetsiz 🍪"
+
+#: build/onboarding.js:6
+msgid "Connect Your Account"
+msgstr "Hesabınızı Bağlayın"
+
+#: build/onboarding.js:6
+msgid "Connect your SureCookie account to automatically classify cookies, generate compliant descriptions, and get smart recommendations for your privacy needs."
+msgstr "SureCookie hesabınızı bağlayarak çerezleri otomatik sınıflandırın, uyumlu açıklamalar oluşturun ve gizlilik ihtiyaçlarınız için akıllı öneriler alın."
+
+#: build/onboarding.js:6
+msgid "Here's what you can do:"
+msgstr "Yapabilecekleriniz:"
+
+#: build/onboarding.js:6
+msgid "List of capabilities"
+msgstr "Yetenekler listesi"
+
+#: build/onboarding.js:6
+msgid "Connected to SureCookie"
+msgstr "SureCookie'ye Bağlandı"
+
+#: build/admin.js:40
+#: build/onboarding.js:7
+#: build/onboarding.js:14
+msgid "Back"
+msgstr "Geri"
+
+#: build/onboarding.js:6
+msgid "Next"
+msgstr "İleri"
+
+#: build/onboarding.js:6
+#: build/onboarding.js:14
+msgid "Skip"
+msgstr "Atla"
+
+#: build/onboarding.js:6
+msgid "Connecting…"
+msgstr "Bağlanıyor…"
+
+#: build/onboarding.js:6
+msgid "Connect"
+msgstr "Bağlan"
+
+#: build/onboarding.js:11
+msgid "Run a Quick Privacy Scan"
+msgstr "Hızlı Gizlilik Taraması Yap"
+
+#: build/onboarding.js:11
+msgid "SureCookie will scan your website, detect all cookies, and categorize them automatically.<br/> This helps you stay compliant without spending hours identifying scripts manually."
+msgstr "SureCookie web sitenizi tarayacak, tüm çerezleri algılayacak ve otomatik olarak kategorize edecektir.<br/> Bu, betikleri manuel olarak tanımlamak için saatler harcamadan uyumlu kalmanıza yardımcı olur."
+
+#: build/onboarding.js:11
+msgid "Account not connected"
+msgstr "Hesap bağlı değil"
+
+#: build/onboarding.js:11
+msgid "Please <a>go back</a> and connect your SureCookie account to enable cookie scanning."
+msgstr "Lütfen <a>geri dönün</a> ve çerez taramasını etkinleştirmek için SureCookie hesabınızı bağlayın."
+
+#: build/onboarding.js:12
+msgid "Your session expired. Please reconnect to continue."
+msgstr "Oturumunuzun süresi doldu. Devam etmek için lütfen yeniden bağlanın."
+
+#: build/onboarding.js:14
+msgid "Connect Required"
+msgstr "Bağlantı Gerekiyor"
+
+#: build/onboarding.js:14
+msgid "Please connect your account to get free scanning credits."
+msgstr "Ücretsiz tarama kredileri almak için lütfen hesabınızı bağlayın."
+
+#: build/onboarding.js:14
+msgid "SureCookie is scanning your pages for cookies. This may take a few minutes."
+msgstr "SureCookie sayfalarınızı çerezler için tarıyor. Bu birkaç dakika sürebilir."
+
+#: build/onboarding.js:14
+msgid "Okay, just one last step…"
+msgstr "Tamam, sadece son bir adım kaldı…"
+
+#: build/onboarding.js:14
+msgid "Help us tailor your SureCookie experience by sharing a bit about yourself:"
+msgstr "SureCookie deneyiminizi kişiselleştirmemize yardımcı olmak için kendiniz hakkında biraz bilgi paylaşın:"
+
+#: build/onboarding.js:14
+msgid "First Name"
+msgstr "İsim"
+
+#: build/onboarding.js:14
+msgid "Enter your first name"
+msgstr "İsminizi girin"
+
+#: build/onboarding.js:14
+msgid "Last Name"
+msgstr "Soyisim"
+
+#: build/onboarding.js:14
+msgid "Enter your last name"
+msgstr "Soyisminizi girin"
+
+#: build/onboarding.js:14
+msgid "Email Address"
+msgstr "E-posta Adresi"
+
+#: build/onboarding.js:14
+msgid "Enter your email address"
+msgstr "E-posta adresinizi girin"
+
+#: build/onboarding.js:14
+msgid "Finish"
+msgstr "Bitir"
+
+#: build/onboarding.js:14
+msgid "Block non-essential cookies and trackers until explicit consent"
+msgstr "Açık onay alınana kadar önemsiz çerezleri ve izleyicileri engelle"
+
+#: build/onboarding.js:14
+msgid "Auto-discover common services, categorize them, and preconfigure safe rules"
+msgstr "Yaygın hizmetleri otomatik keşfet, kategorize et ve güvenli kuralları önceden yapılandır"
+
+#: build/onboarding.js:14
+msgid "You're all set. Let's go live 🚀"
+msgstr "Her şey hazır. Canlıya geçelim 🚀"
+
+#: build/onboarding.js:14
+msgid "From consent logs to region-based preferences, SureCookie helps you stay compliant while building visitor trust."
+msgstr "Onay kayıtlarından bölge bazlı tercihlere kadar, SureCookie uyumluluğunuzu sağlar ve ziyaretçi güveni oluşturmanıza yardımcı olur."
+
+#: build/onboarding.js:14
+msgid "Here's what SureCookie will do for you now:"
+msgstr "SureCookie şimdi sizin için şunları yapacak:"
+
+#: build/onboarding.js:14
+msgid "SureCookie Features"
+msgstr "SureCookie Özellikleri"
+
+#: build/onboarding.js:6
+msgid "Exit Setup"
+msgstr "Kurulumdan Çık"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "This website uses cookies to enhance your browsing experience, personalize content, provide social media features, and analyze our traffic. You can review and manage your cookie settings at any time, or accept all cookies to proceed."
+msgstr "Bu web sitesi, gezinme deneyiminizi geliştirmek, içeriği kişiselleştirmek, sosyal medya özellikleri sağlamak ve trafiğimizi analiz etmek için çerezler kullanır. Çerez ayarlarınızı istediğiniz zaman gözden geçirebilir ve yönetebilir veya devam etmek için tüm çerezleri kabul edebilirsiniz."
+
+#: build/public.js:4
+msgid "Cookie Consent"
+msgstr "Çerez Onayı"
+
+#: build/public.js:4
+msgid "Banner logo"
+msgstr "Banner logosu"
+
+#: build/public.js:4
+msgid "Decline all non-essential cookies"
+msgstr "Tüm önemsiz çerezleri reddet"
+
+#: build/public.js:4
+msgid "Manage cookie preferences"
+msgstr "Çerez tercihlerini yönet"
+
+#: build/public.js:4
+msgid "Accept only essential cookies"
+msgstr "Yalnızca gerekli çerezleri kabul et"
+
+#: build/public.js:4
+msgid "Accept all cookies"
+msgstr "Tüm çerezleri kabul et"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Consent Forwarding"
+msgstr "Onay İletimi"
+
+#: build/admin.js:2
+msgid "Want custom brand colors?"
+msgstr "Özel marka renkleri ister misiniz?"
+
+#: build/admin.js:3
+#: build/admin.js:4
+msgid "Received from"
+msgstr "Alındı"
+
+#: build/admin.js:3
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Received"
+msgstr "Alındı"
+
+#. translators: %d: number of sites
+#: build/admin.js:4
+#, js-format
+msgid "Shared to %d site(s)"
+msgstr "%d site ile paylaşıldı"
+
+#: build/admin.js:4
+msgid "Consent not received for"
+msgstr "Onay alınmadı"
+
+#: build/admin.js:4
+msgid "These categories exist only on this site and were not part of the forwarded consent. The visitor will be prompted to set their preferences for these when they visit this site directly."
+msgstr "Bu kategoriler yalnızca bu sitede vardır ve iletilen onayın bir parçası değildir. Ziyaretçi, bu siteyi doğrudan ziyaret ettiğinde tercihlerini ayarlaması istenecektir."
+
+#: build/admin.js:4
+msgid "More information about these categories"
+msgstr "Bu kategoriler hakkında daha fazla bilgi"
+
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Shared"
+msgstr "Paylaşıldı"
+
+#: build/admin.js:4
+msgid "Shared to"
+msgstr "Paylaşıldı"
+
+#: build/admin.js:4
+msgid "Consent Session ID"
+msgstr "Onay Oturumu ID'si"
+
+#: build/admin.js:4
+msgid "Localhost"
+msgstr "Yerel Sunucu"
+
+#: build/admin.js:6
+msgid "Consent log export upgrade"
+msgstr "Onay kayıt dışa aktarma yükseltmesi"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preference sections"
+msgstr "Tercih bölümleri"
+
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Cookies"
+msgstr "Çerezler"
+
+#. translators: %d: number of partner sites
+#: build/admin.js:51
+#: build/public.js:2
+#, js-format
+msgid "%d connected site(s)"
+msgstr "%d bağlı site"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Sites that will receive your consent"
+msgstr "Onayınızı alacak siteler"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "No partner sites configured."
+msgstr "Partner sitesi yapılandırılmamış."
+
+#: build/admin.js:53
+msgid "Cookie Notice"
+msgstr "Çerez Bildirimi"
+
+#: build/admin.js:84
+msgid "Automatically sync cookie consent across multiple domains and forward consent choices to connected services, without asking visitors to consent again."
+msgstr "Çerez onayını birden fazla alan adı arasında otomatik olarak senkronize edin ve onay tercihlerini bağlı hizmetlere iletin, ziyaretçilerden tekrar onay istemeden."
+
+#: inc/modules/mcp/server.php:100
+msgid "SureCookie MCP Server"
+msgstr "SureCookie MCP Sunucusu"
+
+#: inc/modules/mcp/server.php:101
+msgid "SureCookie MCP Server for cookie consent settings, consent logs, cookie management, and site scanning workflows."
+msgstr "Çerez onayı ayarları, onay kayıtları, çerez yönetimi ve site tarama iş akışları için SureCookie MCP Sunucusu."
+
+#. translators: %s: navigation group label
+#: build/admin.js:2
+#, js-format
+msgid "%s submenu"
+msgstr "%s alt menüsü"
+
+#: build/admin.js:2
+msgid "General"
+msgstr "Genel"
+
+#: build/admin.js:2
+msgid "Consent & Data"
+msgstr "Onay ve Veri"
+
+#: build/admin.js:2
+msgid "Consent Frameworks"
+msgstr "Onay Çerçeveleri"
+
+#: build/admin.js:2
+msgid "IAB-TCF"
+msgstr "IAB-TCF"
+
+#: build/admin.js:2
+msgid "Enter text"
+msgstr "Metin girin"
+
+#: build/admin.js:2
+msgid "Enter Banner Message"
+msgstr "Banner Mesajı Girin"
+
+#: build/admin.js:2
+msgid "Control how long consent stays valid and how consent records are stored."
+msgstr "Onayın ne kadar süre geçerli kalacağını ve onay kayıtlarının nasıl saklanacağını kontrol edin."
+
+#: build/admin.js:4
+msgid "N/A"
+msgstr "UYGUN DEĞİL"
+
+#. translators: %d: number of partner sites that received the forwarded consent.
+#: build/admin.js:15
+#, js-format
+msgid "This consent was shared with %d connected site. Deleting it here will also erase the copy from that site (GDPR Art. 17)."
+msgid_plural "This consent was shared with %d connected sites. Deleting it here will also erase the copies from those sites (GDPR Art. 17)."
+msgstr[0] "Bu onay %d bağlı site ile paylaşıldı. Burada silinmesi, o sitedeki kopyayı da silecektir (GDPR Madde 17)."
+msgstr[1] "Bu onay %d bağlı site ile paylaşıldı. Burada silinmesi, o sitelerdeki kopyaları da silecektir (GDPR Madde 17)."
+
+#. translators: %d: number of selected logs that were forwarded to partner sites.
+#: build/admin.js:21
+#, js-format
+msgid "%d of these logs was shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgid_plural "%d of these logs were shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgstr[0] "%d kayıt bağlı ortak sitelerle paylaşıldı. Silmek, iletilen kopyaları da silecektir (GDPR Madde 17)."
+msgstr[1] "Bu kayıtlardan %d tanesi bağlı ortak sitelerle paylaşıldı. Silmek, iletilen kopyaları da silecektir (GDPR Madde 17)."
+
+#: build/admin.js:53
+msgid "Admin and plugin preferences for SureCookie."
+msgstr "SureCookie için yönetici ve eklenti tercihleri."
+
+#: build/admin.js:53
+msgid "SureCookie Admin Menu"
+msgstr "SureCookie Yönetici Menüsü"
+
+#: build/admin.js:53
+msgid "Toggle to show SureCookie in the main menu or under Settings → SureCookie."
+msgstr "SureCookie'yi ana menüde veya Ayarlar → SureCookie altında göstermek için geçiş yapın."
+
+#: build/admin.js:84
+msgid "Connect Your AI Client"
+msgstr "Yapay Zeka İstemcinizi Bağlayın"
+
+#: build/admin.js:84
+msgid "Create an Application Password"
+msgstr "Bir Uygulama Parolası Oluşturun"
+
+#: build/admin.js:84
+msgid "Open Application Passwords"
+msgstr "Uygulama Parolalarını Açın"
+
+#: build/admin.js:84
+msgid "Add to your AI client:"
+msgstr "Yapay zeka istemcinize ekleyin:"
+
+#: build/admin.js:84
+msgid "Learn more about the WordPress MCP Adapter"
+msgstr "WordPress MCP Adaptörü hakkında daha fazla bilgi edinin"
+
+#: build/admin.js:84
+msgid "Claude Code"
+msgstr "Claude Kodu"
+
+#: build/admin.js:84
+msgid "Claude Desktop"
+msgstr "Claude Masaüstü"
+
+#: build/admin.js:84
+msgid "Cursor"
+msgstr "Cursor"
+
+#: build/admin.js:84
+msgid "VS Code"
+msgstr "VS Code"
+
+#: build/admin.js:84
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+#: build/admin.js:84
+msgid "go to Settings → Connectors → Add Connector, paste the endpoint URL, and use your WordPress username + Application Password."
+msgstr "Ayarlar → Bağlayıcılar → Bağlayıcı Ekle'ye gidin, uç nokta URL'sini yapıştırın ve WordPress kullanıcı adınız + Uygulama Parolasını kullanın."
+
+#: build/admin.js:84
+msgid "Learn more about ChatGPT connectors"
+msgstr "ChatGPT bağlayıcıları hakkında daha fazla bilgi edinin"
+
+#: build/admin.js:84
+msgid "SureCookie Only"
+msgstr "Sadece SureCookie"
+
+#: build/admin.js:84
+msgid "Global"
+msgstr "Genel"
+
+#: build/admin.js:84
+msgid "Copy setup prompt for AI client"
+msgstr "Yapay zeka istemcisi için kurulum istemini kopyala"
+
+#: build/admin.js:84
+msgid "Prompt copied! Paste it into your AI client."
+msgstr "İstem kopyalandı! Yapay zeka istemcinize yapıştırın."
+
+#: build/admin.js:84
+msgid "Failed to copy prompt to clipboard"
+msgstr "İstem panoya kopyalanamadı"
+
+#: build/admin.js:84
+msgid "Copy JSON config"
+msgstr "JSON yapılandırmasını kopyala"
+
+#: build/admin.js:84
+msgid "Copied to clipboard"
+msgstr "Panoya kopyalandı"
+
+#: build/admin.js:84
+msgid "Failed to copy to clipboard"
+msgstr "Panoya kopyalama başarısız oldu"
+
+#: build/admin.js:84
+msgid "MCP Adapter plugin not detected"
+msgstr "MCP Adaptör eklentisi algılanamadı"
+
+#. translators: %s: WP MCP Adapter plugin name.
+#: build/admin.js:87
+#, js-format
+msgid "To connect AI clients to your site, the %s plugin is required. Download the latest release from GitHub, upload it via Plugins > Add New > Upload Plugin, and activate."
+msgstr "AI istemcilerini sitenize bağlamak için %s eklentisi gereklidir. En son sürümü GitHub'dan indirin, Eklentiler > Yeni Ekle > Eklenti Yükle yoluyla yükleyin ve etkinleştirin."
+
+#: build/admin.js:87
+msgid "Download from GitHub"
+msgstr "GitHub'dan indir"
+
+#: build/admin.js:2
+#: build/admin.js:87
+msgid "MCP"
+msgstr "MCP"
+
+#: build/admin.js:87
+msgid "Configure AI client access to SureCookie through the Model Context Protocol."
+msgstr "Model Bağlam Protokolü aracılığıyla SureCookie'ye AI istemci erişimini yapılandırın."
+
+#: build/admin.js:87
+msgid "Enable MCP"
+msgstr "MCP'yi Etkinleştir"
+
+#: build/admin.js:87
+msgid "Allow AI clients like Claude, ChatGPT, and Cursor to manage your cookie banner, scanner, and consent settings through SureCookie. When disabled, no abilities are registered and AI clients cannot connect."
+msgstr "Claude, ChatGPT ve Cursor gibi AI istemcilerinin SureCookie üzerinden çerez banner'ınızı, tarayıcınızı ve onay ayarlarınızı yönetmesine izin verin. Devre dışı bırakıldığında, hiçbir yetenek kaydedilmez ve AI istemcileri bağlanamaz."
+
+#: build/admin.js:87
+msgid "WordPress Abilities API not available"
+msgstr "WordPress Yetenekler API'si kullanılamıyor"
+
+#: build/admin.js:87
+msgid "MCP requires the WordPress Abilities API (WordPress 6.9 or later). Update WordPress to use this feature."
+msgstr "MCP, WordPress Yetenekleri API'sini (WordPress 6.9 veya daha yeni) gerektirir. Bu özelliği kullanmak için WordPress'i güncelleyin."
+
+#: build/admin.js:87
+msgid "Unsaved changes"
+msgstr "Kaydedilmemiş değişiklikler"
+
+#: build/admin.js:87
+msgid "The MCP endpoint becomes active only after you save your settings."
+msgstr "MCP uç noktası, ayarlarınızı kaydettikten sonra etkin hale gelir."
+
+#: inc/api/consent-logs.php:404
+msgid "Unable to determine the current user."
+msgstr "Geçerli kullanıcı belirlenemedi."
+
+#: inc/api/consent-logs.php:415
+msgid "Consent logs marked as viewed."
+msgstr "Onay kayıtları görüntülendi olarak işaretlendi."
+
+#: inc/api/plugin.php:214
+msgid "This plugin is network-activated and must be deactivated by a Network Administrator from Network Admin > Plugins."
+msgstr "Bu eklenti ağda etkinleştirilmiştir ve Ağ Yöneticisi tarafından Ağ Yönetimi > Eklentiler bölümünden devre dışı bırakılmalıdır."
+
+#: inc/api/plugin.php:225
+msgid "Plugin could not be deactivated."
+msgstr "Eklenti devre dışı bırakılamadı."
+
+#: inc/modules/automatic-scanning/api.php:118
+msgid "Enable Automatic Scanning before running a scan."
+msgstr "Taramayı çalıştırmadan önce Otomatik Taramayı etkinleştirin."
+
+#: inc/modules/automatic-scanning/api.php:122
+msgid "A scan is already in progress."
+msgstr "Bir tarama zaten devam ediyor."
+
+#: inc/modules/automatic-scanning/api.php:128
+msgid "Could not start the scan. Please try again."
+msgstr "Tarama başlatılamadı. Lütfen tekrar deneyin."
+
+#: inc/modules/automatic-scanning/api.php:131
+msgid "Scan triggered."
+msgstr "Tarama tetiklendi."
+
+#: inc/modules/automatic-scanning/runner.php:100
+msgid "Automatic scan deferred: daily page budget reached. Retrying in ~24 hours."
+msgstr "Otomatik tarama ertelendi: günlük sayfa kotası doldu. Yaklaşık 24 saat içinde tekrar denenecek."
+
+#: inc/modules/automatic-scanning/runner.php:124
+msgid "Automatic scan skipped: a scan is already in progress."
+msgstr "Otomatik tarama atlandı: bir tarama zaten devam ediyor."
+
+#: inc/modules/automatic-scanning/runner.php:142
+msgid "Starting automatic (scheduled) scan."
+msgstr "Otomatik (planlanmış) tarama başlatılıyor."
+
+#: inc/modules/automatic-scanning/scheduler.php:85
+msgid "Once Monthly (SureCookie)"
+msgstr "Ayda Bir (SureCookie)"
+
+#: inc/modules/automatic-scanning/scheduler.php:92
+msgid "Once Weekly (SureCookie)"
+msgstr "Haftada Bir (SureCookie)"
+
+#: inc/modules/script-blocking/blocker.php:1279
+msgid "This content is currently blocked."
+msgstr "Bu içerik şu anda engellenmiştir."
+
+#: inc/modules/site-scanner/saas-client.php:519
+msgid "Scan deferred by server: daily page budget reached. It will retry automatically."
+msgstr "Tarama sunucu tarafından ertelendi: günlük sayfa kotası doldu. Otomatik olarak tekrar denenecek."
+
+#: inc/modules/site-scanner/saas-client.php:524
+msgid "Daily page budget reached. The scheduled scan will retry automatically."
+msgstr "Günlük sayfa kotası doldu. Planlanmış tarama otomatik olarak tekrar denenecek."
+
+#: build/admin.js:2
+#: build/admin.js:79
+msgid "Manual"
+msgstr "Manuel"
+
+#: build/admin.js:2
+msgid "Automatic"
+msgstr "Otomatik"
+
+#: build/admin.js:2
+msgid "Reset to default"
+msgstr "Varsayılana sıfırla"
+
+#: build/admin.js:2
+msgid "Enable Background Overlay"
+msgstr "Arka Plan Örtüsünü Etkinleştir"
+
+#: build/admin.js:2
+msgid "Background Overlay"
+msgstr "Arka Plan Örtüsü"
+
+#: build/admin.js:2
+msgid "Dim the page behind the banner and limit interaction until the visitor accepts or declines. The overlay is removed after a choice is made."
+msgstr "Ziyaretçi kabul edene veya reddedene kadar sayfayı karartır ve etkileşimi sınırlar. Seçim yapıldıktan sonra örtü kaldırılır."
+
+#: build/admin.js:2
+msgid "This layout highlights the consent banner and may affect user experience. Ensure it aligns with your regional consent requirements."
+msgstr "Bu düzen onay afişini vurgular ve kullanıcı deneyimini etkileyebilir. Bölgesel onay gereksinimlerinizle uyumlu olduğundan emin olun."
+
+#: build/admin.js:2
+#: build/admin.js:3
+msgid "Re-request Consent"
+msgstr "Onayı Yeniden İste"
+
+#. translators: %s: date/time of the last renewal.
+#: build/admin.js:3
+#, js-format
+msgid "Last Requested: %s"
+msgstr "Son İstek: %s"
+
+#: build/admin.js:3
+msgid "Ask all visitors to provide consent again. Use this after updating your cookie policy or adding new trackers. Existing consent will be marked as outdated, and the banner will reappear on the next visit."
+msgstr "Tüm ziyaretçilerden tekrar onay isteyin. Bunu çerez politikanızı güncelledikten veya yeni izleyiciler ekledikten sonra kullanın. Mevcut onay eski olarak işaretlenecek ve afiş bir sonraki ziyarette tekrar görünecektir."
+
+#: build/admin.js:3
+msgid "Consent requested. Visitors will be asked for consent again."
+msgstr "Onay istendi. Ziyaretçilerden tekrar onay istenecek."
+
+#: build/admin.js:3
+msgid "Could not Re-request Consent. Please try again."
+msgstr "Onay Yeniden İstenemedi. Lütfen tekrar deneyin."
+
+#: build/admin.js:3
+msgid "Renewing…"
+msgstr "Yenileniyor…"
+
+#: build/admin.js:3
+msgid "Confirm Re-request"
+msgstr "Yeniden İsteği Onayla"
+
+#: build/admin.js:22
+#: build/onboarding.js:2
+msgid "New"
+msgstr "Yeni"
+
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Automatic Scanning"
+msgstr "Otomatik Tarama"
+
+#: build/admin.js:43
+msgid "Manage"
+msgstr "Yönet"
+
+#: build/admin.js:43
+msgid "Since the last scan:"
+msgstr "Son taramadan beri:"
+
+#: build/admin.js:43
+msgid "new cookie"
+msgid_plural "new cookies"
+msgstr[0] "yeni çerez"
+msgstr[1] "yeni çerezler"
+
+#: build/admin.js:43
+msgid "removed"
+msgstr "kaldırıldı"
+
+#: build/admin.js:43
+msgid "new tracker domain"
+msgid_plural "new tracker domains"
+msgstr[0] "yeni izleyici alanı"
+msgstr[1] "yeni izleyici alanları"
+
+#: build/admin.js:43
+msgid "No scans yet. Schedule automatic scans to track changes over time."
+msgstr "Henüz tarama yapılmadı. Zaman içinde değişiklikleri takip etmek için otomatik taramalar planlayın."
+
+#. translators: %s: next scan date
+#: build/admin.js:44
+#, js-format
+msgid "Next scan: %s"
+msgstr "Sonraki tarama: %s"
+
+#: build/admin.js:44
+msgid "Scheduling is off"
+msgstr "Planlama kapalı"
+
+#: build/admin.js:75
+msgid "Network-activated"
+msgstr "Ağda etkinleştirildi"
+
+#: build/admin.js:75
+msgid "Manage in Network Admin"
+msgstr "Ağ Yöneticisinde Yönet"
+
+#: build/admin.js:76
+msgid "Google Consent Mode is enabled, so SureCookie allows Google's Consent Mode scripts to function correctly. As a result, this script cannot be blocked."
+msgstr "Google Onay Modu etkin, bu nedenle SureCookie Google'ın Onay Modu betiklerinin doğru çalışmasına izin verir. Bu nedenle, bu betik engellenemez."
+
+#: build/admin.js:78
+msgid "Necessary"
+msgstr "Gerekli"
+
+#: build/admin.js:78
+msgid "What Changed in the Last Scan"
+msgstr "Son Taramada Neler Değişti"
+
+#: build/admin.js:78
+msgid "Cookies and tracker domains that changed compared to the previous scan."
+msgstr "Önceki taramaya kıyasla değişen çerezler ve izleyici alan adları."
+
+#: build/admin.js:78
+msgid "No differences were detected compared to the previous scan."
+msgstr "Önceki taramaya kıyasla fark tespit edilmedi."
+
+#: build/admin.js:78
+msgid "New Cookies"
+msgstr "Yeni Çerezler"
+
+#: build/admin.js:78
+msgid "No Longer Detected"
+msgstr "Artık Tespit Edilmiyor"
+
+#: build/admin.js:78
+msgid "Recategorized"
+msgstr "Yeniden Kategorize Edildi"
+
+#: build/admin.js:78
+msgid "New Tracker Domains"
+msgstr "Yeni İzleyici Alan Adları"
+
+#: build/admin.js:78
+msgid "Third-party"
+msgstr "Üçüncü taraf"
+
+#: build/admin.js:78
+msgid "Monthly"
+msgstr "Aylık"
+
+#: build/admin.js:78
+msgid "Re-scan your site once a month."
+msgstr "Sitenizi ayda bir yeniden tarayın."
+
+#: build/admin.js:78
+msgid "Weekly"
+msgstr "Haftalık"
+
+#: build/admin.js:78
+msgid "Re-scan every week for faster drift detection."
+msgstr "Daha hızlı sapma tespiti için her hafta yeniden tarayın."
+
+#: build/admin.js:78
+msgid "All Published Content"
+msgstr "Tüm Yayınlanmış İçerik"
+
+#: build/admin.js:78
+msgid "Enable Automatic Scanning"
+msgstr "Otomatik Tarama Etkinleştir"
+
+#: build/admin.js:78
+msgid "Run scheduled scans in the background and detect changes automatically."
+msgstr "Planlı taramaları arka planda çalıştırın ve değişiklikleri otomatik olarak tespit edin."
+
+#: build/admin.js:78
+msgid "Scan Frequency"
+msgstr "Tarama Sıklığı"
+
+#: build/admin.js:78
+msgid "WordPress cron is disabled"
+msgstr "WordPress cron devre dışı"
+
+#: build/admin.js:78
+msgid "Scheduled scans rely on cron. Ask your host to set up a real server cron job so automatic scans run on time."
+msgstr "Planlı taramalar cron'a dayanır. Otomatik taramaların zamanında çalışması için barındırma sağlayıcınızdan gerçek bir sunucu cron işi kurmasını isteyin."
+
+#: build/admin.js:78
+msgid "Last Scan"
+msgstr "Son Tarama"
+
+#. translators: %s: last scan date-time
+#: build/admin.js:79
+#, js-format
+msgid "Scanned on %s"
+msgstr "%s tarihinde tarandı"
+
+#: build/admin.js:79
+msgid "Scheduled"
+msgstr "Planlandı"
+
+#. translators: %d: number of new cookies
+#: build/admin.js:80
+#, js-format
+msgid "%d New Cookies"
+msgstr "%d Yeni Çerez"
+
+#. translators: %d: number of cookies no longer detected
+#: build/admin.js:81
+#, js-format
+msgid "%d Removed"
+msgstr "%d Kaldırıldı"
+
+#. translators: %d: number of recategorized cookies
+#: build/admin.js:82
+#, js-format
+msgid "%d Recategorized"
+msgstr "%d Yeniden Kategorize Edildi"
+
+#. translators: %d: number of new tracker domains
+#: build/admin.js:83
+#, js-format
+msgid "%d New Tracker Domains"
+msgstr "%d Yeni İzleyici Alan Adı"
+
+#: build/admin.js:83
+msgid "View Changes"
+msgstr "Değişiklikleri Görüntüle"
+
+#: build/admin.js:83
+msgid "No scans yet - run your first scan to start monitoring changes."
+msgstr "Henüz tarama yapılmadı - değişiklikleri izlemeye başlamak için ilk taramanızı yapın."
+
+#: build/admin.js:83
+msgid "Stay Compliant Automatically"
+msgstr "Otomatik Olarak Uyumluluğu Sağlayın"
+
+#: build/admin.js:83
+msgid "Get weekly scans, instant alerts, smart classification, and automatic protection from new trackers."
+msgstr "Haftalık taramalar, anlık uyarılar, akıllı sınıflandırma ve yeni izleyicilerden otomatik koruma alın."
+
+#. translators: %d: maximum pages
+#: build/onboarding.js:11
+#, js-format
+msgid "SureCookie agent will visit them like real users to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "SureCookie ajanı, gerçek kullanıcılar gibi onları ziyaret ederek kullanılan tüm çerezleri tespit edecek. Kaynak kısıtlamaları nedeniyle tarama başına %d sayfa izin verilmektedir."
+
+#. translators: 1: remaining pages, 2: total daily page budget
+#: build/admin.js:70
+#, js-format
+msgid "%1$d of %2$d daily pages remaining on this site"
+msgstr "%2$d günlük sayfa kotası içinde %1$d sayfa kaldı"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "<p>By scanning you accept our <a>terms and conditions</a>.</p>"
+msgstr "<p>Tarama yaparak <a>şartlar ve koşulları</a> kabul etmiş olursunuz.</p>"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Terms and Conditions"
+msgstr "Şartlar ve Koşullar"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Cookie Scanning Not Available on Local Sites"
+msgstr "Yerel Sitelerde Çerez Tarama Kullanılamıyor"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "This site is running on a local or development environment that our cloud scanner cannot reach. Cookie scanning will be available once your site is live on a publicly accessible domain."
+msgstr "Bu site, bulut tarayıcımızın erişemediği yerel veya geliştirme ortamında çalışıyor. Çerez taraması, siteniz herkese açık bir alanda yayına alındığında kullanılabilir olacak."
+
+#: build/onboarding.js:14
+msgid "Skip for Now"
+msgstr "Şimdilik Atla"
+
+#: build/onboarding.js:14
+msgid "Stay in the loop and help shape SureCookie! Get feature updates, and help us build a better SureCookie by sharing how you use the plugin. <a>Terms and Conditions</a>"
+msgstr "Güncel kalın ve SureCookie'nin şekillenmesine yardımcı olun! Özellik güncellemeleri alın ve eklentiyi nasıl kullandığınızı paylaşarak daha iyi bir SureCookie oluşturmamıza destek olun. <a>Şartlar ve Koşullar</a>"
+
+#: admin/product-promotion.php:104
+msgid "Grow traffic of your website with SureRank - a lightweight SEO toolkit plugin for WordPress users who want better rankings without the complexity."
+msgstr "SureRank ile web sitenizin trafiğini artırın - karmaşıklık olmadan daha iyi sıralamalar isteyen WordPress kullanıcıları için hafif bir SEO araç seti eklentisi."
+
+#: admin/rating-notice.php:232
+msgid "Amazing! SureCookie discovered cookies on your site - let's keep growing together!"
+msgstr "Harika! SureCookie sitenizde çerezler keşfetti - birlikte büyümeye devam edelim!"
+
+#. translators: 1: page URL, 2: error message
+#: inc/modules/site-scanner/saas-client.php:989
+#, php-format
+msgid "Page failed: %1$s - %2$s"
+msgstr "Sayfa başarısız oldu: %1$s - %2$s"
+
+#: build/admin.js:43
+msgid "WP-Cron disabled - scans won’t run automatically"
+msgstr "WP-Cron devre dışı - taramalar otomatik olarak çalışmayacak"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Consider Plan Upgrade"
+msgstr "Plan Yükseltmeyi Düşünün"
+
+#. translators: 1: pages scanned, 2: pages submitted
+#: build/admin.js:75
+#, js-format
+msgid "Scanned %1$d of %2$d pages - your daily page budget is used up. The remaining pages will scan after it resets."
+msgstr "%2$d sayfadan %1$d tanesi tarandı - günlük sayfa bütçeniz tükendi. Kalan sayfalar, bütçe sıfırlandıktan sonra taranacak."
+
+#: build/admin.js:84
+msgid "Update the environment variables"
+msgstr "Ortam değişkenlerini güncelleyin"
+
+#: build/admin.js:84
+msgid "WP_API_USERNAME"
+msgstr "WP_API_USERNAME"
+
+#: build/admin.js:84
+msgid "Your WordPress username (prefilled)."
+msgstr "WordPress kullanıcı adınız (önceden doldurulmuş)."
+
+#: build/admin.js:84
+msgid "WP_API_PASSWORD"
+msgstr "WP_API_PASSWORD"
+
+#: build/admin.js:84
+msgid "Replace \"your-application-password\" with the password from Step 1."
+msgstr "\"your-application-password\" değerini 1. Adımdaki parola ile değiştirin."
+
+#: build/admin.js:84
+msgid "Verify Node.js version"
+msgstr "Node.js sürümünü doğrulayın"
+
+#: build/admin.js:84
+msgid "In your terminal, run:"
+msgstr "Terminalinizde şunu çalıştırın:"
+
+#: build/admin.js:84
+msgid "The version must be 20.1 or higher."
+msgstr "Sürüm 20.1 veya üzeri olmalıdır."
+
+#: build/admin.js:84
+msgid "If it is lower, run:"
+msgstr "Daha düşükse şunu çalıştırın:"
+
+#: build/admin.js:84
+msgid "Restart your AI client and paste the copied prompt again into your AI client."
+msgstr "AI istemcinizi yeniden başlatın ve kopyalanan istemi tekrar AI istemcinize yapıştırın."
+
+#: build/admin.js:84
+msgid "Enjoy your AI client connected to your WordPress site!"
+msgstr "WordPress sitenize bağlı AI istemcinizin keyfini çıkarın!"
+
+#: admin/rating-notice.php:156
+msgid "Invalid nonce."
+msgstr "Geçersiz nonce."
+
+#: admin/rating-notice.php:158
+msgid "Unauthorized user."
+msgstr "Yetkisiz kullanıcı."
+
+#: admin/rating-notice.php:171
+msgid "Invalid parameters."
+msgstr "Geçersiz parametreler."
+
+#: build/admin.js:47
+msgid "More scan limits, geographic targeting, re-consent widget, and more."
+msgstr "Daha fazla tarama sınırı, coğrafi hedefleme, yeniden onay widget'ı ve daha fazlası."
+
+#: inc/integrations/presto-player/block-handler.php:293
+msgid "This audio is blocked until you accept cookies to load it."
+msgstr "Bu ses, yüklemek için çerezleri kabul edene kadar engellenmiştir."
+
+#: inc/integrations/presto-player/block-handler.php:297
+msgid "This video is blocked until you accept cookies to load it."
+msgstr "Bu video, yüklemek için çerezleri kabul edene kadar engellenmiştir."
+
+#: build/admin.js:2
+msgid "Tools"
+msgstr "Araçlar"
+
+#: build/admin.js:2
+msgid "You've used all available AI requests in your Free Plan. Upgrade to SureCookie premium to keep using AI features."
+msgstr "Ücretsiz Planınızda tüm kullanılabilir AI isteklerini kullandınız. AI özelliklerini kullanmaya devam etmek için SureCookie premium'a yükseltin."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to access this feature."
+msgstr "Bu özelliğe erişmek için SureCookie premium'a yükseltin."
+
+#: build/admin.js:2
+msgid "Is this button order not showing on the frontend?"
+msgstr "Bu düğme sırası ön yüzde görünmüyor mu?"
+
+#: build/admin.js:2
+msgid "Visitors who match a region-specific rule will see the button order defined for that region. This global order is shown only to visitors who don't match any regional rules."
+msgstr "Bölgeye özgü kurallara uyan ziyaretçiler, o bölge için tanımlanan düğme sırasını göreceklerdir. Bu genel sıra, herhangi bir bölgesel kurala uymayan ziyaretçilere gösterilir."
+
+#: build/admin.js:2
+msgid "Manage Geo Rules"
+msgstr "Coğrafi Kuralları Yönet"
+
+#: build/admin.js:2
+msgid "You can add links and basic formatting like bold/italic/link to the banner message."
+msgstr "Banner mesajına bağlantılar ve kalın/italik/bağlantı gibi temel biçimlendirmeler ekleyebilirsiniz."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to pick custom primary, secondary, foreground, and background colors for your banner."
+msgstr "Bannerınız için özel birincil, ikincil, ön plan ve arka plan renkleri seçmek için SureCookie premium'a yükseltin."
+
+#: build/admin.js:6
+msgid "Export Consent Logs"
+msgstr "Onay Kayıtlarını Dışa Aktar"
+
+#: build/admin.js:6
+msgid "Upgrade to premium to download CSV report for legal audits and GDPR Article 7 documentation."
+msgstr "Yasal denetimler ve GDPR Madde 7 belgeleri için CSV raporu indirmek üzere premium'a yükseltin."
+
+#: build/admin.js:44
+msgid "Grab the Launch Offer"
+msgstr "Başlatma Teklifini Yakala"
+
+#: build/admin.js:47
+msgid "Do More with SureCookie Premium"
+msgstr "SureCookie Premium ile Daha Fazlasını Yapın"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Checking your scan limits…"
+msgstr "Tarama sınırlarınız kontrol ediliyor…"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Run your first scan to connect this site with SureCookie. Your plan's full scan limits unlock automatically once the connection is established."
+msgstr "Bu siteyi SureCookie ile bağlamak için ilk taramanızı çalıştırın. Bağlantı kurulduktan sonra planınızın tam tarama sınırları otomatik olarak açılır."
+
+#. translators: %d: maximum pages
+#: build/admin.js:67
+#, js-format
+msgid "We'll visit the selected content to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "Seçilen içeriği ziyaret ederek kullanılan tüm çerezleri tespit edeceğiz. Kaynak kısıtlamaları nedeniyle tarama başına %d sayfa izin verilir."
+
+#. translators: %d: maximum items
+#: build/admin.js:72
+#: build/onboarding.js:13
+#, js-format
+msgid "Select up to %d items to scan…"
+msgstr "%d öğeye kadar tarama için seçin…"
+
+#: build/admin.js:72
+#: build/onboarding.js:13
+msgid "Select Content"
+msgstr "İçerik Seç"
+
+#: build/admin.js:73
+#: build/onboarding.js:14
+msgid "Select the content you want to scan."
+msgstr "Taramak istediğiniz içeriği seçin."
+
+#: build/admin.js:74
+msgid "Scanning your content for cookies. This may take a few minutes."
+msgstr "İçeriğiniz çerezler için taranıyor. Bu birkaç dakika sürebilir."
+
+#: build/admin.js:75
+msgid "Unlock Geo Rules, Advanced Scanning & more with Pro - Grab the launching offer!"
+msgstr "Pro ile Coğrafi Kuralları, Gelişmiş Tarama ve daha fazlasının kilidini açın - Başlatma teklifini yakalayın!"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Claim the Deal"
+msgstr "Teklifi Talep Et"
+
+#: build/admin.js:78
+msgid "Content from Manual Scan"
+msgstr "Manuel Tarama İçeriği"
+
+#: build/admin.js:78
+msgid "Reuse the content selected on the Cookie Scanner."
+msgstr "Çerez Tarayıcıda seçilen içeriği yeniden kullanın."
+
+#: build/admin.js:78
+msgid "Scan all published content, as per plan limit."
+msgstr "Plan sınırına göre tüm yayınlanmış içeriği tara."
+
+#: build/admin.js:78
+msgid "Selected Content"
+msgstr "Seçilen İçerik"
+
+#: build/admin.js:78
+msgid "Choose specific content to scan below."
+msgstr "Aşağıdan taranacak belirli içeriği seçin."
+
+#: build/admin.js:78
+msgid "Content to Scan"
+msgstr "Taranacak İçerik"
+
+#: build/admin.js:78
+msgid "Select content to scan…"
+msgstr "Taranacak içeriği seçin…"
+
+#: build/onboarding.js:6
+msgid "Launch Offer - Save Big"
+msgstr "Başlatma Teklifi - Büyük Tasarruf"
+
+#: build/onboarding.js:6
+msgid "Limited Time"
+msgstr "Sınırlı Süre"
+
+#: build/onboarding.js:6
+msgid "Upgrade to Premium and unlock advanced scanning, geo rules, custom branding, and priority support."
+msgstr "Premium'a yükseltin ve gelişmiş tarama, coğrafi kurallar, özel marka ve öncelikli destek kilidini açın."
+
+#: build/onboarding.js:6
+msgid "Failed to activate license. Please try again."
+msgstr "Lisans etkinleştirilemedi. Lütfen tekrar deneyin."
+
+#: build/onboarding.js:6
+msgid "License Activated!"
+msgstr "Lisans Etkinleştirildi!"
+
+#: build/onboarding.js:6
+msgid "Your license has been successfully activated."
+msgstr "Lisansınız başarıyla etkinleştirildi."
+
+#: build/onboarding.js:6
+msgid "Activation Failed"
+msgstr "Aktivasyon Başarısız"
+
+#: build/onboarding.js:6
+msgid "An error occurred during activation. Please try again."
+msgstr "Aktivasyon sırasında bir hata oluştu. Lütfen tekrar deneyin."
+
+#: build/onboarding.js:6
+msgid "Invalid License Key"
+msgstr "Geçersiz Lisans Anahtarı"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid license key."
+msgstr "Lütfen geçerli bir lisans anahtarı girin."
+
+#: build/onboarding.js:6
+msgid "Activate Your License"
+msgstr "Lisansınızı Aktive Edin"
+
+#: build/onboarding.js:6
+msgid "Activate your SureCookie license to unlock higher scan limits, automatically classify cookies, and get smart compliance recommendations."
+msgstr "Daha yüksek tarama limitlerinin kilidini açmak, çerezleri otomatik olarak sınıflandırmak ve akıllı uyumluluk önerileri almak için SureCookie lisansınızı aktive edin."
+
+#: build/onboarding.js:6
+msgid "License activated"
+msgstr "Lisans aktive edildi"
+
+#: build/onboarding.js:6
+msgid "Activating…"
+msgstr "Aktive ediliyor…"
+
+#: build/admin.js:63
+#: build/onboarding.js:6
+#: build/onboarding.js:7
+msgid "Activate License"
+msgstr "Lisansı Aktive Et"
+
+#: build/onboarding.js:6
+msgid "License Key"
+msgstr "Lisans Anahtarı"
+
+#: build/onboarding.js:6
+msgid "Paste your license key here"
+msgstr "Lisans anahtarınızı buraya yapıştırın"
+
+#. translators: %s: Package name (e.g., SureCookie Pro)
+#: build/onboarding.js:7
+#, js-format
+msgid "Activate your <strong>%s</strong> license to receive professional support and automatic updates directly from your WordPress dashboard. Don't have a license? <a>Get it here »</a>"
+msgstr "Profesyonel destek ve otomatik güncellemeleri doğrudan WordPress kontrol panelinizden almak için <strong>%s</strong> lisansınızı aktive edin. Lisansınız yok mu? <a>Buradan edinin »</a>"
+
+#: build/onboarding.js:7
+msgid "Purchase a SureCookie license"
+msgstr "Bir SureCookie lisansı satın alın"
+
+#: build/admin.js:2
+msgid "View Plans"
+msgstr "Planları Görüntüle"
+
+#: build/admin.js:4
+msgid "CONSENT RECORD"
+msgstr "RIZA KAYDI"
+
+#: build/admin.js:4
+msgid "This document contains a record of the consent choice stored by SureCookie. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Bu belge, SureCookie tarafından saklanan rıza seçiminin kaydını içerir. Dahili dokümantasyon ve inceleme için kullanılabilir. Yasal gereklilikler değişiklik gösterebilir."
+
+#: build/admin.js:4
+msgid "This document is automatically generated by the SureCookie plugin and contains a record of the consent choice stored at the time of export. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Bu belge, SureCookie eklentisi tarafından otomatik olarak oluşturulur ve dışa aktarma anında saklanan rıza seçiminin kaydını içerir. Dahili dokümantasyon ve inceleme için kullanılabilir. Yasal gereklilikler değişiklik gösterebilir."
+
+#: build/admin.js:43
+msgid "Enter your custom CSS here"
+msgstr "Özel CSS'inizi buraya girin"
+
+#: build/admin.js:43
+msgid "Use !important to override inline styles"
+msgstr "Satır içi stillerin üzerine yazmak için !important kullanın"
+
+#: build/admin.js:43
+msgid "Your cookie banner is enabled."
+msgstr "Çerez bildiriminiz etkin."
+
+#: build/admin.js:43
+msgid "Your cookie banner is currently disabled."
+msgstr "Çerez bildiriminiz şu anda devre dışı."
+
+#: build/admin.js:2
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Activate SureCookie Pro"
+msgstr "SureCookie Pro'yu Etkinleştir"
+
+#. translators: %d: maximum pages
+#: build/admin.js:64
+#: build/onboarding.js:8
+#, js-format
+msgid "Your first scan can cover up to %d pages while we connect your site. Remove the extra pages to start - Your plan's full limits unlock automatically afterward."
+msgstr "İlk taramanız, sitenizi bağlarken %d sayfaya kadar kapsayabilir. Başlamak için ekstra sayfaları kaldırın - Planınızın tam sınırları daha sonra otomatik olarak açılır."
+
+#. translators: %d: maximum pages
+#: build/admin.js:66
+#: build/onboarding.js:10
+#, js-format
+msgid "The free plan supports scanning up to %d pages. Upgrade now to scan more pages and keep your cookie list updated automatically."
+msgstr "Ücretsiz plan, %d sayfaya kadar taramayı destekler. Daha fazla sayfa taramak ve çerez listenizi otomatik olarak güncel tutmak için şimdi yükseltin."
+
+#. translators: %s: SureCookie plan tier, e.g. "Business"
+#: build/admin.js:76
+#, js-format
+msgid "%s version"
+msgstr "%s sürümü"
+
+#: build/onboarding.js:6
+msgid "Let's help you discover cookies, configure consent choices, and improve how your website handles visitor privacy. SureCookie automatically detects and categorizes cookies so you can stay focused on growing your business."
+msgstr "Çerezleri keşfetmenize, rıza seçimlerini yapılandırmanıza ve web sitenizin ziyaretçi gizliliğini nasıl yönettiğini geliştirmenize yardımcı olalım. SureCookie, çerezleri otomatik olarak algılar ve kategorize eder, böylece işinizi büyütmeye odaklanabilirsiniz."
+
+#: build/onboarding.js:14
+msgid "Keep consent records locally on the site and export individual records when needed"
+msgstr "Rıza kayıtlarını yerel olarak sitede tutun ve gerektiğinde bireysel kayıtları dışa aktarın"
+
+#: admin/menu.php:78
+#: build/admin.js:2
+msgid "Tracking Manager"
+msgstr "Takip Yöneticisi"
+
+#: admin/product-promotion.php:116
+msgid "WordPress emails often go missing or land in spam because web hosts aren't built for reliable delivery. SureMail fixes this by connecting to trusted SMTP services, so your emails reach inboxes, no more lost messages or frustrated customers."
+msgstr "WordPress e-postaları genellikle kaybolur veya spam klasörüne düşer çünkü web barındırıcıları güvenilir teslimat için tasarlanmamıştır. SureMail, güvenilir SMTP hizmetlerine bağlanarak bunu düzeltir, böylece e-postalarınız gelen kutularına ulaşır, artık kaybolan mesajlar veya hayal kırıklığına uğrayan müşteriler olmaz."
+
+#: admin/product-promotion.php:122
+msgid "Spectra Blocks is a complete rebuild of Spectra on WordPress's modern core-block APIs - an AI website builder built directly into the Block Editor."
+msgstr "Spectra Blocks, WordPress'in modern çekirdek blok API'leri üzerinde Spectra'nın tamamen yeniden inşasıdır - Blok Düzenleyiciye doğrudan entegre edilmiş bir AI web sitesi oluşturucudur."
+
+#: inc/api/cookies.php:395
+msgid "Failed to update cookie categories: "
+msgstr "Çerez kategorileri güncellenemedi:"
+
+#. translators: %s: Provider name (e.g., YouTube, Vimeo)
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:236
+#: inc/modules/script-blocking/blocker.php:1294
+#, php-format
+msgid "Accept and load %s content"
+msgstr "%s içeriğini kabul et ve yükle"
+
+#: inc/modules/assisted-scan/api.php:122
+msgid "An assisted scan is already running. Cancel it before starting another."
+msgstr "Yardımlı bir tarama zaten çalışıyor. Başka bir tane başlatmadan önce iptal edin."
+
+#: inc/modules/assisted-scan/api.php:144
+#: inc/modules/assisted-scan/api.php:155
+msgid "Select at least one published page to scan."
+msgstr "Tarama için en az bir yayımlanmış sayfa seçin."
+
+#: inc/modules/assisted-scan/api.php:163
+msgid "Starting assisted scan (collected from your browser)."
+msgstr "Yardımlı tarama başlatılıyor (tarayıcınızdan toplanan)."
+
+#. translators: %d: number of pages.
+#: inc/modules/assisted-scan/api.php:167
+#, php-format
+msgid "Pages to visit: %d."
+msgstr "Ziyaret edilecek sayfalar: %d."
+
+#: inc/modules/assisted-scan/api.php:197
+#: inc/modules/assisted-scan/api.php:253
+msgid "This scan session has expired. Start the scan again."
+msgstr "Bu tarama oturumu süresi doldu. Tarama işlemini tekrar başlatın."
+
+#: inc/modules/assisted-scan/api.php:210
+msgid "The scan sent more data than a single page should produce."
+msgstr "Tarama, tek bir sayfanın üretmesi gereken veriden daha fazla veri gönderdi."
+
+#: inc/modules/assisted-scan/api.php:222
+msgid "That page is not the one this scan was waiting for."
+msgstr "Bu sayfa, bu taramanın beklediği sayfa değil."
+
+#: inc/modules/assisted-scan/api.php:275
+#: inc/modules/assisted-scan/api.php:277
+msgid "Assisted scan cancelled."
+msgstr "Yardımlı tarama iptal edildi."
+
+#. translators: 1: current page number, 2: total pages.
+#: inc/modules/assisted-scan/collector.php:322
+#, php-format
+msgid "SureCookie is scanning page %1$d of %2$d"
+msgstr "SureCookie, %2$d sayfa içinden %1$d sayfayı tarıyor"
+
+#: inc/modules/assisted-scan/collector.php:323
+msgid "Keep this tab in front so the scan can continue."
+msgstr "Taramanın devam edebilmesi için bu sekmeyi ön planda tutun."
+
+#: inc/modules/assisted-scan/collector.php:324
+msgid "Paused. Bring this tab to the front to continue."
+msgstr "Duraklatıldı. Devam etmek için bu sekmeyi ön plana getirin."
+
+#: inc/modules/assisted-scan/collector.php:325
+msgid "Preparing a clean visit…"
+msgstr "Temiz bir ziyaret hazırlanıyor…"
+
+#. translators: 1: number of cookies, 2: number of services.
+#: inc/modules/assisted-scan/collector.php:327
+#, php-format
+msgid "Scan complete: %1$d cookies, %2$d services found"
+msgstr "Tarama tamamlandı: %1$d çerez, %2$d hizmet bulundu"
+
+#: inc/modules/assisted-scan/collector.php:328
+msgid "The scan could not be completed. Return to SureCookie to try again."
+msgstr "Tarama tamamlanamadı. Tekrar denemek için SureCookie'ye dönün."
+
+#: inc/modules/assisted-scan/collector.php:330
+msgid "SureCookie assisted scan progress"
+msgstr "SureCookie yardımlı tarama ilerlemesi"
+
+#. translators: 1: page number, 2: cookie count, 3: resource count.
+#: inc/modules/assisted-scan/ingest.php:119
+#, php-format
+msgid "Page %1$d collected: %2$d cookies, %3$d third-party resources."
+msgstr "Sayfa %1$d toplandı: %2$d çerez, %3$d üçüncü taraf kaynak."
+
+#. translators: 1: page number, 2: error reason.
+#: inc/modules/assisted-scan/ingest.php:129
+#, php-format
+msgid "Page %1$d could not be collected (%2$s)."
+msgstr "Sayfa %1$d toplanamadı (%2$s)."
+
+#. translators: 1: cookie count, 2: service count.
+#: inc/modules/assisted-scan/ingest.php:222
+#, php-format
+msgid "Assisted scan finished: %1$d cookies, %2$d known services."
+msgstr "Yardımlı tarama tamamlandı: %1$d çerez, %2$d bilinen hizmet."
+
+#. translators: %s: comma-separated service names.
+#: inc/modules/assisted-scan/ingest.php:232
+#, php-format
+msgid "A first-party check also found: %s. Your browser may have blocked these."
+msgstr "Birinci taraf kontrolü ayrıca şunları buldu: %s. Tarayıcınız bunları engellemiş olabilir."
+
+#: inc/modules/assisted-scan/session.php:466
+msgid "Assisted scan in progress..."
+msgstr "Yardımlı tarama devam ediyor..."
+
+#: inc/modules/assisted-scan/session.php:576
+msgid "Assisted scan finished."
+msgstr "Yardımlı tarama tamamlandı."
+
+#: inc/modules/services/api.php:142
+msgid "Unknown service."
+msgstr "Bilinmeyen hizmet."
+
+#: inc/modules/services/api.php:153
+msgid "This is a Pro service. Upgrade to add it."
+msgstr "Bu bir Pro hizmetidir. Eklemek için yükseltin."
+
+#: inc/modules/site-scanner/cron.php:210
+msgid "Assisted scan cancelled by user."
+msgstr "Yardımlı tarama kullanıcı tarafından iptal edildi."
+
+#: inc/modules/site-scanner/saas-client.php:1653
+msgid "We could not verify your domain because your site's SSL certificate could not be validated (it may be self-signed, expired, or issued for a different domain). Install a valid certificate (for example Let's Encrypt), or scan your live domain that already has one, then retry."
+msgstr "Alan adınızı doğrulayamadık çünkü sitenizin SSL sertifikası doğrulanamadı (kendinden imzalı, süresi dolmuş veya farklı bir alan adı için verilmiş olabilir). Geçerli bir sertifika yükleyin (örneğin Let's Encrypt) veya zaten sertifikası olan canlı alan adınızı tarayın, sonra tekrar deneyin."
+
+#: inc/modules/site-scanner/saas-client.php:1655
+msgid "We could not verify your domain because your host is blocking our verification request to /wp-json/. This is common on SiteGround. Allowlist our scanner IPs/User-Agent (or ask your host to) and retry - or add your services manually in the meantime."
+msgstr "Alan adınızı doğrulayamadık çünkü barındırıcınız /wp-json/ doğrulama isteğimizi engelliyor. Bu SiteGround'da yaygındır. Tarayıcı IP/User-Agent'larımızı izin listesine ekleyin (veya barındırıcınızdan isteyin) ve tekrar deneyin - veya bu arada hizmetlerinizi manuel olarak ekleyin."
+
+#: inc/modules/site-scanner/saas-client.php:1657
+msgid "We could not reach your site's REST API at /wp-json/. Enable pretty permalinks and make sure no security plugin is disabling the REST API, then retry."
+msgstr "Site'inizin REST API'sine /wp-json/ adresinden ulaşılamadı. Güzel kalıcı bağlantıları etkinleştirin ve hiçbir güvenlik eklentisinin REST API'yi devre dışı bırakmadığından emin olun, ardından tekrar deneyin."
+
+#: inc/services/cookie-category-service.php:247
+msgid "Cookies cannot be moved to the category being deleted."
+msgstr "Çerezler silinen kategoriye taşınamaz."
+
+#: inc/services/cookie-category-service.php:254
+#: inc/services/cookie-service.php:440
+msgid "The selected category no longer exists. Please reload and try again."
+msgstr "Seçilen kategori artık mevcut değil. Lütfen sayfayı yenileyin ve tekrar deneyin."
+
+#: inc/services/cookie-service.php:421
+msgid "No cookies selected."
+msgstr "Hiçbir çerez seçilmedi."
+
+#. translators: %d: maximum number of cookies per request.
+#: inc/services/cookie-service.php:430
+#, php-format
+msgid "Too many cookies in one request. Please select up to %d."
+msgstr "Bir istekte çok fazla çerez var. Lütfen en fazla %d tane seçin."
+
+#. translators: %d: number of cookies updated.
+#: inc/services/cookie-service.php:547
+#, php-format
+msgid "%d cookie moved to the selected category."
+msgid_plural "%d cookies moved to the selected category."
+msgstr[0] "%d çerez seçilen kategoriye taşındı."
+msgstr[1] ""
+
+#: inc/services/cookie-service.php:555
+msgid "No cookies could be updated."
+msgstr "Hiçbir çerez güncellenemedi."
+
+#: build/admin.js:2
+msgid "Scanning"
+msgstr "Taranıyor"
+
+#: build/admin.js:2
+#: build/admin.js:41
+msgid "Known Services"
+msgstr "Bilinen Hizmetler"
+
+#: build/admin.js:2
+#: build/admin.js:77
+msgid "Scripts and Embeds"
+msgstr "Betikler ve Gömülü İçerikler"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Geographic Rules"
+msgstr "Coğrafi Kurallar"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Consent Sharing"
+msgstr "Onay Paylaşımı"
+
+#: build/admin.js:2
+msgid "Add License"
+msgstr "Lisans Ekle"
+
+#. translators: %s: cookie name.
+#: build/admin.js:22
+#: build/onboarding.js:2
+#, js-format
+msgid "Select %s"
+msgstr "%s seç"
+
+#. translators: %s: cookie name.
+#: build/admin.js:23
+#: build/onboarding.js:3
+#, js-format
+msgid "Category for %s"
+msgstr "%s için kategori"
+
+#: build/admin.js:23
+#: build/onboarding.js:3
+msgid "Select category"
+msgstr "Kategori seç"
+
+#. translators: 1: action label, 2: cookie name.
+#: build/admin.js:24
+#: build/onboarding.js:4
+#, js-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %d: number of selected cookies.
+#: build/admin.js:25
+#, js-format
+msgid "%d selected"
+msgstr "%d seçildi"
+
+#: build/admin.js:25
+msgid "Bulk category"
+msgstr "Toplu kategori"
+
+#: build/admin.js:25
+msgid "Move to category…"
+msgstr "Kategoriye taşı…"
+
+#: build/admin.js:25
+msgid "Applying…"
+msgstr "Uygulanıyor…"
+
+#: build/admin.js:25
+msgid "Apply"
+msgstr "Uygula"
+
+#: build/admin.js:25
+msgid "Clear selection"
+msgstr "Seçimi temizle"
+
+#: build/admin.js:25
+msgid "Select all cookies"
+msgstr "Tüm çerezleri seç"
+
+#: build/admin.js:28
+msgid "Assigned cookies will be moved to another category instead of being deleted."
+msgstr "Atanan çerezler silinmek yerine başka bir kategoriye taşınacaktır."
+
+#: build/admin.js:28
+msgid "Move Cookies To"
+msgstr "Çerezleri Taşı"
+
+#: build/admin.js:28
+msgid "Search services…"
+msgstr "Hizmetlerde ara…"
+
+#: build/admin.js:28
+msgid "Search services"
+msgstr "Hizmetlerde ara"
+
+#: build/admin.js:28
+#: build/admin.js:37
+msgid "All Categories"
+msgstr "Tüm Kategoriler"
+
+#. translators: %d: number of cookies
+#: build/admin.js:29
+#, js-format
+msgid "%d cookie"
+msgid_plural "%d cookies"
+msgstr[0] "%d çerez"
+msgstr[1] ""
+
+#. translators: %d: number of iframes
+#: build/admin.js:30
+#, js-format
+msgid "%d iframe"
+msgid_plural "%d iframes"
+msgstr[0] "%d iframe"
+msgstr[1] ""
+
+#. translators: %d: number of scripts
+#: build/admin.js:31
+#, js-format
+msgid "%d script"
+msgid_plural "%d scripts"
+msgstr[0] "%d betik"
+msgstr[1] ""
+
+#: build/admin.js:31
+msgid "Added"
+msgstr "Eklendi"
+
+#: build/admin.js:31
+msgid "Detected"
+msgstr "Tespit Edildi"
+
+#: build/admin.js:31
+msgid "Remove"
+msgstr "Kaldır"
+
+#: build/admin.js:31
+msgid "Add Service"
+msgstr "Hizmet Ekle"
+
+#: build/admin.js:31
+msgid "No services match your search."
+msgstr "Aramanıza uyan hizmet yok."
+
+#: build/admin.js:31
+msgid "Loads before consent"
+msgstr "Onaydan önce yüklenir"
+
+#. translators: %s: service name (e.g. Stripe)
+#: build/admin.js:32
+#, js-format
+msgid "%s is a necessary service, so it loads before consent - its cookies can be set without consent."
+msgstr "%s gerekli bir hizmettir, bu yüzden onaydan önce yüklenir - çerezleri onay olmadan ayarlanabilir."
+
+#: build/admin.js:32
+msgid "Blocked When \"Block Scripts until Consent\" Is On"
+msgstr "“Onay Olana Kadar Betikleri Engelle” Açıkken Engellenir"
+
+#. translators: %1$s: service name; %2$s: consent category name
+#: build/admin.js:33
+#, js-format
+msgid "When blocking is on, %1$s is blocked until visitors accept “%2$s”, so a scan never sees these cookies. Declaring them here keeps your cookie policy complete."
+msgstr "Engelleme açıkken, ziyaretçiler “%2$s” onaylayana kadar %1$s engellenir, bu yüzden tarama bu çerezleri hiç görmez. Bunları burada beyan etmek çerez politikanızın eksiksiz kalmasını sağlar."
+
+#. translators: %d: number of cookies
+#: build/admin.js:34
+#, js-format
+msgid "%d cookie added to your cookie policy"
+msgid_plural "%d cookies added to your cookie policy"
+msgstr[0] "%d çerez çerez politikanıza eklendi"
+msgstr[1] ""
+
+#. translators: %d: number of iframes
+#: build/admin.js:35
+#, js-format
+msgid "%d embed blocked before consent"
+msgid_plural "%d embeds blocked before consent"
+msgstr[0] "%d gömme onaydan önce engellendi"
+msgstr[1] ""
+
+#. translators: %d: number of scripts
+#: build/admin.js:36
+#, js-format
+msgid "%d script blocked before consent"
+msgid_plural "%d scripts blocked before consent"
+msgstr[0] "%d betik onaydan önce engellendi"
+msgstr[1] ""
+
+#: build/admin.js:36
+msgid "No categories available"
+msgstr "Kullanılabilir kategori yok"
+
+#: build/admin.js:36
+msgid "Create a cookie category first - new cookies land in Uncategorized until then."
+msgstr "Önce bir çerez kategorisi oluşturun - yeni çerezler o zamana kadar Kategorilendirilmemiş olarak kalır."
+
+#. translators: %d: number of days
+#: build/admin.js:37
+#, js-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d gün"
+msgstr[1] ""
+
+#: build/admin.js:37
+msgid "Session"
+msgstr "Oturum"
+
+#: build/admin.js:37
+msgid "Failed to add service"
+msgstr "Hizmet eklenemedi"
+
+#: build/admin.js:37
+msgid "Failed to remove service"
+msgstr "Hizmet kaldırılamadı"
+
+#: build/admin.js:37
+msgid "Service removed"
+msgstr "Hizmet kaldırıldı"
+
+#. translators: %s: service name (e.g. YouTube)
+#: build/admin.js:38
+#, js-format
+msgid "Added %s"
+msgstr "%s eklendi"
+
+#. translators: %d: number of cookies declared
+#: build/admin.js:39
+#, js-format
+msgid "%d cookie was added to your cookie policy."
+msgid_plural "%d cookies were added to your cookie policy."
+msgstr[0] "%d çerez çerez politikanıza eklendi."
+msgstr[1] ""
+
+#: build/admin.js:39
+msgid "This service is now managed. It stays blocked before consent."
+msgstr "Bu hizmet artık yönetiliyor. Onaydan önce engellenmeye devam eder."
+
+#. translators: %s: service name
+#: build/admin.js:40
+#: build/admin.js:41
+#, js-format
+msgid "Add %s"
+msgstr "%s ekle"
+
+#: build/admin.js:40
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Add from a Known Service"
+msgstr "Bilinen Bir Hizmetten Ekle"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Review what this adds to your cookie policy, then confirm."
+msgstr "Bunun çerez politikanıza ne eklediğini gözden geçirin, ardından onaylayın."
+
+#: build/admin.js:40
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can't detect before consent - ensuring your cookie policy stays complete."
+msgstr "YouTube veya Google Analytics gibi popüler hizmetleri tek tıkla hızlıca ekleyin. Tarayıcıların onaydan önce tespit edemediği betikler için mükemmeldir - böylece çerez politikanız eksiksiz kalır."
+
+#: build/admin.js:40
+msgid "Could not load the services catalog. Please try again."
+msgstr "Hizmet kataloğu yüklenemedi. Lütfen tekrar deneyin."
+
+#: build/admin.js:40
+msgid "This is a Pro service"
+msgstr "Bu bir Pro hizmetidir"
+
+#: build/admin.js:40
+msgid "Upgrade to add this service and declare its cookies in one click."
+msgstr "Bu hizmeti eklemek ve çerezlerini tek tıkla beyan etmek için yükseltin."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Unlock Every Tracking Service"
+msgstr "Tüm İzleme Hizmetlerinin Kilidini Aç"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Free covers the most common services. Upgrade to add any service in the catalog in one click."
+msgstr "Ücretsiz, en yaygın hizmetleri kapsar. Katalogdaki herhangi bir hizmeti tek tıkla eklemek için yükseltin."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Confirm Add"
+msgstr "Ekleme Onayla"
+
+#: build/admin.js:41
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can’t detect before consent - ensuring your cookie policy stays complete."
+msgstr "YouTube veya Google Analytics gibi popüler hizmetleri tek tıkla hızlıca ekleyin. Bu, tarayıcıların izin öncesi tespit edemediği betikler için mükemmeldir - böylece çerez politikanız eksiksiz kalır."
+
+#: build/admin.js:41
+msgid "Failed to load services"
+msgstr "Hizmetler yüklenemedi"
+
+#: build/admin.js:41
+msgid "An error occurred while loading services. Please refresh the page to try again."
+msgstr "Hizmetler yüklenirken bir hata oluştu. Lütfen tekrar denemek için sayfayı yenileyin."
+
+#: build/admin.js:41
+msgid "Installed Services"
+msgstr "Yüklenen Hizmetler"
+
+#: build/admin.js:41
+msgid "Available Services"
+msgstr "Mevcut Hizmetler"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Failed to update cookie categories"
+msgstr "Çerez kategorileri güncellenemedi"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Cookie categories updated"
+msgstr "Çerez kategorileri güncellendi"
+
+#. translators: %d: number of cookies that could not be updated.
+#: build/admin.js:42
+#, js-format
+msgid "%d cookie(s) could not be updated. Reload and try again."
+msgstr "%d çerez güncellenemedi. Yeniden yükleyip tekrar deneyin."
+
+#: build/admin.js:42
+msgid "Change Cookie Categories Carefully"
+msgstr "Çerez Kategorilerini Dikkatli Değiştirin"
+
+#: build/admin.js:42
+msgid "A cookie's category determines how it behaves when users decline consent. Cookies marked as Essential always remain active. Moving a cookie out of Essential may cause it to be blocked or deleted, which can break features like login or checkout. Similarly, assigning tracking cookies to Essential may conflict with privacy regulations. Your choice is remembered, so a later scan will not move the cookie back."
+msgstr "Bir çerezin kategorisi, kullanıcılar onayı reddettiğinde nasıl davranacağını belirler. Temel olarak işaretlenen çerezler her zaman aktif kalır. Bir çerezi Temel kategoriden çıkarmak, engellenmesine veya silinmesine neden olabilir; bu da giriş veya ödeme gibi özelliklerin bozulmasına yol açabilir. Benzer şekilde, izleme çerezlerini Temel olarak atamak gizlilik düzenlemeleriyle çelişebilir. Seçiminiz kaydedilir, böylece sonraki tarama çerezi geri taşımaz."
+
+#. translators: %s: service name (e.g. Google Analytics)
+#: build/admin.js:43
+#, js-format
+msgid "Looks like %s"
+msgstr "%s gibi görünüyor"
+
+#: build/admin.js:43
+msgid "We spotted cookies from this service. Add it to declare its cookies in one step."
+msgstr "Bu hizmetten çerezler tespit ettik. Çerezlerini tek adımda bildirmek için ekleyin."
+
+#: build/admin.js:43
+#: build/admin.js:76
+msgid "Add as Service"
+msgstr "Hizmet olarak Ekle"
+
+#: build/admin.js:43
+msgid "Dismiss"
+msgstr "Kapat"
+
+#: build/admin.js:50
+msgid "Welcome to SureCookie!"
+msgstr "SureCookie'ye Hoş Geldiniz!"
+
+#: build/admin.js:50
+msgid "Get your site compliant in minutes - show a cookie banner, block trackers before consent, and automatically detect cookies used on your site."
+msgstr "Sitenizi dakikalar içinde uyumlu hale getirin - bir çerez bannerı gösterin, izin öncesi izleyicileri engelleyin ve sitenizde kullanılan çerezleri otomatik olarak tespit edin."
+
+#: build/admin.js:50
+msgid "Set Up Cookie Banner"
+msgstr "Çerez Bannerını Ayarla"
+
+#: build/admin.js:50
+msgid "Scan My Site"
+msgstr "Sitemi Tara"
+
+#: build/admin.js:50
+msgid "Start with the banner, then scan your site to detect cookies."
+msgstr "Önce banner ile başlayın, sonra çerezleri tespit etmek için sitenizi tarayın."
+
+#: build/admin.js:50
+msgid "SureForms Video Thumbnail"
+msgstr "SureForms Video Küçük Resmi"
+
+#: build/admin.js:50
+msgid "SureForms: Custom WordPress Forms MADE SIMPLE"
+msgstr "SureForms: Özel WordPress Formları BASİTLEŞTİRİLDİ"
+
+#: build/admin.js:59
+msgid "Possible causes: Scan server under heavy load, your site is unreachable from our scanner, your site has CRON issues, or a page caused a browser timeout."
+msgstr "Olası nedenler: Tarama sunucusu yoğun yük altında, siteniz tarayıcımız tarafından erişilemiyor, sitenizde CRON sorunları var veya bir sayfa tarayıcı zaman aşımına neden oldu."
+
+#: build/admin.js:59
+msgid "Some pages could not be analyzed"
+msgstr "Bazı sayfalar analiz edilemedi"
+
+#. translators: 1: scanned pages, 2: total pages, 3: failed pages
+#: build/admin.js:60
+#, js-format
+msgid "Scanned %1$d of %2$d pages - %3$d could not be analyzed. The cookies we did find are saved, and results add up across scans, so you can re-run the scan to pick up the rest."
+msgstr "%1$d sayfa tarandı, toplam %2$d sayfa - %3$d analiz edilemedi. Bulduğumuz çerezler kaydedildi ve sonuçlar taramalar arasında toplanır, böylece kalanları almak için taramayı yeniden çalıştırabilirsiniz."
+
+#: build/admin.js:60
+msgid "Once the scan is complete, the cookies it found appear under <a>Cookies</a>, and the scripts and embeds under <b>Scripts and Embeds</b>."
+msgstr "Tarama tamamlandığında, bulunan çerezler <a>Çerezler</a> altında, betikler ve gömüler ise <b>Betikler ve Gömüler</b> altında görünür."
+
+#: build/admin.js:60
+msgid "Keep the scan tab in front until it finishes: browsers slow down background tabs."
+msgstr "Tarama bitene kadar sekmeyi ön planda tutun: tarayıcılar arka plan sekmelerini yavaşlatır."
+
+#: build/admin.js:60
+msgid "Pages already collected are saved, so closing the tab early keeps what it found."
+msgstr "Zaten toplanan sayfalar kaydedilir, bu yüzden sekmeyi erken kapatmak bulunanları korur."
+
+#: build/admin.js:60
+msgid "An ad blocker or privacy extension in this browser can hide trackers from the scan."
+msgstr "Bu tarayıcıdaki bir reklam engelleyici veya gizlilik uzantısı, taramadan izleyicileri gizleyebilir."
+
+#: build/admin.js:60
+msgid "If remote scanning fails, try Assisted Scanner method: <button></button>"
+msgstr "Uzak tarama başarısız olursa, Yardımlı Tarayıcı yöntemini deneyin: <button></button>"
+
+#: build/admin.js:60
+msgid "Switch to Default Scanner"
+msgstr "Varsayılan Tarayıcıya Geç"
+
+#: build/admin.js:60
+msgid "Switch to Assisted Scanner"
+msgstr "Yardımlı Tarayıcıya Geç"
+
+#: build/admin.js:60
+msgid "Scan From This Browser"
+msgstr "Bu Tarayıcıdan Tara"
+
+#: build/admin.js:60
+msgid "Your host blocked the scanner"
+msgstr "Sunucunuz tarayıcıyı engelledi"
+
+#: build/admin.js:60
+msgid "Your site's firewall or bot protection served our scanner a security challenge instead of your page, so the scan completed without results. This does not affect your visitors, only automated scanners. Allowlist the SureCookie scanner (or ask your host to) and run the scan again."
+msgstr "Sitenizin güvenlik duvarı veya bot koruması, tarama yerine tarayıcımıza bir güvenlik zorluğu sundu, bu yüzden tarama sonuçsuz tamamlandı. Bu ziyaretçilerinizi etkilemez, sadece otomatik tarayıcıları etkiler. SureCookie tarayıcısını izin verilenler listesine ekleyin (veya sunucunuza bunu yaptırın) ve taramayı tekrar çalıştırın."
+
+#: build/admin.js:60
+msgid "Services we still detected on your site (via a first-party check):"
+msgstr "Sitenizde hala tespit ettiğimiz hizmetler (birinci taraf kontrolü ile):"
+
+#: build/admin.js:60
+msgid "How to allowlist the scanner"
+msgstr "Tarayıcıyı izin verilenler listesine nasıl eklerim"
+
+#: build/admin.js:60
+msgid "No cookies found in this browser scan"
+msgstr "Bu tarayıcı taramasında çerez bulunamadı"
+
+#: build/admin.js:60
+msgid "We found services on your pages that your browser did not load, which usually means an ad blocker or privacy extension is active. Try again in a browser with extensions disabled, or add the cookies manually."
+msgstr "Sayfalarınızda tarayıcınızın yüklemediği hizmetler bulduk, bu genellikle bir reklam engelleyici veya gizlilik uzantısının etkin olduğu anlamına gelir. Uzantıların devre dışı olduğu bir tarayıcıda tekrar deneyin veya çerezleri manuel olarak ekleyin."
+
+#: build/admin.js:60
+msgid "The scan visited your pages but no cookies were set. Some services only set cookies after a visitor accepts the banner, so they may not appear. You can also add cookies manually."
+msgstr "Tarama sayfalarınızı ziyaret etti ancak çerez ayarlanmadı. Bazı hizmetler yalnızca ziyaretçi banner’ı kabul ettikten sonra çerez ayarlar, bu yüzden görünmeyebilirler. Çerezleri manuel olarak da ekleyebilirsiniz."
+
+#: build/admin.js:60
+msgid "No cookies found in this scan"
+msgstr "Bu taramada çerez bulunamadı"
+
+#: build/admin.js:60
+msgid "The scanner reached your site but did not detect any cookies. Some services only set cookies after a visitor accepts the banner, so they may not appear in a scan. You can also add cookies manually."
+msgstr "Tarayıcı sitenize ulaştı ancak çerez tespit etmedi. Bazı hizmetler yalnızca ziyaretçi banner’ı kabul ettikten sonra çerez ayarlar, bu yüzden taramada görünmeyebilirler. Çerezleri manuel olarak da ekleyebilirsiniz."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser (Best for this site)"
+msgstr "Tarama Tarayıcınızdan (Bu site için en iyisi)"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser"
+msgstr "Tarama Tarayıcınızdan"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Our scanner couldn't fully access your site due to server restrictions. This method runs the scan directly in your browser, ensuring accurate detection without being blocked."
+msgstr "Tarayıcımız sunucu kısıtlamaları nedeniyle sitenize tam erişim sağlayamadı. Bu yöntem taramayı doğrudan tarayıcınızda çalıştırır, engellenmeden doğru tespit sağlar."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Run the scan directly in your browser. This helps detect cookies, scripts, and embeds even when external scanners are blocked."
+msgstr "Taramayı doğrudan tarayıcınızda çalıştırın. Bu, dış tarayıcılar engellendiğinde bile çerezleri, betikleri ve gömülü içerikleri tespit etmeye yardımcı olur."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Detects cookies, scripts, and embeds as your visitors would see them."
+msgstr "Ziyaretçilerinizin gördüğü şekilde çerezleri, betikleri ve gömülü içerikleri tespit eder."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Works even when hosting or firewall blocks external scans."
+msgstr "Barındırma veya güvenlik duvarı dış taramaları engellese bile çalışır."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Results appear automatically in your Tracking Manager."
+msgstr "Sonuçlar otomatik olarak Takip Yöneticinizde görünür."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Some advanced detections may still require a remote scan when available."
+msgstr "Bazı gelişmiş tespitler yine de mevcutsa uzak tarama gerektirebilir."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "How this works"
+msgstr "Nasıl çalışır"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Before You Start"
+msgstr "Başlamadan Önce"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "To measure cookie duration accurately, this scan temporarily clears cookies for your site in this browser (including your consent choice). Your WordPress login session is preserved, so you'll remain signed in."
+msgstr "Çerez süresini doğru ölçmek için, bu tarama geçici olarak bu tarayıcıda sitenizin çerezlerini (onay tercihiniz dahil) temizler. WordPress giriş oturumunuz korunur, böylece oturumunuz açık kalır."
+
+#. translators: %d: maximum pages
+#: build/admin.js:62
+#: build/onboarding.js:6
+#, js-format
+msgid "An assisted scan visits up to %d pages. Remove some pages to continue."
+msgstr "Yardımlı tarama en fazla %d sayfayı ziyaret eder. Devam etmek için bazı sayfaları kaldırın."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Scanning in your browser…"
+msgstr "Tarayıcınızda taranıyor…"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Start Browser Scan"
+msgstr "Tarayıcı Taramasını Başlat"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "A new tab opens to scan your selected pages - keep it active until it finishes."
+msgstr "Seçtiğiniz sayfaları taramak için yeni bir sekme açılır - bitene kadar etkin tutun."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Switch Back"
+msgstr "Geri Dön"
+
+#: build/admin.js:62
+msgid "This page did not load the scanner, so it was skipped. A redirect or a login requirement usually causes this."
+msgstr "Bu sayfa tarayıcıyı yüklemedi, bu yüzden atlandı. Genellikle bir yönlendirme veya giriş gereksinimi buna neden olur."
+
+#: build/admin.js:62
+msgid "This page took too long to respond."
+msgstr "Bu sayfa yanıt vermek için çok uzun sürdü."
+
+#: build/admin.js:62
+msgid "Skipped because the scan was cancelled."
+msgstr "Tarama iptal edildiği için atlandı."
+
+#: build/admin.js:62
+msgid "This page could not be collected."
+msgstr "Bu sayfa toplanamadı."
+
+#: build/admin.js:62
+msgid "Pages In This Scan"
+msgstr "Bu Taramadaki Sayfalar"
+
+#. translators: 1: cookie count, 2: script count
+#: build/admin.js:63
+#, js-format
+msgid "%1$d cookies, %2$d scripts"
+msgstr "%1$d çerez, %2$d betik"
+
+#: build/admin.js:63
+msgid "Collecting…"
+msgstr "Toplanıyor…"
+
+#: build/admin.js:63
+msgid "Waiting"
+msgstr "Bekleniyor"
+
+#: build/admin.js:63
+msgid "Re-scan"
+msgstr "Yeniden Tara"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Could not start the assisted scan."
+msgstr "Yardımlı tarama başlatılamadı."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Could not start the assisted scan"
+msgstr "Yardımlı tarama başlatılamadı"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Please try again in a moment."
+msgstr "Lütfen bir süre sonra tekrar deneyin."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Your browser blocked the scan window"
+msgstr "Tarayıcınız tarama penceresini engelledi"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Allow pop-ups for this site, then start the scan again."
+msgstr "Bu site için açılır pencerelere izin verin, ardından taramayı tekrar başlatın."
+
+#: build/admin.js:63
+msgid "View Scan Logs"
+msgstr "Tarama Kayıtlarını Görüntüle"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Scan your website to find cookies, scripts, and trackers that require consent."
+msgstr "Çerezleri, betikleri ve onay gerektiren izleyicileri bulmak için web sitenizi tarayın."
+
+#: build/admin.js:74
+msgid "This is taking a little longer than usual"
+msgstr "Bu, normalden biraz daha uzun sürüyor"
+
+#: build/admin.js:74
+msgid "A page is taking a while to respond, but your scan is still running in the background. Any cookies already found have been saved. You can leave this page and come back - or cancel and try again with fewer pages."
+msgstr "Bir sayfa yanıt vermekte biraz gecikiyor, ancak taramanız arka planda devam ediyor. Zaten bulunan çerezler kaydedildi. Bu sayfadan ayrılabilir ve geri dönebilirsiniz - veya iptal edip daha az sayfa ile tekrar deneyebilirsiniz."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Queued for Later"
+msgstr "Tarama Daha Sonra İçin Kuyruğa Alındı"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Today's page budget is used up, so the remaining pages will scan automatically once it resets. Any cookies already found are saved. To scan sooner, run it again with fewer pages."
+msgstr "Bugünün sayfa kotası doldu, bu yüzden kalan sayfalar sıfırlanınca otomatik olarak taranacak. Zaten bulunan çerezler kaydedildi. Daha erken taramak için, daha az sayfa ile tekrar çalıştırın."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Couldn't Be Completed"
+msgstr "Tarama Tamamlanamadı"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "A page may have taken too long to respond. Any cookies already found have been saved, and results add up across scans - nothing is lost. Please try again, scanning fewer pages at a time for a more reliable run."
+msgstr "Bir sayfa yanıt vermek için çok uzun sürmüş olabilir. Zaten bulunan çerezler kaydedildi ve sonuçlar taramalar arasında toplanır - hiçbir şey kaybolmaz. Daha güvenilir bir çalışma için lütfen daha az sayfa ile tekrar deneyin."
+
+#: build/admin.js:76
+msgid "iFrame"
+msgstr "iFrame"
+
+#: build/admin.js:76
+msgid "Head"
+msgstr "Başlık"
+
+#: build/admin.js:76
+msgid "Body"
+msgstr "Gövde"
+
+#: build/admin.js:76
+msgid "Footer"
+msgstr "Altbilgi"
+
+#: build/admin.js:76
+msgid "Anywhere (fallback)"
+msgstr "Herhangi Bir Yer (yedek)"
+
+#: build/admin.js:76
+msgid "This resource is whitelisted, so it always loads - even before consent."
+msgstr "Bu kaynak beyaz listede, bu yüzden her zaman yüklenir - onaydan önce bile."
+
+#: build/admin.js:76
+msgid "This script is managed by Google Consent Mode and always loads while GCM is enabled."
+msgstr "Bu betik Google Onay Modu tarafından yönetilir ve GCM etkinken her zaman yüklenir."
+
+#: build/admin.js:76
+msgid "This resource matches a whitelist rule (custom entry or common service), so it always loads."
+msgstr "Bu kaynak bir beyaz liste kuralıyla (özel giriş veya yaygın hizmet) eşleşir, bu yüzden her zaman yüklenir."
+
+#: build/admin.js:76
+msgid "Script & Iframe"
+msgstr "Betik ve Iframe"
+
+#: build/admin.js:76
+msgid "Blocked until consent"
+msgstr "Onaya kadar engellendi"
+
+#: build/admin.js:76
+msgid "Not blocked"
+msgstr "Engellenmedi"
+
+#: build/admin.js:76
+msgid "Whitelisted"
+msgstr "Beyaz Listede"
+
+#: build/admin.js:76
+msgid "Managed by GCM"
+msgstr "GCM tarafından Yönetiliyor"
+
+#: build/admin.js:76
+msgid "Source"
+msgstr "Kaynak"
+
+#: build/admin.js:76
+msgid "Managed via Known Services - its cookies are declared in your cookie policy."
+msgstr "Bilinen Hizmetler aracılığıyla yönetilir - çerezleri çerez politikanızda beyan edilmiştir."
+
+#: build/admin.js:76
+msgid "Recognized Known Services catalog entry - Click \"Add as Service\" to declare its cookies."
+msgstr "Tanımlanmış Bilinen Hizmetler katalog girdisi - Çerezlerini beyan etmek için \"Hizmet olarak Ekle\"ye tıklayın."
+
+#: build/admin.js:76
+msgid "Managed Service"
+msgstr "Yönetilen Hizmet"
+
+#: build/admin.js:76
+msgid "Known Service"
+msgstr "Bilinen Hizmet"
+
+#: build/admin.js:76
+msgid "Always Allowed"
+msgstr "Her Zaman İzin Verilen"
+
+#: build/admin.js:76
+msgid "Category for"
+msgstr "Kategorisi"
+
+#: build/admin.js:76
+msgid "Block until consent (recommended)"
+msgstr "Rıza Verilene Kadar Engelle (önerilir)"
+
+#: build/admin.js:76
+msgid "Always allowed"
+msgstr "Her zaman izin verilen"
+
+#: build/admin.js:76
+msgid "Do not block (always load)"
+msgstr "Engelleme (her zaman yükle)"
+
+#: build/admin.js:76
+msgid "Edit Resource"
+msgstr "Kaynağı Düzenle"
+
+#: build/admin.js:76
+msgid "Add Script or Embed"
+msgstr "Betik veya Gömülü Ekle"
+
+#: build/admin.js:76
+msgid "Update"
+msgstr "Güncelle"
+
+#: build/admin.js:76
+msgid "Behavior"
+msgstr "Davranış"
+
+#: build/admin.js:76
+msgid "Whitelisted Resource Warning"
+msgstr "Beyaz Liste Kaynağı Uyarısı"
+
+#: build/admin.js:76
+msgid "If a resource sets cookies, allowing it directly can be a GDPR violation - only whitelist resources you are sure about."
+msgstr "Bir kaynak çerez ayarlıyorsa, doğrudan izin vermek GDPR ihlali olabilir - sadece emin olduğunuz kaynakları beyaz listeye alın."
+
+#: build/admin.js:76
+msgid "Detected by the scanner, so the value cannot be edited."
+msgstr "Tarayıcı tarafından tespit edildi, bu yüzden değer düzenlenemez."
+
+#: build/admin.js:76
+msgid "e.g. Support chat"
+msgstr "ör. Destek sohbeti"
+
+#: build/admin.js:76
+msgid "Domain / Host"
+msgstr "Alan Adı / Sunucu"
+
+#: build/admin.js:76
+msgid "e.g. connect.facebook.net"
+msgstr "ör. connect.facebook.net"
+
+#: build/admin.js:76
+msgid "The host the resource loads from. Pasting a full tag or URL also works."
+msgstr "Kaynağın yüklendiği sunucu. Tam bir etiket veya URL yapıştırmak da çalışır."
+
+#: build/admin.js:76
+msgid "Path / Pattern (advanced)"
+msgstr "Yol / Desen (gelişmiş)"
+
+#: build/admin.js:76
+msgid "e.g. /fbevents.js"
+msgstr "ör. /fbevents.js"
+
+#: build/admin.js:76
+msgid "Optional: narrow the rule to resources that also contain this path, so only one file on the host is blocked."
+msgstr "İsteğe bağlı: Kuralı, bu yolu da içeren kaynaklara daraltın, böylece sadece sunucudaki tek bir dosya engellenir."
+
+#: build/admin.js:76
+msgid "Script Keywords"
+msgstr "Betik Anahtar Kelimeleri"
+
+#: build/admin.js:76
+msgid "e.g. fbq, fbq.push"
+msgstr "ör. fbq, fbq.push"
+
+#: build/admin.js:76
+msgid "JavaScript function names to block that depend on the main script (comma separated)."
+msgstr "Ana betiğe bağlı engellenecek JavaScript fonksiyon isimleri (virgülle ayrılmış)."
+
+#: build/admin.js:76
+msgid "Script Location"
+msgstr "Betik Konumu"
+
+#: build/admin.js:76
+msgid "Anywhere"
+msgstr "Herhangi Bir Yer"
+
+#: build/admin.js:76
+msgid "Where the script loads on the page. SureCookie only looks for it in this section."
+msgstr "Betik sayfada nerede yüklenir. SureCookie sadece bu bölümde arar."
+
+#: build/admin.js:76
+msgid "This resource stays blocked until the visitor consents to this category."
+msgstr "Bu kaynak, ziyaretçi bu kategoriye onay verene kadar engellenmeye devam eder."
+
+#: build/admin.js:76
+msgid "Unlock Whitelisting"
+msgstr "Beyaz Listeyi Aç"
+
+#: build/admin.js:76
+msgid "Whitelist your own scripts and common services so essential integrations keep working before consent."
+msgstr "Kendi betiklerinizi ve yaygın servisleri beyaz listeye alın, böylece temel entegrasyonlar onaydan önce çalışmaya devam eder."
+
+#. translators: %d: number of GCM-managed services.
+#: build/admin.js:77
+#, js-format
+msgid "Managed by Google Consent Mode (%d)"
+msgstr "Google Onay Modu tarafından yönetiliyor (%d)"
+
+#: build/admin.js:77
+msgid "View services"
+msgstr "Servisleri görüntüle"
+
+#: build/admin.js:77
+msgid "Managed by Google Consent Mode"
+msgstr "Google Onay Modu tarafından yönetiliyor"
+
+#: build/admin.js:77
+msgid "Auto-whitelisted"
+msgstr "Otomatik beyaz listeye alındı"
+
+#: build/admin.js:77
+msgid "Enter the script domain or host."
+msgstr "Betik alan adını veya sunucusunu girin."
+
+#: build/admin.js:77
+msgid "Select a category."
+msgstr "Bir kategori seçin."
+
+#: build/admin.js:77
+msgid "A rule for this script already exists."
+msgstr "Bu betik için zaten bir kural mevcut."
+
+#: build/admin.js:77
+msgid "Control how scripts and embeds load based on user consent - block them until allowed or mark essential ones to always run."
+msgstr "Betiklerin ve gömülmelerin kullanıcı onayına göre nasıl yükleneceğini kontrol edin - izin verilene kadar engelleyin veya temel olanların her zaman çalışmasını işaretleyin."
+
+#: build/admin.js:77
+msgid "Behavior: Always Allowed"
+msgstr "Davranış: Her Zaman İzin Verilen"
+
+#: build/admin.js:77
+msgid "Choose scripts and domains that should never be blocked, so tools like reCAPTCHA and other essential integrations keep working. Google Consent Mode scripts are whitelisted automatically when it is enabled."
+msgstr "Asla engellenmemesi gereken betikleri ve alan adlarını seçin, böylece reCAPTCHA ve diğer temel entegrasyonlar çalışmaya devam eder. Google Onay Modu betikleri etkinleştirildiğinde otomatik olarak beyaz listeye alınır."
+
+#: build/admin.js:77
+msgid "Block Scripts and Embeds Until Consent Switch"
+msgstr "Rıza Verilene Kadar Betik ve Gömülmeleri Engelleme Anahtarı"
+
+#: build/admin.js:77
+msgid "Block Scripts Until Consent"
+msgstr "Rıza Verilene Kadar Betikleri Engelle"
+
+#: build/admin.js:77
+msgid "Prevent non-essential scripts and embeds from loading until users give consent."
+msgstr "Kullanıcılar onay verene kadar önemsiz betiklerin ve gömülmelerin yüklenmesini engelleyin."
+
+#: build/admin.js:77
+msgid "Detected and Managed Resources"
+msgstr "Algılanan ve Yönetilen Kaynaklar"
+
+#. translators: 1: scanner-detected count, 2: custom rule count
+#: build/admin.js:78
+#, js-format
+msgid "%1$d detected by scanner, %2$d custom"
+msgstr "%1$d tarayıcı tarafından algılandı, %2$d özel"
+
+#: build/admin.js:78
+msgid "New Resource"
+msgstr "Yeni Kaynak"
+
+#: build/admin.js:78
+msgid "All your scripts will be displayed here"
+msgstr "Tüm betikleriniz burada görüntülenecektir"
+
+#: build/admin.js:78
+msgid "Run a scan to detect third-party resources, or add a script manually."
+msgstr "Üçüncü taraf kaynakları algılamak için bir tarama yapın veya bir betik manuel olarak ekleyin."
+
+#: build/admin.js:78
+msgid "Add New Resource"
+msgstr "Yeni Kaynak Ekle"
+
+#: build/admin.js:78
+msgid "Unlock Custom Script Rules & Whitelisting"
+msgstr "Özel Betik Kurallarını ve Beyaz Listeyi Aç"
+
+#: build/admin.js:78
+msgid "Add your own scripts to block under any category, whitelist trusted scripts, and manage it all from one place."
+msgstr "Herhangi bir kategori altında engellemek için kendi betiklerinizi ekleyin, güvenilir betikleri beyaz listeye alın ve hepsini tek bir yerden yönetin."
+
+#: build/admin.js:78
+msgid "Generate your cookie policy automatically from your settings, or display it anywhere using a shortcode."
+msgstr "Çerez politikanızı ayarlarınızdan otomatik olarak oluşturun veya kısa kod kullanarak istediğiniz yerde gösterin."
+
+#: build/admin.js:78
+msgid "Automatically re-scan your site and get notified when new cookies or trackers appear."
+msgstr "Sitenizi otomatik olarak yeniden tarayın ve yeni çerezler veya izleyiciler ortaya çıktığında bildirim alın."
+
+#: build/admin.js:84
+msgid "Show your cookie banner only in regions where consent is required."
+msgstr "Çerez bannerınızı yalnızca onay gerektiren bölgelerde gösterin."
+
+#: build/admin.js:84
+msgid "Share visitor consent across your sites so users don’t need to give consent again."
+msgstr "Ziyaretçi onayını siteleriniz arasında paylaşın, böylece kullanıcıların tekrar onay vermesine gerek kalmaz."
+
+#: build/admin.js:84
+msgid "Unlock Consent Sharing"
+msgstr "Onay Paylaşımını Aç"
+
+#: build/admin.js:77
+msgid "Allowed to load while Google Consent Mode is active, instead of being blocked before consent."
+msgstr "Google Onay Modu etkinken, onaydan önce engellenmek yerine yüklenmesine izin verilir."
+
+#: build/admin.js:77
+msgid "These Google services are allowed to load while Google Consent Mode is active, instead of being blocked before consent. For Google tag products, Consent Mode then controls what they may store and which identifiers they may use. It does not stop them from contacting Google. They cannot be removed here."
+msgstr "Bu Google hizmetlerinin Google Onay Modu etkinken yüklenmesine izin verilir, onaydan önce engellenmek yerine. Google etiket ürünleri için, Onay Modu ne depolayabileceklerini ve hangi tanımlayıcıları kullanabileceklerini kontrol eder. Google ile iletişim kurmalarını engellemez. Buradan kaldırılamazlar."

@@ -1,0 +1,5519 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SureCookie 0.0.1-beta.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surecookie\n"
+"Last-Translator: gpt-po v1.3.0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-19T05:50:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: surecookie\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: surecookie.php
+#: inc/integrations/wp-consent-api/actions.php:66
+#: inc/integrations/wp-consent-api/actions.php:74
+msgid "SureCookie"
+msgstr "SureCookie"
+
+#. Plugin URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com"
+msgstr "https://surecookie.com"
+
+#. Description of the plugin
+#: surecookie.php
+msgid "Real cookie consent for WordPress. Browser-based scanning, smart categorization, strict script blocking, and consent logs stored in your database."
+msgstr "Πραγματική συγκατάθεση cookie για το WordPress. Σάρωση μέσω προγράμματος περιήγησης, έξυπνη κατηγοριοποίηση, αυστηρός αποκλεισμός σεναρίων και αρχεία καταγραφής συγκατάθεσης αποθηκευμένα στη βάση δεδομένων σας."
+
+#. Author URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com/"
+msgstr "https://surecookie.com/"
+
+#: admin/menu.php:74
+#: build/admin.js:2
+msgid "Dashboard"
+msgstr "Πίνακας ελέγχου"
+
+#: admin/menu.php:87
+#: admin/menu.php:274
+#: build/admin.js:2
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: admin/menu.php:82
+#: admin/menu.php:400
+#: build/admin.js:2
+msgid "Logs"
+msgstr "Αρχεία καταγραφής"
+
+#: admin/menu.php:91
+#: build/admin.js:2
+msgid "Learn"
+msgstr "Μάθετε"
+
+#: admin/menu.php:130
+msgid "You don't have access to this page."
+msgstr "Δεν έχετε πρόσβαση σε αυτή τη σελίδα."
+
+#: admin/menu.php:300
+#: admin/menu.php:301
+msgid "Upgrade"
+msgstr "Αναβάθμιση"
+
+#: admin/onboarding.php:59
+#: build/onboarding.js:14
+msgid "Onboarding"
+msgstr "Εισαγωγή"
+
+#: admin/onboarding.php:75
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Δεν έχετε επαρκή δικαιώματα για πρόσβαση σε αυτή τη σελίδα."
+
+#: admin/product-promotion.php:110
+msgid "A simple yet powerful way to create modern forms for your website."
+msgstr "Ένας απλός αλλά ισχυρός τρόπος για να δημιουργήσετε μοντέρνες φόρμες για την ιστοσελίδα σας."
+
+#: admin/rating-notice.php:234
+msgid "If SureCookie has been helpful, would you mind taking a moment to leave a 5-star review on WordPress.org?"
+msgstr "Αν το SureCookie σας έχει βοηθήσει, θα μπορούσατε να αφιερώσετε λίγο χρόνο για να αφήσετε μια κριτική 5 αστέρων στο WordPress.org;"
+
+#: admin/rating-notice.php:243
+msgid "Rate SureCookie"
+msgstr "Αξιολογήστε το SureCookie"
+
+#: admin/rating-notice.php:251
+msgid "Maybe later"
+msgstr "Ίσως αργότερα"
+
+#: admin/rating-notice.php:255
+msgid "I already did"
+msgstr "Το έχω ήδη κάνει"
+
+#: inc/api/base.php:59
+msgid "You don't have access to do this."
+msgstr "Δεν έχετε πρόσβαση για να το κάνετε αυτό."
+
+#: inc/api/base.php:71
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "Ο έλεγχος ασφαλείας απέτυχε. Παρακαλώ ανανεώστε τη σελίδα και δοκιμάστε ξανά."
+
+#: inc/api/base.php:80
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "Η συνεδρία σας έληξε. Παρακαλώ ανανεώστε τη σελίδα και δοκιμάστε ξανά."
+
+#: inc/api/consent-logs.php:146
+msgid "Search by IP address or Session ID"
+msgstr "Αναζήτηση με διεύθυνση IP ή αναγνωριστικό συνεδρίας"
+
+#: inc/api/consent-logs.php:318
+#: inc/api/consent-logs.php:345
+msgid "Request origin could not be verified."
+msgstr "Η προέλευση του αιτήματος δεν μπόρεσε να επαληθευτεί."
+
+#: inc/api/consent-logs.php:892
+msgid "Request origin is not allowed."
+msgstr "Η προέλευση του αιτήματος δεν επιτρέπεται."
+
+#: inc/api/consent-logs.php:448
+msgid "Consent logs retrieved successfully."
+msgstr "Τα αρχεία καταγραφής συγκατάθεσης ανακτήθηκαν με επιτυχία."
+
+#: inc/api/consent-logs.php:490
+msgid "Consent processed successfully (logging disabled)"
+msgstr "Η συγκατάθεση επεξεργάστηκε με επιτυχία (η καταγραφή απενεργοποιήθηκε)"
+
+#: inc/api/consent-logs.php:376
+#: inc/api/consent-logs.php:515
+msgid "Too many requests. Please try again later."
+msgstr "Πάρα πολλά αιτήματα. Παρακαλώ δοκιμάστε ξανά αργότερα."
+
+#: inc/api/consent-logs.php:535
+msgid "Preferences should not be empty."
+msgstr "Οι προτιμήσεις δεν πρέπει να είναι κενές."
+
+#: inc/api/consent-logs.php:544
+msgid "Preferences data is too large."
+msgstr "Τα δεδομένα προτιμήσεων είναι πολύ μεγάλα."
+
+#: inc/api/consent-logs.php:555
+#: inc/api/consent-logs.php:566
+msgid "Invalid preferences format."
+msgstr "Μη έγκυρη μορφή προτιμήσεων."
+
+#: inc/api/consent-logs.php:575
+msgid "Session ID is required."
+msgstr "Απαιτείται αναγνωριστικό συνεδρίας."
+
+#: inc/api/consent-logs.php:614
+msgid "Accept All is not enabled for this site."
+msgstr "Η επιλογή \"Αποδοχή όλων\" δεν είναι ενεργοποιημένη για αυτόν τον ιστότοπο."
+
+#: inc/api/consent-logs.php:641
+msgid "Consent saved successfully."
+msgstr "Η συγκατάθεση αποθηκεύτηκε με επιτυχία."
+
+#: inc/api/consent-logs.php:651
+msgid "Failed to save consent."
+msgstr "Αποτυχία αποθήκευσης της συγκατάθεσης."
+
+#: inc/api/consent-logs.php:669
+#: inc/api/consent-logs.php:801
+msgid "Invalid log ID"
+msgstr "Μη έγκυρο αναγνωριστικό αρχείου καταγραφής"
+
+#: inc/api/consent-logs.php:681
+msgid "Log not found."
+msgstr "Το αρχείο καταγραφής δεν βρέθηκε."
+
+#: inc/api/consent-logs.php:717
+#: inc/api/consent-logs.php:744
+msgid "Log details retrieved successfully."
+msgstr "Οι λεπτομέρειες του αρχείου καταγραφής ανακτήθηκαν με επιτυχία."
+
+#: inc/api/consent-logs.php:766
+msgid "Invalid log IDs"
+msgstr "Μη έγκυρα αναγνωριστικά αρχείων καταγραφής"
+
+#: inc/api/consent-logs.php:777
+#: inc/api/consent-logs.php:872
+msgid "Failed to delete logs."
+msgstr "Αποτυχία διαγραφής αρχείων καταγραφής."
+
+#. translators: %d: number of logs deleted
+#: inc/api/consent-logs.php:787
+#, php-format
+msgid "%d log(s) deleted successfully."
+msgstr "%d αρχείο(α) καταγραφής διαγράφηκαν με επιτυχία."
+
+#: inc/api/consent-logs.php:812
+msgid "Log deleted successfully."
+msgstr "Το αρχείο καταγραφής διαγράφηκε με επιτυχία."
+
+#: inc/api/consent-logs.php:821
+msgid "Failed to delete log."
+msgstr "Αποτυχία διαγραφής αρχείου καταγραφής."
+
+#: inc/api/consent-logs.php:863
+msgid "All logs deleted successfully."
+msgstr "Όλα τα αρχεία καταγραφής διαγράφηκαν με επιτυχία."
+
+#: inc/api/cookie-categories.php:181
+msgid "Failed to create category: "
+msgstr "Αποτυχία δημιουργίας κατηγορίας:"
+
+#: inc/api/cookie-categories.php:204
+msgid "Failed to update category: "
+msgstr "Αποτυχία ενημέρωσης κατηγορίας:"
+
+#: inc/api/cookie-categories.php:230
+msgid "Failed to delete category: "
+msgstr "Αποτυχία διαγραφής κατηγορίας:"
+
+#: inc/api/cookies.php:302
+msgid "Failed to create custom cookie: "
+msgstr "Αποτυχία δημιουργίας προσαρμοσμένου cookie:"
+
+#: inc/api/cookies.php:324
+msgid "Failed to update custom cookie: "
+msgstr "Αποτυχία ενημέρωσης προσαρμοσμένου cookie:"
+
+#: inc/api/cookies.php:345
+msgid "Failed to delete custom cookie: "
+msgstr "Αποτυχία διαγραφής προσαρμοσμένου cookie:"
+
+#: inc/api/cookies.php:372
+msgid "Failed to update cookie category: "
+msgstr "Αποτυχία ενημέρωσης κατηγορίας cookie:"
+
+#: inc/api/onboarding.php:134
+msgid "Onboarding data saved successfully."
+msgstr "Τα δεδομένα εισαγωγής αποθηκεύτηκαν με επιτυχία."
+
+#: inc/api/onboarding.php:152
+msgid "Onboarding is already marked as complete."
+msgstr "Η εισαγωγή έχει ήδη σημειωθεί ως ολοκληρωμένη."
+
+#: inc/api/onboarding.php:162
+msgid "Onboarding marked as complete."
+msgstr "Η εισαγωγή σημειώθηκε ως ολοκληρωμένη."
+
+#: inc/api/plugin.php:121
+msgid "Promotional plugins data retrieved."
+msgstr "Τα δεδομένα προωθητικών προσθηκών ανακτήθηκαν."
+
+#: inc/api/plugin.php:154
+msgid "You don't have permission to activate plugins."
+msgstr "Δεν έχετε άδεια να ενεργοποιήσετε προσθήκες."
+
+#: inc/api/plugin.php:158
+#: inc/api/plugin.php:191
+msgid "Plugin not found."
+msgstr "Η προσθήκη δεν βρέθηκε."
+
+#: inc/api/plugin.php:172
+#: build/admin.js:2
+msgid "Plugin activated successfully."
+msgstr "Η προσθήκη ενεργοποιήθηκε με επιτυχία."
+
+#: inc/api/plugin.php:187
+msgid "You don't have permission to deactivate plugins."
+msgstr "Δεν έχετε άδεια να απενεργοποιήσετε προσθήκες."
+
+#: inc/api/plugin.php:203
+msgid "Plugin is already inactive."
+msgstr "Η προσθήκη είναι ήδη ανενεργή."
+
+#: inc/api/plugin.php:228
+#: build/admin.js:75
+msgid "Plugin deactivated successfully."
+msgstr "Η προσθήκη απενεργοποιήθηκε με επιτυχία."
+
+#: inc/api/plugin.php:290
+msgid "Conflicting plugins retrieved."
+msgstr "Αντιφατικές προσθήκες ανακτήθηκαν."
+
+#: inc/api/posts.php:199
+msgid "Post not found."
+msgstr "Η ανάρτηση δεν βρέθηκε."
+
+#: inc/api/scan-history.php:61
+msgid "Scanned history retrieved successfully."
+msgstr "Το ιστορικό σάρωσης ανακτήθηκε με επιτυχία."
+
+#: inc/api/scanned-resources.php:78
+msgid "Scanned resources retrieved successfully."
+msgstr "Οι σαρωμένοι πόροι ανακτήθηκαν με επιτυχία."
+
+#: inc/api/settings.php:120
+msgid "No data found"
+msgstr "Δεν βρέθηκαν δεδομένα"
+
+#: inc/api/settings.php:144
+msgid "Settings updated"
+msgstr "Οι ρυθμίσεις ενημερώθηκαν"
+
+#: inc/functions/get.php:118
+msgid "Essential Cookies"
+msgstr "Απαραίτητα Cookies"
+
+#: inc/functions/get.php:119
+msgid "Required for basic website functionality."
+msgstr "Απαραίτητα για τη βασική λειτουργικότητα της ιστοσελίδας."
+
+#: inc/functions/get.php:124
+msgid "Functional Cookies"
+msgstr "Λειτουργικά Cookies"
+
+#: inc/functions/get.php:125
+msgid "Enable features like saved preferences and personalized content."
+msgstr "Ενεργοποιούν λειτουργίες όπως αποθηκευμένες προτιμήσεις και εξατομικευμένο περιεχόμενο."
+
+#: inc/functions/get.php:130
+msgid "Analytics Cookies"
+msgstr "Cookies Ανάλυσης"
+
+#: inc/functions/get.php:131
+msgid "Help us understand how visitors use our site so we can improve it."
+msgstr "Μας βοηθούν να κατανοήσουμε πώς οι επισκέπτες χρησιμοποιούν τον ιστότοπό μας ώστε να τον βελτιώσουμε."
+
+#: inc/functions/get.php:136
+msgid "Marketing Cookies"
+msgstr "Cookies Μάρκετινγκ"
+
+#: inc/functions/get.php:137
+msgid "Used to show you relevant ads based on your interests."
+msgstr "Χρησιμοποιούνται για να σας δείξουν σχετικά διαφημίσεις βάσει των ενδιαφερόντων σας."
+
+#: inc/functions/get.php:142
+msgid "Uncategorized Cookies"
+msgstr "Μη Κατηγοριοποιημένα Cookies"
+
+#: inc/functions/get.php:143
+msgid "Cookies that haven't been categorized yet."
+msgstr "Cookies που δεν έχουν ακόμη κατηγοριοποιηθεί."
+
+#: inc/integrations/wp-consent-api/actions.php:62
+msgid "days"
+msgstr "ημέρες"
+
+#: inc/integrations/wp-consent-api/actions.php:69
+msgid "Stores the user's cookie consent preferences."
+msgstr "Αποθηκεύει τις προτιμήσεις συγκατάθεσης cookie του χρήστη."
+
+#: inc/integrations/wp-consent-api/actions.php:76
+msgid "1 year"
+msgstr "1 έτος"
+
+#: inc/integrations/wp-consent-api/actions.php:77
+msgid "Tracks consent log sessions for audit purposes."
+msgstr "Παρακολουθεί συνεδρίες αρχείου καταγραφής συγκατάθεσης για σκοπούς ελέγχου."
+
+#: inc/modules/auth/api.php:71
+msgid "Authentication is already completed."
+msgstr "Η αυθεντικοποίηση έχει ήδη ολοκληρωθεί."
+
+#: inc/modules/auth/controller.php:71
+msgid "Could not generate secure auth key."
+msgstr "Δεν ήταν δυνατή η δημιουργία ασφαλούς κλειδιού αυθεντικοποίησης."
+
+#: inc/modules/auth/controller.php:88
+msgid "Failed to encode the token data."
+msgstr "Αποτυχία κωδικοποίησης των δεδομένων του token."
+
+#: inc/modules/auth/controller.php:179
+msgid "Invalid flow identifier."
+msgstr "Μη έγκυρος αναγνωριστικός αριθμός ροής."
+
+#: inc/modules/auth/controller.php:188
+msgid "Failed to decode the access key."
+msgstr "Αποτυχία αποκωδικοποίησης του κλειδιού πρόσβασης."
+
+#: inc/modules/auth/controller.php:193
+msgid "Invalid data format."
+msgstr "Μη έγκυρη μορφή δεδομένων."
+
+#: inc/modules/auth/controller.php:207
+msgid "Failed to decrypt the access key."
+msgstr "Αποτυχία αποκρυπτογράφησης του κλειδιού πρόσβασης."
+
+#: inc/modules/auth/controller.php:213
+msgid "Failed to json decode the decrypted data."
+msgstr "Αποτυχία αποκωδικοποίησης JSON των αποκρυπτογραφημένων δεδομένων."
+
+#: inc/modules/auth/controller.php:217
+msgid "No user email found in the decrypted data."
+msgstr "Δεν βρέθηκε email χρήστη στα αποκρυπτογραφημένα δεδομένα."
+
+#: inc/modules/cookie-policy/api.php:76
+#: build/admin.js:78
+msgid "Cookie Policy page already exists."
+msgstr "Η σελίδα Πολιτικής Cookies υπάρχει ήδη."
+
+#: inc/modules/cookie-policy/api.php:90
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/admin.js:78
+#: build/public.js:1
+msgid "Cookie Policy"
+msgstr "Πολιτική Cookies"
+
+#: inc/modules/cookie-policy/api.php:112
+msgid "Cookie Policy page created successfully."
+msgstr "Η σελίδα Πολιτικής Cookies δημιουργήθηκε με επιτυχία."
+
+#. translators: %s: site name.
+#: inc/modules/cookie-policy/api.php:182
+#, php-format
+msgid "This Cookie Policy explains how %s uses cookies and similar tracking technologies when you visit our website. It describes what these technologies are, why we use them, and your rights to control our use of them."
+msgstr "Αυτή η Πολιτική Cookies εξηγεί πώς το %s χρησιμοποιεί cookies και παρόμοιες τεχνολογίες παρακολούθησης όταν επισκέπτεστε τον ιστότοπό μας. Περιγράφει τι είναι αυτές οι τεχνολογίες, γιατί τις χρησιμοποιούμε και τα δικαιώματά σας να ελέγχετε τη χρήση τους."
+
+#: inc/modules/cookie-policy/api.php:191
+msgid "What Are Cookies"
+msgstr "Τι είναι τα Cookies"
+
+#: inc/modules/cookie-policy/api.php:195
+msgid "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, provide a better browsing experience, and supply information to the owners of the site. Cookies can be \"persistent\" or \"session\" cookies. Persistent cookies remain on your device for a set period or until you delete them, while session cookies are deleted as soon as you close your web browser."
+msgstr "Τα cookies είναι μικρά αρχεία κειμένου που αποθηκεύονται στον υπολογιστή ή τη φορητή συσκευή σας όταν επισκέπτεστε έναν ιστότοπο. Χρησιμοποιούνται ευρέως για να κάνουν τους ιστότοπους να λειτουργούν πιο αποδοτικά, να παρέχουν καλύτερη εμπειρία περιήγησης και να παρέχουν πληροφορίες στους ιδιοκτήτες του ιστότοπου. Τα cookies μπορεί να είναι \"επίμονα\" ή \"συνεδρίας\". Τα επίμονα cookies παραμένουν στη συσκευή σας για μια καθορισμένη περίοδο ή μέχρι να τα διαγράψετε, ενώ τα cookies συνεδρίας διαγράφονται μόλις κλείσετε τον περιηγητή σας."
+
+#: inc/modules/cookie-policy/api.php:199
+msgid "In addition to cookies, we may also use similar technologies such as pixel tags, web beacons, and local storage to collect and store information. These technologies work in a similar way to cookies and allow us to monitor and improve our website and your experience of it."
+msgstr "Εκτός από τα cookies, ενδέχεται επίσης να χρησιμοποιήσουμε παρόμοιες τεχνολογίες όπως pixel tags, web beacons και τοπική αποθήκευση για τη συλλογή και αποθήκευση πληροφοριών. Αυτές οι τεχνολογίες λειτουργούν με παρόμοιο τρόπο με τα cookies και μας επιτρέπουν να παρακολουθούμε και να βελτιώνουμε τον ιστότοπό μας και την εμπειρία σας σε αυτόν."
+
+#: inc/modules/cookie-policy/api.php:206
+msgid "Types of Cookies We Use"
+msgstr "Τύποι Cookies που Χρησιμοποιούμε"
+
+#: inc/modules/cookie-policy/api.php:210
+msgid "We use different types of cookies for various reasons. The table below provides detailed information about the cookies we use, organized by category, including the name of each cookie, its purpose, duration, and the domain it belongs to. Some cookies are essential for the website to function properly, while others help us understand how visitors interact with our site, remember your preferences, or deliver relevant advertising."
+msgstr "Χρησιμοποιούμε διαφορετικούς τύπους cookies για διάφορους λόγους. Ο παρακάτω πίνακας παρέχει λεπτομερείς πληροφορίες σχετικά με τα cookies που χρησιμοποιούμε, οργανωμένα κατά κατηγορία, συμπεριλαμβανομένου του ονόματος κάθε cookie, του σκοπού του, της διάρκειας και του τομέα στον οποίο ανήκει. Ορισμένα cookies είναι απαραίτητα για τη σωστή λειτουργία της ιστοσελίδας, ενώ άλλα μας βοηθούν να κατανοήσουμε πώς οι επισκέπτες αλληλεπιδρούν με τον ιστότοπό μας, να θυμόμαστε τις προτιμήσεις σας ή να παρέχουμε σχετική διαφήμιση."
+
+#: inc/modules/cookie-policy/api.php:220
+msgid "How to Manage Your Cookie Preferences"
+msgstr "Πώς να Διαχειριστείτε τις Προτιμήσεις σας για τα Cookies"
+
+#: inc/modules/cookie-policy/api.php:224
+msgid "When you first visit our website, you will be shown a cookie consent banner that allows you to accept or decline non-essential cookies. You can change your preferences at any time by clicking the cookie preferences option available on our website. Essential cookies cannot be disabled as they are necessary for the basic functioning of the website."
+msgstr "Όταν επισκέπτεστε για πρώτη φορά την ιστοσελίδα μας, θα εμφανιστεί ένα banner συγκατάθεσης για τα cookies που σας επιτρέπει να αποδεχτείτε ή να απορρίψετε τα μη απαραίτητα cookies. Μπορείτε να αλλάξετε τις προτιμήσεις σας οποιαδήποτε στιγμή κάνοντας κλικ στην επιλογή προτιμήσεων cookies που είναι διαθέσιμη στην ιστοσελίδα μας. Τα απαραίτητα cookies δεν μπορούν να απενεργοποιηθούν καθώς είναι αναγκαία για τη βασική λειτουργία της ιστοσελίδας."
+
+#: inc/modules/cookie-policy/api.php:228
+msgid "Please note that restricting cookies may impact your experience of the website, as some features and services may not function properly without certain cookies enabled."
+msgstr "Παρακαλούμε σημειώστε ότι ο περιορισμός των cookies μπορεί να επηρεάσει την εμπειρία σας στην ιστοσελίδα, καθώς ορισμένες λειτουργίες και υπηρεσίες ενδέχεται να μην λειτουργούν σωστά χωρίς την ενεργοποίηση συγκεκριμένων cookies."
+
+#: inc/modules/cookie-policy/api.php:235
+msgid "How to Control Cookies in Your Browser"
+msgstr "Πώς να Ελέγξετε τα Cookies στον Περιηγητή σας"
+
+#: inc/modules/cookie-policy/api.php:239
+msgid "Most web browsers allow you to manage your cookie preferences through their settings. You can set your browser to refuse cookies, delete existing cookies, or alert you when a cookie is being set. The steps to manage cookies vary by browser. Below are general instructions for the most common browsers."
+msgstr "Οι περισσότεροι περιηγητές ιστού σας επιτρέπουν να διαχειρίζεστε τις προτιμήσεις σας για τα cookies μέσω των ρυθμίσεών τους. Μπορείτε να ρυθμίσετε τον περιηγητή σας να αρνείται τα cookies, να διαγράφει τα υπάρχοντα cookies ή να σας ειδοποιεί όταν ένα cookie ορίζεται. Τα βήματα για τη διαχείριση των cookies διαφέρουν ανάλογα με τον περιηγητή. Παρακάτω δίνονται γενικές οδηγίες για τους πιο κοινούς περιηγητές."
+
+#: inc/modules/cookie-policy/api.php:243
+msgid "Google Chrome: Open Settings, go to Privacy and Security, then click on Cookies and other site data. From there, you can block third-party cookies, clear cookies when you close the browser, or block all cookies."
+msgstr "Google Chrome: Ανοίξτε τις Ρυθμίσεις, μεταβείτε στην Απόρρητο και Ασφάλεια, και στη συνέχεια κάντε κλικ στα Cookies και άλλα δεδομένα ιστότοπου. Από εκεί, μπορείτε να μπλοκάρετε τα cookies τρίτων, να διαγράψετε τα cookies όταν κλείνετε τον περιηγητή ή να μπλοκάρετε όλα τα cookies."
+
+#: inc/modules/cookie-policy/api.php:247
+msgid "Mozilla Firefox: Open Settings, go to Privacy and Security, and under Cookies and Site Data you can manage how Firefox handles cookies including clearing data and managing exceptions."
+msgstr "Mozilla Firefox: Ανοίξτε τις Ρυθμίσεις, μεταβείτε στην Απόρρητο και Ασφάλεια, και κάτω από τα Cookies και Δεδομένα Ιστότοπου μπορείτε να διαχειριστείτε τον τρόπο που ο Firefox χειρίζεται τα cookies, συμπεριλαμβανομένης της διαγραφής δεδομένων και της διαχείρισης εξαιρέσεων."
+
+#: inc/modules/cookie-policy/api.php:251
+msgid "Safari: Open Preferences, go to the Privacy tab, and configure your cookie blocking preferences. Safari also offers an option to prevent cross-site tracking."
+msgstr "Safari: Ανοίξτε τις Προτιμήσεις, μεταβείτε στην καρτέλα Απόρρητο και ρυθμίστε τις προτιμήσεις αποκλεισμού cookies. Το Safari προσφέρει επίσης μια επιλογή για την αποτροπή παρακολούθησης μεταξύ ιστότοπων."
+
+#: inc/modules/cookie-policy/api.php:255
+msgid "Microsoft Edge: Open Settings, go to Privacy, Search, and Services. Under the Cookies section, you can choose to block third-party cookies or all cookies and manage cookie exceptions."
+msgstr "Microsoft Edge: Ανοίξτε τις Ρυθμίσεις, μεταβείτε στην Απόρρητο, Αναζήτηση και Υπηρεσίες. Στην ενότητα Cookies, μπορείτε να επιλέξετε να μπλοκάρετε τα cookies τρίτων ή όλα τα cookies και να διαχειριστείτε εξαιρέσεις cookies."
+
+#: inc/modules/cookie-policy/api.php:262
+msgid "Consequences of Disabling Cookies"
+msgstr "Συνέπειες απενεργοποίησης των cookies"
+
+#: inc/modules/cookie-policy/api.php:266
+msgid "If you choose to disable or decline cookies, some parts of this website may not function as intended. For example, you may not be able to log in, your preferences may not be saved between visits, and certain interactive features may be limited. Disabling essential cookies may make it impossible to use some or all of the services provided through this website."
+msgstr "Εάν επιλέξετε να απενεργοποιήσετε ή να απορρίψετε τα cookies, ορισμένα μέρη αυτού του ιστότοπου ενδέχεται να μην λειτουργούν όπως προβλέπεται. Για παράδειγμα, μπορεί να μην μπορείτε να συνδεθείτε, οι προτιμήσεις σας να μην αποθηκεύονται μεταξύ των επισκέψεων και ορισμένες διαδραστικές λειτουργίες να είναι περιορισμένες. Η απενεργοποίηση των απαραίτητων cookies μπορεί να καταστήσει αδύνατη τη χρήση ορισμένων ή όλων των υπηρεσιών που παρέχονται μέσω αυτού του ιστότοπου."
+
+#: inc/modules/cookie-policy/api.php:270
+msgid "Disabling analytics or marketing cookies will not affect the core functionality of the website, but it may limit our ability to improve the website based on user behavior or to provide you with personalized content and advertisements."
+msgstr "Η απενεργοποίηση των cookies ανάλυσης ή μάρκετινγκ δεν θα επηρεάσει τη βασική λειτουργικότητα του ιστότοπου, αλλά μπορεί να περιορίσει την ικανότητά μας να βελτιώσουμε τον ιστότοπο βάσει της συμπεριφοράς των χρηστών ή να σας παρέχουμε εξατομικευμένο περιεχόμενο και διαφημίσεις."
+
+#: inc/modules/cookie-policy/api.php:277
+msgid "Changes to This Cookie Policy"
+msgstr "Αλλαγές σε αυτήν την Πολιτική Cookies"
+
+#: inc/modules/cookie-policy/api.php:281
+msgid "We may update this Cookie Policy from time to time to reflect changes in technology, legislation, our business operations, or any other reason we determine is necessary or appropriate. Any changes will be posted on this page with an updated revision date. We encourage you to review this Cookie Policy periodically to stay informed about how we are using cookies."
+msgstr "Μπορεί να ενημερώνουμε αυτήν την Πολιτική Cookies κατά καιρούς για να αντικατοπτρίζει αλλαγές στην τεχνολογία, τη νομοθεσία, τις επιχειρηματικές μας λειτουργίες ή για οποιονδήποτε άλλο λόγο που θεωρούμε απαραίτητο ή κατάλληλο. Οποιεσδήποτε αλλαγές θα αναρτώνται σε αυτήν τη σελίδα με ενημερωμένη ημερομηνία αναθεώρησης. Σας ενθαρρύνουμε να αναθεωρείτε περιοδικά αυτήν την Πολιτική Cookies για να ενημερώνεστε σχετικά με τον τρόπο που χρησιμοποιούμε τα cookies."
+
+#: inc/modules/cookie-policy/api.php:288
+msgid "Contact Us"
+msgstr "Επικοινωνήστε μαζί μας"
+
+#: inc/modules/cookie-policy/api.php:292
+msgid "If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at:"
+msgstr "Εάν έχετε οποιεσδήποτε ερωτήσεις ή ανησυχίες σχετικά με αυτήν την Πολιτική Cookies ή τη χρήση των cookies από εμάς, παρακαλούμε επικοινωνήστε μαζί μας στη διεύθυνση:"
+
+#: inc/modules/cookie-policy/api.php:296
+msgid "[Your Company Name], [Your Address], [your-email@example.com]"
+msgstr "[Το Όνομα της Εταιρείας σας], [Η Διεύθυνσή σας], [your-email@example.com]"
+
+#: inc/modules/cookie-policy/shortcode.php:143
+#: inc/modules/cookie-policy/shortcode.php:144
+msgid "Table of Contents"
+msgstr "Πίνακας Περιεχομένων"
+
+#: inc/modules/cookie-policy/shortcode.php:203
+#: build/admin.js:25
+msgid "Cookie Name"
+msgstr "Όνομα Cookie"
+
+#: inc/modules/cookie-policy/shortcode.php:204
+#: build/admin.js:25
+msgid "Purpose"
+msgstr "Σκοπός"
+
+#: inc/modules/cookie-policy/shortcode.php:205
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Duration"
+msgstr "Διάρκεια"
+
+#: inc/modules/cookie-policy/shortcode.php:206
+#: build/admin.js:25
+msgid "Domain"
+msgstr "Τομέας"
+
+#. translators: %s: formatted date string.
+#: inc/modules/cookie-policy/shortcode.php:270
+#, php-format
+msgid "Last updated: %s"
+msgstr "Τελευταία ενημέρωση: %s"
+
+#: inc/modules/cookie-policy/shortcode.php:356
+msgid "This website"
+msgstr "Αυτός ο ιστότοπος"
+
+#: inc/modules/google-consent-mode/consent-handler.php:130
+msgid "SureCookie:"
+msgstr "SureCookie:"
+
+#: inc/modules/google-consent-mode/consent-handler.php:132
+msgid "Google Site Kit's Consent Mode is active. Please disable it in Site Kit settings to use SureCookie's implementation."
+msgstr "Η λειτουργία συγκατάθεσης του Google Site Kit είναι ενεργή. Παρακαλώ απενεργοποιήστε την στις ρυθμίσεις του Site Kit για να χρησιμοποιήσετε την υλοποίηση του SureCookie."
+
+#: inc/modules/nudges/api.php:70
+msgid "Invalid type provided."
+msgstr "Παρέχεται μη έγκυρος τύπος."
+
+#: inc/modules/nudges/api.php:94
+msgid "Could not disable the nudge. Please try again."
+msgstr "Δεν ήταν δυνατή η απενεργοποίηση της υπενθύμισης. Παρακαλώ δοκιμάστε ξανά."
+
+#. translators: %s: nudge type
+#: inc/modules/nudges/api.php:100
+#, php-format
+msgid "\"%s\" has been disabled."
+msgstr "\"%s\" έχει απενεργοποιηθεί."
+
+#. translators: %s: Service name (e.g., YouTube, Vimeo, Bunny.net).
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:302
+#: inc/modules/script-blocking/blocker.php:1283
+#, php-format
+msgid "This content is blocked because it requires %s cookies."
+msgstr "Αυτό το περιεχόμενο είναι αποκλεισμένο επειδή απαιτεί cookies %s."
+
+#: inc/integrations/presto-player/block-handler.php:240
+#: inc/modules/script-blocking/blocker.php:1298
+msgid "Accept & Load"
+msgstr "Αποδοχή & Φόρτωση"
+
+#: inc/modules/site-scanner/api.php:220
+msgid "Scan cancelled successfully."
+msgstr "Η σάρωση ακυρώθηκε με επιτυχία."
+
+#: inc/modules/site-scanner/api.php:226
+msgid "No active scan to cancel."
+msgstr "Δεν υπάρχει ενεργή σάρωση για ακύρωση."
+
+#: inc/modules/site-scanner/api.php:257
+#: inc/modules/site-scanner/saas-client.php:400
+msgid "A scan is already in progress. Please wait for it to complete."
+msgstr "Μια σάρωση είναι ήδη σε εξέλιξη. Παρακαλώ περιμένετε να ολοκληρωθεί."
+
+#: inc/modules/site-scanner/api.php:273
+#: inc/modules/site-scanner/cron.php:76
+#: inc/modules/site-scanner/saas-client.php:407
+msgid "No pages selected for scanning."
+msgstr "Δεν έχουν επιλεγεί σελίδες για σάρωση."
+
+#: inc/modules/site-scanner/api.php:288
+msgid "Failed to start scan."
+msgstr "Αποτυχία εκκίνησης της σάρωσης."
+
+#: inc/modules/site-scanner/api.php:299
+msgid "Cookie scan has been initiated."
+msgstr "Η σάρωση των cookies έχει ξεκινήσει."
+
+#: inc/modules/site-scanner/api.php:300
+msgid "The scan is running. You will be notified when it completes."
+msgstr "Η σάρωση εκτελείται. Θα ειδοποιηθείτε όταν ολοκληρωθεί."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/api.php:312
+#, php-format
+msgid "Failed to start site scanner: %s"
+msgstr "Αποτυχία εκκίνησης του σαρωτή ιστότοπου: %s"
+
+#: inc/modules/site-scanner/cron.php:70
+msgid "Starting site scan (triggered by user)."
+msgstr "Έναρξη σάρωσης ιστότοπου (ενεργοποιήθηκε από τον χρήστη)."
+
+#. translators: %s: Plan name
+#: inc/modules/site-scanner/cron.php:92
+#, php-format
+msgid "Plan: %s."
+msgstr "Σχέδιο: %s."
+
+#. translators: %d: Number of pages
+#: inc/modules/site-scanner/cron.php:93
+#, php-format
+msgid "Pages selected: %d."
+msgstr "Επιλεγμένες σελίδες: %d."
+
+#: inc/modules/site-scanner/cron.php:95
+msgid "Sending scan request…"
+msgstr "Αποστολή αιτήματος σάρωσης…"
+
+#: inc/modules/site-scanner/cron.php:101
+msgid "Scan already in progress. Skipping."
+msgstr "Η σάρωση είναι ήδη σε εξέλιξη. Παράλειψη."
+
+#: inc/modules/site-scanner/cron.php:114
+msgid "Scan started successfully."
+msgstr "Η σάρωση ξεκίνησε με επιτυχία."
+
+#. translators: %s: Group ID
+#: inc/modules/site-scanner/cron.php:115
+#, php-format
+msgid "Group ID: %s"
+msgstr "Ταυτότητα ομάδας: %s"
+
+#: inc/modules/site-scanner/cron.php:117
+msgid "Checking scan progress…"
+msgstr "Έλεγχος προόδου σάρωσης…"
+
+#: inc/modules/site-scanner/cron.php:122
+msgid "Scan failed."
+msgstr "Η σάρωση απέτυχε."
+
+#: inc/modules/site-scanner/cron.php:166
+msgid "No active scan."
+msgstr "Δεν υπάρχει ενεργή σάρωση."
+
+#: inc/modules/site-scanner/cron.php:186
+msgid "Scan in progress..."
+msgstr "Η σάρωση βρίσκεται σε εξέλιξη..."
+
+#: inc/modules/site-scanner/cron.php:224
+msgid "Scan cancelled by user."
+msgstr "Η σάρωση ακυρώθηκε από τον χρήστη."
+
+#: inc/modules/site-scanner/saas-client.php:281
+msgid "Every 1 Minute (SureCookie Polling)"
+msgstr "Κάθε 1 λεπτό (Polling SureCookie)"
+
+#: inc/modules/site-scanner/saas-client.php:391
+msgid "Cookie scanning is not available for localhost or development sites. Please use a live domain."
+msgstr "Η σάρωση cookie δεν είναι διαθέσιμη για localhost ή ιστότοπους ανάπτυξης. Παρακαλώ χρησιμοποιήστε ένα ζωντανό domain."
+
+#: inc/modules/site-scanner/saas-client.php:422
+msgid "Could not generate a secure scan token. Please retry."
+msgstr "Δεν ήταν δυνατή η δημιουργία ασφαλούς token σάρωσης. Παρακαλώ δοκιμάστε ξανά."
+
+#: inc/modules/site-scanner/saas-client.php:448
+msgid "Failed to encode scan request."
+msgstr "Αποτυχία κωδικοποίησης αιτήματος σάρωσης."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/saas-client.php:493
+#, php-format
+msgid "Failed to start scan: %s"
+msgstr "Αποτυχία εκκίνησης σάρωσης: %s"
+
+#: inc/modules/site-scanner/saas-client.php:531
+msgid "Unknown error occurred."
+msgstr "Παρουσιάστηκε άγνωστο σφάλμα."
+
+#: inc/modules/site-scanner/saas-client.php:599
+msgid "Scan has been started. You will be notified when it completes."
+msgstr "Η σάρωση έχει ξεκινήσει. Θα ειδοποιηθείτε όταν ολοκληρωθεί."
+
+#: inc/modules/site-scanner/saas-client.php:641
+msgid "Failed to check scan status."
+msgstr "Αποτυχία ελέγχου κατάστασης σάρωσης."
+
+#: inc/modules/site-scanner/saas-client.php:778
+msgid "Failed to get scan group."
+msgstr "Αποτυχία λήψης ομάδας σάρωσης."
+
+#: inc/modules/site-scanner/saas-client.php:906
+msgid "Scan timed out. Please try again."
+msgstr "Η σάρωση έληξε. Παρακαλώ δοκιμάστε ξανά."
+
+#. translators: 1: completed pages count, 2: total pages count
+#: inc/modules/site-scanner/saas-client.php:944
+#, php-format
+msgid "Progress: %1$d of %2$d pages scanned."
+msgstr "Πρόοδος: %1$d από %2$d σελίδες σαρώθηκαν."
+
+#. translators: %d: number of failed pages
+#: inc/modules/site-scanner/saas-client.php:954
+#, php-format
+msgid "%d page(s) failed to scan."
+msgstr "%d σελίδα(ες) απέτυχαν να σαρωθούν."
+
+#: inc/modules/site-scanner/saas-client.php:977
+msgid "Scan completed!"
+msgstr "Η σάρωση ολοκληρώθηκε!"
+
+#: inc/modules/site-scanner/saas-client.php:996
+msgid "Scan failed on server."
+msgstr "Η σάρωση απέτυχε στον διακομιστή."
+
+#: inc/modules/site-scanner/saas-client.php:1002
+msgid "Scan is in progress. Checking again…"
+msgstr "Η σάρωση βρίσκεται σε εξέλιξη. Έλεγχος ξανά…"
+
+#: inc/modules/site-scanner/saas-client.php:1043
+msgid "Quota is not available on localhost or development sites."
+msgstr "Το όριο δεν είναι διαθέσιμο σε localhost ή ιστότοπους ανάπτυξης."
+
+#: inc/modules/site-scanner/saas-client.php:1056
+msgid "Scanner credentials are not yet issued. Run your first scan to register."
+msgstr "Τα διαπιστευτήρια του σαρωτή δεν έχουν εκδοθεί ακόμα. Εκτελέστε την πρώτη σας σάρωση για εγγραφή."
+
+#: inc/modules/site-scanner/saas-client.php:1102
+msgid "Unexpected response from server."
+msgstr "Απρόσμενη απάντηση από τον διακομιστή."
+
+#: inc/modules/site-scanner/saas-client.php:1149
+msgid "Authentication required."
+msgstr "Απαιτείται αυθεντικοποίηση."
+
+#: inc/modules/site-scanner/saas-client.php:1159
+msgid "Failed to fetch quota."
+msgstr "Αποτυχία λήψης ορίου."
+
+#: inc/modules/site-scanner/saas-client.php:1476
+msgid "Another registration is already in progress. Please try again in a moment."
+msgstr "Μια άλλη εγγραφή βρίσκεται ήδη σε εξέλιξη. Παρακαλώ δοκιμάστε ξανά σε λίγο."
+
+#: inc/modules/site-scanner/saas-client.php:1506
+msgid "Could not determine site domain."
+msgstr "Δεν ήταν δυνατός ο προσδιορισμός του domain του ιστότοπου."
+
+#: inc/modules/site-scanner/saas-client.php:1518
+msgid "Could not generate a secure registration nonce. Please retry."
+msgstr "Δεν ήταν δυνατή η δημιουργία ασφαλούς nonce εγγραφής. Παρακαλώ δοκιμάστε ξανά."
+
+#: inc/modules/site-scanner/saas-client.php:1546
+msgid "Failed to encode registration request."
+msgstr "Αποτυχία κωδικοποίησης αιτήματος εγγραφής."
+
+#. translators: %s: error message from the network call
+#: inc/modules/site-scanner/saas-client.php:1568
+#, php-format
+msgid "Could not reach the SureCookie service: %s"
+msgstr "Δεν ήταν δυνατή η πρόσβαση στην υπηρεσία SureCookie: %s"
+
+#: inc/modules/site-scanner/saas-client.php:1582
+msgid "Registration could not be initiated."
+msgstr "Η εγγραφή δεν μπόρεσε να ξεκινήσει."
+
+#: inc/modules/site-scanner/saas-client.php:1597
+msgid "Received an invalid verification token. Please retry."
+msgstr "Λήφθηκε μη έγκυρο token επαλήθευσης. Παρακαλώ δοκιμάστε ξανά."
+
+#: inc/modules/site-scanner/saas-client.php:1615
+msgid "Failed to encode verification completion."
+msgstr "Αποτυχία κωδικοποίησης ολοκλήρωσης επαλήθευσης."
+
+#: inc/modules/site-scanner/saas-client.php:1899
+msgid "Failed to fetch results."
+msgstr "Αποτυχία λήψης αποτελεσμάτων."
+
+#: inc/services/cookie-category-service.php:54
+msgid "Cookie categories retrieved successfully."
+msgstr "Οι κατηγορίες cookie ανακτήθηκαν με επιτυχία."
+
+#: inc/services/cookie-category-service.php:75
+msgid "Category name is required."
+msgstr "Απαιτείται όνομα κατηγορίας."
+
+#: inc/services/cookie-category-service.php:86
+msgid "A category with this name already exists."
+msgstr "Υπάρχει ήδη κατηγορία με αυτό το όνομα."
+
+#: inc/services/cookie-category-service.php:103
+msgid "Category created successfully."
+msgstr "Η κατηγορία δημιουργήθηκε με επιτυχία."
+
+#: inc/services/cookie-category-service.php:124
+#: inc/services/cookie-category-service.php:196
+msgid "Category ID is required."
+msgstr "Απαιτείται ταυτότητα κατηγορίας."
+
+#: inc/services/cookie-category-service.php:134
+#: inc/services/cookie-category-service.php:215
+msgid "Category not found."
+msgstr "Η κατηγορία δεν βρέθηκε."
+
+#: inc/services/cookie-category-service.php:166
+msgid "Category updated successfully."
+msgstr "Η κατηγορία ενημερώθηκε με επιτυχία."
+
+#: inc/services/cookie-category-service.php:205
+msgid "Default categories cannot be deleted."
+msgstr "Οι προεπιλεγμένες κατηγορίες δεν μπορούν να διαγραφούν."
+
+#: inc/services/cookie-category-service.php:307
+msgid "Category deleted successfully."
+msgstr "Η κατηγορία διαγράφηκε με επιτυχία."
+
+#: inc/services/cookie-service.php:60
+#: inc/services/cookie-service.php:355
+msgid "No scanned cookies found."
+msgstr "Δεν βρέθηκαν σαρωμένα cookies."
+
+#: inc/services/cookie-service.php:84
+msgid "Scanned cookies retrieved successfully."
+msgstr "Τα σαρωμένα cookies ανακτήθηκαν με επιτυχία."
+
+#: inc/services/cookie-service.php:101
+msgid "Custom cookies retrieved successfully."
+msgstr "Τα προσαρμοσμένα cookies ανακτήθηκαν με επιτυχία."
+
+#: inc/services/cookie-service.php:132
+#: inc/services/cookie-service.php:323
+msgid "Cookie name is required."
+msgstr "Απαιτείται όνομα cookie."
+
+#: inc/services/cookie-service.php:139
+msgid "Cookie category is required."
+msgstr "Απαιτείται κατηγορία cookie."
+
+#: inc/services/cookie-service.php:154
+msgid "A cookie with this name already exists."
+msgstr "Υπάρχει ήδη cookie με αυτό το όνομα."
+
+#: inc/services/cookie-service.php:191
+msgid "Custom cookie created successfully."
+msgstr "Το προσαρμοσμένο cookie δημιουργήθηκε με επιτυχία."
+
+#: inc/services/cookie-service.php:210
+#: inc/services/cookie-service.php:280
+msgid "Cookie ID is required."
+msgstr "Απαιτείται ταυτότητα cookie."
+
+#: inc/services/cookie-service.php:219
+#: inc/services/cookie-service.php:289
+msgid "Cookie not found."
+msgstr "Το cookie δεν βρέθηκε."
+
+#: inc/services/cookie-service.php:262
+msgid "Custom cookie updated successfully."
+msgstr "Το προσαρμοσμένο cookie ενημερώθηκε με επιτυχία."
+
+#: inc/services/cookie-service.php:299
+msgid "Custom cookie deleted successfully."
+msgstr "Το προσαρμοσμένο cookie διαγράφηκε με επιτυχία."
+
+#: inc/services/cookie-service.php:330
+msgid "Current category is required."
+msgstr "Απαιτείται τρέχουσα κατηγορία."
+
+#: inc/services/cookie-service.php:337
+#: inc/services/cookie-service.php:414
+msgid "New category is required."
+msgstr "Απαιτείται νέα κατηγορία."
+
+#: inc/services/cookie-service.php:345
+msgid "Cookie is already in the selected category."
+msgstr "Το cookie βρίσκεται ήδη στην επιλεγμένη κατηγορία."
+
+#: inc/services/cookie-service.php:363
+msgid "Current category not found in scanned cookies."
+msgstr "Η τρέχουσα κατηγορία δεν βρέθηκε στα σαρωμένα cookies."
+
+#: inc/services/cookie-service.php:372
+msgid "Cookie not found in the specified category."
+msgstr "Το cookie δεν βρέθηκε στην καθορισμένη κατηγορία."
+
+#: inc/services/cookie-service.php:384
+msgid "Cookie category updated successfully."
+msgstr "Η κατηγορία cookie ενημερώθηκε με επιτυχία."
+
+#: inc/utils/options.php:48
+msgid "We use cookies to improve your experience and understand how you use our site. You can review your choices at any time."
+msgstr "Χρησιμοποιούμε cookies για να βελτιώσουμε την εμπειρία σας και να κατανοήσουμε πώς χρησιμοποιείτε τον ιστότοπό μας. Μπορείτε να αναθεωρήσετε τις επιλογές σας οποιαδήποτε στιγμή."
+
+#: inc/utils/options.php:62
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Only Essential"
+msgstr "Μόνο Απαραίτητα"
+
+#: inc/utils/options.php:71
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Accept All"
+msgstr "Αποδοχή Όλων"
+
+#: inc/utils/options.php:75
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Decline"
+msgstr "Απόρριψη"
+
+#: inc/utils/options.php:79
+msgid "Cookie Settings"
+msgstr "Ρυθμίσεις Cookie"
+
+#: inc/utils/options.php:142
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: inc/utils/options.php:146
+msgid "Privacy Preference"
+msgstr "Προτίμηση Απορρήτου"
+
+#: inc/utils/options.php:150
+msgid "We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience."
+msgstr "Χρησιμοποιούμε cookies και παρόμοιες τεχνολογίες για να βοηθήσουμε στην εξατομίκευση περιεχομένου, στην προσαρμογή και μέτρηση διαφημίσεων και για να παρέχουμε μια καλύτερη εμπειρία."
+
+#: inc/utils/options.php:174
+#: build/admin.js:4
+#: build/admin.js:75
+msgid "Cookie Preferences"
+msgstr "Προτιμήσεις Cookie"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Accepted"
+msgstr "Αποδεκτό"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Partially Accepted"
+msgstr "Μερικώς Αποδεκτό"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Declined"
+msgstr "Απορρίφθηκε"
+
+#: build/admin.js:1
+msgid "Failed to load consent logs"
+msgstr "Αποτυχία φόρτωσης αρχείων καταγραφής συγκατάθεσης"
+
+#: build/admin.js:1
+msgid "Failed to load conflicting plugins"
+msgstr "Αποτυχία φόρτωσης συγκρουόμενων προσθηκών"
+
+#: build/admin.js:1
+msgid "Failed to load cookie categories"
+msgstr "Αποτυχία φόρτωσης κατηγοριών cookie"
+
+#: build/admin.js:1
+msgid "Scan cancelled."
+msgstr "Η σάρωση ακυρώθηκε."
+
+#: build/admin.js:1
+msgid "Failed to cancel scan."
+msgstr "Αποτυχία ακύρωσης σάρωσης."
+
+#: build/admin.js:1
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "Failed to load settings"
+msgstr "Αποτυχία φόρτωσης ρυθμίσεων"
+
+#: build/admin.js:1
+msgid "Failed to save settings"
+msgstr "Αποτυχία αποθήκευσης ρυθμίσεων"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "30 days"
+msgstr "30 ημέρες"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "60 days"
+msgstr "60 ημέρες"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "90 days"
+msgstr "90 ημέρες"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "365 days"
+msgstr "365 ημέρες"
+
+#: build/admin.js:1
+#: build/admin.js:3
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "Never"
+msgstr "Ποτέ"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Cookie Scanner"
+msgstr "Ανιχνευτής Cookie"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "All Cookies"
+msgstr "Όλα τα Cookies"
+
+#: build/admin.js:2
+msgid "Banner"
+msgstr "Μπάνερ"
+
+#: build/admin.js:2
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: build/admin.js:2
+msgid "Layout"
+msgstr "Διάταξη"
+
+#: build/admin.js:2
+#: build/admin.js:78
+msgid "Visibility"
+msgstr "Ορατότητα"
+
+#: build/admin.js:2
+#: build/admin.js:75
+msgid "Re-Consent"
+msgstr "Επανασυγκατάθεση"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "Custom CSS"
+msgstr "Προσαρμοσμένο CSS"
+
+#: build/admin.js:2
+msgid "Google Consent Mode"
+msgstr "Λειτουργία Συγκατάθεσης Google"
+
+#: build/admin.js:2
+msgid "Additional Consent"
+msgstr "Επιπλέον Συγκατάθεση"
+
+#: build/admin.js:2
+#: build/admin.js:21
+msgid "Consent Logs"
+msgstr "Αρχεία Καταγραφής Συγκατάθεσης"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication timeout. Please try again."
+msgstr "Χρονικό όριο πιστοποίησης. Παρακαλώ δοκιμάστε ξανά."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful!"
+msgstr "Η πιστοποίηση ήταν επιτυχής!"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "An error occurred during authentication"
+msgstr "Παρουσιάστηκε σφάλμα κατά την πιστοποίηση"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication cancelled. Please try again."
+msgstr "Η πιστοποίηση ακυρώθηκε. Παρακαλώ δοκιμάστε ξανά."
+
+#: inc/modules/assisted-scan/collector.php:329
+#: build/admin.js:2
+#: build/admin.js:3
+#: build/admin.js:28
+#: build/admin.js:41
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: build/admin.js:2
+#: build/admin.js:5
+#: build/admin.js:6
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: build/admin.js:2
+#: build/admin.js:28
+#: build/admin.js:83
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "No options available"
+msgstr "Δεν υπάρχουν διαθέσιμες επιλογές"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful"
+msgstr "Η πιστοποίηση ήταν επιτυχής"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication completed successfully. Closing tab in 3 seconds…"
+msgstr "Η πιστοποίηση ολοκληρώθηκε με επιτυχία. Κλείσιμο καρτέλας σε 3 δευτερόλεπτα…"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication failed"
+msgstr "Η πιστοποίηση απέτυχε"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Please return to the SureCookie dashboard and try again."
+msgstr "Παρακαλώ επιστρέψτε στον πίνακα ελέγχου SureCookie και δοκιμάστε ξανά."
+
+#: build/admin.js:2
+#: build/onboarding.js:6
+msgid "Let's Get Started"
+msgstr "Ας Ξεκινήσουμε"
+
+#: build/admin.js:2
+msgid "Automatic Cookie Detection"
+msgstr "Αυτόματη Ανίχνευση Cookie"
+
+#: build/admin.js:2
+msgid "Smart Categorization"
+msgstr "Έξυπνη Κατηγοριοποίηση"
+
+#: build/admin.js:2
+msgid "Compliance Recommendations"
+msgstr "Συστάσεις Συμμόρφωσης"
+
+#: build/admin.js:2
+msgid "Connect to scan your website"
+msgstr "Συνδεθείτε για να σαρώσετε τον ιστότοπό σας"
+
+#: build/admin.js:2
+msgid "Connect your SureCookie account to automatically detect cookies on your website, categorize them, and get compliance recommendations."
+msgstr "Συνδέστε τον λογαριασμό SureCookie για αυτόματη ανίχνευση cookies στον ιστότοπό σας, κατηγοριοποίησή τους και λήψη συστάσεων συμμόρφωσης."
+
+#: build/admin.js:2
+msgid "Learn more"
+msgstr "Μάθετε περισσότερα"
+
+#: build/admin.js:2
+msgid "Free Plan Limit Reached"
+msgstr "Έχετε φτάσει το όριο του δωρεάν πλάνου"
+
+#: build/admin.js:2
+#: build/admin.js:6
+#: build/admin.js:47
+#: build/admin.js:53
+#: build/admin.js:63
+#: build/admin.js:75
+#: build/onboarding.js:7
+msgid "Upgrade Now"
+msgstr "Αναβάθμιση Τώρα"
+
+#: build/admin.js:2
+msgid "Unlock this feature"
+msgstr "Ξεκλειδώστε αυτή τη λειτουργία"
+
+#: build/admin.js:2
+msgid "WordPress updates API not available."
+msgstr "Το API ενημερώσεων του WordPress δεν είναι διαθέσιμο."
+
+#: build/admin.js:2
+msgid "Plugin activation failed."
+msgstr "Η ενεργοποίηση της προσθήκης απέτυχε."
+
+#: build/admin.js:2
+msgid "Plugin installation failed."
+msgstr "Η εγκατάσταση της προσθήκης απέτυχε."
+
+#: build/admin.js:2
+msgid "Plugin installed and activated successfully."
+msgstr "Η προσθήκη εγκαταστάθηκε και ενεργοποιήθηκε με επιτυχία."
+
+#: build/admin.js:2
+msgid "Failed to install and activate plugin."
+msgstr "Αποτυχία εγκατάστασης και ενεργοποίησης της προσθήκης."
+
+#: build/admin.js:2
+msgid "Failed to activate plugin."
+msgstr "Αποτυχία ενεργοποίησης της προσθήκης."
+
+#: build/admin.js:2
+msgid "Install and Activate"
+msgstr "Εγκατάσταση και Ενεργοποίηση"
+
+#: build/admin.js:2
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: build/admin.js:2
+msgid "Activated"
+msgstr "Ενεργοποιήθηκε"
+
+#: build/admin.js:2
+msgid "Settings saved!"
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν!"
+
+#: build/admin.js:2
+msgid "Your settings have been successfully saved."
+msgstr "Οι ρυθμίσεις σας αποθηκεύτηκαν με επιτυχία."
+
+#: build/admin.js:2
+msgid "Save failed!"
+msgstr "Η αποθήκευση απέτυχε!"
+
+#: build/admin.js:2
+msgid "There was an error saving your settings. Please try again."
+msgstr "Παρουσιάστηκε σφάλμα κατά την αποθήκευση των ρυθμίσεών σας. Παρακαλώ δοκιμάστε ξανά."
+
+#: build/admin.js:2
+msgid "Saving…"
+msgstr "Αποθήκευση…"
+
+#: build/admin.js:2
+msgid "Banner Content"
+msgstr "Περιεχόμενο Banner"
+
+#: build/admin.js:2
+msgid "Configure the text content that appears in your cookie consent banner and preference modal"
+msgstr "Διαμορφώστε το κείμενο που εμφανίζεται στο banner συγκατάθεσης cookie και στο παράθυρο προτιμήσεων"
+
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "An error occurred while loading settings. Please refresh the page to try again."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη φόρτωση των ρυθμίσεων. Παρακαλώ ανανεώστε τη σελίδα για να δοκιμάσετε ξανά."
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner Switch"
+msgstr "Ενεργοποίηση Διακόπτη Banner Cookie"
+
+#: build/admin.js:2
+msgid "Show cookie consent banner to comply with privacy regulations."
+msgstr "Εμφάνιση banner συγκατάθεσης cookie για συμμόρφωση με τους κανονισμούς απορρήτου."
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner"
+msgstr "Ενεργοποίηση Banner Cookie"
+
+#: build/admin.js:2
+msgid "Consent Banner"
+msgstr "Banner Συγκατάθεσης"
+
+#: build/admin.js:2
+msgid "Preference Modal"
+msgstr "Παράθυρο Προτιμήσεων"
+
+#: build/admin.js:2
+msgid "Banner Heading"
+msgstr "Επικεφαλίδα Banner"
+
+#: build/admin.js:2
+msgid "Cookie Notice (optional)"
+msgstr "Ειδοποίηση Cookie (προαιρετικό)"
+
+#: build/admin.js:2
+msgid "Banner Message"
+msgstr "Μήνυμα Banner"
+
+#: build/admin.js:2
+msgid "Enable Accept All Button"
+msgstr "Ενεργοποίηση Κουμπιού Αποδοχής Όλων"
+
+#: build/admin.js:2
+msgid "Show the \"Accept All\" button on the consent banner. When off, the button is removed from the banner and from the Button Order list."
+msgstr "Εμφάνιση του κουμπιού \"Αποδοχή Όλων\" στο banner συγκατάθεσης. Όταν είναι απενεργοποιημένο, το κουμπί αφαιρείται από το banner και από τη λίστα σειράς κουμπιών."
+
+#: build/admin.js:2
+msgid "Preference Modal Title"
+msgstr "Τίτλος Παραθύρου Προτιμήσεων"
+
+#: build/admin.js:2
+msgid "Preference Modal Description"
+msgstr "Περιγραφή Παραθύρου Προτιμήσεων"
+
+#: build/admin.js:2
+msgid "Preference modal description cannot be empty."
+msgstr "Η περιγραφή του παραθύρου προτιμήσεων δεν μπορεί να είναι κενή."
+
+#: build/admin.js:2
+msgid "Banner message cannot be empty."
+msgstr "Το μήνυμα του banner δεν μπορεί να είναι κενό."
+
+#: build/admin.js:2
+msgid "Button Order"
+msgstr "Σειρά Κουμπιών"
+
+#: build/admin.js:2
+msgid "Drag and drop to reorder buttons. This order can be overridden per Geographic Targeting Rule."
+msgstr "Σύρετε και αποθέστε για να αλλάξετε τη σειρά των κουμπιών. Αυτή η σειρά μπορεί να παρακαμφθεί ανά Κανόνα Γεωγραφικού Στόχου."
+
+#: build/admin.js:2
+msgid "Banner Layout"
+msgstr "Διάταξη Banner"
+
+#: build/admin.js:2
+msgid "Configure how and where your cookie banner appears on your website"
+msgstr "Διαμορφώστε πώς και πού εμφανίζεται το banner cookie στον ιστότοπό σας"
+
+#: build/admin.js:2
+msgid "Upload Logo"
+msgstr "Ανέβασμα Λογότυπου"
+
+#: build/admin.js:2
+msgid "Logo"
+msgstr "Λογότυπο"
+
+#: build/admin.js:2
+msgid "Select Logo"
+msgstr "Επιλογή Λογότυπου"
+
+#: build/admin.js:2
+msgid "Use this logo"
+msgstr "Χρήση αυτού του λογότυπου"
+
+#: build/admin.js:2
+msgid "Banner Type"
+msgstr "Τύπος Banner"
+
+#: build/admin.js:2
+msgid "Floating Banner"
+msgstr "Πλωτό Banner"
+
+#: build/admin.js:2
+msgid "Full-width Banner"
+msgstr "Banner Πλήρους Πλάτους"
+
+#: build/admin.js:2
+msgid "Banner Width"
+msgstr "Πλάτος Banner"
+
+#: build/admin.js:2
+msgid "px"
+msgstr "px"
+
+#: build/admin.js:2
+msgid "Position"
+msgstr "Θέση"
+
+#: build/admin.js:2
+msgid "Bottom Left"
+msgstr "Κάτω Αριστερά"
+
+#: build/admin.js:2
+msgid "Bottom Center"
+msgstr "Κάτω Κέντρο"
+
+#: build/admin.js:2
+msgid "Bottom Right"
+msgstr "Κάτω Δεξιά"
+
+#: build/admin.js:2
+msgid "Middle"
+msgstr "Μέση"
+
+#: build/admin.js:2
+msgid "Top"
+msgstr "Πάνω"
+
+#: build/admin.js:2
+msgid "Bottom"
+msgstr "Κάτω"
+
+#: build/admin.js:2
+msgid "Banner Animation"
+msgstr "Κίνηση Banner"
+
+#: build/admin.js:2
+msgid "Fade"
+msgstr "Εξαφάνιση"
+
+#: build/admin.js:2
+msgid "Slide"
+msgstr "Ολίσθηση"
+
+#: build/admin.js:2
+msgid "Color Palette: <span></span>"
+msgstr "Παλέτα Χρωμάτων: <span></span>"
+
+#: build/admin.js:2
+#: build/admin.js:4
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: build/admin.js:4
+msgid "Consent Details"
+msgstr "Λεπτομέρειες Συγκατάθεσης"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: build/admin.js:4
+msgid "No data available."
+msgstr "Δεν υπάρχουν διαθέσιμα δεδομένα."
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: build/admin.js:4
+msgid "Consent logs"
+msgstr "Αρχεία καταγραφής συγκατάθεσης"
+
+#: build/admin.js:4
+msgid "Date & Time"
+msgstr "Ημερομηνία & Ώρα"
+
+#: build/admin.js:4
+msgid "IP Address"
+msgstr "Διεύθυνση IP"
+
+#: build/admin.js:4
+msgid "Country"
+msgstr "Χώρα"
+
+#: build/admin.js:4
+#: build/admin.js:76
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: build/admin.js:4
+msgid "Download PDF"
+msgstr "Λήψη PDF"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:5
+#, js-format
+msgid "Download PDF for consent log from %s"
+msgstr "Λήψη PDF για το αρχείο καταγραφής συγκατάθεσης από %s"
+
+#: build/admin.js:4
+msgid "Session Summary"
+msgstr "Περίληψη Συνεδρίας"
+
+#: build/admin.js:4
+msgid "Field"
+msgstr "Πεδίο"
+
+#: build/admin.js:4
+msgid "Value"
+msgstr "Τιμή"
+
+#: build/admin.js:4
+msgid "Session ID"
+msgstr "ID Συνεδρίας"
+
+#: build/admin.js:4
+msgid "Total Records"
+msgstr "Συνολικές Εγγραφές"
+
+#: build/admin.js:4
+msgid "Date Range"
+msgstr "Εύρος Ημερομηνιών"
+
+#: build/admin.js:4
+msgid "Consent Record"
+msgstr "Εγγραφή Συγκατάθεσης"
+
+#: build/admin.js:4
+msgid "Log ID"
+msgstr "ID Αρχείου Καταγραφής"
+
+#: build/admin.js:4
+msgid "Timestamp"
+msgstr "Χρονική Σήμανση"
+
+#: build/admin.js:4
+msgid "Consent Status"
+msgstr "Κατάσταση Συγκατάθεσης"
+
+#: build/admin.js:4
+msgid "Consent Preset"
+msgstr "Προεπιλογή Συγκατάθεσης"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: build/admin.js:4
+msgid "Legal Information"
+msgstr "Νομικές Πληροφορίες"
+
+#: build/admin.js:4
+msgid "Date of Generation"
+msgstr "Ημερομηνία Δημιουργίας"
+
+#: build/admin.js:4
+msgid "Website"
+msgstr "Ιστότοπος"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:6
+#, js-format
+msgid "Delete consent log from %s"
+msgstr "Διαγραφή αρχείου καταγραφής συγκατάθεσης από %s"
+
+#: build/admin.js:6
+msgid "Consent log is empty"
+msgstr "Το αρχείο καταγραφής συγκατάθεσης είναι κενό"
+
+#: build/admin.js:6
+msgid "Your consent logs will be displayed here once users interact with the banner"
+msgstr "Τα αρχεία καταγραφής συγκατάθεσής σας θα εμφανιστούν εδώ μόλις οι χρήστες αλληλεπιδράσουν με το banner"
+
+#: build/admin.js:6
+msgid "Consent Logging Disabled"
+msgstr "Η καταγραφή συγκατάθεσης είναι απενεργοποιημένη"
+
+#: build/admin.js:6
+msgid "Enable consent logging to view analytics data and recent consent logs."
+msgstr "Ενεργοποιήστε την καταγραφή συγκατάθεσης για να δείτε δεδομένα ανάλυσης και πρόσφατα αρχεία καταγραφής συγκατάθεσης."
+
+#: build/admin.js:3
+#: build/admin.js:6
+msgid "Enable Consent Logging"
+msgstr "Ενεργοποίηση καταγραφής συγκατάθεσης"
+
+#: build/admin.js:6
+msgid "<span></span> Selected"
+msgstr "<span></span> Επιλεγμένο"
+
+#: build/admin.js:6
+msgid "Deleting…"
+msgstr "Διαγραφή…"
+
+#: build/admin.js:6
+msgid "All Actions"
+msgstr "Όλες οι ενέργειες"
+
+#: build/admin.js:6
+msgid "All Countries"
+msgstr "Όλες οι χώρες"
+
+#: build/admin.js:6
+msgid "IP address or Session ID…"
+msgstr "Διεύθυνση IP ή Αναγνωριστικό Συνεδρίας…"
+
+#: build/admin.js:6
+msgid "Clear Filters"
+msgstr "Καθαρισμός φίλτρων"
+
+#: build/admin.js:6
+msgid "View All Logs"
+msgstr "Προβολή όλων των αρχείων καταγραφής"
+
+#: build/admin.js:6
+msgid "Consents"
+msgstr "Συγκαταθέσεις"
+
+#: build/admin.js:6
+msgid "No Consents Yet"
+msgstr "Δεν υπάρχουν ακόμη συγκαταθέσεις"
+
+#: build/admin.js:6
+msgid "Data will appear here once visitors interact with the cookie banner."
+msgstr "Τα δεδομένα θα εμφανιστούν εδώ μόλις οι επισκέπτες αλληλεπιδράσουν με το banner των cookies."
+
+#. translators: %s: log/logs
+#: build/admin.js:9
+#, js-format
+msgid "Failed to delete consent %s"
+msgstr "Αποτυχία διαγραφής συγκατάθεσης %s"
+
+#: build/admin.js:9
+#: build/admin.js:12
+#: build/admin.js:18
+msgid "log"
+msgid_plural "logs"
+msgstr[0] "αρχείο καταγραφής"
+msgstr[1] "αρχεία καταγραφής"
+
+#. translators: %s: log/logs
+#: build/admin.js:12
+#, js-format
+msgid "Successfully deleted consent %s"
+msgstr "Η συγκατάθεση %s διαγράφηκε με επιτυχία"
+
+#: build/admin.js:12
+msgid "Failed to delete consent log"
+msgstr "Αποτυχία διαγραφής αρχείου καταγραφής συγκατάθεσης"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Delete Consent Log"
+msgstr "Διαγραφή αρχείου καταγραφής συγκατάθεσης"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Are you sure you want to delete this consent log? This action cannot be undone."
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το αρχείο καταγραφής συγκατάθεσης; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+
+#: build/admin.js:15
+msgid "Delete Selected Consent Logs"
+msgstr "Διαγραφή επιλεγμένων αρχείων καταγραφής συγκατάθεσης"
+
+#. translators: %s: the log string pluralized.
+#: build/admin.js:18
+#, js-format
+msgid "Are you sure you want to delete the selected consent %s? This action cannot be undone."
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε τις επιλεγμένες %s συγκαταθέσεις; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+
+#: build/admin.js:21
+msgid "Failed to load countries"
+msgstr "Αποτυχία φόρτωσης χωρών"
+
+#: build/admin.js:21
+msgid "Page"
+msgstr "Σελίδα"
+
+#: build/admin.js:21
+msgid "of"
+msgstr "από"
+
+#: build/admin.js:21
+msgid "Consent Logs Pagination"
+msgstr "Σελιδοποίηση αρχείων καταγραφής συγκατάθεσης"
+
+#: build/admin.js:2
+msgid "Consent Duration (in days)"
+msgstr "Διάρκεια συγκατάθεσης (σε ημέρες)"
+
+#: build/admin.js:2
+msgid "Please enter a value between 1 and 365 days."
+msgstr "Παρακαλώ εισάγετε μια τιμή μεταξύ 1 και 365 ημερών."
+
+#: build/admin.js:2
+msgid "How long user consent remains valid before requiring renewal (1–365 days)."
+msgstr "Πόσο καιρό παραμένει έγκυρη η συγκατάθεση χρήστη πριν απαιτηθεί ανανέωση (1–365 ημέρες)."
+
+#: build/admin.js:3
+msgid "Enable Consent Logging Switch"
+msgstr "Διακόπτης ενεργοποίησης καταγραφής συγκατάθεσης"
+
+#: build/admin.js:3
+msgid "Store consent records in database for compliance reporting and analytics."
+msgstr "Αποθήκευση αρχείων καταγραφής συγκατάθεσης στη βάση δεδομένων για αναφορές συμμόρφωσης και ανάλυση."
+
+#: build/admin.js:3
+msgid "Clear Logs After"
+msgstr "Καθαρισμός αρχείων καταγραφής μετά από"
+
+#: build/admin.js:3
+msgid "Select retention period"
+msgstr "Επιλέξτε περίοδο διατήρησης"
+
+#: build/admin.js:3
+msgid "Automatically delete consent logs older than the selected period."
+msgstr "Αυτόματη διαγραφή αρχείων καταγραφής συγκατάθεσης παλαιότερων της επιλεγμένης περιόδου."
+
+#: build/admin.js:53
+msgid "SureCookie admin menu location toggle"
+msgstr "Εναλλαγή θέσης μενού διαχείρισης SureCookie"
+
+#: build/admin.js:53
+msgid "Hide SureCookie branding toggle"
+msgstr "Εναλλαγή απόκρυψης επωνυμίας SureCookie"
+
+#: build/admin.js:53
+msgid "Hide SureCookie Branding"
+msgstr "Απόκρυψη επωνυμίας SureCookie"
+
+#: build/admin.js:53
+msgid "Remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "Αφαίρεση του κειμένου \"Powered by SureCookie\" από το banner συγκατάθεσης και το παράθυρο προτιμήσεων."
+
+#: build/admin.js:53
+msgid "to remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "για να αφαιρέσετε το κείμενο \"Powered by SureCookie\" από το banner συγκατάθεσης και το παράθυρο προτιμήσεων."
+
+#: build/admin.js:3
+msgid "Delete data on uninstall toggle"
+msgstr "Εναλλαγή διαγραφής δεδομένων κατά την απεγκατάσταση"
+
+#: build/admin.js:3
+msgid "Delete Data on Uninstall"
+msgstr "Διαγραφή δεδομένων κατά την απεγκατάσταση"
+
+#: build/admin.js:3
+msgid "When enabled, all plugin data including consent logs, settings, and scan results will be permanently deleted when you uninstall SureCookie. Leave disabled to preserve data for compliance records or future reinstallation."
+msgstr "Όταν είναι ενεργοποιημένο, όλα τα δεδομένα του πρόσθετου, συμπεριλαμβανομένων των αρχείων καταγραφής συγκατάθεσης, των ρυθμίσεων και των αποτελεσμάτων σάρωσης, θα διαγραφούν οριστικά κατά την απεγκατάσταση του SureCookie. Αφήστε το απενεργοποιημένο για να διατηρήσετε τα δεδομένα για αρχεία συμμόρφωσης ή μελλοντική επανεγκατάσταση."
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie toggle"
+msgstr "Εναλλαγή συνεισφοράς στο SureCookie"
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie"
+msgstr "Συνεισφορά στο SureCookie"
+
+#: build/admin.js:53
+msgid "Help shape the future of SureCookie. Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions."
+msgstr "Βοηθήστε να διαμορφώσουμε το μέλλον του SureCookie. Μοιραστείτε πώς χρησιμοποιείτε το πρόσθετο ώστε να δημιουργήσουμε λειτουργίες που έχουν σημασία, να διορθώσουμε προβλήματα πιο γρήγορα και να πάρουμε πιο έξυπνες αποφάσεις."
+
+#: build/admin.js:53
+#: build/admin.js:84
+msgid "Learn More"
+msgstr "Μάθετε περισσότερα"
+
+#: build/admin.js:3
+msgid "Compliance Notice"
+msgstr "Ειδοποίηση Συμμόρφωσης"
+
+#: build/admin.js:3
+msgid "Consent logs may be required to demonstrate proof of consent under GDPR Article 7(1). Consider exporting consent records before uninstalling."
+msgstr "Τα αρχεία καταγραφής συγκατάθεσης ενδέχεται να απαιτούνται για την απόδειξη της συγκατάθεσης σύμφωνα με το άρθρο 7(1) του GDPR. Σκεφτείτε να εξάγετε τα αρχεία συγκατάθεσης πριν από την απεγκατάσταση."
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/admin.js:76
+#: build/public.js:4
+msgid "Name"
+msgstr "Όνομα"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Provider"
+msgstr "Πάροχος"
+
+#: build/admin.js:25
+msgid "Duration (Days)"
+msgstr "Διάρκεια (Ημέρες)"
+
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Type"
+msgstr "Τύπος"
+
+#: build/admin.js:23
+#: build/admin.js:78
+#: build/onboarding.js:3
+msgid "Uncategorized"
+msgstr "Μη κατηγοριοποιημένο"
+
+#: build/admin.js:21
+#: build/onboarding.js:1
+msgid "Change Category"
+msgstr "Αλλαγή Κατηγορίας"
+
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Scanned"
+msgstr "Σαρωμένο"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Custom"
+msgstr "Προσαρμοσμένο"
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete the cookie \"<strong></strong>\"? This action cannot be undone."
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε το cookie \"<strong></strong>\"? Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete this cookie? This action cannot be undone."
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το cookie? Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+
+#: build/admin.js:25
+msgid "Delete Custom Cookie"
+msgstr "Διαγραφή Προσαρμοσμένου Cookie"
+
+#: build/admin.js:25
+msgid "Change Cookie Category"
+msgstr "Αλλαγή Κατηγορίας Cookie"
+
+#: build/admin.js:25
+msgid "Update Category"
+msgstr "Ενημέρωση Κατηγορίας"
+
+#: build/admin.js:25
+msgid "Edit Cookie"
+msgstr "Επεξεργασία Cookie"
+
+#: build/admin.js:25
+msgid "Update Cookie"
+msgstr "Ενημέρωση Cookie"
+
+#: build/admin.js:25
+msgid "Add New Cookie"
+msgstr "Προσθήκη Νέου Cookie"
+
+#: build/admin.js:25
+msgid "Save Cookie"
+msgstr "Αποθήκευση Cookie"
+
+#: build/admin.js:25
+msgid "e.g., my_custom_cookie"
+msgstr "π.χ., my_custom_cookie"
+
+#: build/admin.js:25
+#: build/admin.js:28
+#: build/admin.js:76
+msgid "Select a category"
+msgstr "Επιλέξτε μια κατηγορία"
+
+#: build/admin.js:25
+msgid "No categories available. Please create a category first."
+msgstr "Δεν υπάρχουν διαθέσιμες κατηγορίες. Παρακαλώ δημιουργήστε πρώτα μια κατηγορία."
+
+#: build/admin.js:25
+msgid "e.g., 30"
+msgstr "π.χ., 30"
+
+#: build/admin.js:25
+msgid "e.g., Your Company Name"
+msgstr "π.χ., Το Όνομα της Εταιρείας σας"
+
+#: build/admin.js:25
+msgid "e.g., .example.com"
+msgstr "π.χ., .example.com"
+
+#: build/admin.js:25
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie…"
+msgstr "Εισάγετε μια περιγραφή για αυτό το cookie…"
+
+#: build/admin.js:25
+msgid "Describe the purpose of this cookie…"
+msgstr "Περιγράψτε τον σκοπό αυτού του cookie…"
+
+#: build/admin.js:25
+msgid "Category Name"
+msgstr "Όνομα Κατηγορίας"
+
+#: build/admin.js:25
+msgid "e.g., Performance Cookies"
+msgstr "π.χ., Cookies Απόδοσης"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie category…"
+msgstr "Εισάγετε μια περιγραφή για αυτή την κατηγορία cookie…"
+
+#. translators: %1$s is the category name, %2$s is the number of cookies
+#: build/admin.js:28
+#, js-format
+msgid "Are you sure you want to delete this cookie category? <br/> The category \"%1$s\" has %2$s assigned to it:"
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή την κατηγορία cookie; <br/> Η κατηγορία \"%1$s\" έχει %2$s ανατεθειμένα:"
+
+#: build/admin.js:28
+msgid "cookie"
+msgid_plural "cookies"
+msgstr[0] "cookie"
+msgstr[1] "cookies"
+
+#: build/admin.js:28
+msgid "Are you sure you want to delete this cookie category? This action cannot be undone."
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή την κατηγορία cookie; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+
+#: build/admin.js:28
+msgid "Delete Cookie Category"
+msgstr "Διαγραφή Κατηγορίας Cookie"
+
+#: build/admin.js:28
+msgid "Keep cookies when deleting category"
+msgstr "Διατήρηση των cookies κατά τη διαγραφή της κατηγορίας"
+
+#: build/admin.js:28
+msgid "Keep cookies"
+msgstr "Διατήρηση cookies"
+
+#: build/admin.js:28
+#: build/onboarding.js:4
+msgid "Please enter a category name"
+msgstr "Παρακαλώ εισάγετε ένα όνομα κατηγορίας"
+
+#: build/admin.js:28
+msgid "No cookie categories found. Click \"Add New Category\" to create one."
+msgstr "Δεν βρέθηκαν κατηγορίες cookie. Κάντε κλικ στο \"Προσθήκη Νέας Κατηγορίας\" για να δημιουργήσετε μία."
+
+#: build/admin.js:28
+msgid "Edit Category"
+msgstr "Επεξεργασία Κατηγορίας"
+
+#: build/admin.js:28
+msgid "Add New Category"
+msgstr "Προσθήκη Νέας Κατηγορίας"
+
+#: build/admin.js:28
+#: build/admin.js:43
+msgid "Manage Categories"
+msgstr "Διαχείριση Κατηγοριών"
+
+#: build/admin.js:28
+msgid "Manage cookie categories that appear in the privacy preferences modal"
+msgstr "Διαχείριση κατηγοριών cookie που εμφανίζονται στο παράθυρο προτιμήσεων απορρήτου"
+
+#: build/admin.js:28
+msgid "Add Category"
+msgstr "Προσθήκη Κατηγορίας"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please enter a cookie name"
+msgstr "Παρακαλώ εισάγετε ένα όνομα cookie"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please select a category"
+msgstr "Παρακαλώ επιλέξτε μια κατηγορία"
+
+#: build/admin.js:41
+msgid "Failed to load custom cookies"
+msgstr "Αποτυχία φόρτωσης προσαρμοσμένων cookies"
+
+#: build/admin.js:41
+msgid "Failed to create custom cookie"
+msgstr "Αποτυχία δημιουργίας προσαρμοσμένου cookie"
+
+#: build/admin.js:41
+msgid "Custom cookie created successfully"
+msgstr "Το προσαρμοσμένο cookie δημιουργήθηκε με επιτυχία"
+
+#: build/admin.js:41
+msgid "Failed to update custom cookie"
+msgstr "Αποτυχία ενημέρωσης προσαρμοσμένου cookie"
+
+#: build/admin.js:41
+msgid "Custom cookie updated successfully"
+msgstr "Το προσαρμοσμένο cookie ενημερώθηκε με επιτυχία"
+
+#: build/admin.js:41
+msgid "Failed to delete custom cookie"
+msgstr "Αποτυχία διαγραφής προσαρμοσμένου cookie"
+
+#: build/admin.js:41
+msgid "Custom cookie deleted successfully"
+msgstr "Το προσαρμοσμένο cookie διαγράφηκε με επιτυχία"
+
+#: build/admin.js:41
+msgid "Failed to update cookie category"
+msgstr "Αποτυχία ενημέρωσης κατηγορίας cookie"
+
+#: build/admin.js:41
+msgid "Cookie category updated successfully"
+msgstr "Η κατηγορία cookie ενημερώθηκε με επιτυχία"
+
+#: build/admin.js:42
+msgid "Failed to create category"
+msgstr "Αποτυχία δημιουργίας κατηγορίας"
+
+#: build/admin.js:42
+msgid "Category created successfully"
+msgstr "Η κατηγορία δημιουργήθηκε με επιτυχία"
+
+#: build/admin.js:42
+msgid "Failed to update category"
+msgstr "Αποτυχία ενημέρωσης κατηγορίας"
+
+#: build/admin.js:42
+msgid "Category updated successfully"
+msgstr "Η κατηγορία ενημερώθηκε με επιτυχία"
+
+#: build/admin.js:42
+msgid "Failed to delete category"
+msgstr "Αποτυχία διαγραφής κατηγορίας"
+
+#: build/admin.js:42
+msgid "Category deleted successfully"
+msgstr "Η κατηγορία διαγράφηκε με επιτυχία"
+
+#: build/admin.js:43
+msgid "Create and manage all cookies for your website. These cookies will appear in the selected privacy preference categories."
+msgstr "Δημιουργήστε και διαχειριστείτε όλα τα cookies για τον ιστότοπό σας. Αυτά τα cookies θα εμφανίζονται στις επιλεγμένες κατηγορίες προτιμήσεων απορρήτου."
+
+#: build/admin.js:43
+msgid "Manage Cookies"
+msgstr "Διαχείριση Cookies"
+
+#: build/admin.js:43
+msgid "New Cookie"
+msgstr "Νέο Cookie"
+
+#: build/admin.js:43
+msgid "All your cookies will be displayed here"
+msgstr "Όλα τα cookies σας θα εμφανιστούν εδώ"
+
+#: build/admin.js:43
+msgid "Click the button below to create your first custom cookie"
+msgstr "Κάντε κλικ στο κουμπί παρακάτω για να δημιουργήσετε το πρώτο σας προσαρμοσμένο cookie"
+
+#: build/admin.js:43
+msgid "Add custom CSS to style your cookie banner. Changes will be reflected in both preview and frontend after saving."
+msgstr "Προσθέστε προσαρμοσμένο CSS για να μορφοποιήσετε το banner cookie σας. Οι αλλαγές θα εμφανιστούν τόσο στην προεπισκόπηση όσο και στο frontend μετά την αποθήκευση."
+
+#: build/admin.js:43
+msgid "CSS Code Editor"
+msgstr "Επεξεργαστής Κώδικα CSS"
+
+#: build/admin.js:43
+msgid "Reset Custom CSS"
+msgstr "Επαναφορά Προσαρμοσμένου CSS"
+
+#: build/admin.js:43
+msgid "Are you sure you want to reset custom CSS? This will remove all your custom styles."
+msgstr "Είστε σίγουροι ότι θέλετε να επαναφέρετε το προσαρμοσμένο CSS; Αυτό θα αφαιρέσει όλα τα προσαρμοσμένα στυλ σας."
+
+#: build/admin.js:43
+msgid "Custom CSS has been reset. The banner will now use default styles."
+msgstr "Το προσαρμοσμένο CSS έχει επαναφερθεί. Το banner θα χρησιμοποιεί πλέον τα προεπιλεγμένα στυλ."
+
+#: build/admin.js:43
+msgid "Write your custom CSS below. Use <strong>!important</strong> to override inline styles.<br />You can target banner elements using classes like <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, etc."
+msgstr "Γράψτε το προσαρμοσμένο CSS σας παρακάτω. Χρησιμοποιήστε <strong>!important</strong> για να υπερισχύσετε των ενσωματωμένων στυλ.<br />Μπορείτε να στοχεύσετε στοιχεία του banner χρησιμοποιώντας κλάσεις όπως <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, κ.ά."
+
+#: build/admin.js:43
+#: build/admin.js:60
+msgid "<span></span> Quick Tips:"
+msgstr "<span></span> Γρήγορες Συμβουλές:"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-banner</b> to target the cookie banner (works in both preview and frontend)"
+msgstr "Χρησιμοποιήστε <b>.surecookie-banner</b> για να στοχεύσετε το banner cookie (λειτουργεί τόσο στην προεπισκόπηση όσο και στο frontend)"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> for buttons"
+msgstr "Χρησιμοποιήστε <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> για κουμπιά"
+
+#: build/admin.js:43
+msgid "Important: Use <b>!important</b> to override inline styles"
+msgstr "Σημαντικό: Χρησιμοποιήστε <b>!important</b> για να υπερισχύσετε των ενσωματωμένων στυλ"
+
+#: build/admin.js:43
+msgid "Changes take effect after clicking \"Save Changes\" below"
+msgstr "Οι αλλαγές εφαρμόζονται μετά το κλικ στο \"Αποθήκευση Αλλαγών\" παρακάτω"
+
+#: build/admin.js:43
+msgid "Your CSS is saved and will persist after page refresh"
+msgstr "Το CSS σας έχει αποθηκευτεί και θα παραμείνει μετά την ανανέωση της σελίδας"
+
+#: build/admin.js:43
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: build/admin.js:43
+msgid "Consent Logging"
+msgstr "Καταγραφή Συγκατάθεσης"
+
+#: build/admin.js:43
+msgid "Enable consent logging to view consent analytics"
+msgstr "Ενεργοποιήστε την καταγραφή συγκατάθεσης για να δείτε αναλύσεις συγκατάθεσης"
+
+#: build/admin.js:43
+msgid "Enable"
+msgstr "Ενεργοποίηση"
+
+#: build/admin.js:43
+msgid "Overview"
+msgstr "Επισκόπηση"
+
+#: build/admin.js:43
+msgid "Active"
+msgstr "Ενεργό"
+
+#: build/admin.js:43
+msgid "Inactive"
+msgstr "Ανενεργό"
+
+#: build/admin.js:43
+msgid "Cookie Banner"
+msgstr "Banner Cookie"
+
+#: build/admin.js:43
+#: build/admin.js:47
+msgid "Configure"
+msgstr "Διαμόρφωση"
+
+#: build/admin.js:44
+#: build/onboarding.js:4
+msgid "Launch Setup Wizard"
+msgstr "Εκκίνηση Οδηγού Ρύθμισης"
+
+#: build/admin.js:44
+msgid "Open Support Ticket"
+msgstr "Άνοιγμα Αιτήματος Υποστήριξης"
+
+#: build/admin.js:44
+msgid "Help Center"
+msgstr "Κέντρο Βοήθειας"
+
+#: build/admin.js:44
+msgid "Join our Community"
+msgstr "Εγγραφείτε στην Κοινότητά μας"
+
+#: build/admin.js:44
+msgid "Leave Us a Review"
+msgstr "Αφήστε μας μια Αξιολόγηση"
+
+#: build/admin.js:44
+msgid "Quick Access"
+msgstr "Γρήγορη Πρόσβαση"
+
+#: build/admin.js:44
+msgid "Recent Consent Logs"
+msgstr "Πρόσφατα Αρχεία Συγκατάθεσης"
+
+#: build/admin.js:44
+msgid "Toggle Preview"
+msgstr "Εναλλαγή Προεπισκόπησης"
+
+#: build/admin.js:44
+msgid "Click this button to show or hide the cookie consent banner preview."
+msgstr "Κάντε κλικ σε αυτό το κουμπί για να εμφανίσετε ή να αποκρύψετε την προεπισκόπηση του banner συγκατάθεσης cookie."
+
+#: build/admin.js:44
+msgid "Click here to start"
+msgstr "Κάντε κλικ εδώ για να ξεκινήσετε"
+
+#: build/admin.js:44
+msgid "design your banner"
+msgstr "σχεδιάστε το banner σας"
+
+#: build/admin.js:44
+msgid "Here's a preview of the cookie consent banner."
+msgstr "Εδώ είναι μια προεπισκόπηση του banner συγκατάθεσης cookie."
+
+#: build/admin.js:44
+msgid "You can adjust the content and design settings."
+msgstr "Μπορείτε να προσαρμόσετε το περιεχόμενο και τις ρυθμίσεις σχεδίασης."
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:47
+#, js-format
+msgid "%1$d of %2$d steps complete"
+msgstr "%1$d από %2$d βήματα ολοκληρώθηκαν"
+
+#: build/admin.js:47
+msgid "You're all set! SureCookie is ready to protect your site."
+msgstr "Είστε έτοιμοι! Το SureCookie είναι έτοιμο να προστατεύσει τον ιστότοπό σας."
+
+#: build/admin.js:47
+#: build/onboarding.js:14
+msgid "Go to Dashboard"
+msgstr "Μετάβαση στον Πίνακα Ελέγχου"
+
+#: build/admin.js:47
+msgid "Scan Your Site for Cookies"
+msgstr "Σάρωση του Ιστότοπού σας για Cookies"
+
+#: build/admin.js:47
+msgid "Run the cookie scanner to discover and categorize cookies your site uses."
+msgstr "Εκτελέστε τον σαρωτή cookie για να ανακαλύψετε και να κατηγοριοποιήσετε τα cookies που χρησιμοποιεί ο ιστότοπός σας."
+
+#: build/admin.js:47
+msgid "Scan Now"
+msgstr "Σάρωση Τώρα"
+
+#: build/admin.js:47
+msgid "Set up the Consent Banner"
+msgstr "Ρύθμιση του Banner Συγκατάθεσης"
+
+#: build/admin.js:47
+msgid "Customize your cookie consent banner - content, layout, and visibility."
+msgstr "Προσαρμόστε το banner συγκατάθεσης cookie - περιεχόμενο, διάταξη και ορατότητα."
+
+#: build/admin.js:47
+msgid "Review Consent Logs"
+msgstr "Ανασκόπηση Αρχείων Συγκατάθεσης"
+
+#: build/admin.js:47
+msgid "See who has consented and when - useful for compliance audits."
+msgstr "Δείτε ποιος έχει δώσει συγκατάθεση και πότε - χρήσιμο για ελέγχους συμμόρφωσης."
+
+#: build/admin.js:47
+msgid "View Logs"
+msgstr "Προβολή Αρχείων"
+
+#: build/admin.js:47
+msgid "Publish Your Cookie Policy"
+msgstr "Δημοσίευση της Πολιτικής Cookie σας"
+
+#: build/admin.js:47
+msgid "Review and publish the cookie policy page on your site."
+msgstr "Ανασκόπηση και δημοσίευση της σελίδας πολιτικής cookie στον ιστότοπό σας."
+
+#: build/admin.js:47
+msgid "Review Page"
+msgstr "Σελίδα Ανασκόπησης"
+
+#: build/admin.js:47
+msgid "Generate a cookie policy page so visitors know how you handle their data."
+msgstr "Δημιουργήστε μια σελίδα πολιτικής cookies ώστε οι επισκέπτες να γνωρίζουν πώς χειρίζεστε τα δεδομένα τους."
+
+#: build/admin.js:47
+msgid "Create Page"
+msgstr "Δημιουργία Σελίδας"
+
+#: build/admin.js:47
+msgid "Get Started with SureCookie"
+msgstr "Ξεκινήστε με το SureCookie"
+
+#: build/admin.js:47
+msgid "Follow these steps to set up cookie consent on your site in minutes."
+msgstr "Ακολουθήστε αυτά τα βήματα για να ρυθμίσετε τη συγκατάθεση για τα cookies στον ιστότοπό σας σε λίγα λεπτά."
+
+#: build/admin.js:47
+msgid "See full documentation →"
+msgstr "Δείτε την πλήρη τεκμηρίωση →"
+
+#: build/admin.js:47
+msgid "Continue Learning"
+msgstr "Συνεχίστε τη Μάθηση"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:50
+#, js-format
+msgid "%1$d of %2$d setup steps complete."
+msgstr "%1$d από %2$d βήματα ρύθμισης ολοκληρώθηκαν."
+
+#: build/admin.js:50
+msgid "Open Learn"
+msgstr "Άνοιγμα Μάθησης"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "All cookies accepted."
+msgstr "Όλα τα cookies έγιναν αποδεκτά."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Non-essential cookies rejected."
+msgstr "Μη απαραίτητα cookies απορρίφθηκαν."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preferences saved successfully."
+msgstr "Οι προτιμήσεις αποθηκεύτηκαν με επιτυχία."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Close privacy preferences dialog"
+msgstr "Κλείσιμο διαλόγου προτιμήσεων απορρήτου"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Always Active"
+msgstr "Πάντα Ενεργό"
+
+#. translators: %s: cookie category name
+#: build/admin.js:52
+#: build/public.js:3
+#, js-format
+msgid "%s: always active, cannot be disabled"
+msgstr "%s: πάντα ενεργό, δεν μπορεί να απενεργοποιηθεί"
+
+#: build/admin.js:52
+#: build/public.js:3
+msgid "View Cookies"
+msgstr "Προβολή Cookies"
+
+#. translators: %s: cookie category name
+#: build/admin.js:53
+#: build/public.js:4
+#, js-format
+msgid "%s cookies details"
+msgstr "Λεπτομέρειες cookies %s"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Expiry"
+msgstr "Λήξη"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Reject All"
+msgstr "Απόρριψη Όλων"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Confirm My Choices"
+msgstr "Επιβεβαίωση Επιλογών Μου"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by SureCookie (opens in new tab)"
+msgstr "Υποστηρίζεται από το SureCookie (ανοίγει σε νέα καρτέλα)"
+
+#: inc/utils/localize-data.php:222
+#: build/admin.js:4
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by"
+msgstr "Υποστηρίζεται από"
+
+#: build/admin.js:53
+msgid "Buttons are for reference only in preview."
+msgstr "Τα κουμπιά είναι μόνο για αναφορά στην προεπισκόπηση."
+
+#: build/admin.js:53
+msgid "This is a preview"
+msgstr "Αυτή είναι μια προεπισκόπηση"
+
+#: build/admin.js:53
+msgid "Close preview"
+msgstr "Κλείσιμο προεπισκόπησης"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Complete"
+msgstr "Ολοκληρώθηκε"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Queued…"
+msgstr "Σε ουρά…"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Starting scan…"
+msgstr "Έναρξη σάρωσης…"
+
+#. translators: 1: current page index, 2: total pages
+#: build/admin.js:54
+#, js-format
+msgid "Scanning page %1$d of %2$d…"
+msgstr "Σάρωση σελίδας %1$d από %2$d…"
+
+#: build/admin.js:54
+msgid "Scanning pages…"
+msgstr "Σάρωση σελίδων…"
+
+#: build/admin.js:54
+msgid "Analyzing cookies…"
+msgstr "Ανάλυση cookies…"
+
+#: build/admin.js:54
+msgid "Finalizing…"
+msgstr "Ολοκλήρωση…"
+
+#: build/admin.js:54
+msgid "Scan failed"
+msgstr "Η σάρωση απέτυχε"
+
+#: build/admin.js:54
+msgid "In progress…"
+msgstr "Σε εξέλιξη…"
+
+#: build/admin.js:54
+msgid "Scan progress"
+msgstr "Πρόοδος σάρωσης"
+
+#. translators: 1: completed pages, 2: total pages
+#: build/admin.js:55
+#, js-format
+msgid "%1$d of %2$d pages scanned"
+msgstr "%1$d από %2$d σελίδες σαρώθηκαν"
+
+#: build/admin.js:55
+msgid "Preparing scan…"
+msgstr "Προετοιμασία σάρωσης…"
+
+#. translators: %s: estimated time remaining
+#: build/admin.js:56
+#, js-format
+msgid "· ~%s left"
+msgstr "· ~%s απομένουν"
+
+#: build/admin.js:56
+msgid "Scan Completed with Errors"
+msgstr "Η σάρωση ολοκληρώθηκε με σφάλματα"
+
+#. translators: %d: number of failed pages
+#: build/admin.js:57
+#, js-format
+msgid "%d page(s) could not be scanned. Check the logs for details."
+msgstr "%d σελίδα(ες) δεν μπόρεσαν να σαρωθούν. Ελέγξτε τα αρχεία καταγραφής για λεπτομέρειες."
+
+#: build/admin.js:57
+msgid "Scan Completed!"
+msgstr "Η σάρωση ολοκληρώθηκε!"
+
+#: build/admin.js:57
+msgid "Cookie scan has been completed successfully."
+msgstr "Η σάρωση των cookies ολοκληρώθηκε με επιτυχία."
+
+#: build/admin.js:57
+msgid "Could not copy logs automatically."
+msgstr "Δεν ήταν δυνατή η αυτόματη αντιγραφή των αρχείων καταγραφής."
+
+#: build/admin.js:57
+msgid "Logs copied to clipboard!"
+msgstr "Τα αρχεία καταγραφής αντιγράφηκαν στο πρόχειρο!"
+
+#: build/admin.js:57
+msgid "Latest Scanning Logs"
+msgstr "Τελευταία αρχεία καταγραφής σάρωσης"
+
+#: build/admin.js:57
+msgid "View logs from the most recent cookie scanning process."
+msgstr "Προβολή αρχείων καταγραφής από την πιο πρόσφατη διαδικασία σάρωσης cookies."
+
+#: build/admin.js:57
+msgid "Copied"
+msgstr "Αντιγράφηκε"
+
+#: build/admin.js:57
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: build/admin.js:57
+msgid "This field contains the scanning status results only."
+msgstr "Αυτό το πεδίο περιέχει μόνο τα αποτελέσματα κατάστασης της σάρωσης."
+
+#: build/admin.js:57
+msgid "Scan appears stuck"
+msgstr "Η σάρωση φαίνεται να έχει κολλήσει"
+
+#. translators: 1: completed pages, 2: total pages, 3: elapsed time
+#: build/admin.js:58
+#, js-format
+msgid "%1$d of %2$d pages scanned after %3$s with no recent progress."
+msgstr "%1$d από %2$d σελίδες σαρώθηκαν μετά από %3$s χωρίς πρόσφατη πρόοδο."
+
+#. translators: %s: elapsed time
+#: build/admin.js:59
+#, js-format
+msgid "No progress detected after %s."
+msgstr "Δεν ανιχνεύτηκε πρόοδος μετά από %s."
+
+#: build/admin.js:59
+#: build/admin.js:63
+msgid "Cancelling…"
+msgstr "Ακύρωση…"
+
+#: build/admin.js:59
+msgid "Cancel Scan"
+msgstr "Ακύρωση Σάρωσης"
+
+#: build/admin.js:59
+msgid "Copy Logs for Support"
+msgstr "Αντιγραφή Αρχείων Καταγραφής για Υποστήριξη"
+
+#: build/admin.js:60
+msgid "Your scan limit will reset tomorrow."
+msgstr "Το όριο σάρωσης θα επαναρυθμιστεί αύριο."
+
+#: build/admin.js:60
+msgid "The scan runs in the background - you can safely navigate away."
+msgstr "Η σάρωση εκτελείται στο παρασκήνιο - μπορείτε να μεταβείτε με ασφάλεια σε άλλη σελίδα."
+
+#: build/admin.js:60
+msgid "Make sure your site is publicly accessible (not behind basic auth or maintenance mode)."
+msgstr "Βεβαιωθείτε ότι ο ιστότοπός σας είναι δημόσια προσβάσιμος (όχι πίσω από βασική αυθεντικοποίηση ή λειτουργία συντήρησης)."
+
+#: build/admin.js:60
+msgid "Check if a firewall or security plugin is blocking external requests to your site."
+msgstr "Ελέγξτε αν ένα τείχος προστασίας ή πρόσθετο ασφαλείας μπλοκάρει εξωτερικά αιτήματα προς τον ιστότοπό σας."
+
+#: build/admin.js:60
+msgid "Pages with heavy JavaScript may take longer to scan. If scanning fails repeatedly, try fewer pages."
+msgstr "Οι σελίδες με έντονο JavaScript μπορεί να χρειαστούν περισσότερο χρόνο για σάρωση. Αν η σάρωση αποτυγχάνει επανειλημμένα, δοκιμάστε λιγότερες σελίδες."
+
+#: build/admin.js:60
+msgid "If issues persist, copy the logs and <a>contact our support team.</a>"
+msgstr "Αν τα προβλήματα συνεχιστούν, αντιγράψτε τα αρχεία καταγραφής και <a>επικοινωνήστε με την ομάδα υποστήριξής μας.</a>"
+
+#: build/admin.js:60
+msgid "contact our support team"
+msgstr "επικοινωνήστε με την ομάδα υποστήριξής μας"
+
+#: build/admin.js:63
+#: build/admin.js:78
+#: build/onboarding.js:7
+msgid "(no title)"
+msgstr "(χωρίς τίτλο)"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Failed to initiate scan"
+msgstr "Αποτυχία εκκίνησης σάρωσης"
+
+#. translators: 1: remaining scans, 2: total daily scans
+#: build/admin.js:68
+#: build/onboarding.js:12
+#, js-format
+msgid "You have %1$d of %2$d daily scans remaining"
+msgstr "Έχετε %1$d από %2$d ημερήσιες σαρώσεις διαθέσιμες"
+
+#. translators: %s: time until reset (e.g. "4h 22m")
+#: build/admin.js:69
+#: build/admin.js:71
+#, js-format
+msgid "Resets in %s"
+msgstr "Επαναφορά σε %s"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Limits refreshed."
+msgstr "Τα όρια ανανεώθηκαν."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Failed to refresh limits."
+msgstr "Αποτυχία ανανέωσης ορίων."
+
+#: build/admin.js:71
+msgid "Your session expired. Please reload to reconnect."
+msgstr "Η συνεδρία σας έληξε. Παρακαλώ φορτώστε ξανά για να επανασυνδεθείτε."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "We couldn't fetch your limits right now. Please try again in a moment."
+msgstr "Δεν μπορέσαμε να λάβουμε τα όριά σας αυτή τη στιγμή. Παρακαλώ δοκιμάστε ξανά σε λίγο."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refreshing…"
+msgstr "Ανανέωση…"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refresh limits"
+msgstr "Ανανέωση ορίων"
+
+#. translators: %d: maximum pages
+#: build/admin.js:61
+#: build/admin.js:73
+#: build/onboarding.js:5
+#: build/onboarding.js:14
+#, js-format
+msgid "You have selected more than %d pages"
+msgstr "Έχετε επιλέξει περισσότερες από %d σελίδες"
+
+#. translators: %d: maximum pages
+#: build/admin.js:65
+#: build/onboarding.js:9
+#, js-format
+msgid "Your plan supports scanning up to %d pages. Please remove extra pages to continue."
+msgstr "Το πλάνο σας υποστηρίζει σάρωση έως %d σελίδες. Παρακαλώ αφαιρέστε τις επιπλέον σελίδες για να συνεχίσετε."
+
+#: build/admin.js:73
+msgid "Daily Limit Reached"
+msgstr "Έχετε φτάσει το ημερήσιο όριο"
+
+#. translators: 1: scans used, 2: scan limit
+#: build/admin.js:74
+#, js-format
+msgid "You've used %1$d of %2$d daily scans. Your credits will refresh automatically tomorrow."
+msgstr "Έχετε χρησιμοποιήσει %1$d από %2$d ημερήσιες σαρώσεις. Τα credits σας θα ανανεωθούν αυτόματα αύριο."
+
+#: build/admin.js:74
+msgid "You've used all your scan credits for today. Your credits will refresh automatically tomorrow."
+msgstr "Έχετε χρησιμοποιήσει όλα τα credits σάρωσης για σήμερα. Τα credits σας θα ανανεωθούν αυτόματα αύριο."
+
+#: build/admin.js:74
+#: build/onboarding.js:14
+msgid "Scan Started!"
+msgstr "Η σάρωση ξεκίνησε!"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scanning…"
+msgstr "Σάρωση…"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Start Scan"
+msgstr "Έναρξη Σάρωσης"
+
+#: build/admin.js:63
+msgid "Cancel Stuck Scan"
+msgstr "Ακύρωση Εγκλωβισμένης Σάρωσης"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "WordPress Cron is Disabled"
+msgstr "Το WordPress Cron είναι απενεργοποιημένο"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "The WordPress cron system is not working on your site. Cookie scanning may not work as expected. Please enable WP-Cron or set up a server cron job to ensure proper functionality."
+msgstr "Το σύστημα cron του WordPress δεν λειτουργεί στον ιστότοπό σας. Η σάρωση cookies μπορεί να μην λειτουργεί όπως αναμένεται. Παρακαλώ ενεργοποιήστε το WP-Cron ή ρυθμίστε μια εργασία cron στον διακομιστή για να εξασφαλίσετε σωστή λειτουργία."
+
+#: build/admin.js:75
+msgid "Select"
+msgstr "Επιλογή"
+
+#: build/admin.js:75
+msgid "Configure how the \"Cookie Preferences\" button appears on your site, allowing users to update their consent at any time."
+msgstr "Ρυθμίστε πώς εμφανίζεται το κουμπί \"Προτιμήσεις Cookies\" στον ιστότοπό σας, επιτρέποντας στους χρήστες να ενημερώνουν τη συγκατάθεσή τους οποιαδήποτε στιγμή."
+
+#: build/admin.js:75
+msgid "No re-consent method active"
+msgstr "Δεν υπάρχει ενεργή μέθοδος επανασυγκατάθεσης"
+
+#: build/admin.js:75
+msgid "Visitors won't be able to update their cookie preferences unless you add a menu item or place the shortcode on a page. You can safely ignore this if the shortcode is already added."
+msgstr "Οι επισκέπτες δεν θα μπορούν να ενημερώσουν τις προτιμήσεις cookies εκτός αν προσθέσετε ένα στοιχείο μενού ή τοποθετήσετε το shortcode σε μια σελίδα. Μπορείτε να αγνοήσετε αυτό με ασφάλεια αν το shortcode έχει ήδη προστεθεί."
+
+#: build/admin.js:75
+msgid "Button Label"
+msgstr "Ετικέτα Κουμπιού"
+
+#: build/admin.js:75
+msgid "The label shown on the Cookie Preferences link."
+msgstr "Η ετικέτα που εμφανίζεται στον σύνδεσμο Προτιμήσεων Cookies."
+
+#: build/admin.js:75
+msgid "Menu Level"
+msgstr "Επίπεδο Μενού"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: build/admin.js:75
+msgid "Floating Widget"
+msgstr "Πλωτό Widget"
+
+#: build/admin.js:75
+msgid "Select a WordPress menu to automatically add the Cookie Preferences link to it. When clicked, it opens the consent preferences modal directly."
+msgstr "Επιλέξτε ένα μενού WordPress για να προσθέσετε αυτόματα τον σύνδεσμο Προτιμήσεων Cookies σε αυτό. Όταν κάνετε κλικ, ανοίγει απευθείας το παράθυρο προτιμήσεων συγκατάθεσης."
+
+#: build/admin.js:75
+msgid "No WordPress menus found."
+msgstr "Δεν βρέθηκαν μενού WordPress."
+
+#: build/admin.js:75
+msgid "Create a menu in Appearance > Menus."
+msgstr "Δημιουργήστε ένα μενού στο Εμφάνιση > Μενού."
+
+#: build/admin.js:75
+msgid "Select Menu"
+msgstr "Επιλογή Μενού"
+
+#: build/admin.js:75
+msgid "Use this shortcode to display the Cookie Preferences link anywhere on your site. When clicked, it opens the consent preferences modal directly."
+msgstr "Χρησιμοποιήστε αυτόν τον σύντομο κωδικό για να εμφανίσετε τον σύνδεσμο Προτιμήσεις Cookies οπουδήποτε στον ιστότοπό σας. Όταν κάνετε κλικ, ανοίγει απευθείας το παράθυρο προτιμήσεων συγκατάθεσης."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode Copied!"
+msgstr "Ο σύντομος κωδικός αντιγράφηκε!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Could not copy to clipboard. Please copy the shortcode manually."
+msgstr "Δεν ήταν δυνατή η αντιγραφή στο πρόχειρο. Παρακαλώ αντιγράψτε τον σύντομο κωδικό χειροκίνητα."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copied!"
+msgstr "Αντιγράφηκε!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copy shortcode"
+msgstr "Αντιγραφή σύντομου κωδικού"
+
+#: build/admin.js:75
+msgid "Enable Floating Widget"
+msgstr "Ενεργοποίηση Επιπλέουσας Εφαρμογής"
+
+#: build/admin.js:75
+msgid "to show a floating cookie preferences button on every page."
+msgstr "για να εμφανιστεί ένα επιπλέον κουμπί προτιμήσεων cookies σε κάθε σελίδα."
+
+#: build/admin.js:75
+msgid "Failed to deactivate plugin."
+msgstr "Αποτυχία απενεργοποίησης προσθήκης."
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected."
+msgstr "Εντοπίστηκαν Συγκρουόμενες Προσθήκες."
+
+#: build/admin.js:75
+msgid "It's recommended to deactivate them to avoid issues."
+msgstr "Συνιστάται να τις απενεργοποιήσετε για να αποφύγετε προβλήματα."
+
+#: build/admin.js:75
+msgid "Deactivate Plugin"
+msgstr "Απενεργοποίηση Προσθήκης"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected"
+msgstr "Εντοπίστηκαν Συγκρουόμενες Προσθήκες"
+
+#: build/admin.js:75
+msgid "The following plugins may conflict with SureCookie. It's recommended to deactivate them to avoid issues."
+msgstr "Οι παρακάτω προσθήκες μπορεί να συγκρούονται με το SureCookie. Συνιστάται να τις απενεργοποιήσετε για να αποφύγετε προβλήματα."
+
+#: build/admin.js:75
+msgid "Version:"
+msgstr "Έκδοση:"
+
+#: build/admin.js:75
+msgid "Deactivation successful. Reloading the page in 3 seconds."
+msgstr "Η απενεργοποίηση ήταν επιτυχής. Η σελίδα θα φορτώσει ξανά σε 3 δευτερόλεπτα."
+
+#: build/admin.js:75
+msgid "The plugin could not be deactivated. Please try again."
+msgstr "Η προσθήκη δεν μπόρεσε να απενεργοποιηθεί. Παρακαλώ δοκιμάστε ξανά."
+
+#: build/admin.js:75
+msgid "Deactivating…"
+msgstr "Απενεργοποίηση…"
+
+#: build/admin.js:75
+msgid "Deactivate"
+msgstr "Απενεργοποίηση"
+
+#: build/admin.js:75
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: build/admin.js:75
+msgid "Preview:"
+msgstr "Προεπισκόπηση:"
+
+#: build/admin.js:75
+msgid "ON"
+msgstr "ΕΝΕΡΓΟ"
+
+#: build/admin.js:75
+msgid "OFF"
+msgstr "ΑΝΕΝΕΡΓΟ"
+
+#: build/admin.js:75
+msgid "What's New?"
+msgstr "Τι νέο υπάρχει;"
+
+#: build/admin.js:75
+msgid "Free version"
+msgstr "Δωρεάν έκδοση"
+
+#: build/admin.js:76
+msgid "Knowledge Base"
+msgstr "Βάση Γνώσεων"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Analytics"
+msgstr "Αναλύσεις"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Marketing"
+msgstr "Μάρκετινγκ"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Functional"
+msgstr "Λειτουργικά"
+
+#: build/admin.js:76
+msgid "Resource"
+msgstr "Πόρος"
+
+#: build/admin.js:76
+msgid "Script"
+msgstr "Σενάριο"
+
+#: build/admin.js:76
+msgid "Iframe"
+msgstr "Iframe"
+
+#: build/admin.js:78
+msgid "Control where your cookie banner appears on your site."
+msgstr "Ελέγξτε πού εμφανίζεται το banner cookies στον ιστότοπό σας."
+
+#: build/admin.js:78
+msgid "Want More Control over Your Cookie Banner?"
+msgstr "Θέλετε Περισσότερο Έλεγχο στο Banner Cookies σας;"
+
+#: build/admin.js:78
+msgid "Upgrade to hide it on selected pages, posts, archives, or on specific user roles."
+msgstr "Αναβαθμίστε για να το αποκρύψετε σε επιλεγμένες σελίδες, αναρτήσεις, αρχεία ή σε συγκεκριμένους ρόλους χρηστών."
+
+#: build/admin.js:78
+msgid "The previously selected page no longer exists or could not be loaded."
+msgstr "Η προηγουμένως επιλεγμένη σελίδα δεν υπάρχει πλέον ή δεν μπόρεσε να φορτωθεί."
+
+#: build/admin.js:78
+msgid "The selected page is not published and will not appear to visitors."
+msgstr "Η επιλεγμένη σελίδα δεν έχει δημοσιευτεί και δεν θα εμφανίζεται στους επισκέπτες."
+
+#: build/admin.js:78
+msgid "Cookie Policy Page"
+msgstr "Σελίδα Πολιτικής Cookies"
+
+#: build/admin.js:78
+msgid "Clear selected page"
+msgstr "Καθαρισμός επιλεγμένης σελίδας"
+
+#: build/admin.js:78
+msgid "Select a Page"
+msgstr "Επιλογή Σελίδας"
+
+#: build/admin.js:78
+msgid "A link to this page will appear in the consent preferences modal footer."
+msgstr "Ένας σύνδεσμος σε αυτή τη σελίδα θα εμφανίζεται στο υποσέλιδο του παραθύρου προτιμήσεων συγκατάθεσης."
+
+#: build/admin.js:78
+msgid "Auto Generate"
+msgstr "Αυτόματη Δημιουργία"
+
+#: build/admin.js:78
+msgid "Automatically create a published Cookie Policy page containing a dynamically generated cookie table that always stays up to date."
+msgstr "Δημιουργήστε αυτόματα μια δημοσιευμένη σελίδα Πολιτικής Cookies που περιέχει έναν δυναμικά δημιουργούμενο πίνακα cookies που ενημερώνεται πάντα."
+
+#: build/admin.js:78
+msgid "Cookie Policy page created successfully!"
+msgstr "Η σελίδα Πολιτικής Cookies δημιουργήθηκε με επιτυχία!"
+
+#: build/admin.js:78
+msgid "Failed to generate page. Please try again."
+msgstr "Αποτυχία δημιουργίας σελίδας. Παρακαλώ δοκιμάστε ξανά."
+
+#: build/admin.js:78
+msgid "An error occurred while generating the page. Please try again."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη δημιουργία της σελίδας. Παρακαλώ δοκιμάστε ξανά."
+
+#: build/admin.js:78
+msgid "Page Already Linked"
+msgstr "Η σελίδα είναι ήδη συνδεδεμένη"
+
+#: build/admin.js:78
+msgid "Generate Cookie Policy Page"
+msgstr "Δημιουργία σελίδας Πολιτικής Cookies"
+
+#: build/admin.js:78
+msgid "Edit Page"
+msgstr "Επεξεργασία σελίδας"
+
+#: build/admin.js:78
+msgid "View Page"
+msgstr "Προβολή σελίδας"
+
+#: build/admin.js:78
+msgid "Use this shortcode to display the cookie policy with a dynamically generated cookie table on any page or post. The table always reflects the latest scanned and custom cookies."
+msgstr "Χρησιμοποιήστε αυτό το shortcode για να εμφανίσετε την πολιτική cookies με έναν δυναμικά δημιουργημένο πίνακα cookies σε οποιαδήποτε σελίδα ή ανάρτηση. Ο πίνακας αντικατοπτρίζει πάντα τα πιο πρόσφατα σαρωμένα και προσαρμοσμένα cookies."
+
+#: build/admin.js:83
+msgid "Please enter at least one region code"
+msgstr "Παρακαλώ εισάγετε τουλάχιστον έναν κωδικό περιοχής"
+
+#: build/admin.js:83
+msgid "Invalid region code format. Use ISO 3166 codes like EU, US, US-CA, or GB."
+msgstr "Μη έγκυρη μορφή κωδικού περιοχής. Χρησιμοποιήστε κωδικούς ISO 3166 όπως EU, US, US-CA ή GB."
+
+#: build/admin.js:83
+msgid "EU/EEA (GDPR)"
+msgstr "ΕΕ/ΕΟΧ (GDPR)"
+
+#: build/admin.js:83
+msgid "California (CCPA)"
+msgstr "Καλιφόρνια (CCPA)"
+
+#: build/admin.js:83
+msgid "United Kingdom"
+msgstr "Ηνωμένο Βασίλειο"
+
+#: build/admin.js:83
+msgid "Brazil (LGPD)"
+msgstr "Βραζιλία (LGPD)"
+
+#: build/admin.js:83
+msgid "Edit Regional Rule"
+msgstr "Επεξεργασία Περιφερειακού Κανόνα"
+
+#: build/admin.js:83
+msgid "Add Regional Rule"
+msgstr "Προσθήκη Περιφερειακού Κανόνα"
+
+#: build/admin.js:83
+msgid "Set default consent state for visitors from this region. Google uses the most specific match."
+msgstr "Ορίστε την προεπιλεγμένη κατάσταση συγκατάθεσης για επισκέπτες από αυτήν την περιοχή. Η Google χρησιμοποιεί την πιο συγκεκριμένη αντιστοιχία."
+
+#: build/admin.js:83
+msgid "Add Rule"
+msgstr "Προσθήκη Κανόνα"
+
+#: build/admin.js:83
+msgid "Quick Presets"
+msgstr "Γρήγορες Προεπιλογές"
+
+#: build/admin.js:83
+msgid "Apply preset:"
+msgstr "Εφαρμογή προεπιλογής:"
+
+#: build/admin.js:83
+msgid "Region Codes"
+msgstr "Κωδικοί Περιοχών"
+
+#: build/admin.js:83
+msgid "Comma-separated ISO 3166 codes: EU, US, US-CA, GB, BR, etc."
+msgstr "Κωδικοί ISO 3166 διαχωρισμένοι με κόμμα: EU, US, US-CA, GB, BR, κ.λπ."
+
+#: build/admin.js:83
+msgid "Default Consent State"
+msgstr "Προεπιλεγμένη Κατάσταση Συγκατάθεσης"
+
+#: build/admin.js:83
+msgid "Choose which categories are granted by default for visitors from this region before they interact with the banner."
+msgstr "Επιλέξτε ποιες κατηγορίες χορηγούνται από προεπιλογή για επισκέπτες από αυτήν την περιοχή πριν αλληλεπιδράσουν με το banner."
+
+#: build/admin.js:83
+msgid "Functional Storage"
+msgstr "Λειτουργική Αποθήκευση"
+
+#: build/admin.js:83
+msgid "Enables storage for site functionality like preferences and language."
+msgstr "Ενεργοποιεί την αποθήκευση για λειτουργίες ιστότοπου όπως προτιμήσεις και γλώσσα."
+
+#: build/admin.js:83
+msgid "Functional storage default"
+msgstr "Προεπιλεγμένη λειτουργική αποθήκευση"
+
+#: build/admin.js:83
+msgid "Analytics Storage"
+msgstr "Αποθήκευση Αναλύσεων"
+
+#: build/admin.js:83
+msgid "Enables storage for analytics purposes like visit duration and page views."
+msgstr "Ενεργοποιεί την αποθήκευση για σκοπούς αναλύσεων όπως διάρκεια επίσκεψης και προβολές σελίδας."
+
+#: build/admin.js:83
+msgid "Analytics storage default"
+msgstr "Προεπιλεγμένη αποθήκευση αναλύσεων"
+
+#: build/admin.js:83
+msgid "Marketing / Ads Storage"
+msgstr "Αποθήκευση Μάρκετινγκ / Διαφημίσεων"
+
+#: build/admin.js:83
+msgid "Enables storage for advertising purposes including ad personalization and user data."
+msgstr "Ενεργοποιεί την αποθήκευση για διαφημιστικούς σκοπούς, συμπεριλαμβανομένης της εξατομίκευσης διαφημίσεων και δεδομένων χρήστη."
+
+#: build/admin.js:83
+msgid "Marketing storage default"
+msgstr "Προεπιλεγμένη αποθήκευση μάρκετινγκ"
+
+#: build/admin.js:83
+msgid "Essential cookies (security_storage) are always granted. These defaults apply before the visitor interacts with the consent banner."
+msgstr "Τα απαραίτητα cookies (security_storage) χορηγούνται πάντα. Αυτές οι προεπιλογές εφαρμόζονται πριν ο επισκέπτης αλληλεπιδράσει με το banner συγκατάθεσης."
+
+#: build/admin.js:83
+msgid "Granted"
+msgstr "Χορηγήθηκε"
+
+#: build/admin.js:83
+msgid "Denied"
+msgstr "Αρνήθηκε"
+
+#: build/admin.js:83
+msgid "Active Regional Rules"
+msgstr "Ενεργοί Περιφερειακοί Κανόνες"
+
+#: build/admin.js:83
+msgid "Set different default consent states per region. Google uses the most specific match (e.g., US-CA overrides US)."
+msgstr "Ορίστε διαφορετικές προεπιλεγμένες καταστάσεις συγκατάθεσης ανά περιοχή. Η Google χρησιμοποιεί την πιο συγκεκριμένη αντιστοιχία (π.χ., US-CA υπερισχύει του US)."
+
+#: build/admin.js:83
+msgid "Edit rule for"
+msgstr "Επεξεργασία κανόνα για"
+
+#: build/admin.js:83
+msgid "Delete rule for"
+msgstr "Διαγραφή κανόνα για"
+
+#: build/admin.js:83
+msgid "No regional rules configured. The global default (deny all except essential) applies to all visitors."
+msgstr "Δεν έχουν ρυθμιστεί περιφερειακοί κανόνες. Η παγκόσμια προεπιλογή (απόρριψη όλων εκτός των απαραίτητων) εφαρμόζεται σε όλους τους επισκέπτες."
+
+#. translators: %s: comma-separated duplicate region codes
+#: build/admin.js:84
+#, js-format
+msgid "These region codes already exist in another rule: %s"
+msgstr "Αυτοί οι κωδικοί περιοχής υπάρχουν ήδη σε άλλο κανόνα: %s"
+
+#: build/admin.js:84
+msgid "Delete Regional Rule"
+msgstr "Διαγραφή Περιφερειακού Κανόνα"
+
+#: build/admin.js:84
+msgid "Are you sure you want to delete this regional consent rule? Visitors from this region will use the global default."
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον περιφερειακό κανόνα συγκατάθεσης; Οι επισκέπτες από αυτήν την περιοχή θα χρησιμοποιούν την παγκόσμια προεπιλογή."
+
+#: build/admin.js:84
+msgid "Google Consent Mode v2"
+msgstr "Λειτουργία Συγκατάθεσης Google v2"
+
+#: build/admin.js:84
+msgid "Automatically communicate user consent preferences to Google services."
+msgstr "Αυτόματη επικοινωνία των προτιμήσεων συγκατάθεσης χρήστη στις υπηρεσίες της Google."
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode Switch"
+msgstr "Ενεργοποίηση Διακόπτη Λειτουργίας Συγκατάθεσης Google"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode"
+msgstr "Ενεργοποίηση Λειτουργίας Συγκατάθεσης Google"
+
+#: build/admin.js:84
+msgid "Supported services: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, and DV360"
+msgstr "Υποστηριζόμενες υπηρεσίες: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight και DV360"
+
+#: build/admin.js:84
+msgid "Wait Time (milliseconds)"
+msgstr "Χρόνος αναμονής (χιλιοστά του δευτερολέπτου)"
+
+#: build/admin.js:84
+msgid "How long Google services wait for consent before making requests. Default: 500ms. Range: 0–2000ms."
+msgstr "Πόσο καιρό περιμένουν οι υπηρεσίες της Google για τη συγκατάθεση πριν κάνουν αιτήματα. Προεπιλογή: 500ms. Εύρος: 0–2000ms."
+
+#: build/admin.js:84
+msgid "Mandatory for EU/EEA as of March 2024"
+msgstr "Υποχρεωτικό για ΕΕ/ΕΟΧ από Μάρτιο 2024"
+
+#: build/admin.js:84
+msgid "Google now requires Consent Mode v2 for all websites using Google services in the European Economic Area."
+msgstr "Η Google απαιτεί πλέον το Consent Mode v2 για όλες τις ιστοσελίδες που χρησιμοποιούν υπηρεσίες Google στον Ευρωπαϊκό Οικονομικό Χώρο."
+
+#: build/admin.js:84
+msgid "Learn more about Google Consent Mode v2 →"
+msgstr "Μάθετε περισσότερα για το Google Consent Mode v2 →"
+
+#: build/admin.js:84
+msgid "Where should the banner appear?"
+msgstr "Πού πρέπει να εμφανίζεται το banner;"
+
+#: build/admin.js:84
+msgid "Choose where the banner is shown. Visitors outside selected regions will not see it."
+msgstr "Επιλέξτε πού θα εμφανίζεται το banner. Οι επισκέπτες εκτός των επιλεγμένων περιοχών δεν θα το βλέπουν."
+
+#: build/admin.js:84
+msgid "Show to all visitors worldwide"
+msgstr "Εμφάνιση σε όλους τους επισκέπτες παγκοσμίως"
+
+#: build/admin.js:84
+msgid "Use the same experience for everyone, regardless of location."
+msgstr "Χρησιμοποιήστε την ίδια εμπειρία για όλους, ανεξαρτήτως τοποθεσίας."
+
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/admin.js:78
+#: build/admin.js:84
+msgid "Pro"
+msgstr "Pro"
+
+#: build/admin.js:84
+msgid "Show only where required by law"
+msgstr "Εμφάνιση μόνο όπου απαιτείται από το νόμο"
+
+#: build/admin.js:84
+msgid "Target specific regions with tailored consent experiences."
+msgstr "Στοχεύστε συγκεκριμένες περιοχές με προσαρμοσμένες εμπειρίες συγκατάθεσης."
+
+#: build/admin.js:84
+msgid "Mode: Show to all visitors worldwide"
+msgstr "Λειτουργία: Εμφάνιση σε όλους τους επισκέπτες παγκοσμίως"
+
+#: build/admin.js:84
+msgid "Your existing banner settings apply to all visitors. No geographic targeting is active."
+msgstr "Οι υπάρχουσες ρυθμίσεις banner ισχύουν για όλους τους επισκέπτες. Δεν υπάρχει ενεργή γεωγραφική στόχευση."
+
+#: build/admin.js:84
+msgid "Unlock Regional Targeting"
+msgstr "Ξεκλειδώστε τη Γεωγραφική Στόχευση"
+
+#: build/admin.js:84
+msgid "Show banner only in selected regions, create custom regional rules, and control fallback behavior."
+msgstr "Εμφανίστε το banner μόνο σε επιλεγμένες περιοχές, δημιουργήστε προσαρμοστικούς περιφερειακούς κανόνες και ελέγξτε τη συμπεριφορά εφεδρείας."
+
+#: build/admin.js:84
+msgid "Location detection uses GeoLite2 data by MaxMind, available from <link>https://www.maxmind.com</link>."
+msgstr "Η ανίχνευση τοποθεσίας χρησιμοποιεί δεδομένα GeoLite2 από τη MaxMind, διαθέσιμα στο <link>https://www.maxmind.com</link>."
+
+#: build/admin.js:87
+msgid "IAB Transparency & Consent Framework"
+msgstr "Πλαίσιο Διαφάνειας & Συγκατάθεσης IAB"
+
+#: build/admin.js:87
+msgid "Make your consent banner compliant with IAB TCF 2.3 and integrate with the Global Vendor List."
+msgstr "Κάντε το banner συγκατάθεσής σας συμβατό με το IAB TCF 2.3 και ενσωματώστε το με τη Global Vendor List."
+
+#: build/admin.js:87
+msgid "Unlock IAB TCF 2.3 Compliance - Coming Soon"
+msgstr "Ξεκλειδώστε τη Συμμόρφωση με IAB TCF 2.3 - Έρχεται σύντομα"
+
+#: build/admin.js:87
+msgid "Enable full TCF mode, generate TC strings, and display the IAB vendor list to your visitors."
+msgstr "Ενεργοποιήστε πλήρη λειτουργία TCF, δημιουργήστε συμβολοσειρές TC και εμφανίστε τη λίστα προμηθευτών IAB στους επισκέπτες σας."
+
+#: build/admin.js:87
+msgid "Google Additional Consent (AC)"
+msgstr "Πρόσθετη Συγκατάθεση Google (AC)"
+
+#: build/admin.js:87
+msgid "Add Google Additional Consent alongside IAB TCF to handle ad-tech vendors not on the IAB Global Vendor List."
+msgstr "Προσθέστε την Πρόσθετη Συγκατάθεση Google παράλληλα με το IAB TCF για να διαχειριστείτε προμηθευτές διαφημιστικής τεχνολογίας που δεν βρίσκονται στη Global Vendor List του IAB."
+
+#: build/admin.js:87
+msgid "Unlock Google Additional Consent - Coming Soon"
+msgstr "Ξεκλειδώστε την Πρόσθετη Συγκατάθεση Google - Έρχεται σύντομα"
+
+#: build/admin.js:87
+msgid "Generate the AC string, mirror the addtl_consent cookie, and display Google's Additional Consent provider list to your visitors - required for full Google Ads / GAM monetization."
+msgstr "Δημιουργήστε τη συμβολοσειρά AC, καθρεφτίστε το cookie addtl_consent και εμφανίστε τη λίστα παρόχων Πρόσθετης Συγκατάθεσης της Google στους επισκέπτες σας - απαιτείται για πλήρη κερδοφορία Google Ads / GAM."
+
+#: build/onboarding.js:1
+msgid "Failed to get authentication payload"
+msgstr "Αποτυχία λήψης φορτίου πιστοποίησης"
+
+#: build/onboarding.js:1
+msgid "An error occurred while connecting"
+msgstr "Παρουσιάστηκε σφάλμα κατά τη σύνδεση"
+
+#: build/onboarding.js:6
+msgid "First name is required"
+msgstr "Το όνομα είναι υποχρεωτικό"
+
+#: build/onboarding.js:6
+msgid "Email address is required"
+msgstr "Η διεύθυνση email είναι υποχρεωτική"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid email address"
+msgstr "Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email"
+
+#: build/onboarding.js:6
+msgid "Classify cookies automatically"
+msgstr "Αυτόματη ταξινόμηση cookies"
+
+#: build/onboarding.js:6
+msgid "Get smart compliance recommendations"
+msgstr "Λάβετε έξυπνες προτάσεις συμμόρφωσης"
+
+#: build/onboarding.js:6
+msgid "Generate privacy-compliant descriptions"
+msgstr "Δημιουργήστε περιγραφές συμβατές με την ιδιωτικότητα"
+
+#: build/onboarding.js:6
+msgid "Welcome to SureCookie"
+msgstr "Καλώς ήρθατε στο SureCookie"
+
+#: build/onboarding.js:6
+msgid "Privacy compliance made effortless 🍪"
+msgstr "Η συμμόρφωση με την ιδιωτικότητα γίνεται εύκολη 🍪"
+
+#: build/onboarding.js:6
+msgid "Connect Your Account"
+msgstr "Συνδέστε τον Λογαριασμό σας"
+
+#: build/onboarding.js:6
+msgid "Connect your SureCookie account to automatically classify cookies, generate compliant descriptions, and get smart recommendations for your privacy needs."
+msgstr "Συνδέστε τον λογαριασμό σας στο SureCookie για να ταξινομήσετε αυτόματα τα cookies, να δημιουργήσετε συμμορφωμένες περιγραφές και να λάβετε έξυπνες προτάσεις για τις ανάγκες ιδιωτικότητάς σας."
+
+#: build/onboarding.js:6
+msgid "Here's what you can do:"
+msgstr "Αυτά μπορείτε να κάνετε:"
+
+#: build/onboarding.js:6
+msgid "List of capabilities"
+msgstr "Λίστα δυνατοτήτων"
+
+#: build/onboarding.js:6
+msgid "Connected to SureCookie"
+msgstr "Συνδεδεμένο με SureCookie"
+
+#: build/admin.js:40
+#: build/onboarding.js:7
+#: build/onboarding.js:14
+msgid "Back"
+msgstr "Πίσω"
+
+#: build/onboarding.js:6
+msgid "Next"
+msgstr "Επόμενο"
+
+#: build/onboarding.js:6
+#: build/onboarding.js:14
+msgid "Skip"
+msgstr "Παράλειψη"
+
+#: build/onboarding.js:6
+msgid "Connecting…"
+msgstr "Σύνδεση…"
+
+#: build/onboarding.js:6
+msgid "Connect"
+msgstr "Σύνδεση"
+
+#: build/onboarding.js:11
+msgid "Run a Quick Privacy Scan"
+msgstr "Εκτελέστε Γρήγορο Έλεγχο Ιδιωτικότητας"
+
+#: build/onboarding.js:11
+msgid "SureCookie will scan your website, detect all cookies, and categorize them automatically.<br/> This helps you stay compliant without spending hours identifying scripts manually."
+msgstr "Το SureCookie θα σαρώσει τον ιστότοπό σας, θα εντοπίσει όλα τα cookies και θα τα κατηγοριοποιήσει αυτόματα.<br/> Αυτό σας βοηθά να παραμείνετε συμμορφωμένοι χωρίς να ξοδεύετε ώρες εντοπίζοντας χειροκίνητα τα σενάρια."
+
+#: build/onboarding.js:11
+msgid "Account not connected"
+msgstr "Ο λογαριασμός δεν είναι συνδεδεμένος"
+
+#: build/onboarding.js:11
+msgid "Please <a>go back</a> and connect your SureCookie account to enable cookie scanning."
+msgstr "Παρακαλώ <a>επιστρέψτε</a> και συνδέστε τον λογαριασμό σας SureCookie για να ενεργοποιήσετε τη σάρωση cookies."
+
+#: build/onboarding.js:12
+msgid "Your session expired. Please reconnect to continue."
+msgstr "Η συνεδρία σας έληξε. Παρακαλώ συνδεθείτε ξανά για να συνεχίσετε."
+
+#: build/onboarding.js:14
+msgid "Connect Required"
+msgstr "Απαιτείται Σύνδεση"
+
+#: build/onboarding.js:14
+msgid "Please connect your account to get free scanning credits."
+msgstr "Παρακαλώ συνδέστε τον λογαριασμό σας για να λάβετε δωρεάν πιστώσεις σάρωσης."
+
+#: build/onboarding.js:14
+msgid "SureCookie is scanning your pages for cookies. This may take a few minutes."
+msgstr "Το SureCookie σαρώσει τις σελίδες σας για cookies. Αυτό μπορεί να διαρκέσει λίγα λεπτά."
+
+#: build/onboarding.js:14
+msgid "Okay, just one last step…"
+msgstr "Εντάξει, μόνο ένα τελευταίο βήμα…"
+
+#: build/onboarding.js:14
+msgid "Help us tailor your SureCookie experience by sharing a bit about yourself:"
+msgstr "Βοηθήστε μας να προσαρμόσουμε την εμπειρία σας στο SureCookie μοιράζοντας λίγα πράγματα για εσάς:"
+
+#: build/onboarding.js:14
+msgid "First Name"
+msgstr "Όνομα"
+
+#: build/onboarding.js:14
+msgid "Enter your first name"
+msgstr "Εισάγετε το όνομά σας"
+
+#: build/onboarding.js:14
+msgid "Last Name"
+msgstr "Επώνυμο"
+
+#: build/onboarding.js:14
+msgid "Enter your last name"
+msgstr "Εισάγετε το επώνυμό σας"
+
+#: build/onboarding.js:14
+msgid "Email Address"
+msgstr "Διεύθυνση Email"
+
+#: build/onboarding.js:14
+msgid "Enter your email address"
+msgstr "Εισάγετε τη διεύθυνση email σας"
+
+#: build/onboarding.js:14
+msgid "Finish"
+msgstr "Ολοκλήρωση"
+
+#: build/onboarding.js:14
+msgid "Block non-essential cookies and trackers until explicit consent"
+msgstr "Αποκλείστε μη απαραίτητα cookies και ιχνηλάτες μέχρι να δοθεί ρητή συγκατάθεση"
+
+#: build/onboarding.js:14
+msgid "Auto-discover common services, categorize them, and preconfigure safe rules"
+msgstr "Αυτόματη ανίχνευση κοινών υπηρεσιών, κατηγοριοποίησή τους και προδιαμόρφωση ασφαλών κανόνων"
+
+#: build/onboarding.js:14
+msgid "You're all set. Let's go live 🚀"
+msgstr "Είστε έτοιμοι. Ας ξεκινήσουμε 🚀"
+
+#: build/onboarding.js:14
+msgid "From consent logs to region-based preferences, SureCookie helps you stay compliant while building visitor trust."
+msgstr "Από τα αρχεία συγκατάθεσης μέχρι τις προτιμήσεις βάσει περιοχής, το SureCookie σας βοηθά να παραμείνετε συμμορφωμένοι ενώ χτίζετε εμπιστοσύνη στους επισκέπτες."
+
+#: build/onboarding.js:14
+msgid "Here's what SureCookie will do for you now:"
+msgstr "Αυτά θα κάνει τώρα το SureCookie για εσάς:"
+
+#: build/onboarding.js:14
+msgid "SureCookie Features"
+msgstr "Χαρακτηριστικά SureCookie"
+
+#: build/onboarding.js:6
+msgid "Exit Setup"
+msgstr "Έξοδος από τη ρύθμιση"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "This website uses cookies to enhance your browsing experience, personalize content, provide social media features, and analyze our traffic. You can review and manage your cookie settings at any time, or accept all cookies to proceed."
+msgstr "Αυτή η ιστοσελίδα χρησιμοποιεί cookies για να βελτιώσει την περιήγησή σας, να προσωποποιήσει το περιεχόμενο, να παρέχει λειτουργίες κοινωνικών μέσων και να αναλύσει την επισκεψιμότητά μας. Μπορείτε να ελέγξετε και να διαχειριστείτε τις ρυθμίσεις των cookies σας οποιαδήποτε στιγμή ή να αποδεχτείτε όλα τα cookies για να προχωρήσετε."
+
+#: build/public.js:4
+msgid "Cookie Consent"
+msgstr "Συναίνεση για τα Cookies"
+
+#: build/public.js:4
+msgid "Banner logo"
+msgstr "Λογότυπο πανό"
+
+#: build/public.js:4
+msgid "Decline all non-essential cookies"
+msgstr "Απόρριψη όλων των μη απαραίτητων cookies"
+
+#: build/public.js:4
+msgid "Manage cookie preferences"
+msgstr "Διαχείριση προτιμήσεων cookies"
+
+#: build/public.js:4
+msgid "Accept only essential cookies"
+msgstr "Αποδοχή μόνο των απαραίτητων cookies"
+
+#: build/public.js:4
+msgid "Accept all cookies"
+msgstr "Αποδοχή όλων των cookies"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Consent Forwarding"
+msgstr "Προώθηση Συγκατάθεσης"
+
+#: build/admin.js:2
+msgid "Want custom brand colors?"
+msgstr "Θέλετε προσαρμοσμένα χρώματα μάρκας;"
+
+#: build/admin.js:3
+#: build/admin.js:4
+msgid "Received from"
+msgstr "Λήφθηκε από"
+
+#: build/admin.js:3
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Received"
+msgstr "Λήφθηκε"
+
+#. translators: %d: number of sites
+#: build/admin.js:4
+#, js-format
+msgid "Shared to %d site(s)"
+msgstr "Κοινοποιήθηκε σε %d ιστό(ο/ους)"
+
+#: build/admin.js:4
+msgid "Consent not received for"
+msgstr "Δεν ελήφθη συγκατάθεση για"
+
+#: build/admin.js:4
+msgid "These categories exist only on this site and were not part of the forwarded consent. The visitor will be prompted to set their preferences for these when they visit this site directly."
+msgstr "Αυτές οι κατηγορίες υπάρχουν μόνο σε αυτόν τον ιστότοπο και δεν ήταν μέρος της προωθημένης συγκατάθεσης. Ο επισκέπτης θα κληθεί να ορίσει τις προτιμήσεις του για αυτές όταν επισκεφθεί απευθείας αυτόν τον ιστότοπο."
+
+#: build/admin.js:4
+msgid "More information about these categories"
+msgstr "Περισσότερες πληροφορίες για αυτές τις κατηγορίες"
+
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Shared"
+msgstr "Κοινοποιήθηκε"
+
+#: build/admin.js:4
+msgid "Shared to"
+msgstr "Κοινοποιήθηκε σε"
+
+#: build/admin.js:4
+msgid "Consent Session ID"
+msgstr "ID Συνεδρίας Συγκατάθεσης"
+
+#: build/admin.js:4
+msgid "Localhost"
+msgstr "Τοπικός διακομιστής"
+
+#: build/admin.js:6
+msgid "Consent log export upgrade"
+msgstr "Αναβάθμιση εξαγωγής αρχείου καταγραφής συγκατάθεσης"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preference sections"
+msgstr "Ενότητες προτιμήσεων"
+
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Cookies"
+msgstr "Cookies"
+
+#. translators: %d: number of partner sites
+#: build/admin.js:51
+#: build/public.js:2
+#, js-format
+msgid "%d connected site(s)"
+msgstr "%d συνδεδεμένος ιστότοπος"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Sites that will receive your consent"
+msgstr "Ιστότοποι που θα λάβουν τη συγκατάθεσή σας"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "No partner sites configured."
+msgstr "Δεν έχουν ρυθμιστεί συνεργαζόμενοι ιστότοποι."
+
+#: build/admin.js:53
+msgid "Cookie Notice"
+msgstr "Ειδοποίηση Cookies"
+
+#: build/admin.js:84
+msgid "Automatically sync cookie consent across multiple domains and forward consent choices to connected services, without asking visitors to consent again."
+msgstr "Συγχρονίστε αυτόματα τη συγκατάθεση cookies σε πολλαπλούς τομείς και προωθήστε τις επιλογές συγκατάθεσης σε συνδεδεμένες υπηρεσίες, χωρίς να ζητείται ξανά συγκατάθεση από τους επισκέπτες."
+
+#: inc/modules/mcp/server.php:100
+msgid "SureCookie MCP Server"
+msgstr "Διακομιστής SureCookie MCP"
+
+#: inc/modules/mcp/server.php:101
+msgid "SureCookie MCP Server for cookie consent settings, consent logs, cookie management, and site scanning workflows."
+msgstr "Διακομιστής SureCookie MCP για ρυθμίσεις συγκατάθεσης cookie, αρχεία καταγραφής συγκατάθεσης, διαχείριση cookie και ροές εργασίας σάρωσης ιστότοπου."
+
+#. translators: %s: navigation group label
+#: build/admin.js:2
+#, js-format
+msgid "%s submenu"
+msgstr "%s υπομενού"
+
+#: build/admin.js:2
+msgid "General"
+msgstr "Γενικά"
+
+#: build/admin.js:2
+msgid "Consent & Data"
+msgstr "Συγκατάθεση & Δεδομένα"
+
+#: build/admin.js:2
+msgid "Consent Frameworks"
+msgstr "Πλαίσια Συγκατάθεσης"
+
+#: build/admin.js:2
+msgid "IAB-TCF"
+msgstr "IAB-TCF"
+
+#: build/admin.js:2
+msgid "Enter text"
+msgstr "Εισαγάγετε κείμενο"
+
+#: build/admin.js:2
+msgid "Enter Banner Message"
+msgstr "Εισαγάγετε μήνυμα banner"
+
+#: build/admin.js:2
+msgid "Control how long consent stays valid and how consent records are stored."
+msgstr "Ελέγξτε πόσο διαρκεί η ισχύς της συγκατάθεσης και πώς αποθηκεύονται τα αρχεία καταγραφής συγκατάθεσης."
+
+#: build/admin.js:4
+msgid "N/A"
+msgstr "Μη διαθέσιμο"
+
+#. translators: %d: number of partner sites that received the forwarded consent.
+#: build/admin.js:15
+#, js-format
+msgid "This consent was shared with %d connected site. Deleting it here will also erase the copy from that site (GDPR Art. 17)."
+msgid_plural "This consent was shared with %d connected sites. Deleting it here will also erase the copies from those sites (GDPR Art. 17)."
+msgstr[0] "Αυτή η συγκατάθεση κοινοποιήθηκε σε %d συνδεδεμένο ιστότοπο. Η διαγραφή της εδώ θα διαγράψει επίσης το αντίγραφο από εκείνον τον ιστότοπο (GDPR Άρθρο 17)."
+msgstr[1] "Αυτή η συγκατάθεση κοινοποιήθηκε σε %d συνδεδεμένους ιστότοπους. Η διαγραφή της εδώ θα διαγράψει επίσης τα αντίγραφα από εκείνους τους ιστότοπους (GDPR Άρθρο 17)."
+
+#. translators: %d: number of selected logs that were forwarded to partner sites.
+#: build/admin.js:21
+#, js-format
+msgid "%d of these logs was shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgid_plural "%d of these logs were shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgstr[0] "%d από αυτά τα αρχεία καταγραφής κοινοποιήθηκε σε συνδεδεμένους συνεργαζόμενους ιστότοπους. Η διαγραφή θα διαγράψει επίσης αυτό το προωθημένο αντίγραφο (GDPR Άρθρο 17)."
+msgstr[1] "%d από αυτά τα αρχεία καταγραφής κοινοποιήθηκαν σε συνδεδεμένους συνεργαζόμενους ιστότοπους. Η διαγραφή θα διαγράψει επίσης αυτά τα προωθημένα αντίγραφα (GDPR Άρθρο 17)."
+
+#: build/admin.js:53
+msgid "Admin and plugin preferences for SureCookie."
+msgstr "Προτιμήσεις διαχειριστή και προσθηκών για το SureCookie."
+
+#: build/admin.js:53
+msgid "SureCookie Admin Menu"
+msgstr "Μενού Διαχειριστή SureCookie"
+
+#: build/admin.js:53
+msgid "Toggle to show SureCookie in the main menu or under Settings → SureCookie."
+msgstr "Εναλλαγή για εμφάνιση του SureCookie στο κύριο μενού ή κάτω από Ρυθμίσεις → SureCookie."
+
+#: build/admin.js:84
+msgid "Connect Your AI Client"
+msgstr "Συνδέστε τον πελάτη AI σας"
+
+#: build/admin.js:84
+msgid "Create an Application Password"
+msgstr "Δημιουργία κωδικού εφαρμογής"
+
+#: build/admin.js:84
+msgid "Open Application Passwords"
+msgstr "Άνοιγμα κωδικών εφαρμογής"
+
+#: build/admin.js:84
+msgid "Add to your AI client:"
+msgstr "Προσθέστε στον πελάτη AI σας:"
+
+#: build/admin.js:84
+msgid "Learn more about the WordPress MCP Adapter"
+msgstr "Μάθετε περισσότερα για τον προσαρμογέα MCP του WordPress"
+
+#: build/admin.js:84
+msgid "Claude Code"
+msgstr "Claude Code"
+
+#: build/admin.js:84
+msgid "Claude Desktop"
+msgstr "Claude Desktop"
+
+#: build/admin.js:84
+msgid "Cursor"
+msgstr "Cursor"
+
+#: build/admin.js:84
+msgid "VS Code"
+msgstr "VS Code"
+
+#: build/admin.js:84
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+#: build/admin.js:84
+msgid "go to Settings → Connectors → Add Connector, paste the endpoint URL, and use your WordPress username + Application Password."
+msgstr "Μεταβείτε στις Ρυθμίσεις → Συνδέσεις → Προσθήκη σύνδεσης, επικολλήστε το URL του τερματικού σημείου και χρησιμοποιήστε το όνομα χρήστη WordPress + Κωδικό Εφαρμογής."
+
+#: build/admin.js:84
+msgid "Learn more about ChatGPT connectors"
+msgstr "Μάθετε περισσότερα για τους συνδέσμους ChatGPT"
+
+#: build/admin.js:84
+msgid "SureCookie Only"
+msgstr "Μόνο SureCookie"
+
+#: build/admin.js:84
+msgid "Global"
+msgstr "Παγκόσμιο"
+
+#: build/admin.js:84
+msgid "Copy setup prompt for AI client"
+msgstr "Αντιγραφή προτροπής ρύθμισης για πελάτη AI"
+
+#: build/admin.js:84
+msgid "Prompt copied! Paste it into your AI client."
+msgstr "Η προτροπή αντιγράφηκε! Επικολλήστε την στον πελάτη AI σας."
+
+#: build/admin.js:84
+msgid "Failed to copy prompt to clipboard"
+msgstr "Αποτυχία αντιγραφής της προτροπής στο πρόχειρο"
+
+#: build/admin.js:84
+msgid "Copy JSON config"
+msgstr "Αντιγραφή ρύθμισης JSON"
+
+#: build/admin.js:84
+msgid "Copied to clipboard"
+msgstr "Αντιγράφηκε στο πρόχειρο"
+
+#: build/admin.js:84
+msgid "Failed to copy to clipboard"
+msgstr "Αποτυχία αντιγραφής στο πρόχειρο"
+
+#: build/admin.js:84
+msgid "MCP Adapter plugin not detected"
+msgstr "Το πρόσθετο MCP Adapter δεν ανιχνεύθηκε"
+
+#. translators: %s: WP MCP Adapter plugin name.
+#: build/admin.js:87
+#, js-format
+msgid "To connect AI clients to your site, the %s plugin is required. Download the latest release from GitHub, upload it via Plugins > Add New > Upload Plugin, and activate."
+msgstr "Για να συνδέσετε πελάτες AI στον ιστότοπό σας, απαιτείται το πρόσθετο %s. Κατεβάστε την τελευταία έκδοση από το GitHub, ανεβάστε το μέσω Προσθέτων > Προσθήκη νέου > Ανέβασμα προσθέτου και ενεργοποιήστε το."
+
+#: build/admin.js:87
+msgid "Download from GitHub"
+msgstr "Λήψη από το GitHub"
+
+#: build/admin.js:2
+#: build/admin.js:87
+msgid "MCP"
+msgstr "MCP"
+
+#: build/admin.js:87
+msgid "Configure AI client access to SureCookie through the Model Context Protocol."
+msgstr "Διαμορφώστε την πρόσβαση πελάτη AI στο SureCookie μέσω του Πρωτοκόλλου Πλαισίου Μοντέλου."
+
+#: build/admin.js:87
+msgid "Enable MCP"
+msgstr "Ενεργοποίηση MCP"
+
+#: build/admin.js:87
+msgid "Allow AI clients like Claude, ChatGPT, and Cursor to manage your cookie banner, scanner, and consent settings through SureCookie. When disabled, no abilities are registered and AI clients cannot connect."
+msgstr "Επιτρέψτε σε πελάτες AI όπως Claude, ChatGPT και Cursor να διαχειρίζονται το banner cookie, το σαρωτή και τις ρυθμίσεις συγκατάθεσης μέσω του SureCookie. Όταν είναι απενεργοποιημένο, δεν καταγράφονται ικανότητες και οι πελάτες AI δεν μπορούν να συνδεθούν."
+
+#: build/admin.js:87
+msgid "WordPress Abilities API not available"
+msgstr "Το API ικανοτήτων του WordPress δεν είναι διαθέσιμο"
+
+#: build/admin.js:87
+msgid "MCP requires the WordPress Abilities API (WordPress 6.9 or later). Update WordPress to use this feature."
+msgstr "Το MCP απαιτεί το API Δυνατοτήτων του WordPress (WordPress 6.9 ή νεότερο). Ενημερώστε το WordPress για να χρησιμοποιήσετε αυτή τη λειτουργία."
+
+#: build/admin.js:87
+msgid "Unsaved changes"
+msgstr "Μη αποθηκευμένες αλλαγές"
+
+#: build/admin.js:87
+msgid "The MCP endpoint becomes active only after you save your settings."
+msgstr "Το σημείο τερματισμού MCP ενεργοποιείται μόνο αφού αποθηκεύσετε τις ρυθμίσεις σας."
+
+#: inc/api/consent-logs.php:404
+msgid "Unable to determine the current user."
+msgstr "Αδυναμία προσδιορισμού του τρέχοντος χρήστη."
+
+#: inc/api/consent-logs.php:415
+msgid "Consent logs marked as viewed."
+msgstr "Τα αρχεία καταγραφής συγκατάθεσης σημειώθηκαν ως προβεβλημένα."
+
+#: inc/api/plugin.php:214
+msgid "This plugin is network-activated and must be deactivated by a Network Administrator from Network Admin > Plugins."
+msgstr "Αυτό το πρόσθετο είναι ενεργοποιημένο στο δίκτυο και πρέπει να απενεργοποιηθεί από Διαχειριστή Δικτύου μέσω Διαχείριση Δικτύου > Πρόσθετα."
+
+#: inc/api/plugin.php:225
+msgid "Plugin could not be deactivated."
+msgstr "Δεν ήταν δυνατή η απενεργοποίηση του πρόσθετου."
+
+#: inc/modules/automatic-scanning/api.php:118
+msgid "Enable Automatic Scanning before running a scan."
+msgstr "Ενεργοποιήστε την Αυτόματη Σάρωση πριν εκτελέσετε μια σάρωση."
+
+#: inc/modules/automatic-scanning/api.php:122
+msgid "A scan is already in progress."
+msgstr "Μια σάρωση είναι ήδη σε εξέλιξη."
+
+#: inc/modules/automatic-scanning/api.php:128
+msgid "Could not start the scan. Please try again."
+msgstr "Δεν ήταν δυνατή η έναρξη της σάρωσης. Παρακαλώ δοκιμάστε ξανά."
+
+#: inc/modules/automatic-scanning/api.php:131
+msgid "Scan triggered."
+msgstr "Η σάρωση ενεργοποιήθηκε."
+
+#: inc/modules/automatic-scanning/runner.php:100
+msgid "Automatic scan deferred: daily page budget reached. Retrying in ~24 hours."
+msgstr "Η αυτόματη σάρωση αναβλήθηκε: επιτεύχθηκε το ημερήσιο όριο σελίδων. Επαναδοκιμή σε ~24 ώρες."
+
+#: inc/modules/automatic-scanning/runner.php:124
+msgid "Automatic scan skipped: a scan is already in progress."
+msgstr "Η αυτόματη σάρωση παραλείφθηκε: μια σάρωση είναι ήδη σε εξέλιξη."
+
+#: inc/modules/automatic-scanning/runner.php:142
+msgid "Starting automatic (scheduled) scan."
+msgstr "Έναρξη αυτόματης (προγραμματισμένης) σάρωσης."
+
+#: inc/modules/automatic-scanning/scheduler.php:85
+msgid "Once Monthly (SureCookie)"
+msgstr "Μία φορά το μήνα (SureCookie)"
+
+#: inc/modules/automatic-scanning/scheduler.php:92
+msgid "Once Weekly (SureCookie)"
+msgstr "Μία φορά την εβδομάδα (SureCookie)"
+
+#: inc/modules/script-blocking/blocker.php:1279
+msgid "This content is currently blocked."
+msgstr "Αυτό το περιεχόμενο είναι αυτή τη στιγμή αποκλεισμένο."
+
+#: inc/modules/site-scanner/saas-client.php:519
+msgid "Scan deferred by server: daily page budget reached. It will retry automatically."
+msgstr "Η σάρωση αναβλήθηκε από τον διακομιστή: επιτεύχθηκε το ημερήσιο όριο σελίδων. Θα επαναδοκιμάσει αυτόματα."
+
+#: inc/modules/site-scanner/saas-client.php:524
+msgid "Daily page budget reached. The scheduled scan will retry automatically."
+msgstr "Επιτεύχθηκε το ημερήσιο όριο σελίδων. Η προγραμματισμένη σάρωση θα επαναδοκιμάσει αυτόματα."
+
+#: build/admin.js:2
+#: build/admin.js:79
+msgid "Manual"
+msgstr "Χειροκίνητο"
+
+#: build/admin.js:2
+msgid "Automatic"
+msgstr "Αυτόματο"
+
+#: build/admin.js:2
+msgid "Reset to default"
+msgstr "Επαναφορά στις προεπιλογές"
+
+#: build/admin.js:2
+msgid "Enable Background Overlay"
+msgstr "Ενεργοποίηση Επικάλυψης Φόντου"
+
+#: build/admin.js:2
+msgid "Background Overlay"
+msgstr "Επικάλυψη Φόντου"
+
+#: build/admin.js:2
+msgid "Dim the page behind the banner and limit interaction until the visitor accepts or declines. The overlay is removed after a choice is made."
+msgstr "Θολώστε τη σελίδα πίσω από το banner και περιορίστε την αλληλεπίδραση μέχρι ο επισκέπτης να αποδεχτεί ή να απορρίψει. Η επικάλυψη αφαιρείται μετά την επιλογή."
+
+#: build/admin.js:2
+msgid "This layout highlights the consent banner and may affect user experience. Ensure it aligns with your regional consent requirements."
+msgstr "Αυτή η διάταξη τονίζει το banner συγκατάθεσης και μπορεί να επηρεάσει την εμπειρία χρήστη. Βεβαιωθείτε ότι συμμορφώνεται με τις τοπικές απαιτήσεις συγκατάθεσης."
+
+#: build/admin.js:2
+#: build/admin.js:3
+msgid "Re-request Consent"
+msgstr "Επαναζήτηση Συγκατάθεσης"
+
+#. translators: %s: date/time of the last renewal.
+#: build/admin.js:3
+#, js-format
+msgid "Last Requested: %s"
+msgstr "Τελευταία Ζήτηση: %s"
+
+#: build/admin.js:3
+msgid "Ask all visitors to provide consent again. Use this after updating your cookie policy or adding new trackers. Existing consent will be marked as outdated, and the banner will reappear on the next visit."
+msgstr "Ζητήστε από όλους τους επισκέπτες να παράσχουν ξανά συγκατάθεση. Χρησιμοποιήστε το μετά από ενημέρωση της πολιτικής cookies ή προσθήκη νέων ιχνηλατών. Η υπάρχουσα συγκατάθεση θα θεωρηθεί παρωχημένη και το banner θα εμφανιστεί ξανά στην επόμενη επίσκεψη."
+
+#: build/admin.js:3
+msgid "Consent requested. Visitors will be asked for consent again."
+msgstr "Ζητήθηκε συγκατάθεση. Οι επισκέπτες θα ερωτηθούν ξανά για συγκατάθεση."
+
+#: build/admin.js:3
+msgid "Could not Re-request Consent. Please try again."
+msgstr "Δεν ήταν δυνατή η επαναζήτηση συγκατάθεσης. Παρακαλώ δοκιμάστε ξανά."
+
+#: build/admin.js:3
+msgid "Renewing…"
+msgstr "Ανανέωση…"
+
+#: build/admin.js:3
+msgid "Confirm Re-request"
+msgstr "Επιβεβαίωση Επαναζήτησης"
+
+#: build/admin.js:22
+#: build/onboarding.js:2
+msgid "New"
+msgstr "Νέο"
+
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Automatic Scanning"
+msgstr "Αυτόματη Σάρωση"
+
+#: build/admin.js:43
+msgid "Manage"
+msgstr "Διαχείριση"
+
+#: build/admin.js:43
+msgid "Since the last scan:"
+msgstr "Από την τελευταία σάρωση:"
+
+#: build/admin.js:43
+msgid "new cookie"
+msgid_plural "new cookies"
+msgstr[0] "νέο cookie"
+msgstr[1] "νέα cookies"
+
+#: build/admin.js:43
+msgid "removed"
+msgstr "αφαιρέθηκε"
+
+#: build/admin.js:43
+msgid "new tracker domain"
+msgid_plural "new tracker domains"
+msgstr[0] "νέος τομέας ιχνηλατών"
+msgstr[1] "νέοι τομείς ιχνηλατών"
+
+#: build/admin.js:43
+msgid "No scans yet. Schedule automatic scans to track changes over time."
+msgstr "Δεν έχουν γίνει σαρώσεις ακόμα. Προγραμματίστε αυτόματες σαρώσεις για να παρακολουθείτε τις αλλαγές με την πάροδο του χρόνου."
+
+#. translators: %s: next scan date
+#: build/admin.js:44
+#, js-format
+msgid "Next scan: %s"
+msgstr "Επόμενη σάρωση: %s"
+
+#: build/admin.js:44
+msgid "Scheduling is off"
+msgstr "Ο προγραμματισμός είναι απενεργοποιημένος"
+
+#: build/admin.js:75
+msgid "Network-activated"
+msgstr "Ενεργοποιημένο στο δίκτυο"
+
+#: build/admin.js:75
+msgid "Manage in Network Admin"
+msgstr "Διαχείριση στη Διαχείριση Δικτύου"
+
+#: build/admin.js:76
+msgid "Google Consent Mode is enabled, so SureCookie allows Google's Consent Mode scripts to function correctly. As a result, this script cannot be blocked."
+msgstr "Η λειτουργία συγκατάθεσης της Google είναι ενεργοποιημένη, οπότε το SureCookie επιτρέπει τη σωστή λειτουργία των σεναρίων λειτουργίας συγκατάθεσης της Google. Ως εκ τούτου, αυτό το σενάριο δεν μπορεί να αποκλειστεί."
+
+#: build/admin.js:78
+msgid "Necessary"
+msgstr "Απαραίτητο"
+
+#: build/admin.js:78
+msgid "What Changed in the Last Scan"
+msgstr "Τι άλλαξε στην τελευταία σάρωση"
+
+#: build/admin.js:78
+msgid "Cookies and tracker domains that changed compared to the previous scan."
+msgstr "Cookies και τομείς ιχνηλατών που άλλαξαν σε σύγκριση με την προηγούμενη σάρωση."
+
+#: build/admin.js:78
+msgid "No differences were detected compared to the previous scan."
+msgstr "Δεν εντοπίστηκαν διαφορές σε σύγκριση με την προηγούμενη σάρωση."
+
+#: build/admin.js:78
+msgid "New Cookies"
+msgstr "Νέα Cookies"
+
+#: build/admin.js:78
+msgid "No Longer Detected"
+msgstr "Δεν ανιχνεύονται πλέον"
+
+#: build/admin.js:78
+msgid "Recategorized"
+msgstr "Επανακατηγοριοποιήθηκαν"
+
+#: build/admin.js:78
+msgid "New Tracker Domains"
+msgstr "Νέοι τομείς ιχνηλατών"
+
+#: build/admin.js:78
+msgid "Third-party"
+msgstr "Τρίτων"
+
+#: build/admin.js:78
+msgid "Monthly"
+msgstr "Μηνιαία"
+
+#: build/admin.js:78
+msgid "Re-scan your site once a month."
+msgstr "Επανασάρωση του ιστότοπού σας μία φορά το μήνα."
+
+#: build/admin.js:78
+msgid "Weekly"
+msgstr "Εβδομαδιαία"
+
+#: build/admin.js:78
+msgid "Re-scan every week for faster drift detection."
+msgstr "Επανασάρωση κάθε εβδομάδα για ταχύτερη ανίχνευση αλλαγών."
+
+#: build/admin.js:78
+msgid "All Published Content"
+msgstr "Όλο το δημοσιευμένο περιεχόμενο"
+
+#: build/admin.js:78
+msgid "Enable Automatic Scanning"
+msgstr "Ενεργοποίηση αυτόματης σάρωσης"
+
+#: build/admin.js:78
+msgid "Run scheduled scans in the background and detect changes automatically."
+msgstr "Εκτέλεση προγραμματισμένων σαρώσεων στο παρασκήνιο και αυτόματη ανίχνευση αλλαγών."
+
+#: build/admin.js:78
+msgid "Scan Frequency"
+msgstr "Συχνότητα σάρωσης"
+
+#: build/admin.js:78
+msgid "WordPress cron is disabled"
+msgstr "Το cron του WordPress είναι απενεργοποιημένο"
+
+#: build/admin.js:78
+msgid "Scheduled scans rely on cron. Ask your host to set up a real server cron job so automatic scans run on time."
+msgstr "Οι προγραμματισμένες σαρώσεις βασίζονται στο cron. Ζητήστε από τον πάροχό σας να ρυθμίσει μια πραγματική εργασία cron στον διακομιστή ώστε οι αυτόματες σαρώσεις να εκτελούνται στην ώρα τους."
+
+#: build/admin.js:78
+msgid "Last Scan"
+msgstr "Τελευταία σάρωση"
+
+#. translators: %s: last scan date-time
+#: build/admin.js:79
+#, js-format
+msgid "Scanned on %s"
+msgstr "Σαρώθηκε στις %s"
+
+#: build/admin.js:79
+msgid "Scheduled"
+msgstr "Προγραμματισμένη"
+
+#. translators: %d: number of new cookies
+#: build/admin.js:80
+#, js-format
+msgid "%d New Cookies"
+msgstr "%d Νέα Cookies"
+
+#. translators: %d: number of cookies no longer detected
+#: build/admin.js:81
+#, js-format
+msgid "%d Removed"
+msgstr "%d Αφαιρέθηκαν"
+
+#. translators: %d: number of recategorized cookies
+#: build/admin.js:82
+#, js-format
+msgid "%d Recategorized"
+msgstr "%d Επανακατηγοριοποιήθηκαν"
+
+#. translators: %d: number of new tracker domains
+#: build/admin.js:83
+#, js-format
+msgid "%d New Tracker Domains"
+msgstr "%d Νέοι τομείς ιχνηλατών"
+
+#: build/admin.js:83
+msgid "View Changes"
+msgstr "Προβολή αλλαγών"
+
+#: build/admin.js:83
+msgid "No scans yet - run your first scan to start monitoring changes."
+msgstr "Δεν έχουν γίνει σαρώσεις ακόμα - εκτελέστε την πρώτη σας σάρωση για να ξεκινήσετε την παρακολούθηση αλλαγών."
+
+#: build/admin.js:83
+msgid "Stay Compliant Automatically"
+msgstr "Μείνετε συμμορφωμένοι αυτόματα"
+
+#: build/admin.js:83
+msgid "Get weekly scans, instant alerts, smart classification, and automatic protection from new trackers."
+msgstr "Λάβετε εβδομαδιαίες σαρώσεις, άμεσες ειδοποιήσεις, έξυπνη ταξινόμηση και αυτόματη προστασία από νέους ιχνηλάτες."
+
+#. translators: %d: maximum pages
+#: build/onboarding.js:11
+#, js-format
+msgid "SureCookie agent will visit them like real users to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "Ο πράκτορας SureCookie θα τις επισκεφθεί σαν πραγματικοί χρήστες για να ανιχνεύσει όλα τα cookies που χρησιμοποιούνται. Επιτρέπονται %d σελίδες ανά σάρωση λόγω περιορισμών πόρων."
+
+#. translators: 1: remaining pages, 2: total daily page budget
+#: build/admin.js:70
+#, js-format
+msgid "%1$d of %2$d daily pages remaining on this site"
+msgstr "%1$d από %2$d ημερήσιες σελίδες απομένουν σε αυτόν τον ιστότοπο"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "<p>By scanning you accept our <a>terms and conditions</a>.</p>"
+msgstr "<p>Με τη σάρωση αποδέχεστε τους <a>όρους και προϋποθέσεις</a> μας.</p>"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Terms and Conditions"
+msgstr "Όροι και Προϋποθέσεις"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Cookie Scanning Not Available on Local Sites"
+msgstr "Η σάρωση cookies δεν είναι διαθέσιμη σε τοπικούς ιστότοπους"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "This site is running on a local or development environment that our cloud scanner cannot reach. Cookie scanning will be available once your site is live on a publicly accessible domain."
+msgstr "Αυτός ο ιστότοπος λειτουργεί σε τοπικό ή περιβάλλον ανάπτυξης που ο σαρωτής cloud μας δεν μπορεί να προσεγγίσει. Η σάρωση cookies θα είναι διαθέσιμη μόλις ο ιστότοπός σας είναι ζωντανός σε δημόσια προσβάσιμο domain."
+
+#: build/onboarding.js:14
+msgid "Skip for Now"
+msgstr "Παράλειψη προς το παρόν"
+
+#: build/onboarding.js:14
+msgid "Stay in the loop and help shape SureCookie! Get feature updates, and help us build a better SureCookie by sharing how you use the plugin. <a>Terms and Conditions</a>"
+msgstr "Μείνετε ενημερωμένοι και βοηθήστε να διαμορφώσουμε το SureCookie! Λάβετε ενημερώσεις χαρακτηριστικών και βοηθήστε μας να δημιουργήσουμε ένα καλύτερο SureCookie μοιράζοντας πώς χρησιμοποιείτε το πρόσθετο. <a>Όροι και Προϋποθέσεις</a>"
+
+#: admin/product-promotion.php:104
+msgid "Grow traffic of your website with SureRank - a lightweight SEO toolkit plugin for WordPress users who want better rankings without the complexity."
+msgstr "Αυξήστε την επισκεψιμότητα του ιστότοπού σας με το SureRank - ένα ελαφρύ πρόσθετο εργαλείων SEO για χρήστες WordPress που θέλουν καλύτερες κατατάξεις χωρίς πολυπλοκότητα."
+
+#: admin/rating-notice.php:232
+msgid "Amazing! SureCookie discovered cookies on your site - let's keep growing together!"
+msgstr "Καταπληκτικά! Το SureCookie εντόπισε cookies στον ιστότοπό σας - ας συνεχίσουμε να αναπτυσσόμαστε μαζί!"
+
+#. translators: 1: page URL, 2: error message
+#: inc/modules/site-scanner/saas-client.php:989
+#, php-format
+msgid "Page failed: %1$s - %2$s"
+msgstr "Η σελίδα απέτυχε: %1$s - %2$s"
+
+#: build/admin.js:43
+msgid "WP-Cron disabled - scans won’t run automatically"
+msgstr "Το WP-Cron είναι απενεργοποιημένο - οι σαρώσεις δεν θα εκτελούνται αυτόματα"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Consider Plan Upgrade"
+msgstr "Εξετάστε την Αναβάθμιση Πλάνου"
+
+#. translators: 1: pages scanned, 2: pages submitted
+#: build/admin.js:75
+#, js-format
+msgid "Scanned %1$d of %2$d pages - your daily page budget is used up. The remaining pages will scan after it resets."
+msgstr "Σαρώθηκαν %1$d από %2$d σελίδες - το ημερήσιο όριο σελίδων σας έχει εξαντληθεί. Οι υπόλοιπες σελίδες θα σαρωθούν μετά την επαναφορά του."
+
+#: build/admin.js:84
+msgid "Update the environment variables"
+msgstr "Ενημερώστε τις μεταβλητές περιβάλλοντος"
+
+#: build/admin.js:84
+msgid "WP_API_USERNAME"
+msgstr "WP_API_USERNAME"
+
+#: build/admin.js:84
+msgid "Your WordPress username (prefilled)."
+msgstr "Το όνομα χρήστη WordPress σας (προσυμπληρωμένο)."
+
+#: build/admin.js:84
+msgid "WP_API_PASSWORD"
+msgstr "WP_API_PASSWORD"
+
+#: build/admin.js:84
+msgid "Replace \"your-application-password\" with the password from Step 1."
+msgstr "Αντικαταστήστε το \"your-application-password\" με τον κωδικό από το Βήμα 1."
+
+#: build/admin.js:84
+msgid "Verify Node.js version"
+msgstr "Επαληθεύστε την έκδοση του Node.js"
+
+#: build/admin.js:84
+msgid "In your terminal, run:"
+msgstr "Στο τερματικό σας, εκτελέστε:"
+
+#: build/admin.js:84
+msgid "The version must be 20.1 or higher."
+msgstr "Η έκδοση πρέπει να είναι 20.1 ή νεότερη."
+
+#: build/admin.js:84
+msgid "If it is lower, run:"
+msgstr "Αν είναι παλαιότερη, εκτελέστε:"
+
+#: build/admin.js:84
+msgid "Restart your AI client and paste the copied prompt again into your AI client."
+msgstr "Επανεκκινήστε τον πελάτη AI σας και επικολλήστε ξανά την αντιγραμμένη προτροπή στον πελάτη AI σας."
+
+#: build/admin.js:84
+msgid "Enjoy your AI client connected to your WordPress site!"
+msgstr "Απολαύστε τον πελάτη AI σας συνδεδεμένο με τον ιστότοπό σας WordPress!"
+
+#: admin/rating-notice.php:156
+msgid "Invalid nonce."
+msgstr "Μη έγκυρο nonce."
+
+#: admin/rating-notice.php:158
+msgid "Unauthorized user."
+msgstr "Μη εξουσιοδοτημένος χρήστης."
+
+#: admin/rating-notice.php:171
+msgid "Invalid parameters."
+msgstr "Μη έγκυρες παράμετροι."
+
+#: build/admin.js:47
+msgid "More scan limits, geographic targeting, re-consent widget, and more."
+msgstr "Περισσότερα όρια σάρωσης, γεωγραφικός στόχος, widget επανέγκρισης και άλλα."
+
+#: inc/integrations/presto-player/block-handler.php:293
+msgid "This audio is blocked until you accept cookies to load it."
+msgstr "Αυτός ο ήχος είναι αποκλεισμένος μέχρι να αποδεχτείτε τα cookies για να τον φορτώσετε."
+
+#: inc/integrations/presto-player/block-handler.php:297
+msgid "This video is blocked until you accept cookies to load it."
+msgstr "Αυτό το βίντεο είναι αποκλεισμένο μέχρι να αποδεχτείτε τα cookies για να το φορτώσετε."
+
+#: build/admin.js:2
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: build/admin.js:2
+msgid "You've used all available AI requests in your Free Plan. Upgrade to SureCookie premium to keep using AI features."
+msgstr "Έχετε χρησιμοποιήσει όλα τα διαθέσιμα αιτήματα AI στο Δωρεάν Πρόγραμμά σας. Αναβαθμίστε στο SureCookie premium για να συνεχίσετε να χρησιμοποιείτε τις λειτουργίες AI."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to access this feature."
+msgstr "Αναβαθμίστε στο SureCookie premium για να αποκτήσετε πρόσβαση σε αυτή τη λειτουργία."
+
+#: build/admin.js:2
+msgid "Is this button order not showing on the frontend?"
+msgstr "Αυτή η σειρά κουμπιών δεν εμφανίζεται στο frontend;"
+
+#: build/admin.js:2
+msgid "Visitors who match a region-specific rule will see the button order defined for that region. This global order is shown only to visitors who don't match any regional rules."
+msgstr "Οι επισκέπτες που ταιριάζουν με έναν κανόνα συγκεκριμένης περιοχής θα δουν τη σειρά κουμπιών που ορίζεται για αυτήν την περιοχή. Αυτή η παγκόσμια σειρά εμφανίζεται μόνο σε επισκέπτες που δεν ταιριάζουν με κανέναν περιφερειακό κανόνα."
+
+#: build/admin.js:2
+msgid "Manage Geo Rules"
+msgstr "Διαχείριση Γεωγραφικών Κανόνων"
+
+#: build/admin.js:2
+msgid "You can add links and basic formatting like bold/italic/link to the banner message."
+msgstr "Μπορείτε να προσθέσετε συνδέσμους και βασική μορφοποίηση όπως έντονα/πλάγια/σύνδεσμο στο μήνυμα του banner."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to pick custom primary, secondary, foreground, and background colors for your banner."
+msgstr "Αναβαθμίστε στο SureCookie premium για να επιλέξετε προσαρμοσμένα πρωτεύοντα, δευτερεύοντα, προσκήνια και φόντο χρώματα για το banner σας."
+
+#: build/admin.js:6
+msgid "Export Consent Logs"
+msgstr "Εξαγωγή Αρχείων Συγκατάθεσης"
+
+#: build/admin.js:6
+msgid "Upgrade to premium to download CSV report for legal audits and GDPR Article 7 documentation."
+msgstr "Αναβαθμίστε σε premium για να κατεβάσετε αναφορά CSV για νομικούς ελέγχους και τεκμηρίωση Άρθρου 7 GDPR."
+
+#: build/admin.js:44
+msgid "Grab the Launch Offer"
+msgstr "Επωφεληθείτε από την Προσφορά Εκκίνησης"
+
+#: build/admin.js:47
+msgid "Do More with SureCookie Premium"
+msgstr "Κάντε Περισσότερα με το SureCookie Premium"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Checking your scan limits…"
+msgstr "Έλεγχος ορίων σάρωσης…"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Run your first scan to connect this site with SureCookie. Your plan's full scan limits unlock automatically once the connection is established."
+msgstr "Κάντε την πρώτη σας σάρωση για να συνδέσετε αυτόν τον ιστότοπο με το SureCookie. Τα πλήρη όρια σάρωσης του προγράμματός σας ξεκλειδώνουν αυτόματα μόλις γίνει η σύνδεση."
+
+#. translators: %d: maximum pages
+#: build/admin.js:67
+#, js-format
+msgid "We'll visit the selected content to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "Θα επισκεφθούμε το επιλεγμένο περιεχόμενο για να εντοπίσουμε όλα τα cookies που χρησιμοποιούνται. Επιτρέπονται %d σελίδες ανά σάρωση λόγω περιορισμών πόρων."
+
+#. translators: %d: maximum items
+#: build/admin.js:72
+#: build/onboarding.js:13
+#, js-format
+msgid "Select up to %d items to scan…"
+msgstr "Επιλέξτε έως %d αντικείμενα για σάρωση…"
+
+#: build/admin.js:72
+#: build/onboarding.js:13
+msgid "Select Content"
+msgstr "Επιλογή Περιεχομένου"
+
+#: build/admin.js:73
+#: build/onboarding.js:14
+msgid "Select the content you want to scan."
+msgstr "Επιλέξτε το περιεχόμενο που θέλετε να σαρώσετε."
+
+#: build/admin.js:74
+msgid "Scanning your content for cookies. This may take a few minutes."
+msgstr "Σάρωση του περιεχομένου σας για cookies. Αυτό μπορεί να πάρει μερικά λεπτά."
+
+#: build/admin.js:75
+msgid "Unlock Geo Rules, Advanced Scanning & more with Pro - Grab the launching offer!"
+msgstr "Ξεκλειδώστε Γεωγραφικούς Κανόνες, Προηγμένη Σάρωση & άλλα με το Pro - Επωφεληθείτε από την προσφορά εκκίνησης!"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Claim the Deal"
+msgstr "Αξιοποιήστε την Προσφορά"
+
+#: build/admin.js:78
+msgid "Content from Manual Scan"
+msgstr "Περιεχόμενο από Χειροκίνητη Σάρωση"
+
+#: build/admin.js:78
+msgid "Reuse the content selected on the Cookie Scanner."
+msgstr "Επαναχρησιμοποιήστε το περιεχόμενο που επιλέχθηκε στο Cookie Scanner."
+
+#: build/admin.js:78
+msgid "Scan all published content, as per plan limit."
+msgstr "Σαρώστε όλο το δημοσιευμένο περιεχόμενο, σύμφωνα με το όριο του προγράμματος."
+
+#: build/admin.js:78
+msgid "Selected Content"
+msgstr "Επιλεγμένο Περιεχόμενο"
+
+#: build/admin.js:78
+msgid "Choose specific content to scan below."
+msgstr "Επιλέξτε συγκεκριμένο περιεχόμενο για σάρωση παρακάτω."
+
+#: build/admin.js:78
+msgid "Content to Scan"
+msgstr "Περιεχόμενο για Σάρωση"
+
+#: build/admin.js:78
+msgid "Select content to scan…"
+msgstr "Επιλέξτε περιεχόμενο για σάρωση…"
+
+#: build/onboarding.js:6
+msgid "Launch Offer - Save Big"
+msgstr "Προσφορά Εκκίνησης - Μεγάλες Εκπτώσεις"
+
+#: build/onboarding.js:6
+msgid "Limited Time"
+msgstr "Περιορισμένος Χρόνος"
+
+#: build/onboarding.js:6
+msgid "Upgrade to Premium and unlock advanced scanning, geo rules, custom branding, and priority support."
+msgstr "Αναβαθμίστε σε Premium και ξεκλειδώστε προηγμένη σάρωση, γεωγραφικούς κανόνες, προσαρμοσμένη επωνυμία και προτεραιότητα υποστήριξης."
+
+#: build/onboarding.js:6
+msgid "Failed to activate license. Please try again."
+msgstr "Η ενεργοποίηση της άδειας απέτυχε. Παρακαλώ δοκιμάστε ξανά."
+
+#: build/onboarding.js:6
+msgid "License Activated!"
+msgstr "Άδεια Ενεργοποιήθηκε!"
+
+#: build/onboarding.js:6
+msgid "Your license has been successfully activated."
+msgstr "Η άδειά σας ενεργοποιήθηκε με επιτυχία."
+
+#: build/onboarding.js:6
+msgid "Activation Failed"
+msgstr "Η ενεργοποίηση απέτυχε"
+
+#: build/onboarding.js:6
+msgid "An error occurred during activation. Please try again."
+msgstr "Παρουσιάστηκε σφάλμα κατά την ενεργοποίηση. Παρακαλώ δοκιμάστε ξανά."
+
+#: build/onboarding.js:6
+msgid "Invalid License Key"
+msgstr "Μη έγκυρο κλειδί άδειας"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid license key."
+msgstr "Παρακαλώ εισάγετε ένα έγκυρο κλειδί άδειας."
+
+#: build/onboarding.js:6
+msgid "Activate Your License"
+msgstr "Ενεργοποιήστε την άδειά σας"
+
+#: build/onboarding.js:6
+msgid "Activate your SureCookie license to unlock higher scan limits, automatically classify cookies, and get smart compliance recommendations."
+msgstr "Ενεργοποιήστε την άδεια SureCookie για να ξεκλειδώσετε υψηλότερα όρια σάρωσης, να ταξινομήσετε αυτόματα τα cookies και να λάβετε έξυπνες προτάσεις συμμόρφωσης."
+
+#: build/onboarding.js:6
+msgid "License activated"
+msgstr "Η άδεια ενεργοποιήθηκε"
+
+#: build/onboarding.js:6
+msgid "Activating…"
+msgstr "Ενεργοποίηση…"
+
+#: build/admin.js:63
+#: build/onboarding.js:6
+#: build/onboarding.js:7
+msgid "Activate License"
+msgstr "Ενεργοποίηση άδειας"
+
+#: build/onboarding.js:6
+msgid "License Key"
+msgstr "Κλειδί άδειας"
+
+#: build/onboarding.js:6
+msgid "Paste your license key here"
+msgstr "Επικολλήστε εδώ το κλειδί άδειάς σας"
+
+#. translators: %s: Package name (e.g., SureCookie Pro)
+#: build/onboarding.js:7
+#, js-format
+msgid "Activate your <strong>%s</strong> license to receive professional support and automatic updates directly from your WordPress dashboard. Don't have a license? <a>Get it here »</a>"
+msgstr "Ενεργοποιήστε την άδεια <strong>%s</strong> για να λάβετε επαγγελματική υποστήριξη και αυτόματες ενημερώσεις απευθείας από τον πίνακα ελέγχου του WordPress σας. Δεν έχετε άδεια; <a>Αποκτήστε την εδώ »</a>"
+
+#: build/onboarding.js:7
+msgid "Purchase a SureCookie license"
+msgstr "Αγοράστε μια άδεια SureCookie"
+
+#: build/admin.js:2
+msgid "View Plans"
+msgstr "Προβολή Σχεδίων"
+
+#: build/admin.js:4
+msgid "CONSENT RECORD"
+msgstr "ΑΡΧΕΙΟ ΣΥΓΚΑΤΑΘΕΣΗΣ"
+
+#: build/admin.js:4
+msgid "This document contains a record of the consent choice stored by SureCookie. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Αυτό το έγγραφο περιέχει αρχείο της επιλογής συγκατάθεσης που αποθηκεύτηκε από το SureCookie. Μπορεί να χρησιμοποιηθεί για εσωτερική τεκμηρίωση και ανασκόπηση. Οι νομικές απαιτήσεις ενδέχεται να διαφέρουν."
+
+#: build/admin.js:4
+msgid "This document is automatically generated by the SureCookie plugin and contains a record of the consent choice stored at the time of export. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Αυτό το έγγραφο δημιουργείται αυτόματα από το πρόσθετο SureCookie και περιέχει αρχείο της επιλογής συγκατάθεσης που αποθηκεύτηκε κατά την εξαγωγή. Μπορεί να χρησιμοποιηθεί για εσωτερική τεκμηρίωση και ανασκόπηση. Οι νομικές απαιτήσεις ενδέχεται να διαφέρουν."
+
+#: build/admin.js:43
+msgid "Enter your custom CSS here"
+msgstr "Εισάγετε εδώ το προσαρμοσμένο CSS σας"
+
+#: build/admin.js:43
+msgid "Use !important to override inline styles"
+msgstr "Χρησιμοποιήστε το !important για να υπερισχύσετε των ενσωματωμένων στυλ"
+
+#: build/admin.js:43
+msgid "Your cookie banner is enabled."
+msgstr "Το banner cookie σας είναι ενεργοποιημένο."
+
+#: build/admin.js:43
+msgid "Your cookie banner is currently disabled."
+msgstr "Το banner cookie σας είναι αυτή τη στιγμή απενεργοποιημένο."
+
+#: build/admin.js:2
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Activate SureCookie Pro"
+msgstr "Ενεργοποίηση SureCookie Pro"
+
+#. translators: %d: maximum pages
+#: build/admin.js:64
+#: build/onboarding.js:8
+#, js-format
+msgid "Your first scan can cover up to %d pages while we connect your site. Remove the extra pages to start - Your plan's full limits unlock automatically afterward."
+msgstr "Η πρώτη σας σάρωση μπορεί να καλύψει έως και %d σελίδες ενώ συνδέουμε τον ιστότοπό σας. Αφαιρέστε τις επιπλέον σελίδες για να ξεκινήσετε - Τα πλήρη όρια του σχεδίου σας ξεκλειδώνουν αυτόματα αργότερα."
+
+#. translators: %d: maximum pages
+#: build/admin.js:66
+#: build/onboarding.js:10
+#, js-format
+msgid "The free plan supports scanning up to %d pages. Upgrade now to scan more pages and keep your cookie list updated automatically."
+msgstr "Το δωρεάν σχέδιο υποστηρίζει σάρωση έως και %d σελίδων. Αναβαθμίστε τώρα για να σαρώσετε περισσότερες σελίδες και να διατηρείτε τη λίστα cookie σας ενημερωμένη αυτόματα."
+
+#. translators: %s: SureCookie plan tier, e.g. "Business"
+#: build/admin.js:76
+#, js-format
+msgid "%s version"
+msgstr "%s έκδοση"
+
+#: build/onboarding.js:6
+msgid "Let's help you discover cookies, configure consent choices, and improve how your website handles visitor privacy. SureCookie automatically detects and categorizes cookies so you can stay focused on growing your business."
+msgstr "Ας σας βοηθήσουμε να ανακαλύψετε cookies, να ρυθμίσετε τις επιλογές συγκατάθεσης και να βελτιώσετε τον τρόπο που ο ιστότοπός σας χειρίζεται το απόρρητο των επισκεπτών. Το SureCookie εντοπίζει και κατηγοριοποιεί αυτόματα τα cookies ώστε να μπορείτε να εστιάσετε στην ανάπτυξη της επιχείρησής σας."
+
+#: build/onboarding.js:14
+msgid "Keep consent records locally on the site and export individual records when needed"
+msgstr "Διατηρήστε αρχεία συγκατάθεσης τοπικά στον ιστότοπο και εξάγετε μεμονωμένα αρχεία όταν χρειάζεται"
+
+#: admin/menu.php:78
+#: build/admin.js:2
+msgid "Tracking Manager"
+msgstr "Διαχειριστής Παρακολούθησης"
+
+#: admin/product-promotion.php:116
+msgid "WordPress emails often go missing or land in spam because web hosts aren't built for reliable delivery. SureMail fixes this by connecting to trusted SMTP services, so your emails reach inboxes, no more lost messages or frustrated customers."
+msgstr "Τα email του WordPress συχνά χάνονται ή καταλήγουν στα ανεπιθύμητα επειδή οι πάροχοι φιλοξενίας δεν είναι σχεδιασμένοι για αξιόπιστη παράδοση. Το SureMail διορθώνει αυτό συνδεόμενο με αξιόπιστες υπηρεσίες SMTP, ώστε τα email σας να φτάνουν στα εισερχόμενα, χωρίς χαμένα μηνύματα ή απογοητευμένους πελάτες."
+
+#: admin/product-promotion.php:122
+msgid "Spectra Blocks is a complete rebuild of Spectra on WordPress's modern core-block APIs - an AI website builder built directly into the Block Editor."
+msgstr "Το Spectra Blocks είναι μια πλήρης ανακατασκευή του Spectra πάνω στις σύγχρονες core-block APIs του WordPress - ένας AI δημιουργός ιστοσελίδων ενσωματωμένος απευθείας στον Επεξεργαστή Μπλοκ."
+
+#: inc/api/cookies.php:395
+msgid "Failed to update cookie categories: "
+msgstr "Αποτυχία ενημέρωσης κατηγοριών cookie:"
+
+#. translators: %s: Provider name (e.g., YouTube, Vimeo)
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:236
+#: inc/modules/script-blocking/blocker.php:1294
+#, php-format
+msgid "Accept and load %s content"
+msgstr "Αποδοχή και φόρτωση περιεχομένου %s"
+
+#: inc/modules/assisted-scan/api.php:122
+msgid "An assisted scan is already running. Cancel it before starting another."
+msgstr "Μια βοηθούμενη σάρωση είναι ήδη σε εξέλιξη. Ακύρωσέ την πριν ξεκινήσεις άλλη."
+
+#: inc/modules/assisted-scan/api.php:144
+#: inc/modules/assisted-scan/api.php:155
+msgid "Select at least one published page to scan."
+msgstr "Επίλεξε τουλάχιστον μία δημοσιευμένη σελίδα για σάρωση."
+
+#: inc/modules/assisted-scan/api.php:163
+msgid "Starting assisted scan (collected from your browser)."
+msgstr "Ξεκινά η βοηθούμενη σάρωση (συλλέγεται από τον περιηγητή σου)."
+
+#. translators: %d: number of pages.
+#: inc/modules/assisted-scan/api.php:167
+#, php-format
+msgid "Pages to visit: %d."
+msgstr "Σελίδες προς επίσκεψη: %d."
+
+#: inc/modules/assisted-scan/api.php:197
+#: inc/modules/assisted-scan/api.php:253
+msgid "This scan session has expired. Start the scan again."
+msgstr "Η συνεδρία σάρωσης έχει λήξει. Ξεκίνα ξανά τη σάρωση."
+
+#: inc/modules/assisted-scan/api.php:210
+msgid "The scan sent more data than a single page should produce."
+msgstr "Η σάρωση έστειλε περισσότερα δεδομένα από όσα θα έπρεπε να παράγει μία σελίδα."
+
+#: inc/modules/assisted-scan/api.php:222
+msgid "That page is not the one this scan was waiting for."
+msgstr "Αυτή η σελίδα δεν είναι αυτή που περίμενε η σάρωση."
+
+#: inc/modules/assisted-scan/api.php:275
+#: inc/modules/assisted-scan/api.php:277
+msgid "Assisted scan cancelled."
+msgstr "Η βοηθούμενη σάρωση ακυρώθηκε."
+
+#. translators: 1: current page number, 2: total pages.
+#: inc/modules/assisted-scan/collector.php:322
+#, php-format
+msgid "SureCookie is scanning page %1$d of %2$d"
+msgstr "Το SureCookie σαρώσει τη σελίδα %1$d από %2$d"
+
+#: inc/modules/assisted-scan/collector.php:323
+msgid "Keep this tab in front so the scan can continue."
+msgstr "Κράτα αυτήν την καρτέλα μπροστά ώστε η σάρωση να συνεχιστεί."
+
+#: inc/modules/assisted-scan/collector.php:324
+msgid "Paused. Bring this tab to the front to continue."
+msgstr "Σε παύση. Φέρε αυτήν την καρτέλα μπροστά για να συνεχίσεις."
+
+#: inc/modules/assisted-scan/collector.php:325
+msgid "Preparing a clean visit…"
+msgstr "Προετοιμασία καθαρής επίσκεψης…"
+
+#. translators: 1: number of cookies, 2: number of services.
+#: inc/modules/assisted-scan/collector.php:327
+#, php-format
+msgid "Scan complete: %1$d cookies, %2$d services found"
+msgstr "Η σάρωση ολοκληρώθηκε: %1$d cookies, %2$d υπηρεσίες βρέθηκαν"
+
+#: inc/modules/assisted-scan/collector.php:328
+msgid "The scan could not be completed. Return to SureCookie to try again."
+msgstr "Η σάρωση δεν μπόρεσε να ολοκληρωθεί. Επιστρέψτε στο SureCookie για να δοκιμάσετε ξανά."
+
+#: inc/modules/assisted-scan/collector.php:330
+msgid "SureCookie assisted scan progress"
+msgstr "Πρόοδος βοηθούμενης σάρωσης SureCookie"
+
+#. translators: 1: page number, 2: cookie count, 3: resource count.
+#: inc/modules/assisted-scan/ingest.php:119
+#, php-format
+msgid "Page %1$d collected: %2$d cookies, %3$d third-party resources."
+msgstr "Σελίδα %1$d συλλέχθηκε: %2$d cookies, %3$d πόροι τρίτων."
+
+#. translators: 1: page number, 2: error reason.
+#: inc/modules/assisted-scan/ingest.php:129
+#, php-format
+msgid "Page %1$d could not be collected (%2$s)."
+msgstr "Η σελίδα %1$d δεν μπόρεσε να συλλεχθεί (%2$s)."
+
+#. translators: 1: cookie count, 2: service count.
+#: inc/modules/assisted-scan/ingest.php:222
+#, php-format
+msgid "Assisted scan finished: %1$d cookies, %2$d known services."
+msgstr "Η βοηθούμενη σάρωση ολοκληρώθηκε: %1$d cookies, %2$d γνωστές υπηρεσίες."
+
+#. translators: %s: comma-separated service names.
+#: inc/modules/assisted-scan/ingest.php:232
+#, php-format
+msgid "A first-party check also found: %s. Your browser may have blocked these."
+msgstr "Έλεγχος πρώτου μέρους βρήκε επίσης: %s. Ο περιηγητής σου μπορεί να τα έχει μπλοκάρει."
+
+#: inc/modules/assisted-scan/session.php:466
+msgid "Assisted scan in progress..."
+msgstr "Η βοηθούμενη σάρωση βρίσκεται σε εξέλιξη..."
+
+#: inc/modules/assisted-scan/session.php:576
+msgid "Assisted scan finished."
+msgstr "Η βοηθούμενη σάρωση ολοκληρώθηκε."
+
+#: inc/modules/services/api.php:142
+msgid "Unknown service."
+msgstr "Άγνωστη υπηρεσία."
+
+#: inc/modules/services/api.php:153
+msgid "This is a Pro service. Upgrade to add it."
+msgstr "Αυτή είναι υπηρεσία Pro. Αναβάθμισε για να την προσθέσεις."
+
+#: inc/modules/site-scanner/cron.php:210
+msgid "Assisted scan cancelled by user."
+msgstr "Η βοηθούμενη σάρωση ακυρώθηκε από τον χρήστη."
+
+#: inc/modules/site-scanner/saas-client.php:1653
+msgid "We could not verify your domain because your site's SSL certificate could not be validated (it may be self-signed, expired, or issued for a different domain). Install a valid certificate (for example Let's Encrypt), or scan your live domain that already has one, then retry."
+msgstr "Δεν μπορέσαμε να επαληθεύσουμε το domain σου επειδή το πιστοποιητικό SSL του ιστότοπού σου δεν ήταν έγκυρο (μπορεί να είναι αυτο-υπογεγραμμένο, ληγμένο ή εκδομένο για διαφορετικό domain). Εγκατέστησε ένα έγκυρο πιστοποιητικό (π.χ. Let's Encrypt), ή σάρωσε το ζωντανό domain που ήδη έχει, και δοκίμασε ξανά."
+
+#: inc/modules/site-scanner/saas-client.php:1655
+msgid "We could not verify your domain because your host is blocking our verification request to /wp-json/. This is common on SiteGround. Allowlist our scanner IPs/User-Agent (or ask your host to) and retry - or add your services manually in the meantime."
+msgstr "Δεν μπορέσαμε να επαληθεύσουμε το domain σου επειδή ο πάροχός σου μπλοκάρει το αίτημα επαλήθευσης προς /wp-json/. Αυτό είναι συνηθισμένο στο SiteGround. Πρόσθεσε στη λίστα επιτρεπόμενων τις IPs/User-Agent του σαρωτή μας (ή ζήτησε από τον πάροχό σου) και δοκίμασε ξανά - ή πρόσθεσε τις υπηρεσίες σου χειροκίνητα προσωρινά."
+
+#: inc/modules/site-scanner/saas-client.php:1657
+msgid "We could not reach your site's REST API at /wp-json/. Enable pretty permalinks and make sure no security plugin is disabling the REST API, then retry."
+msgstr "Δεν ήταν δυνατή η πρόσβαση στο REST API του ιστότοπού σας στο /wp-json/. Ενεργοποιήστε τα όμορφα μόνιμα συνδέσμους και βεβαιωθείτε ότι κανένα πρόσθετο ασφαλείας δεν απενεργοποιεί το REST API, στη συνέχεια δοκιμάστε ξανά."
+
+#: inc/services/cookie-category-service.php:247
+msgid "Cookies cannot be moved to the category being deleted."
+msgstr "Τα cookies δεν μπορούν να μετακινηθούν στην κατηγορία που διαγράφεται."
+
+#: inc/services/cookie-category-service.php:254
+#: inc/services/cookie-service.php:440
+msgid "The selected category no longer exists. Please reload and try again."
+msgstr "Η επιλεγμένη κατηγορία δεν υπάρχει πλέον. Παρακαλώ ανανεώστε και δοκιμάστε ξανά."
+
+#: inc/services/cookie-service.php:421
+msgid "No cookies selected."
+msgstr "Δεν έχουν επιλεγεί cookies."
+
+#. translators: %d: maximum number of cookies per request.
+#: inc/services/cookie-service.php:430
+#, php-format
+msgid "Too many cookies in one request. Please select up to %d."
+msgstr "Πάρα πολλά cookies σε ένα αίτημα. Παρακαλώ επιλέξτε έως %d."
+
+#. translators: %d: number of cookies updated.
+#: inc/services/cookie-service.php:547
+#, php-format
+msgid "%d cookie moved to the selected category."
+msgid_plural "%d cookies moved to the selected category."
+msgstr[0] "%d cookie μετακινήθηκε στην επιλεγμένη κατηγορία."
+msgstr[1] ""
+
+#: inc/services/cookie-service.php:555
+msgid "No cookies could be updated."
+msgstr "Δεν ήταν δυνατή η ενημέρωση κανενός cookie."
+
+#: build/admin.js:2
+msgid "Scanning"
+msgstr "Σάρωση"
+
+#: build/admin.js:2
+#: build/admin.js:41
+msgid "Known Services"
+msgstr "Γνωστές Υπηρεσίες"
+
+#: build/admin.js:2
+#: build/admin.js:77
+msgid "Scripts and Embeds"
+msgstr "Σενάρια και Ενσωματώσεις"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Geographic Rules"
+msgstr "Γεωγραφικοί Κανόνες"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Consent Sharing"
+msgstr "Κοινή Χρήση Συγκατάθεσης"
+
+#: build/admin.js:2
+msgid "Add License"
+msgstr "Προσθήκη Άδειας"
+
+#. translators: %s: cookie name.
+#: build/admin.js:22
+#: build/onboarding.js:2
+#, js-format
+msgid "Select %s"
+msgstr "Επιλέξτε %s"
+
+#. translators: %s: cookie name.
+#: build/admin.js:23
+#: build/onboarding.js:3
+#, js-format
+msgid "Category for %s"
+msgstr "Κατηγορία για %s"
+
+#: build/admin.js:23
+#: build/onboarding.js:3
+msgid "Select category"
+msgstr "Επιλέξτε κατηγορία"
+
+#. translators: 1: action label, 2: cookie name.
+#: build/admin.js:24
+#: build/onboarding.js:4
+#, js-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %d: number of selected cookies.
+#: build/admin.js:25
+#, js-format
+msgid "%d selected"
+msgstr "%d επιλεγμένα"
+
+#: build/admin.js:25
+msgid "Bulk category"
+msgstr "Μαζική κατηγορία"
+
+#: build/admin.js:25
+msgid "Move to category…"
+msgstr "Μετακίνηση σε κατηγορία…"
+
+#: build/admin.js:25
+msgid "Applying…"
+msgstr "Εφαρμογή…"
+
+#: build/admin.js:25
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: build/admin.js:25
+msgid "Clear selection"
+msgstr "Καθαρισμός επιλογής"
+
+#: build/admin.js:25
+msgid "Select all cookies"
+msgstr "Επιλογή όλων των cookies"
+
+#: build/admin.js:28
+msgid "Assigned cookies will be moved to another category instead of being deleted."
+msgstr "Τα ανατεθειμένα cookies θα μετακινηθούν σε άλλη κατηγορία αντί να διαγραφούν."
+
+#: build/admin.js:28
+msgid "Move Cookies To"
+msgstr "Μετακίνηση Cookies Σε"
+
+#: build/admin.js:28
+msgid "Search services…"
+msgstr "Αναζήτηση υπηρεσιών…"
+
+#: build/admin.js:28
+msgid "Search services"
+msgstr "Αναζήτηση υπηρεσιών"
+
+#: build/admin.js:28
+#: build/admin.js:37
+msgid "All Categories"
+msgstr "Όλες οι Κατηγορίες"
+
+#. translators: %d: number of cookies
+#: build/admin.js:29
+#, js-format
+msgid "%d cookie"
+msgid_plural "%d cookies"
+msgstr[0] "%d cookie"
+msgstr[1] ""
+
+#. translators: %d: number of iframes
+#: build/admin.js:30
+#, js-format
+msgid "%d iframe"
+msgid_plural "%d iframes"
+msgstr[0] "%d iframe"
+msgstr[1] ""
+
+#. translators: %d: number of scripts
+#: build/admin.js:31
+#, js-format
+msgid "%d script"
+msgid_plural "%d scripts"
+msgstr[0] "%d σενάριο"
+msgstr[1] ""
+
+#: build/admin.js:31
+msgid "Added"
+msgstr "Προστέθηκε"
+
+#: build/admin.js:31
+msgid "Detected"
+msgstr "Ανιχνεύτηκε"
+
+#: build/admin.js:31
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: build/admin.js:31
+msgid "Add Service"
+msgstr "Προσθήκη Υπηρεσίας"
+
+#: build/admin.js:31
+msgid "No services match your search."
+msgstr "Καμία υπηρεσία δεν ταιριάζει με την αναζήτησή σας."
+
+#: build/admin.js:31
+msgid "Loads before consent"
+msgstr "Φορτώνει πριν από τη συγκατάθεση"
+
+#. translators: %s: service name (e.g. Stripe)
+#: build/admin.js:32
+#, js-format
+msgid "%s is a necessary service, so it loads before consent - its cookies can be set without consent."
+msgstr "%s είναι μια απαραίτητη υπηρεσία, οπότε φορτώνει πριν από τη συγκατάθεση - τα cookies της μπορούν να οριστούν χωρίς συγκατάθεση."
+
+#: build/admin.js:32
+msgid "Blocked When \"Block Scripts until Consent\" Is On"
+msgstr "Αποκλείεται όταν είναι ενεργοποιημένο το \"Αποκλεισμός Σεναρίων μέχρι τη Συγκατάθεση\""
+
+#. translators: %1$s: service name; %2$s: consent category name
+#: build/admin.js:33
+#, js-format
+msgid "When blocking is on, %1$s is blocked until visitors accept “%2$s”, so a scan never sees these cookies. Declaring them here keeps your cookie policy complete."
+msgstr "Όταν ο αποκλεισμός είναι ενεργός, το %1$s αποκλείεται μέχρι οι επισκέπτες να αποδεχτούν το “%2$s”, οπότε μια σάρωση δεν βλέπει ποτέ αυτά τα cookies. Η δήλωσή τους εδώ διατηρεί την πολιτική cookies σας πλήρη."
+
+#. translators: %d: number of cookies
+#: build/admin.js:34
+#, js-format
+msgid "%d cookie added to your cookie policy"
+msgid_plural "%d cookies added to your cookie policy"
+msgstr[0] "%d cookie προστέθηκε στην πολιτική cookies σας"
+msgstr[1] ""
+
+#. translators: %d: number of iframes
+#: build/admin.js:35
+#, js-format
+msgid "%d embed blocked before consent"
+msgid_plural "%d embeds blocked before consent"
+msgstr[0] "%d ενσωμάτωση αποκλείστηκε πριν από τη συγκατάθεση"
+msgstr[1] ""
+
+#. translators: %d: number of scripts
+#: build/admin.js:36
+#, js-format
+msgid "%d script blocked before consent"
+msgid_plural "%d scripts blocked before consent"
+msgstr[0] "%d σενάριο αποκλείστηκε πριν από τη συγκατάθεση"
+msgstr[1] ""
+
+#: build/admin.js:36
+msgid "No categories available"
+msgstr "Δεν υπάρχουν διαθέσιμες κατηγορίες"
+
+#: build/admin.js:36
+msgid "Create a cookie category first - new cookies land in Uncategorized until then."
+msgstr "Δημιουργήστε πρώτα μια κατηγορία cookie - τα νέα cookies θα καταλήγουν στην Ακατάτακτη μέχρι τότε."
+
+#. translators: %d: number of days
+#: build/admin.js:37
+#, js-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d ημέρα"
+msgstr[1] ""
+
+#: build/admin.js:37
+msgid "Session"
+msgstr "Συνεδρία"
+
+#: build/admin.js:37
+msgid "Failed to add service"
+msgstr "Αποτυχία προσθήκης υπηρεσίας"
+
+#: build/admin.js:37
+msgid "Failed to remove service"
+msgstr "Αποτυχία αφαίρεσης υπηρεσίας"
+
+#: build/admin.js:37
+msgid "Service removed"
+msgstr "Υπηρεσία αφαιρέθηκε"
+
+#. translators: %s: service name (e.g. YouTube)
+#: build/admin.js:38
+#, js-format
+msgid "Added %s"
+msgstr "Προστέθηκε %s"
+
+#. translators: %d: number of cookies declared
+#: build/admin.js:39
+#, js-format
+msgid "%d cookie was added to your cookie policy."
+msgid_plural "%d cookies were added to your cookie policy."
+msgstr[0] "%d cookie προστέθηκε στην πολιτική cookies σας."
+msgstr[1] ""
+
+#: build/admin.js:39
+msgid "This service is now managed. It stays blocked before consent."
+msgstr "Αυτή η υπηρεσία διαχειρίζεται πλέον. Παραμένει αποκλεισμένη πριν από τη συγκατάθεση."
+
+#. translators: %s: service name
+#: build/admin.js:40
+#: build/admin.js:41
+#, js-format
+msgid "Add %s"
+msgstr "Προσθήκη %s"
+
+#: build/admin.js:40
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Add from a Known Service"
+msgstr "Προσθήκη από Γνωστή Υπηρεσία"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Review what this adds to your cookie policy, then confirm."
+msgstr "Επανεξετάστε τι προσθέτει αυτό στην πολιτική cookies σας και στη συνέχεια επιβεβαιώστε."
+
+#: build/admin.js:40
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can't detect before consent - ensuring your cookie policy stays complete."
+msgstr "Προσθέστε γρήγορα δημοφιλείς υπηρεσίες όπως το YouTube ή το Google Analytics με ένα κλικ. Ιδανικό για σενάρια που οι σαρωτές δεν μπορούν να ανιχνεύσουν πριν από τη συγκατάθεση - διασφαλίζοντας ότι η πολιτική cookies σας παραμένει πλήρης."
+
+#: build/admin.js:40
+msgid "Could not load the services catalog. Please try again."
+msgstr "Δεν ήταν δυνατή η φόρτωση του καταλόγου υπηρεσιών. Παρακαλώ δοκιμάστε ξανά."
+
+#: build/admin.js:40
+msgid "This is a Pro service"
+msgstr "Αυτή είναι μια υπηρεσία Pro"
+
+#: build/admin.js:40
+msgid "Upgrade to add this service and declare its cookies in one click."
+msgstr "Αναβαθμίστε για να προσθέσετε αυτή την υπηρεσία και να δηλώσετε τα cookies της με ένα κλικ."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Unlock Every Tracking Service"
+msgstr "Ξεκλειδώστε Κάθε Υπηρεσία Παρακολούθησης"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Free covers the most common services. Upgrade to add any service in the catalog in one click."
+msgstr "Η δωρεάν έκδοση καλύπτει τις πιο κοινές υπηρεσίες. Αναβαθμίστε για να προσθέσετε οποιαδήποτε υπηρεσία από τον κατάλογο με ένα κλικ."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Confirm Add"
+msgstr "Επιβεβαίωση προσθήκης"
+
+#: build/admin.js:41
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can’t detect before consent - ensuring your cookie policy stays complete."
+msgstr "Προσθέστε γρήγορα δημοφιλείς υπηρεσίες όπως το YouTube ή το Google Analytics με ένα κλικ. Ιδανικό για σενάρια που οι σαρωτές δεν μπορούν να εντοπίσουν πριν από τη συγκατάθεση - διασφαλίζοντας ότι η πολιτική cookie σας παραμένει πλήρης."
+
+#: build/admin.js:41
+msgid "Failed to load services"
+msgstr "Αποτυχία φόρτωσης υπηρεσιών"
+
+#: build/admin.js:41
+msgid "An error occurred while loading services. Please refresh the page to try again."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη φόρτωση των υπηρεσιών. Παρακαλώ ανανεώστε τη σελίδα για να δοκιμάσετε ξανά."
+
+#: build/admin.js:41
+msgid "Installed Services"
+msgstr "Εγκατεστημένες Υπηρεσίες"
+
+#: build/admin.js:41
+msgid "Available Services"
+msgstr "Διαθέσιμες Υπηρεσίες"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Failed to update cookie categories"
+msgstr "Αποτυχία ενημέρωσης κατηγοριών cookie"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Cookie categories updated"
+msgstr "Οι κατηγορίες cookie ενημερώθηκαν"
+
+#. translators: %d: number of cookies that could not be updated.
+#: build/admin.js:42
+#, js-format
+msgid "%d cookie(s) could not be updated. Reload and try again."
+msgstr "%d cookie(s) δεν μπόρεσαν να ενημερωθούν. Φορτώστε ξανά και δοκιμάστε ξανά."
+
+#: build/admin.js:42
+msgid "Change Cookie Categories Carefully"
+msgstr "Αλλάξτε τις κατηγορίες cookie με προσοχή"
+
+#: build/admin.js:42
+msgid "A cookie's category determines how it behaves when users decline consent. Cookies marked as Essential always remain active. Moving a cookie out of Essential may cause it to be blocked or deleted, which can break features like login or checkout. Similarly, assigning tracking cookies to Essential may conflict with privacy regulations. Your choice is remembered, so a later scan will not move the cookie back."
+msgstr "Η κατηγορία ενός cookie καθορίζει τη συμπεριφορά του όταν οι χρήστες αρνούνται τη συγκατάθεση. Τα cookie που χαρακτηρίζονται ως Απαραίτητα παραμένουν πάντα ενεργά. Η μετακίνηση ενός cookie εκτός των Απαραίτητων μπορεί να προκαλέσει το μπλοκάρισμα ή τη διαγραφή του, κάτι που μπορεί να διακόψει λειτουργίες όπως η σύνδεση ή η ολοκλήρωση αγοράς. Ομοίως, η ανάθεση cookie παρακολούθησης στα Απαραίτητα μπορεί να συγκρουστεί με τους κανονισμούς απορρήτου. Η επιλογή σας αποθηκεύεται, οπότε μια μετέπειτα σάρωση δεν θα μετακινήσει το cookie πίσω."
+
+#. translators: %s: service name (e.g. Google Analytics)
+#: build/admin.js:43
+#, js-format
+msgid "Looks like %s"
+msgstr "Φαίνεται ότι %s"
+
+#: build/admin.js:43
+msgid "We spotted cookies from this service. Add it to declare its cookies in one step."
+msgstr "Εντοπίσαμε cookie από αυτή την υπηρεσία. Προσθέστε την για να δηλώσετε τα cookie της με ένα βήμα."
+
+#: build/admin.js:43
+#: build/admin.js:76
+msgid "Add as Service"
+msgstr "Προσθήκη ως Υπηρεσία"
+
+#: build/admin.js:43
+msgid "Dismiss"
+msgstr "Απόρριψη"
+
+#: build/admin.js:50
+msgid "Welcome to SureCookie!"
+msgstr "Καλώς ήρθατε στο SureCookie!"
+
+#: build/admin.js:50
+msgid "Get your site compliant in minutes - show a cookie banner, block trackers before consent, and automatically detect cookies used on your site."
+msgstr "Κάντε τον ιστότοπό σας συμβατό σε λίγα λεπτά - εμφανίστε ένα banner cookie, μπλοκάρετε τους ιχνηλάτες πριν από τη συγκατάθεση και ανιχνεύστε αυτόματα τα cookie που χρησιμοποιούνται στον ιστότοπό σας."
+
+#: build/admin.js:50
+msgid "Set Up Cookie Banner"
+msgstr "Ρύθμιση Banner Cookie"
+
+#: build/admin.js:50
+msgid "Scan My Site"
+msgstr "Σάρωση του Ιστότοπού μου"
+
+#: build/admin.js:50
+msgid "Start with the banner, then scan your site to detect cookies."
+msgstr "Ξεκινήστε με το banner και μετά σαρώστε τον ιστότοπό σας για να εντοπίσετε cookie."
+
+#: build/admin.js:50
+msgid "SureForms Video Thumbnail"
+msgstr "Εικόνα μικρογραφίας βίντεο SureForms"
+
+#: build/admin.js:50
+msgid "SureForms: Custom WordPress Forms MADE SIMPLE"
+msgstr "SureForms: Προσαρμοσμένες φόρμες WordPress ΕΥΚΟΛΕΣ"
+
+#: build/admin.js:59
+msgid "Possible causes: Scan server under heavy load, your site is unreachable from our scanner, your site has CRON issues, or a page caused a browser timeout."
+msgstr "Πιθανοί λόγοι: Ο διακομιστής σάρωσης έχει μεγάλο φόρτο, ο ιστότοπός σας δεν είναι προσβάσιμος από τον σαρωτή μας, ο ιστότοπός σας έχει προβλήματα CRON ή μια σελίδα προκάλεσε χρονικό όριο στον περιηγητή."
+
+#: build/admin.js:59
+msgid "Some pages could not be analyzed"
+msgstr "Ορισμένες σελίδες δεν μπόρεσαν να αναλυθούν"
+
+#. translators: 1: scanned pages, 2: total pages, 3: failed pages
+#: build/admin.js:60
+#, js-format
+msgid "Scanned %1$d of %2$d pages - %3$d could not be analyzed. The cookies we did find are saved, and results add up across scans, so you can re-run the scan to pick up the rest."
+msgstr "Σαρώθηκαν %1$d από %2$d σελίδες - %3$d δεν μπόρεσαν να αναλυθούν. Τα cookie που βρήκαμε αποθηκεύονται και τα αποτελέσματα αθροίζονται σε όλες τις σαρώσεις, ώστε να μπορείτε να επανεκτελέσετε τη σάρωση για να εντοπίσετε τα υπόλοιπα."
+
+#: build/admin.js:60
+msgid "Once the scan is complete, the cookies it found appear under <a>Cookies</a>, and the scripts and embeds under <b>Scripts and Embeds</b>."
+msgstr "Μόλις ολοκληρωθεί η σάρωση, τα cookie που βρέθηκαν εμφανίζονται κάτω από <a>Cookies</a>, και τα σενάρια και ενσωματώσεις κάτω από <b>Σενάρια και Ενσωματώσεις</b>."
+
+#: build/admin.js:60
+msgid "Keep the scan tab in front until it finishes: browsers slow down background tabs."
+msgstr "Κρατήστε την καρτέλα σάρωσης μπροστά μέχρι να ολοκληρωθεί: οι περιηγητές επιβραδύνουν τις καρτέλες στο παρασκήνιο."
+
+#: build/admin.js:60
+msgid "Pages already collected are saved, so closing the tab early keeps what it found."
+msgstr "Οι σελίδες που έχουν ήδη συλλεχθεί αποθηκεύονται, οπότε το κλείσιμο της καρτέλας νωρίτερα διατηρεί ό,τι βρέθηκε."
+
+#: build/admin.js:60
+msgid "An ad blocker or privacy extension in this browser can hide trackers from the scan."
+msgstr "Ένας αποκλειστής διαφημίσεων ή επέκταση απορρήτου σε αυτόν τον περιηγητή μπορεί να κρύψει τους ιχνηλάτες από τη σάρωση."
+
+#: build/admin.js:60
+msgid "If remote scanning fails, try Assisted Scanner method: <button></button>"
+msgstr "Εάν η απομακρυσμένη σάρωση αποτύχει, δοκιμάστε τη μέθοδο Βοηθούμενου Σαρωτή: <button></button>"
+
+#: build/admin.js:60
+msgid "Switch to Default Scanner"
+msgstr "Μετάβαση στον Προεπιλεγμένο Σαρωτή"
+
+#: build/admin.js:60
+msgid "Switch to Assisted Scanner"
+msgstr "Μετάβαση στον Βοηθούμενο Σαρωτή"
+
+#: build/admin.js:60
+msgid "Scan From This Browser"
+msgstr "Σάρωση από αυτόν τον περιηγητή"
+
+#: build/admin.js:60
+msgid "Your host blocked the scanner"
+msgstr "Ο διακομιστής σας μπλόκαρε τον σαρωτή"
+
+#: build/admin.js:60
+msgid "Your site's firewall or bot protection served our scanner a security challenge instead of your page, so the scan completed without results. This does not affect your visitors, only automated scanners. Allowlist the SureCookie scanner (or ask your host to) and run the scan again."
+msgstr "Το τείχος προστασίας ή η προστασία bot του ιστότοπού σας έδωσε στον σαρωτή μας μια πρόκληση ασφαλείας αντί για τη σελίδα σας, οπότε η σάρωση ολοκληρώθηκε χωρίς αποτελέσματα. Αυτό δεν επηρεάζει τους επισκέπτες σας, μόνο τους αυτοματοποιημένους σαρωτές. Προσθέστε τον σαρωτή SureCookie στη λίστα επιτρεπόμενων (ή ζητήστε από τον πάροχό σας να το κάνει) και εκτελέστε ξανά τη σάρωση."
+
+#: build/admin.js:60
+msgid "Services we still detected on your site (via a first-party check):"
+msgstr "Υπηρεσίες που εντοπίστηκαν ακόμα στον ιστότοπό σας (μέσω ελέγχου πρώτου μέρους):"
+
+#: build/admin.js:60
+msgid "How to allowlist the scanner"
+msgstr "Πώς να επιτρέψετε τη λίστα επιτρεπόμενων για τον σαρωτή"
+
+#: build/admin.js:60
+msgid "No cookies found in this browser scan"
+msgstr "Δεν βρέθηκαν cookies σε αυτήν τη σάρωση του προγράμματος περιήγησης"
+
+#: build/admin.js:60
+msgid "We found services on your pages that your browser did not load, which usually means an ad blocker or privacy extension is active. Try again in a browser with extensions disabled, or add the cookies manually."
+msgstr "Βρήκαμε υπηρεσίες στις σελίδες σας που το πρόγραμμα περιήγησής σας δεν φόρτωσε, κάτι που συνήθως σημαίνει ότι είναι ενεργός ένας αποκλειστής διαφημίσεων ή επέκταση απορρήτου. Δοκιμάστε ξανά σε πρόγραμμα περιήγησης με απενεργοποιημένες τις επεκτάσεις ή προσθέστε τα cookies χειροκίνητα."
+
+#: build/admin.js:60
+msgid "The scan visited your pages but no cookies were set. Some services only set cookies after a visitor accepts the banner, so they may not appear. You can also add cookies manually."
+msgstr "Η σάρωση επισκέφτηκε τις σελίδες σας αλλά δεν ορίστηκαν cookies. Ορισμένες υπηρεσίες ορίζουν cookies μόνο αφού ο επισκέπτης αποδεχτεί το banner, οπότε μπορεί να μην εμφανιστούν. Μπορείτε επίσης να προσθέσετε cookies χειροκίνητα."
+
+#: build/admin.js:60
+msgid "No cookies found in this scan"
+msgstr "Δεν βρέθηκαν cookies σε αυτήν τη σάρωση"
+
+#: build/admin.js:60
+msgid "The scanner reached your site but did not detect any cookies. Some services only set cookies after a visitor accepts the banner, so they may not appear in a scan. You can also add cookies manually."
+msgstr "Ο σαρωτής έφτασε στον ιστότοπό σας αλλά δεν εντόπισε cookies. Ορισμένες υπηρεσίες ορίζουν cookies μόνο αφού ο επισκέπτης αποδεχτεί το banner, οπότε μπορεί να μην εμφανιστούν σε μια σάρωση. Μπορείτε επίσης να προσθέσετε cookies χειροκίνητα."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser (Best for this site)"
+msgstr "Σάρωση από το Πρόγραμμά σας Περιήγησης (Καλύτερο για αυτόν τον ιστότοπο)"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser"
+msgstr "Σάρωση από το Πρόγραμμά σας Περιήγησης"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Our scanner couldn't fully access your site due to server restrictions. This method runs the scan directly in your browser, ensuring accurate detection without being blocked."
+msgstr "Ο σαρωτής μας δεν μπόρεσε να έχει πλήρη πρόσβαση στον ιστότοπό σας λόγω περιορισμών διακομιστή. Αυτή η μέθοδος εκτελεί τη σάρωση απευθείας στο πρόγραμμα περιήγησής σας, εξασφαλίζοντας ακριβή ανίχνευση χωρίς αποκλεισμό."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Run the scan directly in your browser. This helps detect cookies, scripts, and embeds even when external scanners are blocked."
+msgstr "Εκτελέστε τη σάρωση απευθείας στο πρόγραμμα περιήγησής σας. Αυτό βοηθά στην ανίχνευση cookies, σεναρίων και ενσωματώσεων ακόμα και όταν οι εξωτερικοί σαρωτές αποκλείονται."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Detects cookies, scripts, and embeds as your visitors would see them."
+msgstr "Ανιχνεύει cookies, σενάρια και ενσωματώσεις όπως θα τα έβλεπαν οι επισκέπτες σας."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Works even when hosting or firewall blocks external scans."
+msgstr "Λειτουργεί ακόμα και όταν η φιλοξενία ή το τείχος προστασίας αποκλείει εξωτερικές σαρώσεις."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Results appear automatically in your Tracking Manager."
+msgstr "Τα αποτελέσματα εμφανίζονται αυτόματα στον Διαχειριστή Παρακολούθησής σας."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Some advanced detections may still require a remote scan when available."
+msgstr "Ορισμένες προηγμένες ανιχνεύσεις μπορεί να απαιτούν ακόμα απομακρυσμένη σάρωση όταν είναι διαθέσιμη."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "How this works"
+msgstr "Πώς λειτουργεί αυτό"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Before You Start"
+msgstr "Πριν ξεκινήσετε"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "To measure cookie duration accurately, this scan temporarily clears cookies for your site in this browser (including your consent choice). Your WordPress login session is preserved, so you'll remain signed in."
+msgstr "Για να μετρήσετε με ακρίβεια τη διάρκεια των cookies, αυτή η σάρωση καθαρίζει προσωρινά τα cookies για τον ιστότοπό σας σε αυτό το πρόγραμμα περιήγησης (συμπεριλαμβανομένης της επιλογής συγκατάθεσής σας). Η συνεδρία σύνδεσης WordPress διατηρείται, οπότε θα παραμείνετε συνδεδεμένοι."
+
+#. translators: %d: maximum pages
+#: build/admin.js:62
+#: build/onboarding.js:6
+#, js-format
+msgid "An assisted scan visits up to %d pages. Remove some pages to continue."
+msgstr "Μια υποβοηθούμενη σάρωση επισκέπτεται έως και %d σελίδες. Αφαιρέστε μερικές σελίδες για να συνεχίσετε."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Scanning in your browser…"
+msgstr "Σάρωση στο πρόγραμμα περιήγησής σας…"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Start Browser Scan"
+msgstr "Ξεκινήστε τη σάρωση προγράμματος περιήγησης"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "A new tab opens to scan your selected pages - keep it active until it finishes."
+msgstr "Ανοίγει μια νέα καρτέλα για να σαρώσει τις επιλεγμένες σελίδες σας - κρατήστε την ενεργή μέχρι να ολοκληρωθεί."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Switch Back"
+msgstr "Επιστροφή"
+
+#: build/admin.js:62
+msgid "This page did not load the scanner, so it was skipped. A redirect or a login requirement usually causes this."
+msgstr "Αυτή η σελίδα δεν φόρτωσε τον σαρωτή, οπότε παραλείφθηκε. Συνήθως αυτό προκαλείται από ανακατεύθυνση ή απαίτηση σύνδεσης."
+
+#: build/admin.js:62
+msgid "This page took too long to respond."
+msgstr "Αυτή η σελίδα χρειάστηκε πολύ χρόνο για να ανταποκριθεί."
+
+#: build/admin.js:62
+msgid "Skipped because the scan was cancelled."
+msgstr "Παραλείφθηκε επειδή η σάρωση ακυρώθηκε."
+
+#: build/admin.js:62
+msgid "This page could not be collected."
+msgstr "Αυτή η σελίδα δεν μπόρεσε να συλλεχθεί."
+
+#: build/admin.js:62
+msgid "Pages In This Scan"
+msgstr "Σελίδες σε αυτή τη σάρωση"
+
+#. translators: 1: cookie count, 2: script count
+#: build/admin.js:63
+#, js-format
+msgid "%1$d cookies, %2$d scripts"
+msgstr "%1$d cookies, %2$d scripts"
+
+#: build/admin.js:63
+msgid "Collecting…"
+msgstr "Συλλογή…"
+
+#: build/admin.js:63
+msgid "Waiting"
+msgstr "Αναμονή"
+
+#: build/admin.js:63
+msgid "Re-scan"
+msgstr "Επανασάρωση"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Could not start the assisted scan."
+msgstr "Δεν ήταν δυνατή η εκκίνηση της βοηθούμενης σάρωσης."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Could not start the assisted scan"
+msgstr "Δεν ήταν δυνατή η εκκίνηση της βοηθούμενης σάρωσης"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Please try again in a moment."
+msgstr "Παρακαλώ δοκιμάστε ξανά σε λίγο."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Your browser blocked the scan window"
+msgstr "Ο περιηγητής σας απέκλεισε το παράθυρο σάρωσης"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Allow pop-ups for this site, then start the scan again."
+msgstr "Επιτρέψτε τα αναδυόμενα παράθυρα για αυτόν τον ιστότοπο και ξεκινήστε ξανά τη σάρωση."
+
+#: build/admin.js:63
+msgid "View Scan Logs"
+msgstr "Προβολή αρχείων καταγραφής σάρωσης"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Scan your website to find cookies, scripts, and trackers that require consent."
+msgstr "Σαρώστε τον ιστότοπό σας για να βρείτε cookies, scripts και ιχνηλάτες που απαιτούν συγκατάθεση."
+
+#: build/admin.js:74
+msgid "This is taking a little longer than usual"
+msgstr "Αυτό διαρκεί λίγο περισσότερο από το συνηθισμένο"
+
+#: build/admin.js:74
+msgid "A page is taking a while to respond, but your scan is still running in the background. Any cookies already found have been saved. You can leave this page and come back - or cancel and try again with fewer pages."
+msgstr "Μια σελίδα αργεί να ανταποκριθεί, αλλά η σάρωσή σας συνεχίζεται στο παρασκήνιο. Οποιαδήποτε cookies έχουν ήδη βρεθεί έχουν αποθηκευτεί. Μπορείτε να φύγετε από αυτή τη σελίδα και να επιστρέψετε - ή να ακυρώσετε και να δοκιμάσετε ξανά με λιγότερες σελίδες."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Queued for Later"
+msgstr "Η σάρωση έχει προγραμματιστεί για αργότερα"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Today's page budget is used up, so the remaining pages will scan automatically once it resets. Any cookies already found are saved. To scan sooner, run it again with fewer pages."
+msgstr "Ο σημερινός προϋπολογισμός σελίδων έχει εξαντληθεί, οπότε οι υπόλοιπες σελίδες θα σαρωθούν αυτόματα όταν επαναρυθμιστεί. Οποιαδήποτε cookies έχουν ήδη βρεθεί έχουν αποθηκευτεί. Για να σαρώσετε νωρίτερα, εκτελέστε ξανά με λιγότερες σελίδες."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Couldn't Be Completed"
+msgstr "Η σάρωση δεν μπόρεσε να ολοκληρωθεί"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "A page may have taken too long to respond. Any cookies already found have been saved, and results add up across scans - nothing is lost. Please try again, scanning fewer pages at a time for a more reliable run."
+msgstr "Μια σελίδα μπορεί να έχει καθυστερήσει πολύ να ανταποκριθεί. Οποιαδήποτε cookies έχουν ήδη βρεθεί έχουν αποθηκευτεί και τα αποτελέσματα αθροίζονται σε κάθε σάρωση - τίποτα δεν χάνεται. Παρακαλώ δοκιμάστε ξανά, σαρώνοντας λιγότερες σελίδες κάθε φορά για πιο αξιόπιστο αποτέλεσμα."
+
+#: build/admin.js:76
+msgid "iFrame"
+msgstr "iFrame"
+
+#: build/admin.js:76
+msgid "Head"
+msgstr "Κεφαλίδα"
+
+#: build/admin.js:76
+msgid "Body"
+msgstr "Σώμα"
+
+#: build/admin.js:76
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: build/admin.js:76
+msgid "Anywhere (fallback)"
+msgstr "Οπουδήποτε (εφεδρικό)"
+
+#: build/admin.js:76
+msgid "This resource is whitelisted, so it always loads - even before consent."
+msgstr "Αυτός ο πόρος είναι στη λίστα επιτρεπόμενων, οπότε φορτώνει πάντα - ακόμα και πριν από τη συγκατάθεση."
+
+#: build/admin.js:76
+msgid "This script is managed by Google Consent Mode and always loads while GCM is enabled."
+msgstr "Αυτό το script διαχειρίζεται από το Google Consent Mode και φορτώνει πάντα όσο το GCM είναι ενεργό."
+
+#: build/admin.js:76
+msgid "This resource matches a whitelist rule (custom entry or common service), so it always loads."
+msgstr "Αυτός ο πόρος ταιριάζει με κανόνα λίστας επιτρεπόμενων (προσαρμοσμένη καταχώρηση ή κοινή υπηρεσία), οπότε φορτώνει πάντα."
+
+#: build/admin.js:76
+msgid "Script & Iframe"
+msgstr "Script & Iframe"
+
+#: build/admin.js:76
+msgid "Blocked until consent"
+msgstr "Αποκλεισμένο μέχρι τη συγκατάθεση"
+
+#: build/admin.js:76
+msgid "Not blocked"
+msgstr "Δεν είναι αποκλεισμένο"
+
+#: build/admin.js:76
+msgid "Whitelisted"
+msgstr "Στη λίστα επιτρεπόμενων"
+
+#: build/admin.js:76
+msgid "Managed by GCM"
+msgstr "Διαχειρίζεται από GCM"
+
+#: build/admin.js:76
+msgid "Source"
+msgstr "Πηγή"
+
+#: build/admin.js:76
+msgid "Managed via Known Services - its cookies are declared in your cookie policy."
+msgstr "Διαχειρίζεται μέσω γνωστών υπηρεσιών - τα cookies του δηλώνονται στην πολιτική cookies σας."
+
+#: build/admin.js:76
+msgid "Recognized Known Services catalog entry - Click \"Add as Service\" to declare its cookies."
+msgstr "Αναγνωρισμένη καταχώρηση καταλόγου γνωστών υπηρεσιών - Κάντε κλικ στο \"Προσθήκη ως Υπηρεσία\" για να δηλώσετε τα cookies της."
+
+#: build/admin.js:76
+msgid "Managed Service"
+msgstr "Διαχειριζόμενη Υπηρεσία"
+
+#: build/admin.js:76
+msgid "Known Service"
+msgstr "Γνωστή Υπηρεσία"
+
+#: build/admin.js:76
+msgid "Always Allowed"
+msgstr "Πάντα Επιτρεπτό"
+
+#: build/admin.js:76
+msgid "Category for"
+msgstr "Κατηγορία για"
+
+#: build/admin.js:76
+msgid "Block until consent (recommended)"
+msgstr "Αποκλεισμός μέχρι τη συγκατάθεση (συνιστάται)"
+
+#: build/admin.js:76
+msgid "Always allowed"
+msgstr "Πάντα επιτρεπτό"
+
+#: build/admin.js:76
+msgid "Do not block (always load)"
+msgstr "Μην αποκλείετε (φορτώνει πάντα)"
+
+#: build/admin.js:76
+msgid "Edit Resource"
+msgstr "Επεξεργασία Πόρου"
+
+#: build/admin.js:76
+msgid "Add Script or Embed"
+msgstr "Προσθήκη Script ή Ενσωμάτωσης"
+
+#: build/admin.js:76
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: build/admin.js:76
+msgid "Behavior"
+msgstr "Συμπεριφορά"
+
+#: build/admin.js:76
+msgid "Whitelisted Resource Warning"
+msgstr "Προειδοποίηση Πόρου στη Λίστα Επιτρεπόμενων"
+
+#: build/admin.js:76
+msgid "If a resource sets cookies, allowing it directly can be a GDPR violation - only whitelist resources you are sure about."
+msgstr "Εάν ένας πόρος ορίζει cookies, η άμεση επιτρεπτή χρήση του μπορεί να παραβιάζει τον GDPR - προσθέστε στη λίστα μόνο πόρους που είστε βέβαιοι."
+
+#: build/admin.js:76
+msgid "Detected by the scanner, so the value cannot be edited."
+msgstr "Εντοπίστηκε από τον σαρωτή, οπότε η τιμή δεν μπορεί να επεξεργαστεί."
+
+#: build/admin.js:76
+msgid "e.g. Support chat"
+msgstr "π.χ. Υποστήριξη συνομιλίας"
+
+#: build/admin.js:76
+msgid "Domain / Host"
+msgstr "Τομέας / Φιλοξενία"
+
+#: build/admin.js:76
+msgid "e.g. connect.facebook.net"
+msgstr "π.χ. connect.facebook.net"
+
+#: build/admin.js:76
+msgid "The host the resource loads from. Pasting a full tag or URL also works."
+msgstr "Ο κεντρικός υπολογιστής από τον οποίο φορτώνεται ο πόρος. Λειτουργεί επίσης η επικόλληση πλήρους ετικέτας ή URL."
+
+#: build/admin.js:76
+msgid "Path / Pattern (advanced)"
+msgstr "Διαδρομή / Πρότυπο (για προχωρημένους)"
+
+#: build/admin.js:76
+msgid "e.g. /fbevents.js"
+msgstr "π.χ. /fbevents.js"
+
+#: build/admin.js:76
+msgid "Optional: narrow the rule to resources that also contain this path, so only one file on the host is blocked."
+msgstr "Προαιρετικό: περιορίστε τον κανόνα σε πόρους που περιέχουν επίσης αυτή τη διαδρομή, ώστε να αποκλειστεί μόνο ένα αρχείο στον κεντρικό υπολογιστή."
+
+#: build/admin.js:76
+msgid "Script Keywords"
+msgstr "Λέξεις-κλειδιά σεναρίου"
+
+#: build/admin.js:76
+msgid "e.g. fbq, fbq.push"
+msgstr "π.χ. fbq, fbq.push"
+
+#: build/admin.js:76
+msgid "JavaScript function names to block that depend on the main script (comma separated)."
+msgstr "Ονόματα συναρτήσεων JavaScript που πρέπει να αποκλειστούν και εξαρτώνται από το κύριο σενάριο (χωρισμένα με κόμμα)."
+
+#: build/admin.js:76
+msgid "Script Location"
+msgstr "Τοποθεσία σεναρίου"
+
+#: build/admin.js:76
+msgid "Anywhere"
+msgstr "Οπουδήποτε"
+
+#: build/admin.js:76
+msgid "Where the script loads on the page. SureCookie only looks for it in this section."
+msgstr "Πού φορτώνεται το σενάριο στη σελίδα. Το SureCookie το αναζητά μόνο σε αυτή την ενότητα."
+
+#: build/admin.js:76
+msgid "This resource stays blocked until the visitor consents to this category."
+msgstr "Αυτός ο πόρος παραμένει αποκλεισμένος μέχρι ο επισκέπτης να δώσει τη συγκατάθεσή του σε αυτή την κατηγορία."
+
+#: build/admin.js:76
+msgid "Unlock Whitelisting"
+msgstr "Ξεκλείδωμα λίστας επιτρεπόμενων"
+
+#: build/admin.js:76
+msgid "Whitelist your own scripts and common services so essential integrations keep working before consent."
+msgstr "Καταχωρήστε τα δικά σας σενάρια και κοινές υπηρεσίες στη λίστα επιτρεπόμενων ώστε οι βασικές ενσωματώσεις να λειτουργούν πριν από τη συγκατάθεση."
+
+#. translators: %d: number of GCM-managed services.
+#: build/admin.js:77
+#, js-format
+msgid "Managed by Google Consent Mode (%d)"
+msgstr "Διαχειρίζεται από το Google Consent Mode (%d)"
+
+#: build/admin.js:77
+msgid "View services"
+msgstr "Προβολή υπηρεσιών"
+
+#: build/admin.js:77
+msgid "Managed by Google Consent Mode"
+msgstr "Διαχειρίζεται από το Google Consent Mode"
+
+#: build/admin.js:77
+msgid "Auto-whitelisted"
+msgstr "Αυτόματη προσθήκη στη λίστα επιτρεπόμενων"
+
+#: build/admin.js:77
+msgid "Enter the script domain or host."
+msgstr "Εισαγάγετε το domain ή τον κεντρικό υπολογιστή του σεναρίου."
+
+#: build/admin.js:77
+msgid "Select a category."
+msgstr "Επιλέξτε μια κατηγορία."
+
+#: build/admin.js:77
+msgid "A rule for this script already exists."
+msgstr "Υπάρχει ήδη κανόνας για αυτό το σενάριο."
+
+#: build/admin.js:77
+msgid "Control how scripts and embeds load based on user consent - block them until allowed or mark essential ones to always run."
+msgstr "Ελέγξτε πώς φορτώνονται τα σενάρια και οι ενσωματώσεις βάσει της συγκατάθεσης του χρήστη - αποκλείστε τα μέχρι να επιτραπούν ή επισημάνετε τα βασικά ώστε να εκτελούνται πάντα."
+
+#: build/admin.js:77
+msgid "Behavior: Always Allowed"
+msgstr "Συμπεριφορά: Πάντα Επιτρεπτό"
+
+#: build/admin.js:77
+msgid "Choose scripts and domains that should never be blocked, so tools like reCAPTCHA and other essential integrations keep working. Google Consent Mode scripts are whitelisted automatically when it is enabled."
+msgstr "Επιλέξτε σενάρια και domains που δεν πρέπει ποτέ να αποκλείονται, ώστε εργαλεία όπως το reCAPTCHA και άλλες βασικές ενσωματώσεις να λειτουργούν. Τα σενάρια του Google Consent Mode προστίθενται αυτόματα στη λίστα επιτρεπόμενων όταν είναι ενεργοποιημένο."
+
+#: build/admin.js:77
+msgid "Block Scripts and Embeds Until Consent Switch"
+msgstr "Αποκλεισμός σεναρίων και ενσωματώσεων μέχρι τη συγκατάθεση"
+
+#: build/admin.js:77
+msgid "Block Scripts Until Consent"
+msgstr "Αποκλεισμός σεναρίων μέχρι τη συγκατάθεση"
+
+#: build/admin.js:77
+msgid "Prevent non-essential scripts and embeds from loading until users give consent."
+msgstr "Αποτρέψτε τη φόρτωση μη βασικών σεναρίων και ενσωματώσεων μέχρι οι χρήστες να δώσουν τη συγκατάθεσή τους."
+
+#: build/admin.js:77
+msgid "Detected and Managed Resources"
+msgstr "Ανιχνευμένοι και διαχειριζόμενοι πόροι"
+
+#. translators: 1: scanner-detected count, 2: custom rule count
+#: build/admin.js:78
+#, js-format
+msgid "%1$d detected by scanner, %2$d custom"
+msgstr "%1$d ανιχνεύτηκαν από τον σαρωτή, %2$d προσαρμοσμένοι"
+
+#: build/admin.js:78
+msgid "New Resource"
+msgstr "Νέος πόρος"
+
+#: build/admin.js:78
+msgid "All your scripts will be displayed here"
+msgstr "Όλα τα σενάρια σας θα εμφανιστούν εδώ"
+
+#: build/admin.js:78
+msgid "Run a scan to detect third-party resources, or add a script manually."
+msgstr "Εκτελέστε σάρωση για να ανιχνεύσετε πόρους τρίτων ή προσθέστε ένα σενάριο χειροκίνητα."
+
+#: build/admin.js:78
+msgid "Add New Resource"
+msgstr "Προσθήκη νέου πόρου"
+
+#: build/admin.js:78
+msgid "Unlock Custom Script Rules & Whitelisting"
+msgstr "Ξεκλείδωμα προσαρμοσμένων κανόνων σεναρίων & λίστας επιτρεπόμενων"
+
+#: build/admin.js:78
+msgid "Add your own scripts to block under any category, whitelist trusted scripts, and manage it all from one place."
+msgstr "Προσθέστε τα δικά σας σενάρια για αποκλεισμό σε οποιαδήποτε κατηγορία, καταχωρήστε αξιόπιστα σενάρια στη λίστα επιτρεπόμενων και διαχειριστείτε τα όλα από ένα μέρος."
+
+#: build/admin.js:78
+msgid "Generate your cookie policy automatically from your settings, or display it anywhere using a shortcode."
+msgstr "Δημιουργήστε αυτόματα την πολιτική cookie από τις ρυθμίσεις σας ή εμφανίστε την οπουδήποτε χρησιμοποιώντας ένα shortcode."
+
+#: build/admin.js:78
+msgid "Automatically re-scan your site and get notified when new cookies or trackers appear."
+msgstr "Αυτόματη επανέλεγχος του ιστότοπού σας και ειδοποίηση όταν εμφανίζονται νέα cookies ή ιχνηλάτες."
+
+#: build/admin.js:84
+msgid "Show your cookie banner only in regions where consent is required."
+msgstr "Εμφάνιση της μπάντας cookie μόνο σε περιοχές όπου απαιτείται συγκατάθεση."
+
+#: build/admin.js:84
+msgid "Share visitor consent across your sites so users don’t need to give consent again."
+msgstr "Κοινή χρήση της συγκατάθεσης επισκεπτών σε όλους τους ιστότοπούς σας ώστε οι χρήστες να μην χρειάζεται να δώσουν ξανά συγκατάθεση."
+
+#: build/admin.js:84
+msgid "Unlock Consent Sharing"
+msgstr "Ξεκλείδωμα Κοινής Χρήσης Συγκατάθεσης"
+
+#: build/admin.js:77
+msgid "Allowed to load while Google Consent Mode is active, instead of being blocked before consent."
+msgstr "Επιτρέπεται η φόρτωση ενώ είναι ενεργή η Λειτουργία Συγκατάθεσης Google, αντί να αποκλείεται πριν από τη συγκατάθεση."
+
+#: build/admin.js:77
+msgid "These Google services are allowed to load while Google Consent Mode is active, instead of being blocked before consent. For Google tag products, Consent Mode then controls what they may store and which identifiers they may use. It does not stop them from contacting Google. They cannot be removed here."
+msgstr "Αυτές οι υπηρεσίες της Google επιτρέπεται να φορτώνονται ενώ είναι ενεργή η Λειτουργία Συγκατάθεσης Google, αντί να αποκλείονται πριν από τη συγκατάθεση. Για τα προϊόντα ετικετών της Google, η Λειτουργία Συγκατάθεσης ελέγχει τι μπορούν να αποθηκεύσουν και ποιοι αναγνωριστικοί μπορούν να χρησιμοποιήσουν. Δεν εμποδίζει την επικοινωνία τους με την Google. Δεν μπορούν να αφαιρεθούν εδώ."

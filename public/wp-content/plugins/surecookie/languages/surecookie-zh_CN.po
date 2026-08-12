@@ -1,0 +1,5510 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SureCookie 0.0.1-beta.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surecookie\n"
+"Last-Translator: gpt-po v1.3.0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-19T05:50:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: surecookie\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: surecookie.php
+#: inc/integrations/wp-consent-api/actions.php:66
+#: inc/integrations/wp-consent-api/actions.php:74
+msgid "SureCookie"
+msgstr "SureCookie"
+
+#. Plugin URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com"
+msgstr "https://surecookie.com"
+
+#. Description of the plugin
+#: surecookie.php
+msgid "Real cookie consent for WordPress. Browser-based scanning, smart categorization, strict script blocking, and consent logs stored in your database."
+msgstr "适用于WordPress的真实Cookie同意。基于浏览器的扫描、智能分类、严格的脚本阻止，以及存储在您的数据库中的同意日志。"
+
+#. Author URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com/"
+msgstr "https://surecookie.com/"
+
+#: admin/menu.php:74
+#: build/admin.js:2
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: admin/menu.php:87
+#: admin/menu.php:274
+#: build/admin.js:2
+msgid "Settings"
+msgstr "设置"
+
+#: admin/menu.php:82
+#: admin/menu.php:400
+#: build/admin.js:2
+msgid "Logs"
+msgstr "日志"
+
+#: admin/menu.php:91
+#: build/admin.js:2
+msgid "Learn"
+msgstr "学习"
+
+#: admin/menu.php:130
+msgid "You don't have access to this page."
+msgstr "您无权访问此页面。"
+
+#: admin/menu.php:300
+#: admin/menu.php:301
+msgid "Upgrade"
+msgstr "升级"
+
+#: admin/onboarding.php:59
+#: build/onboarding.js:14
+msgid "Onboarding"
+msgstr "入门"
+
+#: admin/onboarding.php:75
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有足够的权限访问此页面。"
+
+#: admin/product-promotion.php:110
+msgid "A simple yet powerful way to create modern forms for your website."
+msgstr "为您的网站创建现代表单的简单而强大的方式。"
+
+#: admin/rating-notice.php:234
+msgid "If SureCookie has been helpful, would you mind taking a moment to leave a 5-star review on WordPress.org?"
+msgstr "如果SureCookie对您有帮助，您愿意花点时间在WordPress.org上留下五星好评吗？"
+
+#: admin/rating-notice.php:243
+msgid "Rate SureCookie"
+msgstr "评价SureCookie"
+
+#: admin/rating-notice.php:251
+msgid "Maybe later"
+msgstr "也许以后"
+
+#: admin/rating-notice.php:255
+msgid "I already did"
+msgstr "我已经评价过了"
+
+#: inc/api/base.php:59
+msgid "You don't have access to do this."
+msgstr "您无权执行此操作。"
+
+#: inc/api/base.php:71
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "安全检查失败。请刷新页面后重试。"
+
+#: inc/api/base.php:80
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "您的会话已过期。请刷新页面后重试。"
+
+#: inc/api/consent-logs.php:146
+msgid "Search by IP address or Session ID"
+msgstr "按IP地址或会话ID搜索"
+
+#: inc/api/consent-logs.php:318
+#: inc/api/consent-logs.php:345
+msgid "Request origin could not be verified."
+msgstr "无法验证请求来源。"
+
+#: inc/api/consent-logs.php:892
+msgid "Request origin is not allowed."
+msgstr "请求来源不被允许。"
+
+#: inc/api/consent-logs.php:448
+msgid "Consent logs retrieved successfully."
+msgstr "同意日志检索成功。"
+
+#: inc/api/consent-logs.php:490
+msgid "Consent processed successfully (logging disabled)"
+msgstr "同意处理成功（日志记录已禁用）"
+
+#: inc/api/consent-logs.php:376
+#: inc/api/consent-logs.php:515
+msgid "Too many requests. Please try again later."
+msgstr "请求过多。请稍后再试。"
+
+#: inc/api/consent-logs.php:535
+msgid "Preferences should not be empty."
+msgstr "偏好设置不能为空。"
+
+#: inc/api/consent-logs.php:544
+msgid "Preferences data is too large."
+msgstr "偏好设置数据过大。"
+
+#: inc/api/consent-logs.php:555
+#: inc/api/consent-logs.php:566
+msgid "Invalid preferences format."
+msgstr "偏好设置格式无效。"
+
+#: inc/api/consent-logs.php:575
+msgid "Session ID is required."
+msgstr "需要会话ID。"
+
+#: inc/api/consent-logs.php:614
+msgid "Accept All is not enabled for this site."
+msgstr "此站点未启用“全部接受”。"
+
+#: inc/api/consent-logs.php:641
+msgid "Consent saved successfully."
+msgstr "同意保存成功。"
+
+#: inc/api/consent-logs.php:651
+msgid "Failed to save consent."
+msgstr "保存同意失败。"
+
+#: inc/api/consent-logs.php:669
+#: inc/api/consent-logs.php:801
+msgid "Invalid log ID"
+msgstr "日志ID无效"
+
+#: inc/api/consent-logs.php:681
+msgid "Log not found."
+msgstr "未找到日志。"
+
+#: inc/api/consent-logs.php:717
+#: inc/api/consent-logs.php:744
+msgid "Log details retrieved successfully."
+msgstr "日志详情检索成功。"
+
+#: inc/api/consent-logs.php:766
+msgid "Invalid log IDs"
+msgstr "无效的日志ID"
+
+#: inc/api/consent-logs.php:777
+#: inc/api/consent-logs.php:872
+msgid "Failed to delete logs."
+msgstr "删除日志失败。"
+
+#. translators: %d: number of logs deleted
+#: inc/api/consent-logs.php:787
+#, php-format
+msgid "%d log(s) deleted successfully."
+msgstr "%d 条日志删除成功。"
+
+#: inc/api/consent-logs.php:812
+msgid "Log deleted successfully."
+msgstr "日志删除成功。"
+
+#: inc/api/consent-logs.php:821
+msgid "Failed to delete log."
+msgstr "删除日志失败。"
+
+#: inc/api/consent-logs.php:863
+msgid "All logs deleted successfully."
+msgstr "所有日志删除成功。"
+
+#: inc/api/cookie-categories.php:181
+msgid "Failed to create category: "
+msgstr "创建分类失败："
+
+#: inc/api/cookie-categories.php:204
+msgid "Failed to update category: "
+msgstr "更新分类失败："
+
+#: inc/api/cookie-categories.php:230
+msgid "Failed to delete category: "
+msgstr "删除分类失败："
+
+#: inc/api/cookies.php:302
+msgid "Failed to create custom cookie: "
+msgstr "创建自定义Cookie失败："
+
+#: inc/api/cookies.php:324
+msgid "Failed to update custom cookie: "
+msgstr "更新自定义Cookie失败："
+
+#: inc/api/cookies.php:345
+msgid "Failed to delete custom cookie: "
+msgstr "删除自定义Cookie失败："
+
+#: inc/api/cookies.php:372
+msgid "Failed to update cookie category: "
+msgstr "更新Cookie分类失败："
+
+#: inc/api/onboarding.php:134
+msgid "Onboarding data saved successfully."
+msgstr "入职数据保存成功。"
+
+#: inc/api/onboarding.php:152
+msgid "Onboarding is already marked as complete."
+msgstr "入职已标记为完成。"
+
+#: inc/api/onboarding.php:162
+msgid "Onboarding marked as complete."
+msgstr "入职标记为完成。"
+
+#: inc/api/plugin.php:121
+msgid "Promotional plugins data retrieved."
+msgstr "促销插件数据已检索。"
+
+#: inc/api/plugin.php:154
+msgid "You don't have permission to activate plugins."
+msgstr "您没有权限激活插件。"
+
+#: inc/api/plugin.php:158
+#: inc/api/plugin.php:191
+msgid "Plugin not found."
+msgstr "未找到插件。"
+
+#: inc/api/plugin.php:172
+#: build/admin.js:2
+msgid "Plugin activated successfully."
+msgstr "插件激活成功。"
+
+#: inc/api/plugin.php:187
+msgid "You don't have permission to deactivate plugins."
+msgstr "您没有权限停用插件。"
+
+#: inc/api/plugin.php:203
+msgid "Plugin is already inactive."
+msgstr "插件已处于非激活状态。"
+
+#: inc/api/plugin.php:228
+#: build/admin.js:75
+msgid "Plugin deactivated successfully."
+msgstr "插件停用成功。"
+
+#: inc/api/plugin.php:290
+msgid "Conflicting plugins retrieved."
+msgstr "冲突插件已检索。"
+
+#: inc/api/posts.php:199
+msgid "Post not found."
+msgstr "未找到帖子。"
+
+#: inc/api/scan-history.php:61
+msgid "Scanned history retrieved successfully."
+msgstr "扫描历史检索成功。"
+
+#: inc/api/scanned-resources.php:78
+msgid "Scanned resources retrieved successfully."
+msgstr "扫描资源检索成功。"
+
+#: inc/api/settings.php:120
+msgid "No data found"
+msgstr "未找到数据"
+
+#: inc/api/settings.php:144
+msgid "Settings updated"
+msgstr "设置已更新"
+
+#: inc/functions/get.php:118
+msgid "Essential Cookies"
+msgstr "必要的Cookie"
+
+#: inc/functions/get.php:119
+msgid "Required for basic website functionality."
+msgstr "网站基本功能所必需。"
+
+#: inc/functions/get.php:124
+msgid "Functional Cookies"
+msgstr "功能性Cookie"
+
+#: inc/functions/get.php:125
+msgid "Enable features like saved preferences and personalized content."
+msgstr "启用保存偏好和个性化内容等功能。"
+
+#: inc/functions/get.php:130
+msgid "Analytics Cookies"
+msgstr "分析Cookie"
+
+#: inc/functions/get.php:131
+msgid "Help us understand how visitors use our site so we can improve it."
+msgstr "帮助我们了解访客如何使用我们的网站，以便改进。"
+
+#: inc/functions/get.php:136
+msgid "Marketing Cookies"
+msgstr "营销Cookie"
+
+#: inc/functions/get.php:137
+msgid "Used to show you relevant ads based on your interests."
+msgstr "用于根据您的兴趣向您展示相关广告。"
+
+#: inc/functions/get.php:142
+msgid "Uncategorized Cookies"
+msgstr "未分类Cookie"
+
+#: inc/functions/get.php:143
+msgid "Cookies that haven't been categorized yet."
+msgstr "尚未分类的Cookie。"
+
+#: inc/integrations/wp-consent-api/actions.php:62
+msgid "days"
+msgstr "天"
+
+#: inc/integrations/wp-consent-api/actions.php:69
+msgid "Stores the user's cookie consent preferences."
+msgstr "存储用户的Cookie同意偏好。"
+
+#: inc/integrations/wp-consent-api/actions.php:76
+msgid "1 year"
+msgstr "1年"
+
+#: inc/integrations/wp-consent-api/actions.php:77
+msgid "Tracks consent log sessions for audit purposes."
+msgstr "跟踪同意日志会话以供审计。"
+
+#: inc/modules/auth/api.php:71
+msgid "Authentication is already completed."
+msgstr "身份验证已完成。"
+
+#: inc/modules/auth/controller.php:71
+msgid "Could not generate secure auth key."
+msgstr "无法生成安全的身份验证密钥。"
+
+#: inc/modules/auth/controller.php:88
+msgid "Failed to encode the token data."
+msgstr "编码令牌数据失败。"
+
+#: inc/modules/auth/controller.php:179
+msgid "Invalid flow identifier."
+msgstr "无效的流程标识符。"
+
+#: inc/modules/auth/controller.php:188
+msgid "Failed to decode the access key."
+msgstr "解码访问密钥失败。"
+
+#: inc/modules/auth/controller.php:193
+msgid "Invalid data format."
+msgstr "数据格式无效。"
+
+#: inc/modules/auth/controller.php:207
+msgid "Failed to decrypt the access key."
+msgstr "解密访问密钥失败。"
+
+#: inc/modules/auth/controller.php:213
+msgid "Failed to json decode the decrypted data."
+msgstr "JSON解码解密数据失败。"
+
+#: inc/modules/auth/controller.php:217
+msgid "No user email found in the decrypted data."
+msgstr "解密数据中未找到用户邮箱。"
+
+#: inc/modules/cookie-policy/api.php:76
+#: build/admin.js:78
+msgid "Cookie Policy page already exists."
+msgstr "Cookie政策页面已存在。"
+
+#: inc/modules/cookie-policy/api.php:90
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/admin.js:78
+#: build/public.js:1
+msgid "Cookie Policy"
+msgstr "Cookie政策"
+
+#: inc/modules/cookie-policy/api.php:112
+msgid "Cookie Policy page created successfully."
+msgstr "Cookie政策页面创建成功。"
+
+#. translators: %s: site name.
+#: inc/modules/cookie-policy/api.php:182
+#, php-format
+msgid "This Cookie Policy explains how %s uses cookies and similar tracking technologies when you visit our website. It describes what these technologies are, why we use them, and your rights to control our use of them."
+msgstr "本Cookie政策解释了%s在您访问我们网站时如何使用Cookie及类似的跟踪技术。它描述了这些技术是什么、我们为何使用它们，以及您控制我们使用这些技术的权利。"
+
+#: inc/modules/cookie-policy/api.php:191
+msgid "What Are Cookies"
+msgstr "什么是Cookie"
+
+#: inc/modules/cookie-policy/api.php:195
+msgid "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, provide a better browsing experience, and supply information to the owners of the site. Cookies can be \"persistent\" or \"session\" cookies. Persistent cookies remain on your device for a set period or until you delete them, while session cookies are deleted as soon as you close your web browser."
+msgstr "Cookie是当您访问网站时存储在您的计算机或移动设备上的小型文本文件。它们被广泛用于使网站更高效地运行，提供更好的浏览体验，并向网站所有者提供信息。Cookie可以是“持久性”或“会话”Cookie。持久性Cookie会在您的设备上保留一段设定的时间，或直到您删除它们，而会话Cookie则会在您关闭浏览器时被删除。"
+
+#: inc/modules/cookie-policy/api.php:199
+msgid "In addition to cookies, we may also use similar technologies such as pixel tags, web beacons, and local storage to collect and store information. These technologies work in a similar way to cookies and allow us to monitor and improve our website and your experience of it."
+msgstr "除了 Cookie，我们还可能使用类似的技术，如像素标签、网络信标和本地存储来收集和存储信息。这些技术的工作方式与 Cookie 类似，允许我们监控和改进我们的网站及您对其的体验。"
+
+#: inc/modules/cookie-policy/api.php:206
+msgid "Types of Cookies We Use"
+msgstr "我们使用的 Cookie 类型"
+
+#: inc/modules/cookie-policy/api.php:210
+msgid "We use different types of cookies for various reasons. The table below provides detailed information about the cookies we use, organized by category, including the name of each cookie, its purpose, duration, and the domain it belongs to. Some cookies are essential for the website to function properly, while others help us understand how visitors interact with our site, remember your preferences, or deliver relevant advertising."
+msgstr "我们因各种原因使用不同类型的 Cookie。下表按类别详细介绍了我们使用的 Cookie，包括每个 Cookie 的名称、用途、持续时间及所属域名。有些 Cookie 对网站正常运行至关重要，而其他 Cookie 则帮助我们了解访客如何与网站互动、记住您的偏好或投放相关广告。"
+
+#: inc/modules/cookie-policy/api.php:220
+msgid "How to Manage Your Cookie Preferences"
+msgstr "如何管理您的 Cookie 偏好"
+
+#: inc/modules/cookie-policy/api.php:224
+msgid "When you first visit our website, you will be shown a cookie consent banner that allows you to accept or decline non-essential cookies. You can change your preferences at any time by clicking the cookie preferences option available on our website. Essential cookies cannot be disabled as they are necessary for the basic functioning of the website."
+msgstr "当您首次访问我们的网站时，会显示一个 Cookie 同意横幅，允许您接受或拒绝非必要的 Cookie。您可以随时通过点击我们网站上的 Cookie 偏好选项来更改您的偏好。必要的 Cookie 无法禁用，因为它们对网站的基本功能是必需的。"
+
+#: inc/modules/cookie-policy/api.php:228
+msgid "Please note that restricting cookies may impact your experience of the website, as some features and services may not function properly without certain cookies enabled."
+msgstr "请注意，限制 Cookie 可能会影响您对网站的体验，因为某些功能和服务在未启用特定 Cookie 的情况下可能无法正常运行。"
+
+#: inc/modules/cookie-policy/api.php:235
+msgid "How to Control Cookies in Your Browser"
+msgstr "如何在浏览器中控制 Cookie"
+
+#: inc/modules/cookie-policy/api.php:239
+msgid "Most web browsers allow you to manage your cookie preferences through their settings. You can set your browser to refuse cookies, delete existing cookies, or alert you when a cookie is being set. The steps to manage cookies vary by browser. Below are general instructions for the most common browsers."
+msgstr "大多数网页浏览器允许您通过其设置管理 Cookie 偏好。您可以设置浏览器拒绝 Cookie、删除现有 Cookie，或在设置 Cookie 时提醒您。管理 Cookie 的步骤因浏览器而异。以下是最常见浏览器的一般说明。"
+
+#: inc/modules/cookie-policy/api.php:243
+msgid "Google Chrome: Open Settings, go to Privacy and Security, then click on Cookies and other site data. From there, you can block third-party cookies, clear cookies when you close the browser, or block all cookies."
+msgstr "Google Chrome：打开设置，进入“隐私与安全”，然后点击“Cookie 及其他网站数据”。在那里，您可以阻止第三方 Cookie、关闭浏览器时清除 Cookie，或阻止所有 Cookie。"
+
+#: inc/modules/cookie-policy/api.php:247
+msgid "Mozilla Firefox: Open Settings, go to Privacy and Security, and under Cookies and Site Data you can manage how Firefox handles cookies including clearing data and managing exceptions."
+msgstr "Mozilla Firefox：打开设置，进入“隐私与安全”，在“Cookie 和网站数据”下，您可以管理 Firefox 如何处理 Cookie，包括清除数据和管理例外情况。"
+
+#: inc/modules/cookie-policy/api.php:251
+msgid "Safari: Open Preferences, go to the Privacy tab, and configure your cookie blocking preferences. Safari also offers an option to prevent cross-site tracking."
+msgstr "Safari：打开偏好设置，转到隐私标签页，配置您的cookie阻止偏好。Safari还提供防止跨站点跟踪的选项。"
+
+#: inc/modules/cookie-policy/api.php:255
+msgid "Microsoft Edge: Open Settings, go to Privacy, Search, and Services. Under the Cookies section, you can choose to block third-party cookies or all cookies and manage cookie exceptions."
+msgstr "Microsoft Edge：打开设置，转到隐私、搜索和服务。在Cookie部分，您可以选择阻止第三方Cookie或所有Cookie，并管理Cookie例外。"
+
+#: inc/modules/cookie-policy/api.php:262
+msgid "Consequences of Disabling Cookies"
+msgstr "禁用Cookie的后果"
+
+#: inc/modules/cookie-policy/api.php:266
+msgid "If you choose to disable or decline cookies, some parts of this website may not function as intended. For example, you may not be able to log in, your preferences may not be saved between visits, and certain interactive features may be limited. Disabling essential cookies may make it impossible to use some or all of the services provided through this website."
+msgstr "如果您选择禁用或拒绝Cookie，本网站的某些部分可能无法按预期工作。例如，您可能无法登录，您的偏好设置可能无法在访问之间保存，某些交互功能可能受限。禁用必要的Cookie可能导致无法使用本网站提供的部分或全部服务。"
+
+#: inc/modules/cookie-policy/api.php:270
+msgid "Disabling analytics or marketing cookies will not affect the core functionality of the website, but it may limit our ability to improve the website based on user behavior or to provide you with personalized content and advertisements."
+msgstr "禁用分析或营销Cookie不会影响网站的核心功能，但可能限制我们根据用户行为改进网站或向您提供个性化内容和广告的能力。"
+
+#: inc/modules/cookie-policy/api.php:277
+msgid "Changes to This Cookie Policy"
+msgstr "本Cookie政策的变更"
+
+#: inc/modules/cookie-policy/api.php:281
+msgid "We may update this Cookie Policy from time to time to reflect changes in technology, legislation, our business operations, or any other reason we determine is necessary or appropriate. Any changes will be posted on this page with an updated revision date. We encourage you to review this Cookie Policy periodically to stay informed about how we are using cookies."
+msgstr "我们可能会不时更新本Cookie政策，以反映技术、法律、业务运营的变化或我们认为必要或适当的任何其他原因。任何变更都会发布在此页面并更新修订日期。我们鼓励您定期查看本Cookie政策，以了解我们如何使用Cookie。"
+
+#: inc/modules/cookie-policy/api.php:288
+msgid "Contact Us"
+msgstr "联系我们"
+
+#: inc/modules/cookie-policy/api.php:292
+msgid "If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at:"
+msgstr "如果您对本Cookie政策或我们对Cookie的使用有任何疑问或担忧，请通过以下方式联系我们："
+
+#: inc/modules/cookie-policy/api.php:296
+msgid "[Your Company Name], [Your Address], [your-email@example.com]"
+msgstr "[您的公司名称]，[您的地址]，[your-email@example.com]"
+
+#: inc/modules/cookie-policy/shortcode.php:143
+#: inc/modules/cookie-policy/shortcode.php:144
+msgid "Table of Contents"
+msgstr "目录"
+
+#: inc/modules/cookie-policy/shortcode.php:203
+#: build/admin.js:25
+msgid "Cookie Name"
+msgstr "Cookie名称"
+
+#: inc/modules/cookie-policy/shortcode.php:204
+#: build/admin.js:25
+msgid "Purpose"
+msgstr "用途"
+
+#: inc/modules/cookie-policy/shortcode.php:205
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Duration"
+msgstr "持续时间"
+
+#: inc/modules/cookie-policy/shortcode.php:206
+#: build/admin.js:25
+msgid "Domain"
+msgstr "域名"
+
+#. translators: %s: formatted date string.
+#: inc/modules/cookie-policy/shortcode.php:270
+#, php-format
+msgid "Last updated: %s"
+msgstr "最后更新：%s"
+
+#: inc/modules/cookie-policy/shortcode.php:356
+msgid "This website"
+msgstr "本网站"
+
+#: inc/modules/google-consent-mode/consent-handler.php:130
+msgid "SureCookie:"
+msgstr "SureCookie："
+
+#: inc/modules/google-consent-mode/consent-handler.php:132
+msgid "Google Site Kit's Consent Mode is active. Please disable it in Site Kit settings to use SureCookie's implementation."
+msgstr "Google Site Kit的同意模式已启用。请在Site Kit设置中禁用它以使用SureCookie的实现。"
+
+#: inc/modules/nudges/api.php:70
+msgid "Invalid type provided."
+msgstr "提供的类型无效。"
+
+#: inc/modules/nudges/api.php:94
+msgid "Could not disable the nudge. Please try again."
+msgstr "无法禁用提示。请重试。"
+
+#. translators: %s: nudge type
+#: inc/modules/nudges/api.php:100
+#, php-format
+msgid "\"%s\" has been disabled."
+msgstr "\"%s\" 已被禁用。"
+
+#. translators: %s: Service name (e.g., YouTube, Vimeo, Bunny.net).
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:302
+#: inc/modules/script-blocking/blocker.php:1283
+#, php-format
+msgid "This content is blocked because it requires %s cookies."
+msgstr "此内容被阻止，因为它需要 %s Cookie。"
+
+#: inc/integrations/presto-player/block-handler.php:240
+#: inc/modules/script-blocking/blocker.php:1298
+msgid "Accept & Load"
+msgstr "接受并加载"
+
+#: inc/modules/site-scanner/api.php:220
+msgid "Scan cancelled successfully."
+msgstr "扫描已成功取消。"
+
+#: inc/modules/site-scanner/api.php:226
+msgid "No active scan to cancel."
+msgstr "没有活动扫描可取消。"
+
+#: inc/modules/site-scanner/api.php:257
+#: inc/modules/site-scanner/saas-client.php:400
+msgid "A scan is already in progress. Please wait for it to complete."
+msgstr "扫描已在进行中。请等待完成。"
+
+#: inc/modules/site-scanner/api.php:273
+#: inc/modules/site-scanner/cron.php:76
+#: inc/modules/site-scanner/saas-client.php:407
+msgid "No pages selected for scanning."
+msgstr "未选择扫描页面。"
+
+#: inc/modules/site-scanner/api.php:288
+msgid "Failed to start scan."
+msgstr "启动扫描失败。"
+
+#: inc/modules/site-scanner/api.php:299
+msgid "Cookie scan has been initiated."
+msgstr "Cookie 扫描已启动。"
+
+#: inc/modules/site-scanner/api.php:300
+msgid "The scan is running. You will be notified when it completes."
+msgstr "扫描正在进行中。完成后您将收到通知。"
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/api.php:312
+#, php-format
+msgid "Failed to start site scanner: %s"
+msgstr "启动站点扫描器失败：%s"
+
+#: inc/modules/site-scanner/cron.php:70
+msgid "Starting site scan (triggered by user)."
+msgstr "开始站点扫描（由用户触发）。"
+
+#. translators: %s: Plan name
+#: inc/modules/site-scanner/cron.php:92
+#, php-format
+msgid "Plan: %s."
+msgstr "计划：%s。"
+
+#. translators: %d: Number of pages
+#: inc/modules/site-scanner/cron.php:93
+#, php-format
+msgid "Pages selected: %d."
+msgstr "选择的页面数：%d。"
+
+#: inc/modules/site-scanner/cron.php:95
+msgid "Sending scan request…"
+msgstr "正在发送扫描请求…"
+
+#: inc/modules/site-scanner/cron.php:101
+msgid "Scan already in progress. Skipping."
+msgstr "扫描已在进行中。跳过。"
+
+#: inc/modules/site-scanner/cron.php:114
+msgid "Scan started successfully."
+msgstr "扫描启动成功。"
+
+#. translators: %s: Group ID
+#: inc/modules/site-scanner/cron.php:115
+#, php-format
+msgid "Group ID: %s"
+msgstr "组 ID：%s"
+
+#: inc/modules/site-scanner/cron.php:117
+msgid "Checking scan progress…"
+msgstr "正在检查扫描进度…"
+
+#: inc/modules/site-scanner/cron.php:122
+msgid "Scan failed."
+msgstr "扫描失败。"
+
+#: inc/modules/site-scanner/cron.php:166
+msgid "No active scan."
+msgstr "无活动扫描。"
+
+#: inc/modules/site-scanner/cron.php:186
+msgid "Scan in progress..."
+msgstr "扫描进行中…"
+
+#: inc/modules/site-scanner/cron.php:224
+msgid "Scan cancelled by user."
+msgstr "扫描被用户取消。"
+
+#: inc/modules/site-scanner/saas-client.php:281
+msgid "Every 1 Minute (SureCookie Polling)"
+msgstr "每 1 分钟（SureCookie 轮询）"
+
+#: inc/modules/site-scanner/saas-client.php:391
+msgid "Cookie scanning is not available for localhost or development sites. Please use a live domain."
+msgstr "Cookie 扫描不适用于本地主机或开发站点。请使用真实域名。"
+
+#: inc/modules/site-scanner/saas-client.php:422
+msgid "Could not generate a secure scan token. Please retry."
+msgstr "无法生成安全扫描令牌。请重试。"
+
+#: inc/modules/site-scanner/saas-client.php:448
+msgid "Failed to encode scan request."
+msgstr "编码扫描请求失败。"
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/saas-client.php:493
+#, php-format
+msgid "Failed to start scan: %s"
+msgstr "启动扫描失败：%s"
+
+#: inc/modules/site-scanner/saas-client.php:531
+msgid "Unknown error occurred."
+msgstr "发生未知错误。"
+
+#: inc/modules/site-scanner/saas-client.php:599
+msgid "Scan has been started. You will be notified when it completes."
+msgstr "扫描已启动。完成后您将收到通知。"
+
+#: inc/modules/site-scanner/saas-client.php:641
+msgid "Failed to check scan status."
+msgstr "检查扫描状态失败。"
+
+#: inc/modules/site-scanner/saas-client.php:778
+msgid "Failed to get scan group."
+msgstr "获取扫描组失败。"
+
+#: inc/modules/site-scanner/saas-client.php:906
+msgid "Scan timed out. Please try again."
+msgstr "扫描超时。请重试。"
+
+#. translators: 1: completed pages count, 2: total pages count
+#: inc/modules/site-scanner/saas-client.php:944
+#, php-format
+msgid "Progress: %1$d of %2$d pages scanned."
+msgstr "进度：已扫描 %1$d 页，共 %2$d 页。"
+
+#. translators: %d: number of failed pages
+#: inc/modules/site-scanner/saas-client.php:954
+#, php-format
+msgid "%d page(s) failed to scan."
+msgstr "%d 页扫描失败。"
+
+#: inc/modules/site-scanner/saas-client.php:977
+msgid "Scan completed!"
+msgstr "扫描完成！"
+
+#: inc/modules/site-scanner/saas-client.php:996
+msgid "Scan failed on server."
+msgstr "服务器上的扫描失败。"
+
+#: inc/modules/site-scanner/saas-client.php:1002
+msgid "Scan is in progress. Checking again…"
+msgstr "扫描进行中。正在再次检查…"
+
+#: inc/modules/site-scanner/saas-client.php:1043
+msgid "Quota is not available on localhost or development sites."
+msgstr "配额不适用于本地主机或开发站点。"
+
+#: inc/modules/site-scanner/saas-client.php:1056
+msgid "Scanner credentials are not yet issued. Run your first scan to register."
+msgstr "扫描器凭据尚未发放。运行首次扫描以注册。"
+
+#: inc/modules/site-scanner/saas-client.php:1102
+msgid "Unexpected response from server."
+msgstr "服务器响应异常。"
+
+#: inc/modules/site-scanner/saas-client.php:1149
+msgid "Authentication required."
+msgstr "需要身份验证。"
+
+#: inc/modules/site-scanner/saas-client.php:1159
+msgid "Failed to fetch quota."
+msgstr "获取配额失败。"
+
+#: inc/modules/site-scanner/saas-client.php:1476
+msgid "Another registration is already in progress. Please try again in a moment."
+msgstr "另一个注册正在进行中。请稍后再试。"
+
+#: inc/modules/site-scanner/saas-client.php:1506
+msgid "Could not determine site domain."
+msgstr "无法确定站点域名。"
+
+#: inc/modules/site-scanner/saas-client.php:1518
+msgid "Could not generate a secure registration nonce. Please retry."
+msgstr "无法生成安全注册随机数。请重试。"
+
+#: inc/modules/site-scanner/saas-client.php:1546
+msgid "Failed to encode registration request."
+msgstr "编码注册请求失败。"
+
+#. translators: %s: error message from the network call
+#: inc/modules/site-scanner/saas-client.php:1568
+#, php-format
+msgid "Could not reach the SureCookie service: %s"
+msgstr "无法连接 SureCookie 服务：%s"
+
+#: inc/modules/site-scanner/saas-client.php:1582
+msgid "Registration could not be initiated."
+msgstr "无法启动注册。"
+
+#: inc/modules/site-scanner/saas-client.php:1597
+msgid "Received an invalid verification token. Please retry."
+msgstr "收到无效的验证令牌。请重试。"
+
+#: inc/modules/site-scanner/saas-client.php:1615
+msgid "Failed to encode verification completion."
+msgstr "编码验证完成失败。"
+
+#: inc/modules/site-scanner/saas-client.php:1899
+msgid "Failed to fetch results."
+msgstr "获取结果失败。"
+
+#: inc/services/cookie-category-service.php:54
+msgid "Cookie categories retrieved successfully."
+msgstr "Cookie 分类获取成功。"
+
+#: inc/services/cookie-category-service.php:75
+msgid "Category name is required."
+msgstr "需要分类名称。"
+
+#: inc/services/cookie-category-service.php:86
+msgid "A category with this name already exists."
+msgstr "具有此名称的分类已存在。"
+
+#: inc/services/cookie-category-service.php:103
+msgid "Category created successfully."
+msgstr "分类创建成功。"
+
+#: inc/services/cookie-category-service.php:124
+#: inc/services/cookie-category-service.php:196
+msgid "Category ID is required."
+msgstr "需要分类 ID。"
+
+#: inc/services/cookie-category-service.php:134
+#: inc/services/cookie-category-service.php:215
+msgid "Category not found."
+msgstr "未找到分类。"
+
+#: inc/services/cookie-category-service.php:166
+msgid "Category updated successfully."
+msgstr "分类更新成功。"
+
+#: inc/services/cookie-category-service.php:205
+msgid "Default categories cannot be deleted."
+msgstr "默认分类无法删除。"
+
+#: inc/services/cookie-category-service.php:307
+msgid "Category deleted successfully."
+msgstr "分类删除成功。"
+
+#: inc/services/cookie-service.php:60
+#: inc/services/cookie-service.php:355
+msgid "No scanned cookies found."
+msgstr "未找到扫描的 Cookie。"
+
+#: inc/services/cookie-service.php:84
+msgid "Scanned cookies retrieved successfully."
+msgstr "扫描的 Cookie 获取成功。"
+
+#: inc/services/cookie-service.php:101
+msgid "Custom cookies retrieved successfully."
+msgstr "自定义 Cookie 获取成功。"
+
+#: inc/services/cookie-service.php:132
+#: inc/services/cookie-service.php:323
+msgid "Cookie name is required."
+msgstr "Cookie 名称为必填项。"
+
+#: inc/services/cookie-service.php:139
+msgid "Cookie category is required."
+msgstr "Cookie 类别为必填项。"
+
+#: inc/services/cookie-service.php:154
+msgid "A cookie with this name already exists."
+msgstr "具有此名称的 Cookie 已存在。"
+
+#: inc/services/cookie-service.php:191
+msgid "Custom cookie created successfully."
+msgstr "自定义 Cookie 创建成功。"
+
+#: inc/services/cookie-service.php:210
+#: inc/services/cookie-service.php:280
+msgid "Cookie ID is required."
+msgstr "Cookie ID 为必填项。"
+
+#: inc/services/cookie-service.php:219
+#: inc/services/cookie-service.php:289
+msgid "Cookie not found."
+msgstr "未找到 Cookie。"
+
+#: inc/services/cookie-service.php:262
+msgid "Custom cookie updated successfully."
+msgstr "自定义 Cookie 更新成功。"
+
+#: inc/services/cookie-service.php:299
+msgid "Custom cookie deleted successfully."
+msgstr "自定义 Cookie 删除成功。"
+
+#: inc/services/cookie-service.php:330
+msgid "Current category is required."
+msgstr "当前类别为必填项。"
+
+#: inc/services/cookie-service.php:337
+#: inc/services/cookie-service.php:414
+msgid "New category is required."
+msgstr "新类别为必填项。"
+
+#: inc/services/cookie-service.php:345
+msgid "Cookie is already in the selected category."
+msgstr "Cookie 已在所选类别中。"
+
+#: inc/services/cookie-service.php:363
+msgid "Current category not found in scanned cookies."
+msgstr "扫描的 Cookie 中未找到当前类别。"
+
+#: inc/services/cookie-service.php:372
+msgid "Cookie not found in the specified category."
+msgstr "指定类别中未找到 Cookie。"
+
+#: inc/services/cookie-service.php:384
+msgid "Cookie category updated successfully."
+msgstr "Cookie 类别更新成功。"
+
+#: inc/utils/options.php:48
+msgid "We use cookies to improve your experience and understand how you use our site. You can review your choices at any time."
+msgstr "我们使用 Cookie 来提升您的体验并了解您如何使用我们的网站。您可以随时查看您的选择。"
+
+#: inc/utils/options.php:62
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Only Essential"
+msgstr "仅限必要"
+
+#: inc/utils/options.php:71
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Accept All"
+msgstr "全部接受"
+
+#: inc/utils/options.php:75
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Decline"
+msgstr "拒绝"
+
+#: inc/utils/options.php:79
+msgid "Cookie Settings"
+msgstr "Cookie 设置"
+
+#: inc/utils/options.php:142
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: inc/utils/options.php:146
+msgid "Privacy Preference"
+msgstr "隐私偏好"
+
+#: inc/utils/options.php:150
+msgid "We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience."
+msgstr "我们使用 Cookie 及类似技术来帮助个性化内容、定制和衡量广告，并提供更好的体验。"
+
+#: inc/utils/options.php:174
+#: build/admin.js:4
+#: build/admin.js:75
+msgid "Cookie Preferences"
+msgstr "Cookie 偏好"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Accepted"
+msgstr "已接受"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Partially Accepted"
+msgstr "部分接受"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Declined"
+msgstr "已拒绝"
+
+#: build/admin.js:1
+msgid "Failed to load consent logs"
+msgstr "加载同意日志失败"
+
+#: build/admin.js:1
+msgid "Failed to load conflicting plugins"
+msgstr "加载冲突插件失败"
+
+#: build/admin.js:1
+msgid "Failed to load cookie categories"
+msgstr "加载 Cookie 类别失败"
+
+#: build/admin.js:1
+msgid "Scan cancelled."
+msgstr "扫描已取消。"
+
+#: build/admin.js:1
+msgid "Failed to cancel scan."
+msgstr "取消扫描失败。"
+
+#: build/admin.js:1
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "Failed to load settings"
+msgstr "加载设置失败"
+
+#: build/admin.js:1
+msgid "Failed to save settings"
+msgstr "保存设置失败"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "30 days"
+msgstr "30 天"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "60 days"
+msgstr "60 天"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "90 days"
+msgstr "90 天"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "365 days"
+msgstr "365 天"
+
+#: build/admin.js:1
+#: build/admin.js:3
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "Never"
+msgstr "从不"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Cookie Scanner"
+msgstr "Cookie 扫描器"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "All Cookies"
+msgstr "所有 Cookie"
+
+#: build/admin.js:2
+msgid "Banner"
+msgstr "横幅"
+
+#: build/admin.js:2
+msgid "Content"
+msgstr "内容"
+
+#: build/admin.js:2
+msgid "Layout"
+msgstr "布局"
+
+#: build/admin.js:2
+#: build/admin.js:78
+msgid "Visibility"
+msgstr "可见性"
+
+#: build/admin.js:2
+#: build/admin.js:75
+msgid "Re-Consent"
+msgstr "重新同意"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "Custom CSS"
+msgstr "自定义 CSS"
+
+#: build/admin.js:2
+msgid "Google Consent Mode"
+msgstr "Google 同意模式"
+
+#: build/admin.js:2
+msgid "Additional Consent"
+msgstr "额外同意"
+
+#: build/admin.js:2
+#: build/admin.js:21
+msgid "Consent Logs"
+msgstr "同意日志"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication timeout. Please try again."
+msgstr "身份验证超时。请重试。"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful!"
+msgstr "身份验证成功！"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "An error occurred during authentication"
+msgstr "身份验证过程中发生错误"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication cancelled. Please try again."
+msgstr "身份验证已取消。请重试。"
+
+#: inc/modules/assisted-scan/collector.php:329
+#: build/admin.js:2
+#: build/admin.js:3
+#: build/admin.js:28
+#: build/admin.js:41
+msgid "Cancel"
+msgstr "取消"
+
+#: build/admin.js:2
+#: build/admin.js:5
+#: build/admin.js:6
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Delete"
+msgstr "删除"
+
+#: build/admin.js:2
+#: build/admin.js:28
+#: build/admin.js:83
+msgid "Save"
+msgstr "保存"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "No options available"
+msgstr "无可用选项"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful"
+msgstr "身份验证成功"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication completed successfully. Closing tab in 3 seconds…"
+msgstr "身份验证成功完成。3 秒后关闭标签页…"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication failed"
+msgstr "身份验证失败"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Please return to the SureCookie dashboard and try again."
+msgstr "请返回 SureCookie 仪表板并重试。"
+
+#: build/admin.js:2
+#: build/onboarding.js:6
+msgid "Let's Get Started"
+msgstr "让我们开始吧"
+
+#: build/admin.js:2
+msgid "Automatic Cookie Detection"
+msgstr "自动 Cookie 检测"
+
+#: build/admin.js:2
+msgid "Smart Categorization"
+msgstr "智能分类"
+
+#: build/admin.js:2
+msgid "Compliance Recommendations"
+msgstr "合规建议"
+
+#: build/admin.js:2
+msgid "Connect to scan your website"
+msgstr "连接以扫描您的网站"
+
+#: build/admin.js:2
+msgid "Connect your SureCookie account to automatically detect cookies on your website, categorize them, and get compliance recommendations."
+msgstr "连接您的 SureCookie 账户以自动检测您网站上的 Cookie，进行分类，并获得合规建议。"
+
+#: build/admin.js:2
+msgid "Learn more"
+msgstr "了解更多"
+
+#: build/admin.js:2
+msgid "Free Plan Limit Reached"
+msgstr "免费计划限制已达"
+
+#: build/admin.js:2
+#: build/admin.js:6
+#: build/admin.js:47
+#: build/admin.js:53
+#: build/admin.js:63
+#: build/admin.js:75
+#: build/onboarding.js:7
+msgid "Upgrade Now"
+msgstr "立即升级"
+
+#: build/admin.js:2
+msgid "Unlock this feature"
+msgstr "解锁此功能"
+
+#: build/admin.js:2
+msgid "WordPress updates API not available."
+msgstr "WordPress 更新 API 不可用。"
+
+#: build/admin.js:2
+msgid "Plugin activation failed."
+msgstr "插件激活失败。"
+
+#: build/admin.js:2
+msgid "Plugin installation failed."
+msgstr "插件安装失败。"
+
+#: build/admin.js:2
+msgid "Plugin installed and activated successfully."
+msgstr "插件安装并激活成功。"
+
+#: build/admin.js:2
+msgid "Failed to install and activate plugin."
+msgstr "安装和激活插件失败。"
+
+#: build/admin.js:2
+msgid "Failed to activate plugin."
+msgstr "插件激活失败。"
+
+#: build/admin.js:2
+msgid "Install and Activate"
+msgstr "安装并激活"
+
+#: build/admin.js:2
+msgid "Activate"
+msgstr "激活"
+
+#: build/admin.js:2
+msgid "Activated"
+msgstr "已激活"
+
+#: build/admin.js:2
+msgid "Settings saved!"
+msgstr "设置已保存！"
+
+#: build/admin.js:2
+msgid "Your settings have been successfully saved."
+msgstr "您的设置已成功保存。"
+
+#: build/admin.js:2
+msgid "Save failed!"
+msgstr "保存失败！"
+
+#: build/admin.js:2
+msgid "There was an error saving your settings. Please try again."
+msgstr "保存设置时出错。请重试。"
+
+#: build/admin.js:2
+msgid "Saving…"
+msgstr "正在保存…"
+
+#: build/admin.js:2
+msgid "Banner Content"
+msgstr "横幅内容"
+
+#: build/admin.js:2
+msgid "Configure the text content that appears in your cookie consent banner and preference modal"
+msgstr "配置显示在您的 Cookie 同意横幅和偏好设置模态框中的文本内容"
+
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "An error occurred while loading settings. Please refresh the page to try again."
+msgstr "加载设置时发生错误。请刷新页面重试。"
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner Switch"
+msgstr "启用 Cookie 横幅开关"
+
+#: build/admin.js:2
+msgid "Show cookie consent banner to comply with privacy regulations."
+msgstr "显示 Cookie 同意横幅以遵守隐私法规。"
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner"
+msgstr "启用 Cookie 横幅"
+
+#: build/admin.js:2
+msgid "Consent Banner"
+msgstr "同意横幅"
+
+#: build/admin.js:2
+msgid "Preference Modal"
+msgstr "偏好设置模态框"
+
+#: build/admin.js:2
+msgid "Banner Heading"
+msgstr "横幅标题"
+
+#: build/admin.js:2
+msgid "Cookie Notice (optional)"
+msgstr "Cookie 通知（可选）"
+
+#: build/admin.js:2
+msgid "Banner Message"
+msgstr "横幅消息"
+
+#: build/admin.js:2
+msgid "Enable Accept All Button"
+msgstr "启用“全部接受”按钮"
+
+#: build/admin.js:2
+msgid "Show the \"Accept All\" button on the consent banner. When off, the button is removed from the banner and from the Button Order list."
+msgstr "在同意横幅上显示“全部接受”按钮。关闭时，该按钮将从横幅和按钮顺序列表中移除。"
+
+#: build/admin.js:2
+msgid "Preference Modal Title"
+msgstr "偏好设置模态框标题"
+
+#: build/admin.js:2
+msgid "Preference Modal Description"
+msgstr "偏好设置模态框描述"
+
+#: build/admin.js:2
+msgid "Preference modal description cannot be empty."
+msgstr "偏好设置模态框描述不能为空。"
+
+#: build/admin.js:2
+msgid "Banner message cannot be empty."
+msgstr "横幅消息不能为空。"
+
+#: build/admin.js:2
+msgid "Button Order"
+msgstr "按钮顺序"
+
+#: build/admin.js:2
+msgid "Drag and drop to reorder buttons. This order can be overridden per Geographic Targeting Rule."
+msgstr "拖放以重新排序按钮。此顺序可被地理定位规则覆盖。"
+
+#: build/admin.js:2
+msgid "Banner Layout"
+msgstr "横幅布局"
+
+#: build/admin.js:2
+msgid "Configure how and where your cookie banner appears on your website"
+msgstr "配置您的 Cookie 横幅在网站上的显示方式和位置"
+
+#: build/admin.js:2
+msgid "Upload Logo"
+msgstr "上传徽标"
+
+#: build/admin.js:2
+msgid "Logo"
+msgstr "徽标"
+
+#: build/admin.js:2
+msgid "Select Logo"
+msgstr "选择徽标"
+
+#: build/admin.js:2
+msgid "Use this logo"
+msgstr "使用此徽标"
+
+#: build/admin.js:2
+msgid "Banner Type"
+msgstr "横幅类型"
+
+#: build/admin.js:2
+msgid "Floating Banner"
+msgstr "浮动横幅"
+
+#: build/admin.js:2
+msgid "Full-width Banner"
+msgstr "全宽横幅"
+
+#: build/admin.js:2
+msgid "Banner Width"
+msgstr "横幅宽度"
+
+#: build/admin.js:2
+msgid "px"
+msgstr "像素"
+
+#: build/admin.js:2
+msgid "Position"
+msgstr "位置"
+
+#: build/admin.js:2
+msgid "Bottom Left"
+msgstr "左下角"
+
+#: build/admin.js:2
+msgid "Bottom Center"
+msgstr "底部居中"
+
+#: build/admin.js:2
+msgid "Bottom Right"
+msgstr "右下角"
+
+#: build/admin.js:2
+msgid "Middle"
+msgstr "中间"
+
+#: build/admin.js:2
+msgid "Top"
+msgstr "顶部"
+
+#: build/admin.js:2
+msgid "Bottom"
+msgstr "底部"
+
+#: build/admin.js:2
+msgid "Banner Animation"
+msgstr "横幅动画"
+
+#: build/admin.js:2
+msgid "Fade"
+msgstr "淡入淡出"
+
+#: build/admin.js:2
+msgid "Slide"
+msgstr "滑动"
+
+#: build/admin.js:2
+msgid "Color Palette: <span></span>"
+msgstr "调色板：<span></span>"
+
+#: build/admin.js:2
+#: build/admin.js:4
+msgid "Default"
+msgstr "默认"
+
+#: build/admin.js:4
+msgid "Consent Details"
+msgstr "同意详情"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Unknown"
+msgstr "未知"
+
+#: build/admin.js:4
+msgid "No data available."
+msgstr "无可用数据。"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Actions"
+msgstr "操作"
+
+#: build/admin.js:4
+msgid "Consent logs"
+msgstr "同意日志"
+
+#: build/admin.js:4
+msgid "Date & Time"
+msgstr "日期和时间"
+
+#: build/admin.js:4
+msgid "IP Address"
+msgstr "IP 地址"
+
+#: build/admin.js:4
+msgid "Country"
+msgstr "国家"
+
+#: build/admin.js:4
+#: build/admin.js:76
+msgid "Status"
+msgstr "状态"
+
+#: build/admin.js:4
+msgid "Download PDF"
+msgstr "下载 PDF"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:5
+#, js-format
+msgid "Download PDF for consent log from %s"
+msgstr "下载 %s 的同意日志 PDF"
+
+#: build/admin.js:4
+msgid "Session Summary"
+msgstr "会话摘要"
+
+#: build/admin.js:4
+msgid "Field"
+msgstr "字段"
+
+#: build/admin.js:4
+msgid "Value"
+msgstr "数值"
+
+#: build/admin.js:4
+msgid "Session ID"
+msgstr "会话 ID"
+
+#: build/admin.js:4
+msgid "Total Records"
+msgstr "记录总数"
+
+#: build/admin.js:4
+msgid "Date Range"
+msgstr "日期范围"
+
+#: build/admin.js:4
+msgid "Consent Record"
+msgstr "同意记录"
+
+#: build/admin.js:4
+msgid "Log ID"
+msgstr "日志 ID"
+
+#: build/admin.js:4
+msgid "Timestamp"
+msgstr "时间戳"
+
+#: build/admin.js:4
+msgid "Consent Status"
+msgstr "同意状态"
+
+#: build/admin.js:4
+msgid "Consent Preset"
+msgstr "同意预设"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Category"
+msgstr "类别"
+
+#: build/admin.js:4
+msgid "Legal Information"
+msgstr "法律信息"
+
+#: build/admin.js:4
+msgid "Date of Generation"
+msgstr "生成日期"
+
+#: build/admin.js:4
+msgid "Website"
+msgstr "网站"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:6
+#, js-format
+msgid "Delete consent log from %s"
+msgstr "删除来自 %s 的同意日志"
+
+#: build/admin.js:6
+msgid "Consent log is empty"
+msgstr "同意日志为空"
+
+#: build/admin.js:6
+msgid "Your consent logs will be displayed here once users interact with the banner"
+msgstr "用户与横幅交互后，您的同意日志将显示在此处"
+
+#: build/admin.js:6
+msgid "Consent Logging Disabled"
+msgstr "同意日志记录已禁用"
+
+#: build/admin.js:6
+msgid "Enable consent logging to view analytics data and recent consent logs."
+msgstr "启用同意日志记录以查看分析数据和最近的同意日志。"
+
+#: build/admin.js:3
+#: build/admin.js:6
+msgid "Enable Consent Logging"
+msgstr "启用同意日志记录"
+
+#: build/admin.js:6
+msgid "<span></span> Selected"
+msgstr "<span></span> 已选择"
+
+#: build/admin.js:6
+msgid "Deleting…"
+msgstr "正在删除…"
+
+#: build/admin.js:6
+msgid "All Actions"
+msgstr "所有操作"
+
+#: build/admin.js:6
+msgid "All Countries"
+msgstr "所有国家"
+
+#: build/admin.js:6
+msgid "IP address or Session ID…"
+msgstr "IP 地址或会话 ID…"
+
+#: build/admin.js:6
+msgid "Clear Filters"
+msgstr "清除筛选条件"
+
+#: build/admin.js:6
+msgid "View All Logs"
+msgstr "查看所有日志"
+
+#: build/admin.js:6
+msgid "Consents"
+msgstr "同意"
+
+#: build/admin.js:6
+msgid "No Consents Yet"
+msgstr "尚无同意"
+
+#: build/admin.js:6
+msgid "Data will appear here once visitors interact with the cookie banner."
+msgstr "访客与 Cookie 横幅交互后，数据将显示在此处。"
+
+#. translators: %s: log/logs
+#: build/admin.js:9
+#, js-format
+msgid "Failed to delete consent %s"
+msgstr "删除同意 %s 失败"
+
+#. translators: %s: log/logs
+#: build/admin.js:12
+#, js-format
+msgid "Successfully deleted consent %s"
+msgid_plural "logs"
+msgstr[0] "成功删除同意 %s"
+
+#: build/admin.js:12
+msgid "Failed to delete consent log"
+msgstr "删除同意日志失败"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Delete Consent Log"
+msgstr "删除同意日志"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Are you sure you want to delete this consent log? This action cannot be undone."
+msgstr "您确定要删除此同意日志吗？此操作无法撤销。"
+
+#: build/admin.js:15
+msgid "Delete Selected Consent Logs"
+msgstr "删除选定的同意日志"
+
+#. translators: %s: the log string pluralized.
+#: build/admin.js:18
+#, js-format
+msgid "Are you sure you want to delete the selected consent %s? This action cannot be undone."
+msgstr "您确定要删除选定的同意 %s 吗？此操作无法撤销。"
+
+#: build/admin.js:21
+msgid "Failed to load countries"
+msgstr "加载国家失败"
+
+#: build/admin.js:21
+msgid "Page"
+msgstr "第"
+
+#: build/admin.js:21
+msgid "of"
+msgstr "页，共"
+
+#: build/admin.js:21
+msgid "Consent Logs Pagination"
+msgstr "同意日志分页"
+
+#: build/admin.js:2
+msgid "Consent Duration (in days)"
+msgstr "同意有效期（天）"
+
+#: build/admin.js:2
+msgid "Please enter a value between 1 and 365 days."
+msgstr "请输入 1 到 365 天之间的值。"
+
+#: build/admin.js:2
+msgid "How long user consent remains valid before requiring renewal (1–365 days)."
+msgstr "用户同意在需要续期前的有效时长（1–365 天）。"
+
+#: build/admin.js:3
+msgid "Enable Consent Logging Switch"
+msgstr "启用同意日志切换"
+
+#: build/admin.js:3
+msgid "Store consent records in database for compliance reporting and analytics."
+msgstr "将同意记录存储在数据库中以便合规报告和分析。"
+
+#: build/admin.js:3
+msgid "Clear Logs After"
+msgstr "清除日志时间"
+
+#: build/admin.js:3
+msgid "Select retention period"
+msgstr "选择保留期限"
+
+#: build/admin.js:3
+msgid "Automatically delete consent logs older than the selected period."
+msgstr "自动删除超过所选期限的同意日志。"
+
+#: build/admin.js:53
+msgid "SureCookie admin menu location toggle"
+msgstr "SureCookie 管理菜单位置切换"
+
+#: build/admin.js:53
+msgid "Hide SureCookie branding toggle"
+msgstr "隐藏 SureCookie 品牌切换"
+
+#: build/admin.js:53
+msgid "Hide SureCookie Branding"
+msgstr "隐藏 SureCookie 品牌"
+
+#: build/admin.js:53
+msgid "Remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "从同意横幅和偏好设置模态中移除“Powered by SureCookie”文本。"
+
+#: build/admin.js:53
+msgid "to remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "以移除同意横幅和偏好设置模态中的“Powered by SureCookie”文本。"
+
+#: build/admin.js:3
+msgid "Delete data on uninstall toggle"
+msgstr "卸载时删除数据切换"
+
+#: build/admin.js:3
+msgid "Delete Data on Uninstall"
+msgstr "卸载时删除数据"
+
+#: build/admin.js:3
+msgid "When enabled, all plugin data including consent logs, settings, and scan results will be permanently deleted when you uninstall SureCookie. Leave disabled to preserve data for compliance records or future reinstallation."
+msgstr "启用后，卸载 SureCookie 时，所有插件数据，包括同意日志、设置和扫描结果，将被永久删除。保持禁用状态以保留数据用于合规记录或将来重新安装。"
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie toggle"
+msgstr "贡献给 SureCookie 切换"
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie"
+msgstr "贡献给 SureCookie"
+
+#: build/admin.js:53
+msgid "Help shape the future of SureCookie. Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions."
+msgstr "帮助塑造 SureCookie 的未来。分享您如何使用该插件，以便我们构建重要功能，更快修复问题，并做出更明智的决策。"
+
+#: build/admin.js:53
+#: build/admin.js:84
+msgid "Learn More"
+msgstr "了解更多"
+
+#: build/admin.js:3
+msgid "Compliance Notice"
+msgstr "合规通知"
+
+#: build/admin.js:3
+msgid "Consent logs may be required to demonstrate proof of consent under GDPR Article 7(1). Consider exporting consent records before uninstalling."
+msgstr "根据 GDPR 第7(1)条，可能需要同意日志以证明同意。卸载前请考虑导出同意记录。"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/admin.js:76
+#: build/public.js:4
+msgid "Name"
+msgstr "名称"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Provider"
+msgstr "提供者"
+
+#: build/admin.js:25
+msgid "Duration (Days)"
+msgstr "持续时间（天）"
+
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Type"
+msgstr "类型"
+
+#: build/admin.js:23
+#: build/admin.js:78
+#: build/onboarding.js:3
+msgid "Uncategorized"
+msgstr "未分类"
+
+#: build/admin.js:21
+#: build/onboarding.js:1
+msgid "Change Category"
+msgstr "更改类别"
+
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Edit"
+msgstr "编辑"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Scanned"
+msgstr "已扫描"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Custom"
+msgstr "自定义"
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete the cookie \"<strong></strong>\"? This action cannot be undone."
+msgstr "您确定要删除 cookie \"<strong></strong>\" 吗？此操作无法撤销。"
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete this cookie? This action cannot be undone."
+msgstr "您确定要删除此 cookie 吗？此操作无法撤销。"
+
+#: build/admin.js:25
+msgid "Delete Custom Cookie"
+msgstr "删除自定义 Cookie"
+
+#: build/admin.js:25
+msgid "Change Cookie Category"
+msgstr "更改 Cookie 类别"
+
+#: build/admin.js:25
+msgid "Update Category"
+msgstr "更新类别"
+
+#: build/admin.js:25
+msgid "Edit Cookie"
+msgstr "编辑 Cookie"
+
+#: build/admin.js:25
+msgid "Update Cookie"
+msgstr "更新 Cookie"
+
+#: build/admin.js:25
+msgid "Add New Cookie"
+msgstr "添加新 Cookie"
+
+#: build/admin.js:25
+msgid "Save Cookie"
+msgstr "保存 Cookie"
+
+#: build/admin.js:25
+msgid "e.g., my_custom_cookie"
+msgstr "例如，my_custom_cookie"
+
+#: build/admin.js:25
+#: build/admin.js:28
+#: build/admin.js:76
+msgid "Select a category"
+msgstr "选择一个类别"
+
+#: build/admin.js:25
+msgid "No categories available. Please create a category first."
+msgstr "没有可用类别。请先创建一个类别。"
+
+#: build/admin.js:25
+msgid "e.g., 30"
+msgstr "例如，30"
+
+#: build/admin.js:25
+msgid "e.g., Your Company Name"
+msgstr "例如，您的公司名称"
+
+#: build/admin.js:25
+msgid "e.g., .example.com"
+msgstr "例如，.example.com"
+
+#: build/admin.js:25
+msgid "Description"
+msgstr "描述"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie…"
+msgstr "输入此 cookie 的描述…"
+
+#: build/admin.js:25
+msgid "Describe the purpose of this cookie…"
+msgstr "描述此 cookie 的用途…"
+
+#: build/admin.js:25
+msgid "Category Name"
+msgstr "类别名称"
+
+#: build/admin.js:25
+msgid "e.g., Performance Cookies"
+msgstr "例如，性能 Cookie"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie category…"
+msgstr "输入此 cookie 类别的描述…"
+
+#. translators: %1$s is the category name, %2$s is the number of cookies
+#: build/admin.js:28
+#, js-format
+msgid "Are you sure you want to delete this cookie category? <br/> The category \"%1$s\" has %2$s assigned to it:"
+msgstr "您确定要删除此 cookie 类别吗？<br/>类别“%1$s”包含 %2$s 个分配的 cookie："
+
+#: build/admin.js:28
+msgid "Are you sure you want to delete this cookie category? This action cannot be undone."
+msgid_plural "cookies"
+msgstr[0] "您确定要删除此 cookie 类别吗？此操作无法撤销。"
+
+#: build/admin.js:28
+msgid "Delete Cookie Category"
+msgstr "删除 Cookie 类别"
+
+#: build/admin.js:28
+msgid "Keep cookies when deleting category"
+msgstr "删除类别时保留 cookies"
+
+#: build/admin.js:28
+msgid "Keep cookies"
+msgstr "保留 cookies"
+
+#: build/admin.js:28
+#: build/onboarding.js:4
+msgid "Please enter a category name"
+msgstr "请输入类别名称"
+
+#: build/admin.js:28
+msgid "No cookie categories found. Click \"Add New Category\" to create one."
+msgstr "未找到 cookie 类别。点击“添加新类别”以创建。"
+
+#: build/admin.js:28
+msgid "Edit Category"
+msgstr "编辑类别"
+
+#: build/admin.js:28
+msgid "Add New Category"
+msgstr "添加新类别"
+
+#: build/admin.js:28
+#: build/admin.js:43
+msgid "Manage Categories"
+msgstr "管理类别"
+
+#: build/admin.js:28
+msgid "Manage cookie categories that appear in the privacy preferences modal"
+msgstr "管理隐私偏好模态中显示的 cookie 类别"
+
+#: build/admin.js:28
+msgid "Add Category"
+msgstr "添加类别"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please enter a cookie name"
+msgstr "请输入 cookie 名称"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please select a category"
+msgstr "请选择一个类别"
+
+#: build/admin.js:41
+msgid "Failed to load custom cookies"
+msgstr "加载自定义 cookies 失败"
+
+#: build/admin.js:41
+msgid "Failed to create custom cookie"
+msgstr "创建自定义 cookie 失败"
+
+#: build/admin.js:41
+msgid "Custom cookie created successfully"
+msgstr "自定义 cookie 创建成功"
+
+#: build/admin.js:41
+msgid "Failed to update custom cookie"
+msgstr "更新自定义 cookie 失败"
+
+#: build/admin.js:41
+msgid "Custom cookie updated successfully"
+msgstr "自定义 Cookie 更新成功"
+
+#: build/admin.js:41
+msgid "Failed to delete custom cookie"
+msgstr "删除自定义 Cookie 失败"
+
+#: build/admin.js:41
+msgid "Custom cookie deleted successfully"
+msgstr "自定义 Cookie 删除成功"
+
+#: build/admin.js:41
+msgid "Failed to update cookie category"
+msgstr "更新 Cookie 分类失败"
+
+#: build/admin.js:41
+msgid "Cookie category updated successfully"
+msgstr "Cookie 分类更新成功"
+
+#: build/admin.js:42
+msgid "Failed to create category"
+msgstr "创建分类失败"
+
+#: build/admin.js:42
+msgid "Category created successfully"
+msgstr "分类创建成功"
+
+#: build/admin.js:42
+msgid "Failed to update category"
+msgstr "更新分类失败"
+
+#: build/admin.js:42
+msgid "Category updated successfully"
+msgstr "分类更新成功"
+
+#: build/admin.js:42
+msgid "Failed to delete category"
+msgstr "删除分类失败"
+
+#: build/admin.js:42
+msgid "Category deleted successfully"
+msgstr "分类删除成功"
+
+#: build/admin.js:43
+msgid "Create and manage all cookies for your website. These cookies will appear in the selected privacy preference categories."
+msgstr "为您的网站创建并管理所有 Cookie。这些 Cookie 将显示在所选的隐私偏好分类中。"
+
+#: build/admin.js:43
+msgid "Manage Cookies"
+msgstr "管理 Cookie"
+
+#: build/admin.js:43
+msgid "New Cookie"
+msgstr "新建 Cookie"
+
+#: build/admin.js:43
+msgid "All your cookies will be displayed here"
+msgstr "您的所有 Cookie 将显示在这里"
+
+#: build/admin.js:43
+msgid "Click the button below to create your first custom cookie"
+msgstr "点击下面的按钮创建您的第一个自定义 Cookie"
+
+#: build/admin.js:43
+msgid "Add custom CSS to style your cookie banner. Changes will be reflected in both preview and frontend after saving."
+msgstr "添加自定义 CSS 来设计您的 Cookie 横幅。保存后，预览和前端都会反映更改。"
+
+#: build/admin.js:43
+msgid "CSS Code Editor"
+msgstr "CSS 代码编辑器"
+
+#: build/admin.js:43
+msgid "Reset Custom CSS"
+msgstr "重置自定义 CSS"
+
+#: build/admin.js:43
+msgid "Are you sure you want to reset custom CSS? This will remove all your custom styles."
+msgstr "您确定要重置自定义 CSS 吗？这将移除您所有的自定义样式。"
+
+#: build/admin.js:43
+msgid "Custom CSS has been reset. The banner will now use default styles."
+msgstr "自定义 CSS 已重置。横幅将使用默认样式。"
+
+#: build/admin.js:43
+msgid "Write your custom CSS below. Use <strong>!important</strong> to override inline styles.<br />You can target banner elements using classes like <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, etc."
+msgstr "请在下方编写您的自定义 CSS。使用 <strong>!important</strong> 来覆盖内联样式。<br />您可以使用类如 <strong>.surecookie-banner</strong>、<strong>.surecookie-accept-btn</strong> 等来定位横幅元素。"
+
+#: build/admin.js:43
+#: build/admin.js:60
+msgid "<span></span> Quick Tips:"
+msgstr "<span></span> 快速提示："
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-banner</b> to target the cookie banner (works in both preview and frontend)"
+msgstr "使用 <b>.surecookie-banner</b> 定位 Cookie 横幅（预览和前端均适用）"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> for buttons"
+msgstr "使用 <b>.surecookie-accept-btn</b>、<b>.surecookie-decline-btn</b> 定位按钮"
+
+#: build/admin.js:43
+msgid "Important: Use <b>!important</b> to override inline styles"
+msgstr "重要提示：使用 <b>!important</b> 来覆盖内联样式"
+
+#: build/admin.js:43
+msgid "Changes take effect after clicking \"Save Changes\" below"
+msgstr "点击下面的“保存更改”后，修改将生效"
+
+#: build/admin.js:43
+msgid "Your CSS is saved and will persist after page refresh"
+msgstr "您的 CSS 已保存，刷新页面后仍会保留"
+
+#: build/admin.js:43
+msgid "Disabled"
+msgstr "已禁用"
+
+#: build/admin.js:43
+msgid "Consent Logging"
+msgstr "同意日志记录"
+
+#: build/admin.js:43
+msgid "Enable consent logging to view consent analytics"
+msgstr "启用同意日志记录以查看同意分析"
+
+#: build/admin.js:43
+msgid "Enable"
+msgstr "启用"
+
+#: build/admin.js:43
+msgid "Overview"
+msgstr "概览"
+
+#: build/admin.js:43
+msgid "Active"
+msgstr "激活"
+
+#: build/admin.js:43
+msgid "Inactive"
+msgstr "未激活"
+
+#: build/admin.js:43
+msgid "Cookie Banner"
+msgstr "Cookie 横幅"
+
+#: build/admin.js:43
+#: build/admin.js:47
+msgid "Configure"
+msgstr "配置"
+
+#: build/admin.js:44
+#: build/onboarding.js:4
+msgid "Launch Setup Wizard"
+msgstr "启动设置向导"
+
+#: build/admin.js:44
+msgid "Open Support Ticket"
+msgstr "打开支持工单"
+
+#: build/admin.js:44
+msgid "Help Center"
+msgstr "帮助中心"
+
+#: build/admin.js:44
+msgid "Join our Community"
+msgstr "加入我们的社区"
+
+#: build/admin.js:44
+msgid "Leave Us a Review"
+msgstr "给我们留下评价"
+
+#: build/admin.js:44
+msgid "Quick Access"
+msgstr "快速访问"
+
+#: build/admin.js:44
+msgid "Recent Consent Logs"
+msgstr "最近的同意日志"
+
+#: build/admin.js:44
+msgid "Toggle Preview"
+msgstr "切换预览"
+
+#: build/admin.js:44
+msgid "Click this button to show or hide the cookie consent banner preview."
+msgstr "点击此按钮显示或隐藏 Cookie 同意横幅预览。"
+
+#: build/admin.js:44
+msgid "Click here to start"
+msgstr "点击这里开始"
+
+#: build/admin.js:44
+msgid "design your banner"
+msgstr "设计您的横幅"
+
+#: build/admin.js:44
+msgid "Here's a preview of the cookie consent banner."
+msgstr "这是 Cookie 同意横幅的预览。"
+
+#: build/admin.js:44
+msgid "You can adjust the content and design settings."
+msgstr "您可以调整内容和设计设置。"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:47
+#, js-format
+msgid "%1$d of %2$d steps complete"
+msgstr "%1$d / %2$d 步骤已完成"
+
+#: build/admin.js:47
+msgid "You're all set! SureCookie is ready to protect your site."
+msgstr "您已准备就绪！SureCookie 已准备好保护您的网站。"
+
+#: build/admin.js:47
+#: build/onboarding.js:14
+msgid "Go to Dashboard"
+msgstr "前往仪表板"
+
+#: build/admin.js:47
+msgid "Scan Your Site for Cookies"
+msgstr "扫描您的网站以查找 Cookie"
+
+#: build/admin.js:47
+msgid "Run the cookie scanner to discover and categorize cookies your site uses."
+msgstr "运行 Cookie 扫描器以发现并分类您网站使用的 Cookie。"
+
+#: build/admin.js:47
+msgid "Scan Now"
+msgstr "立即扫描"
+
+#: build/admin.js:47
+msgid "Set up the Consent Banner"
+msgstr "设置同意横幅"
+
+#: build/admin.js:47
+msgid "Customize your cookie consent banner - content, layout, and visibility."
+msgstr "自定义您的 Cookie 同意横幅 - 内容、布局和可见性。"
+
+#: build/admin.js:47
+msgid "Review Consent Logs"
+msgstr "查看同意日志"
+
+#: build/admin.js:47
+msgid "See who has consented and when - useful for compliance audits."
+msgstr "查看谁已同意及时间 - 对合规审计很有用。"
+
+#: build/admin.js:47
+msgid "View Logs"
+msgstr "查看日志"
+
+#: build/admin.js:47
+msgid "Publish Your Cookie Policy"
+msgstr "发布您的 Cookie 政策"
+
+#: build/admin.js:47
+msgid "Review and publish the cookie policy page on your site."
+msgstr "审核并发布您网站上的 Cookie 政策页面。"
+
+#: build/admin.js:47
+msgid "Review Page"
+msgstr "查看页面"
+
+#: build/admin.js:47
+msgid "Generate a cookie policy page so visitors know how you handle their data."
+msgstr "生成 Cookie 政策页面，让访客了解您如何处理他们的数据。"
+
+#: build/admin.js:47
+msgid "Create Page"
+msgstr "创建页面"
+
+#: build/admin.js:47
+msgid "Get Started with SureCookie"
+msgstr "开始使用 SureCookie"
+
+#: build/admin.js:47
+msgid "Follow these steps to set up cookie consent on your site in minutes."
+msgstr "按照这些步骤，在几分钟内设置您网站的 Cookie 同意。"
+
+#: build/admin.js:47
+msgid "See full documentation →"
+msgstr "查看完整文档 →"
+
+#: build/admin.js:47
+msgid "Continue Learning"
+msgstr "继续学习"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:50
+#, js-format
+msgid "%1$d of %2$d setup steps complete."
+msgstr "%1$d / %2$d 设置步骤已完成。"
+
+#: build/admin.js:50
+msgid "Open Learn"
+msgstr "打开学习"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "All cookies accepted."
+msgstr "所有 Cookie 已接受。"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Non-essential cookies rejected."
+msgstr "非必要 Cookie 已拒绝。"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preferences saved successfully."
+msgstr "偏好设置保存成功。"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Close privacy preferences dialog"
+msgstr "关闭隐私偏好对话框"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Always Active"
+msgstr "始终启用"
+
+#. translators: %s: cookie category name
+#: build/admin.js:52
+#: build/public.js:3
+#, js-format
+msgid "%s: always active, cannot be disabled"
+msgstr "%s：始终启用，无法禁用"
+
+#: build/admin.js:52
+#: build/public.js:3
+msgid "View Cookies"
+msgstr "查看 Cookie"
+
+#. translators: %s: cookie category name
+#: build/admin.js:53
+#: build/public.js:4
+#, js-format
+msgid "%s cookies details"
+msgstr "%s Cookie 详情"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Expiry"
+msgstr "过期时间"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Reject All"
+msgstr "全部拒绝"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Confirm My Choices"
+msgstr "确认我的选择"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by SureCookie (opens in new tab)"
+msgstr "由 SureCookie 提供支持（新标签页打开）"
+
+#: inc/utils/localize-data.php:222
+#: build/admin.js:4
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by"
+msgstr "提供支持"
+
+#: build/admin.js:53
+msgid "Buttons are for reference only in preview."
+msgstr "按钮仅供预览参考。"
+
+#: build/admin.js:53
+msgid "This is a preview"
+msgstr "这是预览"
+
+#: build/admin.js:53
+msgid "Close preview"
+msgstr "关闭预览"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Complete"
+msgstr "完成"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Queued…"
+msgstr "排队中…"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Starting scan…"
+msgstr "开始扫描…"
+
+#. translators: 1: current page index, 2: total pages
+#: build/admin.js:54
+#, js-format
+msgid "Scanning page %1$d of %2$d…"
+msgstr "正在扫描第 %1$d 页，共 %2$d 页…"
+
+#: build/admin.js:54
+msgid "Scanning pages…"
+msgstr "正在扫描页面…"
+
+#: build/admin.js:54
+msgid "Analyzing cookies…"
+msgstr "正在分析 Cookie…"
+
+#: build/admin.js:54
+msgid "Finalizing…"
+msgstr "正在完成…"
+
+#: build/admin.js:54
+msgid "Scan failed"
+msgstr "扫描失败"
+
+#: build/admin.js:54
+msgid "In progress…"
+msgstr "进行中…"
+
+#: build/admin.js:54
+msgid "Scan progress"
+msgstr "扫描进度"
+
+#. translators: 1: completed pages, 2: total pages
+#: build/admin.js:55
+#, js-format
+msgid "%1$d of %2$d pages scanned"
+msgstr "已扫描 %1$d / %2$d 页"
+
+#: build/admin.js:55
+msgid "Preparing scan…"
+msgstr "准备扫描…"
+
+#. translators: %s: estimated time remaining
+#: build/admin.js:56
+#, js-format
+msgid "· ~%s left"
+msgstr "· 约剩余 %s"
+
+#: build/admin.js:56
+msgid "Scan Completed with Errors"
+msgstr "扫描完成，但有错误"
+
+#. translators: %d: number of failed pages
+#: build/admin.js:57
+#, js-format
+msgid "%d page(s) could not be scanned. Check the logs for details."
+msgstr "%d 页无法扫描。请检查日志了解详情。"
+
+#: build/admin.js:57
+msgid "Scan Completed!"
+msgstr "扫描完成！"
+
+#: build/admin.js:57
+msgid "Cookie scan has been completed successfully."
+msgstr "Cookie 扫描已成功完成。"
+
+#: build/admin.js:57
+msgid "Could not copy logs automatically."
+msgstr "无法自动复制日志。"
+
+#: build/admin.js:57
+msgid "Logs copied to clipboard!"
+msgstr "日志已复制到剪贴板！"
+
+#: build/admin.js:57
+msgid "Latest Scanning Logs"
+msgstr "最新扫描日志"
+
+#: build/admin.js:57
+msgid "View logs from the most recent cookie scanning process."
+msgstr "查看最近一次 Cookie 扫描过程的日志。"
+
+#: build/admin.js:57
+msgid "Copied"
+msgstr "已复制"
+
+#: build/admin.js:57
+msgid "Copy"
+msgstr "复制"
+
+#: build/admin.js:57
+msgid "This field contains the scanning status results only."
+msgstr "此字段仅包含扫描状态结果。"
+
+#: build/admin.js:57
+msgid "Scan appears stuck"
+msgstr "扫描似乎卡住了"
+
+#. translators: 1: completed pages, 2: total pages, 3: elapsed time
+#: build/admin.js:58
+#, js-format
+msgid "%1$d of %2$d pages scanned after %3$s with no recent progress."
+msgstr "扫描了 %1$d / %2$d 页，经过 %3$s 后无最新进展。"
+
+#. translators: %s: elapsed time
+#: build/admin.js:59
+#, js-format
+msgid "No progress detected after %s."
+msgstr "经过 %s 后未检测到进展。"
+
+#: build/admin.js:59
+#: build/admin.js:63
+msgid "Cancelling…"
+msgstr "正在取消…"
+
+#: build/admin.js:59
+msgid "Cancel Scan"
+msgstr "取消扫描"
+
+#: build/admin.js:59
+msgid "Copy Logs for Support"
+msgstr "复制日志以获取支持"
+
+#: build/admin.js:60
+msgid "Your scan limit will reset tomorrow."
+msgstr "您的扫描限制将于明天重置。"
+
+#: build/admin.js:60
+msgid "The scan runs in the background - you can safely navigate away."
+msgstr "扫描在后台运行 - 您可以安全地离开此页面。"
+
+#: build/admin.js:60
+msgid "Make sure your site is publicly accessible (not behind basic auth or maintenance mode)."
+msgstr "确保您的网站公开可访问（不在基本认证或维护模式下）。"
+
+#: build/admin.js:60
+msgid "Check if a firewall or security plugin is blocking external requests to your site."
+msgstr "检查防火墙或安全插件是否阻止了对您网站的外部请求。"
+
+#: build/admin.js:60
+msgid "Pages with heavy JavaScript may take longer to scan. If scanning fails repeatedly, try fewer pages."
+msgstr "含大量 JavaScript 的页面可能需要更长时间扫描。如果扫描多次失败，请尝试减少页面数量。"
+
+#: build/admin.js:60
+msgid "If issues persist, copy the logs and <a>contact our support team.</a>"
+msgstr "如果问题持续存在，请复制日志并<a>联系我们的支持团队。</a>"
+
+#: build/admin.js:60
+msgid "contact our support team"
+msgstr "联系我们的支持团队"
+
+#: build/admin.js:63
+#: build/admin.js:78
+#: build/onboarding.js:7
+msgid "(no title)"
+msgstr "(无标题)"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Failed to initiate scan"
+msgstr "启动扫描失败"
+
+#. translators: 1: remaining scans, 2: total daily scans
+#: build/admin.js:68
+#: build/onboarding.js:12
+#, js-format
+msgid "You have %1$d of %2$d daily scans remaining"
+msgstr "您今天还有 %1$d 次共 %2$d 次扫描剩余"
+
+#. translators: %s: time until reset (e.g. "4h 22m")
+#: build/admin.js:69
+#: build/admin.js:71
+#, js-format
+msgid "Resets in %s"
+msgstr "将在 %s 后重置"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Limits refreshed."
+msgstr "限制已刷新。"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Failed to refresh limits."
+msgstr "刷新限制失败。"
+
+#: build/admin.js:71
+msgid "Your session expired. Please reload to reconnect."
+msgstr "您的会话已过期。请重新加载以重新连接。"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "We couldn't fetch your limits right now. Please try again in a moment."
+msgstr "我们暂时无法获取您的限制。请稍后再试。"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refreshing…"
+msgstr "正在刷新…"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refresh limits"
+msgstr "刷新限制"
+
+#. translators: %d: maximum pages
+#: build/admin.js:61
+#: build/admin.js:73
+#: build/onboarding.js:5
+#: build/onboarding.js:14
+#, js-format
+msgid "You have selected more than %d pages"
+msgstr "您已选择超过 %d 个页面"
+
+#. translators: %d: maximum pages
+#: build/admin.js:65
+#: build/onboarding.js:9
+#, js-format
+msgid "Your plan supports scanning up to %d pages. Please remove extra pages to continue."
+msgstr "您的计划支持扫描最多 %d 个页面。请移除多余页面以继续。"
+
+#: build/admin.js:73
+msgid "Daily Limit Reached"
+msgstr "每日限制已达"
+
+#. translators: 1: scans used, 2: scan limit
+#: build/admin.js:74
+#, js-format
+msgid "You've used %1$d of %2$d daily scans. Your credits will refresh automatically tomorrow."
+msgstr "您已使用 %1$d 次，共 %2$d 次每日扫描。您的额度将于明天自动刷新。"
+
+#: build/admin.js:74
+msgid "You've used all your scan credits for today. Your credits will refresh automatically tomorrow."
+msgstr "您今天的扫描额度已用完。您的额度将于明天自动刷新。"
+
+#: build/admin.js:74
+#: build/onboarding.js:14
+msgid "Scan Started!"
+msgstr "扫描已开始！"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scanning…"
+msgstr "正在扫描…"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Start Scan"
+msgstr "开始扫描"
+
+#: build/admin.js:63
+msgid "Cancel Stuck Scan"
+msgstr "取消卡住的扫描"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "WordPress Cron is Disabled"
+msgstr "WordPress 定时任务被禁用"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "The WordPress cron system is not working on your site. Cookie scanning may not work as expected. Please enable WP-Cron or set up a server cron job to ensure proper functionality."
+msgstr "您的网站上的 WordPress 定时任务系统无法正常工作。Cookie 扫描可能无法按预期运行。请启用 WP-Cron 或设置服务器定时任务以确保正常功能。"
+
+#: build/admin.js:75
+msgid "Select"
+msgstr "选择"
+
+#: build/admin.js:75
+msgid "Configure how the \"Cookie Preferences\" button appears on your site, allowing users to update their consent at any time."
+msgstr "配置“Cookie 偏好”按钮在您网站上的显示方式，允许用户随时更新其同意。"
+
+#: build/admin.js:75
+msgid "No re-consent method active"
+msgstr "无重新同意方法激活"
+
+#: build/admin.js:75
+msgid "Visitors won't be able to update their cookie preferences unless you add a menu item or place the shortcode on a page. You can safely ignore this if the shortcode is already added."
+msgstr "除非您添加菜单项或将短代码放置在页面上，否则访客将无法更新其 Cookie 偏好设置。如果短代码已添加，则可以安全忽略此提示。"
+
+#: build/admin.js:75
+msgid "Button Label"
+msgstr "按钮标签"
+
+#: build/admin.js:75
+msgid "The label shown on the Cookie Preferences link."
+msgstr "显示在 Cookie 偏好链接上的标签。"
+
+#: build/admin.js:75
+msgid "Menu Level"
+msgstr "菜单级别"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode"
+msgstr "短代码"
+
+#: build/admin.js:75
+msgid "Floating Widget"
+msgstr "浮动小部件"
+
+#: build/admin.js:75
+msgid "Select a WordPress menu to automatically add the Cookie Preferences link to it. When clicked, it opens the consent preferences modal directly."
+msgstr "选择一个 WordPress 菜单以自动添加 Cookie 偏好链接。点击时，会直接打开同意偏好设置的弹窗。"
+
+#: build/admin.js:75
+msgid "No WordPress menus found."
+msgstr "未找到 WordPress 菜单。"
+
+#: build/admin.js:75
+msgid "Create a menu in Appearance > Menus."
+msgstr "请在“外观 > 菜单”中创建菜单。"
+
+#: build/admin.js:75
+msgid "Select Menu"
+msgstr "选择菜单"
+
+#: build/admin.js:75
+msgid "Use this shortcode to display the Cookie Preferences link anywhere on your site. When clicked, it opens the consent preferences modal directly."
+msgstr "使用此短代码可在网站任何位置显示 Cookie 偏好链接。点击时，会直接打开同意偏好设置的弹窗。"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode Copied!"
+msgstr "短代码已复制！"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Could not copy to clipboard. Please copy the shortcode manually."
+msgstr "无法复制到剪贴板。请手动复制短代码。"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copied!"
+msgstr "已复制！"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copy shortcode"
+msgstr "复制短代码"
+
+#: build/admin.js:75
+msgid "Enable Floating Widget"
+msgstr "启用浮动小部件"
+
+#: build/admin.js:75
+msgid "to show a floating cookie preferences button on every page."
+msgstr "在每个页面显示浮动的 Cookie 偏好按钮。"
+
+#: build/admin.js:75
+msgid "Failed to deactivate plugin."
+msgstr "插件停用失败。"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected."
+msgstr "检测到冲突插件。"
+
+#: build/admin.js:75
+msgid "It's recommended to deactivate them to avoid issues."
+msgstr "建议停用它们以避免问题。"
+
+#: build/admin.js:75
+msgid "Deactivate Plugin"
+msgstr "停用插件"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected"
+msgstr "检测到冲突插件"
+
+#: build/admin.js:75
+msgid "The following plugins may conflict with SureCookie. It's recommended to deactivate them to avoid issues."
+msgstr "以下插件可能与 SureCookie 冲突。建议停用它们以避免问题。"
+
+#: build/admin.js:75
+msgid "Version:"
+msgstr "版本："
+
+#: build/admin.js:75
+msgid "Deactivation successful. Reloading the page in 3 seconds."
+msgstr "停用成功。页面将在 3 秒后重新加载。"
+
+#: build/admin.js:75
+msgid "The plugin could not be deactivated. Please try again."
+msgstr "插件无法停用。请重试。"
+
+#: build/admin.js:75
+msgid "Deactivating…"
+msgstr "正在停用…"
+
+#: build/admin.js:75
+msgid "Deactivate"
+msgstr "停用"
+
+#: build/admin.js:75
+msgid "Close"
+msgstr "关闭"
+
+#: build/admin.js:75
+msgid "Preview:"
+msgstr "预览："
+
+#: build/admin.js:75
+msgid "ON"
+msgstr "开启"
+
+#: build/admin.js:75
+msgid "OFF"
+msgstr "关闭"
+
+#: build/admin.js:75
+msgid "What's New?"
+msgstr "新功能？"
+
+#: build/admin.js:75
+msgid "Free version"
+msgstr "免费版"
+
+#: build/admin.js:76
+msgid "Knowledge Base"
+msgstr "知识库"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Analytics"
+msgstr "分析"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Marketing"
+msgstr "营销"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Functional"
+msgstr "功能性"
+
+#: build/admin.js:76
+msgid "Resource"
+msgstr "资源"
+
+#: build/admin.js:76
+msgid "Script"
+msgstr "脚本"
+
+#: build/admin.js:76
+msgid "Iframe"
+msgstr "内嵌框架"
+
+#: build/admin.js:78
+msgid "Control where your cookie banner appears on your site."
+msgstr "控制您的 Cookie 横幅在网站上的显示位置。"
+
+#: build/admin.js:78
+msgid "Want More Control over Your Cookie Banner?"
+msgstr "想要更多控制您的 Cookie 横幅？"
+
+#: build/admin.js:78
+msgid "Upgrade to hide it on selected pages, posts, archives, or on specific user roles."
+msgstr "升级以在选定的页面、文章、存档或特定用户角色上隐藏它。"
+
+#: build/admin.js:78
+msgid "The previously selected page no longer exists or could not be loaded."
+msgstr "之前选择的页面不存在或无法加载。"
+
+#: build/admin.js:78
+msgid "The selected page is not published and will not appear to visitors."
+msgstr "所选页面未发布，访客将无法看到。"
+
+#: build/admin.js:78
+msgid "Cookie Policy Page"
+msgstr "Cookie 政策页面"
+
+#: build/admin.js:78
+msgid "Clear selected page"
+msgstr "清除所选页面"
+
+#: build/admin.js:78
+msgid "Select a Page"
+msgstr "选择页面"
+
+#: build/admin.js:78
+msgid "A link to this page will appear in the consent preferences modal footer."
+msgstr "该页面的链接将显示在同意偏好设置模态框的页脚中。"
+
+#: build/admin.js:78
+msgid "Auto Generate"
+msgstr "自动生成"
+
+#: build/admin.js:78
+msgid "Automatically create a published Cookie Policy page containing a dynamically generated cookie table that always stays up to date."
+msgstr "自动创建一个已发布的 Cookie 政策页面，包含动态生成且始终保持最新的 Cookie 表。"
+
+#: build/admin.js:78
+msgid "Cookie Policy page created successfully!"
+msgstr "Cookie 政策页面创建成功！"
+
+#: build/admin.js:78
+msgid "Failed to generate page. Please try again."
+msgstr "生成页面失败。请重试。"
+
+#: build/admin.js:78
+msgid "An error occurred while generating the page. Please try again."
+msgstr "生成页面时发生错误。请重试。"
+
+#: build/admin.js:78
+msgid "Page Already Linked"
+msgstr "页面已链接"
+
+#: build/admin.js:78
+msgid "Generate Cookie Policy Page"
+msgstr "生成 Cookie 政策页面"
+
+#: build/admin.js:78
+msgid "Edit Page"
+msgstr "编辑页面"
+
+#: build/admin.js:78
+msgid "View Page"
+msgstr "查看页面"
+
+#: build/admin.js:78
+msgid "Use this shortcode to display the cookie policy with a dynamically generated cookie table on any page or post. The table always reflects the latest scanned and custom cookies."
+msgstr "使用此短代码在任何页面或文章上显示带有动态生成 Cookie 表的 Cookie 政策。该表始终反映最新扫描和自定义的 Cookie。"
+
+#: build/admin.js:83
+msgid "Please enter at least one region code"
+msgstr "请输入至少一个地区代码"
+
+#: build/admin.js:83
+msgid "Invalid region code format. Use ISO 3166 codes like EU, US, US-CA, or GB."
+msgstr "地区代码格式无效。请使用 ISO 3166 代码，如 EU、US、US-CA 或 GB。"
+
+#: build/admin.js:83
+msgid "EU/EEA (GDPR)"
+msgstr "欧盟/欧洲经济区（GDPR）"
+
+#: build/admin.js:83
+msgid "California (CCPA)"
+msgstr "加利福尼亚（CCPA）"
+
+#: build/admin.js:83
+msgid "United Kingdom"
+msgstr "英国"
+
+#: build/admin.js:83
+msgid "Brazil (LGPD)"
+msgstr "巴西（LGPD）"
+
+#: build/admin.js:83
+msgid "Edit Regional Rule"
+msgstr "编辑地区规则"
+
+#: build/admin.js:83
+msgid "Add Regional Rule"
+msgstr "添加地区规则"
+
+#: build/admin.js:83
+msgid "Set default consent state for visitors from this region. Google uses the most specific match."
+msgstr "为来自该地区的访客设置默认同意状态。Google 使用最具体的匹配。"
+
+#: build/admin.js:83
+msgid "Add Rule"
+msgstr "添加规则"
+
+#: build/admin.js:83
+msgid "Quick Presets"
+msgstr "快速预设"
+
+#: build/admin.js:83
+msgid "Apply preset:"
+msgstr "应用预设："
+
+#: build/admin.js:83
+msgid "Region Codes"
+msgstr "地区代码"
+
+#: build/admin.js:83
+msgid "Comma-separated ISO 3166 codes: EU, US, US-CA, GB, BR, etc."
+msgstr "逗号分隔的 ISO 3166 代码：EU、US、US-CA、GB、BR 等。"
+
+#: build/admin.js:83
+msgid "Default Consent State"
+msgstr "默认同意状态"
+
+#: build/admin.js:83
+msgid "Choose which categories are granted by default for visitors from this region before they interact with the banner."
+msgstr "选择在访客与横幅交互前，来自该地区的访客默认被授予的类别。"
+
+#: build/admin.js:83
+msgid "Functional Storage"
+msgstr "功能性存储"
+
+#: build/admin.js:83
+msgid "Enables storage for site functionality like preferences and language."
+msgstr "启用用于站点功能（如偏好设置和语言）的存储。"
+
+#: build/admin.js:83
+msgid "Functional storage default"
+msgstr "功能性存储默认值"
+
+#: build/admin.js:83
+msgid "Analytics Storage"
+msgstr "分析存储"
+
+#: build/admin.js:83
+msgid "Enables storage for analytics purposes like visit duration and page views."
+msgstr "启用用于分析目的（如访问时长和页面浏览量）的存储。"
+
+#: build/admin.js:83
+msgid "Analytics storage default"
+msgstr "分析存储默认值"
+
+#: build/admin.js:83
+msgid "Marketing / Ads Storage"
+msgstr "营销/广告存储"
+
+#: build/admin.js:83
+msgid "Enables storage for advertising purposes including ad personalization and user data."
+msgstr "启用用于广告目的，包括广告个性化和用户数据的存储。"
+
+#: build/admin.js:83
+msgid "Marketing storage default"
+msgstr "营销存储默认值"
+
+#: build/admin.js:83
+msgid "Essential cookies (security_storage) are always granted. These defaults apply before the visitor interacts with the consent banner."
+msgstr "基本 Cookie（security_storage）始终被授予。这些默认值适用于访客与同意横幅交互之前。"
+
+#: build/admin.js:83
+msgid "Granted"
+msgstr "已授予"
+
+#: build/admin.js:83
+msgid "Denied"
+msgstr "已拒绝"
+
+#: build/admin.js:83
+msgid "Active Regional Rules"
+msgstr "活动地区规则"
+
+#: build/admin.js:83
+msgid "Set different default consent states per region. Google uses the most specific match (e.g., US-CA overrides US)."
+msgstr "为不同地区设置不同的默认同意状态。Google 使用最具体的匹配（例如，US-CA 覆盖 US）。"
+
+#: build/admin.js:83
+msgid "Edit rule for"
+msgstr "编辑规则针对"
+
+#: build/admin.js:83
+msgid "Delete rule for"
+msgstr "删除规则针对"
+
+#: build/admin.js:83
+msgid "No regional rules configured. The global default (deny all except essential) applies to all visitors."
+msgstr "未配置区域规则。全局默认（除必要项外全部拒绝）适用于所有访客。"
+
+#. translators: %s: comma-separated duplicate region codes
+#: build/admin.js:84
+#, js-format
+msgid "These region codes already exist in another rule: %s"
+msgstr "这些区域代码已存在于另一条规则中：%s"
+
+#: build/admin.js:84
+msgid "Delete Regional Rule"
+msgstr "删除区域规则"
+
+#: build/admin.js:84
+msgid "Are you sure you want to delete this regional consent rule? Visitors from this region will use the global default."
+msgstr "您确定要删除此区域同意规则吗？来自该区域的访客将使用全局默认设置。"
+
+#: build/admin.js:84
+msgid "Google Consent Mode v2"
+msgstr "Google 同意模式 v2"
+
+#: build/admin.js:84
+msgid "Automatically communicate user consent preferences to Google services."
+msgstr "自动将用户同意偏好传达给 Google 服务。"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode Switch"
+msgstr "启用 Google 同意模式开关"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode"
+msgstr "启用 Google 同意模式"
+
+#: build/admin.js:84
+msgid "Supported services: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, and DV360"
+msgstr "支持的服务：Analytics 4、Google Ads、Tag Manager、Campaign Manager 360、Ad Manager、Floodlight 和 DV360"
+
+#: build/admin.js:84
+msgid "Wait Time (milliseconds)"
+msgstr "等待时间（毫秒）"
+
+#: build/admin.js:84
+msgid "How long Google services wait for consent before making requests. Default: 500ms. Range: 0–2000ms."
+msgstr "Google 服务在发出请求前等待同意的时间。默认：500毫秒。范围：0–2000毫秒。"
+
+#: build/admin.js:84
+msgid "Mandatory for EU/EEA as of March 2024"
+msgstr "2024年3月起欧盟/欧洲经济区强制要求"
+
+#: build/admin.js:84
+msgid "Google now requires Consent Mode v2 for all websites using Google services in the European Economic Area."
+msgstr "Google 现要求在欧洲经济区使用 Google 服务的所有网站采用同意模式 v2。"
+
+#: build/admin.js:84
+msgid "Learn more about Google Consent Mode v2 →"
+msgstr "了解更多关于 Google 同意模式 v2 →"
+
+#: build/admin.js:84
+msgid "Where should the banner appear?"
+msgstr "横幅应显示在哪里？"
+
+#: build/admin.js:84
+msgid "Choose where the banner is shown. Visitors outside selected regions will not see it."
+msgstr "选择横幅显示的位置。选定区域外的访客将看不到横幅。"
+
+#: build/admin.js:84
+msgid "Show to all visitors worldwide"
+msgstr "向全球所有访客显示"
+
+#: build/admin.js:84
+msgid "Use the same experience for everyone, regardless of location."
+msgstr "为所有人提供相同体验，无论其位置如何。"
+
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/admin.js:78
+#: build/admin.js:84
+msgid "Pro"
+msgstr "专业版"
+
+#: build/admin.js:84
+msgid "Show only where required by law"
+msgstr "仅在法律要求的地方显示"
+
+#: build/admin.js:84
+msgid "Target specific regions with tailored consent experiences."
+msgstr "针对特定区域提供定制的同意体验。"
+
+#: build/admin.js:84
+msgid "Mode: Show to all visitors worldwide"
+msgstr "模式：向全球所有访客显示"
+
+#: build/admin.js:84
+msgid "Your existing banner settings apply to all visitors. No geographic targeting is active."
+msgstr "您现有的横幅设置适用于所有访客。未启用地理定位目标。"
+
+#: build/admin.js:84
+msgid "Unlock Regional Targeting"
+msgstr "解锁区域定位"
+
+#: build/admin.js:84
+msgid "Show banner only in selected regions, create custom regional rules, and control fallback behavior."
+msgstr "仅在选定区域显示横幅，创建自定义区域规则，并控制回退行为。"
+
+#: build/admin.js:84
+msgid "Location detection uses GeoLite2 data by MaxMind, available from <link>https://www.maxmind.com</link>."
+msgstr "位置检测使用 MaxMind 的 GeoLite2 数据，来源于 <link>https://www.maxmind.com</link>。"
+
+#: build/admin.js:87
+msgid "IAB Transparency & Consent Framework"
+msgstr "IAB 透明度与同意框架"
+
+#: build/admin.js:87
+msgid "Make your consent banner compliant with IAB TCF 2.3 and integrate with the Global Vendor List."
+msgstr "使您的同意横幅符合 IAB TCF 2.3 标准，并与全球供应商列表集成。"
+
+#: build/admin.js:87
+msgid "Unlock IAB TCF 2.3 Compliance - Coming Soon"
+msgstr "解锁 IAB TCF 2.3 合规 - 即将推出"
+
+#: build/admin.js:87
+msgid "Enable full TCF mode, generate TC strings, and display the IAB vendor list to your visitors."
+msgstr "启用完整 TCF 模式，生成 TC 字符串，并向访客显示 IAB 供应商列表。"
+
+#: build/admin.js:87
+msgid "Google Additional Consent (AC)"
+msgstr "Google 额外同意 (AC)"
+
+#: build/admin.js:87
+msgid "Add Google Additional Consent alongside IAB TCF to handle ad-tech vendors not on the IAB Global Vendor List."
+msgstr "在 IAB TCF 之外添加 Google 额外同意，以处理不在 IAB 全球供应商列表中的广告技术供应商。"
+
+#: build/admin.js:87
+msgid "Unlock Google Additional Consent - Coming Soon"
+msgstr "解锁谷歌附加同意 - 即将推出"
+
+#: build/admin.js:87
+msgid "Generate the AC string, mirror the addtl_consent cookie, and display Google's Additional Consent provider list to your visitors - required for full Google Ads / GAM monetization."
+msgstr "生成 AC 字符串，镜像 addtl_consent cookie，并向您的访客显示谷歌的附加同意提供者列表 - 这是实现完整谷歌广告 / GAM 变现所必需的。"
+
+#: build/onboarding.js:1
+msgid "Failed to get authentication payload"
+msgstr "获取身份验证负载失败"
+
+#: build/onboarding.js:1
+msgid "An error occurred while connecting"
+msgstr "连接时发生错误"
+
+#: build/onboarding.js:6
+msgid "First name is required"
+msgstr "名字为必填项"
+
+#: build/onboarding.js:6
+msgid "Email address is required"
+msgstr "电子邮件地址为必填项"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid email address"
+msgstr "请输入有效的电子邮件地址"
+
+#: build/onboarding.js:6
+msgid "Classify cookies automatically"
+msgstr "自动分类 Cookie"
+
+#: build/onboarding.js:6
+msgid "Get smart compliance recommendations"
+msgstr "获取智能合规建议"
+
+#: build/onboarding.js:6
+msgid "Generate privacy-compliant descriptions"
+msgstr "生成符合隐私规定的描述"
+
+#: build/onboarding.js:6
+msgid "Welcome to SureCookie"
+msgstr "欢迎使用 SureCookie"
+
+#: build/onboarding.js:6
+msgid "Privacy compliance made effortless 🍪"
+msgstr "轻松实现隐私合规 🍪"
+
+#: build/onboarding.js:6
+msgid "Connect Your Account"
+msgstr "连接您的账户"
+
+#: build/onboarding.js:6
+msgid "Connect your SureCookie account to automatically classify cookies, generate compliant descriptions, and get smart recommendations for your privacy needs."
+msgstr "连接您的 SureCookie 账户以自动分类 Cookie，生成合规描述，并获得针对您的隐私需求的智能建议。"
+
+#: build/onboarding.js:6
+msgid "Here's what you can do:"
+msgstr "您可以做以下事情："
+
+#: build/onboarding.js:6
+msgid "List of capabilities"
+msgstr "功能列表"
+
+#: build/onboarding.js:6
+msgid "Connected to SureCookie"
+msgstr "已连接到 SureCookie"
+
+#: build/admin.js:40
+#: build/onboarding.js:7
+#: build/onboarding.js:14
+msgid "Back"
+msgstr "返回"
+
+#: build/onboarding.js:6
+msgid "Next"
+msgstr "下一步"
+
+#: build/onboarding.js:6
+#: build/onboarding.js:14
+msgid "Skip"
+msgstr "跳过"
+
+#: build/onboarding.js:6
+msgid "Connecting…"
+msgstr "连接中…"
+
+#: build/onboarding.js:6
+msgid "Connect"
+msgstr "连接"
+
+#: build/onboarding.js:11
+msgid "Run a Quick Privacy Scan"
+msgstr "运行快速隐私扫描"
+
+#: build/onboarding.js:11
+msgid "SureCookie will scan your website, detect all cookies, and categorize them automatically.<br/> This helps you stay compliant without spending hours identifying scripts manually."
+msgstr "SureCookie 将扫描您的网站，自动检测所有 Cookie 并进行分类。<br/> 这帮助您无需花费数小时手动识别脚本即可保持合规。"
+
+#: build/onboarding.js:11
+msgid "Account not connected"
+msgstr "账户未连接"
+
+#: build/onboarding.js:11
+msgid "Please <a>go back</a> and connect your SureCookie account to enable cookie scanning."
+msgstr "请<a>返回</a>并连接您的 SureCookie 账户以启用 Cookie 扫描。"
+
+#: build/onboarding.js:12
+msgid "Your session expired. Please reconnect to continue."
+msgstr "您的会话已过期。请重新连接以继续。"
+
+#: build/onboarding.js:14
+msgid "Connect Required"
+msgstr "需要连接"
+
+#: build/onboarding.js:14
+msgid "Please connect your account to get free scanning credits."
+msgstr "请连接您的账户以获取免费扫描额度。"
+
+#: build/onboarding.js:14
+msgid "SureCookie is scanning your pages for cookies. This may take a few minutes."
+msgstr "SureCookie 正在扫描您的页面中的 Cookie。此过程可能需要几分钟。"
+
+#: build/onboarding.js:14
+msgid "Okay, just one last step…"
+msgstr "好的，只剩最后一步…"
+
+#: build/onboarding.js:14
+msgid "Help us tailor your SureCookie experience by sharing a bit about yourself:"
+msgstr "通过分享一些您的信息，帮助我们为您定制 SureCookie 体验："
+
+#: build/onboarding.js:14
+msgid "First Name"
+msgstr "名字"
+
+#: build/onboarding.js:14
+msgid "Enter your first name"
+msgstr "请输入您的名字"
+
+#: build/onboarding.js:14
+msgid "Last Name"
+msgstr "姓氏"
+
+#: build/onboarding.js:14
+msgid "Enter your last name"
+msgstr "请输入您的姓氏"
+
+#: build/onboarding.js:14
+msgid "Email Address"
+msgstr "电子邮件地址"
+
+#: build/onboarding.js:14
+msgid "Enter your email address"
+msgstr "请输入您的电子邮件地址"
+
+#: build/onboarding.js:14
+msgid "Finish"
+msgstr "完成"
+
+#: build/onboarding.js:14
+msgid "Block non-essential cookies and trackers until explicit consent"
+msgstr "阻止非必要的 Cookie 和追踪器，直到获得明确同意"
+
+#: build/onboarding.js:14
+msgid "Auto-discover common services, categorize them, and preconfigure safe rules"
+msgstr "自动发现常见服务，对其进行分类，并预配置安全规则"
+
+#: build/onboarding.js:14
+msgid "You're all set. Let's go live 🚀"
+msgstr "一切就绪。让我们上线吧 🚀"
+
+#: build/onboarding.js:14
+msgid "From consent logs to region-based preferences, SureCookie helps you stay compliant while building visitor trust."
+msgstr "从同意日志到基于区域的偏好设置，SureCookie 帮助您保持合规，同时建立访客信任。"
+
+#: build/onboarding.js:14
+msgid "Here's what SureCookie will do for you now:"
+msgstr "以下是 SureCookie 现在将为您做的事情："
+
+#: build/onboarding.js:14
+msgid "SureCookie Features"
+msgstr "SureCookie 功能"
+
+#: build/onboarding.js:6
+msgid "Exit Setup"
+msgstr "退出设置"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "This website uses cookies to enhance your browsing experience, personalize content, provide social media features, and analyze our traffic. You can review and manage your cookie settings at any time, or accept all cookies to proceed."
+msgstr "本网站使用 Cookie 来增强您的浏览体验、个性化内容、提供社交媒体功能并分析我们的流量。您可以随时查看和管理您的 Cookie 设置，或接受所有 Cookie 以继续。"
+
+#: build/public.js:4
+msgid "Cookie Consent"
+msgstr "Cookie 同意"
+
+#: build/public.js:4
+msgid "Banner logo"
+msgstr "横幅标志"
+
+#: build/public.js:4
+msgid "Decline all non-essential cookies"
+msgstr "拒绝所有非必要的 Cookie"
+
+#: build/public.js:4
+msgid "Manage cookie preferences"
+msgstr "管理 Cookie 偏好"
+
+#: build/public.js:4
+msgid "Accept only essential cookies"
+msgstr "仅接受必要的 Cookie"
+
+#: build/public.js:4
+msgid "Accept all cookies"
+msgstr "接受所有 Cookie"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Consent Forwarding"
+msgstr "同意转发"
+
+#: build/admin.js:2
+msgid "Want custom brand colors?"
+msgstr "想要自定义品牌颜色吗？"
+
+#: build/admin.js:3
+#: build/admin.js:4
+msgid "Received from"
+msgstr "接收自"
+
+#: build/admin.js:3
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Received"
+msgstr "已接收"
+
+#. translators: %d: number of sites
+#: build/admin.js:4
+#, js-format
+msgid "Shared to %d site(s)"
+msgstr "共享到 %d 个站点"
+
+#: build/admin.js:4
+msgid "Consent not received for"
+msgstr "未收到同意的"
+
+#: build/admin.js:4
+msgid "These categories exist only on this site and were not part of the forwarded consent. The visitor will be prompted to set their preferences for these when they visit this site directly."
+msgstr "这些类别仅存在于此站点，且不属于转发的同意内容。访客在直接访问此站点时将被提示设置这些类别的偏好。"
+
+#: build/admin.js:4
+msgid "More information about these categories"
+msgstr "关于这些类别的更多信息"
+
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Shared"
+msgstr "已共享"
+
+#: build/admin.js:4
+msgid "Shared to"
+msgstr "共享到"
+
+#: build/admin.js:4
+msgid "Consent Session ID"
+msgstr "同意会话 ID"
+
+#: build/admin.js:4
+msgid "Localhost"
+msgstr "本地主机"
+
+#: build/admin.js:6
+msgid "Consent log export upgrade"
+msgstr "同意日志导出升级"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preference sections"
+msgstr "偏好部分"
+
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Cookies"
+msgstr "Cookies"
+
+#. translators: %d: number of partner sites
+#: build/admin.js:51
+#: build/public.js:2
+#, js-format
+msgid "%d connected site(s)"
+msgstr "%d 个已连接站点"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Sites that will receive your consent"
+msgstr "将接收您同意的站点"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "No partner sites configured."
+msgstr "未配置合作站点。"
+
+#: build/admin.js:53
+msgid "Cookie Notice"
+msgstr "Cookie 通知"
+
+#: build/admin.js:84
+msgid "Automatically sync cookie consent across multiple domains and forward consent choices to connected services, without asking visitors to consent again."
+msgstr "自动同步多个域的 Cookie 同意，并将同意选择转发给连接的服务，无需再次请求访客同意。"
+
+#: inc/modules/mcp/server.php:100
+msgid "SureCookie MCP Server"
+msgstr "SureCookie MCP 服务器"
+
+#: inc/modules/mcp/server.php:101
+msgid "SureCookie MCP Server for cookie consent settings, consent logs, cookie management, and site scanning workflows."
+msgstr "用于 cookie 同意设置、同意日志、cookie 管理和网站扫描工作流程的 SureCookie MCP 服务器。"
+
+#. translators: %s: navigation group label
+#: build/admin.js:2
+#, js-format
+msgid "%s submenu"
+msgstr "%s 子菜单"
+
+#: build/admin.js:2
+msgid "General"
+msgstr "常规"
+
+#: build/admin.js:2
+msgid "Consent & Data"
+msgstr "同意与数据"
+
+#: build/admin.js:2
+msgid "Consent Frameworks"
+msgstr "同意框架"
+
+#: build/admin.js:2
+msgid "IAB-TCF"
+msgstr "IAB-TCF"
+
+#: build/admin.js:2
+msgid "Enter text"
+msgstr "输入文本"
+
+#: build/admin.js:2
+msgid "Enter Banner Message"
+msgstr "输入横幅消息"
+
+#: build/admin.js:2
+msgid "Control how long consent stays valid and how consent records are stored."
+msgstr "控制同意的有效期限以及同意记录的存储方式。"
+
+#: build/admin.js:4
+msgid "N/A"
+msgstr "不适用"
+
+#: build/admin.js:53
+#, js-format
+msgid "Admin and plugin preferences for SureCookie."
+msgid_plural "%d of these logs were shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgstr[0] "SureCookie 的管理员和插件偏好设置。"
+
+#: build/admin.js:53
+msgid "SureCookie Admin Menu"
+msgstr "SureCookie 管理菜单"
+
+#: build/admin.js:53
+msgid "Toggle to show SureCookie in the main menu or under Settings → SureCookie."
+msgstr "切换以在主菜单或设置 → SureCookie 下显示 SureCookie。"
+
+#: build/admin.js:84
+msgid "Connect Your AI Client"
+msgstr "连接您的 AI 客户端"
+
+#: build/admin.js:84
+msgid "Create an Application Password"
+msgstr "创建应用密码"
+
+#: build/admin.js:84
+msgid "Open Application Passwords"
+msgstr "打开应用密码"
+
+#: build/admin.js:84
+msgid "Add to your AI client:"
+msgstr "添加到您的 AI 客户端："
+
+#: build/admin.js:84
+msgid "Learn more about the WordPress MCP Adapter"
+msgstr "了解更多关于 WordPress MCP 适配器的信息"
+
+#: build/admin.js:84
+msgid "Claude Code"
+msgstr "Claude 代码"
+
+#: build/admin.js:84
+msgid "Claude Desktop"
+msgstr "Claude 桌面版"
+
+#: build/admin.js:84
+msgid "Cursor"
+msgstr "Cursor"
+
+#: build/admin.js:84
+msgid "VS Code"
+msgstr "VS Code"
+
+#: build/admin.js:84
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+#: build/admin.js:84
+msgid "go to Settings → Connectors → Add Connector, paste the endpoint URL, and use your WordPress username + Application Password."
+msgstr "前往设置 → 连接器 → 添加连接器，粘贴端点 URL，并使用您的 WordPress 用户名 + 应用密码。"
+
+#: build/admin.js:84
+msgid "Learn more about ChatGPT connectors"
+msgstr "了解更多关于 ChatGPT 连接器的信息"
+
+#: build/admin.js:84
+msgid "SureCookie Only"
+msgstr "仅限 SureCookie"
+
+#: build/admin.js:84
+msgid "Global"
+msgstr "全局"
+
+#: build/admin.js:84
+msgid "Copy setup prompt for AI client"
+msgstr "复制 AI 客户端的设置提示"
+
+#: build/admin.js:84
+msgid "Prompt copied! Paste it into your AI client."
+msgstr "提示已复制！请粘贴到您的 AI 客户端中。"
+
+#: build/admin.js:84
+msgid "Failed to copy prompt to clipboard"
+msgstr "复制提示到剪贴板失败"
+
+#: build/admin.js:84
+msgid "Copy JSON config"
+msgstr "复制 JSON 配置"
+
+#: build/admin.js:84
+msgid "Copied to clipboard"
+msgstr "已复制到剪贴板"
+
+#: build/admin.js:84
+msgid "Failed to copy to clipboard"
+msgstr "复制到剪贴板失败"
+
+#: build/admin.js:84
+msgid "MCP Adapter plugin not detected"
+msgstr "未检测到 MCP 适配器插件"
+
+#. translators: %s: WP MCP Adapter plugin name.
+#: build/admin.js:87
+#, js-format
+msgid "To connect AI clients to your site, the %s plugin is required. Download the latest release from GitHub, upload it via Plugins > Add New > Upload Plugin, and activate."
+msgstr "连接 AI 客户端到您的网站需要 %s 插件。请从 GitHub 下载最新版本，通过插件 > 添加新插件 > 上传插件上传并激活。"
+
+#: build/admin.js:87
+msgid "Download from GitHub"
+msgstr "从 GitHub 下载"
+
+#: build/admin.js:2
+#: build/admin.js:87
+msgid "MCP"
+msgstr "MCP"
+
+#: build/admin.js:87
+msgid "Configure AI client access to SureCookie through the Model Context Protocol."
+msgstr "通过模型上下文协议配置 AI 客户端访问 SureCookie。"
+
+#: build/admin.js:87
+msgid "Enable MCP"
+msgstr "启用 MCP"
+
+#: build/admin.js:87
+msgid "Allow AI clients like Claude, ChatGPT, and Cursor to manage your cookie banner, scanner, and consent settings through SureCookie. When disabled, no abilities are registered and AI clients cannot connect."
+msgstr "允许 Claude、ChatGPT 和 Cursor 等 AI 客户端通过 SureCookie 管理您的 cookie 横幅、扫描器和同意设置。禁用时，不会注册任何权限，AI 客户端无法连接。"
+
+#: build/admin.js:87
+msgid "WordPress Abilities API not available"
+msgstr "WordPress 权限 API 不可用"
+
+#: build/admin.js:87
+msgid "MCP requires the WordPress Abilities API (WordPress 6.9 or later). Update WordPress to use this feature."
+msgstr "MCP 需要 WordPress 能力 API（WordPress 6.9 或更高版本）。请更新 WordPress 以使用此功能。"
+
+#: build/admin.js:87
+msgid "Unsaved changes"
+msgstr "未保存的更改"
+
+#: build/admin.js:87
+msgid "The MCP endpoint becomes active only after you save your settings."
+msgstr "只有在您保存设置后，MCP 端点才会激活。"
+
+#: inc/api/consent-logs.php:404
+msgid "Unable to determine the current user."
+msgstr "无法确定当前用户。"
+
+#: inc/api/consent-logs.php:415
+msgid "Consent logs marked as viewed."
+msgstr "同意日志已标记为已查看。"
+
+#: inc/api/plugin.php:214
+msgid "This plugin is network-activated and must be deactivated by a Network Administrator from Network Admin > Plugins."
+msgstr "此插件已在网络中激活，必须由网络管理员通过“网络管理 > 插件”进行停用。"
+
+#: inc/api/plugin.php:225
+msgid "Plugin could not be deactivated."
+msgstr "插件无法停用。"
+
+#: inc/modules/automatic-scanning/api.php:118
+msgid "Enable Automatic Scanning before running a scan."
+msgstr "运行扫描前请启用自动扫描。"
+
+#: inc/modules/automatic-scanning/api.php:122
+msgid "A scan is already in progress."
+msgstr "扫描已在进行中。"
+
+#: inc/modules/automatic-scanning/api.php:128
+msgid "Could not start the scan. Please try again."
+msgstr "无法启动扫描。请重试。"
+
+#: inc/modules/automatic-scanning/api.php:131
+msgid "Scan triggered."
+msgstr "扫描已触发。"
+
+#: inc/modules/automatic-scanning/runner.php:100
+msgid "Automatic scan deferred: daily page budget reached. Retrying in ~24 hours."
+msgstr "自动扫描已推迟：达到每日页面预算。约24小时后重试。"
+
+#: inc/modules/automatic-scanning/runner.php:124
+msgid "Automatic scan skipped: a scan is already in progress."
+msgstr "自动扫描已跳过：扫描已在进行中。"
+
+#: inc/modules/automatic-scanning/runner.php:142
+msgid "Starting automatic (scheduled) scan."
+msgstr "开始自动（计划）扫描。"
+
+#: inc/modules/automatic-scanning/scheduler.php:85
+msgid "Once Monthly (SureCookie)"
+msgstr "每月一次（SureCookie）"
+
+#: inc/modules/automatic-scanning/scheduler.php:92
+msgid "Once Weekly (SureCookie)"
+msgstr "每周一次（SureCookie）"
+
+#: inc/modules/script-blocking/blocker.php:1279
+msgid "This content is currently blocked."
+msgstr "此内容当前被阻止。"
+
+#: inc/modules/site-scanner/saas-client.php:519
+msgid "Scan deferred by server: daily page budget reached. It will retry automatically."
+msgstr "服务器推迟扫描：达到每日页面预算。将自动重试。"
+
+#: inc/modules/site-scanner/saas-client.php:524
+msgid "Daily page budget reached. The scheduled scan will retry automatically."
+msgstr "达到每日页面预算。计划扫描将自动重试。"
+
+#: build/admin.js:2
+#: build/admin.js:79
+msgid "Manual"
+msgstr "手动"
+
+#: build/admin.js:2
+msgid "Automatic"
+msgstr "自动"
+
+#: build/admin.js:2
+msgid "Reset to default"
+msgstr "重置为默认"
+
+#: build/admin.js:2
+msgid "Enable Background Overlay"
+msgstr "启用背景覆盖"
+
+#: build/admin.js:2
+msgid "Background Overlay"
+msgstr "背景覆盖"
+
+#: build/admin.js:2
+msgid "Dim the page behind the banner and limit interaction until the visitor accepts or declines. The overlay is removed after a choice is made."
+msgstr "在横幅后使页面变暗并限制交互，直到访客接受或拒绝。选择后覆盖层将被移除。"
+
+#: build/admin.js:2
+msgid "This layout highlights the consent banner and may affect user experience. Ensure it aligns with your regional consent requirements."
+msgstr "此布局突出显示同意横幅，可能影响用户体验。请确保符合您所在地区的同意要求。"
+
+#: build/admin.js:2
+#: build/admin.js:3
+msgid "Re-request Consent"
+msgstr "重新请求同意"
+
+#. translators: %s: date/time of the last renewal.
+#: build/admin.js:3
+#, js-format
+msgid "Last Requested: %s"
+msgstr "上次请求：%s"
+
+#: build/admin.js:3
+msgid "Ask all visitors to provide consent again. Use this after updating your cookie policy or adding new trackers. Existing consent will be marked as outdated, and the banner will reappear on the next visit."
+msgstr "要求所有访客再次提供同意。更新您的 Cookie 政策或添加新追踪器后使用。现有同意将被标记为过期，横幅将在下次访问时重新出现。"
+
+#: build/admin.js:3
+msgid "Consent requested. Visitors will be asked for consent again."
+msgstr "已请求同意。访客将被再次询问同意。"
+
+#: build/admin.js:3
+msgid "Could not Re-request Consent. Please try again."
+msgstr "无法重新请求同意。请重试。"
+
+#: build/admin.js:3
+msgid "Renewing…"
+msgstr "正在续订…"
+
+#: build/admin.js:3
+msgid "Confirm Re-request"
+msgstr "确认重新请求"
+
+#: build/admin.js:22
+#: build/onboarding.js:2
+msgid "New"
+msgstr "新建"
+
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Automatic Scanning"
+msgstr "自动扫描"
+
+#: build/admin.js:43
+msgid "Manage"
+msgstr "管理"
+
+#: build/admin.js:43
+msgid "Since the last scan:"
+msgstr "自上次扫描以来："
+
+#: build/admin.js:43
+msgid "removed"
+msgid_plural "new cookies"
+msgstr[0] "已移除"
+
+#: build/admin.js:43
+msgid "No scans yet. Schedule automatic scans to track changes over time."
+msgid_plural "new tracker domains"
+msgstr[0] "尚无扫描。安排自动扫描以跟踪随时间的变化。"
+
+#. translators: %s: next scan date
+#: build/admin.js:44
+#, js-format
+msgid "Next scan: %s"
+msgstr "下次扫描：%s"
+
+#: build/admin.js:44
+msgid "Scheduling is off"
+msgstr "调度已关闭"
+
+#: build/admin.js:75
+msgid "Network-activated"
+msgstr "网络激活"
+
+#: build/admin.js:75
+msgid "Manage in Network Admin"
+msgstr "在网络管理中管理"
+
+#: build/admin.js:76
+msgid "Google Consent Mode is enabled, so SureCookie allows Google's Consent Mode scripts to function correctly. As a result, this script cannot be blocked."
+msgstr "已启用 Google 同意模式，因此 SureCookie 允许 Google 的同意模式脚本正常运行。因此，该脚本无法被阻止。"
+
+#: build/admin.js:78
+msgid "Necessary"
+msgstr "必要的"
+
+#: build/admin.js:78
+msgid "What Changed in the Last Scan"
+msgstr "上次扫描中的变化"
+
+#: build/admin.js:78
+msgid "Cookies and tracker domains that changed compared to the previous scan."
+msgstr "与上次扫描相比发生变化的 Cookie 和跟踪器域名。"
+
+#: build/admin.js:78
+msgid "No differences were detected compared to the previous scan."
+msgstr "与上次扫描相比未检测到差异。"
+
+#: build/admin.js:78
+msgid "New Cookies"
+msgstr "新 Cookie"
+
+#: build/admin.js:78
+msgid "No Longer Detected"
+msgstr "不再检测到"
+
+#: build/admin.js:78
+msgid "Recategorized"
+msgstr "重新分类"
+
+#: build/admin.js:78
+msgid "New Tracker Domains"
+msgstr "新跟踪器域名"
+
+#: build/admin.js:78
+msgid "Third-party"
+msgstr "第三方"
+
+#: build/admin.js:78
+msgid "Monthly"
+msgstr "每月"
+
+#: build/admin.js:78
+msgid "Re-scan your site once a month."
+msgstr "每月重新扫描您的网站。"
+
+#: build/admin.js:78
+msgid "Weekly"
+msgstr "每周"
+
+#: build/admin.js:78
+msgid "Re-scan every week for faster drift detection."
+msgstr "每周重新扫描以更快检测漂移。"
+
+#: build/admin.js:78
+msgid "All Published Content"
+msgstr "所有已发布内容"
+
+#: build/admin.js:78
+msgid "Enable Automatic Scanning"
+msgstr "启用自动扫描"
+
+#: build/admin.js:78
+msgid "Run scheduled scans in the background and detect changes automatically."
+msgstr "在后台运行计划扫描并自动检测变化。"
+
+#: build/admin.js:78
+msgid "Scan Frequency"
+msgstr "扫描频率"
+
+#: build/admin.js:78
+msgid "WordPress cron is disabled"
+msgstr "WordPress 定时任务已禁用"
+
+#: build/admin.js:78
+msgid "Scheduled scans rely on cron. Ask your host to set up a real server cron job so automatic scans run on time."
+msgstr "计划扫描依赖于定时任务。请联系您的主机设置真实的服务器定时任务，以确保自动扫描按时运行。"
+
+#: build/admin.js:78
+msgid "Last Scan"
+msgstr "上次扫描"
+
+#. translators: %s: last scan date-time
+#: build/admin.js:79
+#, js-format
+msgid "Scanned on %s"
+msgstr "扫描于 %s"
+
+#: build/admin.js:79
+msgid "Scheduled"
+msgstr "已计划"
+
+#. translators: %d: number of new cookies
+#: build/admin.js:80
+#, js-format
+msgid "%d New Cookies"
+msgstr "%d 个新 Cookie"
+
+#. translators: %d: number of cookies no longer detected
+#: build/admin.js:81
+#, js-format
+msgid "%d Removed"
+msgstr "%d 个已移除"
+
+#. translators: %d: number of recategorized cookies
+#: build/admin.js:82
+#, js-format
+msgid "%d Recategorized"
+msgstr "%d 个重新分类"
+
+#. translators: %d: number of new tracker domains
+#: build/admin.js:83
+#, js-format
+msgid "%d New Tracker Domains"
+msgstr "%d 个新跟踪器域名"
+
+#: build/admin.js:83
+msgid "View Changes"
+msgstr "查看变化"
+
+#: build/admin.js:83
+msgid "No scans yet - run your first scan to start monitoring changes."
+msgstr "尚无扫描 - 运行首次扫描以开始监控变化。"
+
+#: build/admin.js:83
+msgid "Stay Compliant Automatically"
+msgstr "自动保持合规"
+
+#: build/admin.js:83
+msgid "Get weekly scans, instant alerts, smart classification, and automatic protection from new trackers."
+msgstr "获取每周扫描、即时警报、智能分类和对新跟踪器的自动保护。"
+
+#. translators: %d: maximum pages
+#: build/onboarding.js:11
+#, js-format
+msgid "SureCookie agent will visit them like real users to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "SureCookie 代理将像真实用户一样访问它们以检测所有使用中的 Cookie。由于资源限制，每次扫描允许 %d 个页面。"
+
+#. translators: 1: remaining pages, 2: total daily page budget
+#: build/admin.js:70
+#, js-format
+msgid "%1$d of %2$d daily pages remaining on this site"
+msgstr "%1$d 个 %2$d 每日页面剩余在此站点"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "<p>By scanning you accept our <a>terms and conditions</a>.</p>"
+msgstr "<p>通过扫描，您接受我们的 <a>条款和条件</a>。</p>"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Terms and Conditions"
+msgstr "条款和条件"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Cookie Scanning Not Available on Local Sites"
+msgstr "本地站点不可用Cookie扫描"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "This site is running on a local or development environment that our cloud scanner cannot reach. Cookie scanning will be available once your site is live on a publicly accessible domain."
+msgstr "此站点运行在本地或开发环境中，我们的云扫描器无法访问。Cookie扫描将在您的站点上线并可公开访问后可用。"
+
+#: build/onboarding.js:14
+msgid "Skip for Now"
+msgstr "暂时跳过"
+
+#: build/onboarding.js:14
+msgid "Stay in the loop and help shape SureCookie! Get feature updates, and help us build a better SureCookie by sharing how you use the plugin. <a>Terms and Conditions</a>"
+msgstr "保持关注并帮助塑造SureCookie！获取功能更新，并通过分享您如何使用插件来帮助我们构建更好的SureCookie。<a>条款和条件</a>"
+
+#: admin/product-promotion.php:104
+msgid "Grow traffic of your website with SureRank - a lightweight SEO toolkit plugin for WordPress users who want better rankings without the complexity."
+msgstr "使用 SureRank 提升您网站的流量 - 一款轻量级的 WordPress SEO 工具包插件，专为希望获得更好排名而无需复杂操作的用户打造。"
+
+#: admin/rating-notice.php:232
+msgid "Amazing! SureCookie discovered cookies on your site - let's keep growing together!"
+msgstr "太棒了！SureCookie 在您的网站上发现了 Cookie - 让我们一起继续成长！"
+
+#. translators: 1: page URL, 2: error message
+#: inc/modules/site-scanner/saas-client.php:989
+#, php-format
+msgid "Page failed: %1$s - %2$s"
+msgstr "页面失败：%1$s - %2$s"
+
+#: build/admin.js:43
+msgid "WP-Cron disabled - scans won’t run automatically"
+msgstr "WP-Cron 已禁用 - 扫描将不会自动运行"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Consider Plan Upgrade"
+msgstr "考虑升级计划"
+
+#. translators: 1: pages scanned, 2: pages submitted
+#: build/admin.js:75
+#, js-format
+msgid "Scanned %1$d of %2$d pages - your daily page budget is used up. The remaining pages will scan after it resets."
+msgstr "已扫描 %2$d 个页面中的 %1$d 个 - 您的每日页面预算已用完。剩余页面将在预算重置后扫描。"
+
+#: build/admin.js:84
+msgid "Update the environment variables"
+msgstr "更新环境变量"
+
+#: build/admin.js:84
+msgid "WP_API_USERNAME"
+msgstr "WP_API_USERNAME"
+
+#: build/admin.js:84
+msgid "Your WordPress username (prefilled)."
+msgstr "您的 WordPress 用户名（已预填）。"
+
+#: build/admin.js:84
+msgid "WP_API_PASSWORD"
+msgstr "WP_API_PASSWORD"
+
+#: build/admin.js:84
+msgid "Replace \"your-application-password\" with the password from Step 1."
+msgstr "将 \"your-application-password\" 替换为步骤 1 中的密码。"
+
+#: build/admin.js:84
+msgid "Verify Node.js version"
+msgstr "验证 Node.js 版本"
+
+#: build/admin.js:84
+msgid "In your terminal, run:"
+msgstr "在终端中运行："
+
+#: build/admin.js:84
+msgid "The version must be 20.1 or higher."
+msgstr "版本必须为 20.1 或更高。"
+
+#: build/admin.js:84
+msgid "If it is lower, run:"
+msgstr "如果版本较低，请运行："
+
+#: build/admin.js:84
+msgid "Restart your AI client and paste the copied prompt again into your AI client."
+msgstr "重启您的 AI 客户端，并将复制的提示再次粘贴到您的 AI 客户端中。"
+
+#: build/admin.js:84
+msgid "Enjoy your AI client connected to your WordPress site!"
+msgstr "尽情使用已连接到您 WordPress 站点的 AI 客户端吧！"
+
+#: admin/rating-notice.php:156
+msgid "Invalid nonce."
+msgstr "无效的随机数。"
+
+#: admin/rating-notice.php:158
+msgid "Unauthorized user."
+msgstr "未授权的用户。"
+
+#: admin/rating-notice.php:171
+msgid "Invalid parameters."
+msgstr "参数无效。"
+
+#: build/admin.js:9
+#: build/admin.js:12
+#: build/admin.js:18
+msgid "log"
+msgid_plural "logs"
+msgstr[0] "日志"
+
+#. translators: %d: number of partner sites that received the forwarded consent.
+#: build/admin.js:15
+#, js-format
+msgid "This consent was shared with %d connected site. Deleting it here will also erase the copy from that site (GDPR Art. 17)."
+msgid_plural "This consent was shared with %d connected sites. Deleting it here will also erase the copies from those sites (GDPR Art. 17)."
+msgstr[0] "此同意已与 %d 个关联站点共享。在此删除也将删除该站点上的副本（GDPR 第17条）。"
+
+#. translators: %d: number of selected logs that were forwarded to partner sites.
+#: build/admin.js:21
+#, js-format
+msgid "%d of these logs was shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgid_plural "%d of these logs were shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgstr[0] "%d 个日志已与关联合作站点共享。删除也将删除那些转发的副本（GDPR 第17条）。"
+
+#: build/admin.js:28
+msgid "cookie"
+msgid_plural "cookies"
+msgstr[0] "cookie"
+
+#: build/admin.js:43
+msgid "new cookie"
+msgid_plural "new cookies"
+msgstr[0] "新 cookie"
+
+#: build/admin.js:43
+msgid "new tracker domain"
+msgid_plural "new tracker domains"
+msgstr[0] "新追踪域"
+
+#: build/admin.js:47
+msgid "More scan limits, geographic targeting, re-consent widget, and more."
+msgstr "更多扫描限制、地理定位、重新同意小部件等功能。"
+
+#: inc/integrations/presto-player/block-handler.php:293
+msgid "This audio is blocked until you accept cookies to load it."
+msgstr "此音频被阻止，直到您接受加载它所需的 Cookie。"
+
+#: inc/integrations/presto-player/block-handler.php:297
+msgid "This video is blocked until you accept cookies to load it."
+msgstr "此视频被阻止，直到您接受加载它所需的 Cookie。"
+
+#: build/admin.js:2
+msgid "Tools"
+msgstr "工具"
+
+#: build/admin.js:2
+msgid "You've used all available AI requests in your Free Plan. Upgrade to SureCookie premium to keep using AI features."
+msgstr "您已在免费计划中使用完所有可用的 AI 请求。升级到 SureCookie 高级版以继续使用 AI 功能。"
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to access this feature."
+msgstr "升级到 SureCookie 高级版以访问此功能。"
+
+#: build/admin.js:2
+msgid "Is this button order not showing on the frontend?"
+msgstr "此按钮顺序未在前端显示吗？"
+
+#: build/admin.js:2
+msgid "Visitors who match a region-specific rule will see the button order defined for that region. This global order is shown only to visitors who don't match any regional rules."
+msgstr "符合特定区域规则的访客将看到为该区域定义的按钮顺序。此全局顺序仅显示给不符合任何区域规则的访客。"
+
+#: build/admin.js:2
+msgid "Manage Geo Rules"
+msgstr "管理地理规则"
+
+#: build/admin.js:2
+msgid "You can add links and basic formatting like bold/italic/link to the banner message."
+msgstr "您可以向横幅消息添加链接和基本格式，如加粗/斜体/链接。"
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to pick custom primary, secondary, foreground, and background colors for your banner."
+msgstr "升级到 SureCookie 高级版以选择横幅的自定义主色、次色、前景色和背景色。"
+
+#: build/admin.js:6
+msgid "Export Consent Logs"
+msgstr "导出同意日志"
+
+#: build/admin.js:6
+msgid "Upgrade to premium to download CSV report for legal audits and GDPR Article 7 documentation."
+msgstr "升级到高级版以下载用于法律审计和 GDPR 第7条文档的 CSV 报告。"
+
+#: build/admin.js:44
+msgid "Grab the Launch Offer"
+msgstr "抢先享受启动优惠"
+
+#: build/admin.js:47
+msgid "Do More with SureCookie Premium"
+msgstr "使用 SureCookie 高级版做更多事情"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Checking your scan limits…"
+msgstr "正在检查您的扫描限制…"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Run your first scan to connect this site with SureCookie. Your plan's full scan limits unlock automatically once the connection is established."
+msgstr "运行您的首次扫描以将此站点连接到 SureCookie。连接建立后，您的计划完整扫描限制将自动解锁。"
+
+#. translators: %d: maximum pages
+#: build/admin.js:67
+#, js-format
+msgid "We'll visit the selected content to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "我们将访问所选内容以检测所有使用的 Cookie。由于资源限制，每次扫描允许 %d 页。"
+
+#. translators: %d: maximum items
+#: build/admin.js:72
+#: build/onboarding.js:13
+#, js-format
+msgid "Select up to %d items to scan…"
+msgstr "选择最多 %d 个项目进行扫描…"
+
+#: build/admin.js:72
+#: build/onboarding.js:13
+msgid "Select Content"
+msgstr "选择内容"
+
+#: build/admin.js:73
+#: build/onboarding.js:14
+msgid "Select the content you want to scan."
+msgstr "选择您想扫描的内容。"
+
+#: build/admin.js:74
+msgid "Scanning your content for cookies. This may take a few minutes."
+msgstr "正在扫描您的内容以检测 Cookie。此过程可能需要几分钟。"
+
+#: build/admin.js:75
+msgid "Unlock Geo Rules, Advanced Scanning & more with Pro - Grab the launching offer!"
+msgstr "通过 Pro 版解锁地理规则、高级扫描等功能 - 抢先享受启动优惠！"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Claim the Deal"
+msgstr "领取优惠"
+
+#: build/admin.js:78
+msgid "Content from Manual Scan"
+msgstr "手动扫描的内容"
+
+#: build/admin.js:78
+msgid "Reuse the content selected on the Cookie Scanner."
+msgstr "重用 Cookie 扫描器中选择的内容。"
+
+#: build/admin.js:78
+msgid "Scan all published content, as per plan limit."
+msgstr "扫描所有已发布内容，按计划限制执行。"
+
+#: build/admin.js:78
+msgid "Selected Content"
+msgstr "已选内容"
+
+#: build/admin.js:78
+msgid "Choose specific content to scan below."
+msgstr "在下面选择要扫描的特定内容。"
+
+#: build/admin.js:78
+msgid "Content to Scan"
+msgstr "扫描内容"
+
+#: build/admin.js:78
+msgid "Select content to scan…"
+msgstr "选择要扫描的内容…"
+
+#: build/onboarding.js:6
+msgid "Launch Offer - Save Big"
+msgstr "启动优惠 - 大幅节省"
+
+#: build/onboarding.js:6
+msgid "Limited Time"
+msgstr "限时优惠"
+
+#: build/onboarding.js:6
+msgid "Upgrade to Premium and unlock advanced scanning, geo rules, custom branding, and priority support."
+msgstr "升级到高级版，解锁高级扫描、地理规则、自定义品牌和优先支持。"
+
+#: build/onboarding.js:6
+msgid "Failed to activate license. Please try again."
+msgstr "激活许可证失败。请重试。"
+
+#: build/onboarding.js:6
+msgid "License Activated!"
+msgstr "许可证已激活！"
+
+#: build/onboarding.js:6
+msgid "Your license has been successfully activated."
+msgstr "您的许可证已成功激活。"
+
+#: build/onboarding.js:6
+msgid "Activation Failed"
+msgstr "激活失败"
+
+#: build/onboarding.js:6
+msgid "An error occurred during activation. Please try again."
+msgstr "激活过程中发生错误。请重试。"
+
+#: build/onboarding.js:6
+msgid "Invalid License Key"
+msgstr "无效的许可证密钥"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid license key."
+msgstr "请输入有效的许可证密钥。"
+
+#: build/onboarding.js:6
+msgid "Activate Your License"
+msgstr "激活您的许可证"
+
+#: build/onboarding.js:6
+msgid "Activate your SureCookie license to unlock higher scan limits, automatically classify cookies, and get smart compliance recommendations."
+msgstr "激活您的 SureCookie 许可证以解锁更高的扫描限制，自动分类 Cookie，并获得智能合规建议。"
+
+#: build/onboarding.js:6
+msgid "License activated"
+msgstr "许可证已激活"
+
+#: build/onboarding.js:6
+msgid "Activating…"
+msgstr "正在激活…"
+
+#: build/admin.js:63
+#: build/onboarding.js:6
+#: build/onboarding.js:7
+msgid "Activate License"
+msgstr "激活许可证"
+
+#: build/onboarding.js:6
+msgid "License Key"
+msgstr "许可证密钥"
+
+#: build/onboarding.js:6
+msgid "Paste your license key here"
+msgstr "在此粘贴您的许可证密钥"
+
+#. translators: %s: Package name (e.g., SureCookie Pro)
+#: build/onboarding.js:7
+#, js-format
+msgid "Activate your <strong>%s</strong> license to receive professional support and automatic updates directly from your WordPress dashboard. Don't have a license? <a>Get it here »</a>"
+msgstr "激活您的 <strong>%s</strong> 许可证，以便直接从您的 WordPress 仪表盘获得专业支持和自动更新。没有许可证？<a>点击这里获取 »</a>"
+
+#: build/onboarding.js:7
+msgid "Purchase a SureCookie license"
+msgstr "购买 SureCookie 许可证"
+
+#: build/admin.js:2
+msgid "View Plans"
+msgstr "查看计划"
+
+#: build/admin.js:4
+msgid "CONSENT RECORD"
+msgstr "同意记录"
+
+#: build/admin.js:4
+msgid "This document contains a record of the consent choice stored by SureCookie. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "此文档包含由 SureCookie 存储的同意选择记录。它可用于内部文档和审查。法律要求可能有所不同。"
+
+#: build/admin.js:4
+msgid "This document is automatically generated by the SureCookie plugin and contains a record of the consent choice stored at the time of export. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "此文档由 SureCookie 插件自动生成，包含导出时存储的同意选择记录。它可用于内部文档和审查。法律要求可能有所不同。"
+
+#: build/admin.js:43
+msgid "Enter your custom CSS here"
+msgstr "在此输入您的自定义 CSS"
+
+#: build/admin.js:43
+msgid "Use !important to override inline styles"
+msgstr "使用 !important 来覆盖内联样式"
+
+#: build/admin.js:43
+msgid "Your cookie banner is enabled."
+msgstr "您的 Cookie 横幅已启用。"
+
+#: build/admin.js:43
+msgid "Your cookie banner is currently disabled."
+msgstr "您的 Cookie 横幅当前已禁用。"
+
+#: build/admin.js:2
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Activate SureCookie Pro"
+msgstr "激活 SureCookie Pro"
+
+#. translators: %d: maximum pages
+#: build/admin.js:64
+#: build/onboarding.js:8
+#, js-format
+msgid "Your first scan can cover up to %d pages while we connect your site. Remove the extra pages to start - Your plan's full limits unlock automatically afterward."
+msgstr "您的首次扫描最多可覆盖 %d 页，同时我们连接您的网站。删除多余页面即可开始 - 您的计划完整限制随后会自动解锁。"
+
+#. translators: %d: maximum pages
+#: build/admin.js:66
+#: build/onboarding.js:10
+#, js-format
+msgid "The free plan supports scanning up to %d pages. Upgrade now to scan more pages and keep your cookie list updated automatically."
+msgstr "免费计划支持扫描最多 %d 页。立即升级以扫描更多页面并自动保持您的 Cookie 列表更新。"
+
+#. translators: %s: SureCookie plan tier, e.g. "Business"
+#: build/admin.js:76
+#, js-format
+msgid "%s version"
+msgstr "%s 版本"
+
+#: build/onboarding.js:6
+msgid "Let's help you discover cookies, configure consent choices, and improve how your website handles visitor privacy. SureCookie automatically detects and categorizes cookies so you can stay focused on growing your business."
+msgstr "让我们帮助您发现 Cookie，配置同意选择，并改善您的网站如何处理访客隐私。SureCookie 会自动检测和分类 Cookie，让您专注于发展业务。"
+
+#: build/onboarding.js:14
+msgid "Keep consent records locally on the site and export individual records when needed"
+msgstr "在网站本地保存同意记录，并在需要时导出单个记录"
+
+#: admin/menu.php:78
+#: build/admin.js:2
+msgid "Tracking Manager"
+msgstr "跟踪管理器"
+
+#: admin/product-promotion.php:116
+msgid "WordPress emails often go missing or land in spam because web hosts aren't built for reliable delivery. SureMail fixes this by connecting to trusted SMTP services, so your emails reach inboxes, no more lost messages or frustrated customers."
+msgstr "WordPress 电子邮件经常丢失或进入垃圾邮件，因为网络主机不适合可靠投递。SureMail 通过连接到可信的 SMTP 服务解决了这个问题，让您的电子邮件到达收件箱，不再丢失消息或让客户感到沮丧。"
+
+#: admin/product-promotion.php:122
+msgid "Spectra Blocks is a complete rebuild of Spectra on WordPress's modern core-block APIs - an AI website builder built directly into the Block Editor."
+msgstr "Spectra Blocks 是基于 WordPress 现代核心区块 API 完全重建的 Spectra——一个直接内置于区块编辑器的 AI 网站构建器。"
+
+#: inc/api/cookies.php:395
+msgid "Failed to update cookie categories: "
+msgstr "更新 cookie 分类失败："
+
+#. translators: %s: Provider name (e.g., YouTube, Vimeo)
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:236
+#: inc/modules/script-blocking/blocker.php:1294
+#, php-format
+msgid "Accept and load %s content"
+msgstr "接受并加载 %s 内容"
+
+#: inc/modules/assisted-scan/api.php:122
+msgid "An assisted scan is already running. Cancel it before starting another."
+msgstr "辅助扫描已在运行。请先取消它再开始另一个。"
+
+#: inc/modules/assisted-scan/api.php:144
+#: inc/modules/assisted-scan/api.php:155
+msgid "Select at least one published page to scan."
+msgstr "请选择至少一个已发布的页面进行扫描。"
+
+#: inc/modules/assisted-scan/api.php:163
+msgid "Starting assisted scan (collected from your browser)."
+msgstr "开始辅助扫描（从您的浏览器收集）。"
+
+#. translators: %d: number of pages.
+#: inc/modules/assisted-scan/api.php:167
+#, php-format
+msgid "Pages to visit: %d."
+msgstr "待访问页面：%d。"
+
+#: inc/modules/assisted-scan/api.php:197
+#: inc/modules/assisted-scan/api.php:253
+msgid "This scan session has expired. Start the scan again."
+msgstr "此扫描会话已过期。请重新开始扫描。"
+
+#: inc/modules/assisted-scan/api.php:210
+msgid "The scan sent more data than a single page should produce."
+msgstr "扫描发送的数据超过单个页面应产生的量。"
+
+#: inc/modules/assisted-scan/api.php:222
+msgid "That page is not the one this scan was waiting for."
+msgstr "该页面不是此扫描等待的页面。"
+
+#: inc/modules/assisted-scan/api.php:275
+#: inc/modules/assisted-scan/api.php:277
+msgid "Assisted scan cancelled."
+msgstr "辅助扫描已取消。"
+
+#. translators: 1: current page number, 2: total pages.
+#: inc/modules/assisted-scan/collector.php:322
+#, php-format
+msgid "SureCookie is scanning page %1$d of %2$d"
+msgstr "SureCookie 正在扫描第 %1$d 页，共 %2$d 页"
+
+#: inc/modules/assisted-scan/collector.php:323
+msgid "Keep this tab in front so the scan can continue."
+msgstr "保持此标签页在前，以便扫描继续。"
+
+#: inc/modules/assisted-scan/collector.php:324
+msgid "Paused. Bring this tab to the front to continue."
+msgstr "已暂停。将此标签页置于前端以继续。"
+
+#: inc/modules/assisted-scan/collector.php:325
+msgid "Preparing a clean visit…"
+msgstr "正在准备干净访问…"
+
+#. translators: 1: number of cookies, 2: number of services.
+#: inc/modules/assisted-scan/collector.php:327
+#, php-format
+msgid "Scan complete: %1$d cookies, %2$d services found"
+msgstr "扫描完成：发现 %1$d 个 cookie，%2$d 个服务"
+
+#: inc/modules/assisted-scan/collector.php:328
+msgid "The scan could not be completed. Return to SureCookie to try again."
+msgstr "扫描无法完成。返回 SureCookie 重试。"
+
+#: inc/modules/assisted-scan/collector.php:330
+msgid "SureCookie assisted scan progress"
+msgstr "SureCookie 辅助扫描进度"
+
+#. translators: 1: page number, 2: cookie count, 3: resource count.
+#: inc/modules/assisted-scan/ingest.php:119
+#, php-format
+msgid "Page %1$d collected: %2$d cookies, %3$d third-party resources."
+msgstr "第 %1$d 页收集：%2$d 个 cookie，%3$d 个第三方资源。"
+
+#. translators: 1: page number, 2: error reason.
+#: inc/modules/assisted-scan/ingest.php:129
+#, php-format
+msgid "Page %1$d could not be collected (%2$s)."
+msgstr "第 %1$d 页无法收集（%2$s）。"
+
+#. translators: 1: cookie count, 2: service count.
+#: inc/modules/assisted-scan/ingest.php:222
+#, php-format
+msgid "Assisted scan finished: %1$d cookies, %2$d known services."
+msgstr "辅助扫描完成：%1$d 个 cookie，%2$d 个已知服务。"
+
+#. translators: %s: comma-separated service names.
+#: inc/modules/assisted-scan/ingest.php:232
+#, php-format
+msgid "A first-party check also found: %s. Your browser may have blocked these."
+msgstr "首次方检查还发现：%s。您的浏览器可能已阻止这些。"
+
+#: inc/modules/assisted-scan/session.php:466
+msgid "Assisted scan in progress..."
+msgstr "辅助扫描进行中…"
+
+#: inc/modules/assisted-scan/session.php:576
+msgid "Assisted scan finished."
+msgstr "辅助扫描完成。"
+
+#: inc/modules/services/api.php:142
+msgid "Unknown service."
+msgstr "未知服务。"
+
+#: inc/modules/services/api.php:153
+msgid "This is a Pro service. Upgrade to add it."
+msgstr "这是一个专业服务。升级以添加它。"
+
+#: inc/modules/site-scanner/cron.php:210
+msgid "Assisted scan cancelled by user."
+msgstr "辅助扫描被用户取消。"
+
+#: inc/modules/site-scanner/saas-client.php:1653
+msgid "We could not verify your domain because your site's SSL certificate could not be validated (it may be self-signed, expired, or issued for a different domain). Install a valid certificate (for example Let's Encrypt), or scan your live domain that already has one, then retry."
+msgstr "我们无法验证您的域名，因为您的站点 SSL 证书无法验证（可能是自签名、已过期或为不同域名颁发）。请安装有效证书（例如 Let's Encrypt），或扫描已安装证书的实时域名，然后重试。"
+
+#: inc/modules/site-scanner/saas-client.php:1655
+msgid "We could not verify your domain because your host is blocking our verification request to /wp-json/. This is common on SiteGround. Allowlist our scanner IPs/User-Agent (or ask your host to) and retry - or add your services manually in the meantime."
+msgstr "我们无法验证您的域名，因为您的主机阻止了我们对 /wp-json/ 的验证请求。这在 SiteGround 上很常见。请将我们的扫描器 IP/User-Agent 加入白名单（或请您的主机操作），然后重试——或者暂时手动添加您的服务。"
+
+#: inc/modules/site-scanner/saas-client.php:1657
+msgid "We could not reach your site's REST API at /wp-json/. Enable pretty permalinks and make sure no security plugin is disabling the REST API, then retry."
+msgstr "我们无法访问您网站的 REST API，路径为 /wp-json/。请启用美化固定链接，并确保没有安全插件禁用 REST API，然后重试。"
+
+#: inc/services/cookie-category-service.php:247
+msgid "Cookies cannot be moved to the category being deleted."
+msgstr "无法将 Cookie 移动到正在删除的类别。"
+
+#: inc/services/cookie-category-service.php:254
+#: inc/services/cookie-service.php:440
+msgid "The selected category no longer exists. Please reload and try again."
+msgstr "所选类别已不存在。请重新加载并重试。"
+
+#: inc/services/cookie-service.php:421
+msgid "No cookies selected."
+msgstr "未选择任何 Cookie。"
+
+#. translators: %d: maximum number of cookies per request.
+#: inc/services/cookie-service.php:430
+#, php-format
+msgid "Too many cookies in one request. Please select up to %d."
+msgstr "一次请求中的 Cookie 太多。请选择最多 %d 个。"
+
+#. translators: %d: number of cookies updated.
+#: inc/services/cookie-service.php:547
+#, php-format
+msgid "%d cookie moved to the selected category."
+msgid_plural "%d cookies moved to the selected category."
+msgstr[0] "%d 个 Cookie 已移动到所选类别。"
+
+#: inc/services/cookie-service.php:555
+msgid "No cookies could be updated."
+msgstr "无法更新任何 Cookie。"
+
+#: build/admin.js:2
+msgid "Scanning"
+msgstr "扫描中"
+
+#: build/admin.js:2
+#: build/admin.js:41
+msgid "Known Services"
+msgstr "已知服务"
+
+#: build/admin.js:2
+#: build/admin.js:77
+msgid "Scripts and Embeds"
+msgstr "脚本和嵌入"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Geographic Rules"
+msgstr "地理规则"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Consent Sharing"
+msgstr "同意共享"
+
+#: build/admin.js:2
+msgid "Add License"
+msgstr "添加许可证"
+
+#. translators: %s: cookie name.
+#: build/admin.js:22
+#: build/onboarding.js:2
+#, js-format
+msgid "Select %s"
+msgstr "选择 %s"
+
+#. translators: %s: cookie name.
+#: build/admin.js:23
+#: build/onboarding.js:3
+#, js-format
+msgid "Category for %s"
+msgstr "%s 的类别"
+
+#: build/admin.js:23
+#: build/onboarding.js:3
+msgid "Select category"
+msgstr "选择类别"
+
+#. translators: 1: action label, 2: cookie name.
+#: build/admin.js:24
+#: build/onboarding.js:4
+#, js-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %d: number of selected cookies.
+#: build/admin.js:25
+#, js-format
+msgid "%d selected"
+msgstr "%d 个已选择"
+
+#: build/admin.js:25
+msgid "Bulk category"
+msgstr "批量类别"
+
+#: build/admin.js:25
+msgid "Move to category…"
+msgstr "移动到类别…"
+
+#: build/admin.js:25
+msgid "Applying…"
+msgstr "应用中…"
+
+#: build/admin.js:25
+msgid "Apply"
+msgstr "应用"
+
+#: build/admin.js:25
+msgid "Clear selection"
+msgstr "清除选择"
+
+#: build/admin.js:25
+msgid "Select all cookies"
+msgstr "选择所有 Cookie"
+
+#: build/admin.js:28
+msgid "Assigned cookies will be moved to another category instead of being deleted."
+msgstr "已分配的 Cookie 将被移动到另一个类别，而不是被删除。"
+
+#: build/admin.js:28
+msgid "Move Cookies To"
+msgstr "移动 Cookie 到"
+
+#: build/admin.js:28
+msgid "Search services…"
+msgstr "搜索服务…"
+
+#: build/admin.js:28
+msgid "Search services"
+msgstr "搜索服务"
+
+#: build/admin.js:28
+#: build/admin.js:37
+msgid "All Categories"
+msgstr "所有类别"
+
+#. translators: %d: number of cookies
+#: build/admin.js:29
+#, js-format
+msgid "%d cookie"
+msgid_plural "%d cookies"
+msgstr[0] "%d 个 Cookie"
+
+#. translators: %d: number of iframes
+#: build/admin.js:30
+#, js-format
+msgid "%d iframe"
+msgid_plural "%d iframes"
+msgstr[0] "%d 个 iframe"
+
+#. translators: %d: number of scripts
+#: build/admin.js:31
+#, js-format
+msgid "%d script"
+msgid_plural "%d scripts"
+msgstr[0] "%d 个脚本"
+
+#: build/admin.js:31
+msgid "Added"
+msgstr "已添加"
+
+#: build/admin.js:31
+msgid "Detected"
+msgstr "已检测"
+
+#: build/admin.js:31
+msgid "Remove"
+msgstr "移除"
+
+#: build/admin.js:31
+msgid "Add Service"
+msgstr "添加服务"
+
+#: build/admin.js:31
+msgid "No services match your search."
+msgstr "没有符合您搜索条件的服务。"
+
+#: build/admin.js:31
+msgid "Loads before consent"
+msgstr "同意前加载"
+
+#. translators: %s: service name (e.g. Stripe)
+#: build/admin.js:32
+#, js-format
+msgid "%s is a necessary service, so it loads before consent - its cookies can be set without consent."
+msgstr "%s 是必要服务，因此它在同意前加载——其 Cookie 可在未同意的情况下设置。"
+
+#: build/admin.js:32
+msgid "Blocked When \"Block Scripts until Consent\" Is On"
+msgstr "启用“同意前阻止脚本”时被阻止"
+
+#. translators: %1$s: service name; %2$s: consent category name
+#: build/admin.js:33
+#, js-format
+msgid "When blocking is on, %1$s is blocked until visitors accept “%2$s”, so a scan never sees these cookies. Declaring them here keeps your cookie policy complete."
+msgstr "启用阻止时，%1$s 会被阻止，直到访客接受“%2$s”，因此扫描无法检测到这些 Cookie。在此声明它们可保持您的 Cookie 政策完整。"
+
+#. translators: %d: number of cookies
+#: build/admin.js:34
+#, js-format
+msgid "%d cookie added to your cookie policy"
+msgid_plural "%d cookies added to your cookie policy"
+msgstr[0] "%d 个 Cookie 已添加到您的 Cookie 政策中"
+
+#. translators: %d: number of iframes
+#: build/admin.js:35
+#, js-format
+msgid "%d embed blocked before consent"
+msgid_plural "%d embeds blocked before consent"
+msgstr[0] "%d 个嵌入在同意前被阻止"
+
+#. translators: %d: number of scripts
+#: build/admin.js:36
+#, js-format
+msgid "%d script blocked before consent"
+msgid_plural "%d scripts blocked before consent"
+msgstr[0] "%d 个脚本在同意前被阻止"
+
+#: build/admin.js:36
+msgid "No categories available"
+msgstr "无可用类别"
+
+#: build/admin.js:36
+msgid "Create a cookie category first - new cookies land in Uncategorized until then."
+msgstr "请先创建一个 Cookie 类别——新 Cookie 将暂时归入“未分类”。"
+
+#. translators: %d: number of days
+#: build/admin.js:37
+#, js-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d 天"
+
+#: build/admin.js:37
+msgid "Session"
+msgstr "会话"
+
+#: build/admin.js:37
+msgid "Failed to add service"
+msgstr "添加服务失败"
+
+#: build/admin.js:37
+msgid "Failed to remove service"
+msgstr "移除服务失败"
+
+#: build/admin.js:37
+msgid "Service removed"
+msgstr "服务已移除"
+
+#. translators: %s: service name (e.g. YouTube)
+#: build/admin.js:38
+#, js-format
+msgid "Added %s"
+msgstr "已添加 %s"
+
+#. translators: %d: number of cookies declared
+#: build/admin.js:39
+#, js-format
+msgid "%d cookie was added to your cookie policy."
+msgid_plural "%d cookies were added to your cookie policy."
+msgstr[0] "%d 个 Cookie 已添加到您的 Cookie 政策中。"
+
+#: build/admin.js:39
+msgid "This service is now managed. It stays blocked before consent."
+msgstr "此服务现已被管理。它在同意前保持阻止状态。"
+
+#. translators: %s: service name
+#: build/admin.js:40
+#: build/admin.js:41
+#, js-format
+msgid "Add %s"
+msgstr "添加 %s"
+
+#: build/admin.js:40
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Add from a Known Service"
+msgstr "从已知服务添加"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Review what this adds to your cookie policy, then confirm."
+msgstr "请审核此操作对您的 Cookie 政策的影响，然后确认。"
+
+#: build/admin.js:40
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can't detect before consent - ensuring your cookie policy stays complete."
+msgstr "快速一键添加流行服务，如 YouTube 或 Google Analytics。非常适合扫描器无法在同意前检测的脚本，确保您的 Cookie 政策完整。"
+
+#: build/admin.js:40
+msgid "Could not load the services catalog. Please try again."
+msgstr "无法加载服务目录。请重试。"
+
+#: build/admin.js:40
+msgid "This is a Pro service"
+msgstr "这是一个专业版服务"
+
+#: build/admin.js:40
+msgid "Upgrade to add this service and declare its cookies in one click."
+msgstr "升级以一键添加此服务并声明其 Cookie。"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Unlock Every Tracking Service"
+msgstr "解锁所有跟踪服务"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Free covers the most common services. Upgrade to add any service in the catalog in one click."
+msgstr "免费涵盖了最常见的服务。升级后可一键添加目录中的任何服务。"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Confirm Add"
+msgstr "确认添加"
+
+#: build/admin.js:41
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can’t detect before consent - ensuring your cookie policy stays complete."
+msgstr "快速一键添加热门服务，如 YouTube 或 Google Analytics。非常适合扫描器在获得同意前无法检测的脚本，确保您的 Cookie 政策保持完整。"
+
+#: build/admin.js:41
+msgid "Failed to load services"
+msgstr "加载服务失败"
+
+#: build/admin.js:41
+msgid "An error occurred while loading services. Please refresh the page to try again."
+msgstr "加载服务时发生错误。请刷新页面重试。"
+
+#: build/admin.js:41
+msgid "Installed Services"
+msgstr "已安装的服务"
+
+#: build/admin.js:41
+msgid "Available Services"
+msgstr "可用的服务"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Failed to update cookie categories"
+msgstr "更新 Cookie 分类失败"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Cookie categories updated"
+msgstr "Cookie 分类已更新"
+
+#. translators: %d: number of cookies that could not be updated.
+#: build/admin.js:42
+#, js-format
+msgid "%d cookie(s) could not be updated. Reload and try again."
+msgstr "%d 个 Cookie 无法更新。请重新加载并重试。"
+
+#: build/admin.js:42
+msgid "Change Cookie Categories Carefully"
+msgstr "请谨慎更改 Cookie 分类"
+
+#: build/admin.js:42
+msgid "A cookie's category determines how it behaves when users decline consent. Cookies marked as Essential always remain active. Moving a cookie out of Essential may cause it to be blocked or deleted, which can break features like login or checkout. Similarly, assigning tracking cookies to Essential may conflict with privacy regulations. Your choice is remembered, so a later scan will not move the cookie back."
+msgstr "Cookie 的分类决定了用户拒绝同意时它的行为。标记为“必要”的 Cookie 始终保持激活。将 Cookie 从“必要”类别移出可能导致其被阻止或删除，可能会破坏登录或结账等功能。同样，将跟踪 Cookie 分配为“必要”可能与隐私法规冲突。您的选择会被记住，因此后续扫描不会将 Cookie 移回原位。"
+
+#. translators: %s: service name (e.g. Google Analytics)
+#: build/admin.js:43
+#, js-format
+msgid "Looks like %s"
+msgstr "看起来像 %s"
+
+#: build/admin.js:43
+msgid "We spotted cookies from this service. Add it to declare its cookies in one step."
+msgstr "我们发现了该服务的 Cookie。添加它以一步声明其 Cookie。"
+
+#: build/admin.js:43
+#: build/admin.js:76
+msgid "Add as Service"
+msgstr "作为服务添加"
+
+#: build/admin.js:43
+msgid "Dismiss"
+msgstr "忽略"
+
+#: build/admin.js:50
+msgid "Welcome to SureCookie!"
+msgstr "欢迎使用 SureCookie！"
+
+#: build/admin.js:50
+msgid "Get your site compliant in minutes - show a cookie banner, block trackers before consent, and automatically detect cookies used on your site."
+msgstr "几分钟内让您的网站合规——显示 Cookie 横幅，用户同意前阻止跟踪器，自动检测网站使用的 Cookie。"
+
+#: build/admin.js:50
+msgid "Set Up Cookie Banner"
+msgstr "设置 Cookie 横幅"
+
+#: build/admin.js:50
+msgid "Scan My Site"
+msgstr "扫描我的网站"
+
+#: build/admin.js:50
+msgid "Start with the banner, then scan your site to detect cookies."
+msgstr "先设置横幅，然后扫描您的网站以检测 Cookie。"
+
+#: build/admin.js:50
+msgid "SureForms Video Thumbnail"
+msgstr "SureForms 视频缩略图"
+
+#: build/admin.js:50
+msgid "SureForms: Custom WordPress Forms MADE SIMPLE"
+msgstr "SureForms：简化的自定义 WordPress 表单"
+
+#: build/admin.js:59
+msgid "Possible causes: Scan server under heavy load, your site is unreachable from our scanner, your site has CRON issues, or a page caused a browser timeout."
+msgstr "可能原因：扫描服务器负载过重，扫描器无法访问您的网站，您的网站存在 CRON 问题，或某个页面导致浏览器超时。"
+
+#: build/admin.js:59
+msgid "Some pages could not be analyzed"
+msgstr "部分页面无法分析"
+
+#. translators: 1: scanned pages, 2: total pages, 3: failed pages
+#: build/admin.js:60
+#, js-format
+msgid "Scanned %1$d of %2$d pages - %3$d could not be analyzed. The cookies we did find are saved, and results add up across scans, so you can re-run the scan to pick up the rest."
+msgstr "已扫描 %1$d 页中的 %2$d 页 - %3$d 页无法分析。我们找到的 Cookie 已保存，结果会在多次扫描中累积，您可以重新运行扫描以获取剩余内容。"
+
+#: build/admin.js:60
+msgid "Once the scan is complete, the cookies it found appear under <a>Cookies</a>, and the scripts and embeds under <b>Scripts and Embeds</b>."
+msgstr "扫描完成后，找到的 Cookie 会显示在 <a>Cookie</a> 下，脚本和嵌入内容会显示在 <b>脚本和嵌入</b> 下。"
+
+#: build/admin.js:60
+msgid "Keep the scan tab in front until it finishes: browsers slow down background tabs."
+msgstr "请保持扫描标签页在前，直到完成：浏览器会减慢后台标签页的速度。"
+
+#: build/admin.js:60
+msgid "Pages already collected are saved, so closing the tab early keeps what it found."
+msgstr "已收集的页面会被保存，提前关闭标签页也会保留已找到的内容。"
+
+#: build/admin.js:60
+msgid "An ad blocker or privacy extension in this browser can hide trackers from the scan."
+msgstr "此浏览器中的广告拦截器或隐私扩展可能会隐藏扫描中的跟踪器。"
+
+#: build/admin.js:60
+msgid "If remote scanning fails, try Assisted Scanner method: <button></button>"
+msgstr "如果远程扫描失败，请尝试辅助扫描方法：<button></button>"
+
+#: build/admin.js:60
+msgid "Switch to Default Scanner"
+msgstr "切换到默认扫描器"
+
+#: build/admin.js:60
+msgid "Switch to Assisted Scanner"
+msgstr "切换到辅助扫描器"
+
+#: build/admin.js:60
+msgid "Scan From This Browser"
+msgstr "从此浏览器扫描"
+
+#: build/admin.js:60
+msgid "Your host blocked the scanner"
+msgstr "您的主机阻止了扫描器"
+
+#: build/admin.js:60
+msgid "Your site's firewall or bot protection served our scanner a security challenge instead of your page, so the scan completed without results. This does not affect your visitors, only automated scanners. Allowlist the SureCookie scanner (or ask your host to) and run the scan again."
+msgstr "您网站的防火墙或机器人保护向我们的扫描器发出了安全挑战，而不是您的页面，因此扫描完成但无结果。这不会影响您的访客，只影响自动扫描器。请将 SureCookie 扫描器加入白名单（或请求您的主机这样做），然后重新运行扫描。"
+
+#: build/admin.js:60
+msgid "Services we still detected on your site (via a first-party check):"
+msgstr "我们仍在您的网站上检测到的服务（通过第一方检查）："
+
+#: build/admin.js:60
+msgid "How to allowlist the scanner"
+msgstr "如何将扫描器加入白名单"
+
+#: build/admin.js:60
+msgid "No cookies found in this browser scan"
+msgstr "此浏览器扫描未发现任何 Cookie"
+
+#: build/admin.js:60
+msgid "We found services on your pages that your browser did not load, which usually means an ad blocker or privacy extension is active. Try again in a browser with extensions disabled, or add the cookies manually."
+msgstr "我们在您的页面上发现了服务，但您的浏览器未加载它们，这通常意味着广告拦截器或隐私扩展处于激活状态。请在禁用扩展的浏览器中重试，或手动添加 Cookie。"
+
+#: build/admin.js:60
+msgid "The scan visited your pages but no cookies were set. Some services only set cookies after a visitor accepts the banner, so they may not appear. You can also add cookies manually."
+msgstr "扫描访问了您的页面，但未设置任何 Cookie。有些服务只有在访客接受横幅后才设置 Cookie，因此它们可能不会出现。您也可以手动添加 Cookie。"
+
+#: build/admin.js:60
+msgid "No cookies found in this scan"
+msgstr "此扫描未发现任何 Cookie"
+
+#: build/admin.js:60
+msgid "The scanner reached your site but did not detect any cookies. Some services only set cookies after a visitor accepts the banner, so they may not appear in a scan. You can also add cookies manually."
+msgstr "扫描器访问了您的网站，但未检测到任何 Cookie。有些服务只有在访客接受横幅后才设置 Cookie，因此它们可能不会出现在扫描中。您也可以手动添加 Cookie。"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser (Best for this site)"
+msgstr "从您的浏览器扫描（此站点最佳）"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser"
+msgstr "从您的浏览器扫描"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Our scanner couldn't fully access your site due to server restrictions. This method runs the scan directly in your browser, ensuring accurate detection without being blocked."
+msgstr "由于服务器限制，我们的扫描器无法完全访问您的网站。此方法直接在您的浏览器中运行扫描，确保准确检测且不会被阻止。"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Run the scan directly in your browser. This helps detect cookies, scripts, and embeds even when external scanners are blocked."
+msgstr "直接在您的浏览器中运行扫描。这有助于检测 Cookie、脚本和嵌入内容，即使外部扫描器被阻止。"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Detects cookies, scripts, and embeds as your visitors would see them."
+msgstr "检测访客看到的 Cookie、脚本和嵌入内容。"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Works even when hosting or firewall blocks external scans."
+msgstr "即使托管或防火墙阻止外部扫描也能工作。"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Results appear automatically in your Tracking Manager."
+msgstr "结果会自动显示在您的跟踪管理器中。"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Some advanced detections may still require a remote scan when available."
+msgstr "某些高级检测仍可能需要远程扫描（如果可用）。"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "How this works"
+msgstr "工作原理"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Before You Start"
+msgstr "开始之前"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "To measure cookie duration accurately, this scan temporarily clears cookies for your site in this browser (including your consent choice). Your WordPress login session is preserved, so you'll remain signed in."
+msgstr "为了准确测量 Cookie 的持续时间，此扫描会暂时清除此浏览器中您网站的 Cookie（包括您的同意选择）。您的 WordPress 登录会话将被保留，因此您将保持登录状态。"
+
+#. translators: %d: maximum pages
+#: build/admin.js:62
+#: build/onboarding.js:6
+#, js-format
+msgid "An assisted scan visits up to %d pages. Remove some pages to continue."
+msgstr "辅助扫描最多访问 %d 页。请删除一些页面以继续。"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Scanning in your browser…"
+msgstr "正在浏览器中扫描…"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Start Browser Scan"
+msgstr "开始浏览器扫描"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "A new tab opens to scan your selected pages - keep it active until it finishes."
+msgstr "将打开一个新标签页扫描您选择的页面 - 请保持该标签页处于活动状态直到扫描完成。"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Switch Back"
+msgstr "切换回去"
+
+#: build/admin.js:62
+msgid "This page did not load the scanner, so it was skipped. A redirect or a login requirement usually causes this."
+msgstr "此页面未加载扫描器，因此被跳过。通常是重定向或登录要求导致的。"
+
+#: build/admin.js:62
+msgid "This page took too long to respond."
+msgstr "此页面响应时间过长。"
+
+#: build/admin.js:62
+msgid "Skipped because the scan was cancelled."
+msgstr "因扫描被取消而跳过。"
+
+#: build/admin.js:62
+msgid "This page could not be collected."
+msgstr "无法收集此页面。"
+
+#: build/admin.js:62
+msgid "Pages In This Scan"
+msgstr "本次扫描中的页面"
+
+#. translators: 1: cookie count, 2: script count
+#: build/admin.js:63
+#, js-format
+msgid "%1$d cookies, %2$d scripts"
+msgstr "%1$d 个 cookie，%2$d 个脚本"
+
+#: build/admin.js:63
+msgid "Collecting…"
+msgstr "正在收集…"
+
+#: build/admin.js:63
+msgid "Waiting"
+msgstr "等待中"
+
+#: build/admin.js:63
+msgid "Re-scan"
+msgstr "重新扫描"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Could not start the assisted scan."
+msgstr "无法启动辅助扫描。"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Could not start the assisted scan"
+msgstr "无法启动辅助扫描"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Please try again in a moment."
+msgstr "请稍后再试。"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Your browser blocked the scan window"
+msgstr "您的浏览器阻止了扫描窗口"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Allow pop-ups for this site, then start the scan again."
+msgstr "允许此站点弹出窗口，然后重新开始扫描。"
+
+#: build/admin.js:63
+msgid "View Scan Logs"
+msgstr "查看扫描日志"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Scan your website to find cookies, scripts, and trackers that require consent."
+msgstr "扫描您的网站以查找需要同意的 cookie、脚本和跟踪器。"
+
+#: build/admin.js:74
+msgid "This is taking a little longer than usual"
+msgstr "这比平时花费的时间稍长"
+
+#: build/admin.js:74
+msgid "A page is taking a while to respond, but your scan is still running in the background. Any cookies already found have been saved. You can leave this page and come back - or cancel and try again with fewer pages."
+msgstr "某个页面响应较慢，但您的扫描仍在后台运行。已找到的任何 cookie 都已保存。您可以离开此页面稍后返回，或取消并尝试减少页面数量重新扫描。"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Queued for Later"
+msgstr "扫描已排队等待"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Today's page budget is used up, so the remaining pages will scan automatically once it resets. Any cookies already found are saved. To scan sooner, run it again with fewer pages."
+msgstr "今天的页面预算已用完，剩余页面将在预算重置后自动扫描。已找到的任何 cookie 都已保存。若想更快扫描，请减少页面数量重新运行。"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Couldn't Be Completed"
+msgstr "扫描未能完成"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "A page may have taken too long to respond. Any cookies already found have been saved, and results add up across scans - nothing is lost. Please try again, scanning fewer pages at a time for a more reliable run."
+msgstr "某个页面响应时间过长。已找到的任何 cookie 都已保存，扫描结果会累积——不会丢失。请尝试减少每次扫描的页面数量以获得更可靠的运行。"
+
+#: build/admin.js:76
+msgid "iFrame"
+msgstr "iFrame"
+
+#: build/admin.js:76
+msgid "Head"
+msgstr "Head"
+
+#: build/admin.js:76
+msgid "Body"
+msgstr "Body"
+
+#: build/admin.js:76
+msgid "Footer"
+msgstr "Footer"
+
+#: build/admin.js:76
+msgid "Anywhere (fallback)"
+msgstr "任意位置（回退）"
+
+#: build/admin.js:76
+msgid "This resource is whitelisted, so it always loads - even before consent."
+msgstr "此资源已列入白名单，因此始终加载——即使在同意之前。"
+
+#: build/admin.js:76
+msgid "This script is managed by Google Consent Mode and always loads while GCM is enabled."
+msgstr "此脚本由 Google 同意模式管理，启用 GCM 时始终加载。"
+
+#: build/admin.js:76
+msgid "This resource matches a whitelist rule (custom entry or common service), so it always loads."
+msgstr "此资源符合白名单规则（自定义条目或常用服务），因此始终加载。"
+
+#: build/admin.js:76
+msgid "Script & Iframe"
+msgstr "脚本和 Iframe"
+
+#: build/admin.js:76
+msgid "Blocked until consent"
+msgstr "等待同意前被阻止"
+
+#: build/admin.js:76
+msgid "Not blocked"
+msgstr "未被阻止"
+
+#: build/admin.js:76
+msgid "Whitelisted"
+msgstr "已列入白名单"
+
+#: build/admin.js:76
+msgid "Managed by GCM"
+msgstr "由 GCM 管理"
+
+#: build/admin.js:76
+msgid "Source"
+msgstr "来源"
+
+#: build/admin.js:76
+msgid "Managed via Known Services - its cookies are declared in your cookie policy."
+msgstr "通过已知服务管理——其 cookie 已在您的 cookie 政策中声明。"
+
+#: build/admin.js:76
+msgid "Recognized Known Services catalog entry - Click \"Add as Service\" to declare its cookies."
+msgstr "识别的已知服务目录条目——点击“添加为服务”以声明其 cookie。"
+
+#: build/admin.js:76
+msgid "Managed Service"
+msgstr "管理服务"
+
+#: build/admin.js:76
+msgid "Known Service"
+msgstr "已知服务"
+
+#: build/admin.js:76
+msgid "Always Allowed"
+msgstr "始终允许"
+
+#: build/admin.js:76
+msgid "Category for"
+msgstr "类别为"
+
+#: build/admin.js:76
+msgid "Block until consent (recommended)"
+msgstr "阻止直到同意（推荐）"
+
+#: build/admin.js:76
+msgid "Always allowed"
+msgstr "始终允许"
+
+#: build/admin.js:76
+msgid "Do not block (always load)"
+msgstr "不阻止（始终加载）"
+
+#: build/admin.js:76
+msgid "Edit Resource"
+msgstr "编辑资源"
+
+#: build/admin.js:76
+msgid "Add Script or Embed"
+msgstr "添加脚本或嵌入"
+
+#: build/admin.js:76
+msgid "Update"
+msgstr "更新"
+
+#: build/admin.js:76
+msgid "Behavior"
+msgstr "行为"
+
+#: build/admin.js:76
+msgid "Whitelisted Resource Warning"
+msgstr "白名单资源警告"
+
+#: build/admin.js:76
+msgid "If a resource sets cookies, allowing it directly can be a GDPR violation - only whitelist resources you are sure about."
+msgstr "如果资源设置了 Cookie，直接允许可能违反 GDPR —— 仅对白名单中确定的资源允许。"
+
+#: build/admin.js:76
+msgid "Detected by the scanner, so the value cannot be edited."
+msgstr "由扫描器检测，因此该值无法编辑。"
+
+#: build/admin.js:76
+msgid "e.g. Support chat"
+msgstr "例如 支持聊天"
+
+#: build/admin.js:76
+msgid "Domain / Host"
+msgstr "域名 / 主机"
+
+#: build/admin.js:76
+msgid "e.g. connect.facebook.net"
+msgstr "例如 connect.facebook.net"
+
+#: build/admin.js:76
+msgid "The host the resource loads from. Pasting a full tag or URL also works."
+msgstr "资源加载的主机。粘贴完整标签或 URL 也有效。"
+
+#: build/admin.js:76
+msgid "Path / Pattern (advanced)"
+msgstr "路径 / 模式（高级）"
+
+#: build/admin.js:76
+msgid "e.g. /fbevents.js"
+msgstr "例如 /fbevents.js"
+
+#: build/admin.js:76
+msgid "Optional: narrow the rule to resources that also contain this path, so only one file on the host is blocked."
+msgstr "可选：将规则缩小到也包含此路径的资源，这样只阻止主机上的一个文件。"
+
+#: build/admin.js:76
+msgid "Script Keywords"
+msgstr "脚本关键字"
+
+#: build/admin.js:76
+msgid "e.g. fbq, fbq.push"
+msgstr "例如 fbq, fbq.push"
+
+#: build/admin.js:76
+msgid "JavaScript function names to block that depend on the main script (comma separated)."
+msgstr "依赖主脚本的 JavaScript 函数名（逗号分隔）以阻止。"
+
+#: build/admin.js:76
+msgid "Script Location"
+msgstr "脚本位置"
+
+#: build/admin.js:76
+msgid "Anywhere"
+msgstr "任意位置"
+
+#: build/admin.js:76
+msgid "Where the script loads on the page. SureCookie only looks for it in this section."
+msgstr "脚本在页面上的加载位置。SureCookie 仅在此部分查找。"
+
+#: build/admin.js:76
+msgid "This resource stays blocked until the visitor consents to this category."
+msgstr "此资源将被阻止，直到访客同意此类别。"
+
+#: build/admin.js:76
+msgid "Unlock Whitelisting"
+msgstr "解锁白名单"
+
+#: build/admin.js:76
+msgid "Whitelist your own scripts and common services so essential integrations keep working before consent."
+msgstr "将您自己的脚本和常用服务加入白名单，以便在获得同意前关键集成继续工作。"
+
+#. translators: %d: number of GCM-managed services.
+#: build/admin.js:77
+#, js-format
+msgid "Managed by Google Consent Mode (%d)"
+msgstr "由 Google 同意模式管理（%d）"
+
+#: build/admin.js:77
+msgid "View services"
+msgstr "查看服务"
+
+#: build/admin.js:77
+msgid "Managed by Google Consent Mode"
+msgstr "由 Google 同意模式管理"
+
+#: build/admin.js:77
+msgid "Auto-whitelisted"
+msgstr "自动加入白名单"
+
+#: build/admin.js:77
+msgid "Enter the script domain or host."
+msgstr "输入脚本域名或主机。"
+
+#: build/admin.js:77
+msgid "Select a category."
+msgstr "选择一个类别。"
+
+#: build/admin.js:77
+msgid "A rule for this script already exists."
+msgstr "此脚本的规则已存在。"
+
+#: build/admin.js:77
+msgid "Control how scripts and embeds load based on user consent - block them until allowed or mark essential ones to always run."
+msgstr "根据用户同意控制脚本和嵌入的加载——阻止它们直到允许，或标记关键脚本始终运行。"
+
+#: build/admin.js:77
+msgid "Behavior: Always Allowed"
+msgstr "行为：始终允许"
+
+#: build/admin.js:77
+msgid "Choose scripts and domains that should never be blocked, so tools like reCAPTCHA and other essential integrations keep working. Google Consent Mode scripts are whitelisted automatically when it is enabled."
+msgstr "选择永不阻止的脚本和域名，以便 reCAPTCHA 和其他关键集成继续工作。启用 Google 同意模式时，相关脚本自动加入白名单。"
+
+#: build/admin.js:77
+msgid "Block Scripts and Embeds Until Consent Switch"
+msgstr "阻止脚本和嵌入直到同意开关"
+
+#: build/admin.js:77
+msgid "Block Scripts Until Consent"
+msgstr "阻止脚本直到同意"
+
+#: build/admin.js:77
+msgid "Prevent non-essential scripts and embeds from loading until users give consent."
+msgstr "防止非关键脚本和嵌入在用户同意前加载。"
+
+#: build/admin.js:77
+msgid "Detected and Managed Resources"
+msgstr "检测到和管理的资源"
+
+#. translators: 1: scanner-detected count, 2: custom rule count
+#: build/admin.js:78
+#, js-format
+msgid "%1$d detected by scanner, %2$d custom"
+msgstr "%1$d 个由扫描器检测，%2$d 个自定义"
+
+#: build/admin.js:78
+msgid "New Resource"
+msgstr "新资源"
+
+#: build/admin.js:78
+msgid "All your scripts will be displayed here"
+msgstr "您的所有脚本将显示在这里"
+
+#: build/admin.js:78
+msgid "Run a scan to detect third-party resources, or add a script manually."
+msgstr "运行扫描以检测第三方资源，或手动添加脚本。"
+
+#: build/admin.js:78
+msgid "Add New Resource"
+msgstr "添加新资源"
+
+#: build/admin.js:78
+msgid "Unlock Custom Script Rules & Whitelisting"
+msgstr "解锁自定义脚本规则和白名单"
+
+#: build/admin.js:78
+msgid "Add your own scripts to block under any category, whitelist trusted scripts, and manage it all from one place."
+msgstr "添加您自己的脚本以在任何类别下阻止，白名单可信脚本，并从一个地方管理所有内容。"
+
+#: build/admin.js:78
+msgid "Generate your cookie policy automatically from your settings, or display it anywhere using a shortcode."
+msgstr "根据您的设置自动生成您的Cookie政策，或使用短代码在任何地方显示它。"
+
+#: build/admin.js:78
+msgid "Automatically re-scan your site and get notified when new cookies or trackers appear."
+msgstr "自动重新扫描您的网站，并在出现新Cookie或跟踪器时收到通知。"
+
+#: build/admin.js:84
+msgid "Show your cookie banner only in regions where consent is required."
+msgstr "仅在需要同意的地区显示您的Cookie横幅。"
+
+#: build/admin.js:84
+msgid "Share visitor consent across your sites so users don’t need to give consent again."
+msgstr "在您的网站之间共享访客同意，用户无需再次给予同意。"
+
+#: build/admin.js:84
+msgid "Unlock Consent Sharing"
+msgstr "解锁同意共享"
+
+#: build/admin.js:77
+msgid "Allowed to load while Google Consent Mode is active, instead of being blocked before consent."
+msgstr "允许在 Google 同意模式激活时加载，而不是在获得同意前被阻止。"
+
+#: build/admin.js:77
+msgid "These Google services are allowed to load while Google Consent Mode is active, instead of being blocked before consent. For Google tag products, Consent Mode then controls what they may store and which identifiers they may use. It does not stop them from contacting Google. They cannot be removed here."
+msgstr "这些 Google 服务允许在 Google 同意模式激活时加载，而不是在获得同意前被阻止。对于 Google 标签产品，同意模式会控制它们可以存储的内容以及可以使用的标识符。它不会阻止它们与 Google 联系。它们无法在此处移除。"

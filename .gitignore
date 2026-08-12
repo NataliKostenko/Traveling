@@ -1,0 +1,11 @@
+.env
+.envrc
+db-templates/clean_local.sql
+sql/
+conf/
+logs/
+public/wp-config.php
+public/wp-content/cache/
+public/wp-content/*.log
+.DS_Store
+Thumbs.db

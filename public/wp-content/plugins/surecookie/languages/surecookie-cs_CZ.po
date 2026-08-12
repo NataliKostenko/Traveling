@@ -1,0 +1,5534 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SureCookie 0.0.1-beta.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surecookie\n"
+"Last-Translator: gpt-po v1.3.0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-19T05:50:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: surecookie\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: surecookie.php
+#: inc/integrations/wp-consent-api/actions.php:66
+#: inc/integrations/wp-consent-api/actions.php:74
+msgid "SureCookie"
+msgstr "SureCookie"
+
+#. Plugin URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com"
+msgstr "https://surecookie.com"
+
+#. Description of the plugin
+#: surecookie.php
+msgid "Real cookie consent for WordPress. Browser-based scanning, smart categorization, strict script blocking, and consent logs stored in your database."
+msgstr "Skutečný souhlas s cookies pro WordPress. Prohlížečem založené skenování, chytrá kategorizace, přísné blokování skriptů a záznamy o souhlasu uložené ve vaší databázi."
+
+#. Author URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com/"
+msgstr "https://surecookie.com/"
+
+#: admin/menu.php:74
+#: build/admin.js:2
+msgid "Dashboard"
+msgstr "Nástěnka"
+
+#: admin/menu.php:87
+#: admin/menu.php:274
+#: build/admin.js:2
+msgid "Settings"
+msgstr "Nastavení"
+
+#: admin/menu.php:82
+#: admin/menu.php:400
+#: build/admin.js:2
+msgid "Logs"
+msgstr "Záznamy"
+
+#: admin/menu.php:91
+#: build/admin.js:2
+msgid "Learn"
+msgstr "Naučit se"
+
+#: admin/menu.php:130
+msgid "You don't have access to this page."
+msgstr "Nemáte přístup na tuto stránku."
+
+#: admin/menu.php:300
+#: admin/menu.php:301
+msgid "Upgrade"
+msgstr "Aktualizovat"
+
+#: admin/onboarding.php:59
+#: build/onboarding.js:14
+msgid "Onboarding"
+msgstr "Úvodní nastavení"
+
+#: admin/onboarding.php:75
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nemáte dostatečná oprávnění pro přístup na tuto stránku."
+
+#: admin/product-promotion.php:110
+msgid "A simple yet powerful way to create modern forms for your website."
+msgstr "Jednoduchý, ale výkonný způsob, jak vytvářet moderní formuláře pro váš web."
+
+#: admin/rating-notice.php:234
+msgid "If SureCookie has been helpful, would you mind taking a moment to leave a 5-star review on WordPress.org?"
+msgstr "Pokud vám SureCookie pomohl, mohl byste si prosím najít chvíli a zanechat 5hvězdičkové hodnocení na WordPress.org?"
+
+#: admin/rating-notice.php:243
+msgid "Rate SureCookie"
+msgstr "Ohodnotit SureCookie"
+
+#: admin/rating-notice.php:251
+msgid "Maybe later"
+msgstr "Možná později"
+
+#: admin/rating-notice.php:255
+msgid "I already did"
+msgstr "Už jsem to udělal"
+
+#: inc/api/base.php:59
+msgid "You don't have access to do this."
+msgstr "Nemáte oprávnění toto provést."
+
+#: inc/api/base.php:71
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "Kontrola zabezpečení selhala. Prosím obnovte stránku a zkuste to znovu."
+
+#: inc/api/base.php:80
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "Vaše relace vypršela. Prosím obnovte stránku a zkuste to znovu."
+
+#: inc/api/consent-logs.php:146
+msgid "Search by IP address or Session ID"
+msgstr "Hledat podle IP adresy nebo ID relace"
+
+#: inc/api/consent-logs.php:318
+#: inc/api/consent-logs.php:345
+msgid "Request origin could not be verified."
+msgstr "Původ požadavku nelze ověřit."
+
+#: inc/api/consent-logs.php:892
+msgid "Request origin is not allowed."
+msgstr "Původ požadavku není povolen."
+
+#: inc/api/consent-logs.php:448
+msgid "Consent logs retrieved successfully."
+msgstr "Záznamy o souhlasu byly úspěšně načteny."
+
+#: inc/api/consent-logs.php:490
+msgid "Consent processed successfully (logging disabled)"
+msgstr "Souhlas byl úspěšně zpracován (záznamování zakázáno)"
+
+#: inc/api/consent-logs.php:376
+#: inc/api/consent-logs.php:515
+msgid "Too many requests. Please try again later."
+msgstr "Příliš mnoho požadavků. Zkuste to prosím později."
+
+#: inc/api/consent-logs.php:535
+msgid "Preferences should not be empty."
+msgstr "Preference nesmí být prázdné."
+
+#: inc/api/consent-logs.php:544
+msgid "Preferences data is too large."
+msgstr "Data preferencí jsou příliš velká."
+
+#: inc/api/consent-logs.php:555
+#: inc/api/consent-logs.php:566
+msgid "Invalid preferences format."
+msgstr "Neplatný formát preferencí."
+
+#: inc/api/consent-logs.php:575
+msgid "Session ID is required."
+msgstr "ID relace je povinné."
+
+#: inc/api/consent-logs.php:614
+msgid "Accept All is not enabled for this site."
+msgstr "Funkce „Přijmout vše“ není pro tento web povolena."
+
+#: inc/api/consent-logs.php:641
+msgid "Consent saved successfully."
+msgstr "Souhlas byl úspěšně uložen."
+
+#: inc/api/consent-logs.php:651
+msgid "Failed to save consent."
+msgstr "Nepodařilo se uložit souhlas."
+
+#: inc/api/consent-logs.php:669
+#: inc/api/consent-logs.php:801
+msgid "Invalid log ID"
+msgstr "Neplatné ID záznamu"
+
+#: inc/api/consent-logs.php:681
+msgid "Log not found."
+msgstr "Záznam nebyl nalezen."
+
+#: inc/api/consent-logs.php:717
+#: inc/api/consent-logs.php:744
+msgid "Log details retrieved successfully."
+msgstr "Detaily záznamu byly úspěšně načteny."
+
+#: inc/api/consent-logs.php:766
+msgid "Invalid log IDs"
+msgstr "Neplatná ID záznamů"
+
+#: inc/api/consent-logs.php:777
+#: inc/api/consent-logs.php:872
+msgid "Failed to delete logs."
+msgstr "Nepodařilo se smazat záznamy."
+
+#. translators: %d: number of logs deleted
+#: inc/api/consent-logs.php:787
+#, php-format
+msgid "%d log(s) deleted successfully."
+msgstr "%d záznam(y) úspěšně smazán(y)."
+
+#: inc/api/consent-logs.php:812
+msgid "Log deleted successfully."
+msgstr "Záznam byl úspěšně smazán."
+
+#: inc/api/consent-logs.php:821
+msgid "Failed to delete log."
+msgstr "Nepodařilo se smazat záznam."
+
+#: inc/api/consent-logs.php:863
+msgid "All logs deleted successfully."
+msgstr "Všechny záznamy byly úspěšně smazány."
+
+#: inc/api/cookie-categories.php:181
+msgid "Failed to create category: "
+msgstr "Nepodařilo se vytvořit kategorii:"
+
+#: inc/api/cookie-categories.php:204
+msgid "Failed to update category: "
+msgstr "Nepodařilo se aktualizovat kategorii:"
+
+#: inc/api/cookie-categories.php:230
+msgid "Failed to delete category: "
+msgstr "Nepodařilo se smazat kategorii:"
+
+#: inc/api/cookies.php:302
+msgid "Failed to create custom cookie: "
+msgstr "Nepodařilo se vytvořit vlastní cookie:"
+
+#: inc/api/cookies.php:324
+msgid "Failed to update custom cookie: "
+msgstr "Nepodařilo se aktualizovat vlastní cookie:"
+
+#: inc/api/cookies.php:345
+msgid "Failed to delete custom cookie: "
+msgstr "Nepodařilo se smazat vlastní cookie:"
+
+#: inc/api/cookies.php:372
+msgid "Failed to update cookie category: "
+msgstr "Nepodařilo se aktualizovat kategorii cookie:"
+
+#: inc/api/onboarding.php:134
+msgid "Onboarding data saved successfully."
+msgstr "Údaje o onboardingu byly úspěšně uloženy."
+
+#: inc/api/onboarding.php:152
+msgid "Onboarding is already marked as complete."
+msgstr "Onboarding je již označen jako dokončený."
+
+#: inc/api/onboarding.php:162
+msgid "Onboarding marked as complete."
+msgstr "Onboarding byl označen jako dokončený."
+
+#: inc/api/plugin.php:121
+msgid "Promotional plugins data retrieved."
+msgstr "Data propagačních pluginů byla načtena."
+
+#: inc/api/plugin.php:154
+msgid "You don't have permission to activate plugins."
+msgstr "Nemáte oprávnění k aktivaci pluginů."
+
+#: inc/api/plugin.php:158
+#: inc/api/plugin.php:191
+msgid "Plugin not found."
+msgstr "Plugin nebyl nalezen."
+
+#: inc/api/plugin.php:172
+#: build/admin.js:2
+msgid "Plugin activated successfully."
+msgstr "Plugin byl úspěšně aktivován."
+
+#: inc/api/plugin.php:187
+msgid "You don't have permission to deactivate plugins."
+msgstr "Nemáte oprávnění k deaktivaci pluginů."
+
+#: inc/api/plugin.php:203
+msgid "Plugin is already inactive."
+msgstr "Plugin je již neaktivní."
+
+#: inc/api/plugin.php:228
+#: build/admin.js:75
+msgid "Plugin deactivated successfully."
+msgstr "Plugin byl úspěšně deaktivován."
+
+#: inc/api/plugin.php:290
+msgid "Conflicting plugins retrieved."
+msgstr "Byly načteny konfliktní pluginy."
+
+#: inc/api/posts.php:199
+msgid "Post not found."
+msgstr "Příspěvek nebyl nalezen."
+
+#: inc/api/scan-history.php:61
+msgid "Scanned history retrieved successfully."
+msgstr "Historie skenování byla úspěšně načtena."
+
+#: inc/api/scanned-resources.php:78
+msgid "Scanned resources retrieved successfully."
+msgstr "Skenované zdroje byly úspěšně načteny."
+
+#: inc/api/settings.php:120
+msgid "No data found"
+msgstr "Nebyly nalezeny žádné údaje"
+
+#: inc/api/settings.php:144
+msgid "Settings updated"
+msgstr "Nastavení aktualizováno"
+
+#: inc/functions/get.php:118
+msgid "Essential Cookies"
+msgstr "Základní cookies"
+
+#: inc/functions/get.php:119
+msgid "Required for basic website functionality."
+msgstr "Požadováno pro základní funkčnost webu."
+
+#: inc/functions/get.php:124
+msgid "Functional Cookies"
+msgstr "Funkční cookies"
+
+#: inc/functions/get.php:125
+msgid "Enable features like saved preferences and personalized content."
+msgstr "Umožňují funkce jako uložené preference a personalizovaný obsah."
+
+#: inc/functions/get.php:130
+msgid "Analytics Cookies"
+msgstr "Analytické cookies"
+
+#: inc/functions/get.php:131
+msgid "Help us understand how visitors use our site so we can improve it."
+msgstr "Pomáhají nám pochopit, jak návštěvníci používají náš web, abychom jej mohli zlepšit."
+
+#: inc/functions/get.php:136
+msgid "Marketing Cookies"
+msgstr "Marketingové cookies"
+
+#: inc/functions/get.php:137
+msgid "Used to show you relevant ads based on your interests."
+msgstr "Používají se k zobrazování relevantních reklam na základě vašich zájmů."
+
+#: inc/functions/get.php:142
+msgid "Uncategorized Cookies"
+msgstr "Nekategorizované cookies"
+
+#: inc/functions/get.php:143
+msgid "Cookies that haven't been categorized yet."
+msgstr "Cookies, které dosud nebyly kategorizovány."
+
+#: inc/integrations/wp-consent-api/actions.php:62
+msgid "days"
+msgstr "dny"
+
+#: inc/integrations/wp-consent-api/actions.php:69
+msgid "Stores the user's cookie consent preferences."
+msgstr "Ukládá preference uživatele ohledně souhlasu s cookies."
+
+#: inc/integrations/wp-consent-api/actions.php:76
+msgid "1 year"
+msgstr "1 rok"
+
+#: inc/integrations/wp-consent-api/actions.php:77
+msgid "Tracks consent log sessions for audit purposes."
+msgstr "Sleduje relace záznamů souhlasu pro auditní účely."
+
+#: inc/modules/auth/api.php:71
+msgid "Authentication is already completed."
+msgstr "Autentizace je již dokončena."
+
+#: inc/modules/auth/controller.php:71
+msgid "Could not generate secure auth key."
+msgstr "Nepodařilo se vygenerovat bezpečný autentizační klíč."
+
+#: inc/modules/auth/controller.php:88
+msgid "Failed to encode the token data."
+msgstr "Nepodařilo se zakódovat data tokenu."
+
+#: inc/modules/auth/controller.php:179
+msgid "Invalid flow identifier."
+msgstr "Neplatný identifikátor toku."
+
+#: inc/modules/auth/controller.php:188
+msgid "Failed to decode the access key."
+msgstr "Nepodařilo se dekódovat přístupový klíč."
+
+#: inc/modules/auth/controller.php:193
+msgid "Invalid data format."
+msgstr "Neplatný formát dat."
+
+#: inc/modules/auth/controller.php:207
+msgid "Failed to decrypt the access key."
+msgstr "Nepodařilo se dešifrovat přístupový klíč."
+
+#: inc/modules/auth/controller.php:213
+msgid "Failed to json decode the decrypted data."
+msgstr "Nepodařilo se dekódovat dešifrovaná data ve formátu JSON."
+
+#: inc/modules/auth/controller.php:217
+msgid "No user email found in the decrypted data."
+msgstr "V dešifrovaných datech nebyl nalezen e-mail uživatele."
+
+#: inc/modules/cookie-policy/api.php:76
+#: build/admin.js:78
+msgid "Cookie Policy page already exists."
+msgstr "Stránka s pravidly pro cookies již existuje."
+
+#: inc/modules/cookie-policy/api.php:90
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/admin.js:78
+#: build/public.js:1
+msgid "Cookie Policy"
+msgstr "Pravidla pro cookies"
+
+#: inc/modules/cookie-policy/api.php:112
+msgid "Cookie Policy page created successfully."
+msgstr "Stránka s pravidly pro cookies byla úspěšně vytvořena."
+
+#. translators: %s: site name.
+#: inc/modules/cookie-policy/api.php:182
+#, php-format
+msgid "This Cookie Policy explains how %s uses cookies and similar tracking technologies when you visit our website. It describes what these technologies are, why we use them, and your rights to control our use of them."
+msgstr "Tato pravidla pro cookies vysvětlují, jak %s používá cookies a podobné sledovací technologie při návštěvě našeho webu. Popisují, co tyto technologie jsou, proč je používáme a vaše práva na kontrolu jejich používání."
+
+#: inc/modules/cookie-policy/api.php:191
+msgid "What Are Cookies"
+msgstr "Co jsou cookies"
+
+#: inc/modules/cookie-policy/api.php:195
+msgid "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, provide a better browsing experience, and supply information to the owners of the site. Cookies can be \"persistent\" or \"session\" cookies. Persistent cookies remain on your device for a set period or until you delete them, while session cookies are deleted as soon as you close your web browser."
+msgstr "Cookies jsou malé textové soubory, které se ukládají do vašeho počítače nebo mobilního zařízení při návštěvě webové stránky. Jsou široce používány k efektivnějšímu fungování webů, poskytování lepšího zážitku z prohlížení a dodávání informací majitelům stránek. Cookies mohou být \"trvalé\" nebo \"relace\". Trvalé cookies zůstávají ve vašem zařízení po stanovenou dobu nebo dokud je nesmažete, zatímco relace cookies jsou smazány, jakmile zavřete svůj webový prohlížeč."
+
+#: inc/modules/cookie-policy/api.php:199
+msgid "In addition to cookies, we may also use similar technologies such as pixel tags, web beacons, and local storage to collect and store information. These technologies work in a similar way to cookies and allow us to monitor and improve our website and your experience of it."
+msgstr "Kromě cookies můžeme také používat podobné technologie, jako jsou pixelové značky, webové majáky a místní úložiště, k shromažďování a ukládání informací. Tyto technologie fungují podobně jako cookies a umožňují nám sledovat a zlepšovat naše webové stránky a váš zážitek z nich."
+
+#: inc/modules/cookie-policy/api.php:206
+msgid "Types of Cookies We Use"
+msgstr "Typy cookies, které používáme"
+
+#: inc/modules/cookie-policy/api.php:210
+msgid "We use different types of cookies for various reasons. The table below provides detailed information about the cookies we use, organized by category, including the name of each cookie, its purpose, duration, and the domain it belongs to. Some cookies are essential for the website to function properly, while others help us understand how visitors interact with our site, remember your preferences, or deliver relevant advertising."
+msgstr "Používáme různé typy cookies z různých důvodů. Níže uvedená tabulka poskytuje podrobné informace o cookies, které používáme, uspořádané podle kategorií, včetně názvu každého cookie, jeho účelu, doby trvání a domény, ke které patří. Některé cookies jsou nezbytné pro správné fungování webu, zatímco jiné nám pomáhají pochopit, jak návštěvníci interagují s našimi stránkami, zapamatovat si vaše preference nebo zobrazovat relevantní reklamu."
+
+#: inc/modules/cookie-policy/api.php:220
+msgid "How to Manage Your Cookie Preferences"
+msgstr "Jak spravovat své preference cookies"
+
+#: inc/modules/cookie-policy/api.php:224
+msgid "When you first visit our website, you will be shown a cookie consent banner that allows you to accept or decline non-essential cookies. You can change your preferences at any time by clicking the cookie preferences option available on our website. Essential cookies cannot be disabled as they are necessary for the basic functioning of the website."
+msgstr "Při první návštěvě našich webových stránek se vám zobrazí banner pro souhlas s cookies, který vám umožní přijmout nebo odmítnout nepodstatné cookies. Svá nastavení můžete kdykoli změnit kliknutím na možnost nastavení cookies dostupnou na našich stránkách. Nezbytné cookies nelze zakázat, protože jsou nutné pro základní fungování webu."
+
+#: inc/modules/cookie-policy/api.php:228
+msgid "Please note that restricting cookies may impact your experience of the website, as some features and services may not function properly without certain cookies enabled."
+msgstr "Vezměte prosím na vědomí, že omezení cookies může ovlivnit váš zážitek z webu, protože některé funkce a služby nemusí bez určitých cookies správně fungovat."
+
+#: inc/modules/cookie-policy/api.php:235
+msgid "How to Control Cookies in Your Browser"
+msgstr "Jak ovládat cookies ve svém prohlížeči"
+
+#: inc/modules/cookie-policy/api.php:239
+msgid "Most web browsers allow you to manage your cookie preferences through their settings. You can set your browser to refuse cookies, delete existing cookies, or alert you when a cookie is being set. The steps to manage cookies vary by browser. Below are general instructions for the most common browsers."
+msgstr "Většina webových prohlížečů vám umožňuje spravovat preference cookies prostřednictvím jejich nastavení. Můžete nastavit prohlížeč tak, aby odmítal cookies, mazal existující cookies nebo vás upozorňoval při nastavování cookie. Kroky pro správu cookies se liší podle prohlížeče. Níže jsou obecné pokyny pro nejběžnější prohlížeče."
+
+#: inc/modules/cookie-policy/api.php:243
+msgid "Google Chrome: Open Settings, go to Privacy and Security, then click on Cookies and other site data. From there, you can block third-party cookies, clear cookies when you close the browser, or block all cookies."
+msgstr "Google Chrome: Otevřete Nastavení, přejděte na Soukromí a zabezpečení, poté klikněte na Cookies a další data webu. Odtud můžete blokovat cookies třetích stran, mazat cookies při zavření prohlížeče nebo blokovat všechny cookies."
+
+#: inc/modules/cookie-policy/api.php:247
+msgid "Mozilla Firefox: Open Settings, go to Privacy and Security, and under Cookies and Site Data you can manage how Firefox handles cookies including clearing data and managing exceptions."
+msgstr "Mozilla Firefox: Otevřete Nastavení, přejděte na Soukromí a zabezpečení a v části Cookies a data webu můžete spravovat, jak Firefox zachází s cookies, včetně mazání dat a správy výjimek."
+
+#: inc/modules/cookie-policy/api.php:251
+msgid "Safari: Open Preferences, go to the Privacy tab, and configure your cookie blocking preferences. Safari also offers an option to prevent cross-site tracking."
+msgstr "Safari: Otevřete Předvolby, přejděte na kartu Soukromí a nastavte si preference blokování cookies. Safari také nabízí možnost zabránit sledování napříč weby."
+
+#: inc/modules/cookie-policy/api.php:255
+msgid "Microsoft Edge: Open Settings, go to Privacy, Search, and Services. Under the Cookies section, you can choose to block third-party cookies or all cookies and manage cookie exceptions."
+msgstr "Microsoft Edge: Otevřete Nastavení, přejděte na Soukromí, vyhledávání a služby. V sekci Cookies můžete zvolit blokování cookies třetích stran nebo všech cookies a spravovat výjimky pro cookies."
+
+#: inc/modules/cookie-policy/api.php:262
+msgid "Consequences of Disabling Cookies"
+msgstr "Důsledky zakázání cookies"
+
+#: inc/modules/cookie-policy/api.php:266
+msgid "If you choose to disable or decline cookies, some parts of this website may not function as intended. For example, you may not be able to log in, your preferences may not be saved between visits, and certain interactive features may be limited. Disabling essential cookies may make it impossible to use some or all of the services provided through this website."
+msgstr "Pokud se rozhodnete cookies zakázat nebo odmítnout, některé části tohoto webu nemusí fungovat podle očekávání. Například se nemusíte být schopni přihlásit, vaše nastavení nemusí být mezi návštěvami uložena a některé interaktivní funkce mohou být omezeny. Zakázání nezbytných cookies může znemožnit použití některých nebo všech služeb poskytovaných prostřednictvím tohoto webu."
+
+#: inc/modules/cookie-policy/api.php:270
+msgid "Disabling analytics or marketing cookies will not affect the core functionality of the website, but it may limit our ability to improve the website based on user behavior or to provide you with personalized content and advertisements."
+msgstr "Zakázání analytických nebo marketingových cookies neovlivní základní funkčnost webu, ale může omezit naši schopnost zlepšovat web na základě chování uživatelů nebo poskytovat vám personalizovaný obsah a reklamy."
+
+#: inc/modules/cookie-policy/api.php:277
+msgid "Changes to This Cookie Policy"
+msgstr "Změny této politiky cookies"
+
+#: inc/modules/cookie-policy/api.php:281
+msgid "We may update this Cookie Policy from time to time to reflect changes in technology, legislation, our business operations, or any other reason we determine is necessary or appropriate. Any changes will be posted on this page with an updated revision date. We encourage you to review this Cookie Policy periodically to stay informed about how we are using cookies."
+msgstr "Tuto politiku cookies můžeme čas od času aktualizovat, aby odrážela změny v technologii, legislativě, našich obchodních operacích nebo z jiných důvodů, které považujeme za nutné či vhodné. Jakékoliv změny budou zveřejněny na této stránce s aktualizovaným datem revize. Doporučujeme vám tuto politiku cookies pravidelně kontrolovat, abyste byli informováni o tom, jak používáme cookies."
+
+#: inc/modules/cookie-policy/api.php:288
+msgid "Contact Us"
+msgstr "Kontaktujte nás"
+
+#: inc/modules/cookie-policy/api.php:292
+msgid "If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at:"
+msgstr "Pokud máte jakékoli dotazy nebo obavy ohledně této politiky cookies nebo našeho používání cookies, kontaktujte nás prosím na:"
+
+#: inc/modules/cookie-policy/api.php:296
+msgid "[Your Company Name], [Your Address], [your-email@example.com]"
+msgstr "[Název vaší společnosti], [Vaše adresa], [your-email@example.com]"
+
+#: inc/modules/cookie-policy/shortcode.php:143
+#: inc/modules/cookie-policy/shortcode.php:144
+msgid "Table of Contents"
+msgstr "Obsah"
+
+#: inc/modules/cookie-policy/shortcode.php:203
+#: build/admin.js:25
+msgid "Cookie Name"
+msgstr "Název cookie"
+
+#: inc/modules/cookie-policy/shortcode.php:204
+#: build/admin.js:25
+msgid "Purpose"
+msgstr "Účel"
+
+#: inc/modules/cookie-policy/shortcode.php:205
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Duration"
+msgstr "Doba trvání"
+
+#: inc/modules/cookie-policy/shortcode.php:206
+#: build/admin.js:25
+msgid "Domain"
+msgstr "Doména"
+
+#. translators: %s: formatted date string.
+#: inc/modules/cookie-policy/shortcode.php:270
+#, php-format
+msgid "Last updated: %s"
+msgstr "Naposledy aktualizováno: %s"
+
+#: inc/modules/cookie-policy/shortcode.php:356
+msgid "This website"
+msgstr "Tento web"
+
+#: inc/modules/google-consent-mode/consent-handler.php:130
+msgid "SureCookie:"
+msgstr "SureCookie:"
+
+#: inc/modules/google-consent-mode/consent-handler.php:132
+msgid "Google Site Kit's Consent Mode is active. Please disable it in Site Kit settings to use SureCookie's implementation."
+msgstr "Režim souhlasu Google Site Kit je aktivní. Pro použití implementace SureCookie jej prosím deaktivujte v nastavení Site Kit."
+
+#: inc/modules/nudges/api.php:70
+msgid "Invalid type provided."
+msgstr "Byl zadán neplatný typ."
+
+#: inc/modules/nudges/api.php:94
+msgid "Could not disable the nudge. Please try again."
+msgstr "Nepodařilo se zakázat upozornění. Zkuste to prosím znovu."
+
+#. translators: %s: nudge type
+#: inc/modules/nudges/api.php:100
+#, php-format
+msgid "\"%s\" has been disabled."
+msgstr "\"%s\" bylo zakázáno."
+
+#. translators: %s: Service name (e.g., YouTube, Vimeo, Bunny.net).
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:302
+#: inc/modules/script-blocking/blocker.php:1283
+#, php-format
+msgid "This content is blocked because it requires %s cookies."
+msgstr "Tento obsah je blokován, protože vyžaduje cookies %s."
+
+#: inc/integrations/presto-player/block-handler.php:240
+#: inc/modules/script-blocking/blocker.php:1298
+msgid "Accept & Load"
+msgstr "Přijmout a načíst"
+
+#: inc/modules/site-scanner/api.php:220
+msgid "Scan cancelled successfully."
+msgstr "Skenování bylo úspěšně zrušeno."
+
+#: inc/modules/site-scanner/api.php:226
+msgid "No active scan to cancel."
+msgstr "Žádné aktivní skenování k zrušení."
+
+#: inc/modules/site-scanner/api.php:257
+#: inc/modules/site-scanner/saas-client.php:400
+msgid "A scan is already in progress. Please wait for it to complete."
+msgstr "Skenování již probíhá. Počkejte prosím na jeho dokončení."
+
+#: inc/modules/site-scanner/api.php:273
+#: inc/modules/site-scanner/cron.php:76
+#: inc/modules/site-scanner/saas-client.php:407
+msgid "No pages selected for scanning."
+msgstr "Nebyly vybrány žádné stránky ke skenování."
+
+#: inc/modules/site-scanner/api.php:288
+msgid "Failed to start scan."
+msgstr "Nepodařilo se spustit skenování."
+
+#: inc/modules/site-scanner/api.php:299
+msgid "Cookie scan has been initiated."
+msgstr "Skenování cookies bylo zahájeno."
+
+#: inc/modules/site-scanner/api.php:300
+msgid "The scan is running. You will be notified when it completes."
+msgstr "Skenování probíhá. Budete informováni po jeho dokončení."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/api.php:312
+#, php-format
+msgid "Failed to start site scanner: %s"
+msgstr "Nepodařilo se spustit skener stránek: %s"
+
+#: inc/modules/site-scanner/cron.php:70
+msgid "Starting site scan (triggered by user)."
+msgstr "Spouští se skenování stránek (aktivováno uživatelem)."
+
+#. translators: %s: Plan name
+#: inc/modules/site-scanner/cron.php:92
+#, php-format
+msgid "Plan: %s."
+msgstr "Plán: %s."
+
+#. translators: %d: Number of pages
+#: inc/modules/site-scanner/cron.php:93
+#, php-format
+msgid "Pages selected: %d."
+msgstr "Vybrané stránky: %d."
+
+#: inc/modules/site-scanner/cron.php:95
+msgid "Sending scan request…"
+msgstr "Odesílá se požadavek na skenování…"
+
+#: inc/modules/site-scanner/cron.php:101
+msgid "Scan already in progress. Skipping."
+msgstr "Skenování již probíhá. Přeskakuje se."
+
+#: inc/modules/site-scanner/cron.php:114
+msgid "Scan started successfully."
+msgstr "Skenování bylo úspěšně zahájeno."
+
+#. translators: %s: Group ID
+#: inc/modules/site-scanner/cron.php:115
+#, php-format
+msgid "Group ID: %s"
+msgstr "ID skupiny: %s"
+
+#: inc/modules/site-scanner/cron.php:117
+msgid "Checking scan progress…"
+msgstr "Kontrola průběhu skenování…"
+
+#: inc/modules/site-scanner/cron.php:122
+msgid "Scan failed."
+msgstr "Skenování selhalo."
+
+#: inc/modules/site-scanner/cron.php:166
+msgid "No active scan."
+msgstr "Žádné aktivní skenování."
+
+#: inc/modules/site-scanner/cron.php:186
+msgid "Scan in progress..."
+msgstr "Skenování probíhá..."
+
+#: inc/modules/site-scanner/cron.php:224
+msgid "Scan cancelled by user."
+msgstr "Skenování zrušeno uživatelem."
+
+#: inc/modules/site-scanner/saas-client.php:281
+msgid "Every 1 Minute (SureCookie Polling)"
+msgstr "Každou 1 minutu (SureCookie dotazování)"
+
+#: inc/modules/site-scanner/saas-client.php:391
+msgid "Cookie scanning is not available for localhost or development sites. Please use a live domain."
+msgstr "Skenování cookies není dostupné pro localhost nebo vývojové stránky. Použijte prosím živou doménu."
+
+#: inc/modules/site-scanner/saas-client.php:422
+msgid "Could not generate a secure scan token. Please retry."
+msgstr "Nepodařilo se vygenerovat bezpečný token pro skenování. Zkuste to prosím znovu."
+
+#: inc/modules/site-scanner/saas-client.php:448
+msgid "Failed to encode scan request."
+msgstr "Nepodařilo se zakódovat požadavek na skenování."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/saas-client.php:493
+#, php-format
+msgid "Failed to start scan: %s"
+msgstr "Nepodařilo se spustit skenování: %s"
+
+#: inc/modules/site-scanner/saas-client.php:531
+msgid "Unknown error occurred."
+msgstr "Došlo k neznámé chybě."
+
+#: inc/modules/site-scanner/saas-client.php:599
+msgid "Scan has been started. You will be notified when it completes."
+msgstr "Skenování bylo zahájeno. Budete informováni po jeho dokončení."
+
+#: inc/modules/site-scanner/saas-client.php:641
+msgid "Failed to check scan status."
+msgstr "Nepodařilo se zkontrolovat stav skenování."
+
+#: inc/modules/site-scanner/saas-client.php:778
+msgid "Failed to get scan group."
+msgstr "Nepodařilo se získat skupinu skenování."
+
+#: inc/modules/site-scanner/saas-client.php:906
+msgid "Scan timed out. Please try again."
+msgstr "Skenování vypršelo. Zkuste to prosím znovu."
+
+#. translators: 1: completed pages count, 2: total pages count
+#: inc/modules/site-scanner/saas-client.php:944
+#, php-format
+msgid "Progress: %1$d of %2$d pages scanned."
+msgstr "Průběh: %1$d z %2$d stránek bylo naskenováno."
+
+#. translators: %d: number of failed pages
+#: inc/modules/site-scanner/saas-client.php:954
+#, php-format
+msgid "%d page(s) failed to scan."
+msgstr "%d stránka(y) se nepodařilo naskenovat."
+
+#: inc/modules/site-scanner/saas-client.php:977
+msgid "Scan completed!"
+msgstr "Skenování dokončeno!"
+
+#: inc/modules/site-scanner/saas-client.php:996
+msgid "Scan failed on server."
+msgstr "Skenování na serveru selhalo."
+
+#: inc/modules/site-scanner/saas-client.php:1002
+msgid "Scan is in progress. Checking again…"
+msgstr "Skenování probíhá. Kontrola znovu…"
+
+#: inc/modules/site-scanner/saas-client.php:1043
+msgid "Quota is not available on localhost or development sites."
+msgstr "Kvóta není dostupná na localhost nebo vývojových stránkách."
+
+#: inc/modules/site-scanner/saas-client.php:1056
+msgid "Scanner credentials are not yet issued. Run your first scan to register."
+msgstr "Přihlašovací údaje skeneru ještě nebyly vydány. Pro registraci spusťte první skenování."
+
+#: inc/modules/site-scanner/saas-client.php:1102
+msgid "Unexpected response from server."
+msgstr "Neočekávaná odpověď ze serveru."
+
+#: inc/modules/site-scanner/saas-client.php:1149
+msgid "Authentication required."
+msgstr "Vyžaduje se ověření."
+
+#: inc/modules/site-scanner/saas-client.php:1159
+msgid "Failed to fetch quota."
+msgstr "Nepodařilo se získat kvótu."
+
+#: inc/modules/site-scanner/saas-client.php:1476
+msgid "Another registration is already in progress. Please try again in a moment."
+msgstr "Jiná registrace již probíhá. Zkuste to prosím za chvíli znovu."
+
+#: inc/modules/site-scanner/saas-client.php:1506
+msgid "Could not determine site domain."
+msgstr "Nepodařilo se určit doménu stránky."
+
+#: inc/modules/site-scanner/saas-client.php:1518
+msgid "Could not generate a secure registration nonce. Please retry."
+msgstr "Nepodařilo se vygenerovat bezpečný registrační nonce. Zkuste to prosím znovu."
+
+#: inc/modules/site-scanner/saas-client.php:1546
+msgid "Failed to encode registration request."
+msgstr "Nepodařilo se zakódovat registrační požadavek."
+
+#. translators: %s: error message from the network call
+#: inc/modules/site-scanner/saas-client.php:1568
+#, php-format
+msgid "Could not reach the SureCookie service: %s"
+msgstr "Nepodařilo se kontaktovat službu SureCookie: %s"
+
+#: inc/modules/site-scanner/saas-client.php:1582
+msgid "Registration could not be initiated."
+msgstr "Registrace nemohla být zahájena."
+
+#: inc/modules/site-scanner/saas-client.php:1597
+msgid "Received an invalid verification token. Please retry."
+msgstr "Byl přijat neplatný ověřovací token. Zkuste to prosím znovu."
+
+#: inc/modules/site-scanner/saas-client.php:1615
+msgid "Failed to encode verification completion."
+msgstr "Nepodařilo se zakódovat dokončení ověření."
+
+#: inc/modules/site-scanner/saas-client.php:1899
+msgid "Failed to fetch results."
+msgstr "Nepodařilo se získat výsledky."
+
+#: inc/services/cookie-category-service.php:54
+msgid "Cookie categories retrieved successfully."
+msgstr "Kategorie cookies byly úspěšně načteny."
+
+#: inc/services/cookie-category-service.php:75
+msgid "Category name is required."
+msgstr "Název kategorie je povinný."
+
+#: inc/services/cookie-category-service.php:86
+msgid "A category with this name already exists."
+msgstr "Kategorie s tímto názvem již existuje."
+
+#: inc/services/cookie-category-service.php:103
+msgid "Category created successfully."
+msgstr "Kategorie byla úspěšně vytvořena."
+
+#: inc/services/cookie-category-service.php:124
+#: inc/services/cookie-category-service.php:196
+msgid "Category ID is required."
+msgstr "ID kategorie je povinné."
+
+#: inc/services/cookie-category-service.php:134
+#: inc/services/cookie-category-service.php:215
+msgid "Category not found."
+msgstr "Kategorie nebyla nalezena."
+
+#: inc/services/cookie-category-service.php:166
+msgid "Category updated successfully."
+msgstr "Kategorie byla úspěšně aktualizována."
+
+#: inc/services/cookie-category-service.php:205
+msgid "Default categories cannot be deleted."
+msgstr "Výchozí kategorie nelze smazat."
+
+#: inc/services/cookie-category-service.php:307
+msgid "Category deleted successfully."
+msgstr "Kategorie byla úspěšně smazána."
+
+#: inc/services/cookie-service.php:60
+#: inc/services/cookie-service.php:355
+msgid "No scanned cookies found."
+msgstr "Nebyly nalezeny žádné naskenované cookies."
+
+#: inc/services/cookie-service.php:84
+msgid "Scanned cookies retrieved successfully."
+msgstr "Naskenované cookies byly úspěšně načteny."
+
+#: inc/services/cookie-service.php:101
+msgid "Custom cookies retrieved successfully."
+msgstr "Vlastní cookies byly úspěšně načteny."
+
+#: inc/services/cookie-service.php:132
+#: inc/services/cookie-service.php:323
+msgid "Cookie name is required."
+msgstr "Název cookie je povinný."
+
+#: inc/services/cookie-service.php:139
+msgid "Cookie category is required."
+msgstr "Kategorie cookie je povinná."
+
+#: inc/services/cookie-service.php:154
+msgid "A cookie with this name already exists."
+msgstr "Cookie s tímto názvem již existuje."
+
+#: inc/services/cookie-service.php:191
+msgid "Custom cookie created successfully."
+msgstr "Vlastní cookie byla úspěšně vytvořena."
+
+#: inc/services/cookie-service.php:210
+#: inc/services/cookie-service.php:280
+msgid "Cookie ID is required."
+msgstr "ID cookie je povinné."
+
+#: inc/services/cookie-service.php:219
+#: inc/services/cookie-service.php:289
+msgid "Cookie not found."
+msgstr "Cookie nebyla nalezena."
+
+#: inc/services/cookie-service.php:262
+msgid "Custom cookie updated successfully."
+msgstr "Vlastní cookie byla úspěšně aktualizována."
+
+#: inc/services/cookie-service.php:299
+msgid "Custom cookie deleted successfully."
+msgstr "Vlastní cookie byla úspěšně smazána."
+
+#: inc/services/cookie-service.php:330
+msgid "Current category is required."
+msgstr "Aktuální kategorie je povinná."
+
+#: inc/services/cookie-service.php:337
+#: inc/services/cookie-service.php:414
+msgid "New category is required."
+msgstr "Nová kategorie je povinná."
+
+#: inc/services/cookie-service.php:345
+msgid "Cookie is already in the selected category."
+msgstr "Cookie je již ve vybrané kategorii."
+
+#: inc/services/cookie-service.php:363
+msgid "Current category not found in scanned cookies."
+msgstr "Aktuální kategorie nebyla nalezena ve skenovaných cookies."
+
+#: inc/services/cookie-service.php:372
+msgid "Cookie not found in the specified category."
+msgstr "Cookie nebyla nalezena ve specifikované kategorii."
+
+#: inc/services/cookie-service.php:384
+msgid "Cookie category updated successfully."
+msgstr "Kategorie cookie byla úspěšně aktualizována."
+
+#: inc/utils/options.php:48
+msgid "We use cookies to improve your experience and understand how you use our site. You can review your choices at any time."
+msgstr "Používáme cookies ke zlepšení vašeho zážitku a pochopení, jak používáte naše stránky. Svá nastavení můžete kdykoli zkontrolovat."
+
+#: inc/utils/options.php:62
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Only Essential"
+msgstr "Pouze nezbytné"
+
+#: inc/utils/options.php:71
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Accept All"
+msgstr "Přijmout vše"
+
+#: inc/utils/options.php:75
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Decline"
+msgstr "Odmítnout"
+
+#: inc/utils/options.php:79
+msgid "Cookie Settings"
+msgstr "Nastavení cookies"
+
+#: inc/utils/options.php:142
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Preferences"
+msgstr "Předvolby"
+
+#: inc/utils/options.php:146
+msgid "Privacy Preference"
+msgstr "Nastavení soukromí"
+
+#: inc/utils/options.php:150
+msgid "We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience."
+msgstr "Používáme cookies a podobné technologie, abychom pomohli personalizovat obsah, přizpůsobit a měřit reklamy a zajistit lepší zážitek."
+
+#: inc/utils/options.php:174
+#: build/admin.js:4
+#: build/admin.js:75
+msgid "Cookie Preferences"
+msgstr "Předvolby cookies"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Accepted"
+msgstr "Přijato"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Partially Accepted"
+msgstr "Částečně přijato"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Declined"
+msgstr "Odmítnuto"
+
+#: build/admin.js:1
+msgid "Failed to load consent logs"
+msgstr "Nepodařilo se načíst záznamy o souhlasu"
+
+#: build/admin.js:1
+msgid "Failed to load conflicting plugins"
+msgstr "Nepodařilo se načíst konfliktní pluginy"
+
+#: build/admin.js:1
+msgid "Failed to load cookie categories"
+msgstr "Nepodařilo se načíst kategorie cookies"
+
+#: build/admin.js:1
+msgid "Scan cancelled."
+msgstr "Skenování zrušeno."
+
+#: build/admin.js:1
+msgid "Failed to cancel scan."
+msgstr "Nepodařilo se zrušit skenování."
+
+#: build/admin.js:1
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "Failed to load settings"
+msgstr "Nepodařilo se načíst nastavení"
+
+#: build/admin.js:1
+msgid "Failed to save settings"
+msgstr "Nepodařilo se uložit nastavení"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "30 days"
+msgstr "30 dní"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "60 days"
+msgstr "60 dní"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "90 days"
+msgstr "90 dní"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "365 days"
+msgstr "365 dní"
+
+#: build/admin.js:1
+#: build/admin.js:3
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "Never"
+msgstr "Nikdy"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Cookie Scanner"
+msgstr "Skenování cookies"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "All Cookies"
+msgstr "Všechny cookies"
+
+#: build/admin.js:2
+msgid "Banner"
+msgstr "Banner"
+
+#: build/admin.js:2
+msgid "Content"
+msgstr "Obsah"
+
+#: build/admin.js:2
+msgid "Layout"
+msgstr "Rozvržení"
+
+#: build/admin.js:2
+#: build/admin.js:78
+msgid "Visibility"
+msgstr "Viditelnost"
+
+#: build/admin.js:2
+#: build/admin.js:75
+msgid "Re-Consent"
+msgstr "Znovu souhlasit"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "Custom CSS"
+msgstr "Vlastní CSS"
+
+#: build/admin.js:2
+msgid "Google Consent Mode"
+msgstr "Režim souhlasu Google"
+
+#: build/admin.js:2
+msgid "Additional Consent"
+msgstr "Další souhlas"
+
+#: build/admin.js:2
+#: build/admin.js:21
+msgid "Consent Logs"
+msgstr "Záznamy o souhlasu"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication timeout. Please try again."
+msgstr "Vypršel časový limit ověření. Zkuste to prosím znovu."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful!"
+msgstr "Ověření bylo úspěšné!"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "An error occurred during authentication"
+msgstr "Při ověřování došlo k chybě"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication cancelled. Please try again."
+msgstr "Ověření bylo zrušeno. Zkuste to prosím znovu."
+
+#: inc/modules/assisted-scan/collector.php:329
+#: build/admin.js:2
+#: build/admin.js:3
+#: build/admin.js:28
+#: build/admin.js:41
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: build/admin.js:2
+#: build/admin.js:5
+#: build/admin.js:6
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Delete"
+msgstr "Smazat"
+
+#: build/admin.js:2
+#: build/admin.js:28
+#: build/admin.js:83
+msgid "Save"
+msgstr "Uložit"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "No options available"
+msgstr "Žádné dostupné možnosti"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful"
+msgstr "Ověření bylo úspěšné"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication completed successfully. Closing tab in 3 seconds…"
+msgstr "Ověření bylo úspěšně dokončeno. Zavírám kartu za 3 sekundy…"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication failed"
+msgstr "Ověření selhalo"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Please return to the SureCookie dashboard and try again."
+msgstr "Vraťte se prosím na panel SureCookie a zkuste to znovu."
+
+#: build/admin.js:2
+#: build/onboarding.js:6
+msgid "Let's Get Started"
+msgstr "Začněme"
+
+#: build/admin.js:2
+msgid "Automatic Cookie Detection"
+msgstr "Automatické detekování cookies"
+
+#: build/admin.js:2
+msgid "Smart Categorization"
+msgstr "Chytrá kategorizace"
+
+#: build/admin.js:2
+msgid "Compliance Recommendations"
+msgstr "Doporučení pro soulad"
+
+#: build/admin.js:2
+msgid "Connect to scan your website"
+msgstr "Připojte se ke skenování vašeho webu"
+
+#: build/admin.js:2
+msgid "Connect your SureCookie account to automatically detect cookies on your website, categorize them, and get compliance recommendations."
+msgstr "Připojte svůj účet SureCookie pro automatické detekování cookies na vašem webu, jejich kategorizaci a získání doporučení pro soulad."
+
+#: build/admin.js:2
+msgid "Learn more"
+msgstr "Zjistit více"
+
+#: build/admin.js:2
+msgid "Free Plan Limit Reached"
+msgstr "Dosaženo limitu bezplatného plánu"
+
+#: build/admin.js:2
+#: build/admin.js:6
+#: build/admin.js:47
+#: build/admin.js:53
+#: build/admin.js:63
+#: build/admin.js:75
+#: build/onboarding.js:7
+msgid "Upgrade Now"
+msgstr "Upgradovat nyní"
+
+#: build/admin.js:2
+msgid "Unlock this feature"
+msgstr "Odemknout tuto funkci"
+
+#: build/admin.js:2
+msgid "WordPress updates API not available."
+msgstr "API aktualizací WordPress není dostupné."
+
+#: build/admin.js:2
+msgid "Plugin activation failed."
+msgstr "Aktivace pluginu selhala."
+
+#: build/admin.js:2
+msgid "Plugin installation failed."
+msgstr "Instalace pluginu selhala."
+
+#: build/admin.js:2
+msgid "Plugin installed and activated successfully."
+msgstr "Plugin byl úspěšně nainstalován a aktivován."
+
+#: build/admin.js:2
+msgid "Failed to install and activate plugin."
+msgstr "Nepodařilo se nainstalovat a aktivovat plugin."
+
+#: build/admin.js:2
+msgid "Failed to activate plugin."
+msgstr "Nepodařilo se aktivovat plugin."
+
+#: build/admin.js:2
+msgid "Install and Activate"
+msgstr "Nainstalovat a aktivovat"
+
+#: build/admin.js:2
+msgid "Activate"
+msgstr "Aktivovat"
+
+#: build/admin.js:2
+msgid "Activated"
+msgstr "Aktivováno"
+
+#: build/admin.js:2
+msgid "Settings saved!"
+msgstr "Nastavení uloženo!"
+
+#: build/admin.js:2
+msgid "Your settings have been successfully saved."
+msgstr "Vaše nastavení byla úspěšně uložena."
+
+#: build/admin.js:2
+msgid "Save failed!"
+msgstr "Uložení selhalo!"
+
+#: build/admin.js:2
+msgid "There was an error saving your settings. Please try again."
+msgstr "Při ukládání nastavení došlo k chybě. Zkuste to prosím znovu."
+
+#: build/admin.js:2
+msgid "Saving…"
+msgstr "Ukládání…"
+
+#: build/admin.js:2
+msgid "Banner Content"
+msgstr "Obsah banneru"
+
+#: build/admin.js:2
+msgid "Configure the text content that appears in your cookie consent banner and preference modal"
+msgstr "Nakonfigurujte textový obsah, který se zobrazí ve vašem banneru souhlasu s cookies a v modálním okně preferencí"
+
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "An error occurred while loading settings. Please refresh the page to try again."
+msgstr "Při načítání nastavení došlo k chybě. Obnovte stránku a zkuste to znovu."
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner Switch"
+msgstr "Povolit přepínač banneru cookies"
+
+#: build/admin.js:2
+msgid "Show cookie consent banner to comply with privacy regulations."
+msgstr "Zobrazit banner souhlasu s cookies pro dodržení předpisů o ochraně soukromí."
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner"
+msgstr "Povolit banner cookies"
+
+#: build/admin.js:2
+msgid "Consent Banner"
+msgstr "Banner souhlasu"
+
+#: build/admin.js:2
+msgid "Preference Modal"
+msgstr "Modální okno preferencí"
+
+#: build/admin.js:2
+msgid "Banner Heading"
+msgstr "Nadpis banneru"
+
+#: build/admin.js:2
+msgid "Cookie Notice (optional)"
+msgstr "Oznámení o cookies (volitelné)"
+
+#: build/admin.js:2
+msgid "Banner Message"
+msgstr "Zpráva banneru"
+
+#: build/admin.js:2
+msgid "Enable Accept All Button"
+msgstr "Povolit tlačítko Přijmout vše"
+
+#: build/admin.js:2
+msgid "Show the \"Accept All\" button on the consent banner. When off, the button is removed from the banner and from the Button Order list."
+msgstr "Zobrazit tlačítko „Přijmout vše“ na banneru souhlasu. Pokud je vypnuto, tlačítko je odstraněno z banneru i ze seznamu pořadí tlačítek."
+
+#: build/admin.js:2
+msgid "Preference Modal Title"
+msgstr "Název modálního okna preferencí"
+
+#: build/admin.js:2
+msgid "Preference Modal Description"
+msgstr "Popis modálního okna preferencí"
+
+#: build/admin.js:2
+msgid "Preference modal description cannot be empty."
+msgstr "Popis modálního okna preferencí nesmí být prázdný."
+
+#: build/admin.js:2
+msgid "Banner message cannot be empty."
+msgstr "Zpráva banneru nesmí být prázdná."
+
+#: build/admin.js:2
+msgid "Button Order"
+msgstr "Pořadí tlačítek"
+
+#: build/admin.js:2
+msgid "Drag and drop to reorder buttons. This order can be overridden per Geographic Targeting Rule."
+msgstr "Přetáhněte a změňte pořadí tlačítek. Toto pořadí lze přepsat podle pravidla geografického cílení."
+
+#: build/admin.js:2
+msgid "Banner Layout"
+msgstr "Rozvržení banneru"
+
+#: build/admin.js:2
+msgid "Configure how and where your cookie banner appears on your website"
+msgstr "Nakonfigurujte, jak a kde se váš banner cookies zobrazí na vašem webu"
+
+#: build/admin.js:2
+msgid "Upload Logo"
+msgstr "Nahrát logo"
+
+#: build/admin.js:2
+msgid "Logo"
+msgstr "Logo"
+
+#: build/admin.js:2
+msgid "Select Logo"
+msgstr "Vybrat logo"
+
+#: build/admin.js:2
+msgid "Use this logo"
+msgstr "Použít toto logo"
+
+#: build/admin.js:2
+msgid "Banner Type"
+msgstr "Typ banneru"
+
+#: build/admin.js:2
+msgid "Floating Banner"
+msgstr "Plovoucí banner"
+
+#: build/admin.js:2
+msgid "Full-width Banner"
+msgstr "Banner na celou šířku"
+
+#: build/admin.js:2
+msgid "Banner Width"
+msgstr "Šířka banneru"
+
+#: build/admin.js:2
+msgid "px"
+msgstr "px"
+
+#: build/admin.js:2
+msgid "Position"
+msgstr "Pozice"
+
+#: build/admin.js:2
+msgid "Bottom Left"
+msgstr "Dole vlevo"
+
+#: build/admin.js:2
+msgid "Bottom Center"
+msgstr "Dole uprostřed"
+
+#: build/admin.js:2
+msgid "Bottom Right"
+msgstr "Dole vpravo"
+
+#: build/admin.js:2
+msgid "Middle"
+msgstr "Uprostřed"
+
+#: build/admin.js:2
+msgid "Top"
+msgstr "Nahoře"
+
+#: build/admin.js:2
+msgid "Bottom"
+msgstr "Dole"
+
+#: build/admin.js:2
+msgid "Banner Animation"
+msgstr "Animace banneru"
+
+#: build/admin.js:2
+msgid "Fade"
+msgstr "Zeslabení"
+
+#: build/admin.js:2
+msgid "Slide"
+msgstr "Posun"
+
+#: build/admin.js:2
+msgid "Color Palette: <span></span>"
+msgstr "Barevná paleta: <span></span>"
+
+#: build/admin.js:2
+#: build/admin.js:4
+msgid "Default"
+msgstr "Výchozí"
+
+#: build/admin.js:4
+msgid "Consent Details"
+msgstr "Detaily souhlasu"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Unknown"
+msgstr "Neznámý"
+
+#: build/admin.js:4
+msgid "No data available."
+msgstr "Žádná data nejsou k dispozici."
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Actions"
+msgstr "Akce"
+
+#: build/admin.js:4
+msgid "Consent logs"
+msgstr "Záznamy souhlasu"
+
+#: build/admin.js:4
+msgid "Date & Time"
+msgstr "Datum a čas"
+
+#: build/admin.js:4
+msgid "IP Address"
+msgstr "IP adresa"
+
+#: build/admin.js:4
+msgid "Country"
+msgstr "Země"
+
+#: build/admin.js:4
+#: build/admin.js:76
+msgid "Status"
+msgstr "Stav"
+
+#: build/admin.js:4
+msgid "Download PDF"
+msgstr "Stáhnout PDF"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:5
+#, js-format
+msgid "Download PDF for consent log from %s"
+msgstr "Stáhnout PDF záznamu souhlasu z %s"
+
+#: build/admin.js:4
+msgid "Session Summary"
+msgstr "Souhrn relace"
+
+#: build/admin.js:4
+msgid "Field"
+msgstr "Pole"
+
+#: build/admin.js:4
+msgid "Value"
+msgstr "Hodnota"
+
+#: build/admin.js:4
+msgid "Session ID"
+msgstr "ID relace"
+
+#: build/admin.js:4
+msgid "Total Records"
+msgstr "Celkem záznamů"
+
+#: build/admin.js:4
+msgid "Date Range"
+msgstr "Časové období"
+
+#: build/admin.js:4
+msgid "Consent Record"
+msgstr "Záznam souhlasu"
+
+#: build/admin.js:4
+msgid "Log ID"
+msgstr "ID protokolu"
+
+#: build/admin.js:4
+msgid "Timestamp"
+msgstr "Časové razítko"
+
+#: build/admin.js:4
+msgid "Consent Status"
+msgstr "Stav souhlasu"
+
+#: build/admin.js:4
+msgid "Consent Preset"
+msgstr "Přednastavení souhlasu"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Category"
+msgstr "Kategorie"
+
+#: build/admin.js:4
+msgid "Legal Information"
+msgstr "Právní informace"
+
+#: build/admin.js:4
+msgid "Date of Generation"
+msgstr "Datum vytvoření"
+
+#: build/admin.js:4
+msgid "Website"
+msgstr "Webová stránka"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:6
+#, js-format
+msgid "Delete consent log from %s"
+msgstr "Smazat záznam souhlasu z %s"
+
+#: build/admin.js:6
+msgid "Consent log is empty"
+msgstr "Záznam souhlasu je prázdný"
+
+#: build/admin.js:6
+msgid "Your consent logs will be displayed here once users interact with the banner"
+msgstr "Vaše záznamy souhlasu se zde zobrazí, jakmile uživatelé budou interagovat s bannerem"
+
+#: build/admin.js:6
+msgid "Consent Logging Disabled"
+msgstr "Záznam souhlasu je zakázán"
+
+#: build/admin.js:6
+msgid "Enable consent logging to view analytics data and recent consent logs."
+msgstr "Povolte zaznamenávání souhlasu pro zobrazení analytických dat a nedávných záznamů souhlasu."
+
+#: build/admin.js:3
+#: build/admin.js:6
+msgid "Enable Consent Logging"
+msgstr "Povolit zaznamenávání souhlasu"
+
+#: build/admin.js:6
+msgid "<span></span> Selected"
+msgstr "<span></span> Vybráno"
+
+#: build/admin.js:6
+msgid "Deleting…"
+msgstr "Mažu…"
+
+#: build/admin.js:6
+msgid "All Actions"
+msgstr "Všechny akce"
+
+#: build/admin.js:6
+msgid "All Countries"
+msgstr "Všechny země"
+
+#: build/admin.js:6
+msgid "IP address or Session ID…"
+msgstr "IP adresa nebo ID relace…"
+
+#: build/admin.js:6
+msgid "Clear Filters"
+msgstr "Vymazat filtry"
+
+#: build/admin.js:6
+msgid "View All Logs"
+msgstr "Zobrazit všechny záznamy"
+
+#: build/admin.js:6
+msgid "Consents"
+msgstr "Souhlasy"
+
+#: build/admin.js:6
+msgid "No Consents Yet"
+msgstr "Žádné souhlasy zatím"
+
+#: build/admin.js:6
+msgid "Data will appear here once visitors interact with the cookie banner."
+msgstr "Data se zde objeví, jakmile návštěvníci budou interagovat s bannerem cookies."
+
+#. translators: %s: log/logs
+#: build/admin.js:9
+#, js-format
+msgid "Failed to delete consent %s"
+msgstr "Nepodařilo se smazat souhlas %s"
+
+#: build/admin.js:9
+#: build/admin.js:12
+#: build/admin.js:18
+msgid "log"
+msgid_plural "logs"
+msgstr[0] "záznam"
+msgstr[1] "záznamy"
+msgstr[2] "záznamů"
+
+#. translators: %s: log/logs
+#: build/admin.js:12
+#, js-format
+msgid "Successfully deleted consent %s"
+msgstr "Úspěšně smazán souhlas %s"
+
+#: build/admin.js:12
+msgid "Failed to delete consent log"
+msgstr "Nepodařilo se smazat záznam souhlasu"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Delete Consent Log"
+msgstr "Smazat záznam souhlasu"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Are you sure you want to delete this consent log? This action cannot be undone."
+msgstr "Opravdu chcete smazat tento záznam souhlasu? Tuto akci nelze vrátit zpět."
+
+#: build/admin.js:15
+msgid "Delete Selected Consent Logs"
+msgstr "Smazat vybrané záznamy souhlasu"
+
+#. translators: %s: the log string pluralized.
+#: build/admin.js:18
+#, js-format
+msgid "Are you sure you want to delete the selected consent %s? This action cannot be undone."
+msgstr "Opravdu chcete smazat vybraný souhlas %s? Tuto akci nelze vrátit zpět."
+
+#: build/admin.js:21
+msgid "Failed to load countries"
+msgstr "Nepodařilo se načíst země"
+
+#: build/admin.js:21
+msgid "Page"
+msgstr "Stránka"
+
+#: build/admin.js:21
+msgid "of"
+msgstr "z"
+
+#: build/admin.js:21
+msgid "Consent Logs Pagination"
+msgstr "Stránkování záznamů souhlasu"
+
+#: build/admin.js:2
+msgid "Consent Duration (in days)"
+msgstr "Doba platnosti souhlasu (v dnech)"
+
+#: build/admin.js:2
+msgid "Please enter a value between 1 and 365 days."
+msgstr "Zadejte hodnotu mezi 1 a 365 dny."
+
+#: build/admin.js:2
+msgid "How long user consent remains valid before requiring renewal (1–365 days)."
+msgstr "Jak dlouho zůstává uživatelský souhlas platný před nutností obnovení (1–365 dní)."
+
+#: build/admin.js:3
+msgid "Enable Consent Logging Switch"
+msgstr "Přepínač povolení zaznamenávání souhlasu"
+
+#: build/admin.js:3
+msgid "Store consent records in database for compliance reporting and analytics."
+msgstr "Ukládejte záznamy souhlasu do databáze pro účely dodržování předpisů a analýzy."
+
+#: build/admin.js:3
+msgid "Clear Logs After"
+msgstr "Vymazat záznamy po"
+
+#: build/admin.js:3
+msgid "Select retention period"
+msgstr "Vyberte dobu uchování"
+
+#: build/admin.js:3
+msgid "Automatically delete consent logs older than the selected period."
+msgstr "Automaticky smažte záznamy souhlasu starší než vybrané období."
+
+#: build/admin.js:53
+msgid "SureCookie admin menu location toggle"
+msgstr "Přepínač umístění administrátorského menu SureCookie"
+
+#: build/admin.js:53
+msgid "Hide SureCookie branding toggle"
+msgstr "Přepínač skrytí značky SureCookie"
+
+#: build/admin.js:53
+msgid "Hide SureCookie Branding"
+msgstr "Skrýt značku SureCookie"
+
+#: build/admin.js:53
+msgid "Remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "Odstraňte text „Powered by SureCookie“ z banneru souhlasu a modálního okna preferencí."
+
+#: build/admin.js:53
+msgid "to remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "pro odstranění textu „Powered by SureCookie“ z banneru souhlasu a modálního okna preferencí."
+
+#: build/admin.js:3
+msgid "Delete data on uninstall toggle"
+msgstr "Přepínač pro smazání dat při odinstalaci"
+
+#: build/admin.js:3
+msgid "Delete Data on Uninstall"
+msgstr "Smazat data při odinstalaci"
+
+#: build/admin.js:3
+msgid "When enabled, all plugin data including consent logs, settings, and scan results will be permanently deleted when you uninstall SureCookie. Leave disabled to preserve data for compliance records or future reinstallation."
+msgstr "Pokud je povoleno, všechna data pluginu včetně záznamů o souhlasu, nastavení a výsledků skenování budou trvale smazána při odinstalaci SureCookie. Nechte vypnuto, pokud chcete data zachovat pro záznamy o souladu nebo budoucí přeinstalaci."
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie toggle"
+msgstr "Přepínač pro přispění do SureCookie"
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie"
+msgstr "Přispět do SureCookie"
+
+#: build/admin.js:53
+msgid "Help shape the future of SureCookie. Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions."
+msgstr "Pomozte utvářet budoucnost SureCookie. Sdílejte, jak používáte plugin, abychom mohli vytvářet důležité funkce, rychleji řešit problémy a dělat chytřejší rozhodnutí."
+
+#: build/admin.js:53
+#: build/admin.js:84
+msgid "Learn More"
+msgstr "Zjistit více"
+
+#: build/admin.js:3
+msgid "Compliance Notice"
+msgstr "Oznámení o souladu"
+
+#: build/admin.js:3
+msgid "Consent logs may be required to demonstrate proof of consent under GDPR Article 7(1). Consider exporting consent records before uninstalling."
+msgstr "Záznamy o souhlasu mohou být vyžadovány k prokázání souhlasu podle článku 7(1) GDPR. Zvažte export záznamů o souhlasu před odinstalací."
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/admin.js:76
+#: build/public.js:4
+msgid "Name"
+msgstr "Název"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Provider"
+msgstr "Poskytovatel"
+
+#: build/admin.js:25
+msgid "Duration (Days)"
+msgstr "Doba trvání (dny)"
+
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Type"
+msgstr "Typ"
+
+#: build/admin.js:23
+#: build/admin.js:78
+#: build/onboarding.js:3
+msgid "Uncategorized"
+msgstr "Nezařazeno"
+
+#: build/admin.js:21
+#: build/onboarding.js:1
+msgid "Change Category"
+msgstr "Změnit kategorii"
+
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Edit"
+msgstr "Upravit"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Scanned"
+msgstr "Skenováno"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Custom"
+msgstr "Vlastní"
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete the cookie \"<strong></strong>\"? This action cannot be undone."
+msgstr "Opravdu chcete smazat cookie „<strong></strong>“? Tuto akci nelze vrátit zpět."
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete this cookie? This action cannot be undone."
+msgstr "Opravdu chcete smazat tento cookie? Tuto akci nelze vrátit zpět."
+
+#: build/admin.js:25
+msgid "Delete Custom Cookie"
+msgstr "Smazat vlastní cookie"
+
+#: build/admin.js:25
+msgid "Change Cookie Category"
+msgstr "Změnit kategorii cookie"
+
+#: build/admin.js:25
+msgid "Update Category"
+msgstr "Aktualizovat kategorii"
+
+#: build/admin.js:25
+msgid "Edit Cookie"
+msgstr "Upravit cookie"
+
+#: build/admin.js:25
+msgid "Update Cookie"
+msgstr "Aktualizovat cookie"
+
+#: build/admin.js:25
+msgid "Add New Cookie"
+msgstr "Přidat nový cookie"
+
+#: build/admin.js:25
+msgid "Save Cookie"
+msgstr "Uložit cookie"
+
+#: build/admin.js:25
+msgid "e.g., my_custom_cookie"
+msgstr "např. my_custom_cookie"
+
+#: build/admin.js:25
+#: build/admin.js:28
+#: build/admin.js:76
+msgid "Select a category"
+msgstr "Vyberte kategorii"
+
+#: build/admin.js:25
+msgid "No categories available. Please create a category first."
+msgstr "Žádné dostupné kategorie. Nejprve vytvořte kategorii."
+
+#: build/admin.js:25
+msgid "e.g., 30"
+msgstr "např. 30"
+
+#: build/admin.js:25
+msgid "e.g., Your Company Name"
+msgstr "např. Název vaší společnosti"
+
+#: build/admin.js:25
+msgid "e.g., .example.com"
+msgstr "např. .example.com"
+
+#: build/admin.js:25
+msgid "Description"
+msgstr "Popis"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie…"
+msgstr "Zadejte popis tohoto cookie…"
+
+#: build/admin.js:25
+msgid "Describe the purpose of this cookie…"
+msgstr "Popište účel tohoto cookie…"
+
+#: build/admin.js:25
+msgid "Category Name"
+msgstr "Název kategorie"
+
+#: build/admin.js:25
+msgid "e.g., Performance Cookies"
+msgstr "např. Výkonnostní cookies"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie category…"
+msgstr "Zadejte popis této kategorie cookie…"
+
+#. translators: %1$s is the category name, %2$s is the number of cookies
+#: build/admin.js:28
+#, js-format
+msgid "Are you sure you want to delete this cookie category? <br/> The category \"%1$s\" has %2$s assigned to it:"
+msgstr "Opravdu chcete smazat tuto kategorii cookie? <br/> Kategorie „%1$s“ má přiřazeno %2$s:"
+
+#: build/admin.js:28
+msgid "cookie"
+msgid_plural "cookies"
+msgstr[0] "cookie"
+msgstr[1] "cookies"
+msgstr[2] "cookies"
+
+#: build/admin.js:28
+msgid "Are you sure you want to delete this cookie category? This action cannot be undone."
+msgstr "Opravdu chcete smazat tuto kategorii cookie? Tuto akci nelze vrátit zpět."
+
+#: build/admin.js:28
+msgid "Delete Cookie Category"
+msgstr "Smazat kategorii cookie"
+
+#: build/admin.js:28
+msgid "Keep cookies when deleting category"
+msgstr "Ponechat cookies při mazání kategorie"
+
+#: build/admin.js:28
+msgid "Keep cookies"
+msgstr "Ponechat cookies"
+
+#: build/admin.js:28
+#: build/onboarding.js:4
+msgid "Please enter a category name"
+msgstr "Zadejte název kategorie"
+
+#: build/admin.js:28
+msgid "No cookie categories found. Click \"Add New Category\" to create one."
+msgstr "Nebyly nalezeny žádné kategorie cookie. Klikněte na „Přidat novou kategorii“ pro vytvoření."
+
+#: build/admin.js:28
+msgid "Edit Category"
+msgstr "Upravit kategorii"
+
+#: build/admin.js:28
+msgid "Add New Category"
+msgstr "Přidat novou kategorii"
+
+#: build/admin.js:28
+#: build/admin.js:43
+msgid "Manage Categories"
+msgstr "Spravovat kategorie"
+
+#: build/admin.js:28
+msgid "Manage cookie categories that appear in the privacy preferences modal"
+msgstr "Spravovat kategorie cookie, které se zobrazují v modálním okně nastavení soukromí"
+
+#: build/admin.js:28
+msgid "Add Category"
+msgstr "Přidat kategorii"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please enter a cookie name"
+msgstr "Zadejte název cookie"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please select a category"
+msgstr "Vyberte kategorii"
+
+#: build/admin.js:41
+msgid "Failed to load custom cookies"
+msgstr "Nepodařilo se načíst vlastní cookies"
+
+#: build/admin.js:41
+msgid "Failed to create custom cookie"
+msgstr "Nepodařilo se vytvořit vlastní cookie"
+
+#: build/admin.js:41
+msgid "Custom cookie created successfully"
+msgstr "Vlastní cookie bylo úspěšně vytvořeno"
+
+#: build/admin.js:41
+msgid "Failed to update custom cookie"
+msgstr "Nepodařilo se aktualizovat vlastní cookie"
+
+#: build/admin.js:41
+msgid "Custom cookie updated successfully"
+msgstr "Vlastní cookie byla úspěšně aktualizována"
+
+#: build/admin.js:41
+msgid "Failed to delete custom cookie"
+msgstr "Nepodařilo se smazat vlastní cookie"
+
+#: build/admin.js:41
+msgid "Custom cookie deleted successfully"
+msgstr "Vlastní cookie byla úspěšně smazána"
+
+#: build/admin.js:41
+msgid "Failed to update cookie category"
+msgstr "Nepodařilo se aktualizovat kategorii cookie"
+
+#: build/admin.js:41
+msgid "Cookie category updated successfully"
+msgstr "Kategorie cookie byla úspěšně aktualizována"
+
+#: build/admin.js:42
+msgid "Failed to create category"
+msgstr "Nepodařilo se vytvořit kategorii"
+
+#: build/admin.js:42
+msgid "Category created successfully"
+msgstr "Kategorie byla úspěšně vytvořena"
+
+#: build/admin.js:42
+msgid "Failed to update category"
+msgstr "Nepodařilo se aktualizovat kategorii"
+
+#: build/admin.js:42
+msgid "Category updated successfully"
+msgstr "Kategorie byla úspěšně aktualizována"
+
+#: build/admin.js:42
+msgid "Failed to delete category"
+msgstr "Nepodařilo se smazat kategorii"
+
+#: build/admin.js:42
+msgid "Category deleted successfully"
+msgstr "Kategorie byla úspěšně smazána"
+
+#: build/admin.js:43
+msgid "Create and manage all cookies for your website. These cookies will appear in the selected privacy preference categories."
+msgstr "Vytvářejte a spravujte všechny cookies pro vaše webové stránky. Tyto cookies se zobrazí ve vybraných kategoriích preferencí ochrany soukromí."
+
+#: build/admin.js:43
+msgid "Manage Cookies"
+msgstr "Spravovat cookies"
+
+#: build/admin.js:43
+msgid "New Cookie"
+msgstr "Nová cookie"
+
+#: build/admin.js:43
+msgid "All your cookies will be displayed here"
+msgstr "Všechny vaše cookies budou zde zobrazeny"
+
+#: build/admin.js:43
+msgid "Click the button below to create your first custom cookie"
+msgstr "Klikněte na tlačítko níže pro vytvoření vaší první vlastní cookie"
+
+#: build/admin.js:43
+msgid "Add custom CSS to style your cookie banner. Changes will be reflected in both preview and frontend after saving."
+msgstr "Přidejte vlastní CSS pro stylování banneru cookie. Změny se projeví v náhledu i na frontendu po uložení."
+
+#: build/admin.js:43
+msgid "CSS Code Editor"
+msgstr "Editor CSS kódu"
+
+#: build/admin.js:43
+msgid "Reset Custom CSS"
+msgstr "Resetovat vlastní CSS"
+
+#: build/admin.js:43
+msgid "Are you sure you want to reset custom CSS? This will remove all your custom styles."
+msgstr "Opravdu chcete resetovat vlastní CSS? Tím odstraníte všechny vaše vlastní styly."
+
+#: build/admin.js:43
+msgid "Custom CSS has been reset. The banner will now use default styles."
+msgstr "Vlastní CSS bylo resetováno. Banner nyní použije výchozí styly."
+
+#: build/admin.js:43
+msgid "Write your custom CSS below. Use <strong>!important</strong> to override inline styles.<br />You can target banner elements using classes like <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, etc."
+msgstr "Napište své vlastní CSS níže. Použijte <strong>!important</strong> pro přepsání inline stylů.<br />Můžete cílit na prvky banneru pomocí tříd jako <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong> atd."
+
+#: build/admin.js:43
+#: build/admin.js:60
+msgid "<span></span> Quick Tips:"
+msgstr "<span></span> Rychlé tipy:"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-banner</b> to target the cookie banner (works in both preview and frontend)"
+msgstr "Použijte <b>.surecookie-banner</b> pro cílení na banner cookie (funguje v náhledu i na frontendu)"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> for buttons"
+msgstr "Použijte <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> pro tlačítka"
+
+#: build/admin.js:43
+msgid "Important: Use <b>!important</b> to override inline styles"
+msgstr "Důležité: Použijte <b>!important</b> pro přepsání inline stylů"
+
+#: build/admin.js:43
+msgid "Changes take effect after clicking \"Save Changes\" below"
+msgstr "Změny se projeví po kliknutí na \"Uložit změny\" níže"
+
+#: build/admin.js:43
+msgid "Your CSS is saved and will persist after page refresh"
+msgstr "Vaše CSS je uloženo a zůstane i po obnovení stránky"
+
+#: build/admin.js:43
+msgid "Disabled"
+msgstr "Zakázáno"
+
+#: build/admin.js:43
+msgid "Consent Logging"
+msgstr "Záznam souhlasu"
+
+#: build/admin.js:43
+msgid "Enable consent logging to view consent analytics"
+msgstr "Povolte záznam souhlasu pro zobrazení analýzy souhlasů"
+
+#: build/admin.js:43
+msgid "Enable"
+msgstr "Povolit"
+
+#: build/admin.js:43
+msgid "Overview"
+msgstr "Přehled"
+
+#: build/admin.js:43
+msgid "Active"
+msgstr "Aktivní"
+
+#: build/admin.js:43
+msgid "Inactive"
+msgstr "Neaktivní"
+
+#: build/admin.js:43
+msgid "Cookie Banner"
+msgstr "Banner cookie"
+
+#: build/admin.js:43
+#: build/admin.js:47
+msgid "Configure"
+msgstr "Konfigurovat"
+
+#: build/admin.js:44
+#: build/onboarding.js:4
+msgid "Launch Setup Wizard"
+msgstr "Spustit průvodce nastavením"
+
+#: build/admin.js:44
+msgid "Open Support Ticket"
+msgstr "Otevřít tiket podpory"
+
+#: build/admin.js:44
+msgid "Help Center"
+msgstr "Centrum nápovědy"
+
+#: build/admin.js:44
+msgid "Join our Community"
+msgstr "Připojte se k naší komunitě"
+
+#: build/admin.js:44
+msgid "Leave Us a Review"
+msgstr "Zanechte nám recenzi"
+
+#: build/admin.js:44
+msgid "Quick Access"
+msgstr "Rychlý přístup"
+
+#: build/admin.js:44
+msgid "Recent Consent Logs"
+msgstr "Nedávné záznamy souhlasu"
+
+#: build/admin.js:44
+msgid "Toggle Preview"
+msgstr "Přepnout náhled"
+
+#: build/admin.js:44
+msgid "Click this button to show or hide the cookie consent banner preview."
+msgstr "Klikněte na toto tlačítko pro zobrazení nebo skrytí náhledu banneru souhlasu s cookies."
+
+#: build/admin.js:44
+msgid "Click here to start"
+msgstr "Klikněte zde pro začátek"
+
+#: build/admin.js:44
+msgid "design your banner"
+msgstr "navrhněte svůj banner"
+
+#: build/admin.js:44
+msgid "Here's a preview of the cookie consent banner."
+msgstr "Zde je náhled banneru souhlasu s cookies."
+
+#: build/admin.js:44
+msgid "You can adjust the content and design settings."
+msgstr "Můžete upravit obsah a nastavení designu."
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:47
+#, js-format
+msgid "%1$d of %2$d steps complete"
+msgstr "%1$d z %2$d kroků dokončeno"
+
+#: build/admin.js:47
+msgid "You're all set! SureCookie is ready to protect your site."
+msgstr "Vše je připraveno! SureCookie je připraven chránit váš web."
+
+#: build/admin.js:47
+#: build/onboarding.js:14
+msgid "Go to Dashboard"
+msgstr "Přejít na řídicí panel"
+
+#: build/admin.js:47
+msgid "Scan Your Site for Cookies"
+msgstr "Prohledejte svůj web na cookies"
+
+#: build/admin.js:47
+msgid "Run the cookie scanner to discover and categorize cookies your site uses."
+msgstr "Spusťte skener cookies a objevte a kategorizujte cookies, které váš web používá."
+
+#: build/admin.js:47
+msgid "Scan Now"
+msgstr "Spustit skenování"
+
+#: build/admin.js:47
+msgid "Set up the Consent Banner"
+msgstr "Nastavte banner souhlasu"
+
+#: build/admin.js:47
+msgid "Customize your cookie consent banner - content, layout, and visibility."
+msgstr "Přizpůsobte banner souhlasu s cookies – obsah, rozložení a viditelnost."
+
+#: build/admin.js:47
+msgid "Review Consent Logs"
+msgstr "Zkontrolujte protokoly souhlasu"
+
+#: build/admin.js:47
+msgid "See who has consented and when - useful for compliance audits."
+msgstr "Podívejte se, kdo dal souhlas a kdy – užitečné pro audity souladu."
+
+#: build/admin.js:47
+msgid "View Logs"
+msgstr "Zobrazit protokoly"
+
+#: build/admin.js:47
+msgid "Publish Your Cookie Policy"
+msgstr "Publikujte svou zásadu cookies"
+
+#: build/admin.js:47
+msgid "Review and publish the cookie policy page on your site."
+msgstr "Zkontrolujte a publikujte stránku zásad cookies na svém webu."
+
+#: build/admin.js:47
+msgid "Review Page"
+msgstr "Zkontrolovat stránku"
+
+#: build/admin.js:47
+msgid "Generate a cookie policy page so visitors know how you handle their data."
+msgstr "Vygenerujte stránku zásad cookies, aby návštěvníci věděli, jak nakládáte s jejich daty."
+
+#: build/admin.js:47
+msgid "Create Page"
+msgstr "Vytvořit stránku"
+
+#: build/admin.js:47
+msgid "Get Started with SureCookie"
+msgstr "Začněte se SureCookie"
+
+#: build/admin.js:47
+msgid "Follow these steps to set up cookie consent on your site in minutes."
+msgstr "Postupujte podle těchto kroků a nastavte souhlas s cookies na svém webu během několika minut."
+
+#: build/admin.js:47
+msgid "See full documentation →"
+msgstr "Zobrazit úplnou dokumentaci →"
+
+#: build/admin.js:47
+msgid "Continue Learning"
+msgstr "Pokračovat ve vzdělávání"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:50
+#, js-format
+msgid "%1$d of %2$d setup steps complete."
+msgstr "%1$d z %2$d kroků nastavení dokončeno."
+
+#: build/admin.js:50
+msgid "Open Learn"
+msgstr "Otevřít Learn"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "All cookies accepted."
+msgstr "Všechny cookies přijaty."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Non-essential cookies rejected."
+msgstr "Nepodstatné cookies odmítnuty."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preferences saved successfully."
+msgstr "Nastavení preferencí bylo úspěšně uloženo."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Close privacy preferences dialog"
+msgstr "Zavřít dialog preferencí ochrany soukromí"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Always Active"
+msgstr "Vždy aktivní"
+
+#. translators: %s: cookie category name
+#: build/admin.js:52
+#: build/public.js:3
+#, js-format
+msgid "%s: always active, cannot be disabled"
+msgstr "%s: vždy aktivní, nelze deaktivovat"
+
+#: build/admin.js:52
+#: build/public.js:3
+msgid "View Cookies"
+msgstr "Zobrazit cookies"
+
+#. translators: %s: cookie category name
+#: build/admin.js:53
+#: build/public.js:4
+#, js-format
+msgid "%s cookies details"
+msgstr "%s podrobnosti o cookies"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Expiry"
+msgstr "Platnost"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Reject All"
+msgstr "Odmítnout vše"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Confirm My Choices"
+msgstr "Potvrdit mé volby"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by SureCookie (opens in new tab)"
+msgstr "Poháněno SureCookie (otevře se v nové záložce)"
+
+#: inc/utils/localize-data.php:222
+#: build/admin.js:4
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by"
+msgstr "Poháněno"
+
+#: build/admin.js:53
+msgid "Buttons are for reference only in preview."
+msgstr "Tlačítka jsou pouze pro referenci v náhledu."
+
+#: build/admin.js:53
+msgid "This is a preview"
+msgstr "Toto je náhled"
+
+#: build/admin.js:53
+msgid "Close preview"
+msgstr "Zavřít náhled"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Complete"
+msgstr "Dokončeno"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Queued…"
+msgstr "Ve frontě…"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Starting scan…"
+msgstr "Spouští se skenování…"
+
+#. translators: 1: current page index, 2: total pages
+#: build/admin.js:54
+#, js-format
+msgid "Scanning page %1$d of %2$d…"
+msgstr "Skenuji stránku %1$d z %2$d…"
+
+#: build/admin.js:54
+msgid "Scanning pages…"
+msgstr "Skenuji stránky…"
+
+#: build/admin.js:54
+msgid "Analyzing cookies…"
+msgstr "Analyzuji cookies…"
+
+#: build/admin.js:54
+msgid "Finalizing…"
+msgstr "Dokončuji…"
+
+#: build/admin.js:54
+msgid "Scan failed"
+msgstr "Skenování selhalo"
+
+#: build/admin.js:54
+msgid "In progress…"
+msgstr "Probíhá…"
+
+#: build/admin.js:54
+msgid "Scan progress"
+msgstr "Průběh skenování"
+
+#. translators: 1: completed pages, 2: total pages
+#: build/admin.js:55
+#, js-format
+msgid "%1$d of %2$d pages scanned"
+msgstr "Skenováno %1$d z %2$d stránek"
+
+#: build/admin.js:55
+msgid "Preparing scan…"
+msgstr "Připravuji skenování…"
+
+#. translators: %s: estimated time remaining
+#: build/admin.js:56
+#, js-format
+msgid "· ~%s left"
+msgstr "· ~%s zbývá"
+
+#: build/admin.js:56
+msgid "Scan Completed with Errors"
+msgstr "Skenování dokončeno s chybami"
+
+#. translators: %d: number of failed pages
+#: build/admin.js:57
+#, js-format
+msgid "%d page(s) could not be scanned. Check the logs for details."
+msgstr "%d stránka(y) nemohla být naskenována. Zkontrolujte protokoly pro podrobnosti."
+
+#: build/admin.js:57
+msgid "Scan Completed!"
+msgstr "Skenování dokončeno!"
+
+#: build/admin.js:57
+msgid "Cookie scan has been completed successfully."
+msgstr "Skenování cookies bylo úspěšně dokončeno."
+
+#: build/admin.js:57
+msgid "Could not copy logs automatically."
+msgstr "Nelze automaticky zkopírovat protokoly."
+
+#: build/admin.js:57
+msgid "Logs copied to clipboard!"
+msgstr "Protokoly zkopírovány do schránky!"
+
+#: build/admin.js:57
+msgid "Latest Scanning Logs"
+msgstr "Nejnovější protokoly skenování"
+
+#: build/admin.js:57
+msgid "View logs from the most recent cookie scanning process."
+msgstr "Zobrazit protokoly z posledního procesu skenování cookies."
+
+#: build/admin.js:57
+msgid "Copied"
+msgstr "Zkopírováno"
+
+#: build/admin.js:57
+msgid "Copy"
+msgstr "Kopírovat"
+
+#: build/admin.js:57
+msgid "This field contains the scanning status results only."
+msgstr "Toto pole obsahuje pouze výsledky stavu skenování."
+
+#: build/admin.js:57
+msgid "Scan appears stuck"
+msgstr "Skenování se zdá být zaseknuté"
+
+#. translators: 1: completed pages, 2: total pages, 3: elapsed time
+#: build/admin.js:58
+#, js-format
+msgid "%1$d of %2$d pages scanned after %3$s with no recent progress."
+msgstr "%1$d z %2$d stránek naskenováno po %3$s bez nedávného pokroku."
+
+#. translators: %s: elapsed time
+#: build/admin.js:59
+#, js-format
+msgid "No progress detected after %s."
+msgstr "Po %s nebyl zaznamenán žádný pokrok."
+
+#: build/admin.js:59
+#: build/admin.js:63
+msgid "Cancelling…"
+msgstr "Rušení…"
+
+#: build/admin.js:59
+msgid "Cancel Scan"
+msgstr "Zrušit skenování"
+
+#: build/admin.js:59
+msgid "Copy Logs for Support"
+msgstr "Zkopírovat protokoly pro podporu"
+
+#: build/admin.js:60
+msgid "Your scan limit will reset tomorrow."
+msgstr "Váš limit skenování se zítra resetuje."
+
+#: build/admin.js:60
+msgid "The scan runs in the background - you can safely navigate away."
+msgstr "Skenování probíhá na pozadí – můžete bezpečně odejít."
+
+#: build/admin.js:60
+msgid "Make sure your site is publicly accessible (not behind basic auth or maintenance mode)."
+msgstr "Ujistěte se, že je váš web veřejně přístupný (není za základním ověřováním ani v režimu údržby)."
+
+#: build/admin.js:60
+msgid "Check if a firewall or security plugin is blocking external requests to your site."
+msgstr "Zkontrolujte, zda firewall nebo bezpečnostní plugin neblokuje externí požadavky na váš web."
+
+#: build/admin.js:60
+msgid "Pages with heavy JavaScript may take longer to scan. If scanning fails repeatedly, try fewer pages."
+msgstr "Stránky s náročným JavaScriptem mohou trvat déle ke skenování. Pokud skenování opakovaně selhává, zkuste méně stránek."
+
+#: build/admin.js:60
+msgid "If issues persist, copy the logs and <a>contact our support team.</a>"
+msgstr "Pokud problémy přetrvávají, zkopírujte protokoly a <a>kontaktujte náš tým podpory.</a>"
+
+#: build/admin.js:60
+msgid "contact our support team"
+msgstr "kontaktujte náš tým podpory"
+
+#: build/admin.js:63
+#: build/admin.js:78
+#: build/onboarding.js:7
+msgid "(no title)"
+msgstr "(bez názvu)"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Failed to initiate scan"
+msgstr "Nepodařilo se zahájit skenování"
+
+#. translators: 1: remaining scans, 2: total daily scans
+#: build/admin.js:68
+#: build/onboarding.js:12
+#, js-format
+msgid "You have %1$d of %2$d daily scans remaining"
+msgstr "Máte %1$d z %2$d denních skenů zbývajících"
+
+#. translators: %s: time until reset (e.g. "4h 22m")
+#: build/admin.js:69
+#: build/admin.js:71
+#, js-format
+msgid "Resets in %s"
+msgstr "Obnoví se za %s"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Limits refreshed."
+msgstr "Limity obnoveny."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Failed to refresh limits."
+msgstr "Nepodařilo se obnovit limity."
+
+#: build/admin.js:71
+msgid "Your session expired. Please reload to reconnect."
+msgstr "Vaše relace vypršela. Prosím, obnovte stránku pro opětovné připojení."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "We couldn't fetch your limits right now. Please try again in a moment."
+msgstr "Momentálně se nám nedaří získat vaše limity. Zkuste to prosím za chvíli znovu."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refreshing…"
+msgstr "Obnovování…"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refresh limits"
+msgstr "Obnovit limity"
+
+#. translators: %d: maximum pages
+#: build/admin.js:61
+#: build/admin.js:73
+#: build/onboarding.js:5
+#: build/onboarding.js:14
+#, js-format
+msgid "You have selected more than %d pages"
+msgstr "Vybrali jste více než %d stránek"
+
+#. translators: %d: maximum pages
+#: build/admin.js:65
+#: build/onboarding.js:9
+#, js-format
+msgid "Your plan supports scanning up to %d pages. Please remove extra pages to continue."
+msgstr "Váš plán podporuje skenování až %d stránek. Pro pokračování odstraňte přebytečné stránky."
+
+#: build/admin.js:73
+msgid "Daily Limit Reached"
+msgstr "Denní limit dosažen"
+
+#. translators: 1: scans used, 2: scan limit
+#: build/admin.js:74
+#, js-format
+msgid "You've used %1$d of %2$d daily scans. Your credits will refresh automatically tomorrow."
+msgstr "Využili jste %1$d z %2$d denních skenů. Vaše kredity se automaticky obnoví zítra."
+
+#: build/admin.js:74
+msgid "You've used all your scan credits for today. Your credits will refresh automatically tomorrow."
+msgstr "Vyčerpali jste všechny své skenovací kredity na dnešek. Vaše kredity se automaticky obnoví zítra."
+
+#: build/admin.js:74
+#: build/onboarding.js:14
+msgid "Scan Started!"
+msgstr "Skenování zahájeno!"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scanning…"
+msgstr "Skenování…"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Start Scan"
+msgstr "Spustit skenování"
+
+#: build/admin.js:63
+msgid "Cancel Stuck Scan"
+msgstr "Zrušit zaseknuté skenování"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "WordPress Cron is Disabled"
+msgstr "WordPress Cron je zakázán"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "The WordPress cron system is not working on your site. Cookie scanning may not work as expected. Please enable WP-Cron or set up a server cron job to ensure proper functionality."
+msgstr "Systém WordPress cron na vašem webu nefunguje. Skenování cookies nemusí fungovat správně. Prosím, povolte WP-Cron nebo nastavte serverový cron úkol pro zajištění správné funkčnosti."
+
+#: build/admin.js:75
+msgid "Select"
+msgstr "Vybrat"
+
+#: build/admin.js:75
+msgid "Configure how the \"Cookie Preferences\" button appears on your site, allowing users to update their consent at any time."
+msgstr "Nakonfigurujte, jak se tlačítko „Předvolby cookies“ zobrazí na vašem webu, aby uživatelé mohli kdykoli aktualizovat svůj souhlas."
+
+#: build/admin.js:75
+msgid "No re-consent method active"
+msgstr "Žádná metoda opětovného souhlasu není aktivní"
+
+#: build/admin.js:75
+msgid "Visitors won't be able to update their cookie preferences unless you add a menu item or place the shortcode on a page. You can safely ignore this if the shortcode is already added."
+msgstr "Návštěvníci nebudou moci aktualizovat své preference cookies, pokud nepřidáte položku do menu nebo nezadáte shortcode na stránku. Pokud je shortcode již přidán, můžete to bezpečně ignorovat."
+
+#: build/admin.js:75
+msgid "Button Label"
+msgstr "Popisek tlačítka"
+
+#: build/admin.js:75
+msgid "The label shown on the Cookie Preferences link."
+msgstr "Popisek zobrazený na odkazu Nastavení cookies."
+
+#: build/admin.js:75
+msgid "Menu Level"
+msgstr "Úroveň menu"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: build/admin.js:75
+msgid "Floating Widget"
+msgstr "Plovoucí widget"
+
+#: build/admin.js:75
+msgid "Select a WordPress menu to automatically add the Cookie Preferences link to it. When clicked, it opens the consent preferences modal directly."
+msgstr "Vyberte WordPress menu, do kterého se automaticky přidá odkaz Nastavení cookies. Po kliknutí se přímo otevře modální okno s nastavením souhlasu."
+
+#: build/admin.js:75
+msgid "No WordPress menus found."
+msgstr "Nebylo nalezeno žádné WordPress menu."
+
+#: build/admin.js:75
+msgid "Create a menu in Appearance > Menus."
+msgstr "Vytvořte menu v sekci Vzhled > Menu."
+
+#: build/admin.js:75
+msgid "Select Menu"
+msgstr "Vybrat menu"
+
+#: build/admin.js:75
+msgid "Use this shortcode to display the Cookie Preferences link anywhere on your site. When clicked, it opens the consent preferences modal directly."
+msgstr "Použijte tento shortcode k zobrazení odkazu Nastavení cookies kdekoli na vašem webu. Po kliknutí se přímo otevře modální okno s nastavením souhlasu."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode Copied!"
+msgstr "Shortcode zkopírován!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Could not copy to clipboard. Please copy the shortcode manually."
+msgstr "Nepodařilo se zkopírovat do schránky. Prosím, zkopírujte shortcode ručně."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copied!"
+msgstr "Zkopírováno!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copy shortcode"
+msgstr "Zkopírovat shortcode"
+
+#: build/admin.js:75
+msgid "Enable Floating Widget"
+msgstr "Povolit plovoucí widget"
+
+#: build/admin.js:75
+msgid "to show a floating cookie preferences button on every page."
+msgstr "pro zobrazení plovoucího tlačítka nastavení cookies na každé stránce."
+
+#: build/admin.js:75
+msgid "Failed to deactivate plugin."
+msgstr "Nepodařilo se deaktivovat plugin."
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected."
+msgstr "Byly zjištěny konfliktní pluginy."
+
+#: build/admin.js:75
+msgid "It's recommended to deactivate them to avoid issues."
+msgstr "Doporučuje se je deaktivovat, aby se předešlo problémům."
+
+#: build/admin.js:75
+msgid "Deactivate Plugin"
+msgstr "Deaktivovat plugin"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected"
+msgstr "Byly zjištěny konfliktní pluginy"
+
+#: build/admin.js:75
+msgid "The following plugins may conflict with SureCookie. It's recommended to deactivate them to avoid issues."
+msgstr "Následující pluginy mohou být v konfliktu se SureCookie. Doporučuje se je deaktivovat, aby se předešlo problémům."
+
+#: build/admin.js:75
+msgid "Version:"
+msgstr "Verze:"
+
+#: build/admin.js:75
+msgid "Deactivation successful. Reloading the page in 3 seconds."
+msgstr "Deaktivace byla úspěšná. Stránka se znovu načte za 3 sekundy."
+
+#: build/admin.js:75
+msgid "The plugin could not be deactivated. Please try again."
+msgstr "Plugin se nepodařilo deaktivovat. Zkuste to prosím znovu."
+
+#: build/admin.js:75
+msgid "Deactivating…"
+msgstr "Deaktivace…"
+
+#: build/admin.js:75
+msgid "Deactivate"
+msgstr "Deaktivovat"
+
+#: build/admin.js:75
+msgid "Close"
+msgstr "Zavřít"
+
+#: build/admin.js:75
+msgid "Preview:"
+msgstr "Náhled:"
+
+#: build/admin.js:75
+msgid "ON"
+msgstr "ZAPNUTO"
+
+#: build/admin.js:75
+msgid "OFF"
+msgstr "VYPNUTO"
+
+#: build/admin.js:75
+msgid "What's New?"
+msgstr "Co je nového?"
+
+#: build/admin.js:75
+msgid "Free version"
+msgstr "Bezplatná verze"
+
+#: build/admin.js:76
+msgid "Knowledge Base"
+msgstr "Databáze znalostí"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Analytics"
+msgstr "Analytika"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Marketing"
+msgstr "Marketing"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Functional"
+msgstr "Funkční"
+
+#: build/admin.js:76
+msgid "Resource"
+msgstr "Zdroj"
+
+#: build/admin.js:76
+msgid "Script"
+msgstr "Skript"
+
+#: build/admin.js:76
+msgid "Iframe"
+msgstr "Iframe"
+
+#: build/admin.js:78
+msgid "Control where your cookie banner appears on your site."
+msgstr "Ovládejte, kde se na vašem webu zobrazí banner cookies."
+
+#: build/admin.js:78
+msgid "Want More Control over Your Cookie Banner?"
+msgstr "Chcete mít větší kontrolu nad svým bannerem cookies?"
+
+#: build/admin.js:78
+msgid "Upgrade to hide it on selected pages, posts, archives, or on specific user roles."
+msgstr "Upgradujte a skryjte ho na vybraných stránkách, příspěvcích, archivech nebo pro konkrétní uživatelské role."
+
+#: build/admin.js:78
+msgid "The previously selected page no longer exists or could not be loaded."
+msgstr "Dříve vybraná stránka již neexistuje nebo ji nelze načíst."
+
+#: build/admin.js:78
+msgid "The selected page is not published and will not appear to visitors."
+msgstr "Vybraná stránka není publikována a návštěvníci ji neuvidí."
+
+#: build/admin.js:78
+msgid "Cookie Policy Page"
+msgstr "Stránka s pravidly pro cookies"
+
+#: build/admin.js:78
+msgid "Clear selected page"
+msgstr "Vymazat vybranou stránku"
+
+#: build/admin.js:78
+msgid "Select a Page"
+msgstr "Vybrat stránku"
+
+#: build/admin.js:78
+msgid "A link to this page will appear in the consent preferences modal footer."
+msgstr "Odkaz na tuto stránku se zobrazí v patičce modálního okna s preferencemi souhlasu."
+
+#: build/admin.js:78
+msgid "Auto Generate"
+msgstr "Automaticky generovat"
+
+#: build/admin.js:78
+msgid "Automatically create a published Cookie Policy page containing a dynamically generated cookie table that always stays up to date."
+msgstr "Automaticky vytvořit publikovanou stránku s pravidly pro cookies obsahující dynamicky generovanou tabulku cookies, která je vždy aktuální."
+
+#: build/admin.js:78
+msgid "Cookie Policy page created successfully!"
+msgstr "Stránka s pravidly pro cookies byla úspěšně vytvořena!"
+
+#: build/admin.js:78
+msgid "Failed to generate page. Please try again."
+msgstr "Nepodařilo se vygenerovat stránku. Zkuste to prosím znovu."
+
+#: build/admin.js:78
+msgid "An error occurred while generating the page. Please try again."
+msgstr "Při generování stránky došlo k chybě. Zkuste to prosím znovu."
+
+#: build/admin.js:78
+msgid "Page Already Linked"
+msgstr "Stránka již je propojena"
+
+#: build/admin.js:78
+msgid "Generate Cookie Policy Page"
+msgstr "Vygenerovat stránku s pravidly pro cookies"
+
+#: build/admin.js:78
+msgid "Edit Page"
+msgstr "Upravit stránku"
+
+#: build/admin.js:78
+msgid "View Page"
+msgstr "Zobrazit stránku"
+
+#: build/admin.js:78
+msgid "Use this shortcode to display the cookie policy with a dynamically generated cookie table on any page or post. The table always reflects the latest scanned and custom cookies."
+msgstr "Použijte tento shortcode pro zobrazení pravidel pro cookies s dynamicky generovanou tabulkou cookies na jakékoli stránce nebo příspěvku. Tabulka vždy odráží nejnovější naskenované a vlastní cookies."
+
+#: build/admin.js:83
+msgid "Please enter at least one region code"
+msgstr "Zadejte prosím alespoň jeden kód regionu"
+
+#: build/admin.js:83
+msgid "Invalid region code format. Use ISO 3166 codes like EU, US, US-CA, or GB."
+msgstr "Neplatný formát kódu regionu. Použijte kódy ISO 3166 jako EU, US, US-CA nebo GB."
+
+#: build/admin.js:83
+msgid "EU/EEA (GDPR)"
+msgstr "EU/EEA (GDPR)"
+
+#: build/admin.js:83
+msgid "California (CCPA)"
+msgstr "Kalifornie (CCPA)"
+
+#: build/admin.js:83
+msgid "United Kingdom"
+msgstr "Spojené království"
+
+#: build/admin.js:83
+msgid "Brazil (LGPD)"
+msgstr "Brazílie (LGPD)"
+
+#: build/admin.js:83
+msgid "Edit Regional Rule"
+msgstr "Upravit regionální pravidlo"
+
+#: build/admin.js:83
+msgid "Add Regional Rule"
+msgstr "Přidat regionální pravidlo"
+
+#: build/admin.js:83
+msgid "Set default consent state for visitors from this region. Google uses the most specific match."
+msgstr "Nastavte výchozí stav souhlasu pro návštěvníky z tohoto regionu. Google používá nejpřesnější shodu."
+
+#: build/admin.js:83
+msgid "Add Rule"
+msgstr "Přidat pravidlo"
+
+#: build/admin.js:83
+msgid "Quick Presets"
+msgstr "Rychlé přednastavení"
+
+#: build/admin.js:83
+msgid "Apply preset:"
+msgstr "Použít přednastavení:"
+
+#: build/admin.js:83
+msgid "Region Codes"
+msgstr "Kódy regionů"
+
+#: build/admin.js:83
+msgid "Comma-separated ISO 3166 codes: EU, US, US-CA, GB, BR, etc."
+msgstr "Kódy ISO 3166 oddělené čárkami: EU, US, US-CA, GB, BR atd."
+
+#: build/admin.js:83
+msgid "Default Consent State"
+msgstr "Výchozí stav souhlasu"
+
+#: build/admin.js:83
+msgid "Choose which categories are granted by default for visitors from this region before they interact with the banner."
+msgstr "Vyberte, které kategorie jsou návštěvníkům z tohoto regionu uděleny ve výchozím nastavení před interakcí s bannerem."
+
+#: build/admin.js:83
+msgid "Functional Storage"
+msgstr "Funkční úložiště"
+
+#: build/admin.js:83
+msgid "Enables storage for site functionality like preferences and language."
+msgstr "Umožňuje ukládání pro funkčnost webu, jako jsou preference a jazyk."
+
+#: build/admin.js:83
+msgid "Functional storage default"
+msgstr "Výchozí funkční úložiště"
+
+#: build/admin.js:83
+msgid "Analytics Storage"
+msgstr "Úložiště pro analytiku"
+
+#: build/admin.js:83
+msgid "Enables storage for analytics purposes like visit duration and page views."
+msgstr "Umožňuje ukládání pro analytické účely, jako je doba návštěvy a zobrazení stránek."
+
+#: build/admin.js:83
+msgid "Analytics storage default"
+msgstr "Výchozí úložiště pro analytiku"
+
+#: build/admin.js:83
+msgid "Marketing / Ads Storage"
+msgstr "Úložiště pro marketing / reklamy"
+
+#: build/admin.js:83
+msgid "Enables storage for advertising purposes including ad personalization and user data."
+msgstr "Umožňuje ukládání pro reklamní účely včetně personalizace reklam a uživatelských dat."
+
+#: build/admin.js:83
+msgid "Marketing storage default"
+msgstr "Výchozí úložiště pro marketing"
+
+#: build/admin.js:83
+msgid "Essential cookies (security_storage) are always granted. These defaults apply before the visitor interacts with the consent banner."
+msgstr "Základní cookies (security_storage) jsou vždy povoleny. Tyto výchozí hodnoty platí před interakcí návštěvníka s bannerem souhlasu."
+
+#: build/admin.js:83
+msgid "Granted"
+msgstr "Povoleno"
+
+#: build/admin.js:83
+msgid "Denied"
+msgstr "Odepřeno"
+
+#: build/admin.js:83
+msgid "Active Regional Rules"
+msgstr "Aktivní regionální pravidla"
+
+#: build/admin.js:83
+msgid "Set different default consent states per region. Google uses the most specific match (e.g., US-CA overrides US)."
+msgstr "Nastavte různé výchozí stavy souhlasu podle regionu. Google používá nejpřesnější shodu (např. US-CA přepisuje US)."
+
+#: build/admin.js:83
+msgid "Edit rule for"
+msgstr "Upravit pravidlo pro"
+
+#: build/admin.js:83
+msgid "Delete rule for"
+msgstr "Smazat pravidlo pro"
+
+#: build/admin.js:83
+msgid "No regional rules configured. The global default (deny all except essential) applies to all visitors."
+msgstr "Nejsou nakonfigurována žádná regionální pravidla. Globální výchozí nastavení (zakázat vše kromě nezbytného) platí pro všechny návštěvníky."
+
+#. translators: %s: comma-separated duplicate region codes
+#: build/admin.js:84
+#, js-format
+msgid "These region codes already exist in another rule: %s"
+msgstr "Tyto kódy regionů již existují v jiném pravidle: %s"
+
+#: build/admin.js:84
+msgid "Delete Regional Rule"
+msgstr "Smazat regionální pravidlo"
+
+#: build/admin.js:84
+msgid "Are you sure you want to delete this regional consent rule? Visitors from this region will use the global default."
+msgstr "Opravdu chcete smazat toto pravidlo souhlasu pro region? Návštěvníci z tohoto regionu budou používat globální výchozí nastavení."
+
+#: build/admin.js:84
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: build/admin.js:84
+msgid "Automatically communicate user consent preferences to Google services."
+msgstr "Automaticky komunikovat preference souhlasu uživatele službám Google."
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode Switch"
+msgstr "Povolit přepínač Google Consent Mode"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode"
+msgstr "Povolit Google Consent Mode"
+
+#: build/admin.js:84
+msgid "Supported services: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, and DV360"
+msgstr "Podporované služby: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight a DV360"
+
+#: build/admin.js:84
+msgid "Wait Time (milliseconds)"
+msgstr "Čas čekání (milisekundy)"
+
+#: build/admin.js:84
+msgid "How long Google services wait for consent before making requests. Default: 500ms. Range: 0–2000ms."
+msgstr "Jak dlouho služby Google čekají na souhlas před odesláním požadavků. Výchozí: 500 ms. Rozsah: 0–2000 ms."
+
+#: build/admin.js:84
+msgid "Mandatory for EU/EEA as of March 2024"
+msgstr "Povinné pro EU/EHP od března 2024"
+
+#: build/admin.js:84
+msgid "Google now requires Consent Mode v2 for all websites using Google services in the European Economic Area."
+msgstr "Google nyní vyžaduje Consent Mode v2 pro všechny weby používající služby Google v Evropském hospodářském prostoru."
+
+#: build/admin.js:84
+msgid "Learn more about Google Consent Mode v2 →"
+msgstr "Zjistit více o Google Consent Mode v2 →"
+
+#: build/admin.js:84
+msgid "Where should the banner appear?"
+msgstr "Kde by se měl banner zobrazit?"
+
+#: build/admin.js:84
+msgid "Choose where the banner is shown. Visitors outside selected regions will not see it."
+msgstr "Vyberte, kde se banner zobrazí. Návštěvníci mimo vybrané regiony jej neuvidí."
+
+#: build/admin.js:84
+msgid "Show to all visitors worldwide"
+msgstr "Zobrazit všem návštěvníkům po celém světě"
+
+#: build/admin.js:84
+msgid "Use the same experience for everyone, regardless of location."
+msgstr "Použít stejný zážitek pro všechny bez ohledu na umístění."
+
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/admin.js:78
+#: build/admin.js:84
+msgid "Pro"
+msgstr "Pro"
+
+#: build/admin.js:84
+msgid "Show only where required by law"
+msgstr "Zobrazit pouze tam, kde to vyžaduje zákon"
+
+#: build/admin.js:84
+msgid "Target specific regions with tailored consent experiences."
+msgstr "Cílit na konkrétní regiony s přizpůsobenými zkušenostmi se souhlasem."
+
+#: build/admin.js:84
+msgid "Mode: Show to all visitors worldwide"
+msgstr "Režim: Zobrazit všem návštěvníkům po celém světě"
+
+#: build/admin.js:84
+msgid "Your existing banner settings apply to all visitors. No geographic targeting is active."
+msgstr "Vaše stávající nastavení banneru platí pro všechny návštěvníky. Geografické cílení není aktivní."
+
+#: build/admin.js:84
+msgid "Unlock Regional Targeting"
+msgstr "Odemknout regionální cílení"
+
+#: build/admin.js:84
+msgid "Show banner only in selected regions, create custom regional rules, and control fallback behavior."
+msgstr "Zobrazovat banner pouze ve vybraných regionech, vytvářet vlastní regionální pravidla a ovládat chování při záložním řešení."
+
+#: build/admin.js:84
+msgid "Location detection uses GeoLite2 data by MaxMind, available from <link>https://www.maxmind.com</link>."
+msgstr "Detekce polohy používá data GeoLite2 od MaxMind, dostupná na <link>https://www.maxmind.com</link>."
+
+#: build/admin.js:87
+msgid "IAB Transparency & Consent Framework"
+msgstr "IAB Transparency & Consent Framework"
+
+#: build/admin.js:87
+msgid "Make your consent banner compliant with IAB TCF 2.3 and integrate with the Global Vendor List."
+msgstr "Udělejte svůj banner souhlasu v souladu s IAB TCF 2.3 a integrujte jej s Globálním seznamem dodavatelů."
+
+#: build/admin.js:87
+msgid "Unlock IAB TCF 2.3 Compliance - Coming Soon"
+msgstr "Odemknout soulad s IAB TCF 2.3 – brzy k dispozici"
+
+#: build/admin.js:87
+msgid "Enable full TCF mode, generate TC strings, and display the IAB vendor list to your visitors."
+msgstr "Povolit plný režim TCF, generovat TC řetězce a zobrazovat návštěvníkům seznam dodavatelů IAB."
+
+#: build/admin.js:87
+msgid "Google Additional Consent (AC)"
+msgstr "Google Additional Consent (AC)"
+
+#: build/admin.js:87
+msgid "Add Google Additional Consent alongside IAB TCF to handle ad-tech vendors not on the IAB Global Vendor List."
+msgstr "Přidat Google Additional Consent vedle IAB TCF pro správu reklamních technologií, které nejsou na globálním seznamu dodavatelů IAB."
+
+#: build/admin.js:87
+msgid "Unlock Google Additional Consent - Coming Soon"
+msgstr "Odemknout Google Dodatečný souhlas - brzy k dispozici"
+
+#: build/admin.js:87
+msgid "Generate the AC string, mirror the addtl_consent cookie, and display Google's Additional Consent provider list to your visitors - required for full Google Ads / GAM monetization."
+msgstr "Vygenerujte řetězec AC, zrcadlete cookie addtl_consent a zobrazte návštěvníkům seznam poskytovatelů Dodatečného souhlasu Google - vyžadováno pro plnou monetizaci Google Ads / GAM."
+
+#: build/onboarding.js:1
+msgid "Failed to get authentication payload"
+msgstr "Nepodařilo se získat autentizační data"
+
+#: build/onboarding.js:1
+msgid "An error occurred while connecting"
+msgstr "Při připojování došlo k chybě"
+
+#: build/onboarding.js:6
+msgid "First name is required"
+msgstr "Jméno je povinné"
+
+#: build/onboarding.js:6
+msgid "Email address is required"
+msgstr "E-mailová adresa je povinná"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid email address"
+msgstr "Zadejte platnou e-mailovou adresu"
+
+#: build/onboarding.js:6
+msgid "Classify cookies automatically"
+msgstr "Automaticky klasifikovat cookies"
+
+#: build/onboarding.js:6
+msgid "Get smart compliance recommendations"
+msgstr "Získat chytrá doporučení pro soulad"
+
+#: build/onboarding.js:6
+msgid "Generate privacy-compliant descriptions"
+msgstr "Vygenerovat popisy v souladu s ochranou soukromí"
+
+#: build/onboarding.js:6
+msgid "Welcome to SureCookie"
+msgstr "Vítejte v SureCookie"
+
+#: build/onboarding.js:6
+msgid "Privacy compliance made effortless 🍪"
+msgstr "Soulad s ochranou soukromí bez námahy 🍪"
+
+#: build/onboarding.js:6
+msgid "Connect Your Account"
+msgstr "Připojte svůj účet"
+
+#: build/onboarding.js:6
+msgid "Connect your SureCookie account to automatically classify cookies, generate compliant descriptions, and get smart recommendations for your privacy needs."
+msgstr "Připojte svůj účet SureCookie pro automatickou klasifikaci cookies, generování popisů v souladu a získání chytrých doporučení pro vaše potřeby ochrany soukromí."
+
+#: build/onboarding.js:6
+msgid "Here's what you can do:"
+msgstr "Tady je, co můžete udělat:"
+
+#: build/onboarding.js:6
+msgid "List of capabilities"
+msgstr "Seznam schopností"
+
+#: build/onboarding.js:6
+msgid "Connected to SureCookie"
+msgstr "Připojeno k SureCookie"
+
+#: build/admin.js:40
+#: build/onboarding.js:7
+#: build/onboarding.js:14
+msgid "Back"
+msgstr "Zpět"
+
+#: build/onboarding.js:6
+msgid "Next"
+msgstr "Další"
+
+#: build/onboarding.js:6
+#: build/onboarding.js:14
+msgid "Skip"
+msgstr "Přeskočit"
+
+#: build/onboarding.js:6
+msgid "Connecting…"
+msgstr "Připojování…"
+
+#: build/onboarding.js:6
+msgid "Connect"
+msgstr "Připojit"
+
+#: build/onboarding.js:11
+msgid "Run a Quick Privacy Scan"
+msgstr "Spustit rychlý sken ochrany soukromí"
+
+#: build/onboarding.js:11
+msgid "SureCookie will scan your website, detect all cookies, and categorize them automatically.<br/> This helps you stay compliant without spending hours identifying scripts manually."
+msgstr "SureCookie prohledá váš web, automaticky detekuje všechny cookies a kategorizuje je.<br/> Pomáhá vám tak zůstat v souladu, aniž byste museli hodiny ručně identifikovat skripty."
+
+#: build/onboarding.js:11
+msgid "Account not connected"
+msgstr "Účet není připojen"
+
+#: build/onboarding.js:11
+msgid "Please <a>go back</a> and connect your SureCookie account to enable cookie scanning."
+msgstr "Prosím, <a>vraťte se zpět</a> a připojte svůj účet SureCookie pro povolení skenování cookies."
+
+#: build/onboarding.js:12
+msgid "Your session expired. Please reconnect to continue."
+msgstr "Vaše relace vypršela. Pro pokračování se prosím znovu připojte."
+
+#: build/onboarding.js:14
+msgid "Connect Required"
+msgstr "Vyžaduje se připojení"
+
+#: build/onboarding.js:14
+msgid "Please connect your account to get free scanning credits."
+msgstr "Pro získání bezplatných kreditů na skenování prosím připojte svůj účet."
+
+#: build/onboarding.js:14
+msgid "SureCookie is scanning your pages for cookies. This may take a few minutes."
+msgstr "SureCookie skenuje vaše stránky kvůli cookies. Může to chvíli trvat."
+
+#: build/onboarding.js:14
+msgid "Okay, just one last step…"
+msgstr "Dobře, jen poslední krok…"
+
+#: build/onboarding.js:14
+msgid "Help us tailor your SureCookie experience by sharing a bit about yourself:"
+msgstr "Pomozte nám přizpůsobit vaši zkušenost se SureCookie tím, že nám o sobě něco řeknete:"
+
+#: build/onboarding.js:14
+msgid "First Name"
+msgstr "Jméno"
+
+#: build/onboarding.js:14
+msgid "Enter your first name"
+msgstr "Zadejte své jméno"
+
+#: build/onboarding.js:14
+msgid "Last Name"
+msgstr "Příjmení"
+
+#: build/onboarding.js:14
+msgid "Enter your last name"
+msgstr "Zadejte své příjmení"
+
+#: build/onboarding.js:14
+msgid "Email Address"
+msgstr "E-mailová adresa"
+
+#: build/onboarding.js:14
+msgid "Enter your email address"
+msgstr "Zadejte svou e-mailovou adresu"
+
+#: build/onboarding.js:14
+msgid "Finish"
+msgstr "Dokončit"
+
+#: build/onboarding.js:14
+msgid "Block non-essential cookies and trackers until explicit consent"
+msgstr "Blokovat nepodstatné cookies a sledovače až do výslovného souhlasu"
+
+#: build/onboarding.js:14
+msgid "Auto-discover common services, categorize them, and preconfigure safe rules"
+msgstr "Automaticky zjistit běžné služby, kategorizovat je a přednastavit bezpečná pravidla"
+
+#: build/onboarding.js:14
+msgid "You're all set. Let's go live 🚀"
+msgstr "Vše je připraveno. Pojďme spustit 🚀"
+
+#: build/onboarding.js:14
+msgid "From consent logs to region-based preferences, SureCookie helps you stay compliant while building visitor trust."
+msgstr "Od záznamů o souhlasu po preference založené na regionu, SureCookie vám pomáhá zůstat v souladu a zároveň budovat důvěru návštěvníků."
+
+#: build/onboarding.js:14
+msgid "Here's what SureCookie will do for you now:"
+msgstr "Toto vám SureCookie nyní nabídne:"
+
+#: build/onboarding.js:14
+msgid "SureCookie Features"
+msgstr "Funkce SureCookie"
+
+#: build/onboarding.js:6
+msgid "Exit Setup"
+msgstr "Ukončit nastavení"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "This website uses cookies to enhance your browsing experience, personalize content, provide social media features, and analyze our traffic. You can review and manage your cookie settings at any time, or accept all cookies to proceed."
+msgstr "Tato webová stránka používá cookies ke zlepšení vašeho prohlížení, personalizaci obsahu, poskytování funkcí sociálních médií a analýze naší návštěvnosti. Nastavení cookies můžete kdykoli zkontrolovat a spravovat, nebo přijmout všechny cookies pro pokračování."
+
+#: build/public.js:4
+msgid "Cookie Consent"
+msgstr "Souhlas s cookies"
+
+#: build/public.js:4
+msgid "Banner logo"
+msgstr "Logo banneru"
+
+#: build/public.js:4
+msgid "Decline all non-essential cookies"
+msgstr "Odmítnout všechny nepodstatné cookies"
+
+#: build/public.js:4
+msgid "Manage cookie preferences"
+msgstr "Spravovat preference cookies"
+
+#: build/public.js:4
+msgid "Accept only essential cookies"
+msgstr "Přijmout pouze nezbytné cookies"
+
+#: build/public.js:4
+msgid "Accept all cookies"
+msgstr "Přijmout všechny cookies"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Consent Forwarding"
+msgstr "Přeposílání souhlasu"
+
+#: build/admin.js:2
+msgid "Want custom brand colors?"
+msgstr "Chcete vlastní barvy značky?"
+
+#: build/admin.js:3
+#: build/admin.js:4
+msgid "Received from"
+msgstr "Přijato od"
+
+#: build/admin.js:3
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Received"
+msgstr "Přijato"
+
+#. translators: %d: number of sites
+#: build/admin.js:4
+#, js-format
+msgid "Shared to %d site(s)"
+msgstr "Sdíleno na %d stránku(y)"
+
+#: build/admin.js:4
+msgid "Consent not received for"
+msgstr "Souhlas nebyl udělen pro"
+
+#: build/admin.js:4
+msgid "These categories exist only on this site and were not part of the forwarded consent. The visitor will be prompted to set their preferences for these when they visit this site directly."
+msgstr "Tyto kategorie existují pouze na tomto webu a nebyly součástí přeposlaného souhlasu. Návštěvník bude vyzván k nastavení svých preferencí pro tyto kategorie při přímé návštěvě tohoto webu."
+
+#: build/admin.js:4
+msgid "More information about these categories"
+msgstr "Více informací o těchto kategoriích"
+
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Shared"
+msgstr "Sdíleno"
+
+#: build/admin.js:4
+msgid "Shared to"
+msgstr "Sdíleno na"
+
+#: build/admin.js:4
+msgid "Consent Session ID"
+msgstr "ID relace souhlasu"
+
+#: build/admin.js:4
+msgid "Localhost"
+msgstr "Localhost"
+
+#: build/admin.js:6
+msgid "Consent log export upgrade"
+msgstr "Vylepšení exportu protokolů souhlasu"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preference sections"
+msgstr "Sekce preferencí"
+
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Cookies"
+msgstr "Cookies"
+
+#. translators: %d: number of partner sites
+#: build/admin.js:51
+#: build/public.js:2
+#, js-format
+msgid "%d connected site(s)"
+msgstr "%d připojený(é) web(y)"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Sites that will receive your consent"
+msgstr "Weby, které obdrží váš souhlas"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "No partner sites configured."
+msgstr "Žádné partnerské weby nejsou nastaveny."
+
+#: build/admin.js:53
+msgid "Cookie Notice"
+msgstr "Oznámení o cookies"
+
+#: build/admin.js:84
+msgid "Automatically sync cookie consent across multiple domains and forward consent choices to connected services, without asking visitors to consent again."
+msgstr "Automaticky synchronizujte souhlas s cookies napříč více doménami a přeposílejte volby souhlasu připojeným službám, aniž byste návštěvníky znovu žádali o souhlas."
+
+#: inc/modules/mcp/server.php:100
+msgid "SureCookie MCP Server"
+msgstr "SureCookie MCP Server"
+
+#: inc/modules/mcp/server.php:101
+msgid "SureCookie MCP Server for cookie consent settings, consent logs, cookie management, and site scanning workflows."
+msgstr "SureCookie MCP Server pro nastavení souhlasu s cookies, záznamy o souhlasu, správu cookies a pracovní postupy skenování stránek."
+
+#. translators: %s: navigation group label
+#: build/admin.js:2
+#, js-format
+msgid "%s submenu"
+msgstr "%s submenu"
+
+#: build/admin.js:2
+msgid "General"
+msgstr "Obecné"
+
+#: build/admin.js:2
+msgid "Consent & Data"
+msgstr "Souhlas a data"
+
+#: build/admin.js:2
+msgid "Consent Frameworks"
+msgstr "Rámce souhlasu"
+
+#: build/admin.js:2
+msgid "IAB-TCF"
+msgstr "IAB-TCF"
+
+#: build/admin.js:2
+msgid "Enter text"
+msgstr "Zadejte text"
+
+#: build/admin.js:2
+msgid "Enter Banner Message"
+msgstr "Zadejte zprávu banneru"
+
+#: build/admin.js:2
+msgid "Control how long consent stays valid and how consent records are stored."
+msgstr "Ovládejte, jak dlouho platí souhlas a jak jsou záznamy o souhlasu ukládány."
+
+#: build/admin.js:4
+msgid "N/A"
+msgstr "Není k dispozici"
+
+#. translators: %d: number of partner sites that received the forwarded consent.
+#: build/admin.js:15
+#, js-format
+msgid "This consent was shared with %d connected site. Deleting it here will also erase the copy from that site (GDPR Art. 17)."
+msgid_plural "This consent was shared with %d connected sites. Deleting it here will also erase the copies from those sites (GDPR Art. 17)."
+msgstr[0] "Tento souhlas byl sdílen s %d připojenou stránkou. Jeho smazáním zde se také vymaže kopie z této stránky (GDPR čl. 17)."
+msgstr[1] "Tento souhlas byl sdílen s %d připojenými stránkami. Jeho smazáním zde se také vymažou kopie z těchto stránek (GDPR čl. 17)."
+msgstr[2] "Tento souhlas byl sdílen s %d připojenými stránkami. Jeho smazáním zde se také vymažou kopie z těchto stránek (GDPR čl. 17)."
+
+#. translators: %d: number of selected logs that were forwarded to partner sites.
+#: build/admin.js:21
+#, js-format
+msgid "%d of these logs was shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgid_plural "%d of these logs were shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgstr[0] "%d z těchto záznamů byl sdílen s připojenými partnerskými stránkami. Smazáním se také vymaže tato přeposlaná kopie (GDPR čl. 17)."
+msgstr[1] "%d z těchto záznamů byly sdíleny s připojenými partnerskými stránkami. Smazáním se také vymažou tyto přeposlané kopie (GDPR čl. 17)."
+msgstr[2] "%d z těchto záznamů bylo sdíleno s připojenými partnerskými stránkami. Smazáním se také vymažou tyto přeposlané kopie (GDPR čl. 17)."
+
+#: build/admin.js:53
+msgid "Admin and plugin preferences for SureCookie."
+msgstr "Předvolby správce a pluginu pro SureCookie."
+
+#: build/admin.js:53
+msgid "SureCookie Admin Menu"
+msgstr "Správce SureCookie Menu"
+
+#: build/admin.js:53
+msgid "Toggle to show SureCookie in the main menu or under Settings → SureCookie."
+msgstr "Přepínač pro zobrazení SureCookie v hlavním menu nebo pod Nastavení → SureCookie."
+
+#: build/admin.js:84
+msgid "Connect Your AI Client"
+msgstr "Připojte svého AI klienta"
+
+#: build/admin.js:84
+msgid "Create an Application Password"
+msgstr "Vytvořit aplikační heslo"
+
+#: build/admin.js:84
+msgid "Open Application Passwords"
+msgstr "Otevřít aplikační hesla"
+
+#: build/admin.js:84
+msgid "Add to your AI client:"
+msgstr "Přidejte do svého AI klienta:"
+
+#: build/admin.js:84
+msgid "Learn more about the WordPress MCP Adapter"
+msgstr "Zjistěte více o WordPress MCP adaptéru"
+
+#: build/admin.js:84
+msgid "Claude Code"
+msgstr "Claude Code"
+
+#: build/admin.js:84
+msgid "Claude Desktop"
+msgstr "Claude Desktop"
+
+#: build/admin.js:84
+msgid "Cursor"
+msgstr "Cursor"
+
+#: build/admin.js:84
+msgid "VS Code"
+msgstr "VS Code"
+
+#: build/admin.js:84
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+#: build/admin.js:84
+msgid "go to Settings → Connectors → Add Connector, paste the endpoint URL, and use your WordPress username + Application Password."
+msgstr "Přejděte do Nastavení → Konektory → Přidat konektor, vložte URL koncového bodu a použijte své uživatelské jméno WordPress + aplikační heslo."
+
+#: build/admin.js:84
+msgid "Learn more about ChatGPT connectors"
+msgstr "Zjistěte více o konektorech ChatGPT"
+
+#: build/admin.js:84
+msgid "SureCookie Only"
+msgstr "Pouze SureCookie"
+
+#: build/admin.js:84
+msgid "Global"
+msgstr "Globální"
+
+#: build/admin.js:84
+msgid "Copy setup prompt for AI client"
+msgstr "Zkopírovat výzvu pro AI klienta"
+
+#: build/admin.js:84
+msgid "Prompt copied! Paste it into your AI client."
+msgstr "Výzva zkopírována! Vložte ji do svého AI klienta."
+
+#: build/admin.js:84
+msgid "Failed to copy prompt to clipboard"
+msgstr "Nepodařilo se zkopírovat výzvu do schránky"
+
+#: build/admin.js:84
+msgid "Copy JSON config"
+msgstr "Zkopírovat JSON konfiguraci"
+
+#: build/admin.js:84
+msgid "Copied to clipboard"
+msgstr "Zkopírováno do schránky"
+
+#: build/admin.js:84
+msgid "Failed to copy to clipboard"
+msgstr "Nepodařilo se zkopírovat do schránky"
+
+#: build/admin.js:84
+msgid "MCP Adapter plugin not detected"
+msgstr "Plugin MCP Adaptér nebyl detekován"
+
+#. translators: %s: WP MCP Adapter plugin name.
+#: build/admin.js:87
+#, js-format
+msgid "To connect AI clients to your site, the %s plugin is required. Download the latest release from GitHub, upload it via Plugins > Add New > Upload Plugin, and activate."
+msgstr "Pro připojení AI klientů k vašemu webu je vyžadován plugin %s. Stáhněte si nejnovější verzi z GitHubu, nahrajte ji přes Pluginy > Přidat nový > Nahrát plugin a aktivujte."
+
+#: build/admin.js:87
+msgid "Download from GitHub"
+msgstr "Stáhnout z GitHubu"
+
+#: build/admin.js:2
+#: build/admin.js:87
+msgid "MCP"
+msgstr "MCP"
+
+#: build/admin.js:87
+msgid "Configure AI client access to SureCookie through the Model Context Protocol."
+msgstr "Konfigurujte přístup AI klientů k SureCookie přes Model Context Protocol."
+
+#: build/admin.js:87
+msgid "Enable MCP"
+msgstr "Povolit MCP"
+
+#: build/admin.js:87
+msgid "Allow AI clients like Claude, ChatGPT, and Cursor to manage your cookie banner, scanner, and consent settings through SureCookie. When disabled, no abilities are registered and AI clients cannot connect."
+msgstr "Umožněte AI klientům jako Claude, ChatGPT a Cursor spravovat váš cookie banner, skener a nastavení souhlasu přes SureCookie. Pokud je vypnuto, nejsou registrovány žádné schopnosti a AI klienti se nemohou připojit."
+
+#: build/admin.js:87
+msgid "WordPress Abilities API not available"
+msgstr "API schopností WordPress není dostupné"
+
+#: build/admin.js:87
+msgid "MCP requires the WordPress Abilities API (WordPress 6.9 or later). Update WordPress to use this feature."
+msgstr "MCP vyžaduje WordPress Abilities API (WordPress 6.9 nebo novější). Aktualizujte WordPress, abyste mohli tuto funkci používat."
+
+#: build/admin.js:87
+msgid "Unsaved changes"
+msgstr "Neuložené změny"
+
+#: build/admin.js:87
+msgid "The MCP endpoint becomes active only after you save your settings."
+msgstr "Koncový bod MCP se aktivuje až po uložení vašich nastavení."
+
+#: inc/api/consent-logs.php:404
+msgid "Unable to determine the current user."
+msgstr "Nelze určit aktuálního uživatele."
+
+#: inc/api/consent-logs.php:415
+msgid "Consent logs marked as viewed."
+msgstr "Záznamy o souhlasu označeny jako zobrazené."
+
+#: inc/api/plugin.php:214
+msgid "This plugin is network-activated and must be deactivated by a Network Administrator from Network Admin > Plugins."
+msgstr "Tento plugin je aktivován v síti a musí být deaktivován správcem sítě v části Síťová správa > Pluginy."
+
+#: inc/api/plugin.php:225
+msgid "Plugin could not be deactivated."
+msgstr "Plugin nelze deaktivovat."
+
+#: inc/modules/automatic-scanning/api.php:118
+msgid "Enable Automatic Scanning before running a scan."
+msgstr "Před spuštěním skenování povolte automatické skenování."
+
+#: inc/modules/automatic-scanning/api.php:122
+msgid "A scan is already in progress."
+msgstr "Skenování již probíhá."
+
+#: inc/modules/automatic-scanning/api.php:128
+msgid "Could not start the scan. Please try again."
+msgstr "Nepodařilo se spustit skenování. Zkuste to prosím znovu."
+
+#: inc/modules/automatic-scanning/api.php:131
+msgid "Scan triggered."
+msgstr "Skenování spuštěno."
+
+#: inc/modules/automatic-scanning/runner.php:100
+msgid "Automatic scan deferred: daily page budget reached. Retrying in ~24 hours."
+msgstr "Automatické skenování odloženo: dosažen denní limit stránek. Opětovné spuštění za ~24 hodin."
+
+#: inc/modules/automatic-scanning/runner.php:124
+msgid "Automatic scan skipped: a scan is already in progress."
+msgstr "Automatické skenování přeskočeno: skenování již probíhá."
+
+#: inc/modules/automatic-scanning/runner.php:142
+msgid "Starting automatic (scheduled) scan."
+msgstr "Spouští se automatické (plánované) skenování."
+
+#: inc/modules/automatic-scanning/scheduler.php:85
+msgid "Once Monthly (SureCookie)"
+msgstr "Jednou měsíčně (SureCookie)"
+
+#: inc/modules/automatic-scanning/scheduler.php:92
+msgid "Once Weekly (SureCookie)"
+msgstr "Jednou týdně (SureCookie)"
+
+#: inc/modules/script-blocking/blocker.php:1279
+msgid "This content is currently blocked."
+msgstr "Tento obsah je momentálně blokován."
+
+#: inc/modules/site-scanner/saas-client.php:519
+msgid "Scan deferred by server: daily page budget reached. It will retry automatically."
+msgstr "Skenování odloženo serverem: dosažen denní limit stránek. Bude automaticky opakováno."
+
+#: inc/modules/site-scanner/saas-client.php:524
+msgid "Daily page budget reached. The scheduled scan will retry automatically."
+msgstr "Dosažen denní limit stránek. Plánované skenování bude automaticky opakováno."
+
+#: build/admin.js:2
+#: build/admin.js:79
+msgid "Manual"
+msgstr "Ruční"
+
+#: build/admin.js:2
+msgid "Automatic"
+msgstr "Automatické"
+
+#: build/admin.js:2
+msgid "Reset to default"
+msgstr "Obnovit na výchozí"
+
+#: build/admin.js:2
+msgid "Enable Background Overlay"
+msgstr "Povolit překrytí pozadí"
+
+#: build/admin.js:2
+msgid "Background Overlay"
+msgstr "Překrytí pozadí"
+
+#: build/admin.js:2
+msgid "Dim the page behind the banner and limit interaction until the visitor accepts or declines. The overlay is removed after a choice is made."
+msgstr "Ztmavte stránku za bannerem a omezte interakci, dokud návštěvník nepřijme nebo neodmítne. Překrytí se odstraní po provedení volby."
+
+#: build/admin.js:2
+msgid "This layout highlights the consent banner and may affect user experience. Ensure it aligns with your regional consent requirements."
+msgstr "Toto rozvržení zvýrazňuje banner souhlasu a může ovlivnit uživatelský zážitek. Ujistěte se, že odpovídá vašim regionálním požadavkům na souhlas."
+
+#: build/admin.js:2
+#: build/admin.js:3
+msgid "Re-request Consent"
+msgstr "Znovu požádat o souhlas"
+
+#. translators: %s: date/time of the last renewal.
+#: build/admin.js:3
+#, js-format
+msgid "Last Requested: %s"
+msgstr "Naposledy požadováno: %s"
+
+#: build/admin.js:3
+msgid "Ask all visitors to provide consent again. Use this after updating your cookie policy or adding new trackers. Existing consent will be marked as outdated, and the banner will reappear on the next visit."
+msgstr "Požádejte všechny návštěvníky o souhlas znovu. Použijte to po aktualizaci zásad cookies nebo přidání nových sledovačů. Stávající souhlas bude označen jako zastaralý a banner se znovu zobrazí při další návštěvě."
+
+#: build/admin.js:3
+msgid "Consent requested. Visitors will be asked for consent again."
+msgstr "Souhlas požadován. Návštěvníci budou znovu požádáni o souhlas."
+
+#: build/admin.js:3
+msgid "Could not Re-request Consent. Please try again."
+msgstr "Nepodařilo se znovu požádat o souhlas. Zkuste to prosím znovu."
+
+#: build/admin.js:3
+msgid "Renewing…"
+msgstr "Obnovování…"
+
+#: build/admin.js:3
+msgid "Confirm Re-request"
+msgstr "Potvrdit znovu požádat"
+
+#: build/admin.js:22
+#: build/onboarding.js:2
+msgid "New"
+msgstr "Nový"
+
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Automatic Scanning"
+msgstr "Automatické skenování"
+
+#: build/admin.js:43
+msgid "Manage"
+msgstr "Spravovat"
+
+#: build/admin.js:43
+msgid "Since the last scan:"
+msgstr "Od posledního skenování:"
+
+#: build/admin.js:43
+msgid "new cookie"
+msgid_plural "new cookies"
+msgstr[0] "nová cookie"
+msgstr[1] "nové cookies"
+msgstr[2] "nových cookies"
+
+#: build/admin.js:43
+msgid "removed"
+msgstr "odebráno"
+
+#: build/admin.js:43
+msgid "new tracker domain"
+msgid_plural "new tracker domains"
+msgstr[0] "nová doména sledovače"
+msgstr[1] "nové domény sledovačů"
+msgstr[2] "nových domén sledovačů"
+
+#: build/admin.js:43
+msgid "No scans yet. Schedule automatic scans to track changes over time."
+msgstr "Žádná skenování zatím. Naplánujte automatická skenování pro sledování změn v čase."
+
+#. translators: %s: next scan date
+#: build/admin.js:44
+#, js-format
+msgid "Next scan: %s"
+msgstr "Další skenování: %s"
+
+#: build/admin.js:44
+msgid "Scheduling is off"
+msgstr "Plánování je vypnuto"
+
+#: build/admin.js:75
+msgid "Network-activated"
+msgstr "Aktivováno v síti"
+
+#: build/admin.js:75
+msgid "Manage in Network Admin"
+msgstr "Spravovat v síťové správě"
+
+#: build/admin.js:76
+msgid "Google Consent Mode is enabled, so SureCookie allows Google's Consent Mode scripts to function correctly. As a result, this script cannot be blocked."
+msgstr "Režim souhlasu Google je povolen, takže SureCookie umožňuje správnou funkci skriptů režimu souhlasu Google. Tento skript proto nelze blokovat."
+
+#: build/admin.js:78
+msgid "Necessary"
+msgstr "Nutné"
+
+#: build/admin.js:78
+msgid "What Changed in the Last Scan"
+msgstr "Co se změnilo při posledním skenování"
+
+#: build/admin.js:78
+msgid "Cookies and tracker domains that changed compared to the previous scan."
+msgstr "Cookies a domény sledovačů, které se změnily oproti předchozímu skenování."
+
+#: build/admin.js:78
+msgid "No differences were detected compared to the previous scan."
+msgstr "Ve srovnání s předchozím skenováním nebyly zjištěny žádné rozdíly."
+
+#: build/admin.js:78
+msgid "New Cookies"
+msgstr "Nové cookies"
+
+#: build/admin.js:78
+msgid "No Longer Detected"
+msgstr "Už nejsou detekovány"
+
+#: build/admin.js:78
+msgid "Recategorized"
+msgstr "Překategorizováno"
+
+#: build/admin.js:78
+msgid "New Tracker Domains"
+msgstr "Nové domény sledovačů"
+
+#: build/admin.js:78
+msgid "Third-party"
+msgstr "Třetí strana"
+
+#: build/admin.js:78
+msgid "Monthly"
+msgstr "Měsíčně"
+
+#: build/admin.js:78
+msgid "Re-scan your site once a month."
+msgstr "Znovu prohledejte svůj web jednou za měsíc."
+
+#: build/admin.js:78
+msgid "Weekly"
+msgstr "Týdně"
+
+#: build/admin.js:78
+msgid "Re-scan every week for faster drift detection."
+msgstr "Znovu prohledejte každý týden pro rychlejší detekci změn."
+
+#: build/admin.js:78
+msgid "All Published Content"
+msgstr "Veškerý publikovaný obsah"
+
+#: build/admin.js:78
+msgid "Enable Automatic Scanning"
+msgstr "Povolit automatické skenování"
+
+#: build/admin.js:78
+msgid "Run scheduled scans in the background and detect changes automatically."
+msgstr "Spouštějte naplánovaná skenování na pozadí a automaticky detekujte změny."
+
+#: build/admin.js:78
+msgid "Scan Frequency"
+msgstr "Frekvence skenování"
+
+#: build/admin.js:78
+msgid "WordPress cron is disabled"
+msgstr "WordPress cron je zakázán"
+
+#: build/admin.js:78
+msgid "Scheduled scans rely on cron. Ask your host to set up a real server cron job so automatic scans run on time."
+msgstr "Naplánovaná skenování závisí na cron. Požádejte svého poskytovatele hostingu o nastavení skutečného serverového cron úkolu, aby automatická skenování probíhala včas."
+
+#: build/admin.js:78
+msgid "Last Scan"
+msgstr "Poslední skenování"
+
+#. translators: %s: last scan date-time
+#: build/admin.js:79
+#, js-format
+msgid "Scanned on %s"
+msgstr "Skenováno %s"
+
+#: build/admin.js:79
+msgid "Scheduled"
+msgstr "Naplánováno"
+
+#. translators: %d: number of new cookies
+#: build/admin.js:80
+#, js-format
+msgid "%d New Cookies"
+msgstr "%d Nových cookies"
+
+#. translators: %d: number of cookies no longer detected
+#: build/admin.js:81
+#, js-format
+msgid "%d Removed"
+msgstr "%d Odebráno"
+
+#. translators: %d: number of recategorized cookies
+#: build/admin.js:82
+#, js-format
+msgid "%d Recategorized"
+msgstr "%d Překategorizováno"
+
+#. translators: %d: number of new tracker domains
+#: build/admin.js:83
+#, js-format
+msgid "%d New Tracker Domains"
+msgstr "%d Nových domén sledovačů"
+
+#: build/admin.js:83
+msgid "View Changes"
+msgstr "Zobrazit změny"
+
+#: build/admin.js:83
+msgid "No scans yet - run your first scan to start monitoring changes."
+msgstr "Zatím žádná skenování – spusťte první skenování a začněte sledovat změny."
+
+#: build/admin.js:83
+msgid "Stay Compliant Automatically"
+msgstr "Zůstaňte automaticky v souladu"
+
+#: build/admin.js:83
+msgid "Get weekly scans, instant alerts, smart classification, and automatic protection from new trackers."
+msgstr "Získejte týdenní skenování, okamžité upozornění, chytrou klasifikaci a automatickou ochranu před novými sledovači."
+
+#. translators: %d: maximum pages
+#: build/onboarding.js:11
+#, js-format
+msgid "SureCookie agent will visit them like real users to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "Agent SureCookie je navštíví jako skuteční uživatelé, aby detekoval všechny používané cookies. Kvůli omezením zdrojů je povoleno %d stránek na skenování."
+
+#. translators: 1: remaining pages, 2: total daily page budget
+#: build/admin.js:70
+#, js-format
+msgid "%1$d of %2$d daily pages remaining on this site"
+msgstr "%1$d z %2$d denních stránek zbývá na tomto webu"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "<p>By scanning you accept our <a>terms and conditions</a>.</p>"
+msgstr "<p>Prostřednictvím skenování souhlasíte s našimi <a>podmínkami</a>.</p>"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Terms and Conditions"
+msgstr "Podmínky"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Cookie Scanning Not Available on Local Sites"
+msgstr "Skenování cookies není dostupné na lokálních webech"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "This site is running on a local or development environment that our cloud scanner cannot reach. Cookie scanning will be available once your site is live on a publicly accessible domain."
+msgstr "Tento web běží v lokálním nebo vývojovém prostředí, ke kterému náš cloudový skener nemá přístup. Skenování cookies bude dostupné, jakmile bude váš web živý na veřejně přístupné doméně."
+
+#: build/onboarding.js:14
+msgid "Skip for Now"
+msgstr "Přeskočit nyní"
+
+#: build/onboarding.js:14
+msgid "Stay in the loop and help shape SureCookie! Get feature updates, and help us build a better SureCookie by sharing how you use the plugin. <a>Terms and Conditions</a>"
+msgstr "Zůstaňte v obraze a pomozte formovat SureCookie! Získejte aktualizace funkcí a pomozte nám vytvořit lepší SureCookie tím, že sdílíte, jak plugin používáte. <a>Podmínky</a>"
+
+#: admin/product-promotion.php:104
+msgid "Grow traffic of your website with SureRank - a lightweight SEO toolkit plugin for WordPress users who want better rankings without the complexity."
+msgstr "Zvyšte návštěvnost svého webu se SureRank - odlehčeným SEO pluginem pro uživatele WordPressu, kteří chtějí lepší pozice ve vyhledávání bez zbytečné složitosti."
+
+#: admin/rating-notice.php:232
+msgid "Amazing! SureCookie discovered cookies on your site - let's keep growing together!"
+msgstr "Skvělé! SureCookie objevil na vašem webu cookies - pojďme společně růst dál!"
+
+#. translators: 1: page URL, 2: error message
+#: inc/modules/site-scanner/saas-client.php:989
+#, php-format
+msgid "Page failed: %1$s - %2$s"
+msgstr "Stránka selhala: %1$s - %2$s"
+
+#: build/admin.js:43
+msgid "WP-Cron disabled - scans won’t run automatically"
+msgstr "WP-Cron je zakázán - skenování nebude probíhat automaticky"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Consider Plan Upgrade"
+msgstr "Zvažte upgrade plánu"
+
+#. translators: 1: pages scanned, 2: pages submitted
+#: build/admin.js:75
+#, js-format
+msgid "Scanned %1$d of %2$d pages - your daily page budget is used up. The remaining pages will scan after it resets."
+msgstr "Naskenováno %1$d z %2$d stránek - váš denní limit stránek je vyčerpán. Zbývající stránky budou naskenovány po jeho obnovení."
+
+#: build/admin.js:84
+msgid "Update the environment variables"
+msgstr "Aktualizujte proměnné prostředí"
+
+#: build/admin.js:84
+msgid "WP_API_USERNAME"
+msgstr "WP_API_USERNAME"
+
+#: build/admin.js:84
+msgid "Your WordPress username (prefilled)."
+msgstr "Vaše uživatelské jméno WordPress (předvyplněno)."
+
+#: build/admin.js:84
+msgid "WP_API_PASSWORD"
+msgstr "WP_API_PASSWORD"
+
+#: build/admin.js:84
+msgid "Replace \"your-application-password\" with the password from Step 1."
+msgstr "Nahraďte \"your-application-password\" heslem z kroku 1."
+
+#: build/admin.js:84
+msgid "Verify Node.js version"
+msgstr "Ověřte verzi Node.js"
+
+#: build/admin.js:84
+msgid "In your terminal, run:"
+msgstr "Ve svém terminálu spusťte:"
+
+#: build/admin.js:84
+msgid "The version must be 20.1 or higher."
+msgstr "Verze musí být 20.1 nebo vyšší."
+
+#: build/admin.js:84
+msgid "If it is lower, run:"
+msgstr "Pokud je nižší, spusťte:"
+
+#: build/admin.js:84
+msgid "Restart your AI client and paste the copied prompt again into your AI client."
+msgstr "Restartujte svého AI klienta a vložte zkopírovanou výzvu znovu do svého AI klienta."
+
+#: build/admin.js:84
+msgid "Enjoy your AI client connected to your WordPress site!"
+msgstr "Užijte si svého AI klienta připojeného k vašemu webu WordPress!"
+
+#: admin/rating-notice.php:156
+msgid "Invalid nonce."
+msgstr "Neplatný nonce."
+
+#: admin/rating-notice.php:158
+msgid "Unauthorized user."
+msgstr "Neautorizovaný uživatel."
+
+#: admin/rating-notice.php:171
+msgid "Invalid parameters."
+msgstr "Neplatné parametry."
+
+#: build/admin.js:47
+msgid "More scan limits, geographic targeting, re-consent widget, and more."
+msgstr "Více limitů skenování, geografické cílení, widget pro opětovné získání souhlasu a další."
+
+#: inc/integrations/presto-player/block-handler.php:293
+msgid "This audio is blocked until you accept cookies to load it."
+msgstr "Tento zvuk je blokován, dokud nepřijmete cookies pro jeho načtení."
+
+#: inc/integrations/presto-player/block-handler.php:297
+msgid "This video is blocked until you accept cookies to load it."
+msgstr "Toto video je blokováno, dokud nepřijmete cookies pro jeho načtení."
+
+#: build/admin.js:2
+msgid "Tools"
+msgstr "Nástroje"
+
+#: build/admin.js:2
+msgid "You've used all available AI requests in your Free Plan. Upgrade to SureCookie premium to keep using AI features."
+msgstr "Vyčerpali jste všechny dostupné AI požadavky ve vašem bezplatném plánu. Upgradujte na SureCookie premium, abyste mohli pokračovat v používání AI funkcí."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to access this feature."
+msgstr "Upgradujte na SureCookie premium, abyste získali přístup k této funkci."
+
+#: build/admin.js:2
+msgid "Is this button order not showing on the frontend?"
+msgstr "Nezobrazuje se toto pořadí tlačítek na frontendu?"
+
+#: build/admin.js:2
+msgid "Visitors who match a region-specific rule will see the button order defined for that region. This global order is shown only to visitors who don't match any regional rules."
+msgstr "Návštěvníci, kteří odpovídají regionálním pravidlům, uvidí pořadí tlačítek definované pro daný region. Toto globální pořadí se zobrazuje pouze návštěvníkům, kteří neodpovídají žádným regionálním pravidlům."
+
+#: build/admin.js:2
+msgid "Manage Geo Rules"
+msgstr "Spravovat Geo pravidla"
+
+#: build/admin.js:2
+msgid "You can add links and basic formatting like bold/italic/link to the banner message."
+msgstr "Do zprávy na banneru můžete přidat odkazy a základní formátování jako tučné/kurzíva/odkaz."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to pick custom primary, secondary, foreground, and background colors for your banner."
+msgstr "Upgradujte na SureCookie premium, abyste mohli vybrat vlastní primární, sekundární, popřední a pozadí barvy pro váš banner."
+
+#: build/admin.js:6
+msgid "Export Consent Logs"
+msgstr "Exportovat protokoly souhlasů"
+
+#: build/admin.js:6
+msgid "Upgrade to premium to download CSV report for legal audits and GDPR Article 7 documentation."
+msgstr "Upgradujte na premium, abyste mohli stáhnout CSV zprávu pro právní audity a dokumentaci GDPR článku 7."
+
+#: build/admin.js:44
+msgid "Grab the Launch Offer"
+msgstr "Využijte nabídku při spuštění"
+
+#: build/admin.js:47
+msgid "Do More with SureCookie Premium"
+msgstr "Dělejte více se SureCookie Premium"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Checking your scan limits…"
+msgstr "Kontrola vašich limitů skenování…"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Run your first scan to connect this site with SureCookie. Your plan's full scan limits unlock automatically once the connection is established."
+msgstr "Proveďte první sken, abyste připojili tento web k SureCookie. Plné limity skenování vašeho plánu se automaticky odemknou po navázání připojení."
+
+#. translators: %d: maximum pages
+#: build/admin.js:67
+#, js-format
+msgid "We'll visit the selected content to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "Navštívíme vybraný obsah, abychom zjistili všechny používané cookies. Kvůli omezením zdrojů je povoleno %d stránek na sken."
+
+#. translators: %d: maximum items
+#: build/admin.js:72
+#: build/onboarding.js:13
+#, js-format
+msgid "Select up to %d items to scan…"
+msgstr "Vyberte až %d položek ke skenování…"
+
+#: build/admin.js:72
+#: build/onboarding.js:13
+msgid "Select Content"
+msgstr "Vybrat obsah"
+
+#: build/admin.js:73
+#: build/onboarding.js:14
+msgid "Select the content you want to scan."
+msgstr "Vyberte obsah, který chcete skenovat."
+
+#: build/admin.js:74
+msgid "Scanning your content for cookies. This may take a few minutes."
+msgstr "Skenujeme váš obsah na cookies. Může to chvíli trvat."
+
+#: build/admin.js:75
+msgid "Unlock Geo Rules, Advanced Scanning & more with Pro - Grab the launching offer!"
+msgstr "Odemkněte Geo pravidla, pokročilé skenování a další s Pro - využijte nabídku při spuštění!"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Claim the Deal"
+msgstr "Uplatnit nabídku"
+
+#: build/admin.js:78
+msgid "Content from Manual Scan"
+msgstr "Obsah z manuálního skenu"
+
+#: build/admin.js:78
+msgid "Reuse the content selected on the Cookie Scanner."
+msgstr "Znovu použijte obsah vybraný v Cookie Scanneru."
+
+#: build/admin.js:78
+msgid "Scan all published content, as per plan limit."
+msgstr "Skenovat veškerý publikovaný obsah podle limitu plánu."
+
+#: build/admin.js:78
+msgid "Selected Content"
+msgstr "Vybraný obsah"
+
+#: build/admin.js:78
+msgid "Choose specific content to scan below."
+msgstr "Vyberte níže konkrétní obsah ke skenování."
+
+#: build/admin.js:78
+msgid "Content to Scan"
+msgstr "Obsah ke skenování"
+
+#: build/admin.js:78
+msgid "Select content to scan…"
+msgstr "Vyberte obsah ke skenování…"
+
+#: build/onboarding.js:6
+msgid "Launch Offer - Save Big"
+msgstr "Nabídka při spuštění - Ušetřete hodně"
+
+#: build/onboarding.js:6
+msgid "Limited Time"
+msgstr "Časově omezené"
+
+#: build/onboarding.js:6
+msgid "Upgrade to Premium and unlock advanced scanning, geo rules, custom branding, and priority support."
+msgstr "Upgradujte na Premium a odemkněte pokročilé skenování, geo pravidla, vlastní branding a prioritní podporu."
+
+#: build/onboarding.js:6
+msgid "Failed to activate license. Please try again."
+msgstr "Aktivace licence se nezdařila. Zkuste to prosím znovu."
+
+#: build/onboarding.js:6
+msgid "License Activated!"
+msgstr "Licence aktivována!"
+
+#: build/onboarding.js:6
+msgid "Your license has been successfully activated."
+msgstr "Vaše licence byla úspěšně aktivována."
+
+#: build/onboarding.js:6
+msgid "Activation Failed"
+msgstr "Aktivace selhala"
+
+#: build/onboarding.js:6
+msgid "An error occurred during activation. Please try again."
+msgstr "Při aktivaci došlo k chybě. Zkuste to prosím znovu."
+
+#: build/onboarding.js:6
+msgid "Invalid License Key"
+msgstr "Neplatný licenční klíč"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid license key."
+msgstr "Zadejte platný licenční klíč."
+
+#: build/onboarding.js:6
+msgid "Activate Your License"
+msgstr "Aktivujte svou licenci"
+
+#: build/onboarding.js:6
+msgid "Activate your SureCookie license to unlock higher scan limits, automatically classify cookies, and get smart compliance recommendations."
+msgstr "Aktivujte svou licenci SureCookie a odemkněte vyšší limity skenování, automaticky klasifikujte cookies a získejte chytrá doporučení pro soulad s předpisy."
+
+#: build/onboarding.js:6
+msgid "License activated"
+msgstr "Licence aktivována"
+
+#: build/onboarding.js:6
+msgid "Activating…"
+msgstr "Aktivace…"
+
+#: build/admin.js:63
+#: build/onboarding.js:6
+#: build/onboarding.js:7
+msgid "Activate License"
+msgstr "Aktivovat licenci"
+
+#: build/onboarding.js:6
+msgid "License Key"
+msgstr "Licenční klíč"
+
+#: build/onboarding.js:6
+msgid "Paste your license key here"
+msgstr "Vložte sem svůj licenční klíč"
+
+#. translators: %s: Package name (e.g., SureCookie Pro)
+#: build/onboarding.js:7
+#, js-format
+msgid "Activate your <strong>%s</strong> license to receive professional support and automatic updates directly from your WordPress dashboard. Don't have a license? <a>Get it here »</a>"
+msgstr "Aktivujte svou licenci <strong>%s</strong> a získejte profesionální podporu a automatické aktualizace přímo z vašeho WordPress panelu. Nemáte licenci? <a>Získejte ji zde »</a>"
+
+#: build/onboarding.js:7
+msgid "Purchase a SureCookie license"
+msgstr "Zakoupit licenci SureCookie"
+
+#: build/admin.js:2
+msgid "View Plans"
+msgstr "Zobrazit plány"
+
+#: build/admin.js:4
+msgid "CONSENT RECORD"
+msgstr "ZÁZNAM SOUHLASU"
+
+#: build/admin.js:4
+msgid "This document contains a record of the consent choice stored by SureCookie. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Tento dokument obsahuje záznam o volbě souhlasu uložené SureCookie. Může být použit pro interní dokumentaci a přezkum. Právní požadavky se mohou lišit."
+
+#: build/admin.js:4
+msgid "This document is automatically generated by the SureCookie plugin and contains a record of the consent choice stored at the time of export. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Tento dokument je automaticky generován pluginem SureCookie a obsahuje záznam o volbě souhlasu uložené v době exportu. Může být použit pro interní dokumentaci a přezkum. Právní požadavky se mohou lišit."
+
+#: build/admin.js:43
+msgid "Enter your custom CSS here"
+msgstr "Zadejte zde svůj vlastní CSS"
+
+#: build/admin.js:43
+msgid "Use !important to override inline styles"
+msgstr "Použijte !important pro přepsání inline stylů"
+
+#: build/admin.js:43
+msgid "Your cookie banner is enabled."
+msgstr "Váš banner cookies je povolen."
+
+#: build/admin.js:43
+msgid "Your cookie banner is currently disabled."
+msgstr "Váš banner cookies je momentálně zakázán."
+
+#: build/admin.js:2
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Activate SureCookie Pro"
+msgstr "Aktivovat SureCookie Pro"
+
+#. translators: %d: maximum pages
+#: build/admin.js:64
+#: build/onboarding.js:8
+#, js-format
+msgid "Your first scan can cover up to %d pages while we connect your site. Remove the extra pages to start - Your plan's full limits unlock automatically afterward."
+msgstr "Váš první sken může pokrýt až %d stránek, zatímco připojujeme váš web. Odstraňte přebytečné stránky pro start – plné limity vašeho plánu se automaticky odemknou později."
+
+#. translators: %d: maximum pages
+#: build/admin.js:66
+#: build/onboarding.js:10
+#, js-format
+msgid "The free plan supports scanning up to %d pages. Upgrade now to scan more pages and keep your cookie list updated automatically."
+msgstr "Bezplatný plán podporuje skenování až %d stránek. Upgradujte nyní, abyste mohli skenovat více stránek a automaticky udržovat seznam cookies aktuální."
+
+#. translators: %s: SureCookie plan tier, e.g. "Business"
+#: build/admin.js:76
+#, js-format
+msgid "%s version"
+msgstr "%s verze"
+
+#: build/onboarding.js:6
+msgid "Let's help you discover cookies, configure consent choices, and improve how your website handles visitor privacy. SureCookie automatically detects and categorizes cookies so you can stay focused on growing your business."
+msgstr "Pomůžeme vám objevit cookies, nastavit volby souhlasu a zlepšit, jak váš web zachází s ochranou soukromí návštěvníků. SureCookie automaticky detekuje a kategorizuje cookies, takže se můžete soustředit na rozvoj svého podnikání."
+
+#: build/onboarding.js:14
+msgid "Keep consent records locally on the site and export individual records when needed"
+msgstr "Ukládejte záznamy o souhlasu lokálně na webu a exportujte jednotlivé záznamy podle potřeby"
+
+#: admin/menu.php:78
+#: build/admin.js:2
+msgid "Tracking Manager"
+msgstr "Správce sledování"
+
+#: admin/product-promotion.php:116
+msgid "WordPress emails often go missing or land in spam because web hosts aren't built for reliable delivery. SureMail fixes this by connecting to trusted SMTP services, so your emails reach inboxes, no more lost messages or frustrated customers."
+msgstr "E-maily WordPressu často chybí nebo končí ve spamu, protože weboví hostitelé nejsou navrženi pro spolehlivé doručení. SureMail to řeší připojením k důvěryhodným SMTP službám, takže vaše e-maily dorazí do schránek, žádné ztracené zprávy ani frustrovaní zákazníci."
+
+#: admin/product-promotion.php:122
+msgid "Spectra Blocks is a complete rebuild of Spectra on WordPress's modern core-block APIs - an AI website builder built directly into the Block Editor."
+msgstr "Spectra Blocks je kompletní přestavba Spectry na moderních jádrových blokových API WordPressu – AI tvůrce webových stránek přímo integrovaný do Blokového editoru."
+
+#: inc/api/cookies.php:395
+msgid "Failed to update cookie categories: "
+msgstr "Nepodařilo se aktualizovat kategorie cookies:"
+
+#. translators: %s: Provider name (e.g., YouTube, Vimeo)
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:236
+#: inc/modules/script-blocking/blocker.php:1294
+#, php-format
+msgid "Accept and load %s content"
+msgstr "Přijmout a načíst obsah %s"
+
+#: inc/modules/assisted-scan/api.php:122
+msgid "An assisted scan is already running. Cancel it before starting another."
+msgstr "Asistované skenování již probíhá. Nejprve jej zrušte, než začnete další."
+
+#: inc/modules/assisted-scan/api.php:144
+#: inc/modules/assisted-scan/api.php:155
+msgid "Select at least one published page to scan."
+msgstr "Vyberte alespoň jednu publikovanou stránku ke skenování."
+
+#: inc/modules/assisted-scan/api.php:163
+msgid "Starting assisted scan (collected from your browser)."
+msgstr "Spouští se asistované skenování (shromážděno z vašeho prohlížeče)."
+
+#. translators: %d: number of pages.
+#: inc/modules/assisted-scan/api.php:167
+#, php-format
+msgid "Pages to visit: %d."
+msgstr "Stránky k návštěvě: %d."
+
+#: inc/modules/assisted-scan/api.php:197
+#: inc/modules/assisted-scan/api.php:253
+msgid "This scan session has expired. Start the scan again."
+msgstr "Tato relace skenování vypršela. Spusťte skenování znovu."
+
+#: inc/modules/assisted-scan/api.php:210
+msgid "The scan sent more data than a single page should produce."
+msgstr "Skenování odeslalo více dat, než by měla jedna stránka produkovat."
+
+#: inc/modules/assisted-scan/api.php:222
+msgid "That page is not the one this scan was waiting for."
+msgstr "Tato stránka není ta, na kterou toto skenování čekalo."
+
+#: inc/modules/assisted-scan/api.php:275
+#: inc/modules/assisted-scan/api.php:277
+msgid "Assisted scan cancelled."
+msgstr "Asistované skenování zrušeno."
+
+#. translators: 1: current page number, 2: total pages.
+#: inc/modules/assisted-scan/collector.php:322
+#, php-format
+msgid "SureCookie is scanning page %1$d of %2$d"
+msgstr "SureCookie skenuje stránku %1$d z %2$d"
+
+#: inc/modules/assisted-scan/collector.php:323
+msgid "Keep this tab in front so the scan can continue."
+msgstr "Udržujte tuto kartu v popředí, aby skenování mohlo pokračovat."
+
+#: inc/modules/assisted-scan/collector.php:324
+msgid "Paused. Bring this tab to the front to continue."
+msgstr "Pozastaveno. Přepněte tuto kartu do popředí pro pokračování."
+
+#: inc/modules/assisted-scan/collector.php:325
+msgid "Preparing a clean visit…"
+msgstr "Připravuje se čistá návštěva…"
+
+#. translators: 1: number of cookies, 2: number of services.
+#: inc/modules/assisted-scan/collector.php:327
+#, php-format
+msgid "Scan complete: %1$d cookies, %2$d services found"
+msgstr "Skenování dokončeno: nalezeno %1$d cookies, %2$d služeb"
+
+#: inc/modules/assisted-scan/collector.php:328
+msgid "The scan could not be completed. Return to SureCookie to try again."
+msgstr "Skenování se nepodařilo dokončit. Vraťte se do SureCookie a zkuste to znovu."
+
+#: inc/modules/assisted-scan/collector.php:330
+msgid "SureCookie assisted scan progress"
+msgstr "Průběh asistovaného skenování SureCookie"
+
+#. translators: 1: page number, 2: cookie count, 3: resource count.
+#: inc/modules/assisted-scan/ingest.php:119
+#, php-format
+msgid "Page %1$d collected: %2$d cookies, %3$d third-party resources."
+msgstr "Stránka %1$d shromážděna: %2$d cookies, %3$d zdrojů třetích stran."
+
+#. translators: 1: page number, 2: error reason.
+#: inc/modules/assisted-scan/ingest.php:129
+#, php-format
+msgid "Page %1$d could not be collected (%2$s)."
+msgstr "Stránku %1$d nebylo možné shromáždit (%2$s)."
+
+#. translators: 1: cookie count, 2: service count.
+#: inc/modules/assisted-scan/ingest.php:222
+#, php-format
+msgid "Assisted scan finished: %1$d cookies, %2$d known services."
+msgstr "Asistované skenování dokončeno: %1$d cookies, %2$d známých služeb."
+
+#. translators: %s: comma-separated service names.
+#: inc/modules/assisted-scan/ingest.php:232
+#, php-format
+msgid "A first-party check also found: %s. Your browser may have blocked these."
+msgstr "Kontrola první strany také našla: %s. Váš prohlížeč je možná zablokoval."
+
+#: inc/modules/assisted-scan/session.php:466
+msgid "Assisted scan in progress..."
+msgstr "Probíhá asistované skenování..."
+
+#: inc/modules/assisted-scan/session.php:576
+msgid "Assisted scan finished."
+msgstr "Asistované skenování dokončeno."
+
+#: inc/modules/services/api.php:142
+msgid "Unknown service."
+msgstr "Neznámá služba."
+
+#: inc/modules/services/api.php:153
+msgid "This is a Pro service. Upgrade to add it."
+msgstr "Toto je Pro služba. Pro její přidání upgradujte."
+
+#: inc/modules/site-scanner/cron.php:210
+msgid "Assisted scan cancelled by user."
+msgstr "Asistované skenování zrušeno uživatelem."
+
+#: inc/modules/site-scanner/saas-client.php:1653
+msgid "We could not verify your domain because your site's SSL certificate could not be validated (it may be self-signed, expired, or issued for a different domain). Install a valid certificate (for example Let's Encrypt), or scan your live domain that already has one, then retry."
+msgstr "Nemohli jsme ověřit vaši doménu, protože SSL certifikát vašeho webu nebyl ověřitelný (může být samopodepsaný, expirovaný nebo vydaný pro jinou doménu). Nainstalujte platný certifikát (například Let's Encrypt) nebo naskenujte svou živou doménu, která již certifikát má, a zkuste to znovu."
+
+#: inc/modules/site-scanner/saas-client.php:1655
+msgid "We could not verify your domain because your host is blocking our verification request to /wp-json/. This is common on SiteGround. Allowlist our scanner IPs/User-Agent (or ask your host to) and retry - or add your services manually in the meantime."
+msgstr "Nemohli jsme ověřit vaši doménu, protože váš hostitel blokuje naši ověřovací žádost na /wp-json/. To je běžné u SiteGround. Přidejte naše IP/User-Agent skeneru na whitelist (nebo požádejte hostitele) a zkuste to znovu – nebo mezitím přidejte své služby ručně."
+
+#: inc/modules/site-scanner/saas-client.php:1657
+msgid "We could not reach your site's REST API at /wp-json/. Enable pretty permalinks and make sure no security plugin is disabling the REST API, then retry."
+msgstr "Nemohli jsme se připojit k REST API vašeho webu na /wp-json/. Povolit pěkné trvalé odkazy a ujistěte se, že žádný bezpečnostní plugin neblokuje REST API, poté zkuste znovu."
+
+#: inc/services/cookie-category-service.php:247
+msgid "Cookies cannot be moved to the category being deleted."
+msgstr "Cookies nelze přesunout do kategorie, která je mazána."
+
+#: inc/services/cookie-category-service.php:254
+#: inc/services/cookie-service.php:440
+msgid "The selected category no longer exists. Please reload and try again."
+msgstr "Vybraná kategorie již neexistuje. Prosím, obnovte stránku a zkuste to znovu."
+
+#: inc/services/cookie-service.php:421
+msgid "No cookies selected."
+msgstr "Nebyla vybrána žádná cookies."
+
+#. translators: %d: maximum number of cookies per request.
+#: inc/services/cookie-service.php:430
+#, php-format
+msgid "Too many cookies in one request. Please select up to %d."
+msgstr "Příliš mnoho cookies v jednom požadavku. Vyberte prosím až %d."
+
+#. translators: %d: number of cookies updated.
+#: inc/services/cookie-service.php:547
+#, php-format
+msgid "%d cookie moved to the selected category."
+msgid_plural "%d cookies moved to the selected category."
+msgstr[0] "%d cookie bylo přesunuto do vybrané kategorie."
+msgstr[1] ""
+msgstr[2] ""
+
+#: inc/services/cookie-service.php:555
+msgid "No cookies could be updated."
+msgstr "Žádné cookies nemohly být aktualizovány."
+
+#: build/admin.js:2
+msgid "Scanning"
+msgstr "Skenování"
+
+#: build/admin.js:2
+#: build/admin.js:41
+msgid "Known Services"
+msgstr "Známé služby"
+
+#: build/admin.js:2
+#: build/admin.js:77
+msgid "Scripts and Embeds"
+msgstr "Skripty a vložené prvky"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Geographic Rules"
+msgstr "Geografická pravidla"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Consent Sharing"
+msgstr "Sdílení souhlasu"
+
+#: build/admin.js:2
+msgid "Add License"
+msgstr "Přidat licenci"
+
+#. translators: %s: cookie name.
+#: build/admin.js:22
+#: build/onboarding.js:2
+#, js-format
+msgid "Select %s"
+msgstr "Vyberte %s"
+
+#. translators: %s: cookie name.
+#: build/admin.js:23
+#: build/onboarding.js:3
+#, js-format
+msgid "Category for %s"
+msgstr "Kategorie pro %s"
+
+#: build/admin.js:23
+#: build/onboarding.js:3
+msgid "Select category"
+msgstr "Vyberte kategorii"
+
+#. translators: 1: action label, 2: cookie name.
+#: build/admin.js:24
+#: build/onboarding.js:4
+#, js-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %d: number of selected cookies.
+#: build/admin.js:25
+#, js-format
+msgid "%d selected"
+msgstr "%d vybráno"
+
+#: build/admin.js:25
+msgid "Bulk category"
+msgstr "Hromadná kategorie"
+
+#: build/admin.js:25
+msgid "Move to category…"
+msgstr "Přesunout do kategorie…"
+
+#: build/admin.js:25
+msgid "Applying…"
+msgstr "Probíhá aplikace…"
+
+#: build/admin.js:25
+msgid "Apply"
+msgstr "Použít"
+
+#: build/admin.js:25
+msgid "Clear selection"
+msgstr "Zrušit výběr"
+
+#: build/admin.js:25
+msgid "Select all cookies"
+msgstr "Vybrat všechny cookies"
+
+#: build/admin.js:28
+msgid "Assigned cookies will be moved to another category instead of being deleted."
+msgstr "Přiřazené cookies budou přesunuty do jiné kategorie místo smazání."
+
+#: build/admin.js:28
+msgid "Move Cookies To"
+msgstr "Přesunout cookies do"
+
+#: build/admin.js:28
+msgid "Search services…"
+msgstr "Hledat služby…"
+
+#: build/admin.js:28
+msgid "Search services"
+msgstr "Hledat služby"
+
+#: build/admin.js:28
+#: build/admin.js:37
+msgid "All Categories"
+msgstr "Všechny kategorie"
+
+#. translators: %d: number of cookies
+#: build/admin.js:29
+#, js-format
+msgid "%d cookie"
+msgid_plural "%d cookies"
+msgstr[0] "%d cookie"
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: %d: number of iframes
+#: build/admin.js:30
+#, js-format
+msgid "%d iframe"
+msgid_plural "%d iframes"
+msgstr[0] "%d iframe"
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: %d: number of scripts
+#: build/admin.js:31
+#, js-format
+msgid "%d script"
+msgid_plural "%d scripts"
+msgstr[0] "%d skript"
+msgstr[1] ""
+msgstr[2] ""
+
+#: build/admin.js:31
+msgid "Added"
+msgstr "Přidáno"
+
+#: build/admin.js:31
+msgid "Detected"
+msgstr "Detekováno"
+
+#: build/admin.js:31
+msgid "Remove"
+msgstr "Odstranit"
+
+#: build/admin.js:31
+msgid "Add Service"
+msgstr "Přidat službu"
+
+#: build/admin.js:31
+msgid "No services match your search."
+msgstr "Žádné služby neodpovídají vašemu hledání."
+
+#: build/admin.js:31
+msgid "Loads before consent"
+msgstr "Načítá se před souhlasem"
+
+#. translators: %s: service name (e.g. Stripe)
+#: build/admin.js:32
+#, js-format
+msgid "%s is a necessary service, so it loads before consent - its cookies can be set without consent."
+msgstr "%s je nezbytná služba, proto se načítá před souhlasem - její cookies mohou být nastaveny bez souhlasu."
+
+#: build/admin.js:32
+msgid "Blocked When \"Block Scripts until Consent\" Is On"
+msgstr "Blokováno, když je zapnuto „Blokovat skripty do souhlasu“"
+
+#. translators: %1$s: service name; %2$s: consent category name
+#: build/admin.js:33
+#, js-format
+msgid "When blocking is on, %1$s is blocked until visitors accept “%2$s”, so a scan never sees these cookies. Declaring them here keeps your cookie policy complete."
+msgstr "Když je blokování zapnuto, %1$s je blokováno, dokud návštěvníci nepřijmou „%2$s“, takže sken nikdy nevidí tyto cookies. Jejich deklarace zde udržuje vaši politiku cookies kompletní."
+
+#. translators: %d: number of cookies
+#: build/admin.js:34
+#, js-format
+msgid "%d cookie added to your cookie policy"
+msgid_plural "%d cookies added to your cookie policy"
+msgstr[0] "%d cookie přidána do vaší politiky cookies"
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: %d: number of iframes
+#: build/admin.js:35
+#, js-format
+msgid "%d embed blocked before consent"
+msgid_plural "%d embeds blocked before consent"
+msgstr[0] "%d vložený prvek blokován před souhlasem"
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: %d: number of scripts
+#: build/admin.js:36
+#, js-format
+msgid "%d script blocked before consent"
+msgid_plural "%d scripts blocked before consent"
+msgstr[0] "%d skript blokován před souhlasem"
+msgstr[1] ""
+msgstr[2] ""
+
+#: build/admin.js:36
+msgid "No categories available"
+msgstr "Žádné dostupné kategorie"
+
+#: build/admin.js:36
+msgid "Create a cookie category first - new cookies land in Uncategorized until then."
+msgstr "Nejprve vytvořte kategorii cookies - nové cookies budou do té doby zařazeny do nezařazených."
+
+#. translators: %d: number of days
+#: build/admin.js:37
+#, js-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d den"
+msgstr[1] ""
+msgstr[2] ""
+
+#: build/admin.js:37
+msgid "Session"
+msgstr "Relace"
+
+#: build/admin.js:37
+msgid "Failed to add service"
+msgstr "Nepodařilo se přidat službu"
+
+#: build/admin.js:37
+msgid "Failed to remove service"
+msgstr "Nepodařilo se odebrat službu"
+
+#: build/admin.js:37
+msgid "Service removed"
+msgstr "Služba odebrána"
+
+#. translators: %s: service name (e.g. YouTube)
+#: build/admin.js:38
+#, js-format
+msgid "Added %s"
+msgstr "Přidáno %s"
+
+#. translators: %d: number of cookies declared
+#: build/admin.js:39
+#, js-format
+msgid "%d cookie was added to your cookie policy."
+msgid_plural "%d cookies were added to your cookie policy."
+msgstr[0] "%d cookie byla přidána do vaší politiky cookies."
+msgstr[1] ""
+msgstr[2] ""
+
+#: build/admin.js:39
+msgid "This service is now managed. It stays blocked before consent."
+msgstr "Tato služba je nyní spravována. Před souhlasem zůstává blokována."
+
+#. translators: %s: service name
+#: build/admin.js:40
+#: build/admin.js:41
+#, js-format
+msgid "Add %s"
+msgstr "Přidat %s"
+
+#: build/admin.js:40
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Add from a Known Service"
+msgstr "Přidat ze známé služby"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Review what this adds to your cookie policy, then confirm."
+msgstr "Zkontrolujte, co toto přidává do vaší politiky cookies, a poté potvrďte."
+
+#: build/admin.js:40
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can't detect before consent - ensuring your cookie policy stays complete."
+msgstr "Rychle přidejte populární služby jako YouTube nebo Google Analytics jedním kliknutím. Ideální pro skripty, které skenery nemohou detekovat před souhlasem - zajišťuje, že vaše politika cookies zůstane kompletní."
+
+#: build/admin.js:40
+msgid "Could not load the services catalog. Please try again."
+msgstr "Nepodařilo se načíst katalog služeb. Zkuste to prosím znovu."
+
+#: build/admin.js:40
+msgid "This is a Pro service"
+msgstr "Toto je Pro služba"
+
+#: build/admin.js:40
+msgid "Upgrade to add this service and declare its cookies in one click."
+msgstr "Upgradujte, abyste mohli tuto službu přidat a deklarovat její cookies jedním kliknutím."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Unlock Every Tracking Service"
+msgstr "Odemkněte všechny sledovací služby"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Free covers the most common services. Upgrade to add any service in the catalog in one click."
+msgstr "Zdarma pokrývá nejběžnější služby. Upgradujte pro přidání jakékoli služby z katalogu jedním kliknutím."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Confirm Add"
+msgstr "Potvrdit přidání"
+
+#: build/admin.js:41
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can’t detect before consent - ensuring your cookie policy stays complete."
+msgstr "Rychle přidejte oblíbené služby jako YouTube nebo Google Analytics jedním kliknutím. Ideální pro skripty, které skenery nemohou před souhlasem detekovat – zajišťuje, že vaše politika cookies zůstane kompletní."
+
+#: build/admin.js:41
+msgid "Failed to load services"
+msgstr "Nepodařilo se načíst služby"
+
+#: build/admin.js:41
+msgid "An error occurred while loading services. Please refresh the page to try again."
+msgstr "Při načítání služeb došlo k chybě. Prosím obnovte stránku a zkuste to znovu."
+
+#: build/admin.js:41
+msgid "Installed Services"
+msgstr "Nainstalované služby"
+
+#: build/admin.js:41
+msgid "Available Services"
+msgstr "Dostupné služby"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Failed to update cookie categories"
+msgstr "Nepodařilo se aktualizovat kategorie cookies"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Cookie categories updated"
+msgstr "Kategorie cookies aktualizovány"
+
+#. translators: %d: number of cookies that could not be updated.
+#: build/admin.js:42
+#, js-format
+msgid "%d cookie(s) could not be updated. Reload and try again."
+msgstr "%d cookie(ů) se nepodařilo aktualizovat. Obnovte a zkuste to znovu."
+
+#: build/admin.js:42
+msgid "Change Cookie Categories Carefully"
+msgstr "Pečlivě měňte kategorie cookies"
+
+#: build/admin.js:42
+msgid "A cookie's category determines how it behaves when users decline consent. Cookies marked as Essential always remain active. Moving a cookie out of Essential may cause it to be blocked or deleted, which can break features like login or checkout. Similarly, assigning tracking cookies to Essential may conflict with privacy regulations. Your choice is remembered, so a later scan will not move the cookie back."
+msgstr "Kategorie cookie určuje, jak se chová, když uživatelé odmítnou souhlas. Cookies označené jako Nezbytné zůstávají vždy aktivní. Přesunutí cookie mimo Nezbytné může způsobit její zablokování nebo smazání, což může narušit funkce jako přihlášení nebo dokončení nákupu. Podobně přiřazení sledovacích cookies k Nezbytným může být v rozporu s předpisy o ochraně soukromí. Vaše volba je zapamatována, takže pozdější sken cookie zpět nepřesune."
+
+#. translators: %s: service name (e.g. Google Analytics)
+#: build/admin.js:43
+#, js-format
+msgid "Looks like %s"
+msgstr "Zdá se, že %s"
+
+#: build/admin.js:43
+msgid "We spotted cookies from this service. Add it to declare its cookies in one step."
+msgstr "Zaznamenali jsme cookies z této služby. Přidejte ji pro deklaraci jejích cookies jedním krokem."
+
+#: build/admin.js:43
+#: build/admin.js:76
+msgid "Add as Service"
+msgstr "Přidat jako službu"
+
+#: build/admin.js:43
+msgid "Dismiss"
+msgstr "Zavřít"
+
+#: build/admin.js:50
+msgid "Welcome to SureCookie!"
+msgstr "Vítejte v SureCookie!"
+
+#: build/admin.js:50
+msgid "Get your site compliant in minutes - show a cookie banner, block trackers before consent, and automatically detect cookies used on your site."
+msgstr "Zajistěte soulad vašeho webu během několika minut – zobrazte banner cookies, blokujte sledovače před souhlasem a automaticky detekujte cookies používané na vašem webu."
+
+#: build/admin.js:50
+msgid "Set Up Cookie Banner"
+msgstr "Nastavit banner cookies"
+
+#: build/admin.js:50
+msgid "Scan My Site"
+msgstr "Prohledat můj web"
+
+#: build/admin.js:50
+msgid "Start with the banner, then scan your site to detect cookies."
+msgstr "Začněte bannerem, poté prohledejte svůj web pro detekci cookies."
+
+#: build/admin.js:50
+msgid "SureForms Video Thumbnail"
+msgstr "SureForms náhled videa"
+
+#: build/admin.js:50
+msgid "SureForms: Custom WordPress Forms MADE SIMPLE"
+msgstr "SureForms: Vlastní WordPress formuláře JEDNODUŠE"
+
+#: build/admin.js:59
+msgid "Possible causes: Scan server under heavy load, your site is unreachable from our scanner, your site has CRON issues, or a page caused a browser timeout."
+msgstr "Možné příčiny: server pro skenování je pod velkým zatížením, váš web není z našeho skeneru dostupný, váš web má problémy s CRON nebo stránka způsobila časový limit prohlížeče."
+
+#: build/admin.js:59
+msgid "Some pages could not be analyzed"
+msgstr "Některé stránky nebylo možné analyzovat"
+
+#. translators: 1: scanned pages, 2: total pages, 3: failed pages
+#: build/admin.js:60
+#, js-format
+msgid "Scanned %1$d of %2$d pages - %3$d could not be analyzed. The cookies we did find are saved, and results add up across scans, so you can re-run the scan to pick up the rest."
+msgstr "Prohledáno %1$d z %2$d stránek – %3$d nebylo možné analyzovat. Nalezené cookies jsou uloženy a výsledky se sčítají napříč skeny, takže můžete sken znovu spustit a zachytit zbytek."
+
+#: build/admin.js:60
+msgid "Once the scan is complete, the cookies it found appear under <a>Cookies</a>, and the scripts and embeds under <b>Scripts and Embeds</b>."
+msgstr "Po dokončení skenu se nalezené cookies zobrazí pod <a>Cookies</a> a skripty a vložené prvky pod <b>Skripty a vložené prvky</b>."
+
+#: build/admin.js:60
+msgid "Keep the scan tab in front until it finishes: browsers slow down background tabs."
+msgstr "Udržujte kartu skenu v popředí, dokud neskončí: prohlížeče zpomalují pozadí."
+
+#: build/admin.js:60
+msgid "Pages already collected are saved, so closing the tab early keeps what it found."
+msgstr "Už nasbírané stránky jsou uloženy, takže zavření karty dříve zachová nalezené výsledky."
+
+#: build/admin.js:60
+msgid "An ad blocker or privacy extension in this browser can hide trackers from the scan."
+msgstr "Blokátor reklam nebo rozšíření pro ochranu soukromí v tomto prohlížeči může skrýt sledovače před skenem."
+
+#: build/admin.js:60
+msgid "If remote scanning fails, try Assisted Scanner method: <button></button>"
+msgstr "Pokud vzdálené skenování selže, zkuste metodu asistovaného skeneru: <button></button>"
+
+#: build/admin.js:60
+msgid "Switch to Default Scanner"
+msgstr "Přepnout na výchozí skener"
+
+#: build/admin.js:60
+msgid "Switch to Assisted Scanner"
+msgstr "Přepnout na asistovaný skener"
+
+#: build/admin.js:60
+msgid "Scan From This Browser"
+msgstr "Skenovat z tohoto prohlížeče"
+
+#: build/admin.js:60
+msgid "Your host blocked the scanner"
+msgstr "Váš hostitel zablokoval skener"
+
+#: build/admin.js:60
+msgid "Your site's firewall or bot protection served our scanner a security challenge instead of your page, so the scan completed without results. This does not affect your visitors, only automated scanners. Allowlist the SureCookie scanner (or ask your host to) and run the scan again."
+msgstr "Firewall nebo ochrana proti botům vašeho webu místo vaší stránky poslali našemu skeneru bezpečnostní výzvu, takže skenování bylo dokončeno bez výsledků. Toto neovlivňuje vaše návštěvníky, pouze automatizované skenery. Přidejte skener SureCookie na seznam povolených (nebo požádejte svého hostitele) a spusťte sken znovu."
+
+#: build/admin.js:60
+msgid "Services we still detected on your site (via a first-party check):"
+msgstr "Služby, které jsme na vašem webu stále detekovali (pomocí kontroly první strany):"
+
+#: build/admin.js:60
+msgid "How to allowlist the scanner"
+msgstr "Jak přidat skener na seznam povolených"
+
+#: build/admin.js:60
+msgid "No cookies found in this browser scan"
+msgstr "V tomto skenu prohlížeče nebyly nalezeny žádné cookies"
+
+#: build/admin.js:60
+msgid "We found services on your pages that your browser did not load, which usually means an ad blocker or privacy extension is active. Try again in a browser with extensions disabled, or add the cookies manually."
+msgstr "Našli jsme služby na vašich stránkách, které váš prohlížeč nenačetl, což obvykle znamená, že je aktivní blokátor reklam nebo rozšíření pro ochranu soukromí. Zkuste to znovu v prohlížeči s vypnutými rozšířeními nebo přidejte cookies ručně."
+
+#: build/admin.js:60
+msgid "The scan visited your pages but no cookies were set. Some services only set cookies after a visitor accepts the banner, so they may not appear. You can also add cookies manually."
+msgstr "Sken navštívil vaše stránky, ale žádné cookies nebyly nastaveny. Některé služby nastavují cookies až po přijetí banneru návštěvníkem, takže se nemusí objevit. Cookies můžete také přidat ručně."
+
+#: build/admin.js:60
+msgid "No cookies found in this scan"
+msgstr "V tomto skenu nebyly nalezeny žádné cookies"
+
+#: build/admin.js:60
+msgid "The scanner reached your site but did not detect any cookies. Some services only set cookies after a visitor accepts the banner, so they may not appear in a scan. You can also add cookies manually."
+msgstr "Skener dosáhl vašeho webu, ale nezjistil žádné cookies. Některé služby nastavují cookies až po přijetí banneru návštěvníkem, takže se nemusí objevit ve skenu. Cookies můžete také přidat ručně."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser (Best for this site)"
+msgstr "Sken z vašeho prohlížeče (nejlepší pro tento web)"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser"
+msgstr "Sken z vašeho prohlížeče"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Our scanner couldn't fully access your site due to server restrictions. This method runs the scan directly in your browser, ensuring accurate detection without being blocked."
+msgstr "Náš skener nemohl plně přistoupit na váš web kvůli omezením serveru. Tato metoda spouští sken přímo ve vašem prohlížeči, což zajišťuje přesnou detekci bez blokování."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Run the scan directly in your browser. This helps detect cookies, scripts, and embeds even when external scanners are blocked."
+msgstr "Spusťte sken přímo ve vašem prohlížeči. Pomáhá to detekovat cookies, skripty a vložené prvky i když jsou externí skenery blokovány."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Detects cookies, scripts, and embeds as your visitors would see them."
+msgstr "Detekuje cookies, skripty a vložené prvky tak, jak je vidí vaši návštěvníci."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Works even when hosting or firewall blocks external scans."
+msgstr "Funguje i když hosting nebo firewall blokuje externí skeny."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Results appear automatically in your Tracking Manager."
+msgstr "Výsledky se automaticky zobrazí ve vašem Správci sledování."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Some advanced detections may still require a remote scan when available."
+msgstr "Některé pokročilé detekce mohou stále vyžadovat vzdálený sken, pokud je dostupný."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "How this works"
+msgstr "Jak to funguje"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Before You Start"
+msgstr "Než začnete"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "To measure cookie duration accurately, this scan temporarily clears cookies for your site in this browser (including your consent choice). Your WordPress login session is preserved, so you'll remain signed in."
+msgstr "Pro přesné měření doby trvání cookie tento sken dočasně vymaže cookies pro váš web v tomto prohlížeči (včetně vašeho souhlasu). Vaše přihlášení do WordPressu zůstane zachováno, takže zůstanete přihlášeni."
+
+#. translators: %d: maximum pages
+#: build/admin.js:62
+#: build/onboarding.js:6
+#, js-format
+msgid "An assisted scan visits up to %d pages. Remove some pages to continue."
+msgstr "Asistované skenování navštíví až %d stránek. Odeberte některé stránky pro pokračování."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Scanning in your browser…"
+msgstr "Skenování ve vašem prohlížeči…"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Start Browser Scan"
+msgstr "Spustit skenování v prohlížeči"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "A new tab opens to scan your selected pages - keep it active until it finishes."
+msgstr "Otevře se nová karta pro skenování vybraných stránek – nechte ji aktivní, dokud se nedokončí."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Switch Back"
+msgstr "Přepnout zpět"
+
+#: build/admin.js:62
+msgid "This page did not load the scanner, so it was skipped. A redirect or a login requirement usually causes this."
+msgstr "Tato stránka nenačetla skener, proto byla přeskočena. Obvykle to způsobuje přesměrování nebo požadavek na přihlášení."
+
+#: build/admin.js:62
+msgid "This page took too long to respond."
+msgstr "Tato stránka reagovala příliš pomalu."
+
+#: build/admin.js:62
+msgid "Skipped because the scan was cancelled."
+msgstr "Přeskočeno, protože bylo skenování zrušeno."
+
+#: build/admin.js:62
+msgid "This page could not be collected."
+msgstr "Tuto stránku nebylo možné shromáždit."
+
+#: build/admin.js:62
+msgid "Pages In This Scan"
+msgstr "Stránky v tomto skenování"
+
+#. translators: 1: cookie count, 2: script count
+#: build/admin.js:63
+#, js-format
+msgid "%1$d cookies, %2$d scripts"
+msgstr "%1$d cookies, %2$d skriptů"
+
+#: build/admin.js:63
+msgid "Collecting…"
+msgstr "Shromažďování…"
+
+#: build/admin.js:63
+msgid "Waiting"
+msgstr "Čekání"
+
+#: build/admin.js:63
+msgid "Re-scan"
+msgstr "Znovu skenovat"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Could not start the assisted scan."
+msgstr "Nepodařilo se spustit asistované skenování."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Could not start the assisted scan"
+msgstr "Nepodařilo se spustit asistované skenování"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Please try again in a moment."
+msgstr "Zkuste to prosím za chvíli znovu."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Your browser blocked the scan window"
+msgstr "Váš prohlížeč zablokoval okno skenování"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Allow pop-ups for this site, then start the scan again."
+msgstr "Povolte vyskakovací okna pro tuto stránku a spusťte skenování znovu."
+
+#: build/admin.js:63
+msgid "View Scan Logs"
+msgstr "Zobrazit protokoly skenování"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Scan your website to find cookies, scripts, and trackers that require consent."
+msgstr "Prohledejte své webové stránky, abyste našli cookies, skripty a sledovače vyžadující souhlas."
+
+#: build/admin.js:74
+msgid "This is taking a little longer than usual"
+msgstr "Toto trvá o něco déle než obvykle"
+
+#: build/admin.js:74
+msgid "A page is taking a while to respond, but your scan is still running in the background. Any cookies already found have been saved. You can leave this page and come back - or cancel and try again with fewer pages."
+msgstr "Stránka chvíli nereaguje, ale skenování stále běží na pozadí. Jakékoliv nalezené cookies byly uloženy. Můžete stránku opustit a vrátit se – nebo zrušit a zkusit znovu s méně stránkami."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Queued for Later"
+msgstr "Skenování zařazeno do fronty na později"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Today's page budget is used up, so the remaining pages will scan automatically once it resets. Any cookies already found are saved. To scan sooner, run it again with fewer pages."
+msgstr "Dnešní limit stránek je vyčerpán, zbývající stránky se naskenují automaticky po resetu. Jakékoliv nalezené cookies jsou uloženy. Pro rychlejší skenování spusťte znovu s méně stránkami."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Couldn't Be Completed"
+msgstr "Skenování nemohlo být dokončeno"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "A page may have taken too long to respond. Any cookies already found have been saved, and results add up across scans - nothing is lost. Please try again, scanning fewer pages at a time for a more reliable run."
+msgstr "Stránka mohla reagovat příliš pomalu. Jakékoliv nalezené cookies byly uloženy a výsledky se sčítají napříč skenováními – nic nezmizí. Zkuste to prosím znovu, skenujte méně stránek najednou pro spolehlivější běh."
+
+#: build/admin.js:76
+msgid "iFrame"
+msgstr "iFrame"
+
+#: build/admin.js:76
+msgid "Head"
+msgstr "Hlavička"
+
+#: build/admin.js:76
+msgid "Body"
+msgstr "Tělo"
+
+#: build/admin.js:76
+msgid "Footer"
+msgstr "Patička"
+
+#: build/admin.js:76
+msgid "Anywhere (fallback)"
+msgstr "Kdekoli (náhradní řešení)"
+
+#: build/admin.js:76
+msgid "This resource is whitelisted, so it always loads - even before consent."
+msgstr "Tento zdroj je na bílé listině, takže se vždy načte – i před udělením souhlasu."
+
+#: build/admin.js:76
+msgid "This script is managed by Google Consent Mode and always loads while GCM is enabled."
+msgstr "Tento skript je spravován Google Consent Mode a vždy se načítá, když je GCM povolen."
+
+#: build/admin.js:76
+msgid "This resource matches a whitelist rule (custom entry or common service), so it always loads."
+msgstr "Tento zdroj odpovídá pravidlu bílé listiny (vlastní položka nebo běžná služba), takže se vždy načte."
+
+#: build/admin.js:76
+msgid "Script & Iframe"
+msgstr "Skript a iFrame"
+
+#: build/admin.js:76
+msgid "Blocked until consent"
+msgstr "Blokováno do udělení souhlasu"
+
+#: build/admin.js:76
+msgid "Not blocked"
+msgstr "Není blokováno"
+
+#: build/admin.js:76
+msgid "Whitelisted"
+msgstr "Na bílé listině"
+
+#: build/admin.js:76
+msgid "Managed by GCM"
+msgstr "Spravováno GCM"
+
+#: build/admin.js:76
+msgid "Source"
+msgstr "Zdroj"
+
+#: build/admin.js:76
+msgid "Managed via Known Services - its cookies are declared in your cookie policy."
+msgstr "Spravováno přes známé služby – jeho cookies jsou deklarovány ve vaší cookie politice."
+
+#: build/admin.js:76
+msgid "Recognized Known Services catalog entry - Click \"Add as Service\" to declare its cookies."
+msgstr "Rozpoznaná položka katalogu známých služeb – klikněte na „Přidat jako službu“ pro deklaraci jeho cookies."
+
+#: build/admin.js:76
+msgid "Managed Service"
+msgstr "Spravovaná služba"
+
+#: build/admin.js:76
+msgid "Known Service"
+msgstr "Známá služba"
+
+#: build/admin.js:76
+msgid "Always Allowed"
+msgstr "Vždy povoleno"
+
+#: build/admin.js:76
+msgid "Category for"
+msgstr "Kategorie pro"
+
+#: build/admin.js:76
+msgid "Block until consent (recommended)"
+msgstr "Blokovat do souhlasu (doporučeno)"
+
+#: build/admin.js:76
+msgid "Always allowed"
+msgstr "vždy povoleno"
+
+#: build/admin.js:76
+msgid "Do not block (always load)"
+msgstr "Neblokovat (vždy načíst)"
+
+#: build/admin.js:76
+msgid "Edit Resource"
+msgstr "Upravit zdroj"
+
+#: build/admin.js:76
+msgid "Add Script or Embed"
+msgstr "Přidat skript nebo vložení"
+
+#: build/admin.js:76
+msgid "Update"
+msgstr "Aktualizovat"
+
+#: build/admin.js:76
+msgid "Behavior"
+msgstr "Chování"
+
+#: build/admin.js:76
+msgid "Whitelisted Resource Warning"
+msgstr "Varování o zdroji na bílé listině"
+
+#: build/admin.js:76
+msgid "If a resource sets cookies, allowing it directly can be a GDPR violation - only whitelist resources you are sure about."
+msgstr "Pokud zdroj nastavuje cookies, jeho přímé povolení může být porušením GDPR – na bílou listinu zařazujte pouze zdroje, o kterých si jste jisti."
+
+#: build/admin.js:76
+msgid "Detected by the scanner, so the value cannot be edited."
+msgstr "Detekováno skenerem, hodnota nemůže být upravena."
+
+#: build/admin.js:76
+msgid "e.g. Support chat"
+msgstr "např. Podpora chatu"
+
+#: build/admin.js:76
+msgid "Domain / Host"
+msgstr "Doména / Hostitel"
+
+#: build/admin.js:76
+msgid "e.g. connect.facebook.net"
+msgstr "např. connect.facebook.net"
+
+#: build/admin.js:76
+msgid "The host the resource loads from. Pasting a full tag or URL also works."
+msgstr "Hostitel, ze kterého se zdroj načítá. Funguje také vložení celého tagu nebo URL."
+
+#: build/admin.js:76
+msgid "Path / Pattern (advanced)"
+msgstr "Cesta / Vzor (pokročilé)"
+
+#: build/admin.js:76
+msgid "e.g. /fbevents.js"
+msgstr "např. /fbevents.js"
+
+#: build/admin.js:76
+msgid "Optional: narrow the rule to resources that also contain this path, so only one file on the host is blocked."
+msgstr "Volitelné: zúžit pravidlo na zdroje, které také obsahují tuto cestu, takže bude blokován pouze jeden soubor na hostiteli."
+
+#: build/admin.js:76
+msgid "Script Keywords"
+msgstr "Klíčová slova skriptu"
+
+#: build/admin.js:76
+msgid "e.g. fbq, fbq.push"
+msgstr "např. fbq, fbq.push"
+
+#: build/admin.js:76
+msgid "JavaScript function names to block that depend on the main script (comma separated)."
+msgstr "Názvy JavaScriptových funkcí k blokování, které závisí na hlavním skriptu (oddělené čárkou)."
+
+#: build/admin.js:76
+msgid "Script Location"
+msgstr "Umístění skriptu"
+
+#: build/admin.js:76
+msgid "Anywhere"
+msgstr "Kdekoli"
+
+#: build/admin.js:76
+msgid "Where the script loads on the page. SureCookie only looks for it in this section."
+msgstr "Kde se skript načítá na stránce. SureCookie ho hledá pouze v této části."
+
+#: build/admin.js:76
+msgid "This resource stays blocked until the visitor consents to this category."
+msgstr "Tento zdroj zůstává zablokován, dokud návštěvník neudělí souhlas s touto kategorií."
+
+#: build/admin.js:76
+msgid "Unlock Whitelisting"
+msgstr "Odemknout zařazení na bílou listinu"
+
+#: build/admin.js:76
+msgid "Whitelist your own scripts and common services so essential integrations keep working before consent."
+msgstr "Zařaďte své vlastní skripty a běžné služby na bílou listinu, aby základní integrace fungovaly ještě před udělením souhlasu."
+
+#. translators: %d: number of GCM-managed services.
+#: build/admin.js:77
+#, js-format
+msgid "Managed by Google Consent Mode (%d)"
+msgstr "Spravováno režimem souhlasu Google (%d)"
+
+#: build/admin.js:77
+msgid "View services"
+msgstr "Zobrazit služby"
+
+#: build/admin.js:77
+msgid "Managed by Google Consent Mode"
+msgstr "Spravováno režimem souhlasu Google"
+
+#: build/admin.js:77
+msgid "Auto-whitelisted"
+msgstr "Automaticky na bílé listině"
+
+#: build/admin.js:77
+msgid "Enter the script domain or host."
+msgstr "Zadejte doménu nebo hostitele skriptu."
+
+#: build/admin.js:77
+msgid "Select a category."
+msgstr "Vyberte kategorii."
+
+#: build/admin.js:77
+msgid "A rule for this script already exists."
+msgstr "Pravidlo pro tento skript již existuje."
+
+#: build/admin.js:77
+msgid "Control how scripts and embeds load based on user consent - block them until allowed or mark essential ones to always run."
+msgstr "Řiďte načítání skriptů a vložení na základě souhlasu uživatele – blokujte je do povolení nebo označte základní, aby vždy běžely."
+
+#: build/admin.js:77
+msgid "Behavior: Always Allowed"
+msgstr "Chování: Vždy povoleno"
+
+#: build/admin.js:77
+msgid "Choose scripts and domains that should never be blocked, so tools like reCAPTCHA and other essential integrations keep working. Google Consent Mode scripts are whitelisted automatically when it is enabled."
+msgstr "Vyberte skripty a domény, které by nikdy neměly být blokovány, aby nástroje jako reCAPTCHA a další základní integrace fungovaly. Skripty režimu souhlasu Google jsou automaticky zařazeny na bílou listinu, když je režim povolen."
+
+#: build/admin.js:77
+msgid "Block Scripts and Embeds Until Consent Switch"
+msgstr "Přepínač blokování skriptů a vložení do souhlasu"
+
+#: build/admin.js:77
+msgid "Block Scripts Until Consent"
+msgstr "Blokovat skripty do souhlasu"
+
+#: build/admin.js:77
+msgid "Prevent non-essential scripts and embeds from loading until users give consent."
+msgstr "Zabraňte načítání nezákladních skriptů a vložení, dokud uživatelé nedají souhlas."
+
+#: build/admin.js:77
+msgid "Detected and Managed Resources"
+msgstr "Detekované a spravované zdroje"
+
+#. translators: 1: scanner-detected count, 2: custom rule count
+#: build/admin.js:78
+#, js-format
+msgid "%1$d detected by scanner, %2$d custom"
+msgstr "%1$d detekováno skenerem, %2$d vlastní"
+
+#: build/admin.js:78
+msgid "New Resource"
+msgstr "Nový zdroj"
+
+#: build/admin.js:78
+msgid "All your scripts will be displayed here"
+msgstr "Všechny vaše skripty budou zde zobrazeny"
+
+#: build/admin.js:78
+msgid "Run a scan to detect third-party resources, or add a script manually."
+msgstr "Proveďte skenování pro detekci zdrojů třetích stran nebo přidejte skript ručně."
+
+#: build/admin.js:78
+msgid "Add New Resource"
+msgstr "Přidat nový zdroj"
+
+#: build/admin.js:78
+msgid "Unlock Custom Script Rules & Whitelisting"
+msgstr "Odemknout vlastní pravidla skriptů a bílou listinu"
+
+#: build/admin.js:78
+msgid "Add your own scripts to block under any category, whitelist trusted scripts, and manage it all from one place."
+msgstr "Přidejte své vlastní skripty k blokování v jakékoli kategorii, přidejte do bílé listiny důvěryhodné skripty a spravujte vše na jednom místě."
+
+#: build/admin.js:78
+msgid "Generate your cookie policy automatically from your settings, or display it anywhere using a shortcode."
+msgstr "Automaticky vygenerujte svou politiku cookies ze svých nastavení nebo ji zobrazte kdekoli pomocí shortcode."
+
+#: build/admin.js:78
+msgid "Automatically re-scan your site and get notified when new cookies or trackers appear."
+msgstr "Automaticky znovu prohledejte svůj web a dostávejte upozornění, když se objeví nové cookies nebo trackery."
+
+#: build/admin.js:84
+msgid "Show your cookie banner only in regions where consent is required."
+msgstr "Zobrazujte banner cookies pouze v regionech, kde je vyžadován souhlas."
+
+#: build/admin.js:84
+msgid "Share visitor consent across your sites so users don’t need to give consent again."
+msgstr "Sdílejte souhlas návštěvníků napříč svými weby, aby uživatelé nemuseli souhlas znovu udělovat."
+
+#: build/admin.js:84
+msgid "Unlock Consent Sharing"
+msgstr "Odemknout sdílení souhlasu"
+
+#: build/admin.js:77
+msgid "Allowed to load while Google Consent Mode is active, instead of being blocked before consent."
+msgstr "Povoleno načítání během aktivního režimu souhlasu Google, místo blokování před udělením souhlasu."
+
+#: build/admin.js:77
+msgid "These Google services are allowed to load while Google Consent Mode is active, instead of being blocked before consent. For Google tag products, Consent Mode then controls what they may store and which identifiers they may use. It does not stop them from contacting Google. They cannot be removed here."
+msgstr "Tyto služby Google mohou být načítány během aktivního režimu souhlasu Google, místo aby byly blokovány před udělením souhlasu. U produktů Google tag režim souhlasu pak řídí, co mohou ukládat a jaké identifikátory mohou používat. Nezabraňuje jim to v kontaktování Google. Nelze je zde odstranit."

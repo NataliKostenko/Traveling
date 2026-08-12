@@ -1,0 +1,5519 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SureCookie 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surecookie\n"
+"Last-Translator: gpt-po v1.3.0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-02-16T18:20:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: surecookie\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: surecookie.php
+#: inc/integrations/wp-consent-api/actions.php:66
+#: inc/integrations/wp-consent-api/actions.php:74
+msgid "SureCookie"
+msgstr "SureCookie"
+
+#. Plugin URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com"
+msgstr "https://surecookie.com"
+
+#. Author URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com/"
+msgstr "https://surecookie.com/"
+
+#: admin/onboarding.php:75
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai i permessi sufficienti per accedere a questa pagina."
+
+#: admin/menu.php:87
+#: admin/menu.php:274
+#: build/admin.js:2
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: admin/product-promotion.php:110
+msgid "A simple yet powerful way to create modern forms for your website."
+msgstr "Un modo semplice ma potente per creare moduli moderni per il tuo sito."
+
+#: inc/api/consent-logs.php:448
+msgid "Consent logs retrieved successfully."
+msgstr "Registrazione del consenso recuperata con successo."
+
+#: inc/api/consent-logs.php:490
+msgid "Consent processed successfully (logging disabled)"
+msgstr "Consenso elaborato con successo (registrazione disabilitata)"
+
+#: inc/api/consent-logs.php:535
+msgid "Preferences should not be empty."
+msgstr "Le preferenze non devono essere vuote."
+
+#: inc/api/consent-logs.php:641
+msgid "Consent saved successfully."
+msgstr "Consenso salvato con successo."
+
+#: inc/api/consent-logs.php:651
+msgid "Failed to save consent."
+msgstr "Impossibile salvare il consenso."
+
+#: inc/api/consent-logs.php:669
+#: inc/api/consent-logs.php:801
+msgid "Invalid log ID"
+msgstr "ID del log non valido"
+
+#: inc/api/consent-logs.php:681
+msgid "Log not found."
+msgstr "Log non trovato."
+
+#: inc/api/consent-logs.php:717
+#: inc/api/consent-logs.php:744
+msgid "Log details retrieved successfully."
+msgstr "Dettagli del log recuperati con successo."
+
+#: inc/api/consent-logs.php:766
+msgid "Invalid log IDs"
+msgstr "ID del log non validi"
+
+#. translators: %d: number of logs deleted
+#: inc/api/consent-logs.php:787
+#, php-format
+msgid "%d log(s) deleted successfully."
+msgstr "%d log(i) eliminato(i) con successo."
+
+#: inc/api/consent-logs.php:777
+#: inc/api/consent-logs.php:872
+msgid "Failed to delete logs."
+msgstr "Impossibile eliminare i log."
+
+#: inc/api/consent-logs.php:812
+msgid "Log deleted successfully."
+msgstr "Log eliminato con successo."
+
+#: inc/api/consent-logs.php:821
+msgid "Failed to delete log."
+msgstr "Impossibile eliminare il log."
+
+#: inc/api/consent-logs.php:863
+msgid "All logs deleted successfully."
+msgstr "Tutti i log eliminati con successo."
+
+#: inc/services/cookie-category-service.php:54
+msgid "Cookie categories retrieved successfully."
+msgstr "Categorie di cookie recuperate con successo."
+
+#: inc/services/cookie-category-service.php:75
+msgid "Category name is required."
+msgstr "Il nome della categoria è obbligatorio."
+
+#: inc/services/cookie-category-service.php:86
+msgid "A category with this name already exists."
+msgstr "Esiste già una categoria con questo nome."
+
+#: inc/services/cookie-category-service.php:103
+msgid "Category created successfully."
+msgstr "Categoria creata con successo."
+
+#: inc/api/cookie-categories.php:181
+msgid "Failed to create category: "
+msgstr "Impossibile creare la categoria:"
+
+#: inc/services/cookie-category-service.php:124
+#: inc/services/cookie-category-service.php:196
+msgid "Category ID is required."
+msgstr "L'ID della categoria è obbligatorio."
+
+#: inc/services/cookie-category-service.php:134
+#: inc/services/cookie-category-service.php:215
+msgid "Category not found."
+msgstr "Categoria non trovata."
+
+#: inc/services/cookie-category-service.php:166
+msgid "Category updated successfully."
+msgstr "Categoria aggiornata con successo."
+
+#: inc/api/cookie-categories.php:204
+msgid "Failed to update category: "
+msgstr "Impossibile aggiornare la categoria:"
+
+#: inc/services/cookie-category-service.php:205
+msgid "Default categories cannot be deleted."
+msgstr "Le categorie predefinite non possono essere eliminate."
+
+#: inc/services/cookie-category-service.php:307
+msgid "Category deleted successfully."
+msgstr "Categoria eliminata con successo."
+
+#: inc/api/cookie-categories.php:230
+msgid "Failed to delete category: "
+msgstr "Impossibile eliminare la categoria:"
+
+#: inc/services/cookie-service.php:60
+#: inc/services/cookie-service.php:355
+msgid "No scanned cookies found."
+msgstr "Nessun cookie scansionato trovato."
+
+#: inc/services/cookie-service.php:84
+msgid "Scanned cookies retrieved successfully."
+msgstr "Cookie scansionati recuperati con successo."
+
+#: inc/services/cookie-service.php:101
+msgid "Custom cookies retrieved successfully."
+msgstr "Cookie personalizzati recuperati con successo."
+
+#: inc/services/cookie-service.php:132
+#: inc/services/cookie-service.php:323
+msgid "Cookie name is required."
+msgstr "Il nome del cookie è obbligatorio."
+
+#: inc/services/cookie-service.php:139
+msgid "Cookie category is required."
+msgstr "La categoria del cookie è obbligatoria."
+
+#: inc/services/cookie-service.php:154
+msgid "A cookie with this name already exists."
+msgstr "Esiste già un cookie con questo nome."
+
+#: inc/services/cookie-service.php:191
+msgid "Custom cookie created successfully."
+msgstr "Cookie personalizzato creato con successo."
+
+#: inc/api/cookies.php:302
+msgid "Failed to create custom cookie: "
+msgstr "Impossibile creare il cookie personalizzato:"
+
+#: inc/services/cookie-service.php:210
+#: inc/services/cookie-service.php:280
+msgid "Cookie ID is required."
+msgstr "L'ID del cookie è obbligatorio."
+
+#: inc/services/cookie-service.php:219
+#: inc/services/cookie-service.php:289
+msgid "Cookie not found."
+msgstr "Cookie non trovato."
+
+#: inc/services/cookie-service.php:262
+msgid "Custom cookie updated successfully."
+msgstr "Cookie personalizzato aggiornato con successo."
+
+#: inc/api/cookies.php:324
+msgid "Failed to update custom cookie: "
+msgstr "Impossibile aggiornare il cookie personalizzato:"
+
+#: inc/services/cookie-service.php:299
+msgid "Custom cookie deleted successfully."
+msgstr "Cookie personalizzato eliminato con successo."
+
+#: inc/api/cookies.php:345
+msgid "Failed to delete custom cookie: "
+msgstr "Impossibile eliminare il cookie personalizzato:"
+
+#: inc/services/cookie-service.php:330
+msgid "Current category is required."
+msgstr "La categoria corrente è obbligatoria"
+
+#: inc/services/cookie-service.php:337
+#: inc/services/cookie-service.php:414
+msgid "New category is required."
+msgstr "La nuova categoria è obbligatoria"
+
+#: inc/services/cookie-service.php:345
+msgid "Cookie is already in the selected category."
+msgstr "Il cookie è già nella categoria selezionata"
+
+#: inc/services/cookie-service.php:363
+msgid "Current category not found in scanned cookies."
+msgstr "Categoria corrente non trovata nei cookie scansionati"
+
+#: inc/services/cookie-service.php:372
+msgid "Cookie not found in the specified category."
+msgstr "Cookie non trovato nella categoria specificata"
+
+#: inc/services/cookie-service.php:384
+msgid "Cookie category updated successfully."
+msgstr "Categoria del cookie aggiornata con successo"
+
+#: inc/api/cookies.php:372
+msgid "Failed to update cookie category: "
+msgstr "Impossibile aggiornare la categoria del cookie:"
+
+#: inc/api/onboarding.php:134
+msgid "Onboarding data saved successfully."
+msgstr "Dati di onboarding salvati con successo"
+
+#: inc/api/onboarding.php:152
+msgid "Onboarding is already marked as complete."
+msgstr "L'onboarding è già contrassegnato come completato"
+
+#: inc/api/onboarding.php:162
+msgid "Onboarding marked as complete."
+msgstr "Onboarding contrassegnato come completato"
+
+#: inc/api/plugin.php:158
+#: inc/api/plugin.php:191
+msgid "Plugin not found."
+msgstr "Plugin non trovato"
+
+#: inc/api/plugin.php:203
+msgid "Plugin is already inactive."
+msgstr "Il plugin è già inattivo"
+
+#: inc/api/plugin.php:228
+#: build/admin.js:75
+msgid "Plugin deactivated successfully."
+msgstr "Plugin disattivato con successo"
+
+#: inc/api/plugin.php:121
+msgid "Promotional plugins data retrieved."
+msgstr "Dati dei plugin promozionali recuperati"
+
+#: inc/api/plugin.php:172
+#: build/admin.js:2
+msgid "Plugin activated successfully."
+msgstr "Plugin attivato con successo"
+
+#: inc/api/plugin.php:290
+msgid "Conflicting plugins retrieved."
+msgstr "Plugin in conflitto recuperati"
+
+#: inc/api/scan-history.php:61
+msgid "Scanned history retrieved successfully."
+msgstr "Storico scansionato recuperato con successo"
+
+#: inc/api/settings.php:120
+msgid "No data found"
+msgstr "Nessun dato trovato"
+
+#: inc/api/settings.php:144
+msgid "Settings updated"
+msgstr "Impostazioni aggiornate"
+
+#: inc/functions/get.php:118
+msgid "Essential Cookies"
+msgstr "Cookie Essenziali"
+
+#: inc/functions/get.php:124
+msgid "Functional Cookies"
+msgstr "Cookie Funzionali"
+
+#: inc/functions/get.php:130
+msgid "Analytics Cookies"
+msgstr "Cookie di Analisi"
+
+#: inc/functions/get.php:136
+msgid "Marketing Cookies"
+msgstr "Cookie di Marketing"
+
+#: inc/functions/get.php:142
+msgid "Uncategorized Cookies"
+msgstr "Cookie Non Classificati"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "This website uses cookies to enhance your browsing experience, personalize content, provide social media features, and analyze our traffic. You can review and manage your cookie settings at any time, or accept all cookies to proceed."
+msgstr "Questo sito utilizza cookie per migliorare la tua esperienza di navigazione, personalizzare i contenuti, offrire funzionalità social e analizzare il traffico. Puoi rivedere e gestire le impostazioni dei cookie in qualsiasi momento, o accettare tutti i cookie per continuare"
+
+#: inc/utils/options.php:71
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Accept All"
+msgstr "Accetta Tutto"
+
+#: inc/utils/options.php:75
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Decline"
+msgstr "Rifiuta"
+
+#: inc/modules/nudges/api.php:70
+msgid "Invalid type provided."
+msgstr "Tipo fornito non valido"
+
+#: inc/modules/nudges/api.php:94
+msgid "Could not disable the nudge. Please try again."
+msgstr "Impossibile disattivare il nudging. Per favore riprova"
+
+#. translators: %s: nudge type
+#: inc/modules/nudges/api.php:100
+#, php-format
+msgid "\"%s\" has been disabled."
+msgstr "\"%s\" è stato disattivato"
+
+#. translators: %s: Service name (e.g., YouTube, Vimeo, Bunny.net).
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:302
+#: inc/modules/script-blocking/blocker.php:1283
+#, php-format
+msgid "This content is blocked because it requires %s cookies."
+msgstr "Questo contenuto è bloccato perché richiede cookie %s"
+
+#: inc/integrations/presto-player/block-handler.php:240
+#: inc/modules/script-blocking/blocker.php:1298
+msgid "Accept & Load"
+msgstr "Accetta e Carica"
+
+#: inc/modules/site-scanner/api.php:220
+msgid "Scan cancelled successfully."
+msgstr "Scansione annullata con successo"
+
+#: inc/modules/site-scanner/api.php:226
+msgid "No active scan to cancel."
+msgstr "Nessuna scansione attiva da annullare"
+
+#: inc/modules/site-scanner/api.php:257
+#: inc/modules/site-scanner/saas-client.php:400
+msgid "A scan is already in progress. Please wait for it to complete."
+msgstr "Una scansione è già in corso. Attendi che venga completata"
+
+#: inc/modules/site-scanner/api.php:299
+msgid "Cookie scan has been initiated."
+msgstr "La scansione dei cookie è stata avviata"
+
+#: inc/modules/site-scanner/api.php:300
+msgid "The scan is running. You will be notified when it completes."
+msgstr "La scansione è in corso. Verrai notificato al suo completamento"
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/api.php:312
+#, php-format
+msgid "Failed to start site scanner: %s"
+msgstr "Impossibile avviare lo scanner del sito: %s"
+
+#: inc/modules/site-scanner/cron.php:70
+msgid "Starting site scan (triggered by user)."
+msgstr "Avvio della scansione del sito (attivata dall'utente)."
+
+#: inc/modules/site-scanner/api.php:273
+#: inc/modules/site-scanner/cron.php:76
+#: inc/modules/site-scanner/saas-client.php:407
+msgid "No pages selected for scanning."
+msgstr "Nessuna pagina selezionata per la scansione."
+
+#. translators: %s: Plan name
+#: inc/modules/site-scanner/cron.php:92
+#, php-format
+msgid "Plan: %s."
+msgstr "Piano: %s."
+
+#. translators: %d: Number of pages
+#: inc/modules/site-scanner/cron.php:93
+#, php-format
+msgid "Pages selected: %d."
+msgstr "Pagine selezionate: %d."
+
+#: inc/modules/site-scanner/cron.php:95
+msgid "Sending scan request…"
+msgstr "Invio richiesta di scansione…"
+
+#: inc/modules/site-scanner/cron.php:101
+msgid "Scan already in progress. Skipping."
+msgstr "La scansione è già in corso. Si salta."
+
+#: inc/modules/site-scanner/cron.php:114
+msgid "Scan started successfully."
+msgstr "Scansione avviata con successo."
+
+#. translators: %s: Group ID
+#: inc/modules/site-scanner/cron.php:115
+#, php-format
+msgid "Group ID: %s"
+msgstr "ID Gruppo: %s"
+
+#: inc/modules/site-scanner/cron.php:117
+msgid "Checking scan progress…"
+msgstr "Verifica dello stato della scansione…"
+
+#: inc/modules/site-scanner/cron.php:166
+msgid "No active scan."
+msgstr "Nessuna scansione attiva."
+
+#: inc/modules/site-scanner/cron.php:186
+msgid "Scan in progress..."
+msgstr "Scansione in corso..."
+
+#: inc/modules/site-scanner/cron.php:224
+msgid "Scan cancelled by user."
+msgstr "Scansione annullata dall'utente."
+
+#: inc/modules/site-scanner/saas-client.php:281
+msgid "Every 1 Minute (SureCookie Polling)"
+msgstr "Ogni 1 minuto (Polling SureCookie)"
+
+#: inc/modules/site-scanner/saas-client.php:391
+msgid "Cookie scanning is not available for localhost or development sites. Please use a live domain."
+msgstr "La scansione dei cookie non è disponibile per localhost o siti di sviluppo. Si prega di usare un dominio live."
+
+#: inc/modules/site-scanner/saas-client.php:448
+msgid "Failed to encode scan request."
+msgstr "Impossibile codificare la richiesta di scansione."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/saas-client.php:493
+#, php-format
+msgid "Failed to start scan: %s"
+msgstr "Impossibile avviare la scansione: %s"
+
+#: inc/modules/site-scanner/saas-client.php:531
+msgid "Unknown error occurred."
+msgstr "Si è verificato un errore sconosciuto."
+
+#: inc/modules/site-scanner/saas-client.php:599
+msgid "Scan has been started. You will be notified when it completes."
+msgstr "La scansione è stata avviata. Riceverai una notifica al suo completamento."
+
+#: inc/modules/site-scanner/saas-client.php:641
+msgid "Failed to check scan status."
+msgstr "Impossibile verificare lo stato della scansione."
+
+#: inc/modules/site-scanner/saas-client.php:778
+msgid "Failed to get scan group."
+msgstr "Impossibile ottenere il gruppo di scansione."
+
+#: inc/modules/site-scanner/saas-client.php:906
+msgid "Scan timed out. Please try again."
+msgstr "La scansione è scaduta. Si prega di riprovare."
+
+#: inc/modules/site-scanner/saas-client.php:996
+msgid "Scan failed on server."
+msgstr "La scansione è fallita sul server."
+
+#: inc/modules/site-scanner/saas-client.php:1899
+msgid "Failed to fetch results."
+msgstr "Impossibile recuperare i risultati."
+
+#: inc/utils/options.php:79
+msgid "Cookie Settings"
+msgstr "Impostazioni Cookie"
+
+#: inc/utils/options.php:142
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Accepted"
+msgstr "Accettato"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Partially Accepted"
+msgstr "Parzialmente Accettato"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Declined"
+msgstr "Rifiutato"
+
+#: build/admin.js:1
+msgid "Failed to load consent logs"
+msgstr "Impossibile caricare i registri del consenso"
+
+#: build/admin.js:1
+msgid "Failed to load cookie categories"
+msgstr "Impossibile caricare le categorie di cookie"
+
+#: build/admin.js:1
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "Failed to load settings"
+msgstr "Impossibile caricare le impostazioni"
+
+#: build/admin.js:1
+msgid "Failed to save settings"
+msgstr "Impossibile salvare le impostazioni"
+
+#: build/admin.js:1
+#: build/admin.js:3
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "Never"
+msgstr "Mai"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "30 days"
+msgstr "30 giorni"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "60 days"
+msgstr "60 giorni"
+
+#: admin/menu.php:74
+#: build/admin.js:2
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Cookie Scanner"
+msgstr "Scanner Cookie"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "All Cookies"
+msgstr "Tutti i Cookie"
+
+#: build/admin.js:2
+msgid "Banner"
+msgstr "Banner"
+
+#: build/admin.js:2
+msgid "Content"
+msgstr "Contenuto"
+
+#: build/admin.js:2
+msgid "Layout"
+msgstr "Layout"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "Custom CSS"
+msgstr "CSS Personalizzato"
+
+#: admin/menu.php:82
+#: admin/menu.php:400
+#: build/admin.js:2
+msgid "Logs"
+msgstr "Registri"
+
+#: build/admin.js:2
+#: build/admin.js:21
+msgid "Consent Logs"
+msgstr "Registri del Consenso"
+
+#: inc/modules/assisted-scan/collector.php:329
+#: build/admin.js:2
+#: build/admin.js:3
+#: build/admin.js:28
+#: build/admin.js:41
+msgid "Cancel"
+msgstr "Annulla"
+
+#: build/admin.js:2
+#: build/admin.js:5
+#: build/admin.js:6
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Delete"
+msgstr "Elimina"
+
+#: build/admin.js:2
+#: build/admin.js:28
+#: build/admin.js:83
+msgid "Save"
+msgstr "Salva"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "No options available"
+msgstr "Nessuna opzione disponibile"
+
+#: build/admin.js:2
+msgid "Settings saved!"
+msgstr "Impostazioni salvate!"
+
+#: build/admin.js:2
+msgid "Your settings have been successfully saved."
+msgstr "Le tue impostazioni sono state salvate con successo."
+
+#: build/admin.js:2
+msgid "Save failed!"
+msgstr "Salvataggio fallito!"
+
+#: build/admin.js:2
+msgid "There was an error saving your settings. Please try again."
+msgstr "Si è verificato un errore durante il salvataggio delle impostazioni. Si prega di riprovare."
+
+#: build/admin.js:2
+msgid "Saving…"
+msgstr "Salvataggio in corso…"
+
+#: build/admin.js:2
+msgid "WordPress updates API not available."
+msgstr "API di aggiornamento WordPress non disponibile."
+
+#: build/admin.js:2
+msgid "Plugin activation failed."
+msgstr "Impossibile attivare il plugin."
+
+#: build/admin.js:2
+msgid "Plugin installation failed."
+msgstr "Impossibile installare il plugin."
+
+#: build/admin.js:2
+msgid "Plugin installed and activated successfully."
+msgstr "Plugin installato e attivato con successo."
+
+#: build/admin.js:2
+msgid "Failed to install and activate plugin."
+msgstr "Impossibile installare e attivare il plugin."
+
+#: build/admin.js:2
+msgid "Failed to activate plugin."
+msgstr "Impossibile attivare il plugin."
+
+#: build/admin.js:2
+msgid "Install and Activate"
+msgstr "Installa e Attiva"
+
+#: build/admin.js:2
+msgid "Activate"
+msgstr "Attiva"
+
+#: build/admin.js:2
+msgid "Activated"
+msgstr "Attivato"
+
+#: build/admin.js:2
+msgid "Banner Content"
+msgstr "Contenuto del Banner"
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner Switch"
+msgstr "Abilita l'interruttore del Banner Cookie"
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner"
+msgstr "Abilita Banner Cookie"
+
+#: build/admin.js:2
+msgid "Cookie Notice (optional)"
+msgstr "Avviso Cookie (opzionale)"
+
+#: build/admin.js:2
+msgid "Enable Accept All Button"
+msgstr "Abilita il pulsante \"Accetta Tutto\""
+
+#: build/admin.js:2
+msgid "Button Order"
+msgstr "Ordine dei Pulsanti"
+
+#: build/admin.js:2
+msgid "Banner Layout"
+msgstr "Layout del Banner"
+
+#: build/admin.js:2
+msgid "Configure how and where your cookie banner appears on your website"
+msgstr "Configura come e dove appare il banner dei cookie sul tuo sito web"
+
+#: build/admin.js:2
+msgid "Logo"
+msgstr "Logo"
+
+#: build/admin.js:2
+msgid "Upload Logo"
+msgstr "Carica Logo"
+
+#: build/admin.js:2
+msgid "Select Logo"
+msgstr "Seleziona Logo"
+
+#: build/admin.js:2
+msgid "Use this logo"
+msgstr "Usa questo logo"
+
+#: build/admin.js:2
+msgid "Banner Type"
+msgstr "Tipo di Banner"
+
+#: build/admin.js:2
+msgid "Floating Banner"
+msgstr "Banner Fluttuante"
+
+#: build/admin.js:2
+msgid "Full-width Banner"
+msgstr "Banner a tutta larghezza"
+
+#: build/admin.js:2
+msgid "Banner Width"
+msgstr "Larghezza del banner"
+
+#: build/admin.js:2
+msgid "px"
+msgstr "px"
+
+#: build/admin.js:2
+msgid "Position"
+msgstr "Posizione"
+
+#: build/admin.js:2
+msgid "Bottom Left"
+msgstr "In basso a sinistra"
+
+#: build/admin.js:2
+msgid "Bottom Center"
+msgstr "Al centro in basso"
+
+#: build/admin.js:2
+msgid "Bottom Right"
+msgstr "In basso a destra"
+
+#: build/admin.js:2
+msgid "Middle"
+msgstr "Centro"
+
+#: build/admin.js:2
+msgid "Top"
+msgstr "In alto"
+
+#: build/admin.js:2
+msgid "Bottom"
+msgstr "In basso"
+
+#: build/admin.js:2
+msgid "Color Palette: <span></span>"
+msgstr "Palette di colori: <span></span>"
+
+#: build/admin.js:2
+#: build/admin.js:4
+msgid "Default"
+msgstr "Predefinito"
+
+#: build/admin.js:4
+msgid "Consent Details"
+msgstr "Dettagli del consenso"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: build/admin.js:4
+msgid "No data available."
+msgstr "Nessun dato disponibile."
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Actions"
+msgstr "Azioni"
+
+#: build/admin.js:4
+msgid "Date & Time"
+msgstr "Data e Ora"
+
+#: build/admin.js:4
+msgid "IP Address"
+msgstr "Indirizzo IP"
+
+#: build/admin.js:4
+msgid "Country"
+msgstr "Paese"
+
+#: build/admin.js:4
+#: build/admin.js:76
+msgid "Status"
+msgstr "Stato"
+
+#: build/admin.js:4
+msgid "Download PDF"
+msgstr "Scarica PDF"
+
+#: build/admin.js:6
+msgid "Consent log is empty"
+msgstr "Il registro del consenso è vuoto"
+
+#: build/admin.js:6
+msgid "Your consent logs will be displayed here once users interact with the banner"
+msgstr "I tuoi registri di consenso verranno visualizzati qui una volta che gli utenti interagiscono con il banner"
+
+#: build/admin.js:6
+msgid "<span></span> Selected"
+msgstr "<span></span> Selezionato"
+
+#: build/admin.js:6
+msgid "Deleting…"
+msgstr "Eliminazione in corso…"
+
+#: build/admin.js:6
+msgid "View All Logs"
+msgstr "Visualizza tutti i registri"
+
+#: build/admin.js:6
+msgid "Consent Logging Disabled"
+msgstr "Registrazione del consenso disabilitata"
+
+#: build/admin.js:6
+msgid "Enable consent logging to view analytics data and recent consent logs."
+msgstr "Abilita la registrazione del consenso per visualizzare i dati analitici e i registri recenti"
+
+#: build/admin.js:3
+#: build/admin.js:6
+msgid "Enable Consent Logging"
+msgstr "Abilita registrazione del consenso"
+
+#: build/admin.js:6
+msgid "Consents"
+msgstr "Consensi"
+
+#: build/admin.js:6
+msgid "No Consents Yet"
+msgstr "Ancora nessun consenso"
+
+#: build/admin.js:6
+msgid "Data will appear here once visitors interact with the cookie banner."
+msgstr "I dati appariranno qui una volta che i visitatori interagiscono con il banner dei cookie"
+
+#. translators: %s: log/logs
+#: build/admin.js:9
+#, js-format
+msgid "Failed to delete consent %s"
+msgstr "Impossibile eliminare il consenso %s"
+
+#: build/admin.js:9
+#: build/admin.js:12
+#: build/admin.js:18
+msgid "log"
+msgid_plural "logs"
+msgstr[0] "registro"
+msgstr[1] "registri"
+
+#. translators: %s: log/logs
+#: build/admin.js:12
+#, js-format
+msgid "Successfully deleted consent %s"
+msgstr "Consenso %s eliminato con successo"
+
+#: build/admin.js:12
+msgid "Failed to delete consent log"
+msgstr "Impossibile eliminare il registro del consenso"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Delete Consent Log"
+msgstr "Elimina registro del consenso"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Are you sure you want to delete this consent log? This action cannot be undone."
+msgstr "Sei sicuro di voler eliminare questo registro del consenso? Questa azione non può essere annullata."
+
+#: build/admin.js:15
+msgid "Delete Selected Consent Logs"
+msgstr "Elimina i registri del consenso selezionati"
+
+#. translators: %s: the log string pluralized.
+#: build/admin.js:18
+#, js-format
+msgid "Are you sure you want to delete the selected consent %s? This action cannot be undone."
+msgstr "Sei sicuro di voler eliminare il consenso %s selezionato? Questa azione non può essere annullata."
+
+#: build/admin.js:21
+msgid "Page"
+msgstr "Pagina"
+
+#: build/admin.js:21
+msgid "of"
+msgstr "di"
+
+#: build/admin.js:21
+msgid "Consent Logs Pagination"
+msgstr "Pagina dei registri del consenso"
+
+#: build/admin.js:2
+msgid "Consent Duration (in days)"
+msgstr "Durata del consenso (in giorni)"
+
+#: build/admin.js:2
+msgid "How long user consent remains valid before requiring renewal (1–365 days)."
+msgstr "Per quanto tempo il consenso dell'utente rimane valido prima di richiedere il rinnovo (1–365 giorni)"
+
+#: build/admin.js:3
+msgid "Enable Consent Logging Switch"
+msgstr "Attiva interruttore di registrazione del consenso"
+
+#: build/admin.js:3
+msgid "Store consent records in database for compliance reporting and analytics."
+msgstr "Memorizza i record di consenso nel database per report di conformità e analisi"
+
+#: build/admin.js:3
+msgid "Clear Logs After"
+msgstr "Pulisci i registri dopo"
+
+#: build/admin.js:3
+msgid "Select retention period"
+msgstr "Seleziona il periodo di conservazione"
+
+#: build/admin.js:3
+msgid "Automatically delete consent logs older than the selected period."
+msgstr "Elimina automaticamente i registri di consenso più vecchi del periodo selezionato"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/admin.js:76
+#: build/public.js:4
+msgid "Name"
+msgstr "Nome"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Category"
+msgstr "Categoria"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Provider"
+msgstr "Provider"
+
+#: inc/modules/cookie-policy/shortcode.php:206
+#: build/admin.js:25
+msgid "Domain"
+msgstr "Dominio"
+
+#: build/admin.js:25
+msgid "Duration (Days)"
+msgstr "Durata (Giorni)"
+
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Type"
+msgstr "Tipo"
+
+#: build/admin.js:23
+#: build/admin.js:78
+#: build/onboarding.js:3
+msgid "Uncategorized"
+msgstr "Senza categoria"
+
+#: build/admin.js:21
+#: build/onboarding.js:1
+msgid "Change Category"
+msgstr "Cambia categoria"
+
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Edit"
+msgstr "Modifica"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Scanned"
+msgstr "Scansionato"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Custom"
+msgstr "Personalizzato"
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete the cookie \"<strong></strong>\"? This action cannot be undone."
+msgstr "Sei sicuro di voler eliminare il cookie \"<strong></strong>\"? Questa azione non può essere annullata."
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete this cookie? This action cannot be undone."
+msgstr "Sei sicuro di voler eliminare questo cookie? Questa azione non può essere annullata."
+
+#: build/admin.js:25
+msgid "Delete Custom Cookie"
+msgstr "Elimina cookie personalizzato"
+
+#: build/admin.js:25
+msgid "Change Cookie Category"
+msgstr "Cambia categoria del cookie"
+
+#: build/admin.js:25
+msgid "Update Category"
+msgstr "Aggiorna categoria"
+
+#: build/admin.js:25
+msgid "Edit Cookie"
+msgstr "Modifica cookie"
+
+#: build/admin.js:25
+msgid "Update Cookie"
+msgstr "Aggiorna Cookie"
+
+#: build/admin.js:25
+msgid "Add New Cookie"
+msgstr "Aggiungi Nuovo Cookie"
+
+#: build/admin.js:25
+msgid "Save Cookie"
+msgstr "Salva Cookie"
+
+#: inc/modules/cookie-policy/shortcode.php:203
+#: build/admin.js:25
+msgid "Cookie Name"
+msgstr "Nome del Cookie"
+
+#: build/admin.js:25
+msgid "e.g., my_custom_cookie"
+msgstr "ad esempio, my_custom_cookie"
+
+#: build/admin.js:25
+#: build/admin.js:28
+#: build/admin.js:76
+msgid "Select a category"
+msgstr "Seleziona una categoria"
+
+#: build/admin.js:25
+msgid "No categories available. Please create a category first."
+msgstr "Nessuna categoria disponibile. Per favore crea prima una categoria."
+
+#: build/admin.js:25
+msgid "e.g., 30"
+msgstr "ad esempio, 30"
+
+#: build/admin.js:25
+msgid "e.g., Your Company Name"
+msgstr "ad esempio, Il Nome della Tua Azienda"
+
+#: build/admin.js:25
+msgid "e.g., .example.com"
+msgstr "ad esempio, .esempio.com"
+
+#: build/admin.js:25
+msgid "Description"
+msgstr "Descrizione"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie…"
+msgstr "Inserisci una descrizione per questo cookie…"
+
+#: inc/modules/cookie-policy/shortcode.php:204
+#: build/admin.js:25
+msgid "Purpose"
+msgstr "Scopo"
+
+#: build/admin.js:25
+msgid "Describe the purpose of this cookie…"
+msgstr "Descrivi lo scopo di questo cookie…"
+
+#: build/admin.js:28
+msgid "No cookie categories found. Click \"Add New Category\" to create one."
+msgstr "Nessuna categoria di cookie trovata. Clicca su \"Aggiungi Nuova Categoria\" per crearne una."
+
+#: build/admin.js:28
+#: build/admin.js:43
+msgid "Manage Categories"
+msgstr "Gestisci le Categorie"
+
+#: build/admin.js:28
+msgid "Manage cookie categories that appear in the privacy preferences modal"
+msgstr "Gestisci le categorie di cookie che appaiono nel modal delle preferenze sulla privacy"
+
+#: build/admin.js:28
+msgid "Add New Category"
+msgstr "Aggiungi Nuova Categoria"
+
+#: build/admin.js:28
+msgid "Edit Category"
+msgstr "Modifica Categoria"
+
+#: build/admin.js:28
+msgid "Add Category"
+msgstr "Aggiungi Categoria"
+
+#: build/admin.js:25
+msgid "Category Name"
+msgstr "Nome della Categoria"
+
+#: build/admin.js:25
+msgid "e.g., Performance Cookies"
+msgstr "ad esempio, Cookie di Prestazione"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie category…"
+msgstr "Inserisci una descrizione per questa categoria di cookie…"
+
+#. translators: %1$s is the category name, %2$s is the number of cookies
+#: build/admin.js:28
+#, js-format
+msgid "Are you sure you want to delete this cookie category? <br/> The category \"%1$s\" has %2$s assigned to it:"
+msgstr "Sei sicuro di voler eliminare questa categoria di cookie? <br/> La categoria \"%1$s\" ha %2$s assegnati:"
+
+#: build/admin.js:28
+msgid "cookie"
+msgid_plural "cookies"
+msgstr[0] "cookie"
+msgstr[1] "cookie"
+
+#: build/admin.js:28
+msgid "Are you sure you want to delete this cookie category? This action cannot be undone."
+msgstr "Sei sicuro di voler eliminare questa categoria di cookie? Questa azione non può essere annullata."
+
+#: build/admin.js:28
+msgid "Delete Cookie Category"
+msgstr "Elimina Categoria di Cookie"
+
+#: build/admin.js:28
+msgid "Keep cookies"
+msgstr "Mantieni i cookie"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please enter a cookie name"
+msgstr "Per favore inserisci un nome per il cookie"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please select a category"
+msgstr "Per favore seleziona una categoria"
+
+#: build/admin.js:28
+#: build/onboarding.js:4
+msgid "Please enter a category name"
+msgstr "Per favore inserisci un nome per la categoria"
+
+#: build/admin.js:41
+msgid "Failed to load custom cookies"
+msgstr "Impossibile caricare i cookie personalizzati"
+
+#: build/admin.js:41
+msgid "Failed to create custom cookie"
+msgstr "Impossibile creare il cookie personalizzato"
+
+#: build/admin.js:41
+msgid "Custom cookie created successfully"
+msgstr "Cookie personalizzato creato con successo"
+
+#: build/admin.js:41
+msgid "Failed to update custom cookie"
+msgstr "Impossibile aggiornare il cookie personalizzato"
+
+#: build/admin.js:41
+msgid "Custom cookie updated successfully"
+msgstr "Cookie personalizzato aggiornato con successo"
+
+#: build/admin.js:41
+msgid "Failed to delete custom cookie"
+msgstr "Impossibile eliminare il cookie personalizzato"
+
+#: build/admin.js:41
+msgid "Custom cookie deleted successfully"
+msgstr "Cookie personalizzato eliminato con successo"
+
+#: build/admin.js:41
+msgid "Failed to update cookie category"
+msgstr "Impossibile aggiornare la categoria di cookie"
+
+#: build/admin.js:41
+msgid "Cookie category updated successfully"
+msgstr "Categoria di cookie aggiornata con successo"
+
+#: build/admin.js:42
+msgid "Failed to create category"
+msgstr "Impossibile creare la categoria"
+
+#: build/admin.js:42
+msgid "Category created successfully"
+msgstr "Categoria creata con successo"
+
+#: build/admin.js:42
+msgid "Failed to update category"
+msgstr "Impossibile aggiornare la categoria"
+
+#: build/admin.js:42
+msgid "Category updated successfully"
+msgstr "Categoria aggiornata con successo"
+
+#: build/admin.js:42
+msgid "Failed to delete category"
+msgstr "Impossibile eliminare la categoria"
+
+#: build/admin.js:42
+msgid "Category deleted successfully"
+msgstr "Categoria eliminata con successo"
+
+#: build/admin.js:43
+msgid "Create and manage all cookies for your website. These cookies will appear in the selected privacy preference categories."
+msgstr "Crea e gestisci tutti i cookie per il tuo sito web. Questi cookie appariranno nelle categorie di preferenze sulla privacy selezionate."
+
+#: build/admin.js:43
+msgid "Manage Cookies"
+msgstr "Gestisci Cookie"
+
+#: build/admin.js:43
+msgid "New Cookie"
+msgstr "Nuovo Cookie"
+
+#: build/admin.js:43
+msgid "Add custom CSS to style your cookie banner. Changes will be reflected in both preview and frontend after saving."
+msgstr "Aggiungi CSS personalizzato per stilizzare il banner dei cookie. Le modifiche saranno riflesse in anteprima e nel frontend dopo il salvataggio."
+
+#: build/admin.js:43
+msgid "CSS Code Editor"
+msgstr "Editor del Codice CSS"
+
+#: build/admin.js:43
+msgid "Reset Custom CSS"
+msgstr "Resetta CSS Personalizzato"
+
+#: build/admin.js:43
+msgid "Are you sure you want to reset custom CSS? This will remove all your custom styles."
+msgstr "Sei sicuro di voler resettare il CSS personalizzato? Questo rimuoverà tutti i tuoi stili personalizzati."
+
+#: build/admin.js:43
+msgid "Custom CSS has been reset. The banner will now use default styles."
+msgstr "Il CSS personalizzato è stato resettato. Il banner utilizzerà ora gli stili predefiniti."
+
+#: build/admin.js:43
+msgid "Write your custom CSS below. Use <strong>!important</strong> to override inline styles.<br />You can target banner elements using classes like <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, etc."
+msgstr "Scrivi il tuo CSS personalizzato qui sotto. Usa <strong>!important</strong> per sovrascrivere gli stili inline.<br />Puoi targettizzare gli elementi del banner usando classi come <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, ecc."
+
+#: build/admin.js:43
+#: build/admin.js:60
+msgid "<span></span> Quick Tips:"
+msgstr "<span></span> Suggerimenti rapidi:"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-banner</b> to target the cookie banner (works in both preview and frontend)"
+msgstr "Usa <b>.surecookie-banner</b> per mirare alla barra dei cookie (funziona sia in anteprima che nel frontend)"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> for buttons"
+msgstr "Usa <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> per i pulsanti"
+
+#: build/admin.js:43
+msgid "Important: Use <b>!important</b> to override inline styles"
+msgstr "Importante: usa <b>!important</b> per sovrascrivere gli stili inline"
+
+#: build/admin.js:43
+msgid "Changes take effect after clicking \"Save Changes\" below"
+msgstr "Le modifiche hanno effetto dopo aver cliccato su \"Salva modifiche\" qui sotto"
+
+#: build/admin.js:43
+msgid "Your CSS is saved and will persist after page refresh"
+msgstr "Il tuo CSS è salvato e persisterà dopo il refresh della pagina"
+
+#: build/admin.js:43
+msgid "Overview"
+msgstr "Panoramica"
+
+#: build/admin.js:43
+msgid "Active"
+msgstr "Attivo"
+
+#: build/admin.js:43
+msgid "Inactive"
+msgstr "Inattivo"
+
+#: build/admin.js:43
+msgid "Cookie Banner"
+msgstr "Banner dei Cookie"
+
+#: build/admin.js:43
+#: build/admin.js:47
+msgid "Configure"
+msgstr "Configura"
+
+#: build/admin.js:44
+msgid "Open Support Ticket"
+msgstr "Apri Ticket di Supporto"
+
+#: build/admin.js:44
+msgid "Help Center"
+msgstr "Centro Assistenza"
+
+#: build/admin.js:44
+msgid "Join our Community"
+msgstr "Unisciti alla nostra Community"
+
+#: build/admin.js:44
+msgid "Leave Us a Review"
+msgstr "Lascia una recensione"
+
+#: build/admin.js:44
+msgid "Quick Access"
+msgstr "Accesso Rapido"
+
+#: build/admin.js:44
+msgid "Recent Consent Logs"
+msgstr "Registri di Consenso Recenti"
+
+#: build/admin.js:44
+msgid "Toggle Preview"
+msgstr "Attiva/Disattiva Anteprima"
+
+#: build/admin.js:44
+msgid "Click this button to show or hide the cookie consent banner preview."
+msgstr "Clicca questo pulsante per mostrare o nascondere l'anteprima del banner di consenso dei cookie."
+
+#: build/admin.js:44
+msgid "Click here to start"
+msgstr "Clicca qui per iniziare"
+
+#: build/admin.js:44
+msgid "design your banner"
+msgstr "progetta il tuo banner"
+
+#: build/admin.js:44
+msgid "Here's a preview of the cookie consent banner."
+msgstr "Ecco un'anteprima del banner di consenso dei cookie."
+
+#: build/admin.js:44
+msgid "You can adjust the content and design settings."
+msgstr "Puoi regolare i contenuti e le impostazioni di design."
+
+#: build/admin.js:6
+msgid "All Countries"
+msgstr "Tutti i Paesi"
+
+#: inc/utils/options.php:146
+msgid "Privacy Preference"
+msgstr "Preferenza sulla privacy"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Always Active"
+msgstr "Sempre attivo"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Reject All"
+msgstr "Rifiuta tutto"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Confirm My Choices"
+msgstr "Conferma le mie scelte"
+
+#: inc/utils/localize-data.php:222
+#: build/admin.js:4
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by"
+msgstr "Powered by"
+
+#: build/admin.js:57
+msgid "Scan Completed!"
+msgstr "Scansione completata!"
+
+#: build/admin.js:57
+msgid "Cookie scan has been completed successfully."
+msgstr "La scansione dei cookie è stata completata con successo."
+
+#: build/admin.js:57
+msgid "Latest Scanning Logs"
+msgstr "Ultimi log di scansione"
+
+#: build/admin.js:57
+msgid "View logs from the most recent cookie scanning process."
+msgstr "Visualizza i log del processo di scansione dei cookie più recente."
+
+#: build/admin.js:57
+msgid "Could not copy logs automatically."
+msgstr "Impossibile copiare automaticamente i log."
+
+#: build/admin.js:57
+msgid "Logs copied to clipboard!"
+msgstr "Log copiati negli appunti!"
+
+#: build/admin.js:57
+msgid "Copied"
+msgstr "Copiato"
+
+#: build/admin.js:57
+msgid "Copy"
+msgstr "Copia"
+
+#: build/admin.js:57
+msgid "This field contains the scanning status results only."
+msgstr "Questo campo contiene solo i risultati dello stato della scansione."
+
+#: build/admin.js:60
+msgid "contact our support team"
+msgstr "contatta il nostro team di supporto"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Failed to initiate scan"
+msgstr "Impossibile avviare la scansione"
+
+#: build/admin.js:63
+#: build/admin.js:78
+#: build/onboarding.js:7
+msgid "(no title)"
+msgstr "(senza titolo)"
+
+#: build/admin.js:74
+#: build/onboarding.js:14
+msgid "Scan Started!"
+msgstr "Scansione avviata!"
+
+#: build/onboarding.js:14
+msgid "SureCookie is scanning your pages for cookies. This may take a few minutes."
+msgstr "SureCookie sta scansionando le tue pagine per i cookie. Potrebbe richiedere alcuni minuti."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scanning…"
+msgstr "Scanning…"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Start Scan"
+msgstr "Avvia scansione"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "WordPress Cron is Disabled"
+msgstr "Il sistema Cron di WordPress è disabilitato"
+
+#: build/admin.js:1
+msgid "Failed to load conflicting plugins"
+msgstr "Impossibile caricare plugin in conflitto"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected."
+msgstr "Plugin in conflitto rilevati."
+
+#: build/admin.js:75
+msgid "It's recommended to deactivate them to avoid issues."
+msgstr "Si consiglia di disattivarli per evitare problemi."
+
+#: build/admin.js:75
+msgid "Deactivate Plugin"
+msgstr "Disattiva plugin"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected"
+msgstr "Plugin in conflitto rilevati"
+
+#: build/admin.js:75
+msgid "The following plugins may conflict with SureCookie. It's recommended to deactivate them to avoid issues."
+msgstr "I seguenti plugin potrebbero entrare in conflitto con SureCookie. Si consiglia di disattivarli per evitare problemi."
+
+#: build/admin.js:75
+msgid "Version:"
+msgstr "Versione:"
+
+#: build/admin.js:75
+msgid "Deactivation successful. Reloading the page in 3 seconds."
+msgstr "Disattivazione riuscita. Ricaricamento della pagina tra 3 secondi."
+
+#: build/admin.js:75
+msgid "Failed to deactivate plugin."
+msgstr "Impossibile disattivare il plugin."
+
+#: build/admin.js:75
+msgid "The plugin could not be deactivated. Please try again."
+msgstr "Il plugin non può essere disattivato. Per favore riprova."
+
+#: build/admin.js:75
+msgid "Deactivating…"
+msgstr "Disattivazione in corso…"
+
+#: build/admin.js:75
+msgid "Deactivate"
+msgstr "Disattiva"
+
+#: build/admin.js:75
+msgid "Close"
+msgstr "Chiudi"
+
+#: build/admin.js:75
+msgid "Preview:"
+msgstr "Anteprima:"
+
+#: build/admin.js:75
+msgid "ON"
+msgstr "ATTIVO"
+
+#: build/admin.js:75
+msgid "OFF"
+msgstr "DISATTIVO"
+
+#: build/admin.js:75
+msgid "What's New?"
+msgstr "Novità?"
+
+#: build/admin.js:76
+msgid "Knowledge Base"
+msgstr "Base di Conoscenza"
+
+#: build/onboarding.js:6
+msgid "First name is required"
+msgstr "Il nome è obbligatorio"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid email address"
+msgstr "Per favore inserisci un indirizzo email valido"
+
+#: build/onboarding.js:6
+msgid "Welcome to SureCookie"
+msgstr "Benvenuto su SureCookie"
+
+#: build/onboarding.js:6
+msgid "Privacy compliance made effortless 🍪"
+msgstr "Conformità sulla privacy resa semplice 🍪"
+
+#: build/admin.js:2
+#: build/onboarding.js:6
+msgid "Let's Get Started"
+msgstr "Iniziamo"
+
+#: build/onboarding.js:11
+msgid "Run a Quick Privacy Scan"
+msgstr "Esegui una rapida scansione della privacy"
+
+#: build/onboarding.js:11
+msgid "SureCookie will scan your website, detect all cookies, and categorize them automatically.<br/> This helps you stay compliant without spending hours identifying scripts manually."
+msgstr "SureCookie analizzerà il tuo sito, rileverà tutti i cookie e li categorizzerà automaticamente.<br/> Questo ti aiuta a rimanere conforme senza dover dedicare ore all'identificazione manuale degli script."
+
+#: build/admin.js:40
+#: build/onboarding.js:7
+#: build/onboarding.js:14
+msgid "Back"
+msgstr "Indietro"
+
+#: build/onboarding.js:14
+msgid "Okay, just one last step…"
+msgstr "Ok, manca solo un ultimo passaggio…"
+
+#: build/onboarding.js:14
+msgid "Help us tailor your SureCookie experience by sharing a bit about yourself:"
+msgstr "Aiutaci a personalizzare la tua esperienza con SureCookie condividendo qualcosa su di te:"
+
+#: build/onboarding.js:14
+msgid "First Name"
+msgstr "Nome"
+
+#: build/onboarding.js:14
+msgid "Enter your first name"
+msgstr "Inserisci il tuo nome"
+
+#: build/onboarding.js:14
+msgid "Last Name"
+msgstr "Cognome"
+
+#: build/onboarding.js:14
+msgid "Enter your last name"
+msgstr "Inserisci il tuo cognome"
+
+#: build/onboarding.js:14
+msgid "Email Address"
+msgstr "Indirizzo email"
+
+#: build/onboarding.js:14
+msgid "Enter your email address"
+msgstr "Inserisci il tuo indirizzo email"
+
+#: build/onboarding.js:6
+msgid "Next"
+msgstr "Avanti"
+
+#: build/onboarding.js:6
+#: build/onboarding.js:14
+msgid "Skip"
+msgstr "Salta"
+
+#: build/onboarding.js:14
+msgid "Block non-essential cookies and trackers until explicit consent"
+msgstr "Blocca i cookie e i tracker non essenziali fino al consenso esplicito"
+
+#: build/onboarding.js:14
+msgid "Auto-discover common services, categorize them, and preconfigure safe rules"
+msgstr "Scopri automaticamente i servizi comuni, categorizzali e configura regole sicure predefinite"
+
+#: build/onboarding.js:14
+msgid "Here's what SureCookie will do for you now:"
+msgstr "Ecco cosa farà SureCookie per te ora:"
+
+#: build/onboarding.js:14
+msgid "SureCookie Features"
+msgstr "Caratteristiche di SureCookie"
+
+#: build/admin.js:47
+#: build/onboarding.js:14
+msgid "Go to Dashboard"
+msgstr "Vai alla Dashboard"
+
+#: build/onboarding.js:6
+msgid "Exit Setup"
+msgstr "Esci dalla configurazione"
+
+#: admin/menu.php:130
+msgid "You don't have access to this page."
+msgstr "Non hai accesso a questa pagina."
+
+#: admin/onboarding.php:59
+#: build/onboarding.js:14
+msgid "Onboarding"
+msgstr "Onboarding"
+
+#: inc/api/base.php:59
+msgid "You don't have access to do this."
+msgstr "Non hai accesso per fare questo."
+
+#: inc/api/base.php:71
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "Controllo di sicurezza fallito. Per favore aggiorna la pagina e riprova."
+
+#: inc/api/base.php:80
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "La tua sessione è scaduta. Per favore aggiorna la pagina e riprova."
+
+#: inc/api/consent-logs.php:146
+msgid "Search by IP address or Session ID"
+msgstr "Cerca per indirizzo IP o ID sessione"
+
+#: inc/api/consent-logs.php:892
+msgid "Request origin is not allowed."
+msgstr "L'origine della richiesta non è consentita."
+
+#: inc/api/consent-logs.php:575
+msgid "Session ID is required."
+msgstr "L'ID sessione è obbligatorio."
+
+#: inc/api/plugin.php:154
+msgid "You don't have permission to activate plugins."
+msgstr "Non hai il permesso di attivare i plugin."
+
+#: inc/api/plugin.php:187
+msgid "You don't have permission to deactivate plugins."
+msgstr "Non hai il permesso di disattivare i plugin."
+
+#: inc/api/scanned-resources.php:78
+msgid "Scanned resources retrieved successfully."
+msgstr "Risorse scansionate recuperate con successo."
+
+#: inc/functions/get.php:119
+msgid "Required for basic website functionality."
+msgstr "Necessario per le funzionalità di base del sito web."
+
+#: inc/functions/get.php:125
+msgid "Enable features like saved preferences and personalized content."
+msgstr "Abilita funzionalità come preferenze salvate e contenuti personalizzati."
+
+#: inc/functions/get.php:131
+msgid "Help us understand how visitors use our site so we can improve it."
+msgstr "Aiutaci a capire come i visitatori usano il nostro sito per poterlo migliorare."
+
+#: inc/functions/get.php:137
+msgid "Used to show you relevant ads based on your interests."
+msgstr "Utilizzato per mostrarti annunci rilevanti basati sui tuoi interessi."
+
+#: inc/functions/get.php:143
+msgid "Cookies that haven't been categorized yet."
+msgstr "Cookie che non sono ancora stati categorizzati."
+
+#: inc/modules/auth/api.php:71
+msgid "Authentication is already completed."
+msgstr "L'autenticazione è già completata."
+
+#: inc/modules/auth/controller.php:88
+msgid "Failed to encode the token data."
+msgstr "Impossibile codificare i dati del token."
+
+#: inc/modules/auth/controller.php:188
+msgid "Failed to decode the access key."
+msgstr "Impossibile decodificare la chiave di accesso."
+
+#: inc/modules/auth/controller.php:193
+msgid "Invalid data format."
+msgstr "Formato dati non valido."
+
+#: inc/modules/auth/controller.php:207
+msgid "Failed to decrypt the access key."
+msgstr "Impossibile decriptare la chiave di accesso."
+
+#: inc/modules/auth/controller.php:213
+msgid "Failed to json decode the decrypted data."
+msgstr "Impossibile decodificare in json i dati decriptati."
+
+#: inc/modules/auth/controller.php:217
+msgid "No user email found in the decrypted data."
+msgstr "Nessuna email utente trovata nei dati decriptati."
+
+#: inc/modules/cookie-policy/api.php:76
+#: build/admin.js:78
+msgid "Cookie Policy page already exists."
+msgstr "La pagina della Cookie Policy esiste già."
+
+#: inc/modules/cookie-policy/api.php:90
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/admin.js:78
+#: build/public.js:1
+msgid "Cookie Policy"
+msgstr "Cookie Policy"
+
+#: inc/modules/cookie-policy/api.php:112
+msgid "Cookie Policy page created successfully."
+msgstr "Pagina della Cookie Policy creata con successo."
+
+#. translators: %s: site name.
+#: inc/modules/cookie-policy/api.php:182
+#, php-format
+msgid "This Cookie Policy explains how %s uses cookies and similar tracking technologies when you visit our website. It describes what these technologies are, why we use them, and your rights to control our use of them."
+msgstr "Questa Cookie Policy spiega come %s utilizza i cookie e tecnologie di tracciamento simili quando visiti il nostro sito web. Descrive cosa sono queste tecnologie, perché le usiamo e i tuoi diritti di controllare il nostro utilizzo delle stesse."
+
+#: inc/modules/cookie-policy/api.php:191
+msgid "What Are Cookies"
+msgstr "Cosa sono i cookie"
+
+#: inc/modules/cookie-policy/api.php:195
+msgid "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, provide a better browsing experience, and supply information to the owners of the site. Cookies can be \"persistent\" or \"session\" cookies. Persistent cookies remain on your device for a set period or until you delete them, while session cookies are deleted as soon as you close your web browser."
+msgstr "I cookie sono piccoli file di testo che vengono memorizzati sul tuo computer o dispositivo mobile quando visiti un sito web. Sono ampiamente utilizzati per far funzionare i siti web in modo più efficiente, fornire una migliore esperienza di navigazione e fornire informazioni ai proprietari del sito. I cookie possono essere \"persistenti\" o \"di sessione\". I cookie persistenti rimangono sul tuo dispositivo per un periodo stabilito o fino a quando li elimini, mentre i cookie di sessione vengono eliminati non appena chiudi il browser web."
+
+#: inc/modules/cookie-policy/api.php:199
+msgid "In addition to cookies, we may also use similar technologies such as pixel tags, web beacons, and local storage to collect and store information. These technologies work in a similar way to cookies and allow us to monitor and improve our website and your experience of it."
+msgstr "Oltre ai cookie, potremmo anche utilizzare tecnologie simili come pixel tag, web beacon e archiviazione locale per raccogliere e memorizzare informazioni. Queste tecnologie funzionano in modo simile ai cookie e ci permettono di monitorare e migliorare il nostro sito web e la tua esperienza su di esso."
+
+#: inc/modules/cookie-policy/api.php:206
+msgid "Types of Cookies We Use"
+msgstr "Tipi di cookie che utilizziamo"
+
+#: inc/modules/cookie-policy/api.php:210
+msgid "We use different types of cookies for various reasons. The table below provides detailed information about the cookies we use, organized by category, including the name of each cookie, its purpose, duration, and the domain it belongs to. Some cookies are essential for the website to function properly, while others help us understand how visitors interact with our site, remember your preferences, or deliver relevant advertising."
+msgstr "Utilizziamo diversi tipi di cookie per vari motivi. La tabella sottostante fornisce informazioni dettagliate sui cookie che utilizziamo, organizzati per categoria, inclusi il nome di ciascun cookie, il suo scopo, la durata e il dominio a cui appartiene. Alcuni cookie sono essenziali per il corretto funzionamento del sito web, mentre altri ci aiutano a capire come i visitatori interagiscono con il nostro sito, a ricordare le tue preferenze o a fornire pubblicità rilevante."
+
+#: inc/modules/cookie-policy/api.php:220
+msgid "How to Manage Your Cookie Preferences"
+msgstr "Come gestire le tue preferenze sui cookie"
+
+#: inc/modules/cookie-policy/api.php:224
+msgid "When you first visit our website, you will be shown a cookie consent banner that allows you to accept or decline non-essential cookies. You can change your preferences at any time by clicking the cookie preferences option available on our website. Essential cookies cannot be disabled as they are necessary for the basic functioning of the website."
+msgstr "Quando visiti il nostro sito web per la prima volta, ti verrà mostrato un banner per il consenso ai cookie che ti permette di accettare o rifiutare i cookie non essenziali. Puoi modificare le tue preferenze in qualsiasi momento cliccando sull'opzione delle preferenze sui cookie disponibile sul nostro sito. I cookie essenziali non possono essere disabilitati in quanto necessari per il funzionamento di base del sito web."
+
+#: inc/modules/cookie-policy/api.php:228
+msgid "Please note that restricting cookies may impact your experience of the website, as some features and services may not function properly without certain cookies enabled."
+msgstr "Si prega di notare che limitare i cookie può influire sulla tua esperienza del sito web, poiché alcune funzionalità e servizi potrebbero non funzionare correttamente senza l'attivazione di determinati cookie."
+
+#: inc/modules/cookie-policy/api.php:235
+msgid "How to Control Cookies in Your Browser"
+msgstr "Come controllare i cookie nel tuo browser"
+
+#: inc/modules/cookie-policy/api.php:239
+msgid "Most web browsers allow you to manage your cookie preferences through their settings. You can set your browser to refuse cookies, delete existing cookies, or alert you when a cookie is being set. The steps to manage cookies vary by browser. Below are general instructions for the most common browsers."
+msgstr "La maggior parte dei browser web consente di gestire le preferenze sui cookie tramite le impostazioni. Puoi impostare il browser per rifiutare i cookie, eliminare i cookie esistenti o avvisarti quando un cookie viene impostato. I passaggi per gestire i cookie variano a seconda del browser. Di seguito sono riportate istruzioni generali per i browser più comuni."
+
+#: inc/modules/cookie-policy/api.php:243
+msgid "Google Chrome: Open Settings, go to Privacy and Security, then click on Cookies and other site data. From there, you can block third-party cookies, clear cookies when you close the browser, or block all cookies."
+msgstr "Google Chrome: Apri Impostazioni, vai su Privacy e sicurezza, quindi clicca su Cookie e altri dati dei siti. Da lì, puoi bloccare i cookie di terze parti, cancellare i cookie alla chiusura del browser o bloccare tutti i cookie."
+
+#: inc/modules/cookie-policy/api.php:247
+msgid "Mozilla Firefox: Open Settings, go to Privacy and Security, and under Cookies and Site Data you can manage how Firefox handles cookies including clearing data and managing exceptions."
+msgstr "Mozilla Firefox: Apri Impostazioni, vai su Privacy e sicurezza e sotto Cookie e dati dei siti puoi gestire come Firefox gestisce i cookie, inclusa la cancellazione dei dati e la gestione delle eccezioni."
+
+#: inc/modules/cookie-policy/api.php:251
+msgid "Safari: Open Preferences, go to the Privacy tab, and configure your cookie blocking preferences. Safari also offers an option to prevent cross-site tracking."
+msgstr "Safari: Apri Preferenze, vai alla scheda Privacy e configura le tue preferenze di blocco dei cookie. Safari offre anche un'opzione per prevenire il tracciamento cross-site."
+
+#: inc/modules/cookie-policy/api.php:255
+msgid "Microsoft Edge: Open Settings, go to Privacy, Search, and Services. Under the Cookies section, you can choose to block third-party cookies or all cookies and manage cookie exceptions."
+msgstr "Microsoft Edge: Apri Impostazioni, vai su Privacy, ricerca e servizi. Nella sezione Cookie, puoi scegliere di bloccare i cookie di terze parti o tutti i cookie e gestire le eccezioni dei cookie."
+
+#: inc/modules/cookie-policy/api.php:262
+msgid "Consequences of Disabling Cookies"
+msgstr "Conseguenze della disabilitazione dei cookie"
+
+#: inc/modules/cookie-policy/api.php:266
+msgid "If you choose to disable or decline cookies, some parts of this website may not function as intended. For example, you may not be able to log in, your preferences may not be saved between visits, and certain interactive features may be limited. Disabling essential cookies may make it impossible to use some or all of the services provided through this website."
+msgstr "Se scegli di disabilitare o rifiutare i cookie, alcune parti di questo sito web potrebbero non funzionare come previsto. Ad esempio, potresti non essere in grado di effettuare il login, le tue preferenze potrebbero non essere salvate tra una visita e l'altra e alcune funzionalità interattive potrebbero essere limitate. Disabilitare i cookie essenziali potrebbe rendere impossibile utilizzare alcuni o tutti i servizi forniti tramite questo sito web."
+
+#: inc/modules/cookie-policy/api.php:270
+msgid "Disabling analytics or marketing cookies will not affect the core functionality of the website, but it may limit our ability to improve the website based on user behavior or to provide you with personalized content and advertisements."
+msgstr "Disabilitare i cookie di analisi o marketing non influirà sulla funzionalità principale del sito web, ma potrebbe limitare la nostra capacità di migliorare il sito in base al comportamento degli utenti o di fornirti contenuti e pubblicità personalizzati."
+
+#: inc/modules/cookie-policy/api.php:277
+msgid "Changes to This Cookie Policy"
+msgstr "Modifiche a questa politica sui cookie"
+
+#: inc/modules/cookie-policy/api.php:281
+msgid "We may update this Cookie Policy from time to time to reflect changes in technology, legislation, our business operations, or any other reason we determine is necessary or appropriate. Any changes will be posted on this page with an updated revision date. We encourage you to review this Cookie Policy periodically to stay informed about how we are using cookies."
+msgstr "Potremmo aggiornare questa politica sui cookie di tanto in tanto per riflettere cambiamenti nella tecnologia, nella legislazione, nelle nostre operazioni commerciali o per qualsiasi altro motivo che riteniamo necessario o appropriato. Qualsiasi modifica sarà pubblicata su questa pagina con una data di revisione aggiornata. Ti invitiamo a consultare periodicamente questa politica sui cookie per rimanere informato su come utilizziamo i cookie."
+
+#: inc/modules/cookie-policy/api.php:288
+msgid "Contact Us"
+msgstr "Contattaci"
+
+#: inc/modules/cookie-policy/api.php:292
+msgid "If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at:"
+msgstr "Se hai domande o dubbi su questa politica sui cookie o sul nostro uso dei cookie, ti preghiamo di contattarci a:"
+
+#: inc/modules/cookie-policy/api.php:296
+msgid "[Your Company Name], [Your Address], [your-email@example.com]"
+msgstr "[Nome della tua azienda], [Il tuo indirizzo], [your-email@example.com]"
+
+#: inc/modules/cookie-policy/shortcode.php:143
+#: inc/modules/cookie-policy/shortcode.php:144
+msgid "Table of Contents"
+msgstr "Indice"
+
+#: inc/modules/cookie-policy/shortcode.php:205
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Duration"
+msgstr "Durata"
+
+#. translators: %s: formatted date string.
+#: inc/modules/cookie-policy/shortcode.php:270
+#, php-format
+msgid "Last updated: %s"
+msgstr "Ultimo aggiornamento: %s"
+
+#: inc/modules/cookie-policy/shortcode.php:356
+msgid "This website"
+msgstr "Questo sito web"
+
+#: inc/modules/google-consent-mode/consent-handler.php:130
+msgid "SureCookie:"
+msgstr "SureCookie:"
+
+#: inc/modules/google-consent-mode/consent-handler.php:132
+msgid "Google Site Kit's Consent Mode is active. Please disable it in Site Kit settings to use SureCookie's implementation."
+msgstr "La modalità di consenso di Google Site Kit è attiva. Disabilitala nelle impostazioni di Site Kit per utilizzare l'implementazione di SureCookie."
+
+#: inc/modules/site-scanner/api.php:288
+msgid "Failed to start scan."
+msgstr "Impossibile avviare la scansione."
+
+#. translators: 1: completed pages count, 2: total pages count
+#: inc/modules/site-scanner/saas-client.php:944
+#, php-format
+msgid "Progress: %1$d of %2$d pages scanned."
+msgstr "Progresso: %1$d di %2$d pagine scansionate."
+
+#. translators: %d: number of failed pages
+#: inc/modules/site-scanner/saas-client.php:954
+#, php-format
+msgid "%d page(s) failed to scan."
+msgstr "%d pagina(e) non sono state scansionate."
+
+#: inc/modules/site-scanner/saas-client.php:977
+msgid "Scan completed!"
+msgstr "Scansione completata!"
+
+#: inc/modules/site-scanner/saas-client.php:1002
+msgid "Scan is in progress. Checking again…"
+msgstr "La scansione è in corso. Verifica di nuovo…"
+
+#: inc/utils/options.php:48
+msgid "We use cookies to improve your experience and understand how you use our site. You can review your choices at any time."
+msgstr "Utilizziamo i cookie per migliorare la tua esperienza e capire come usi il nostro sito. Puoi rivedere le tue scelte in qualsiasi momento."
+
+#: inc/utils/options.php:62
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Only Essential"
+msgstr "Solo essenziali"
+
+#: inc/utils/options.php:174
+#: build/admin.js:4
+#: build/admin.js:75
+msgid "Cookie Preferences"
+msgstr "Preferenze cookie"
+
+#: build/admin.js:1
+msgid "Scan cancelled."
+msgstr "Scansione annullata."
+
+#: build/admin.js:1
+msgid "Failed to cancel scan."
+msgstr "Impossibile annullare la scansione."
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "90 days"
+msgstr "90 giorni"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "365 days"
+msgstr "365 giorni"
+
+#: build/admin.js:2
+#: build/admin.js:75
+msgid "Re-Consent"
+msgstr "Riconferma del consenso"
+
+#: build/admin.js:2
+msgid "Google Consent Mode"
+msgstr "Modalità di consenso Google"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication timeout. Please try again."
+msgstr "Timeout di autenticazione. Riprova."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful!"
+msgstr "Autenticazione riuscita!"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "An error occurred during authentication"
+msgstr "Si è verificato un errore durante l'autenticazione"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication cancelled. Please try again."
+msgstr "Autenticazione annullata. Riprova."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful"
+msgstr "Autenticazione riuscita"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication completed successfully. Closing tab in 3 seconds…"
+msgstr "Autenticazione completata con successo. Chiusura della scheda in 3 secondi…"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication failed"
+msgstr "Autenticazione fallita"
+
+#: build/admin.js:2
+msgid "Automatic Cookie Detection"
+msgstr "Rilevamento automatico dei cookie"
+
+#: build/admin.js:2
+msgid "Smart Categorization"
+msgstr "Categorizzazione intelligente"
+
+#: build/admin.js:2
+msgid "Compliance Recommendations"
+msgstr "Raccomandazioni per la conformità"
+
+#: build/admin.js:2
+msgid "Connect to scan your website"
+msgstr "Connettiti per scansionare il tuo sito web"
+
+#: build/admin.js:2
+msgid "Connect your SureCookie account to automatically detect cookies on your website, categorize them, and get compliance recommendations."
+msgstr "Collega il tuo account SureCookie per rilevare automaticamente i cookie sul tuo sito web, classificarli e ricevere raccomandazioni per la conformità."
+
+#: build/admin.js:2
+msgid "Learn more"
+msgstr "Scopri di più"
+
+#: build/admin.js:2
+msgid "Free Plan Limit Reached"
+msgstr "Limite del piano gratuito raggiunto"
+
+#: build/admin.js:2
+#: build/admin.js:6
+#: build/admin.js:47
+#: build/admin.js:53
+#: build/admin.js:63
+#: build/admin.js:75
+#: build/onboarding.js:7
+msgid "Upgrade Now"
+msgstr "Aggiorna ora"
+
+#: build/admin.js:2
+msgid "Unlock this feature"
+msgstr "Sblocca questa funzione"
+
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "An error occurred while loading settings. Please refresh the page to try again."
+msgstr "Si è verificato un errore durante il caricamento delle impostazioni. Ricarica la pagina per riprovare."
+
+#: build/admin.js:2
+msgid "Show cookie consent banner to comply with privacy regulations."
+msgstr "Mostra il banner di consenso ai cookie per rispettare le normative sulla privacy."
+
+#: build/admin.js:2
+msgid "Banner Heading"
+msgstr "Intestazione del banner"
+
+#: build/admin.js:2
+msgid "Banner Message"
+msgstr "Messaggio del banner"
+
+#: build/admin.js:2
+msgid "Banner message cannot be empty."
+msgstr "Il messaggio del banner non può essere vuoto."
+
+#: build/admin.js:2
+msgid "Drag and drop to reorder buttons. This order can be overridden per Geographic Targeting Rule."
+msgstr "Trascina e rilascia per riordinare i pulsanti. Questo ordine può essere sovrascritto per ogni Regola di Targeting Geografico."
+
+#: build/admin.js:2
+msgid "Banner Animation"
+msgstr "Animazione del banner"
+
+#: build/admin.js:2
+msgid "Fade"
+msgstr "Dissolvenza"
+
+#: build/admin.js:2
+msgid "Slide"
+msgstr "Scorrimento"
+
+#: build/admin.js:4
+msgid "Consent logs"
+msgstr "Registri del consenso"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:5
+#, js-format
+msgid "Download PDF for consent log from %s"
+msgstr "Scarica PDF del registro del consenso da %s"
+
+#: build/admin.js:4
+msgid "Session Summary"
+msgstr "Riepilogo della sessione"
+
+#: build/admin.js:4
+msgid "Field"
+msgstr "Campo"
+
+#: build/admin.js:4
+msgid "Value"
+msgstr "Valore"
+
+#: build/admin.js:4
+msgid "Session ID"
+msgstr "ID sessione"
+
+#: build/admin.js:4
+msgid "Total Records"
+msgstr "Record totali"
+
+#: build/admin.js:4
+msgid "Date Range"
+msgstr "Intervallo di date"
+
+#: build/admin.js:4
+msgid "Consent Record"
+msgstr "Record del consenso"
+
+#: build/admin.js:4
+msgid "Log ID"
+msgstr "ID registro"
+
+#: build/admin.js:4
+msgid "Timestamp"
+msgstr "Timestamp"
+
+#: build/admin.js:4
+msgid "Consent Status"
+msgstr "Stato del consenso"
+
+#: build/admin.js:4
+msgid "Consent Preset"
+msgstr "Preset del consenso"
+
+#: build/admin.js:4
+msgid "Legal Information"
+msgstr "Informazioni legali"
+
+#: build/admin.js:4
+msgid "Date of Generation"
+msgstr "Data di generazione"
+
+#: build/admin.js:4
+msgid "Website"
+msgstr "Sito web"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:6
+#, js-format
+msgid "Delete consent log from %s"
+msgstr "Elimina registro del consenso da %s"
+
+#: build/admin.js:6
+msgid "All Actions"
+msgstr "Tutte le azioni"
+
+#: build/admin.js:6
+msgid "IP address or Session ID…"
+msgstr "Indirizzo IP o ID sessione…"
+
+#: build/admin.js:6
+msgid "Clear Filters"
+msgstr "Cancella filtri"
+
+#: build/admin.js:21
+msgid "Failed to load countries"
+msgstr "Impossibile caricare i paesi"
+
+#: build/admin.js:2
+msgid "Please enter a value between 1 and 365 days."
+msgstr "Inserisci un valore tra 1 e 365 giorni."
+
+#: build/admin.js:53
+msgid "SureCookie admin menu location toggle"
+msgstr "Interruttore posizione menu amministratore SureCookie"
+
+#: build/admin.js:3
+msgid "Delete data on uninstall toggle"
+msgstr "Interruttore elimina dati alla disinstallazione"
+
+#: build/admin.js:3
+msgid "Delete Data on Uninstall"
+msgstr "Elimina dati alla disinstallazione"
+
+#: build/admin.js:3
+msgid "When enabled, all plugin data including consent logs, settings, and scan results will be permanently deleted when you uninstall SureCookie. Leave disabled to preserve data for compliance records or future reinstallation."
+msgstr "Se abilitato, tutti i dati del plugin inclusi i registri del consenso, le impostazioni e i risultati della scansione saranno eliminati definitivamente quando disinstallerai SureCookie. Lascia disabilitato per conservare i dati per i record di conformità o per una futura reinstallazione."
+
+#: build/admin.js:3
+msgid "Compliance Notice"
+msgstr "Avviso di conformità"
+
+#: build/admin.js:3
+msgid "Consent logs may be required to demonstrate proof of consent under GDPR Article 7(1). Consider exporting consent records before uninstalling."
+msgstr "I registri del consenso potrebbero essere necessari per dimostrare la prova del consenso ai sensi dell'articolo 7(1) del GDPR. Considera di esportare i record del consenso prima di disinstallare."
+
+#: build/admin.js:53
+msgid "Hide SureCookie branding toggle"
+msgstr "Interruttore nascondi branding SureCookie"
+
+#: build/admin.js:53
+msgid "Hide SureCookie Branding"
+msgstr "Nascondi branding SureCookie"
+
+#: build/admin.js:53
+msgid "Remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "Rimuovi il testo \"Powered by SureCookie\" dal banner del consenso e dalla finestra delle preferenze."
+
+#: build/admin.js:53
+msgid "to remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "per rimuovere il testo \"Powered by SureCookie\" dal banner del consenso e dalla finestra delle preferenze."
+
+#: build/admin.js:28
+msgid "Keep cookies when deleting category"
+msgstr "Mantieni i cookie durante l'eliminazione della categoria"
+
+#: build/admin.js:43
+msgid "All your cookies will be displayed here"
+msgstr "Tutti i tuoi cookie saranno visualizzati qui"
+
+#: build/admin.js:43
+msgid "Click the button below to create your first custom cookie"
+msgstr "Clicca il pulsante qui sotto per creare il tuo primo cookie personalizzato"
+
+#: build/admin.js:43
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: build/admin.js:43
+msgid "Consent Logging"
+msgstr "Registrazione del consenso"
+
+#: build/admin.js:43
+msgid "Enable consent logging to view consent analytics"
+msgstr "Abilita la registrazione del consenso per visualizzare le analisi del consenso"
+
+#: build/admin.js:43
+msgid "Enable"
+msgstr "Abilita"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "All cookies accepted."
+msgstr "Tutti i cookie accettati."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Non-essential cookies rejected."
+msgstr "Cookie non essenziali rifiutati."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preferences saved successfully."
+msgstr "Preferenze salvate con successo."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Close privacy preferences dialog"
+msgstr "Chiudi la finestra delle preferenze sulla privacy"
+
+#. translators: %s: cookie category name
+#: build/admin.js:52
+#: build/public.js:3
+#, js-format
+msgid "%s: always active, cannot be disabled"
+msgstr "%s: sempre attivo, non può essere disabilitato"
+
+#: build/admin.js:52
+#: build/public.js:3
+msgid "View Cookies"
+msgstr "Visualizza cookie"
+
+#. translators: %s: cookie category name
+#: build/admin.js:53
+#: build/public.js:4
+#, js-format
+msgid "%s cookies details"
+msgstr "Dettagli cookie %s"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Expiry"
+msgstr "Scadenza"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by SureCookie (opens in new tab)"
+msgstr "Powered by SureCookie (si apre in una nuova scheda)"
+
+#: build/admin.js:53
+msgid "Buttons are for reference only in preview."
+msgstr "I pulsanti sono solo di riferimento in anteprima."
+
+#: build/admin.js:53
+msgid "This is a preview"
+msgstr "Questa è un'anteprima"
+
+#: build/admin.js:53
+msgid "Close preview"
+msgstr "Chiudi anteprima"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Complete"
+msgstr "Completato"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Queued…"
+msgstr "In coda…"
+
+#: build/admin.js:54
+msgid "Scanning pages…"
+msgstr "Scansione delle pagine…"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Starting scan…"
+msgstr "Avvio scansione…"
+
+#: build/admin.js:54
+msgid "In progress…"
+msgstr "In corso…"
+
+#. translators: 1: completed pages, 2: total pages
+#: build/admin.js:55
+#, js-format
+msgid "%1$d of %2$d pages scanned"
+msgstr "%1$d di %2$d pagine scansionate"
+
+#. translators: %s: estimated time remaining
+#: build/admin.js:56
+#, js-format
+msgid "· ~%s left"
+msgstr "· ~%s rimanenti"
+
+#: build/admin.js:56
+msgid "Scan Completed with Errors"
+msgstr "Scansione completata con errori"
+
+#. translators: %d: number of failed pages
+#: build/admin.js:57
+#, js-format
+msgid "%d page(s) could not be scanned. Check the logs for details."
+msgstr "%d pagina(e) non è/sono stata(e) scansionata(e). Controlla i log per i dettagli."
+
+#: build/admin.js:57
+msgid "Scan appears stuck"
+msgstr "La scansione sembra bloccata"
+
+#. translators: 1: completed pages, 2: total pages, 3: elapsed time
+#: build/admin.js:58
+#, js-format
+msgid "%1$d of %2$d pages scanned after %3$s with no recent progress."
+msgstr "%1$d di %2$d pagine scansionate dopo %3$s senza progressi recenti."
+
+#. translators: %s: elapsed time
+#: build/admin.js:59
+#, js-format
+msgid "No progress detected after %s."
+msgstr "Nessun progresso rilevato dopo %s."
+
+#: build/admin.js:59
+#: build/admin.js:63
+msgid "Cancelling…"
+msgstr "Annullamento…"
+
+#: build/admin.js:59
+msgid "Cancel Scan"
+msgstr "Annulla scansione"
+
+#: build/admin.js:59
+msgid "Copy Logs for Support"
+msgstr "Copia i log per il supporto"
+
+#: build/admin.js:60
+msgid "The scan runs in the background - you can safely navigate away."
+msgstr "La scansione viene eseguita in background - puoi navigare altrove in sicurezza."
+
+#: build/admin.js:60
+msgid "Make sure your site is publicly accessible (not behind basic auth or maintenance mode)."
+msgstr "Assicurati che il tuo sito sia accessibile pubblicamente (non dietro autenticazione base o modalità manutenzione)."
+
+#: build/admin.js:60
+msgid "Check if a firewall or security plugin is blocking external requests to your site."
+msgstr "Verifica se un firewall o un plugin di sicurezza blocca le richieste esterne al tuo sito."
+
+#: build/admin.js:60
+msgid "Pages with heavy JavaScript may take longer to scan. If scanning fails repeatedly, try fewer pages."
+msgstr "Le pagine con JavaScript pesante possono richiedere più tempo per la scansione. Se la scansione fallisce ripetutamente, prova con meno pagine."
+
+#: build/admin.js:60
+msgid "If issues persist, copy the logs and <a>contact our support team.</a>"
+msgstr "Se i problemi persistono, copia i log e <a>contatta il nostro team di supporto.</a>"
+
+#: build/admin.js:73
+msgid "Daily Limit Reached"
+msgstr "Limite giornaliero raggiunto"
+
+#. translators: 1: scans used, 2: scan limit
+#: build/admin.js:74
+#, js-format
+msgid "You've used %1$d of %2$d daily scans. Your credits will refresh automatically tomorrow."
+msgstr "Hai utilizzato %1$d di %2$d scansioni giornaliere. I tuoi crediti si aggiorneranno automaticamente domani."
+
+#: build/admin.js:74
+msgid "You've used all your scan credits for today. Your credits will refresh automatically tomorrow."
+msgstr "Hai utilizzato tutti i tuoi crediti di scansione per oggi. I tuoi crediti si aggiorneranno automaticamente domani."
+
+#: build/admin.js:63
+msgid "Cancel Stuck Scan"
+msgstr "Annulla scansione bloccata"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "The WordPress cron system is not working on your site. Cookie scanning may not work as expected. Please enable WP-Cron or set up a server cron job to ensure proper functionality."
+msgstr "Il sistema cron di WordPress non funziona sul tuo sito. La scansione dei cookie potrebbe non funzionare come previsto. Abilita WP-Cron o configura un lavoro cron del server per garantire il corretto funzionamento."
+
+#: build/admin.js:75
+msgid "Select"
+msgstr "Seleziona"
+
+#: build/admin.js:75
+msgid "Configure how the \"Cookie Preferences\" button appears on your site, allowing users to update their consent at any time."
+msgstr "Configura come appare il pulsante \"Preferenze Cookie\" sul tuo sito, permettendo agli utenti di aggiornare il loro consenso in qualsiasi momento."
+
+#: build/admin.js:75
+msgid "No re-consent method active"
+msgstr "Nessun metodo di nuovo consenso attivo"
+
+#: build/admin.js:75
+msgid "Visitors won't be able to update their cookie preferences unless you add a menu item or place the shortcode on a page. You can safely ignore this if the shortcode is already added."
+msgstr "I visitatori non potranno aggiornare le loro preferenze sui cookie a meno che tu non aggiunga una voce di menu o posizioni lo shortcode in una pagina. Puoi ignorare questo avviso se lo shortcode è già stato aggiunto."
+
+#: build/admin.js:75
+msgid "Button Label"
+msgstr "Etichetta del pulsante"
+
+#: build/admin.js:75
+msgid "The label shown on the Cookie Preferences link."
+msgstr "L'etichetta mostrata nel link Preferenze Cookie."
+
+#: build/admin.js:75
+msgid "Menu Level"
+msgstr "Livello del menu"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: build/admin.js:75
+msgid "Floating Widget"
+msgstr "Widget flottante"
+
+#: build/admin.js:75
+msgid "Select a WordPress menu to automatically add the Cookie Preferences link to it. When clicked, it opens the consent preferences modal directly."
+msgstr "Seleziona un menu di WordPress per aggiungere automaticamente il link Preferenze Cookie. Quando cliccato, apre direttamente la finestra delle preferenze di consenso."
+
+#: build/admin.js:75
+msgid "No WordPress menus found."
+msgstr "Nessun menu di WordPress trovato."
+
+#: build/admin.js:75
+msgid "Create a menu in Appearance > Menus."
+msgstr "Crea un menu in Aspetto > Menu."
+
+#: build/admin.js:75
+msgid "Select Menu"
+msgstr "Seleziona menu"
+
+#: build/admin.js:75
+msgid "Use this shortcode to display the Cookie Preferences link anywhere on your site. When clicked, it opens the consent preferences modal directly."
+msgstr "Usa questo shortcode per mostrare il link Preferenze Cookie ovunque sul tuo sito. Quando cliccato, apre direttamente la finestra delle preferenze di consenso."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode Copied!"
+msgstr "Shortcode copiato!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Could not copy to clipboard. Please copy the shortcode manually."
+msgstr "Impossibile copiare negli appunti. Per favore copia manualmente lo shortcode."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copied!"
+msgstr "Copiato!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copy shortcode"
+msgstr "Copia shortcode"
+
+#: build/admin.js:75
+msgid "Enable Floating Widget"
+msgstr "Abilita widget flottante"
+
+#: build/admin.js:75
+msgid "to show a floating cookie preferences button on every page."
+msgstr "per mostrare un pulsante flottante delle preferenze cookie in ogni pagina."
+
+#: build/admin.js:75
+msgid "Free version"
+msgstr "Versione gratuita"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Analytics"
+msgstr "Analitica"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Marketing"
+msgstr "Marketing"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Functional"
+msgstr "Funzionale"
+
+#: build/admin.js:76
+msgid "Resource"
+msgstr "Risorsa"
+
+#: build/admin.js:76
+msgid "Script"
+msgstr "Script"
+
+#: build/admin.js:76
+msgid "Iframe"
+msgstr "Iframe"
+
+#: build/admin.js:78
+msgid "The selected page is not published and will not appear to visitors."
+msgstr "La pagina selezionata non è pubblicata e non sarà visibile ai visitatori."
+
+#: build/admin.js:78
+msgid "The previously selected page no longer exists or could not be loaded."
+msgstr "La pagina precedentemente selezionata non esiste più o non può essere caricata."
+
+#: build/admin.js:78
+msgid "Cookie Policy Page"
+msgstr "Pagina della politica sui cookie"
+
+#: build/admin.js:78
+msgid "A link to this page will appear in the consent preferences modal footer."
+msgstr "Un link a questa pagina apparirà nel footer della finestra delle preferenze di consenso."
+
+#: build/admin.js:78
+msgid "Auto Generate"
+msgstr "Genera automaticamente"
+
+#: build/admin.js:78
+msgid "Automatically create a published Cookie Policy page containing a dynamically generated cookie table that always stays up to date."
+msgstr "Crea automaticamente una pagina pubblicata della politica sui cookie contenente una tabella dinamica sempre aggiornata."
+
+#: build/admin.js:78
+msgid "Cookie Policy page created successfully!"
+msgstr "Pagina della politica sui cookie creata con successo!"
+
+#: build/admin.js:78
+msgid "Failed to generate page. Please try again."
+msgstr "Impossibile generare la pagina. Per favore riprova."
+
+#: build/admin.js:78
+msgid "An error occurred while generating the page. Please try again."
+msgstr "Si è verificato un errore durante la generazione della pagina. Per favore riprova."
+
+#: build/admin.js:78
+msgid "Page Already Linked"
+msgstr "Pagina già collegata"
+
+#: build/admin.js:78
+msgid "Generate Cookie Policy Page"
+msgstr "Genera pagina della politica sui cookie"
+
+#: build/admin.js:78
+msgid "Edit Page"
+msgstr "Modifica pagina"
+
+#: build/admin.js:78
+msgid "View Page"
+msgstr "Visualizza pagina"
+
+#: build/admin.js:78
+msgid "Use this shortcode to display the cookie policy with a dynamically generated cookie table on any page or post. The table always reflects the latest scanned and custom cookies."
+msgstr "Usa questo shortcode per visualizzare la politica sui cookie con una tabella dei cookie generata dinamicamente su qualsiasi pagina o post. La tabella riflette sempre gli ultimi cookie scansionati e personalizzati."
+
+#: build/admin.js:84
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: build/admin.js:84
+msgid "Mandatory for EU/EEA as of March 2024"
+msgstr "Obbligatorio per UE/SEE da marzo 2024"
+
+#: build/admin.js:84
+msgid "Google now requires Consent Mode v2 for all websites using Google services in the European Economic Area."
+msgstr "Google ora richiede il Consent Mode v2 per tutti i siti web che utilizzano i servizi Google nell'Area Economica Europea."
+
+#: build/admin.js:84
+msgid "Learn more about Google Consent Mode v2 →"
+msgstr "Scopri di più su Google Consent Mode v2 →"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode Switch"
+msgstr "Abilita interruttore Google Consent Mode"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode"
+msgstr "Abilita Google Consent Mode"
+
+#: build/admin.js:84
+msgid "Wait Time (milliseconds)"
+msgstr "Tempo di attesa (millisecondi)"
+
+#: build/admin.js:84
+msgid "How long Google services wait for consent before making requests. Default: 500ms. Range: 0–2000ms."
+msgstr "Quanto tempo i servizi Google attendono il consenso prima di effettuare richieste. Predefinito: 500ms. Intervallo: 0–2000ms."
+
+#: build/admin.js:84
+msgid "Where should the banner appear?"
+msgstr "Dove dovrebbe apparire il banner?"
+
+#: build/admin.js:84
+msgid "Choose where the banner is shown. Visitors outside selected regions will not see it."
+msgstr "Scegli dove mostrare il banner. I visitatori fuori dalle regioni selezionate non lo vedranno."
+
+#: build/admin.js:84
+msgid "Show to all visitors worldwide"
+msgstr "Mostra a tutti i visitatori nel mondo"
+
+#: build/admin.js:84
+msgid "Use the same experience for everyone, regardless of location."
+msgstr "Usa la stessa esperienza per tutti, indipendentemente dalla posizione."
+
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/admin.js:78
+#: build/admin.js:84
+msgid "Pro"
+msgstr "Pro"
+
+#: build/admin.js:84
+msgid "Show only where required by law"
+msgstr "Mostra solo dove richiesto dalla legge"
+
+#: build/admin.js:84
+msgid "Target specific regions with tailored consent experiences."
+msgstr "Targetizza regioni specifiche con esperienze di consenso personalizzate."
+
+#: build/admin.js:84
+msgid "Mode: Show to all visitors worldwide"
+msgstr "Modalità: mostra a tutti i visitatori nel mondo"
+
+#: build/admin.js:84
+msgid "Your existing banner settings apply to all visitors. No geographic targeting is active."
+msgstr "Le impostazioni esistenti del banner si applicano a tutti i visitatori. Nessun targeting geografico è attivo."
+
+#: build/admin.js:84
+msgid "Unlock Regional Targeting"
+msgstr "Sblocca il targeting regionale"
+
+#: build/admin.js:84
+msgid "Show banner only in selected regions, create custom regional rules, and control fallback behavior."
+msgstr "Mostra il banner solo nelle regioni selezionate, crea regole regionali personalizzate e controlla il comportamento di fallback."
+
+#: build/admin.js:84
+msgid "Location detection uses GeoLite2 data by MaxMind, available from <link>https://www.maxmind.com</link>."
+msgstr "Il rilevamento della posizione utilizza i dati GeoLite2 di MaxMind, disponibili su <link>https://www.maxmind.com</link>."
+
+#: build/onboarding.js:1
+msgid "An error occurred while connecting"
+msgstr "Si è verificato un errore durante la connessione"
+
+#: build/onboarding.js:6
+msgid "Email address is required"
+msgstr "L'indirizzo email è obbligatorio"
+
+#: build/onboarding.js:6
+msgid "Classify cookies automatically"
+msgstr "Classifica automaticamente i cookie"
+
+#: build/onboarding.js:6
+msgid "Get smart compliance recommendations"
+msgstr "Ottieni raccomandazioni intelligenti per la conformità"
+
+#: build/onboarding.js:6
+msgid "Generate privacy-compliant descriptions"
+msgstr "Genera descrizioni conformi alla privacy"
+
+#: build/onboarding.js:6
+msgid "Connect Your Account"
+msgstr "Collega il tuo account"
+
+#: build/onboarding.js:6
+msgid "Connect your SureCookie account to automatically classify cookies, generate compliant descriptions, and get smart recommendations for your privacy needs."
+msgstr "Collega il tuo account SureCookie per classificare automaticamente i cookie, generare descrizioni conformi e ottenere raccomandazioni intelligenti per le tue esigenze di privacy."
+
+#: build/onboarding.js:6
+msgid "Here's what you can do:"
+msgstr "Ecco cosa puoi fare:"
+
+#: build/onboarding.js:6
+msgid "List of capabilities"
+msgstr "Elenco delle funzionalità"
+
+#: build/onboarding.js:6
+msgid "Connected to SureCookie"
+msgstr "Connesso a SureCookie"
+
+#: build/onboarding.js:6
+msgid "Connecting…"
+msgstr "Connessione in corso…"
+
+#: build/onboarding.js:6
+msgid "Connect"
+msgstr "Connetti"
+
+#: build/onboarding.js:11
+msgid "Account not connected"
+msgstr "Account non connesso"
+
+#: build/onboarding.js:14
+msgid "Connect Required"
+msgstr "Connessione richiesta"
+
+#: build/onboarding.js:14
+msgid "Please connect your account to get free scanning credits."
+msgstr "Per favore collega il tuo account per ottenere crediti di scansione gratuiti."
+
+#: build/onboarding.js:14
+msgid "Finish"
+msgstr "Fine"
+
+#: build/public.js:4
+msgid "Banner logo"
+msgstr "Logo banner"
+
+#: build/public.js:4
+msgid "Decline all non-essential cookies"
+msgstr "Rifiuta tutti i cookie non essenziali"
+
+#: build/public.js:4
+msgid "Manage cookie preferences"
+msgstr "Gestisci le preferenze sui cookie"
+
+#: build/public.js:4
+msgid "Accept only essential cookies"
+msgstr "Accetta solo i cookie essenziali"
+
+#: build/public.js:4
+msgid "Accept all cookies"
+msgstr "Accetta tutti i cookie"
+
+#. Description of the plugin
+#: surecookie.php
+msgid "Real cookie consent for WordPress. Browser-based scanning, smart categorization, strict script blocking, and consent logs stored in your database."
+msgstr "Consenso reale ai cookie per WordPress. Scansione basata sul browser, categorizzazione intelligente, blocco rigoroso degli script e registri del consenso memorizzati nel tuo database."
+
+#: admin/menu.php:300
+#: admin/menu.php:301
+msgid "Upgrade"
+msgstr "Aggiorna"
+
+#: admin/rating-notice.php:234
+msgid "If SureCookie has been helpful, would you mind taking a moment to leave a 5-star review on WordPress.org?"
+msgstr "Se SureCookie ti è stato utile, ti dispiacerebbe dedicare un momento per lasciare una recensione a 5 stelle su WordPress.org?"
+
+#: admin/rating-notice.php:243
+msgid "Rate SureCookie"
+msgstr "Valuta SureCookie"
+
+#: admin/rating-notice.php:251
+msgid "Maybe later"
+msgstr "Forse più tardi"
+
+#: admin/rating-notice.php:255
+msgid "I already did"
+msgstr "L'ho già fatto"
+
+#: inc/integrations/wp-consent-api/actions.php:62
+msgid "days"
+msgstr "giorni"
+
+#: inc/integrations/wp-consent-api/actions.php:69
+msgid "Stores the user's cookie consent preferences."
+msgstr "Memorizza le preferenze di consenso ai cookie dell'utente."
+
+#: inc/integrations/wp-consent-api/actions.php:76
+msgid "1 year"
+msgstr "1 anno"
+
+#: inc/integrations/wp-consent-api/actions.php:77
+msgid "Tracks consent log sessions for audit purposes."
+msgstr "Traccia le sessioni del registro del consenso per scopi di audit."
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie toggle"
+msgstr "Contribuisci all'interruttore SureCookie"
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie"
+msgstr "Contribuisci a SureCookie"
+
+#: build/admin.js:53
+#: build/admin.js:84
+msgid "Learn More"
+msgstr "Per saperne di più"
+
+#: build/admin.js:44
+#: build/onboarding.js:4
+msgid "Launch Setup Wizard"
+msgstr "Avvia la procedura guidata di configurazione"
+
+#. translators: %d: maximum pages
+#: build/admin.js:61
+#: build/admin.js:73
+#: build/onboarding.js:5
+#: build/onboarding.js:14
+#, js-format
+msgid "You have selected more than %d pages"
+msgstr "Hai selezionato più di %d pagine"
+
+#. translators: %d: maximum pages
+#: build/admin.js:65
+#: build/onboarding.js:9
+#, js-format
+msgid "Your plan supports scanning up to %d pages. Please remove extra pages to continue."
+msgstr "Il tuo piano supporta la scansione di un massimo di %d pagine. Rimuovi le pagine extra per continuare."
+
+#: build/admin.js:83
+msgid "Please enter at least one region code"
+msgstr "Inserisci almeno un codice regione"
+
+#: build/admin.js:83
+msgid "Invalid region code format. Use ISO 3166 codes like EU, US, US-CA, or GB."
+msgstr "Formato del codice regione non valido. Usa codici ISO 3166 come EU, US, US-CA o GB."
+
+#: build/admin.js:83
+msgid "EU/EEA (GDPR)"
+msgstr "UE/SEE (GDPR)"
+
+#: build/admin.js:83
+msgid "California (CCPA)"
+msgstr "California (CCPA)"
+
+#: build/admin.js:83
+msgid "United Kingdom"
+msgstr "Regno Unito"
+
+#: build/admin.js:83
+msgid "Brazil (LGPD)"
+msgstr "Brasile (LGPD)"
+
+#: build/admin.js:83
+msgid "Edit Regional Rule"
+msgstr "Modifica regola regionale"
+
+#: build/admin.js:83
+msgid "Add Regional Rule"
+msgstr "Aggiungi regola regionale"
+
+#: build/admin.js:83
+msgid "Set default consent state for visitors from this region. Google uses the most specific match."
+msgstr "Imposta lo stato di consenso predefinito per i visitatori di questa regione. Google usa la corrispondenza più specifica."
+
+#: build/admin.js:83
+msgid "Add Rule"
+msgstr "Aggiungi regola"
+
+#: build/admin.js:83
+msgid "Quick Presets"
+msgstr "Preimpostazioni rapide"
+
+#: build/admin.js:83
+msgid "Apply preset:"
+msgstr "Applica preimpostazione:"
+
+#: build/admin.js:83
+msgid "Region Codes"
+msgstr "Codici regione"
+
+#: build/admin.js:83
+msgid "Comma-separated ISO 3166 codes: EU, US, US-CA, GB, BR, etc."
+msgstr "Codici ISO 3166 separati da virgola: EU, US, US-CA, GB, BR, ecc."
+
+#: build/admin.js:83
+msgid "Default Consent State"
+msgstr "Stato di consenso predefinito"
+
+#: build/admin.js:83
+msgid "Choose which categories are granted by default for visitors from this region before they interact with the banner."
+msgstr "Scegli quali categorie sono concesse di default ai visitatori di questa regione prima che interagiscano con il banner."
+
+#: build/admin.js:83
+msgid "Functional Storage"
+msgstr "Archiviazione funzionale"
+
+#: build/admin.js:83
+msgid "Enables storage for site functionality like preferences and language."
+msgstr "Abilita l'archiviazione per funzionalità del sito come preferenze e lingua."
+
+#: build/admin.js:83
+msgid "Functional storage default"
+msgstr "Archiviazione funzionale predefinita"
+
+#: build/admin.js:83
+msgid "Analytics Storage"
+msgstr "Archiviazione per analisi"
+
+#: build/admin.js:83
+msgid "Enables storage for analytics purposes like visit duration and page views."
+msgstr "Abilita l'archiviazione per scopi analitici come durata della visita e visualizzazioni di pagina."
+
+#: build/admin.js:83
+msgid "Analytics storage default"
+msgstr "Impostazione predefinita di archiviazione analitica"
+
+#: build/admin.js:83
+msgid "Marketing / Ads Storage"
+msgstr "Archiviazione Marketing / Pubblicità"
+
+#: build/admin.js:83
+msgid "Enables storage for advertising purposes including ad personalization and user data."
+msgstr "Abilita l'archiviazione per scopi pubblicitari, inclusa la personalizzazione degli annunci e i dati degli utenti."
+
+#: build/admin.js:83
+msgid "Marketing storage default"
+msgstr "Impostazione predefinita di archiviazione marketing"
+
+#: build/admin.js:83
+msgid "Essential cookies (security_storage) are always granted. These defaults apply before the visitor interacts with the consent banner."
+msgstr "I cookie essenziali (security_storage) sono sempre concessi. Queste impostazioni predefinite si applicano prima che il visitatore interagisca con il banner del consenso."
+
+#: build/admin.js:83
+msgid "Granted"
+msgstr "Concesso"
+
+#: build/admin.js:83
+msgid "Denied"
+msgstr "Negato"
+
+#: build/admin.js:83
+msgid "Active Regional Rules"
+msgstr "Regole regionali attive"
+
+#: build/admin.js:83
+msgid "Set different default consent states per region. Google uses the most specific match (e.g., US-CA overrides US)."
+msgstr "Imposta stati di consenso predefiniti diversi per regione. Google utilizza la corrispondenza più specifica (ad esempio, US-CA sovrascrive US)."
+
+#: build/admin.js:83
+msgid "Edit rule for"
+msgstr "Modifica regola per"
+
+#: build/admin.js:83
+msgid "Delete rule for"
+msgstr "Elimina regola per"
+
+#: build/admin.js:83
+msgid "No regional rules configured. The global default (deny all except essential) applies to all visitors."
+msgstr "Nessuna regola regionale configurata. Il valore predefinito globale (nega tutto tranne l'essenziale) si applica a tutti i visitatori."
+
+#. translators: %s: comma-separated duplicate region codes
+#: build/admin.js:84
+#, js-format
+msgid "These region codes already exist in another rule: %s"
+msgstr "Questi codici regionali esistono già in un'altra regola: %s"
+
+#: build/admin.js:84
+msgid "Delete Regional Rule"
+msgstr "Elimina regola regionale"
+
+#: build/admin.js:84
+msgid "Are you sure you want to delete this regional consent rule? Visitors from this region will use the global default."
+msgstr "Sei sicuro di voler eliminare questa regola di consenso regionale? I visitatori di questa regione utilizzeranno il valore predefinito globale."
+
+#: build/admin.js:84
+msgid "Automatically communicate user consent preferences to Google services."
+msgstr "Comunica automaticamente le preferenze di consenso degli utenti ai servizi Google."
+
+#: build/admin.js:84
+msgid "Supported services: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, and DV360"
+msgstr "Servizi supportati: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight e DV360"
+
+#: build/public.js:4
+msgid "Cookie Consent"
+msgstr "Consenso cookie"
+
+#: inc/api/consent-logs.php:318
+#: inc/api/consent-logs.php:345
+msgid "Request origin could not be verified."
+msgstr "L'origine della richiesta non può essere verificata."
+
+#: inc/api/consent-logs.php:614
+msgid "Accept All is not enabled for this site."
+msgstr "Accetta tutto non è abilitato per questo sito."
+
+#: inc/api/posts.php:199
+msgid "Post not found."
+msgstr "Post non trovato."
+
+#: inc/modules/site-scanner/saas-client.php:1043
+msgid "Quota is not available on localhost or development sites."
+msgstr "La quota non è disponibile su localhost o siti di sviluppo."
+
+#: inc/modules/site-scanner/saas-client.php:1102
+msgid "Unexpected response from server."
+msgstr "Risposta imprevista dal server."
+
+#: inc/modules/site-scanner/saas-client.php:1149
+msgid "Authentication required."
+msgstr "Autenticazione richiesta."
+
+#: inc/modules/site-scanner/saas-client.php:1159
+msgid "Failed to fetch quota."
+msgstr "Impossibile recuperare la quota."
+
+#: inc/utils/options.php:150
+msgid "We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience."
+msgstr "Utilizziamo cookie e tecnologie simili per aiutare a personalizzare i contenuti, adattare e misurare gli annunci e fornire un'esperienza migliore."
+
+#: build/admin.js:2
+msgid "Configure the text content that appears in your cookie consent banner and preference modal"
+msgstr "Configura il contenuto testuale che appare nel banner di consenso cookie e nella finestra delle preferenze"
+
+#: build/admin.js:2
+msgid "Consent Banner"
+msgstr "Banner di consenso"
+
+#: build/admin.js:2
+msgid "Preference Modal"
+msgstr "Finestra delle preferenze"
+
+#: build/admin.js:2
+msgid "Show the \"Accept All\" button on the consent banner. When off, the button is removed from the banner and from the Button Order list."
+msgstr "Mostra il pulsante \"Accetta tutto\" nel banner di consenso. Se disattivato, il pulsante viene rimosso dal banner e dall'elenco dell'ordine dei pulsanti."
+
+#: build/admin.js:2
+msgid "Preference Modal Title"
+msgstr "Titolo della finestra delle preferenze"
+
+#: build/admin.js:2
+msgid "Preference Modal Description"
+msgstr "Descrizione della finestra delle preferenze"
+
+#: build/admin.js:2
+msgid "Preference modal description cannot be empty."
+msgstr "La descrizione della finestra delle preferenze non può essere vuota."
+
+#: build/admin.js:53
+msgid "Help shape the future of SureCookie. Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions."
+msgstr "Aiuta a plasmare il futuro di SureCookie. Condividi come usi il plugin così possiamo sviluppare funzionalità importanti, risolvere i problemi più velocemente e prendere decisioni più intelligenti."
+
+#. translators: 1: current page index, 2: total pages
+#: build/admin.js:54
+#, js-format
+msgid "Scanning page %1$d of %2$d…"
+msgstr "Scansione pagina %1$d di %2$d…"
+
+#: build/admin.js:54
+msgid "Analyzing cookies…"
+msgstr "Analisi dei cookie…"
+
+#: build/admin.js:54
+msgid "Finalizing…"
+msgstr "Finalizzazione…"
+
+#: build/admin.js:54
+msgid "Scan failed"
+msgstr "Scansione fallita"
+
+#: build/admin.js:54
+msgid "Scan progress"
+msgstr "Progresso della scansione"
+
+#: build/admin.js:55
+msgid "Preparing scan…"
+msgstr "Preparazione della scansione…"
+
+#: build/admin.js:60
+msgid "Your scan limit will reset tomorrow."
+msgstr "Il tuo limite di scansioni si resetterà domani."
+
+#. translators: 1: remaining scans, 2: total daily scans
+#: build/admin.js:68
+#: build/onboarding.js:12
+#, js-format
+msgid "You have %1$d of %2$d daily scans remaining"
+msgstr "Hai %1$d di %2$d scansioni giornaliere rimanenti"
+
+#. translators: %s: time until reset (e.g. "4h 22m")
+#: build/admin.js:69
+#: build/admin.js:71
+#, js-format
+msgid "Resets in %s"
+msgstr "Si resetta in %s"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Limits refreshed."
+msgstr "Limiti aggiornati."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Failed to refresh limits."
+msgstr "Aggiornamento dei limiti fallito."
+
+#: build/admin.js:71
+msgid "Your session expired. Please reload to reconnect."
+msgstr "La tua sessione è scaduta. Ricarica per riconnetterti."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "We couldn't fetch your limits right now. Please try again in a moment."
+msgstr "Non siamo riusciti a recuperare i tuoi limiti in questo momento. Riprova tra un attimo."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refreshing…"
+msgstr "Aggiornamento in corso…"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refresh limits"
+msgstr "Aggiorna limiti"
+
+#: build/admin.js:78
+msgid "Clear selected page"
+msgstr "Pulisci la pagina selezionata"
+
+#: build/admin.js:78
+msgid "Select a Page"
+msgstr "Seleziona una pagina"
+
+#: build/onboarding.js:11
+msgid "Please <a>go back</a> and connect your SureCookie account to enable cookie scanning."
+msgstr "Per favore <a>torna indietro</a> e collega il tuo account SureCookie per abilitare la scansione dei cookie."
+
+#: build/onboarding.js:12
+msgid "Your session expired. Please reconnect to continue."
+msgstr "La tua sessione è scaduta. Riconnettiti per continuare."
+
+#: build/onboarding.js:14
+msgid "You're all set. Let's go live 🚀"
+msgstr "Sei pronto. Andiamo in diretta 🚀"
+
+#: build/onboarding.js:14
+msgid "From consent logs to region-based preferences, SureCookie helps you stay compliant while building visitor trust."
+msgstr "Dai registri del consenso alle preferenze basate sulla regione, SureCookie ti aiuta a rimanere conforme mentre costruisci la fiducia dei visitatori."
+
+#: admin/menu.php:91
+#: build/admin.js:2
+msgid "Learn"
+msgstr "Impara"
+
+#: inc/api/consent-logs.php:376
+#: inc/api/consent-logs.php:515
+msgid "Too many requests. Please try again later."
+msgstr "Troppe richieste. Riprova più tardi."
+
+#: inc/api/consent-logs.php:544
+msgid "Preferences data is too large."
+msgstr "I dati delle preferenze sono troppo grandi."
+
+#: inc/api/consent-logs.php:555
+#: inc/api/consent-logs.php:566
+msgid "Invalid preferences format."
+msgstr "Formato delle preferenze non valido."
+
+#: inc/modules/auth/controller.php:71
+msgid "Could not generate secure auth key."
+msgstr "Impossibile generare una chiave di autenticazione sicura."
+
+#: inc/modules/auth/controller.php:179
+msgid "Invalid flow identifier."
+msgstr "Identificatore del flusso non valido."
+
+#: inc/modules/site-scanner/cron.php:122
+msgid "Scan failed."
+msgstr "Scansione fallita."
+
+#: inc/modules/site-scanner/saas-client.php:422
+msgid "Could not generate a secure scan token. Please retry."
+msgstr "Impossibile generare un token di scansione sicuro. Riprova."
+
+#: inc/modules/site-scanner/saas-client.php:1056
+msgid "Scanner credentials are not yet issued. Run your first scan to register."
+msgstr "Le credenziali dello scanner non sono ancora state emesse. Esegui la tua prima scansione per registrarti."
+
+#: inc/modules/site-scanner/saas-client.php:1476
+msgid "Another registration is already in progress. Please try again in a moment."
+msgstr "Un'altra registrazione è già in corso. Riprova tra un momento."
+
+#: inc/modules/site-scanner/saas-client.php:1506
+msgid "Could not determine site domain."
+msgstr "Impossibile determinare il dominio del sito."
+
+#: inc/modules/site-scanner/saas-client.php:1518
+msgid "Could not generate a secure registration nonce. Please retry."
+msgstr "Impossibile generare un nonce di registrazione sicuro. Riprova."
+
+#: inc/modules/site-scanner/saas-client.php:1546
+msgid "Failed to encode registration request."
+msgstr "Codifica della richiesta di registrazione fallita."
+
+#. translators: %s: error message from the network call
+#: inc/modules/site-scanner/saas-client.php:1568
+#, php-format
+msgid "Could not reach the SureCookie service: %s"
+msgstr "Impossibile raggiungere il servizio SureCookie: %s"
+
+#: inc/modules/site-scanner/saas-client.php:1582
+msgid "Registration could not be initiated."
+msgstr "Impossibile avviare la registrazione."
+
+#: inc/modules/site-scanner/saas-client.php:1597
+msgid "Received an invalid verification token. Please retry."
+msgstr "Ricevuto un token di verifica non valido. Riprova."
+
+#: inc/modules/site-scanner/saas-client.php:1615
+msgid "Failed to encode verification completion."
+msgstr "Codifica del completamento della verifica fallita."
+
+#: build/admin.js:2
+#: build/admin.js:78
+msgid "Visibility"
+msgstr "Visibilità"
+
+#: build/admin.js:2
+msgid "Additional Consent"
+msgstr "Consenso aggiuntivo"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Please return to the SureCookie dashboard and try again."
+msgstr "Torna alla dashboard di SureCookie e riprova."
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:47
+#, js-format
+msgid "%1$d of %2$d steps complete"
+msgstr "%1$d di %2$d passaggi completati"
+
+#: build/admin.js:47
+msgid "You're all set! SureCookie is ready to protect your site."
+msgstr "Tutto pronto! SureCookie è pronto a proteggere il tuo sito."
+
+#: build/admin.js:47
+msgid "Scan Your Site for Cookies"
+msgstr "Scansiona il tuo sito per i cookie"
+
+#: build/admin.js:47
+msgid "Run the cookie scanner to discover and categorize cookies your site uses."
+msgstr "Esegui lo scanner dei cookie per scoprire e categorizzare i cookie utilizzati dal tuo sito."
+
+#: build/admin.js:47
+msgid "Scan Now"
+msgstr "Scansiona ora"
+
+#: build/admin.js:47
+msgid "Set up the Consent Banner"
+msgstr "Configura il banner del consenso"
+
+#: build/admin.js:47
+msgid "Customize your cookie consent banner - content, layout, and visibility."
+msgstr "Personalizza il banner di consenso ai cookie - contenuto, layout e visibilità."
+
+#: build/admin.js:47
+msgid "Review Consent Logs"
+msgstr "Rivedi i registri del consenso"
+
+#: build/admin.js:47
+msgid "See who has consented and when - useful for compliance audits."
+msgstr "Vedi chi ha dato il consenso e quando - utile per le verifiche di conformità."
+
+#: build/admin.js:47
+msgid "View Logs"
+msgstr "Visualizza registri"
+
+#: build/admin.js:47
+msgid "Publish Your Cookie Policy"
+msgstr "Pubblica la tua politica sui cookie"
+
+#: build/admin.js:47
+msgid "Review and publish the cookie policy page on your site."
+msgstr "Rivedi e pubblica la pagina della politica sui cookie sul tuo sito."
+
+#: build/admin.js:47
+msgid "Review Page"
+msgstr "Rivedi pagina"
+
+#: build/admin.js:47
+msgid "Generate a cookie policy page so visitors know how you handle their data."
+msgstr "Genera una pagina della politica sui cookie in modo che i visitatori sappiano come gestisci i loro dati."
+
+#: build/admin.js:47
+msgid "Create Page"
+msgstr "Crea pagina"
+
+#: build/admin.js:47
+msgid "Get Started with SureCookie"
+msgstr "Inizia con SureCookie"
+
+#: build/admin.js:47
+msgid "Follow these steps to set up cookie consent on your site in minutes."
+msgstr "Segui questi passaggi per configurare il consenso ai cookie sul tuo sito in pochi minuti."
+
+#: build/admin.js:47
+msgid "See full documentation →"
+msgstr "Vedi la documentazione completa →"
+
+#: build/admin.js:47
+msgid "Continue Learning"
+msgstr "Continua a imparare"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:50
+#, js-format
+msgid "%1$d of %2$d setup steps complete."
+msgstr "%1$d di %2$d passaggi di configurazione completati."
+
+#: build/admin.js:50
+msgid "Open Learn"
+msgstr "Apri Impara"
+
+#: build/admin.js:78
+msgid "Control where your cookie banner appears on your site."
+msgstr "Controlla dove appare il banner dei cookie sul tuo sito."
+
+#: build/admin.js:78
+msgid "Want More Control over Your Cookie Banner?"
+msgstr "Vuoi più controllo sul tuo banner dei cookie?"
+
+#: build/admin.js:78
+msgid "Upgrade to hide it on selected pages, posts, archives, or on specific user roles."
+msgstr "Aggiorna per nasconderlo in pagine, post, archivi selezionati o per ruoli utente specifici."
+
+#: build/admin.js:87
+msgid "IAB Transparency & Consent Framework"
+msgstr "Quadro di Trasparenza e Consenso IAB"
+
+#: build/admin.js:87
+msgid "Make your consent banner compliant with IAB TCF 2.3 and integrate with the Global Vendor List."
+msgstr "Rendi il tuo banner di consenso conforme a IAB TCF 2.3 e integralo con la Global Vendor List."
+
+#: build/admin.js:87
+msgid "Unlock IAB TCF 2.3 Compliance - Coming Soon"
+msgstr "Sblocca la conformità IAB TCF 2.3 - Prossimamente"
+
+#: build/admin.js:87
+msgid "Enable full TCF mode, generate TC strings, and display the IAB vendor list to your visitors."
+msgstr "Abilita la modalità TCF completa, genera le stringhe TC e mostra la lista dei fornitori IAB ai tuoi visitatori."
+
+#: build/admin.js:87
+msgid "Google Additional Consent (AC)"
+msgstr "Consenso aggiuntivo Google (AC)"
+
+#: build/admin.js:87
+msgid "Add Google Additional Consent alongside IAB TCF to handle ad-tech vendors not on the IAB Global Vendor List."
+msgstr "Aggiungi il consenso aggiuntivo Google insieme a IAB TCF per gestire i fornitori ad-tech non presenti nella lista globale dei fornitori IAB."
+
+#: build/admin.js:87
+msgid "Unlock Google Additional Consent - Coming Soon"
+msgstr "Sblocca il consenso aggiuntivo Google - Prossimamente"
+
+#: build/admin.js:87
+msgid "Generate the AC string, mirror the addtl_consent cookie, and display Google's Additional Consent provider list to your visitors - required for full Google Ads / GAM monetization."
+msgstr "Genera la stringa AC, rispecchia il cookie addtl_consent e mostra ai tuoi visitatori la lista dei fornitori di consenso aggiuntivo di Google - necessario per la monetizzazione completa di Google Ads / GAM."
+
+#: build/onboarding.js:1
+msgid "Failed to get authentication payload"
+msgstr "Impossibile ottenere il payload di autenticazione"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Consent Forwarding"
+msgstr "Inoltro del consenso"
+
+#: build/admin.js:2
+msgid "Want custom brand colors?"
+msgstr "Vuoi colori personalizzati per il brand?"
+
+#: build/admin.js:3
+#: build/admin.js:4
+msgid "Received from"
+msgstr "Ricevuto da"
+
+#: build/admin.js:3
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Received"
+msgstr "Ricevuto"
+
+#. translators: %d: number of sites
+#: build/admin.js:4
+#, js-format
+msgid "Shared to %d site(s)"
+msgstr "Condiviso con %d sito(i)"
+
+#: build/admin.js:4
+msgid "Consent not received for"
+msgstr "Consenso non ricevuto per"
+
+#: build/admin.js:4
+msgid "These categories exist only on this site and were not part of the forwarded consent. The visitor will be prompted to set their preferences for these when they visit this site directly."
+msgstr "Queste categorie esistono solo su questo sito e non facevano parte del consenso inoltrato. Il visitatore sarà invitato a impostare le proprie preferenze per queste categorie quando visiterà direttamente questo sito."
+
+#: build/admin.js:4
+msgid "More information about these categories"
+msgstr "Ulteriori informazioni su queste categorie"
+
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Shared"
+msgstr "Condiviso"
+
+#: build/admin.js:4
+msgid "Shared to"
+msgstr "Condiviso con"
+
+#: build/admin.js:4
+msgid "Consent Session ID"
+msgstr "ID sessione consenso"
+
+#: build/admin.js:4
+msgid "Localhost"
+msgstr "Localhost"
+
+#: build/admin.js:6
+msgid "Consent log export upgrade"
+msgstr "Aggiornamento esportazione registro consenso"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preference sections"
+msgstr "Sezioni delle preferenze"
+
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Cookies"
+msgstr "Cookie"
+
+#. translators: %d: number of partner sites
+#: build/admin.js:51
+#: build/public.js:2
+#, js-format
+msgid "%d connected site(s)"
+msgstr "%d sito(i) connesso(i)"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Sites that will receive your consent"
+msgstr "Siti che riceveranno il tuo consenso"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "No partner sites configured."
+msgstr "Nessun sito partner configurato."
+
+#: build/admin.js:53
+msgid "Cookie Notice"
+msgstr "Avviso sui cookie"
+
+#: build/admin.js:84
+msgid "Automatically sync cookie consent across multiple domains and forward consent choices to connected services, without asking visitors to consent again."
+msgstr "Sincronizza automaticamente il consenso ai cookie su più domini e inoltra le scelte di consenso ai servizi connessi, senza chiedere nuovamente il consenso ai visitatori."
+
+#: inc/modules/mcp/server.php:100
+msgid "SureCookie MCP Server"
+msgstr "Server SureCookie MCP"
+
+#: inc/modules/mcp/server.php:101
+msgid "SureCookie MCP Server for cookie consent settings, consent logs, cookie management, and site scanning workflows."
+msgstr "Server SureCookie MCP per le impostazioni del consenso ai cookie, i registri del consenso, la gestione dei cookie e i flussi di lavoro di scansione del sito."
+
+#. translators: %s: navigation group label
+#: build/admin.js:2
+#, js-format
+msgid "%s submenu"
+msgstr "%s sottomenu"
+
+#: build/admin.js:2
+msgid "General"
+msgstr "Generale"
+
+#: build/admin.js:2
+msgid "Consent & Data"
+msgstr "Consenso e Dati"
+
+#: build/admin.js:2
+msgid "Consent Frameworks"
+msgstr "Quadri di Consenso"
+
+#: build/admin.js:2
+msgid "IAB-TCF"
+msgstr "IAB-TCF"
+
+#: build/admin.js:2
+msgid "Enter text"
+msgstr "Inserisci testo"
+
+#: build/admin.js:2
+msgid "Enter Banner Message"
+msgstr "Inserisci messaggio del banner"
+
+#: build/admin.js:2
+msgid "Control how long consent stays valid and how consent records are stored."
+msgstr "Controlla per quanto tempo il consenso rimane valido e come vengono archiviati i record del consenso."
+
+#: build/admin.js:4
+msgid "N/A"
+msgstr "N/D"
+
+#. translators: %d: number of partner sites that received the forwarded consent.
+#: build/admin.js:15
+#, js-format
+msgid "This consent was shared with %d connected site. Deleting it here will also erase the copy from that site (GDPR Art. 17)."
+msgid_plural "This consent was shared with %d connected sites. Deleting it here will also erase the copies from those sites (GDPR Art. 17)."
+msgstr[0] "Questo consenso è stato condiviso con %d sito collegato. Cancellarlo qui eliminerà anche la copia da quel sito (GDPR Art. 17)."
+msgstr[1] "Questo consenso è stato condiviso con %d siti collegati. Cancellarlo qui eliminerà anche le copie da quei siti (GDPR Art. 17)."
+
+#. translators: %d: number of selected logs that were forwarded to partner sites.
+#: build/admin.js:21
+#, js-format
+msgid "%d of these logs was shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgid_plural "%d of these logs were shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgstr[0] "%d di questi registri è stato condiviso con siti partner collegati. La cancellazione eliminerà anche quelle copie inoltrate (GDPR Art. 17)."
+msgstr[1] "%d di questi registri sono stati condivisi con siti partner collegati. La cancellazione eliminerà anche quelle copie inoltrate (GDPR Art. 17)."
+
+#: build/admin.js:53
+msgid "Admin and plugin preferences for SureCookie."
+msgstr "Preferenze amministratore e plugin per SureCookie."
+
+#: build/admin.js:53
+msgid "SureCookie Admin Menu"
+msgstr "Menu amministratore SureCookie"
+
+#: build/admin.js:53
+msgid "Toggle to show SureCookie in the main menu or under Settings → SureCookie."
+msgstr "Attiva per mostrare SureCookie nel menu principale o sotto Impostazioni → SureCookie."
+
+#: build/admin.js:84
+msgid "Connect Your AI Client"
+msgstr "Connetti il tuo client AI"
+
+#: build/admin.js:84
+msgid "Create an Application Password"
+msgstr "Crea una password per l'applicazione"
+
+#: build/admin.js:84
+msgid "Open Application Passwords"
+msgstr "Apri password per l'applicazione"
+
+#: build/admin.js:84
+msgid "Add to your AI client:"
+msgstr "Aggiungi al tuo client AI:"
+
+#: build/admin.js:84
+msgid "Learn more about the WordPress MCP Adapter"
+msgstr "Scopri di più sull'adattatore MCP per WordPress"
+
+#: build/admin.js:84
+msgid "Claude Code"
+msgstr "Claude Code"
+
+#: build/admin.js:84
+msgid "Claude Desktop"
+msgstr "Claude Desktop"
+
+#: build/admin.js:84
+msgid "Cursor"
+msgstr "Cursor"
+
+#: build/admin.js:84
+msgid "VS Code"
+msgstr "VS Code"
+
+#: build/admin.js:84
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+#: build/admin.js:84
+msgid "go to Settings → Connectors → Add Connector, paste the endpoint URL, and use your WordPress username + Application Password."
+msgstr "vai su Impostazioni → Connettori → Aggiungi connettore, incolla l'URL endpoint e usa il tuo nome utente WordPress + Password per l'applicazione."
+
+#: build/admin.js:84
+msgid "Learn more about ChatGPT connectors"
+msgstr "Scopri di più sui connettori ChatGPT"
+
+#: build/admin.js:84
+msgid "SureCookie Only"
+msgstr "Solo SureCookie"
+
+#: build/admin.js:84
+msgid "Global"
+msgstr "Globale"
+
+#: build/admin.js:84
+msgid "Copy setup prompt for AI client"
+msgstr "Copia prompt di configurazione per client AI"
+
+#: build/admin.js:84
+msgid "Prompt copied! Paste it into your AI client."
+msgstr "Prompt copiato! Incollalo nel tuo client AI."
+
+#: build/admin.js:84
+msgid "Failed to copy prompt to clipboard"
+msgstr "Impossibile copiare il prompt negli appunti"
+
+#: build/admin.js:84
+msgid "Copy JSON config"
+msgstr "Copia configurazione JSON"
+
+#: build/admin.js:84
+msgid "Copied to clipboard"
+msgstr "Copiato negli appunti"
+
+#: build/admin.js:84
+msgid "Failed to copy to clipboard"
+msgstr "Impossibile copiare negli appunti"
+
+#: build/admin.js:84
+msgid "MCP Adapter plugin not detected"
+msgstr "Plugin MCP Adapter non rilevato"
+
+#. translators: %s: WP MCP Adapter plugin name.
+#: build/admin.js:87
+#, js-format
+msgid "To connect AI clients to your site, the %s plugin is required. Download the latest release from GitHub, upload it via Plugins > Add New > Upload Plugin, and activate."
+msgstr "Per connettere i client AI al tuo sito, è richiesto il plugin %s. Scarica l'ultima versione da GitHub, caricalo tramite Plugin > Aggiungi nuovo > Carica plugin e attivalo."
+
+#: build/admin.js:87
+msgid "Download from GitHub"
+msgstr "Scarica da GitHub"
+
+#: build/admin.js:2
+#: build/admin.js:87
+msgid "MCP"
+msgstr "MCP"
+
+#: build/admin.js:87
+msgid "Configure AI client access to SureCookie through the Model Context Protocol."
+msgstr "Configura l'accesso del client AI a SureCookie tramite il Model Context Protocol."
+
+#: build/admin.js:87
+msgid "Enable MCP"
+msgstr "Abilita MCP"
+
+#: build/admin.js:87
+msgid "Allow AI clients like Claude, ChatGPT, and Cursor to manage your cookie banner, scanner, and consent settings through SureCookie. When disabled, no abilities are registered and AI clients cannot connect."
+msgstr "Consenti ai client AI come Claude, ChatGPT e Cursor di gestire il tuo banner cookie, scanner e impostazioni di consenso tramite SureCookie. Quando disabilitato, nessuna abilità è registrata e i client AI non possono connettersi."
+
+#: build/admin.js:87
+msgid "WordPress Abilities API not available"
+msgstr "API Abilità di WordPress non disponibile"
+
+#: build/admin.js:87
+msgid "MCP requires the WordPress Abilities API (WordPress 6.9 or later). Update WordPress to use this feature."
+msgstr "MCP richiede l'API delle capacità di WordPress (WordPress 6.9 o successivo). Aggiorna WordPress per utilizzare questa funzione."
+
+#: build/admin.js:87
+msgid "Unsaved changes"
+msgstr "Modifiche non salvate"
+
+#: build/admin.js:87
+msgid "The MCP endpoint becomes active only after you save your settings."
+msgstr "Il punto di accesso MCP diventa attivo solo dopo aver salvato le impostazioni."
+
+#: inc/api/consent-logs.php:404
+msgid "Unable to determine the current user."
+msgstr "Impossibile determinare l'utente corrente."
+
+#: inc/api/consent-logs.php:415
+msgid "Consent logs marked as viewed."
+msgstr "Registri del consenso contrassegnati come visualizzati."
+
+#: inc/api/plugin.php:214
+msgid "This plugin is network-activated and must be deactivated by a Network Administrator from Network Admin > Plugins."
+msgstr "Questo plugin è attivato a livello di rete e deve essere disattivato da un Amministratore di Rete tramite Network Admin > Plugin."
+
+#: inc/api/plugin.php:225
+msgid "Plugin could not be deactivated."
+msgstr "Impossibile disattivare il plugin."
+
+#: inc/modules/automatic-scanning/api.php:118
+msgid "Enable Automatic Scanning before running a scan."
+msgstr "Abilita la scansione automatica prima di eseguire una scansione."
+
+#: inc/modules/automatic-scanning/api.php:122
+msgid "A scan is already in progress."
+msgstr "È già in corso una scansione."
+
+#: inc/modules/automatic-scanning/api.php:128
+msgid "Could not start the scan. Please try again."
+msgstr "Impossibile avviare la scansione. Per favore riprova."
+
+#: inc/modules/automatic-scanning/api.php:131
+msgid "Scan triggered."
+msgstr "Scansione avviata."
+
+#: inc/modules/automatic-scanning/runner.php:100
+msgid "Automatic scan deferred: daily page budget reached. Retrying in ~24 hours."
+msgstr "Scansione automatica rinviata: budget giornaliero di pagine raggiunto. Riprova tra ~24 ore."
+
+#: inc/modules/automatic-scanning/runner.php:124
+msgid "Automatic scan skipped: a scan is already in progress."
+msgstr "Scansione automatica saltata: è già in corso una scansione."
+
+#: inc/modules/automatic-scanning/runner.php:142
+msgid "Starting automatic (scheduled) scan."
+msgstr "Avvio della scansione automatica (programmata)."
+
+#: inc/modules/automatic-scanning/scheduler.php:85
+msgid "Once Monthly (SureCookie)"
+msgstr "Una volta al mese (SureCookie)"
+
+#: inc/modules/automatic-scanning/scheduler.php:92
+msgid "Once Weekly (SureCookie)"
+msgstr "Una volta alla settimana (SureCookie)"
+
+#: inc/modules/script-blocking/blocker.php:1279
+msgid "This content is currently blocked."
+msgstr "Questo contenuto è attualmente bloccato."
+
+#: inc/modules/site-scanner/saas-client.php:519
+msgid "Scan deferred by server: daily page budget reached. It will retry automatically."
+msgstr "Scansione rinviata dal server: budget giornaliero di pagine raggiunto. Verrà riprovata automaticamente."
+
+#: inc/modules/site-scanner/saas-client.php:524
+msgid "Daily page budget reached. The scheduled scan will retry automatically."
+msgstr "Budget giornaliero di pagine raggiunto. La scansione programmata verrà riprovata automaticamente."
+
+#: build/admin.js:2
+#: build/admin.js:79
+msgid "Manual"
+msgstr "Manuale"
+
+#: build/admin.js:2
+msgid "Automatic"
+msgstr "Automatica"
+
+#: build/admin.js:2
+msgid "Reset to default"
+msgstr "Ripristina predefiniti"
+
+#: build/admin.js:2
+msgid "Enable Background Overlay"
+msgstr "Abilita sovrapposizione di sfondo"
+
+#: build/admin.js:2
+msgid "Background Overlay"
+msgstr "Sovrapposizione di sfondo"
+
+#: build/admin.js:2
+msgid "Dim the page behind the banner and limit interaction until the visitor accepts or declines. The overlay is removed after a choice is made."
+msgstr "Oscura la pagina dietro il banner e limita l'interazione finché il visitatore non accetta o rifiuta. La sovrapposizione viene rimossa dopo che è stata presa una decisione."
+
+#: build/admin.js:2
+msgid "This layout highlights the consent banner and may affect user experience. Ensure it aligns with your regional consent requirements."
+msgstr "Questo layout evidenzia il banner del consenso e può influire sull'esperienza utente. Assicurati che sia conforme ai requisiti regionali sul consenso."
+
+#: build/admin.js:2
+#: build/admin.js:3
+msgid "Re-request Consent"
+msgstr "Richiedi nuovamente il consenso"
+
+#. translators: %s: date/time of the last renewal.
+#: build/admin.js:3
+#, js-format
+msgid "Last Requested: %s"
+msgstr "Ultima richiesta: %s"
+
+#: build/admin.js:3
+msgid "Ask all visitors to provide consent again. Use this after updating your cookie policy or adding new trackers. Existing consent will be marked as outdated, and the banner will reappear on the next visit."
+msgstr "Chiedi a tutti i visitatori di fornire nuovamente il consenso. Usa questa opzione dopo aver aggiornato la tua politica sui cookie o aggiunto nuovi tracker. Il consenso esistente sarà contrassegnato come obsoleto e il banner riapparirà alla prossima visita."
+
+#: build/admin.js:3
+msgid "Consent requested. Visitors will be asked for consent again."
+msgstr "Consenso richiesto. Ai visitatori sarà chiesto nuovamente il consenso."
+
+#: build/admin.js:3
+msgid "Could not Re-request Consent. Please try again."
+msgstr "Impossibile richiedere nuovamente il consenso. Per favore riprova."
+
+#: build/admin.js:3
+msgid "Renewing…"
+msgstr "Rinnovo in corso…"
+
+#: build/admin.js:3
+msgid "Confirm Re-request"
+msgstr "Conferma nuova richiesta"
+
+#: build/admin.js:22
+#: build/onboarding.js:2
+msgid "New"
+msgstr "Nuovo"
+
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Automatic Scanning"
+msgstr "Scansione automatica"
+
+#: build/admin.js:43
+msgid "Manage"
+msgstr "Gestisci"
+
+#: build/admin.js:43
+msgid "Since the last scan:"
+msgstr "Dall'ultima scansione:"
+
+#: build/admin.js:43
+msgid "new cookie"
+msgid_plural "new cookies"
+msgstr[0] "nuovo cookie"
+msgstr[1] "nuovi cookie"
+
+#: build/admin.js:43
+msgid "removed"
+msgstr "rimosso"
+
+#: build/admin.js:43
+msgid "new tracker domain"
+msgid_plural "new tracker domains"
+msgstr[0] "nuovo dominio tracker"
+msgstr[1] "nuovi domini tracker"
+
+#: build/admin.js:43
+msgid "No scans yet. Schedule automatic scans to track changes over time."
+msgstr "Nessuna scansione ancora. Pianifica scansioni automatiche per monitorare i cambiamenti nel tempo."
+
+#. translators: %s: next scan date
+#: build/admin.js:44
+#, js-format
+msgid "Next scan: %s"
+msgstr "Prossima scansione: %s"
+
+#: build/admin.js:44
+msgid "Scheduling is off"
+msgstr "Pianificazione disattivata"
+
+#: build/admin.js:75
+msgid "Network-activated"
+msgstr "Attivato a livello di rete"
+
+#: build/admin.js:75
+msgid "Manage in Network Admin"
+msgstr "Gestisci in Network Admin"
+
+#: build/admin.js:76
+msgid "Google Consent Mode is enabled, so SureCookie allows Google's Consent Mode scripts to function correctly. As a result, this script cannot be blocked."
+msgstr "La modalità consenso di Google è abilitata, quindi SureCookie consente il corretto funzionamento degli script della modalità consenso di Google. Di conseguenza, questo script non può essere bloccato."
+
+#: build/admin.js:78
+msgid "Necessary"
+msgstr "Necessario"
+
+#: build/admin.js:78
+msgid "What Changed in the Last Scan"
+msgstr "Cosa è cambiato nell'ultima scansione"
+
+#: build/admin.js:78
+msgid "Cookies and tracker domains that changed compared to the previous scan."
+msgstr "Cookie e domini di tracciamento che sono cambiati rispetto alla scansione precedente."
+
+#: build/admin.js:78
+msgid "No differences were detected compared to the previous scan."
+msgstr "Non sono state rilevate differenze rispetto alla scansione precedente."
+
+#: build/admin.js:78
+msgid "New Cookies"
+msgstr "Nuovi Cookie"
+
+#: build/admin.js:78
+msgid "No Longer Detected"
+msgstr "Non più rilevati"
+
+#: build/admin.js:78
+msgid "Recategorized"
+msgstr "Ricategorizzati"
+
+#: build/admin.js:78
+msgid "New Tracker Domains"
+msgstr "Nuovi domini di tracciamento"
+
+#: build/admin.js:78
+msgid "Third-party"
+msgstr "Terze parti"
+
+#: build/admin.js:78
+msgid "Monthly"
+msgstr "Mensile"
+
+#: build/admin.js:78
+msgid "Re-scan your site once a month."
+msgstr "Riscansiona il tuo sito una volta al mese."
+
+#: build/admin.js:78
+msgid "Weekly"
+msgstr "Settimanale"
+
+#: build/admin.js:78
+msgid "Re-scan every week for faster drift detection."
+msgstr "Riscansiona ogni settimana per una rilevazione più rapida delle variazioni."
+
+#: build/admin.js:78
+msgid "All Published Content"
+msgstr "Tutti i contenuti pubblicati"
+
+#: build/admin.js:78
+msgid "Enable Automatic Scanning"
+msgstr "Abilita scansione automatica"
+
+#: build/admin.js:78
+msgid "Run scheduled scans in the background and detect changes automatically."
+msgstr "Esegui scansioni programmate in background e rileva automaticamente le variazioni."
+
+#: build/admin.js:78
+msgid "Scan Frequency"
+msgstr "Frequenza scansione"
+
+#: build/admin.js:78
+msgid "WordPress cron is disabled"
+msgstr "Il cron di WordPress è disabilitato"
+
+#: build/admin.js:78
+msgid "Scheduled scans rely on cron. Ask your host to set up a real server cron job so automatic scans run on time."
+msgstr "Le scansioni programmate si basano su cron. Chiedi al tuo host di configurare un vero job cron sul server affinché le scansioni automatiche vengano eseguite puntualmente."
+
+#: build/admin.js:78
+msgid "Last Scan"
+msgstr "Ultima scansione"
+
+#. translators: %s: last scan date-time
+#: build/admin.js:79
+#, js-format
+msgid "Scanned on %s"
+msgstr "Scansionato il %s"
+
+#: build/admin.js:79
+msgid "Scheduled"
+msgstr "Programmato"
+
+#. translators: %d: number of new cookies
+#: build/admin.js:80
+#, js-format
+msgid "%d New Cookies"
+msgstr "%d nuovi cookie"
+
+#. translators: %d: number of cookies no longer detected
+#: build/admin.js:81
+#, js-format
+msgid "%d Removed"
+msgstr "%d rimossi"
+
+#. translators: %d: number of recategorized cookies
+#: build/admin.js:82
+#, js-format
+msgid "%d Recategorized"
+msgstr "%d ricategorizzati"
+
+#. translators: %d: number of new tracker domains
+#: build/admin.js:83
+#, js-format
+msgid "%d New Tracker Domains"
+msgstr "%d nuovi domini di tracciamento"
+
+#: build/admin.js:83
+msgid "View Changes"
+msgstr "Visualizza modifiche"
+
+#: build/admin.js:83
+msgid "No scans yet - run your first scan to start monitoring changes."
+msgstr "Nessuna scansione ancora - esegui la prima scansione per iniziare a monitorare le variazioni."
+
+#: build/admin.js:83
+msgid "Stay Compliant Automatically"
+msgstr "Rimani conforme automaticamente"
+
+#: build/admin.js:83
+msgid "Get weekly scans, instant alerts, smart classification, and automatic protection from new trackers."
+msgstr "Ricevi scansioni settimanali, avvisi istantanei, classificazione intelligente e protezione automatica dai nuovi tracker."
+
+#. translators: %d: maximum pages
+#: build/onboarding.js:11
+#, js-format
+msgid "SureCookie agent will visit them like real users to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "L'agente SureCookie visiterà le pagine come utenti reali per rilevare tutti i cookie in uso. Consentite %d pagine per scansione a causa di limitazioni di risorse."
+
+#. translators: 1: remaining pages, 2: total daily page budget
+#: build/admin.js:70
+#, js-format
+msgid "%1$d of %2$d daily pages remaining on this site"
+msgstr "%1$d di %2$d pagine giornaliere rimanenti su questo sito"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "<p>By scanning you accept our <a>terms and conditions</a>.</p>"
+msgstr "<p>Scansionando accetti i nostri <a>termini e condizioni</a>.</p>"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Terms and Conditions"
+msgstr "Termini e Condizioni"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Cookie Scanning Not Available on Local Sites"
+msgstr "Scansione dei cookie non disponibile sui siti locali"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "This site is running on a local or development environment that our cloud scanner cannot reach. Cookie scanning will be available once your site is live on a publicly accessible domain."
+msgstr "Questo sito è in esecuzione su un ambiente locale o di sviluppo che il nostro scanner cloud non può raggiungere. La scansione dei cookie sarà disponibile una volta che il tuo sito sarà attivo su un dominio accessibile pubblicamente."
+
+#: build/onboarding.js:14
+msgid "Skip for Now"
+msgstr "Salta per ora"
+
+#: build/onboarding.js:14
+msgid "Stay in the loop and help shape SureCookie! Get feature updates, and help us build a better SureCookie by sharing how you use the plugin. <a>Terms and Conditions</a>"
+msgstr "Rimani aggiornato e contribuisci a migliorare SureCookie! Ricevi aggiornamenti sulle funzionalità e aiutaci a costruire un SureCookie migliore condividendo come usi il plugin. <a>Termini e Condizioni</a>"
+
+#: admin/product-promotion.php:104
+msgid "Grow traffic of your website with SureRank - a lightweight SEO toolkit plugin for WordPress users who want better rankings without the complexity."
+msgstr "Aumenta il traffico del tuo sito web con SureRank - un plugin SEO leggero per gli utenti WordPress che vogliono un posizionamento migliore senza complessità."
+
+#: admin/rating-notice.php:232
+msgid "Amazing! SureCookie discovered cookies on your site - let's keep growing together!"
+msgstr "Fantastico! SureCookie ha rilevato dei cookie sul tuo sito - continuiamo a crescere insieme!"
+
+#. translators: 1: page URL, 2: error message
+#: inc/modules/site-scanner/saas-client.php:989
+#, php-format
+msgid "Page failed: %1$s - %2$s"
+msgstr "Pagina non riuscita: %1$s - %2$s"
+
+#: build/admin.js:43
+msgid "WP-Cron disabled - scans won’t run automatically"
+msgstr "WP-Cron disabilitato - le scansioni non verranno eseguite automaticamente"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Consider Plan Upgrade"
+msgstr "Valuta il Passaggio a un Piano Superiore"
+
+#. translators: 1: pages scanned, 2: pages submitted
+#: build/admin.js:75
+#, js-format
+msgid "Scanned %1$d of %2$d pages - your daily page budget is used up. The remaining pages will scan after it resets."
+msgstr "Scansionate %1$d pagine su %2$d - il tuo budget giornaliero di pagine è esaurito. Le pagine rimanenti verranno scansionate dopo il ripristino."
+
+#: build/admin.js:84
+msgid "Update the environment variables"
+msgstr "Aggiorna le variabili d'ambiente"
+
+#: build/admin.js:84
+msgid "WP_API_USERNAME"
+msgstr "WP_API_USERNAME"
+
+#: build/admin.js:84
+msgid "Your WordPress username (prefilled)."
+msgstr "Il tuo nome utente WordPress (precompilato)."
+
+#: build/admin.js:84
+msgid "WP_API_PASSWORD"
+msgstr "WP_API_PASSWORD"
+
+#: build/admin.js:84
+msgid "Replace \"your-application-password\" with the password from Step 1."
+msgstr "Sostituisci \"your-application-password\" con la password del Passaggio 1."
+
+#: build/admin.js:84
+msgid "Verify Node.js version"
+msgstr "Verifica la versione di Node.js"
+
+#: build/admin.js:84
+msgid "In your terminal, run:"
+msgstr "Nel tuo terminale, esegui:"
+
+#: build/admin.js:84
+msgid "The version must be 20.1 or higher."
+msgstr "La versione deve essere 20.1 o superiore."
+
+#: build/admin.js:84
+msgid "If it is lower, run:"
+msgstr "Se è inferiore, esegui:"
+
+#: build/admin.js:84
+msgid "Restart your AI client and paste the copied prompt again into your AI client."
+msgstr "Riavvia il tuo client AI e incolla di nuovo il prompt copiato nel tuo client AI."
+
+#: build/admin.js:84
+msgid "Enjoy your AI client connected to your WordPress site!"
+msgstr "Goditi il tuo client AI connesso al tuo sito WordPress!"
+
+#: admin/rating-notice.php:156
+msgid "Invalid nonce."
+msgstr "Nonce non valido."
+
+#: admin/rating-notice.php:158
+msgid "Unauthorized user."
+msgstr "Utente non autorizzato."
+
+#: admin/rating-notice.php:171
+msgid "Invalid parameters."
+msgstr "Parametri non validi."
+
+#: build/admin.js:47
+msgid "More scan limits, geographic targeting, re-consent widget, and more."
+msgstr "Limiti di scansione maggiori, targeting geografico, widget per il nuovo consenso e altro ancora."
+
+#: inc/integrations/presto-player/block-handler.php:293
+msgid "This audio is blocked until you accept cookies to load it."
+msgstr "Questo audio è bloccato finché non accetti i cookie per caricarlo."
+
+#: inc/integrations/presto-player/block-handler.php:297
+msgid "This video is blocked until you accept cookies to load it."
+msgstr "Questo video è bloccato finché non accetti i cookie per caricarlo."
+
+#: build/admin.js:2
+msgid "Tools"
+msgstr "Strumenti"
+
+#: build/admin.js:2
+msgid "You've used all available AI requests in your Free Plan. Upgrade to SureCookie premium to keep using AI features."
+msgstr "Hai utilizzato tutte le richieste AI disponibili nel tuo Piano Gratuito. Passa a SureCookie premium per continuare a usare le funzionalità AI."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to access this feature."
+msgstr "Passa a SureCookie premium per accedere a questa funzione."
+
+#: build/admin.js:2
+msgid "Is this button order not showing on the frontend?"
+msgstr "Questo ordine di pulsanti non viene mostrato nel frontend?"
+
+#: build/admin.js:2
+msgid "Visitors who match a region-specific rule will see the button order defined for that region. This global order is shown only to visitors who don't match any regional rules."
+msgstr "I visitatori che corrispondono a una regola specifica per regione vedranno l'ordine dei pulsanti definito per quella regione. Questo ordine globale è mostrato solo ai visitatori che non corrispondono a nessuna regola regionale."
+
+#: build/admin.js:2
+msgid "Manage Geo Rules"
+msgstr "Gestisci Regole Geo"
+
+#: build/admin.js:2
+msgid "You can add links and basic formatting like bold/italic/link to the banner message."
+msgstr "Puoi aggiungere link e formattazione base come grassetto/corsivo/link al messaggio del banner."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to pick custom primary, secondary, foreground, and background colors for your banner."
+msgstr "Passa a SureCookie premium per scegliere colori personalizzati primari, secondari, di primo piano e di sfondo per il tuo banner."
+
+#: build/admin.js:6
+msgid "Export Consent Logs"
+msgstr "Esporta Log del Consenso"
+
+#: build/admin.js:6
+msgid "Upgrade to premium to download CSV report for legal audits and GDPR Article 7 documentation."
+msgstr "Passa a premium per scaricare il report CSV per audit legali e documentazione dell'Articolo 7 GDPR."
+
+#: build/admin.js:44
+msgid "Grab the Launch Offer"
+msgstr "Approfitta dell'Offerta di Lancio"
+
+#: build/admin.js:47
+msgid "Do More with SureCookie Premium"
+msgstr "Fai di più con SureCookie Premium"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Checking your scan limits…"
+msgstr "Verifica dei limiti di scansione in corso…"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Run your first scan to connect this site with SureCookie. Your plan's full scan limits unlock automatically once the connection is established."
+msgstr "Esegui la tua prima scansione per collegare questo sito a SureCookie. I limiti completi di scansione del tuo piano si sbloccano automaticamente una volta stabilita la connessione."
+
+#. translators: %d: maximum pages
+#: build/admin.js:67
+#, js-format
+msgid "We'll visit the selected content to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "Visiteremo i contenuti selezionati per rilevare tutti i cookie in uso. Consentite %d pagine per scansione a causa di limitazioni di risorse."
+
+#. translators: %d: maximum items
+#: build/admin.js:72
+#: build/onboarding.js:13
+#, js-format
+msgid "Select up to %d items to scan…"
+msgstr "Seleziona fino a %d elementi da scansionare…"
+
+#: build/admin.js:72
+#: build/onboarding.js:13
+msgid "Select Content"
+msgstr "Seleziona Contenuto"
+
+#: build/admin.js:73
+#: build/onboarding.js:14
+msgid "Select the content you want to scan."
+msgstr "Seleziona il contenuto che vuoi scansionare."
+
+#: build/admin.js:74
+msgid "Scanning your content for cookies. This may take a few minutes."
+msgstr "Scansione del contenuto per i cookie in corso. Potrebbe richiedere alcuni minuti."
+
+#: build/admin.js:75
+msgid "Unlock Geo Rules, Advanced Scanning & more with Pro - Grab the launching offer!"
+msgstr "Sblocca Regole Geo, Scansione Avanzata e altro con Pro - Approfitta dell'offerta di lancio!"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Claim the Deal"
+msgstr "Richiedi l'Offerta"
+
+#: build/admin.js:78
+msgid "Content from Manual Scan"
+msgstr "Contenuto da Scansione Manuale"
+
+#: build/admin.js:78
+msgid "Reuse the content selected on the Cookie Scanner."
+msgstr "Riutilizza il contenuto selezionato nel Cookie Scanner."
+
+#: build/admin.js:78
+msgid "Scan all published content, as per plan limit."
+msgstr "Scansiona tutto il contenuto pubblicato, secondo il limite del piano."
+
+#: build/admin.js:78
+msgid "Selected Content"
+msgstr "Contenuto Selezionato"
+
+#: build/admin.js:78
+msgid "Choose specific content to scan below."
+msgstr "Scegli il contenuto specifico da scansionare qui sotto."
+
+#: build/admin.js:78
+msgid "Content to Scan"
+msgstr "Contenuto da Scansionare"
+
+#: build/admin.js:78
+msgid "Select content to scan…"
+msgstr "Seleziona contenuto da scansionare…"
+
+#: build/onboarding.js:6
+msgid "Launch Offer - Save Big"
+msgstr "Offerta di Lancio - Grandi Risparmi"
+
+#: build/onboarding.js:6
+msgid "Limited Time"
+msgstr "Tempo Limitato"
+
+#: build/onboarding.js:6
+msgid "Upgrade to Premium and unlock advanced scanning, geo rules, custom branding, and priority support."
+msgstr "Passa a Premium e sblocca scansione avanzata, regole geo, branding personalizzato e supporto prioritario."
+
+#: build/onboarding.js:6
+msgid "Failed to activate license. Please try again."
+msgstr "Attivazione della licenza fallita. Per favore riprova."
+
+#: build/onboarding.js:6
+msgid "License Activated!"
+msgstr "Licenza Attivata!"
+
+#: build/onboarding.js:6
+msgid "Your license has been successfully activated."
+msgstr "La tua licenza è stata attivata con successo."
+
+#: build/onboarding.js:6
+msgid "Activation Failed"
+msgstr "Attivazione fallita"
+
+#: build/onboarding.js:6
+msgid "An error occurred during activation. Please try again."
+msgstr "Si è verificato un errore durante l'attivazione. Per favore riprova."
+
+#: build/onboarding.js:6
+msgid "Invalid License Key"
+msgstr "Chiave di licenza non valida"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid license key."
+msgstr "Inserisci una chiave di licenza valida."
+
+#: build/onboarding.js:6
+msgid "Activate Your License"
+msgstr "Attiva la tua licenza"
+
+#: build/onboarding.js:6
+msgid "Activate your SureCookie license to unlock higher scan limits, automatically classify cookies, and get smart compliance recommendations."
+msgstr "Attiva la tua licenza SureCookie per sbloccare limiti di scansione più elevati, classificare automaticamente i cookie e ricevere raccomandazioni intelligenti per la conformità."
+
+#: build/onboarding.js:6
+msgid "License activated"
+msgstr "Licenza attivata"
+
+#: build/onboarding.js:6
+msgid "Activating…"
+msgstr "Attivazione in corso…"
+
+#: build/admin.js:63
+#: build/onboarding.js:6
+#: build/onboarding.js:7
+msgid "Activate License"
+msgstr "Attiva licenza"
+
+#: build/onboarding.js:6
+msgid "License Key"
+msgstr "Chiave di licenza"
+
+#: build/onboarding.js:6
+msgid "Paste your license key here"
+msgstr "Incolla qui la tua chiave di licenza"
+
+#. translators: %s: Package name (e.g., SureCookie Pro)
+#: build/onboarding.js:7
+#, js-format
+msgid "Activate your <strong>%s</strong> license to receive professional support and automatic updates directly from your WordPress dashboard. Don't have a license? <a>Get it here »</a>"
+msgstr "Attiva la tua licenza <strong>%s</strong> per ricevere supporto professionale e aggiornamenti automatici direttamente dalla dashboard di WordPress. Non hai una licenza? <a>Acquistala qui »</a>"
+
+#: build/onboarding.js:7
+msgid "Purchase a SureCookie license"
+msgstr "Acquista una licenza SureCookie"
+
+#: build/admin.js:2
+msgid "View Plans"
+msgstr "Visualizza piani"
+
+#: build/admin.js:4
+msgid "CONSENT RECORD"
+msgstr "REGISTRO DEL CONSENSO"
+
+#: build/admin.js:4
+msgid "This document contains a record of the consent choice stored by SureCookie. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Questo documento contiene un registro della scelta di consenso memorizzata da SureCookie. Può essere utilizzato per documentazione interna e revisione. I requisiti legali possono variare."
+
+#: build/admin.js:4
+msgid "This document is automatically generated by the SureCookie plugin and contains a record of the consent choice stored at the time of export. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Questo documento è generato automaticamente dal plugin SureCookie e contiene un registro della scelta di consenso memorizzata al momento dell'esportazione. Può essere utilizzato per documentazione interna e revisione. I requisiti legali possono variare."
+
+#: build/admin.js:43
+msgid "Enter your custom CSS here"
+msgstr "Inserisci qui il tuo CSS personalizzato"
+
+#: build/admin.js:43
+msgid "Use !important to override inline styles"
+msgstr "Usa !important per sovrascrivere gli stili inline"
+
+#: build/admin.js:43
+msgid "Your cookie banner is enabled."
+msgstr "Il tuo banner dei cookie è abilitato."
+
+#: build/admin.js:43
+msgid "Your cookie banner is currently disabled."
+msgstr "Il tuo banner dei cookie è attualmente disabilitato."
+
+#: build/admin.js:2
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Activate SureCookie Pro"
+msgstr "Attiva SureCookie Pro"
+
+#. translators: %d: maximum pages
+#: build/admin.js:64
+#: build/onboarding.js:8
+#, js-format
+msgid "Your first scan can cover up to %d pages while we connect your site. Remove the extra pages to start - Your plan's full limits unlock automatically afterward."
+msgstr "La tua prima scansione può coprire fino a %d pagine mentre colleghiamo il tuo sito. Rimuovi le pagine extra per iniziare - I limiti completi del tuo piano si sbloccano automaticamente in seguito."
+
+#. translators: %d: maximum pages
+#: build/admin.js:66
+#: build/onboarding.js:10
+#, js-format
+msgid "The free plan supports scanning up to %d pages. Upgrade now to scan more pages and keep your cookie list updated automatically."
+msgstr "Il piano gratuito supporta la scansione di fino a %d pagine. Aggiorna ora per scansionare più pagine e mantenere aggiornata automaticamente la tua lista di cookie."
+
+#. translators: %s: SureCookie plan tier, e.g. "Business"
+#: build/admin.js:76
+#, js-format
+msgid "%s version"
+msgstr "%s versione"
+
+#: build/onboarding.js:6
+msgid "Let's help you discover cookies, configure consent choices, and improve how your website handles visitor privacy. SureCookie automatically detects and categorizes cookies so you can stay focused on growing your business."
+msgstr "Ti aiutiamo a scoprire i cookie, configurare le scelte di consenso e migliorare il modo in cui il tuo sito gestisce la privacy dei visitatori. SureCookie rileva e categorizza automaticamente i cookie così puoi concentrarti sulla crescita del tuo business."
+
+#: build/onboarding.js:14
+msgid "Keep consent records locally on the site and export individual records when needed"
+msgstr "Conserva i registri del consenso localmente sul sito ed esporta i singoli registri quando necessario"
+
+#: admin/menu.php:78
+#: build/admin.js:2
+msgid "Tracking Manager"
+msgstr "Gestore Tracciamento"
+
+#: admin/product-promotion.php:116
+msgid "WordPress emails often go missing or land in spam because web hosts aren't built for reliable delivery. SureMail fixes this by connecting to trusted SMTP services, so your emails reach inboxes, no more lost messages or frustrated customers."
+msgstr "Le email di WordPress spesso scompaiono o finiscono nello spam perché gli host web non sono progettati per una consegna affidabile. SureMail risolve questo collegandosi a servizi SMTP affidabili, così le tue email raggiungono le caselle di posta, niente più messaggi persi o clienti frustrati."
+
+#: admin/product-promotion.php:122
+msgid "Spectra Blocks is a complete rebuild of Spectra on WordPress's modern core-block APIs - an AI website builder built directly into the Block Editor."
+msgstr "Spectra Blocks è una ricostruzione completa di Spectra sulle moderne API core-block di WordPress - un costruttore di siti web AI integrato direttamente nell'Editor a Blocchi."
+
+#: inc/api/cookies.php:395
+msgid "Failed to update cookie categories: "
+msgstr "Impossibile aggiornare le categorie dei cookie:"
+
+#. translators: %s: Provider name (e.g., YouTube, Vimeo)
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:236
+#: inc/modules/script-blocking/blocker.php:1294
+#, php-format
+msgid "Accept and load %s content"
+msgstr "Accetta e carica contenuti %s"
+
+#: inc/modules/assisted-scan/api.php:122
+msgid "An assisted scan is already running. Cancel it before starting another."
+msgstr "È già in esecuzione una scansione assistita. Annullala prima di avviarne un'altra."
+
+#: inc/modules/assisted-scan/api.php:144
+#: inc/modules/assisted-scan/api.php:155
+msgid "Select at least one published page to scan."
+msgstr "Seleziona almeno una pagina pubblicata da scansionare."
+
+#: inc/modules/assisted-scan/api.php:163
+msgid "Starting assisted scan (collected from your browser)."
+msgstr "Avvio della scansione assistita (raccolta dal tuo browser)."
+
+#. translators: %d: number of pages.
+#: inc/modules/assisted-scan/api.php:167
+#, php-format
+msgid "Pages to visit: %d."
+msgstr "Pagine da visitare: %d."
+
+#: inc/modules/assisted-scan/api.php:197
+#: inc/modules/assisted-scan/api.php:253
+msgid "This scan session has expired. Start the scan again."
+msgstr "Questa sessione di scansione è scaduta. Avvia nuovamente la scansione."
+
+#: inc/modules/assisted-scan/api.php:210
+msgid "The scan sent more data than a single page should produce."
+msgstr "La scansione ha inviato più dati di quanti ne dovrebbe produrre una singola pagina."
+
+#: inc/modules/assisted-scan/api.php:222
+msgid "That page is not the one this scan was waiting for."
+msgstr "Quella pagina non è quella che questa scansione stava aspettando."
+
+#: inc/modules/assisted-scan/api.php:275
+#: inc/modules/assisted-scan/api.php:277
+msgid "Assisted scan cancelled."
+msgstr "Scansione assistita annullata."
+
+#. translators: 1: current page number, 2: total pages.
+#: inc/modules/assisted-scan/collector.php:322
+#, php-format
+msgid "SureCookie is scanning page %1$d of %2$d"
+msgstr "SureCookie sta scansionando la pagina %1$d di %2$d"
+
+#: inc/modules/assisted-scan/collector.php:323
+msgid "Keep this tab in front so the scan can continue."
+msgstr "Tieni questa scheda in primo piano affinché la scansione possa continuare."
+
+#: inc/modules/assisted-scan/collector.php:324
+msgid "Paused. Bring this tab to the front to continue."
+msgstr "In pausa. Porta questa scheda in primo piano per continuare."
+
+#: inc/modules/assisted-scan/collector.php:325
+msgid "Preparing a clean visit…"
+msgstr "Preparazione di una visita pulita…"
+
+#. translators: 1: number of cookies, 2: number of services.
+#: inc/modules/assisted-scan/collector.php:327
+#, php-format
+msgid "Scan complete: %1$d cookies, %2$d services found"
+msgstr "Scansione completata: %1$d cookie, %2$d servizi trovati"
+
+#: inc/modules/assisted-scan/collector.php:328
+msgid "The scan could not be completed. Return to SureCookie to try again."
+msgstr "La scansione non può essere completata. Torna a SureCookie per riprovare."
+
+#: inc/modules/assisted-scan/collector.php:330
+msgid "SureCookie assisted scan progress"
+msgstr "Avanzamento scansione assistita SureCookie"
+
+#. translators: 1: page number, 2: cookie count, 3: resource count.
+#: inc/modules/assisted-scan/ingest.php:119
+#, php-format
+msgid "Page %1$d collected: %2$d cookies, %3$d third-party resources."
+msgstr "Pagina %1$d raccolta: %2$d cookie, %3$d risorse di terze parti."
+
+#. translators: 1: page number, 2: error reason.
+#: inc/modules/assisted-scan/ingest.php:129
+#, php-format
+msgid "Page %1$d could not be collected (%2$s)."
+msgstr "Pagina %1$d non è stata raccolta (%2$s)."
+
+#. translators: 1: cookie count, 2: service count.
+#: inc/modules/assisted-scan/ingest.php:222
+#, php-format
+msgid "Assisted scan finished: %1$d cookies, %2$d known services."
+msgstr "Scansione assistita terminata: %1$d cookie, %2$d servizi noti."
+
+#. translators: %s: comma-separated service names.
+#: inc/modules/assisted-scan/ingest.php:232
+#, php-format
+msgid "A first-party check also found: %s. Your browser may have blocked these."
+msgstr "Un controllo di prima parte ha anche trovato: %s. Il tuo browser potrebbe averli bloccati."
+
+#: inc/modules/assisted-scan/session.php:466
+msgid "Assisted scan in progress..."
+msgstr "Scansione assistita in corso..."
+
+#: inc/modules/assisted-scan/session.php:576
+msgid "Assisted scan finished."
+msgstr "Scansione assistita terminata."
+
+#: inc/modules/services/api.php:142
+msgid "Unknown service."
+msgstr "Servizio sconosciuto."
+
+#: inc/modules/services/api.php:153
+msgid "This is a Pro service. Upgrade to add it."
+msgstr "Questo è un servizio Pro. Effettua l'upgrade per aggiungerlo."
+
+#: inc/modules/site-scanner/cron.php:210
+msgid "Assisted scan cancelled by user."
+msgstr "Scansione assistita annullata dall'utente."
+
+#: inc/modules/site-scanner/saas-client.php:1653
+msgid "We could not verify your domain because your site's SSL certificate could not be validated (it may be self-signed, expired, or issued for a different domain). Install a valid certificate (for example Let's Encrypt), or scan your live domain that already has one, then retry."
+msgstr "Non siamo riusciti a verificare il tuo dominio perché il certificato SSL del tuo sito non è stato convalidato (potrebbe essere autofirmato, scaduto o emesso per un dominio diverso). Installa un certificato valido (ad esempio Let's Encrypt), oppure scansiona il tuo dominio live che ne ha già uno, quindi riprova."
+
+#: inc/modules/site-scanner/saas-client.php:1655
+msgid "We could not verify your domain because your host is blocking our verification request to /wp-json/. This is common on SiteGround. Allowlist our scanner IPs/User-Agent (or ask your host to) and retry - or add your services manually in the meantime."
+msgstr "Non siamo riusciti a verificare il tuo dominio perché il tuo host sta bloccando la nostra richiesta di verifica a /wp-json/. Questo è comune su SiteGround. Inserisci nella whitelist gli IP/User-Agent del nostro scanner (o chiedi al tuo host di farlo) e riprova - oppure aggiungi manualmente i tuoi servizi nel frattempo."
+
+#: inc/modules/site-scanner/saas-client.php:1657
+msgid "We could not reach your site's REST API at /wp-json/. Enable pretty permalinks and make sure no security plugin is disabling the REST API, then retry."
+msgstr "Non è stato possibile raggiungere l'API REST del tuo sito in /wp-json/. Abilita i permalink semplici e assicurati che nessun plugin di sicurezza stia disabilitando l'API REST, quindi riprova."
+
+#: inc/services/cookie-category-service.php:247
+msgid "Cookies cannot be moved to the category being deleted."
+msgstr "I cookie non possono essere spostati nella categoria che si sta eliminando."
+
+#: inc/services/cookie-category-service.php:254
+#: inc/services/cookie-service.php:440
+msgid "The selected category no longer exists. Please reload and try again."
+msgstr "La categoria selezionata non esiste più. Ricarica e riprova."
+
+#: inc/services/cookie-service.php:421
+msgid "No cookies selected."
+msgstr "Nessun cookie selezionato."
+
+#. translators: %d: maximum number of cookies per request.
+#: inc/services/cookie-service.php:430
+#, php-format
+msgid "Too many cookies in one request. Please select up to %d."
+msgstr "Troppi cookie in una richiesta. Seleziona fino a %d."
+
+#. translators: %d: number of cookies updated.
+#: inc/services/cookie-service.php:547
+#, php-format
+msgid "%d cookie moved to the selected category."
+msgid_plural "%d cookies moved to the selected category."
+msgstr[0] "%d cookie spostato nella categoria selezionata."
+msgstr[1] ""
+
+#: inc/services/cookie-service.php:555
+msgid "No cookies could be updated."
+msgstr "Nessun cookie è stato aggiornato."
+
+#: build/admin.js:2
+msgid "Scanning"
+msgstr "Scansione in corso"
+
+#: build/admin.js:2
+#: build/admin.js:41
+msgid "Known Services"
+msgstr "Servizi conosciuti"
+
+#: build/admin.js:2
+#: build/admin.js:77
+msgid "Scripts and Embeds"
+msgstr "Script e incorporamenti"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Geographic Rules"
+msgstr "Regole geografiche"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Consent Sharing"
+msgstr "Condivisione del consenso"
+
+#: build/admin.js:2
+msgid "Add License"
+msgstr "Aggiungi licenza"
+
+#. translators: %s: cookie name.
+#: build/admin.js:22
+#: build/onboarding.js:2
+#, js-format
+msgid "Select %s"
+msgstr "Seleziona %s"
+
+#. translators: %s: cookie name.
+#: build/admin.js:23
+#: build/onboarding.js:3
+#, js-format
+msgid "Category for %s"
+msgstr "Categoria per %s"
+
+#: build/admin.js:23
+#: build/onboarding.js:3
+msgid "Select category"
+msgstr "Seleziona categoria"
+
+#. translators: 1: action label, 2: cookie name.
+#: build/admin.js:24
+#: build/onboarding.js:4
+#, js-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %d: number of selected cookies.
+#: build/admin.js:25
+#, js-format
+msgid "%d selected"
+msgstr "%d selezionati"
+
+#: build/admin.js:25
+msgid "Bulk category"
+msgstr "Categoria in blocco"
+
+#: build/admin.js:25
+msgid "Move to category…"
+msgstr "Sposta nella categoria…"
+
+#: build/admin.js:25
+msgid "Applying…"
+msgstr "Applicazione in corso…"
+
+#: build/admin.js:25
+msgid "Apply"
+msgstr "Applica"
+
+#: build/admin.js:25
+msgid "Clear selection"
+msgstr "Cancella selezione"
+
+#: build/admin.js:25
+msgid "Select all cookies"
+msgstr "Seleziona tutti i cookie"
+
+#: build/admin.js:28
+msgid "Assigned cookies will be moved to another category instead of being deleted."
+msgstr "I cookie assegnati saranno spostati in un'altra categoria invece di essere eliminati."
+
+#: build/admin.js:28
+msgid "Move Cookies To"
+msgstr "Sposta cookie in"
+
+#: build/admin.js:28
+msgid "Search services…"
+msgstr "Cerca servizi…"
+
+#: build/admin.js:28
+msgid "Search services"
+msgstr "Cerca servizi"
+
+#: build/admin.js:28
+#: build/admin.js:37
+msgid "All Categories"
+msgstr "Tutte le categorie"
+
+#. translators: %d: number of cookies
+#: build/admin.js:29
+#, js-format
+msgid "%d cookie"
+msgid_plural "%d cookies"
+msgstr[0] "%d cookie"
+msgstr[1] ""
+
+#. translators: %d: number of iframes
+#: build/admin.js:30
+#, js-format
+msgid "%d iframe"
+msgid_plural "%d iframes"
+msgstr[0] "%d iframe"
+msgstr[1] ""
+
+#. translators: %d: number of scripts
+#: build/admin.js:31
+#, js-format
+msgid "%d script"
+msgid_plural "%d scripts"
+msgstr[0] "%d script"
+msgstr[1] ""
+
+#: build/admin.js:31
+msgid "Added"
+msgstr "Aggiunto"
+
+#: build/admin.js:31
+msgid "Detected"
+msgstr "Rilevato"
+
+#: build/admin.js:31
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: build/admin.js:31
+msgid "Add Service"
+msgstr "Aggiungi servizio"
+
+#: build/admin.js:31
+msgid "No services match your search."
+msgstr "Nessun servizio corrisponde alla tua ricerca."
+
+#: build/admin.js:31
+msgid "Loads before consent"
+msgstr "Caricamenti prima del consenso"
+
+#. translators: %s: service name (e.g. Stripe)
+#: build/admin.js:32
+#, js-format
+msgid "%s is a necessary service, so it loads before consent - its cookies can be set without consent."
+msgstr "%s è un servizio necessario, quindi si carica prima del consenso - i suoi cookie possono essere impostati senza consenso."
+
+#: build/admin.js:32
+msgid "Blocked When \"Block Scripts until Consent\" Is On"
+msgstr "Bloccato quando \"Blocca script fino al consenso\" è attivo"
+
+#. translators: %1$s: service name; %2$s: consent category name
+#: build/admin.js:33
+#, js-format
+msgid "When blocking is on, %1$s is blocked until visitors accept “%2$s”, so a scan never sees these cookies. Declaring them here keeps your cookie policy complete."
+msgstr "Quando il blocco è attivo, %1$s è bloccato fino a quando i visitatori accettano “%2$s”, quindi una scansione non vede mai questi cookie. Dichiararli qui mantiene completa la tua politica sui cookie."
+
+#. translators: %d: number of cookies
+#: build/admin.js:34
+#, js-format
+msgid "%d cookie added to your cookie policy"
+msgid_plural "%d cookies added to your cookie policy"
+msgstr[0] "%d cookie aggiunto alla tua politica sui cookie"
+msgstr[1] ""
+
+#. translators: %d: number of iframes
+#: build/admin.js:35
+#, js-format
+msgid "%d embed blocked before consent"
+msgid_plural "%d embeds blocked before consent"
+msgstr[0] "%d incorporamento bloccato prima del consenso"
+msgstr[1] ""
+
+#. translators: %d: number of scripts
+#: build/admin.js:36
+#, js-format
+msgid "%d script blocked before consent"
+msgid_plural "%d scripts blocked before consent"
+msgstr[0] "%d script bloccato prima del consenso"
+msgstr[1] ""
+
+#: build/admin.js:36
+msgid "No categories available"
+msgstr "Nessuna categoria disponibile"
+
+#: build/admin.js:36
+msgid "Create a cookie category first - new cookies land in Uncategorized until then."
+msgstr "Crea prima una categoria di cookie - i nuovi cookie saranno in Non categorizzati fino ad allora."
+
+#. translators: %d: number of days
+#: build/admin.js:37
+#, js-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d giorno"
+msgstr[1] ""
+
+#: build/admin.js:37
+msgid "Session"
+msgstr "Sessione"
+
+#: build/admin.js:37
+msgid "Failed to add service"
+msgstr "Impossibile aggiungere il servizio"
+
+#: build/admin.js:37
+msgid "Failed to remove service"
+msgstr "Impossibile rimuovere il servizio"
+
+#: build/admin.js:37
+msgid "Service removed"
+msgstr "Servizio rimosso"
+
+#. translators: %s: service name (e.g. YouTube)
+#: build/admin.js:38
+#, js-format
+msgid "Added %s"
+msgstr "Aggiunto %s"
+
+#. translators: %d: number of cookies declared
+#: build/admin.js:39
+#, js-format
+msgid "%d cookie was added to your cookie policy."
+msgid_plural "%d cookies were added to your cookie policy."
+msgstr[0] "%d cookie è stato aggiunto alla tua politica sui cookie."
+msgstr[1] ""
+
+#: build/admin.js:39
+msgid "This service is now managed. It stays blocked before consent."
+msgstr "Questo servizio è ora gestito. Rimane bloccato prima del consenso."
+
+#. translators: %s: service name
+#: build/admin.js:40
+#: build/admin.js:41
+#, js-format
+msgid "Add %s"
+msgstr "Aggiungi %s"
+
+#: build/admin.js:40
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Add from a Known Service"
+msgstr "Aggiungi da un servizio conosciuto"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Review what this adds to your cookie policy, then confirm."
+msgstr "Rivedi cosa aggiunge alla tua politica sui cookie, quindi conferma."
+
+#: build/admin.js:40
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can't detect before consent - ensuring your cookie policy stays complete."
+msgstr "Aggiungi rapidamente servizi popolari come YouTube o Google Analytics con un clic. Perfetto per script che gli scanner non possono rilevare prima del consenso - garantendo che la tua politica sui cookie rimanga completa."
+
+#: build/admin.js:40
+msgid "Could not load the services catalog. Please try again."
+msgstr "Impossibile caricare il catalogo dei servizi. Riprova."
+
+#: build/admin.js:40
+msgid "This is a Pro service"
+msgstr "Questo è un servizio Pro"
+
+#: build/admin.js:40
+msgid "Upgrade to add this service and declare its cookies in one click."
+msgstr "Aggiorna per aggiungere questo servizio e dichiarare i suoi cookie con un clic."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Unlock Every Tracking Service"
+msgstr "Sblocca ogni servizio di tracciamento"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Free covers the most common services. Upgrade to add any service in the catalog in one click."
+msgstr "La versione gratuita copre i servizi più comuni. Effettua l'upgrade per aggiungere qualsiasi servizio nel catalogo con un clic."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Confirm Add"
+msgstr "Conferma aggiunta"
+
+#: build/admin.js:41
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can’t detect before consent - ensuring your cookie policy stays complete."
+msgstr "Aggiungi rapidamente servizi popolari come YouTube o Google Analytics con un clic. Perfetto per script che gli scanner non possono rilevare prima del consenso, garantendo che la tua politica sui cookie rimanga completa."
+
+#: build/admin.js:41
+msgid "Failed to load services"
+msgstr "Caricamento servizi fallito"
+
+#: build/admin.js:41
+msgid "An error occurred while loading services. Please refresh the page to try again."
+msgstr "Si è verificato un errore durante il caricamento dei servizi. Ricarica la pagina per riprovare."
+
+#: build/admin.js:41
+msgid "Installed Services"
+msgstr "Servizi installati"
+
+#: build/admin.js:41
+msgid "Available Services"
+msgstr "Servizi disponibili"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Failed to update cookie categories"
+msgstr "Aggiornamento delle categorie di cookie fallito"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Cookie categories updated"
+msgstr "Categorie di cookie aggiornate"
+
+#. translators: %d: number of cookies that could not be updated.
+#: build/admin.js:42
+#, js-format
+msgid "%d cookie(s) could not be updated. Reload and try again."
+msgstr "%d cookie non sono stati aggiornati. Ricarica e riprova."
+
+#: build/admin.js:42
+msgid "Change Cookie Categories Carefully"
+msgstr "Modifica le categorie di cookie con attenzione"
+
+#: build/admin.js:42
+msgid "A cookie's category determines how it behaves when users decline consent. Cookies marked as Essential always remain active. Moving a cookie out of Essential may cause it to be blocked or deleted, which can break features like login or checkout. Similarly, assigning tracking cookies to Essential may conflict with privacy regulations. Your choice is remembered, so a later scan will not move the cookie back."
+msgstr "La categoria di un cookie determina come si comporta quando gli utenti rifiutano il consenso. I cookie contrassegnati come Essenziali rimangono sempre attivi. Spostare un cookie fuori dalla categoria Essenziali può causarne il blocco o la cancellazione, compromettendo funzionalità come il login o il checkout. Allo stesso modo, assegnare cookie di tracciamento alla categoria Essenziali può essere in conflitto con le normative sulla privacy. La tua scelta viene ricordata, quindi una scansione successiva non sposterà il cookie indietro."
+
+#. translators: %s: service name (e.g. Google Analytics)
+#: build/admin.js:43
+#, js-format
+msgid "Looks like %s"
+msgstr "Sembra %s"
+
+#: build/admin.js:43
+msgid "We spotted cookies from this service. Add it to declare its cookies in one step."
+msgstr "Abbiamo rilevato cookie da questo servizio. Aggiungilo per dichiarare i suoi cookie in un solo passaggio."
+
+#: build/admin.js:43
+#: build/admin.js:76
+msgid "Add as Service"
+msgstr "Aggiungi come servizio"
+
+#: build/admin.js:43
+msgid "Dismiss"
+msgstr "Ignora"
+
+#: build/admin.js:50
+msgid "Welcome to SureCookie!"
+msgstr "Benvenuto in SureCookie!"
+
+#: build/admin.js:50
+msgid "Get your site compliant in minutes - show a cookie banner, block trackers before consent, and automatically detect cookies used on your site."
+msgstr "Rendi il tuo sito conforme in pochi minuti: mostra un banner per i cookie, blocca i tracker prima del consenso e rileva automaticamente i cookie usati sul tuo sito."
+
+#: build/admin.js:50
+msgid "Set Up Cookie Banner"
+msgstr "Configura il banner per i cookie"
+
+#: build/admin.js:50
+msgid "Scan My Site"
+msgstr "Scansiona il mio sito"
+
+#: build/admin.js:50
+msgid "Start with the banner, then scan your site to detect cookies."
+msgstr "Inizia con il banner, poi scansiona il tuo sito per rilevare i cookie."
+
+#: build/admin.js:50
+msgid "SureForms Video Thumbnail"
+msgstr "Miniatura video SureForms"
+
+#: build/admin.js:50
+msgid "SureForms: Custom WordPress Forms MADE SIMPLE"
+msgstr "SureForms: moduli WordPress personalizzati FACILI"
+
+#: build/admin.js:59
+msgid "Possible causes: Scan server under heavy load, your site is unreachable from our scanner, your site has CRON issues, or a page caused a browser timeout."
+msgstr "Cause possibili: server di scansione sotto carico elevato, il tuo sito non è raggiungibile dallo scanner, il tuo sito ha problemi di CRON o una pagina ha causato un timeout del browser."
+
+#: build/admin.js:59
+msgid "Some pages could not be analyzed"
+msgstr "Alcune pagine non sono state analizzate"
+
+#. translators: 1: scanned pages, 2: total pages, 3: failed pages
+#: build/admin.js:60
+#, js-format
+msgid "Scanned %1$d of %2$d pages - %3$d could not be analyzed. The cookies we did find are saved, and results add up across scans, so you can re-run the scan to pick up the rest."
+msgstr "Scansionate %1$d di %2$d pagine - %3$d non sono state analizzate. I cookie trovati sono salvati e i risultati si accumulano tra le scansioni, quindi puoi rieseguire la scansione per rilevare il resto."
+
+#: build/admin.js:60
+msgid "Once the scan is complete, the cookies it found appear under <a>Cookies</a>, and the scripts and embeds under <b>Scripts and Embeds</b>."
+msgstr "Una volta completata la scansione, i cookie trovati appariranno sotto <a>Cookie</a>, e gli script e gli embed sotto <b>Script e Embed</b>."
+
+#: build/admin.js:60
+msgid "Keep the scan tab in front until it finishes: browsers slow down background tabs."
+msgstr "Tieni la scheda della scansione in primo piano fino al termine: i browser rallentano le schede in background."
+
+#: build/admin.js:60
+msgid "Pages already collected are saved, so closing the tab early keeps what it found."
+msgstr "Le pagine già raccolte sono salvate, quindi chiudere la scheda in anticipo mantiene ciò che è stato trovato."
+
+#: build/admin.js:60
+msgid "An ad blocker or privacy extension in this browser can hide trackers from the scan."
+msgstr "Un ad blocker o un'estensione per la privacy in questo browser può nascondere i tracker dalla scansione."
+
+#: build/admin.js:60
+msgid "If remote scanning fails, try Assisted Scanner method: <button></button>"
+msgstr "Se la scansione remota fallisce, prova il metodo Scanner Assistito: <button></button>"
+
+#: build/admin.js:60
+msgid "Switch to Default Scanner"
+msgstr "Passa allo Scanner Predefinito"
+
+#: build/admin.js:60
+msgid "Switch to Assisted Scanner"
+msgstr "Passa allo Scanner Assistito"
+
+#: build/admin.js:60
+msgid "Scan From This Browser"
+msgstr "Scansiona da questo browser"
+
+#: build/admin.js:60
+msgid "Your host blocked the scanner"
+msgstr "Il tuo host ha bloccato lo scanner"
+
+#: build/admin.js:60
+msgid "Your site's firewall or bot protection served our scanner a security challenge instead of your page, so the scan completed without results. This does not affect your visitors, only automated scanners. Allowlist the SureCookie scanner (or ask your host to) and run the scan again."
+msgstr "Il firewall o la protezione bot del tuo sito ha presentato al nostro scanner una sfida di sicurezza invece della tua pagina, quindi la scansione si è completata senza risultati. Questo non influisce sui tuoi visitatori, solo sugli scanner automatici. Inserisci lo scanner SureCookie nella whitelist (o chiedi al tuo host di farlo) e esegui di nuovo la scansione."
+
+#: build/admin.js:60
+msgid "Services we still detected on your site (via a first-party check):"
+msgstr "Servizi che abbiamo ancora rilevato sul tuo sito (tramite un controllo di prima parte):"
+
+#: build/admin.js:60
+msgid "How to allowlist the scanner"
+msgstr "Come inserire lo scanner nella whitelist"
+
+#: build/admin.js:60
+msgid "No cookies found in this browser scan"
+msgstr "Nessun cookie trovato in questa scansione del browser"
+
+#: build/admin.js:60
+msgid "We found services on your pages that your browser did not load, which usually means an ad blocker or privacy extension is active. Try again in a browser with extensions disabled, or add the cookies manually."
+msgstr "Abbiamo trovato servizi nelle tue pagine che il tuo browser non ha caricato, il che di solito significa che è attivo un ad blocker o un'estensione per la privacy. Riprova in un browser con le estensioni disabilitate, oppure aggiungi i cookie manualmente."
+
+#: build/admin.js:60
+msgid "The scan visited your pages but no cookies were set. Some services only set cookies after a visitor accepts the banner, so they may not appear. You can also add cookies manually."
+msgstr "La scansione ha visitato le tue pagine ma non sono stati impostati cookie. Alcuni servizi impostano cookie solo dopo che un visitatore accetta il banner, quindi potrebbero non apparire. Puoi anche aggiungere i cookie manualmente."
+
+#: build/admin.js:60
+msgid "No cookies found in this scan"
+msgstr "Nessun cookie trovato in questa scansione"
+
+#: build/admin.js:60
+msgid "The scanner reached your site but did not detect any cookies. Some services only set cookies after a visitor accepts the banner, so they may not appear in a scan. You can also add cookies manually."
+msgstr "Lo scanner ha raggiunto il tuo sito ma non ha rilevato cookie. Alcuni servizi impostano cookie solo dopo che un visitatore accetta il banner, quindi potrebbero non apparire in una scansione. Puoi anche aggiungere i cookie manualmente."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser (Best for this site)"
+msgstr "Scansiona dal tuo browser (il migliore per questo sito)"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser"
+msgstr "Scansiona dal tuo browser"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Our scanner couldn't fully access your site due to server restrictions. This method runs the scan directly in your browser, ensuring accurate detection without being blocked."
+msgstr "Il nostro scanner non ha potuto accedere completamente al tuo sito a causa di restrizioni del server. Questo metodo esegue la scansione direttamente nel tuo browser, garantendo un rilevamento accurato senza essere bloccato."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Run the scan directly in your browser. This helps detect cookies, scripts, and embeds even when external scanners are blocked."
+msgstr "Esegui la scansione direttamente nel tuo browser. Questo aiuta a rilevare cookie, script e embed anche quando gli scanner esterni sono bloccati."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Detects cookies, scripts, and embeds as your visitors would see them."
+msgstr "Rileva cookie, script e embed come li vedrebbero i tuoi visitatori."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Works even when hosting or firewall blocks external scans."
+msgstr "Funziona anche quando l'hosting o il firewall bloccano le scansioni esterne."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Results appear automatically in your Tracking Manager."
+msgstr "I risultati appaiono automaticamente nel tuo Gestore di Tracciamento."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Some advanced detections may still require a remote scan when available."
+msgstr "Alcuni rilevamenti avanzati potrebbero comunque richiedere una scansione remota quando disponibile."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "How this works"
+msgstr "Come funziona"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Before You Start"
+msgstr "Prima di iniziare"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "To measure cookie duration accurately, this scan temporarily clears cookies for your site in this browser (including your consent choice). Your WordPress login session is preserved, so you'll remain signed in."
+msgstr "Per misurare accuratamente la durata dei cookie, questa scansione cancella temporaneamente i cookie per il tuo sito in questo browser (inclusa la tua scelta di consenso). La tua sessione di accesso a WordPress è preservata, quindi rimarrai connesso."
+
+#. translators: %d: maximum pages
+#: build/admin.js:62
+#: build/onboarding.js:6
+#, js-format
+msgid "An assisted scan visits up to %d pages. Remove some pages to continue."
+msgstr "Una scansione assistita visita fino a %d pagine. Rimuovi alcune pagine per continuare."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Scanning in your browser…"
+msgstr "Scansione nel tuo browser…"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Start Browser Scan"
+msgstr "Avvia scansione browser"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "A new tab opens to scan your selected pages - keep it active until it finishes."
+msgstr "Si apre una nuova scheda per scansionare le pagine selezionate - mantienila attiva fino al termine."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Switch Back"
+msgstr "Torna indietro"
+
+#: build/admin.js:62
+msgid "This page did not load the scanner, so it was skipped. A redirect or a login requirement usually causes this."
+msgstr "Questa pagina non ha caricato lo scanner, quindi è stata saltata. Di solito ciò è causato da un reindirizzamento o da un requisito di accesso."
+
+#: build/admin.js:62
+msgid "This page took too long to respond."
+msgstr "Questa pagina ha impiegato troppo tempo per rispondere."
+
+#: build/admin.js:62
+msgid "Skipped because the scan was cancelled."
+msgstr "Saltata perché la scansione è stata annullata."
+
+#: build/admin.js:62
+msgid "This page could not be collected."
+msgstr "Questa pagina non è stata raccolta."
+
+#: build/admin.js:62
+msgid "Pages In This Scan"
+msgstr "Pagine in questa scansione"
+
+#. translators: 1: cookie count, 2: script count
+#: build/admin.js:63
+#, js-format
+msgid "%1$d cookies, %2$d scripts"
+msgstr "%1$d cookie, %2$d script"
+
+#: build/admin.js:63
+msgid "Collecting…"
+msgstr "Raccolta in corso…"
+
+#: build/admin.js:63
+msgid "Waiting"
+msgstr "In attesa"
+
+#: build/admin.js:63
+msgid "Re-scan"
+msgstr "Riscansiona"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Could not start the assisted scan."
+msgstr "Impossibile avviare la scansione assistita."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Could not start the assisted scan"
+msgstr "Impossibile avviare la scansione assistita"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Please try again in a moment."
+msgstr "Per favore riprova tra un momento."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Your browser blocked the scan window"
+msgstr "Il tuo browser ha bloccato la finestra di scansione"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Allow pop-ups for this site, then start the scan again."
+msgstr "Consenti i pop-up per questo sito, quindi avvia di nuovo la scansione."
+
+#: build/admin.js:63
+msgid "View Scan Logs"
+msgstr "Visualizza i log della scansione"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Scan your website to find cookies, scripts, and trackers that require consent."
+msgstr "Scansiona il tuo sito web per trovare cookie, script e tracker che richiedono il consenso."
+
+#: build/admin.js:74
+msgid "This is taking a little longer than usual"
+msgstr "Ci sta mettendo un po' più del solito"
+
+#: build/admin.js:74
+msgid "A page is taking a while to respond, but your scan is still running in the background. Any cookies already found have been saved. You can leave this page and come back - or cancel and try again with fewer pages."
+msgstr "Una pagina sta impiegando un po' a rispondere, ma la scansione è ancora in esecuzione in background. Qualsiasi cookie già trovato è stato salvato. Puoi lasciare questa pagina e tornare - oppure annullare e riprovare con meno pagine."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Queued for Later"
+msgstr "Scansione in coda per dopo"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Today's page budget is used up, so the remaining pages will scan automatically once it resets. Any cookies already found are saved. To scan sooner, run it again with fewer pages."
+msgstr "Il budget di pagine di oggi è esaurito, quindi le pagine rimanenti verranno scansionate automaticamente una volta che si resetta. Qualsiasi cookie già trovato è salvato. Per scansionare prima, esegui di nuovo con meno pagine."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Couldn't Be Completed"
+msgstr "Impossibile completare la scansione"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "A page may have taken too long to respond. Any cookies already found have been saved, and results add up across scans - nothing is lost. Please try again, scanning fewer pages at a time for a more reliable run."
+msgstr "Una pagina potrebbe aver impiegato troppo tempo per rispondere. Qualsiasi cookie già trovato è stato salvato e i risultati si sommano tra le scansioni - nulla viene perso. Per favore riprova, scansionando meno pagine alla volta per una esecuzione più affidabile."
+
+#: build/admin.js:76
+msgid "iFrame"
+msgstr "iFrame"
+
+#: build/admin.js:76
+msgid "Head"
+msgstr "Head"
+
+#: build/admin.js:76
+msgid "Body"
+msgstr "Body"
+
+#: build/admin.js:76
+msgid "Footer"
+msgstr "Footer"
+
+#: build/admin.js:76
+msgid "Anywhere (fallback)"
+msgstr "Ovunque (fallback)"
+
+#: build/admin.js:76
+msgid "This resource is whitelisted, so it always loads - even before consent."
+msgstr "Questa risorsa è nella whitelist, quindi si carica sempre - anche prima del consenso."
+
+#: build/admin.js:76
+msgid "This script is managed by Google Consent Mode and always loads while GCM is enabled."
+msgstr "Questo script è gestito da Google Consent Mode e si carica sempre mentre GCM è abilitato."
+
+#: build/admin.js:76
+msgid "This resource matches a whitelist rule (custom entry or common service), so it always loads."
+msgstr "Questa risorsa corrisponde a una regola della whitelist (voce personalizzata o servizio comune), quindi si carica sempre."
+
+#: build/admin.js:76
+msgid "Script & Iframe"
+msgstr "Script e Iframe"
+
+#: build/admin.js:76
+msgid "Blocked until consent"
+msgstr "Bloccato fino al consenso"
+
+#: build/admin.js:76
+msgid "Not blocked"
+msgstr "Non bloccato"
+
+#: build/admin.js:76
+msgid "Whitelisted"
+msgstr "Nella whitelist"
+
+#: build/admin.js:76
+msgid "Managed by GCM"
+msgstr "Gestito da GCM"
+
+#: build/admin.js:76
+msgid "Source"
+msgstr "Fonte"
+
+#: build/admin.js:76
+msgid "Managed via Known Services - its cookies are declared in your cookie policy."
+msgstr "Gestito tramite Servizi Conosciuti - i suoi cookie sono dichiarati nella tua politica sui cookie."
+
+#: build/admin.js:76
+msgid "Recognized Known Services catalog entry - Click \"Add as Service\" to declare its cookies."
+msgstr "Voce riconosciuta del catalogo Servizi Conosciuti - Clicca \"Aggiungi come Servizio\" per dichiarare i suoi cookie."
+
+#: build/admin.js:76
+msgid "Managed Service"
+msgstr "Servizio gestito"
+
+#: build/admin.js:76
+msgid "Known Service"
+msgstr "Servizio conosciuto"
+
+#: build/admin.js:76
+msgid "Always Allowed"
+msgstr "Sempre consentito"
+
+#: build/admin.js:76
+msgid "Category for"
+msgstr "Categoria per"
+
+#: build/admin.js:76
+msgid "Block until consent (recommended)"
+msgstr "Blocca fino al consenso (consigliato)"
+
+#: build/admin.js:76
+msgid "Always allowed"
+msgstr "Sempre consentito"
+
+#: build/admin.js:76
+msgid "Do not block (always load)"
+msgstr "Non bloccare (carica sempre)"
+
+#: build/admin.js:76
+msgid "Edit Resource"
+msgstr "Modifica risorsa"
+
+#: build/admin.js:76
+msgid "Add Script or Embed"
+msgstr "Aggiungi script o incorporamento"
+
+#: build/admin.js:76
+msgid "Update"
+msgstr "Aggiorna"
+
+#: build/admin.js:76
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: build/admin.js:76
+msgid "Whitelisted Resource Warning"
+msgstr "Avviso risorsa in whitelist"
+
+#: build/admin.js:76
+msgid "If a resource sets cookies, allowing it directly can be a GDPR violation - only whitelist resources you are sure about."
+msgstr "Se una risorsa imposta cookie, consentirla direttamente può violare il GDPR - inserisci in whitelist solo risorse di cui sei sicuro."
+
+#: build/admin.js:76
+msgid "Detected by the scanner, so the value cannot be edited."
+msgstr "Rilevato dallo scanner, quindi il valore non può essere modificato."
+
+#: build/admin.js:76
+msgid "e.g. Support chat"
+msgstr "es. Chat di supporto"
+
+#: build/admin.js:76
+msgid "Domain / Host"
+msgstr "Dominio / Host"
+
+#: build/admin.js:76
+msgid "e.g. connect.facebook.net"
+msgstr "es. connect.facebook.net"
+
+#: build/admin.js:76
+msgid "The host the resource loads from. Pasting a full tag or URL also works."
+msgstr "L'host da cui la risorsa viene caricata. Funziona anche incollare un tag o URL completo."
+
+#: build/admin.js:76
+msgid "Path / Pattern (advanced)"
+msgstr "Percorso / Modello (avanzato)"
+
+#: build/admin.js:76
+msgid "e.g. /fbevents.js"
+msgstr "es. /fbevents.js"
+
+#: build/admin.js:76
+msgid "Optional: narrow the rule to resources that also contain this path, so only one file on the host is blocked."
+msgstr "Opzionale: restringi la regola alle risorse che contengono anche questo percorso, così viene bloccato un solo file sull'host."
+
+#: build/admin.js:76
+msgid "Script Keywords"
+msgstr "Parole chiave dello script"
+
+#: build/admin.js:76
+msgid "e.g. fbq, fbq.push"
+msgstr "es. fbq, fbq.push"
+
+#: build/admin.js:76
+msgid "JavaScript function names to block that depend on the main script (comma separated)."
+msgstr "Nomi di funzioni JavaScript da bloccare che dipendono dallo script principale (separati da virgola)."
+
+#: build/admin.js:76
+msgid "Script Location"
+msgstr "Posizione dello script"
+
+#: build/admin.js:76
+msgid "Anywhere"
+msgstr "Ovunque"
+
+#: build/admin.js:76
+msgid "Where the script loads on the page. SureCookie only looks for it in this section."
+msgstr "Dove lo script viene caricato nella pagina. SureCookie lo cerca solo in questa sezione."
+
+#: build/admin.js:76
+msgid "This resource stays blocked until the visitor consents to this category."
+msgstr "Questa risorsa rimane bloccata finché il visitatore non acconsente a questa categoria."
+
+#: build/admin.js:76
+msgid "Unlock Whitelisting"
+msgstr "Sblocca whitelist"
+
+#: build/admin.js:76
+msgid "Whitelist your own scripts and common services so essential integrations keep working before consent."
+msgstr "Inserisci in whitelist i tuoi script e servizi comuni così le integrazioni essenziali funzionano prima del consenso."
+
+#. translators: %d: number of GCM-managed services.
+#: build/admin.js:77
+#, js-format
+msgid "Managed by Google Consent Mode (%d)"
+msgstr "Gestito da Google Consent Mode (%d)"
+
+#: build/admin.js:77
+msgid "View services"
+msgstr "Visualizza servizi"
+
+#: build/admin.js:77
+msgid "Managed by Google Consent Mode"
+msgstr "Gestito da Google Consent Mode"
+
+#: build/admin.js:77
+msgid "Auto-whitelisted"
+msgstr "Inserito automaticamente in whitelist"
+
+#: build/admin.js:77
+msgid "Enter the script domain or host."
+msgstr "Inserisci il dominio o host dello script."
+
+#: build/admin.js:77
+msgid "Select a category."
+msgstr "Seleziona una categoria."
+
+#: build/admin.js:77
+msgid "A rule for this script already exists."
+msgstr "Esiste già una regola per questo script."
+
+#: build/admin.js:77
+msgid "Control how scripts and embeds load based on user consent - block them until allowed or mark essential ones to always run."
+msgstr "Controlla come caricare script e incorporamenti in base al consenso dell'utente - bloccali finché non sono consentiti o segna quelli essenziali per farli sempre eseguire."
+
+#: build/admin.js:77
+msgid "Behavior: Always Allowed"
+msgstr "Comportamento: Sempre consentito"
+
+#: build/admin.js:77
+msgid "Choose scripts and domains that should never be blocked, so tools like reCAPTCHA and other essential integrations keep working. Google Consent Mode scripts are whitelisted automatically when it is enabled."
+msgstr "Scegli script e domini che non devono mai essere bloccati, così strumenti come reCAPTCHA e altre integrazioni essenziali continuano a funzionare. Gli script di Google Consent Mode sono inseriti automaticamente in whitelist quando è attivato."
+
+#: build/admin.js:77
+msgid "Block Scripts and Embeds Until Consent Switch"
+msgstr "Interruttore Blocca script e incorporamenti fino al consenso"
+
+#: build/admin.js:77
+msgid "Block Scripts Until Consent"
+msgstr "Blocca script fino al consenso"
+
+#: build/admin.js:77
+msgid "Prevent non-essential scripts and embeds from loading until users give consent."
+msgstr "Impedisci il caricamento di script e incorporamenti non essenziali finché gli utenti non danno il consenso."
+
+#: build/admin.js:77
+msgid "Detected and Managed Resources"
+msgstr "Risorse Rilevate e Gestite"
+
+#. translators: 1: scanner-detected count, 2: custom rule count
+#: build/admin.js:78
+#, js-format
+msgid "%1$d detected by scanner, %2$d custom"
+msgstr "%1$d rilevate dallo scanner, %2$d personalizzate"
+
+#: build/admin.js:78
+msgid "New Resource"
+msgstr "Nuova Risorsa"
+
+#: build/admin.js:78
+msgid "All your scripts will be displayed here"
+msgstr "Tutti i tuoi script saranno visualizzati qui"
+
+#: build/admin.js:78
+msgid "Run a scan to detect third-party resources, or add a script manually."
+msgstr "Esegui una scansione per rilevare risorse di terze parti o aggiungi uno script manualmente."
+
+#: build/admin.js:78
+msgid "Add New Resource"
+msgstr "Aggiungi Nuova Risorsa"
+
+#: build/admin.js:78
+msgid "Unlock Custom Script Rules & Whitelisting"
+msgstr "Sblocca Regole Script Personalizzate e Lista Bianca"
+
+#: build/admin.js:78
+msgid "Add your own scripts to block under any category, whitelist trusted scripts, and manage it all from one place."
+msgstr "Aggiungi i tuoi script da bloccare in qualsiasi categoria, inserisci nella lista bianca gli script affidabili e gestisci tutto da un unico posto."
+
+#: build/admin.js:78
+msgid "Generate your cookie policy automatically from your settings, or display it anywhere using a shortcode."
+msgstr "Genera automaticamente la tua politica sui cookie dalle impostazioni o visualizzala ovunque usando uno shortcode."
+
+#: build/admin.js:78
+msgid "Automatically re-scan your site and get notified when new cookies or trackers appear."
+msgstr "Riscansiona automaticamente il tuo sito e ricevi notifiche quando appaiono nuovi cookie o tracker."
+
+#: build/admin.js:84
+msgid "Show your cookie banner only in regions where consent is required."
+msgstr "Mostra il banner dei cookie solo nelle regioni dove è richiesto il consenso."
+
+#: build/admin.js:84
+msgid "Share visitor consent across your sites so users don’t need to give consent again."
+msgstr "Condividi il consenso dei visitatori tra i tuoi siti così gli utenti non devono dare nuovamente il consenso."
+
+#: build/admin.js:84
+msgid "Unlock Consent Sharing"
+msgstr "Sblocca la Condivisione del Consenso"
+
+#: build/admin.js:77
+msgid "Allowed to load while Google Consent Mode is active, instead of being blocked before consent."
+msgstr "Consentito il caricamento mentre la Modalità di Consenso Google è attiva, invece di essere bloccato prima del consenso."
+
+#: build/admin.js:77
+msgid "These Google services are allowed to load while Google Consent Mode is active, instead of being blocked before consent. For Google tag products, Consent Mode then controls what they may store and which identifiers they may use. It does not stop them from contacting Google. They cannot be removed here."
+msgstr "Questi servizi Google sono autorizzati a caricarsi mentre la Modalità di Consenso Google è attiva, invece di essere bloccati prima del consenso. Per i prodotti Google tag, la Modalità di Consenso controlla quindi cosa possono memorizzare e quali identificatori possono utilizzare. Non impedisce loro di contattare Google. Non possono essere rimossi da qui."

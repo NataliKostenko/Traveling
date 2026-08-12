@@ -1,0 +1,10 @@
+conf/
+logs/
+sql/
+public/.git
+public/wp-config.php
+docker-compose.yml
+Dockerfile
+.env
+*.log
+.DS_Store

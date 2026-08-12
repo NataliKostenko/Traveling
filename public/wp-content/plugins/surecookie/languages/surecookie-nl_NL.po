@@ -1,0 +1,5519 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SureCookie 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/surecookie\n"
+"Last-Translator: gpt-po v1.3.0\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-02-16T18:20:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: surecookie\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: surecookie.php
+#: inc/integrations/wp-consent-api/actions.php:66
+#: inc/integrations/wp-consent-api/actions.php:74
+msgid "SureCookie"
+msgstr "SureCookie"
+
+#. Plugin URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com"
+msgstr "https://surecookie.com"
+
+#. Author URI of the plugin
+#: surecookie.php
+msgid "https://surecookie.com/"
+msgstr "https://surecookie.com/"
+
+#: admin/onboarding.php:75
+msgid "You do not have sufficient permissions to access this page."
+msgstr "U hebt niet voldoende machtigingen om deze pagina te openen."
+
+#: admin/menu.php:87
+#: admin/menu.php:274
+#: build/admin.js:2
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/product-promotion.php:110
+msgid "A simple yet powerful way to create modern forms for your website."
+msgstr "Een eenvoudige maar krachtige manier om moderne formulieren voor je website te maken."
+
+#: inc/api/consent-logs.php:448
+msgid "Consent logs retrieved successfully."
+msgstr "Toestemmingslogboeken succesvol opgehaald."
+
+#: inc/api/consent-logs.php:490
+msgid "Consent processed successfully (logging disabled)"
+msgstr "Toestemming succesvol verwerkt (logging uitgeschakeld)"
+
+#: inc/api/consent-logs.php:535
+msgid "Preferences should not be empty."
+msgstr "Voorkeuren mogen niet leeg zijn."
+
+#: inc/api/consent-logs.php:641
+msgid "Consent saved successfully."
+msgstr "Toestemming succesvol opgeslagen."
+
+#: inc/api/consent-logs.php:651
+msgid "Failed to save consent."
+msgstr "Het opslaan van toestemming is mislukt."
+
+#: inc/api/consent-logs.php:669
+#: inc/api/consent-logs.php:801
+msgid "Invalid log ID"
+msgstr "Ongeldig log-ID"
+
+#: inc/api/consent-logs.php:681
+msgid "Log not found."
+msgstr "Log niet gevonden."
+
+#: inc/api/consent-logs.php:717
+#: inc/api/consent-logs.php:744
+msgid "Log details retrieved successfully."
+msgstr "Logdetails succesvol opgehaald."
+
+#: inc/api/consent-logs.php:766
+msgid "Invalid log IDs"
+msgstr "Ongeldige log-ID's"
+
+#. translators: %d: number of logs deleted
+#: inc/api/consent-logs.php:787
+#, php-format
+msgid "%d log(s) deleted successfully."
+msgstr "%d log(s) succesvol verwijderd."
+
+#: inc/api/consent-logs.php:777
+#: inc/api/consent-logs.php:872
+msgid "Failed to delete logs."
+msgstr "Verwijderen van logs is mislukt."
+
+#: inc/api/consent-logs.php:812
+msgid "Log deleted successfully."
+msgstr "Log succesvol verwijderd."
+
+#: inc/api/consent-logs.php:821
+msgid "Failed to delete log."
+msgstr "Verwijderen van log is mislukt."
+
+#: inc/api/consent-logs.php:863
+msgid "All logs deleted successfully."
+msgstr "Alle logs succesvol verwijderd."
+
+#: inc/services/cookie-category-service.php:54
+msgid "Cookie categories retrieved successfully."
+msgstr "Cookiecategorieën succesvol opgehaald."
+
+#: inc/services/cookie-category-service.php:75
+msgid "Category name is required."
+msgstr "Categorie naam is vereist."
+
+#: inc/services/cookie-category-service.php:86
+msgid "A category with this name already exists."
+msgstr "Een categorie met deze naam bestaat al."
+
+#: inc/services/cookie-category-service.php:103
+msgid "Category created successfully."
+msgstr "Categorie succesvol aangemaakt."
+
+#: inc/api/cookie-categories.php:181
+msgid "Failed to create category: "
+msgstr "Aanmaken van categorie is mislukt:"
+
+#: inc/services/cookie-category-service.php:124
+#: inc/services/cookie-category-service.php:196
+msgid "Category ID is required."
+msgstr "Categorie-ID is vereist."
+
+#: inc/services/cookie-category-service.php:134
+#: inc/services/cookie-category-service.php:215
+msgid "Category not found."
+msgstr "Categorie niet gevonden."
+
+#: inc/services/cookie-category-service.php:166
+msgid "Category updated successfully."
+msgstr "Categorie succesvol bijgewerkt."
+
+#: inc/api/cookie-categories.php:204
+msgid "Failed to update category: "
+msgstr "Bijwerken van categorie is mislukt:"
+
+#: inc/services/cookie-category-service.php:205
+msgid "Default categories cannot be deleted."
+msgstr "Standaardcategorieën kunnen niet worden verwijderd."
+
+#: inc/services/cookie-category-service.php:307
+msgid "Category deleted successfully."
+msgstr "Categorie succesvol verwijderd."
+
+#: inc/api/cookie-categories.php:230
+msgid "Failed to delete category: "
+msgstr "Verwijderen van categorie is mislukt:"
+
+#: inc/services/cookie-service.php:60
+#: inc/services/cookie-service.php:355
+msgid "No scanned cookies found."
+msgstr "Geen gescande cookies gevonden."
+
+#: inc/services/cookie-service.php:84
+msgid "Scanned cookies retrieved successfully."
+msgstr "Gescande cookies succesvol opgehaald."
+
+#: inc/services/cookie-service.php:101
+msgid "Custom cookies retrieved successfully."
+msgstr "Aangepaste cookies succesvol opgehaald."
+
+#: inc/services/cookie-service.php:132
+#: inc/services/cookie-service.php:323
+msgid "Cookie name is required."
+msgstr "Cookie naam is vereist."
+
+#: inc/services/cookie-service.php:139
+msgid "Cookie category is required."
+msgstr "Cookiecategorie is vereist."
+
+#: inc/services/cookie-service.php:154
+msgid "A cookie with this name already exists."
+msgstr "Een cookie met deze naam bestaat al."
+
+#: inc/services/cookie-service.php:191
+msgid "Custom cookie created successfully."
+msgstr "Aangepaste cookie succesvol aangemaakt."
+
+#: inc/api/cookies.php:302
+msgid "Failed to create custom cookie: "
+msgstr "Aanmaken van aangepaste cookie is mislukt:"
+
+#: inc/services/cookie-service.php:210
+#: inc/services/cookie-service.php:280
+msgid "Cookie ID is required."
+msgstr "Cookie-ID is vereist."
+
+#: inc/services/cookie-service.php:219
+#: inc/services/cookie-service.php:289
+msgid "Cookie not found."
+msgstr "Cookie niet gevonden."
+
+#: inc/services/cookie-service.php:262
+msgid "Custom cookie updated successfully."
+msgstr "Aangepaste cookie succesvol bijgewerkt."
+
+#: inc/api/cookies.php:324
+msgid "Failed to update custom cookie: "
+msgstr "Bijwerken van aangepaste cookie is mislukt:"
+
+#: inc/services/cookie-service.php:299
+msgid "Custom cookie deleted successfully."
+msgstr "Aangepaste cookie succesvol verwijderd."
+
+#: inc/api/cookies.php:345
+msgid "Failed to delete custom cookie: "
+msgstr "Verwijderen van aangepaste cookie is mislukt:"
+
+#: inc/services/cookie-service.php:330
+msgid "Current category is required."
+msgstr "Huidige categorie is vereist."
+
+#: inc/services/cookie-service.php:337
+#: inc/services/cookie-service.php:414
+msgid "New category is required."
+msgstr "Nieuwe categorie is vereist."
+
+#: inc/services/cookie-service.php:345
+msgid "Cookie is already in the selected category."
+msgstr "Cookie bevindt zich al in de geselecteerde categorie."
+
+#: inc/services/cookie-service.php:363
+msgid "Current category not found in scanned cookies."
+msgstr "Huidige categorie niet gevonden in gescande cookies."
+
+#: inc/services/cookie-service.php:372
+msgid "Cookie not found in the specified category."
+msgstr "Cookie niet gevonden in de opgegeven categorie."
+
+#: inc/services/cookie-service.php:384
+msgid "Cookie category updated successfully."
+msgstr "Cookiecategorie succesvol bijgewerkt."
+
+#: inc/api/cookies.php:372
+msgid "Failed to update cookie category: "
+msgstr "Bijwerken van cookiecategorie mislukt:"
+
+#: inc/api/onboarding.php:134
+msgid "Onboarding data saved successfully."
+msgstr "Onboarding-gegevens succesvol opgeslagen."
+
+#: inc/api/onboarding.php:152
+msgid "Onboarding is already marked as complete."
+msgstr "Onboarding is al gemarkeerd als voltooid."
+
+#: inc/api/onboarding.php:162
+msgid "Onboarding marked as complete."
+msgstr "Onboarding gemarkeerd als voltooid."
+
+#: inc/api/plugin.php:158
+#: inc/api/plugin.php:191
+msgid "Plugin not found."
+msgstr "Plugin niet gevonden."
+
+#: inc/api/plugin.php:203
+msgid "Plugin is already inactive."
+msgstr "Plugin is al inactief."
+
+#: inc/api/plugin.php:228
+#: build/admin.js:75
+msgid "Plugin deactivated successfully."
+msgstr "Plugin succesvol gedeactiveerd."
+
+#: inc/api/plugin.php:121
+msgid "Promotional plugins data retrieved."
+msgstr "Promotionele plugin-gegevens opgehaald."
+
+#: inc/api/plugin.php:172
+#: build/admin.js:2
+msgid "Plugin activated successfully."
+msgstr "Plugin succesvol geactiveerd."
+
+#: inc/api/plugin.php:290
+msgid "Conflicting plugins retrieved."
+msgstr "Conflicterende plugins opgehaald."
+
+#: inc/api/scan-history.php:61
+msgid "Scanned history retrieved successfully."
+msgstr "Gescande geschiedenis succesvol opgehaald."
+
+#: inc/api/settings.php:120
+msgid "No data found"
+msgstr "Geen gegevens gevonden"
+
+#: inc/api/settings.php:144
+msgid "Settings updated"
+msgstr "Instellingen bijgewerkt"
+
+#: inc/functions/get.php:118
+msgid "Essential Cookies"
+msgstr "Essentiële Cookies"
+
+#: inc/functions/get.php:124
+msgid "Functional Cookies"
+msgstr "Functionele Cookies"
+
+#: inc/functions/get.php:130
+msgid "Analytics Cookies"
+msgstr "Analysecookies"
+
+#: inc/functions/get.php:136
+msgid "Marketing Cookies"
+msgstr "Marketing Cookies"
+
+#: inc/functions/get.php:142
+msgid "Uncategorized Cookies"
+msgstr "Ongecategoriseerde Cookies"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "This website uses cookies to enhance your browsing experience, personalize content, provide social media features, and analyze our traffic. You can review and manage your cookie settings at any time, or accept all cookies to proceed."
+msgstr "Deze website gebruikt cookies om uw browse-ervaring te verbeteren, inhoud te personaliseren, social media-functies te bieden en ons verkeer te analyseren. U kunt uw cookie-instellingen op elk moment bekijken en beheren, of alle cookies accepteren om door te gaan."
+
+#: inc/utils/options.php:71
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Accept All"
+msgstr "Alles accepteren"
+
+#: inc/utils/options.php:75
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Decline"
+msgstr "Weigeren"
+
+#: inc/modules/nudges/api.php:70
+msgid "Invalid type provided."
+msgstr "Ongeldig type opgegeven."
+
+#: inc/modules/nudges/api.php:94
+msgid "Could not disable the nudge. Please try again."
+msgstr "Het nudge uitschakelen is mislukt. Probeer het opnieuw."
+
+#. translators: %s: nudge type
+#: inc/modules/nudges/api.php:100
+#, php-format
+msgid "\"%s\" has been disabled."
+msgstr "\"%s\" is uitgeschakeld."
+
+#. translators: %s: Service name (e.g., YouTube, Vimeo, Bunny.net).
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:302
+#: inc/modules/script-blocking/blocker.php:1283
+#, php-format
+msgid "This content is blocked because it requires %s cookies."
+msgstr "Deze inhoud is geblokkeerd omdat het %s cookies vereist."
+
+#: inc/integrations/presto-player/block-handler.php:240
+#: inc/modules/script-blocking/blocker.php:1298
+msgid "Accept & Load"
+msgstr "Accepteren & Laden"
+
+#: inc/modules/site-scanner/api.php:220
+msgid "Scan cancelled successfully."
+msgstr "Scannen geannuleerd."
+
+#: inc/modules/site-scanner/api.php:226
+msgid "No active scan to cancel."
+msgstr "Geen actieve scan om te annuleren."
+
+#: inc/modules/site-scanner/api.php:257
+#: inc/modules/site-scanner/saas-client.php:400
+msgid "A scan is already in progress. Please wait for it to complete."
+msgstr "Er loopt al een scan. Wacht tot deze is voltooid."
+
+#: inc/modules/site-scanner/api.php:299
+msgid "Cookie scan has been initiated."
+msgstr "Cookie-scanning gestart."
+
+#: inc/modules/site-scanner/api.php:300
+msgid "The scan is running. You will be notified when it completes."
+msgstr "De scan is bezig. U wordt geïnformeerd zodra deze is voltooid."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/api.php:312
+#, php-format
+msgid "Failed to start site scanner: %s"
+msgstr "Site-scanner starten mislukt: %s"
+
+#: inc/modules/site-scanner/cron.php:70
+msgid "Starting site scan (triggered by user)."
+msgstr "Start site scan (geactiveerd door gebruiker)."
+
+#: inc/modules/site-scanner/api.php:273
+#: inc/modules/site-scanner/cron.php:76
+#: inc/modules/site-scanner/saas-client.php:407
+msgid "No pages selected for scanning."
+msgstr "Geen pagina's geselecteerd voor scannen."
+
+#. translators: %s: Plan name
+#: inc/modules/site-scanner/cron.php:92
+#, php-format
+msgid "Plan: %s."
+msgstr "Plan: %s."
+
+#. translators: %d: Number of pages
+#: inc/modules/site-scanner/cron.php:93
+#, php-format
+msgid "Pages selected: %d."
+msgstr "Geselecteerde pagina's: %d."
+
+#: inc/modules/site-scanner/cron.php:95
+msgid "Sending scan request…"
+msgstr "Verzenden scanverzoek…"
+
+#: inc/modules/site-scanner/cron.php:101
+msgid "Scan already in progress. Skipping."
+msgstr "Scan is al bezig. Overslaan."
+
+#: inc/modules/site-scanner/cron.php:114
+msgid "Scan started successfully."
+msgstr "Scan succesvol gestart."
+
+#. translators: %s: Group ID
+#: inc/modules/site-scanner/cron.php:115
+#, php-format
+msgid "Group ID: %s"
+msgstr "Groep ID: %s"
+
+#: inc/modules/site-scanner/cron.php:117
+msgid "Checking scan progress…"
+msgstr "Controleren scanvoortgang…"
+
+#: inc/modules/site-scanner/cron.php:166
+msgid "No active scan."
+msgstr "Geen actieve scan."
+
+#: inc/modules/site-scanner/cron.php:186
+msgid "Scan in progress..."
+msgstr "Scan bezig…"
+
+#: inc/modules/site-scanner/cron.php:224
+msgid "Scan cancelled by user."
+msgstr "Scan geannuleerd door gebruiker."
+
+#: inc/modules/site-scanner/saas-client.php:281
+msgid "Every 1 Minute (SureCookie Polling)"
+msgstr "Elke 1 minuut (SureCookie Polling)"
+
+#: inc/modules/site-scanner/saas-client.php:391
+msgid "Cookie scanning is not available for localhost or development sites. Please use a live domain."
+msgstr "Cookie-scanning is niet beschikbaar voor localhost of ontwikkelingssites. Gebruik een live domein."
+
+#: inc/modules/site-scanner/saas-client.php:448
+msgid "Failed to encode scan request."
+msgstr "Fout bij coderen van scanverzoek."
+
+#. translators: %s: Error message
+#: inc/modules/site-scanner/saas-client.php:493
+#, php-format
+msgid "Failed to start scan: %s"
+msgstr "Fout bij starten scan: %s"
+
+#: inc/modules/site-scanner/saas-client.php:531
+msgid "Unknown error occurred."
+msgstr "Onbekende fout opgetreden."
+
+#: inc/modules/site-scanner/saas-client.php:599
+msgid "Scan has been started. You will be notified when it completes."
+msgstr "Scan gestart. U wordt geïnformeerd wanneer deze is voltooid."
+
+#: inc/modules/site-scanner/saas-client.php:641
+msgid "Failed to check scan status."
+msgstr "Fout bij controleren scanstatus."
+
+#: inc/modules/site-scanner/saas-client.php:778
+msgid "Failed to get scan group."
+msgstr "Fout bij ophalen scan groep."
+
+#: inc/modules/site-scanner/saas-client.php:906
+msgid "Scan timed out. Please try again."
+msgstr "Scan time-out. Probeer het opnieuw."
+
+#: inc/modules/site-scanner/saas-client.php:996
+msgid "Scan failed on server."
+msgstr "Scan mislukt op server."
+
+#: inc/modules/site-scanner/saas-client.php:1899
+msgid "Failed to fetch results."
+msgstr "Fout bij ophalen resultaten."
+
+#: inc/utils/options.php:79
+msgid "Cookie Settings"
+msgstr "Cookie-instellingen"
+
+#: inc/utils/options.php:142
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Accepted"
+msgstr "Geaccepteerd"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Partially Accepted"
+msgstr "Gedeeltelijk geaccepteerd"
+
+#: build/admin.js:1
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Declined"
+msgstr "Afgewezen"
+
+#: build/admin.js:1
+msgid "Failed to load consent logs"
+msgstr "Fout bij laden toestemmingslogboeken"
+
+#: build/admin.js:1
+msgid "Failed to load cookie categories"
+msgstr "Fout bij laden cookiecategorieën"
+
+#: build/admin.js:1
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "Failed to load settings"
+msgstr "Fout bij laden instellingen"
+
+#: build/admin.js:1
+msgid "Failed to save settings"
+msgstr "Fout bij opslaan instellingen"
+
+#: build/admin.js:1
+#: build/admin.js:3
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "Never"
+msgstr "Nooit"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "30 days"
+msgstr "30 dagen"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "60 days"
+msgstr "60 dagen"
+
+#: admin/menu.php:74
+#: build/admin.js:2
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Cookie Scanner"
+msgstr "Cookie Scanner"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "All Cookies"
+msgstr "Alle cookies"
+
+#: build/admin.js:2
+msgid "Banner"
+msgstr "Banner"
+
+#: build/admin.js:2
+msgid "Content"
+msgstr "Inhoud"
+
+#: build/admin.js:2
+msgid "Layout"
+msgstr "Lay-out"
+
+#: build/admin.js:2
+#: build/admin.js:43
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: admin/menu.php:82
+#: admin/menu.php:400
+#: build/admin.js:2
+msgid "Logs"
+msgstr "Logboeken"
+
+#: build/admin.js:2
+#: build/admin.js:21
+msgid "Consent Logs"
+msgstr "Toestemmingslogboeken"
+
+#: inc/modules/assisted-scan/collector.php:329
+#: build/admin.js:2
+#: build/admin.js:3
+#: build/admin.js:28
+#: build/admin.js:41
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: build/admin.js:2
+#: build/admin.js:5
+#: build/admin.js:6
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: build/admin.js:2
+#: build/admin.js:28
+#: build/admin.js:83
+msgid "Save"
+msgstr "Opslaan"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "No options available"
+msgstr "Geen opties beschikbaar"
+
+#: build/admin.js:2
+msgid "Settings saved!"
+msgstr "Instellingen opgeslagen!"
+
+#: build/admin.js:2
+msgid "Your settings have been successfully saved."
+msgstr "Uw instellingen zijn succesvol opgeslagen."
+
+#: build/admin.js:2
+msgid "Save failed!"
+msgstr "Opslaan mislukt!"
+
+#: build/admin.js:2
+msgid "There was an error saving your settings. Please try again."
+msgstr "Er is een fout opgetreden bij het opslaan van uw instellingen. Probeer het opnieuw."
+
+#: build/admin.js:2
+msgid "Saving…"
+msgstr "Opslaan…"
+
+#: build/admin.js:2
+msgid "WordPress updates API not available."
+msgstr "WordPress updates API niet beschikbaar."
+
+#: build/admin.js:2
+msgid "Plugin activation failed."
+msgstr "Plugin activering mislukt."
+
+#: build/admin.js:2
+msgid "Plugin installation failed."
+msgstr "Plugin installatie mislukt."
+
+#: build/admin.js:2
+msgid "Plugin installed and activated successfully."
+msgstr "Plugin succesvol geïnstalleerd en geactiveerd."
+
+#: build/admin.js:2
+msgid "Failed to install and activate plugin."
+msgstr "Installatie en activatie van plugin mislukt."
+
+#: build/admin.js:2
+msgid "Failed to activate plugin."
+msgstr "Plugin activeren mislukt."
+
+#: build/admin.js:2
+msgid "Install and Activate"
+msgstr "Installeren en Activeren"
+
+#: build/admin.js:2
+msgid "Activate"
+msgstr "Activeren"
+
+#: build/admin.js:2
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: build/admin.js:2
+msgid "Banner Content"
+msgstr "Bannerinhoud"
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner Switch"
+msgstr "Cookie Banner Schakelaar inschakelen"
+
+#: build/admin.js:2
+msgid "Enable Cookie Banner"
+msgstr "Cookie Banner inschakelen"
+
+#: build/admin.js:2
+msgid "Cookie Notice (optional)"
+msgstr "Cookie-melding (optioneel)"
+
+#: build/admin.js:2
+msgid "Enable Accept All Button"
+msgstr "Accept All Knop inschakelen"
+
+#: build/admin.js:2
+msgid "Button Order"
+msgstr "Knopvolgorde"
+
+#: build/admin.js:2
+msgid "Banner Layout"
+msgstr "Banner Lay-out"
+
+#: build/admin.js:2
+msgid "Configure how and where your cookie banner appears on your website"
+msgstr "Configureer hoe en waar uw cookie banner op uw website verschijnt"
+
+#: build/admin.js:2
+msgid "Logo"
+msgstr "Logo"
+
+#: build/admin.js:2
+msgid "Upload Logo"
+msgstr "Logo Uploaden"
+
+#: build/admin.js:2
+msgid "Select Logo"
+msgstr "Logo Selecteren"
+
+#: build/admin.js:2
+msgid "Use this logo"
+msgstr "Gebruik dit logo"
+
+#: build/admin.js:2
+msgid "Banner Type"
+msgstr "Banner Type"
+
+#: build/admin.js:2
+msgid "Floating Banner"
+msgstr "Vliegende banner"
+
+#: build/admin.js:2
+msgid "Full-width Banner"
+msgstr "Volledekkende banner"
+
+#: build/admin.js:2
+msgid "Banner Width"
+msgstr "Bannerbreedte"
+
+#: build/admin.js:2
+msgid "px"
+msgstr "px"
+
+#: build/admin.js:2
+msgid "Position"
+msgstr "Positie"
+
+#: build/admin.js:2
+msgid "Bottom Left"
+msgstr "Linksonder"
+
+#: build/admin.js:2
+msgid "Bottom Center"
+msgstr "Midden onder"
+
+#: build/admin.js:2
+msgid "Bottom Right"
+msgstr "Rechtsonder"
+
+#: build/admin.js:2
+msgid "Middle"
+msgstr "Midden"
+
+#: build/admin.js:2
+msgid "Top"
+msgstr "Boven"
+
+#: build/admin.js:2
+msgid "Bottom"
+msgstr "Onder"
+
+#: build/admin.js:2
+msgid "Color Palette: <span></span>"
+msgstr "Kleurenpalet: <span></span>"
+
+#: build/admin.js:2
+#: build/admin.js:4
+msgid "Default"
+msgstr "Standaard"
+
+#: build/admin.js:4
+msgid "Consent Details"
+msgstr "Toestemmingsgegevens"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: build/admin.js:4
+msgid "No data available."
+msgstr "Geen gegevens beschikbaar."
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Actions"
+msgstr "Acties"
+
+#: build/admin.js:4
+msgid "Date & Time"
+msgstr "Datum & Tijd"
+
+#: build/admin.js:4
+msgid "IP Address"
+msgstr "IP-adres"
+
+#: build/admin.js:4
+msgid "Country"
+msgstr "Land"
+
+#: build/admin.js:4
+#: build/admin.js:76
+msgid "Status"
+msgstr "Status"
+
+#: build/admin.js:4
+msgid "Download PDF"
+msgstr "Download PDF"
+
+#: build/admin.js:6
+msgid "Consent log is empty"
+msgstr "Toestemmingslogboek is leeg"
+
+#: build/admin.js:6
+msgid "Your consent logs will be displayed here once users interact with the banner"
+msgstr "Uw toestemmingslogs worden hier weergegeven zodra gebruikers interactie hebben met de banner"
+
+#: build/admin.js:6
+msgid "<span></span> Selected"
+msgstr "<span></span> Geselecteerd"
+
+#: build/admin.js:6
+msgid "Deleting…"
+msgstr "Verwijderen…"
+
+#: build/admin.js:6
+msgid "View All Logs"
+msgstr "Bekijk alle logs"
+
+#: build/admin.js:6
+msgid "Consent Logging Disabled"
+msgstr "Toestemming logging uitgeschakeld"
+
+#: build/admin.js:6
+msgid "Enable consent logging to view analytics data and recent consent logs."
+msgstr "Schakel toestemming logging in om analygegevens en recente toestemmingslogs te bekijken."
+
+#: build/admin.js:3
+#: build/admin.js:6
+msgid "Enable Consent Logging"
+msgstr "Toestemming logging inschakelen"
+
+#: build/admin.js:6
+msgid "Consents"
+msgstr "Toestemmingen"
+
+#: build/admin.js:6
+msgid "No Consents Yet"
+msgstr "Nog geen toestemmingen"
+
+#: build/admin.js:6
+msgid "Data will appear here once visitors interact with the cookie banner."
+msgstr "Gegevens verschijnen hier zodra bezoekers interactie hebben met de cookiebanner."
+
+#. translators: %s: log/logs
+#: build/admin.js:9
+#, js-format
+msgid "Failed to delete consent %s"
+msgstr "Mislukt om toestemming %s te verwijderen"
+
+#: build/admin.js:9
+#: build/admin.js:12
+#: build/admin.js:18
+msgid "log"
+msgid_plural "logs"
+msgstr[0] "log"
+msgstr[1] "logs"
+
+#. translators: %s: log/logs
+#: build/admin.js:12
+#, js-format
+msgid "Successfully deleted consent %s"
+msgstr "Toestemming %s succesvol verwijderd"
+
+#: build/admin.js:12
+msgid "Failed to delete consent log"
+msgstr "Mislukt om toestemmingslogboek te verwijderen"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Delete Consent Log"
+msgstr "Verwijder toestemmingslogboek"
+
+#: build/admin.js:12
+#: build/admin.js:21
+msgid "Are you sure you want to delete this consent log? This action cannot be undone."
+msgstr "Weet u zeker dat u dit toestemmingslogboek wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+
+#: build/admin.js:15
+msgid "Delete Selected Consent Logs"
+msgstr "Verwijder geselecteerde toestemmingslogs"
+
+#. translators: %s: the log string pluralized.
+#: build/admin.js:18
+#, js-format
+msgid "Are you sure you want to delete the selected consent %s? This action cannot be undone."
+msgstr "Weet u zeker dat u de geselecteerde toestemming %s wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+
+#: build/admin.js:21
+msgid "Page"
+msgstr "Pagina"
+
+#: build/admin.js:21
+msgid "of"
+msgstr "van"
+
+#: build/admin.js:21
+msgid "Consent Logs Pagination"
+msgstr "Toestemmingslogs paginering"
+
+#: build/admin.js:2
+msgid "Consent Duration (in days)"
+msgstr "Toestemmingduur (in dagen)"
+
+#: build/admin.js:2
+msgid "How long user consent remains valid before requiring renewal (1–365 days)."
+msgstr "Hoe lang de toestemming van de gebruiker geldig blijft voordat vernieuwing vereist is (1–365 dagen)."
+
+#: build/admin.js:3
+msgid "Enable Consent Logging Switch"
+msgstr "Toestemming logging inschakelen schakelaar"
+
+#: build/admin.js:3
+msgid "Store consent records in database for compliance reporting and analytics."
+msgstr "Bewaar toestemmingsgegevens in database voor nalevingsrapportage en analyse."
+
+#: build/admin.js:3
+msgid "Clear Logs After"
+msgstr "Logs wissen na"
+
+#: build/admin.js:3
+msgid "Select retention period"
+msgstr "Selecteer bewaartermijn"
+
+#: build/admin.js:3
+msgid "Automatically delete consent logs older than the selected period."
+msgstr "Automatisch verwijderen van toestemmingslogs ouder dan de geselecteerde periode."
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/admin.js:76
+#: build/public.js:4
+msgid "Name"
+msgstr "Categorie"
+
+#: build/admin.js:4
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Category"
+msgstr "Provider"
+
+#: build/admin.js:25
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Provider"
+msgstr "Domein"
+
+#: inc/modules/cookie-policy/shortcode.php:206
+#: build/admin.js:25
+msgid "Domain"
+msgstr "Duur (dagen)"
+
+#: build/admin.js:25
+msgid "Duration (Days)"
+msgstr "Type"
+
+#: build/admin.js:25
+#: build/admin.js:76
+msgid "Type"
+msgstr "Ongecategoriseerd"
+
+#: build/admin.js:23
+#: build/admin.js:78
+#: build/onboarding.js:3
+msgid "Uncategorized"
+msgstr "Categorie wijzigen"
+
+#: build/admin.js:21
+#: build/onboarding.js:1
+msgid "Change Category"
+msgstr "Bewerken"
+
+#: build/admin.js:21
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/onboarding.js:1
+msgid "Edit"
+msgstr "Gescand"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Scanned"
+msgstr "Aangepast"
+
+#: build/admin.js:23
+#: build/admin.js:76
+#: build/onboarding.js:3
+msgid "Custom"
+msgstr "Weet u zeker dat u de cookie \"<strong></strong>\" wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete the cookie \"<strong></strong>\"? This action cannot be undone."
+msgstr "Weet u zeker dat u deze cookie wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt."
+
+#: build/admin.js:25
+msgid "Are you sure you want to delete this cookie? This action cannot be undone."
+msgstr "Aangepaste cookie verwijderen"
+
+#: build/admin.js:25
+msgid "Delete Custom Cookie"
+msgstr "Cookiecategorie wijzigen"
+
+#: build/admin.js:25
+msgid "Change Cookie Category"
+msgstr "Categorie bijwerken"
+
+#: build/admin.js:25
+msgid "Update Category"
+msgstr "Cookie bewerken"
+
+#: build/admin.js:25
+msgid "Edit Cookie"
+msgstr "Bewerk Cookie"
+
+#: build/admin.js:25
+msgid "Update Cookie"
+msgstr "Cookie bijwerken"
+
+#: build/admin.js:25
+msgid "Add New Cookie"
+msgstr "Nieuwe cookie toevoegen"
+
+#: build/admin.js:25
+msgid "Save Cookie"
+msgstr "Cookie opslaan"
+
+#: inc/modules/cookie-policy/shortcode.php:203
+#: build/admin.js:25
+msgid "Cookie Name"
+msgstr "Cookie naam"
+
+#: build/admin.js:25
+msgid "e.g., my_custom_cookie"
+msgstr "bijv., mijn_aangepaste_cookie"
+
+#: build/admin.js:25
+#: build/admin.js:28
+#: build/admin.js:76
+msgid "Select a category"
+msgstr "Selecteer een categorie"
+
+#: build/admin.js:25
+msgid "No categories available. Please create a category first."
+msgstr "Geen categorieën beschikbaar. Maak eerst een categorie aan."
+
+#: build/admin.js:25
+msgid "e.g., 30"
+msgstr "bijv., 30"
+
+#: build/admin.js:25
+msgid "e.g., Your Company Name"
+msgstr "bijv., Naam van uw bedrijf"
+
+#: build/admin.js:25
+msgid "e.g., .example.com"
+msgstr "bijv., .voorbeeld.com"
+
+#: build/admin.js:25
+msgid "Description"
+msgstr "Omschrijving"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie…"
+msgstr "Voer een omschrijving in voor deze cookie…"
+
+#: inc/modules/cookie-policy/shortcode.php:204
+#: build/admin.js:25
+msgid "Purpose"
+msgstr "Doel"
+
+#: build/admin.js:25
+msgid "Describe the purpose of this cookie…"
+msgstr "Beschrijf het doel van deze cookie…"
+
+#: build/admin.js:28
+msgid "No cookie categories found. Click \"Add New Category\" to create one."
+msgstr "Geen cookiecategorieën gevonden. Klik op \"Nieuwe categorie toevoegen\" om er een te maken."
+
+#: build/admin.js:28
+#: build/admin.js:43
+msgid "Manage Categories"
+msgstr "Beheer Categorieën"
+
+#: build/admin.js:28
+msgid "Manage cookie categories that appear in the privacy preferences modal"
+msgstr "Beheer cookiecategorieën die verschijnen in de privacyvoorkeuren modal"
+
+#: build/admin.js:28
+msgid "Add New Category"
+msgstr "Nieuwe Categorie Toevoegen"
+
+#: build/admin.js:28
+msgid "Edit Category"
+msgstr "Categorie Bewerken"
+
+#: build/admin.js:28
+msgid "Add Category"
+msgstr "Categorie Toevoegen"
+
+#: build/admin.js:25
+msgid "Category Name"
+msgstr "Categorie Naam"
+
+#: build/admin.js:25
+msgid "e.g., Performance Cookies"
+msgstr "bijv., Prestatiecookies"
+
+#: build/admin.js:25
+msgid "Enter a description for this cookie category…"
+msgstr "Voer een omschrijving in voor deze cookiecategorie…"
+
+#. translators: %1$s is the category name, %2$s is the number of cookies
+#: build/admin.js:28
+#, js-format
+msgid "Are you sure you want to delete this cookie category? <br/> The category \"%1$s\" has %2$s assigned to it:"
+msgstr "Weet u zeker dat u deze cookiecategorie wilt verwijderen? <br/> De categorie \"%1$s\" heeft %2$s toegewezen:"
+
+#: build/admin.js:28
+msgid "cookie"
+msgid_plural "cookies"
+msgstr[0] "cookie"
+msgstr[1] "cookies"
+
+#: build/admin.js:28
+msgid "Are you sure you want to delete this cookie category? This action cannot be undone."
+msgstr "Weet u zeker dat u deze cookiecategorie wilt verwijderen? Deze actie kan niet ongedaan worden."
+
+#: build/admin.js:28
+msgid "Delete Cookie Category"
+msgstr "Cookiecategorie Verwijderen"
+
+#: build/admin.js:28
+msgid "Keep cookies"
+msgstr "Cookies behouden"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please enter a cookie name"
+msgstr "Voer een cookie naam in"
+
+#: build/admin.js:41
+#: build/onboarding.js:4
+msgid "Please select a category"
+msgstr "Selecteer een categorie"
+
+#: build/admin.js:28
+#: build/onboarding.js:4
+msgid "Please enter a category name"
+msgstr "Voer een categorienaam in"
+
+#: build/admin.js:41
+msgid "Failed to load custom cookies"
+msgstr "Laden van aangepaste cookies mislukt"
+
+#: build/admin.js:41
+msgid "Failed to create custom cookie"
+msgstr "Aangepaste cookie maken mislukt"
+
+#: build/admin.js:41
+msgid "Custom cookie created successfully"
+msgstr "Aangepaste cookie succesvol gemaakt"
+
+#: build/admin.js:41
+msgid "Failed to update custom cookie"
+msgstr "Bijwerken van aangepaste cookie mislukt"
+
+#: build/admin.js:41
+msgid "Custom cookie updated successfully"
+msgstr "Aangepaste cookie succesvol bijgewerkt"
+
+#: build/admin.js:41
+msgid "Failed to delete custom cookie"
+msgstr "Verwijderen van aangepaste cookie mislukt"
+
+#: build/admin.js:41
+msgid "Custom cookie deleted successfully"
+msgstr "Aangepaste cookie succesvol verwijderd"
+
+#: build/admin.js:41
+msgid "Failed to update cookie category"
+msgstr "Bijwerken van cookiecategorie mislukt"
+
+#: build/admin.js:41
+msgid "Cookie category updated successfully"
+msgstr "Cookiecategorie succesvol bijgewerkt"
+
+#: build/admin.js:42
+msgid "Failed to create category"
+msgstr "Categorie aanmaken mislukt"
+
+#: build/admin.js:42
+msgid "Category created successfully"
+msgstr "Categorie succesvol aangemaakt"
+
+#: build/admin.js:42
+msgid "Failed to update category"
+msgstr "Bijwerken van categorie mislukt"
+
+#: build/admin.js:42
+msgid "Category updated successfully"
+msgstr "Categorie succesvol bijgewerkt"
+
+#: build/admin.js:42
+msgid "Failed to delete category"
+msgstr "Verwijderen van categorie mislukt"
+
+#: build/admin.js:42
+msgid "Category deleted successfully"
+msgstr "Categorie succesvol verwijderd"
+
+#: build/admin.js:43
+msgid "Create and manage all cookies for your website. These cookies will appear in the selected privacy preference categories."
+msgstr "Maak en beheer alle cookies voor uw website. Deze cookies verschijnen in de geselecteerde privacyvoorkeurcategorieën."
+
+#: build/admin.js:43
+msgid "Manage Cookies"
+msgstr "Cookies Beheren"
+
+#: build/admin.js:43
+msgid "New Cookie"
+msgstr "Nieuwe Cookie"
+
+#: build/admin.js:43
+msgid "Add custom CSS to style your cookie banner. Changes will be reflected in both preview and frontend after saving."
+msgstr "Voeg aangepaste CSS toe om uw cookiebanner te stylen. Wijzigingen worden weergegeven in zowel preview als frontend na opslaan."
+
+#: build/admin.js:43
+msgid "CSS Code Editor"
+msgstr "CSS Code Editor"
+
+#: build/admin.js:43
+msgid "Reset Custom CSS"
+msgstr "Aangepaste CSS Reset"
+
+#: build/admin.js:43
+msgid "Are you sure you want to reset custom CSS? This will remove all your custom styles."
+msgstr "Weet u zeker dat u de aangepaste CSS wilt resetten? Dit verwijdert al uw aangepaste stijlen."
+
+#: build/admin.js:43
+msgid "Custom CSS has been reset. The banner will now use default styles."
+msgstr "Aangepaste CSS is gereset. De banner gebruikt nu standaard stijlen."
+
+#: build/admin.js:43
+msgid "Write your custom CSS below. Use <strong>!important</strong> to override inline styles.<br />You can target banner elements using classes like <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, etc."
+msgstr "Schrijf uw aangepaste CSS hieronder. Gebruik <strong>!important</strong> om inline stijlen te overschrijven.<br />U kunt banner-elementen targeten met klassen zoals <strong>.surecookie-banner</strong>, <strong>.surecookie-accept-btn</strong>, enzovoort."
+
+#: build/admin.js:43
+#: build/admin.js:60
+msgid "<span></span> Quick Tips:"
+msgstr "<span></span> Snelle tips:"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-banner</b> to target the cookie banner (works in both preview and frontend)"
+msgstr "Gebruik <b>.surecookie-banner</b> om de cookiebanner te targeten (werkt zowel in preview als in de frontend)"
+
+#: build/admin.js:43
+msgid "Use <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> for buttons"
+msgstr "Gebruik <b>.surecookie-accept-btn</b>, <b>.surecookie-decline-btn</b> voor knoppen"
+
+#: build/admin.js:43
+msgid "Important: Use <b>!important</b> to override inline styles"
+msgstr "Belangrijk: Gebruik <b>!important</b> om inline stijlen te overschrijven"
+
+#: build/admin.js:43
+msgid "Changes take effect after clicking \"Save Changes\" below"
+msgstr "Wijzigingen worden toegepast nadat je op \"Wijzigingen opslaan\" klikt"
+
+#: build/admin.js:43
+msgid "Your CSS is saved and will persist after page refresh"
+msgstr "Je CSS is opgeslagen en blijft bestaan na het verversen van de pagina"
+
+#: build/admin.js:43
+msgid "Overview"
+msgstr "Overzicht"
+
+#: build/admin.js:43
+msgid "Active"
+msgstr "Actief"
+
+#: build/admin.js:43
+msgid "Inactive"
+msgstr "Inactief"
+
+#: build/admin.js:43
+msgid "Cookie Banner"
+msgstr "Cookie Banner"
+
+#: build/admin.js:43
+#: build/admin.js:47
+msgid "Configure"
+msgstr "Configureren"
+
+#: build/admin.js:44
+msgid "Open Support Ticket"
+msgstr "Support Ticket Aanmaken"
+
+#: build/admin.js:44
+msgid "Help Center"
+msgstr "Helpcentrum"
+
+#: build/admin.js:44
+msgid "Join our Community"
+msgstr "Word lid van onze community"
+
+#: build/admin.js:44
+msgid "Leave Us a Review"
+msgstr "Laat ons een review achter"
+
+#: build/admin.js:44
+msgid "Quick Access"
+msgstr "Snelle Toegang"
+
+#: build/admin.js:44
+msgid "Recent Consent Logs"
+msgstr "Recente Toestemmingslogs"
+
+#: build/admin.js:44
+msgid "Toggle Preview"
+msgstr "Voorbeeld Wisselen"
+
+#: build/admin.js:44
+msgid "Click this button to show or hide the cookie consent banner preview."
+msgstr "Klik op deze knop om de cookie-toestemmingsbanner te tonen of te verbergen."
+
+#: build/admin.js:44
+msgid "Click here to start"
+msgstr "Klik hier om te beginnen"
+
+#: build/admin.js:44
+msgid "design your banner"
+msgstr "Ontwerp je banner"
+
+#: build/admin.js:44
+msgid "Here's a preview of the cookie consent banner."
+msgstr "Hier is een voorbeeld van de cookie-toestemmingsbanner."
+
+#: build/admin.js:44
+msgid "You can adjust the content and design settings."
+msgstr "Je kunt de inhoud en ontwerpinstellingen aanpassen."
+
+#: build/admin.js:6
+msgid "All Countries"
+msgstr "Alle Landen"
+
+#: inc/utils/options.php:146
+msgid "Privacy Preference"
+msgstr "Privacyvoorkeur"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Always Active"
+msgstr "Altijd actief"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Reject All"
+msgstr "Alles weigeren"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Confirm My Choices"
+msgstr "Mijn keuzes bevestigen"
+
+#: inc/utils/localize-data.php:222
+#: build/admin.js:4
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by"
+msgstr "Aangedreven door"
+
+#: build/admin.js:57
+msgid "Scan Completed!"
+msgstr "Scan voltooid!"
+
+#: build/admin.js:57
+msgid "Cookie scan has been completed successfully."
+msgstr "Cookie-scanning is succesvol voltooid."
+
+#: build/admin.js:57
+msgid "Latest Scanning Logs"
+msgstr "Laatste scanlogs"
+
+#: build/admin.js:57
+msgid "View logs from the most recent cookie scanning process."
+msgstr "Bekijk logs van het meest recente cookie-scanningproces."
+
+#: build/admin.js:57
+msgid "Could not copy logs automatically."
+msgstr "Logs automatisch niet kunnen kopiëren."
+
+#: build/admin.js:57
+msgid "Logs copied to clipboard!"
+msgstr "Logs gekopieerd naar klembord!"
+
+#: build/admin.js:57
+msgid "Copied"
+msgstr "Gekopieerd"
+
+#: build/admin.js:57
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: build/admin.js:57
+msgid "This field contains the scanning status results only."
+msgstr "Dit veld bevat alleen de scanstatusresultaten."
+
+#: build/admin.js:60
+msgid "contact our support team"
+msgstr "neem contact op met onze ondersteuning"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Failed to initiate scan"
+msgstr "Scan niet kunnen starten"
+
+#: build/admin.js:63
+#: build/admin.js:78
+#: build/onboarding.js:7
+msgid "(no title)"
+msgstr "(geen titel)"
+
+#: build/admin.js:74
+#: build/onboarding.js:14
+msgid "Scan Started!"
+msgstr "Scan gestart!"
+
+#: build/onboarding.js:14
+msgid "SureCookie is scanning your pages for cookies. This may take a few minutes."
+msgstr "SureCookie scant uw pagina's op cookies. Dit kan enkele minuten duren."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scanning…"
+msgstr "Bezig met scannen…"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Start Scan"
+msgstr "Start scan"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "WordPress Cron is Disabled"
+msgstr "WordPress Cron is uitgeschakeld"
+
+#: build/admin.js:1
+msgid "Failed to load conflicting plugins"
+msgstr "Conflicterende plugins niet kunnen laden"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected."
+msgstr "Conflicterende plugins gedetecteerd."
+
+#: build/admin.js:75
+msgid "It's recommended to deactivate them to avoid issues."
+msgstr "Het wordt aanbevolen ze te deactiveren om problemen te voorkomen."
+
+#: build/admin.js:75
+msgid "Deactivate Plugin"
+msgstr "Plugin deactiveren"
+
+#: build/admin.js:75
+msgid "Conflicting Plugins Detected"
+msgstr "Conflicterende plugins gedetecteerd"
+
+#: build/admin.js:75
+msgid "The following plugins may conflict with SureCookie. It's recommended to deactivate them to avoid issues."
+msgstr "De volgende plugins kunnen conflicteren met SureCookie. Het wordt aanbevolen ze te deactiveren om problemen te voorkomen."
+
+#: build/admin.js:75
+msgid "Version:"
+msgstr "Versie:"
+
+#: build/admin.js:75
+msgid "Deactivation successful. Reloading the page in 3 seconds."
+msgstr "Deactiveren geslaagd. De pagina wordt opnieuw geladen in 3 seconden."
+
+#: build/admin.js:75
+msgid "Failed to deactivate plugin."
+msgstr "Het deactiveren van de plugin is mislukt."
+
+#: build/admin.js:75
+msgid "The plugin could not be deactivated. Please try again."
+msgstr "De plugin kon niet worden gedeactiveerd. Probeer het opnieuw."
+
+#: build/admin.js:75
+msgid "Deactivating…"
+msgstr "Bezig met deactiveren…"
+
+#: build/admin.js:75
+msgid "Deactivate"
+msgstr "Deactiveer"
+
+#: build/admin.js:75
+msgid "Close"
+msgstr "Sluiten"
+
+#: build/admin.js:75
+msgid "Preview:"
+msgstr "Voorbeeld:"
+
+#: build/admin.js:75
+msgid "ON"
+msgstr "AAN"
+
+#: build/admin.js:75
+msgid "OFF"
+msgstr "UIT"
+
+#: build/admin.js:75
+msgid "What's New?"
+msgstr "Wat is nieuw?"
+
+#: build/admin.js:76
+msgid "Knowledge Base"
+msgstr "Kennisbank"
+
+#: build/onboarding.js:6
+msgid "First name is required"
+msgstr "Voornaam is verplicht"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid email address"
+msgstr "Voer een geldig e-mailadres in"
+
+#: build/onboarding.js:6
+msgid "Welcome to SureCookie"
+msgstr "Welkom bij SureCookie"
+
+#: build/onboarding.js:6
+msgid "Privacy compliance made effortless 🍪"
+msgstr "Privacy-compliance moeiteloos gemaakt 🍪"
+
+#: build/admin.js:2
+#: build/onboarding.js:6
+msgid "Let's Get Started"
+msgstr "Laten we beginnen"
+
+#: build/onboarding.js:11
+msgid "Run a Quick Privacy Scan"
+msgstr "Voer een snelle privacy-scan uit"
+
+#: build/onboarding.js:11
+msgid "SureCookie will scan your website, detect all cookies, and categorize them automatically.<br/> This helps you stay compliant without spending hours identifying scripts manually."
+msgstr "SureCookie scant je website, detecteert alle cookies en categoriseert ze automatisch.<br/> Dit helpt je compliant te blijven zonder uren te besteden aan het handmatig identificeren van scripts."
+
+#: build/admin.js:40
+#: build/onboarding.js:7
+#: build/onboarding.js:14
+msgid "Back"
+msgstr "Terug"
+
+#: build/onboarding.js:14
+msgid "Okay, just one last step…"
+msgstr "Oké, nog één laatste stap…"
+
+#: build/onboarding.js:14
+msgid "Help us tailor your SureCookie experience by sharing a bit about yourself:"
+msgstr "Help ons je SureCookie-ervaring op maat te maken door wat over jezelf te delen:"
+
+#: build/onboarding.js:14
+msgid "First Name"
+msgstr "Voornaam"
+
+#: build/onboarding.js:14
+msgid "Enter your first name"
+msgstr "Voer je voornaam in"
+
+#: build/onboarding.js:14
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: build/onboarding.js:14
+msgid "Enter your last name"
+msgstr "Voer je achternaam in"
+
+#: build/onboarding.js:14
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: build/onboarding.js:14
+msgid "Enter your email address"
+msgstr "Voer je e-mailadres in"
+
+#: build/onboarding.js:6
+msgid "Next"
+msgstr "Volgende"
+
+#: build/onboarding.js:6
+#: build/onboarding.js:14
+msgid "Skip"
+msgstr "Overslaan"
+
+#: build/onboarding.js:14
+msgid "Block non-essential cookies and trackers until explicit consent"
+msgstr "Blokkeer niet-essentiële cookies en trackers totdat expliciete toestemming is gegeven"
+
+#: build/onboarding.js:14
+msgid "Auto-discover common services, categorize them, and preconfigure safe rules"
+msgstr "Ontdek automatisch veelgebruikte diensten, categoriseer ze en stel veilige regels in"
+
+#: build/onboarding.js:14
+msgid "Here's what SureCookie will do for you now:"
+msgstr "Dit doet SureCookie nu voor jou:"
+
+#: build/onboarding.js:14
+msgid "SureCookie Features"
+msgstr "SureCookie-functies"
+
+#: build/admin.js:47
+#: build/onboarding.js:14
+msgid "Go to Dashboard"
+msgstr "Ga naar Dashboard"
+
+#: build/onboarding.js:6
+msgid "Exit Setup"
+msgstr "Verlaat Setup"
+
+#: admin/menu.php:130
+msgid "You don't have access to this page."
+msgstr "Je hebt geen toegang tot deze pagina."
+
+#: admin/onboarding.php:59
+#: build/onboarding.js:14
+msgid "Onboarding"
+msgstr "Introductie"
+
+#: inc/api/base.php:59
+msgid "You don't have access to do this."
+msgstr "Je hebt geen toegang om dit te doen."
+
+#: inc/api/base.php:71
+msgid "Security check failed. Please refresh the page and try again."
+msgstr "Beveiligingscontrole mislukt. Vernieuw de pagina en probeer het opnieuw."
+
+#: inc/api/base.php:80
+msgid "Your session expired. Please refresh the page and try again."
+msgstr "Je sessie is verlopen. Vernieuw de pagina en probeer het opnieuw."
+
+#: inc/api/consent-logs.php:146
+msgid "Search by IP address or Session ID"
+msgstr "Zoeken op IP-adres of sessie-ID"
+
+#: inc/api/consent-logs.php:892
+msgid "Request origin is not allowed."
+msgstr "Oorsprong van het verzoek is niet toegestaan."
+
+#: inc/api/consent-logs.php:575
+msgid "Session ID is required."
+msgstr "Sessie-ID is vereist."
+
+#: inc/api/plugin.php:154
+msgid "You don't have permission to activate plugins."
+msgstr "Je hebt geen toestemming om plugins te activeren."
+
+#: inc/api/plugin.php:187
+msgid "You don't have permission to deactivate plugins."
+msgstr "Je hebt geen toestemming om plugins te deactiveren."
+
+#: inc/api/scanned-resources.php:78
+msgid "Scanned resources retrieved successfully."
+msgstr "Gescreende bronnen succesvol opgehaald."
+
+#: inc/functions/get.php:119
+msgid "Required for basic website functionality."
+msgstr "Vereist voor basisfunctionaliteit van de website."
+
+#: inc/functions/get.php:125
+msgid "Enable features like saved preferences and personalized content."
+msgstr "Schakel functies in zoals opgeslagen voorkeuren en gepersonaliseerde inhoud."
+
+#: inc/functions/get.php:131
+msgid "Help us understand how visitors use our site so we can improve it."
+msgstr "Help ons te begrijpen hoe bezoekers onze site gebruiken zodat we deze kunnen verbeteren."
+
+#: inc/functions/get.php:137
+msgid "Used to show you relevant ads based on your interests."
+msgstr "Wordt gebruikt om je relevante advertenties te tonen op basis van je interesses."
+
+#: inc/functions/get.php:143
+msgid "Cookies that haven't been categorized yet."
+msgstr "Cookies die nog niet zijn gecategoriseerd."
+
+#: inc/modules/auth/api.php:71
+msgid "Authentication is already completed."
+msgstr "Authenticatie is al voltooid."
+
+#: inc/modules/auth/controller.php:88
+msgid "Failed to encode the token data."
+msgstr "Coderen van de tokengegevens is mislukt."
+
+#: inc/modules/auth/controller.php:188
+msgid "Failed to decode the access key."
+msgstr "Decoderen van de toegangssleutel is mislukt."
+
+#: inc/modules/auth/controller.php:193
+msgid "Invalid data format."
+msgstr "Ongeldig gegevensformaat."
+
+#: inc/modules/auth/controller.php:207
+msgid "Failed to decrypt the access key."
+msgstr "Ontsleutelen van de toegangssleutel is mislukt."
+
+#: inc/modules/auth/controller.php:213
+msgid "Failed to json decode the decrypted data."
+msgstr "Json-decoderingsfout van de ontsleutelde gegevens."
+
+#: inc/modules/auth/controller.php:217
+msgid "No user email found in the decrypted data."
+msgstr "Geen gebruikers-e-mail gevonden in de ontsleutelde gegevens."
+
+#: inc/modules/cookie-policy/api.php:76
+#: build/admin.js:78
+msgid "Cookie Policy page already exists."
+msgstr "Cookiebeleid-pagina bestaat al."
+
+#: inc/modules/cookie-policy/api.php:90
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/admin.js:78
+#: build/public.js:1
+msgid "Cookie Policy"
+msgstr "Cookiebeleid"
+
+#: inc/modules/cookie-policy/api.php:112
+msgid "Cookie Policy page created successfully."
+msgstr "Cookiebeleid-pagina succesvol aangemaakt."
+
+#. translators: %s: site name.
+#: inc/modules/cookie-policy/api.php:182
+#, php-format
+msgid "This Cookie Policy explains how %s uses cookies and similar tracking technologies when you visit our website. It describes what these technologies are, why we use them, and your rights to control our use of them."
+msgstr "Dit Cookiebeleid legt uit hoe %s cookies en vergelijkbare trackingtechnologieën gebruikt wanneer je onze website bezoekt. Het beschrijft wat deze technologieën zijn, waarom we ze gebruiken en je rechten om ons gebruik ervan te controleren."
+
+#: inc/modules/cookie-policy/api.php:191
+msgid "What Are Cookies"
+msgstr "Wat zijn cookies"
+
+#: inc/modules/cookie-policy/api.php:195
+msgid "Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, provide a better browsing experience, and supply information to the owners of the site. Cookies can be \"persistent\" or \"session\" cookies. Persistent cookies remain on your device for a set period or until you delete them, while session cookies are deleted as soon as you close your web browser."
+msgstr "Cookies zijn kleine tekstbestanden die op je computer of mobiele apparaat worden opgeslagen wanneer je een website bezoekt. Ze worden veel gebruikt om websites efficiënter te laten werken, een betere browse-ervaring te bieden en informatie te verstrekken aan de eigenaren van de site. Cookies kunnen \"persistent\" of \"sessie\" cookies zijn. Persistente cookies blijven een bepaalde periode op je apparaat staan of totdat je ze verwijdert, terwijl sessie-cookies worden verwijderd zodra je je webbrowser sluit."
+
+#: inc/modules/cookie-policy/api.php:199
+msgid "In addition to cookies, we may also use similar technologies such as pixel tags, web beacons, and local storage to collect and store information. These technologies work in a similar way to cookies and allow us to monitor and improve our website and your experience of it."
+msgstr "Naast cookies kunnen we ook vergelijkbare technologieën gebruiken zoals pixel-tags, webbeacons en lokale opslag om informatie te verzamelen en op te slaan. Deze technologieën werken op een vergelijkbare manier als cookies en stellen ons in staat onze website en jouw ervaring ervan te monitoren en te verbeteren."
+
+#: inc/modules/cookie-policy/api.php:206
+msgid "Types of Cookies We Use"
+msgstr "Soorten cookies die wij gebruiken"
+
+#: inc/modules/cookie-policy/api.php:210
+msgid "We use different types of cookies for various reasons. The table below provides detailed information about the cookies we use, organized by category, including the name of each cookie, its purpose, duration, and the domain it belongs to. Some cookies are essential for the website to function properly, while others help us understand how visitors interact with our site, remember your preferences, or deliver relevant advertising."
+msgstr "We gebruiken verschillende soorten cookies om diverse redenen. De onderstaande tabel geeft gedetailleerde informatie over de cookies die wij gebruiken, georganiseerd per categorie, inclusief de naam van elke cookie, het doel, de duur en het domein waartoe deze behoort. Sommige cookies zijn essentieel voor het correct functioneren van de website, terwijl andere ons helpen te begrijpen hoe bezoekers met onze site omgaan, uw voorkeuren te onthouden of relevante advertenties te tonen."
+
+#: inc/modules/cookie-policy/api.php:220
+msgid "How to Manage Your Cookie Preferences"
+msgstr "Hoe u uw cookievoorkeuren kunt beheren"
+
+#: inc/modules/cookie-policy/api.php:224
+msgid "When you first visit our website, you will be shown a cookie consent banner that allows you to accept or decline non-essential cookies. You can change your preferences at any time by clicking the cookie preferences option available on our website. Essential cookies cannot be disabled as they are necessary for the basic functioning of the website."
+msgstr "Wanneer u onze website voor het eerst bezoekt, wordt u een cookie-toestemmingsbanner getoond waarmee u niet-essentiële cookies kunt accepteren of weigeren. U kunt uw voorkeuren op elk moment wijzigen door te klikken op de optie cookievoorkeuren die beschikbaar is op onze website. Essentiële cookies kunnen niet worden uitgeschakeld omdat ze nodig zijn voor de basisfunctionaliteit van de website."
+
+#: inc/modules/cookie-policy/api.php:228
+msgid "Please note that restricting cookies may impact your experience of the website, as some features and services may not function properly without certain cookies enabled."
+msgstr "Houd er rekening mee dat het beperken van cookies uw ervaring op de website kan beïnvloeden, omdat sommige functies en diensten mogelijk niet goed werken zonder bepaalde cookies ingeschakeld."
+
+#: inc/modules/cookie-policy/api.php:235
+msgid "How to Control Cookies in Your Browser"
+msgstr "Hoe u cookies in uw browser kunt beheren"
+
+#: inc/modules/cookie-policy/api.php:239
+msgid "Most web browsers allow you to manage your cookie preferences through their settings. You can set your browser to refuse cookies, delete existing cookies, or alert you when a cookie is being set. The steps to manage cookies vary by browser. Below are general instructions for the most common browsers."
+msgstr "De meeste webbrowsers stellen u in staat uw cookievoorkeuren via hun instellingen te beheren. U kunt uw browser zo instellen dat cookies worden geweigerd, bestaande cookies worden verwijderd of u een waarschuwing krijgt wanneer een cookie wordt geplaatst. De stappen om cookies te beheren verschillen per browser. Hieronder staan algemene instructies voor de meest gebruikte browsers."
+
+#: inc/modules/cookie-policy/api.php:243
+msgid "Google Chrome: Open Settings, go to Privacy and Security, then click on Cookies and other site data. From there, you can block third-party cookies, clear cookies when you close the browser, or block all cookies."
+msgstr "Google Chrome: Open Instellingen, ga naar Privacy en beveiliging, klik vervolgens op Cookies en andere sitegegevens. Vanaf daar kunt u cookies van derden blokkeren, cookies wissen bij het sluiten van de browser of alle cookies blokkeren."
+
+#: inc/modules/cookie-policy/api.php:247
+msgid "Mozilla Firefox: Open Settings, go to Privacy and Security, and under Cookies and Site Data you can manage how Firefox handles cookies including clearing data and managing exceptions."
+msgstr "Mozilla Firefox: Open Instellingen, ga naar Privacy en beveiliging, en onder Cookies en sitegegevens kunt u beheren hoe Firefox met cookies omgaat, inclusief het wissen van gegevens en het beheren van uitzonderingen."
+
+#: inc/modules/cookie-policy/api.php:251
+msgid "Safari: Open Preferences, go to the Privacy tab, and configure your cookie blocking preferences. Safari also offers an option to prevent cross-site tracking."
+msgstr "Safari: Open Voorkeuren, ga naar het tabblad Privacy en stel uw cookieblokkeringsvoorkeuren in. Safari biedt ook een optie om cross-site tracking te voorkomen."
+
+#: inc/modules/cookie-policy/api.php:255
+msgid "Microsoft Edge: Open Settings, go to Privacy, Search, and Services. Under the Cookies section, you can choose to block third-party cookies or all cookies and manage cookie exceptions."
+msgstr "Microsoft Edge: Open Instellingen, ga naar Privacy, zoeken en services. Onder het gedeelte Cookies kunt u ervoor kiezen om cookies van derden of alle cookies te blokkeren en cookie-uitzonderingen beheren."
+
+#: inc/modules/cookie-policy/api.php:262
+msgid "Consequences of Disabling Cookies"
+msgstr "Gevolgen van het uitschakelen van cookies"
+
+#: inc/modules/cookie-policy/api.php:266
+msgid "If you choose to disable or decline cookies, some parts of this website may not function as intended. For example, you may not be able to log in, your preferences may not be saved between visits, and certain interactive features may be limited. Disabling essential cookies may make it impossible to use some or all of the services provided through this website."
+msgstr "Als u ervoor kiest om cookies uit te schakelen of te weigeren, kunnen sommige delen van deze website mogelijk niet naar behoren functioneren. U kunt bijvoorbeeld niet inloggen, uw voorkeuren worden mogelijk niet opgeslagen tussen bezoeken, en bepaalde interactieve functies kunnen beperkt zijn. Het uitschakelen van essentiële cookies kan het onmogelijk maken om sommige of alle diensten die via deze website worden aangeboden te gebruiken."
+
+#: inc/modules/cookie-policy/api.php:270
+msgid "Disabling analytics or marketing cookies will not affect the core functionality of the website, but it may limit our ability to improve the website based on user behavior or to provide you with personalized content and advertisements."
+msgstr "Het uitschakelen van analytische of marketingcookies heeft geen invloed op de kernfunctionaliteit van de website, maar kan onze mogelijkheid beperken om de website te verbeteren op basis van gebruikersgedrag of om u gepersonaliseerde inhoud en advertenties te bieden."
+
+#: inc/modules/cookie-policy/api.php:277
+msgid "Changes to This Cookie Policy"
+msgstr "Wijzigingen in dit cookiebeleid"
+
+#: inc/modules/cookie-policy/api.php:281
+msgid "We may update this Cookie Policy from time to time to reflect changes in technology, legislation, our business operations, or any other reason we determine is necessary or appropriate. Any changes will be posted on this page with an updated revision date. We encourage you to review this Cookie Policy periodically to stay informed about how we are using cookies."
+msgstr "We kunnen dit cookiebeleid van tijd tot tijd bijwerken om veranderingen in technologie, wetgeving, onze bedrijfsvoering of om andere redenen die wij noodzakelijk of passend achten weer te geven. Alle wijzigingen worden op deze pagina geplaatst met een bijgewerkte revisiedatum. We raden u aan dit cookiebeleid periodiek te bekijken om op de hoogte te blijven van hoe wij cookies gebruiken."
+
+#: inc/modules/cookie-policy/api.php:288
+msgid "Contact Us"
+msgstr "Neem contact met ons op"
+
+#: inc/modules/cookie-policy/api.php:292
+msgid "If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at:"
+msgstr "Als u vragen of opmerkingen heeft over dit cookiebeleid of ons gebruik van cookies, neem dan contact met ons op via:"
+
+#: inc/modules/cookie-policy/api.php:296
+msgid "[Your Company Name], [Your Address], [your-email@example.com]"
+msgstr "[Uw bedrijfsnaam], [Uw adres], [uw-email@example.com]"
+
+#: inc/modules/cookie-policy/shortcode.php:143
+#: inc/modules/cookie-policy/shortcode.php:144
+msgid "Table of Contents"
+msgstr "Inhoudsopgave"
+
+#: inc/modules/cookie-policy/shortcode.php:205
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Duration"
+msgstr "Duur"
+
+#. translators: %s: formatted date string.
+#: inc/modules/cookie-policy/shortcode.php:270
+#, php-format
+msgid "Last updated: %s"
+msgstr "Laatst bijgewerkt: %s"
+
+#: inc/modules/cookie-policy/shortcode.php:356
+msgid "This website"
+msgstr "Deze website"
+
+#: inc/modules/google-consent-mode/consent-handler.php:130
+msgid "SureCookie:"
+msgstr "SureCookie:"
+
+#: inc/modules/google-consent-mode/consent-handler.php:132
+msgid "Google Site Kit's Consent Mode is active. Please disable it in Site Kit settings to use SureCookie's implementation."
+msgstr "De toestemmingsmodus van Google Site Kit is actief. Schakel deze uit in de Site Kit-instellingen om de implementatie van SureCookie te gebruiken."
+
+#: inc/modules/site-scanner/api.php:288
+msgid "Failed to start scan."
+msgstr "Scannen starten mislukt."
+
+#. translators: 1: completed pages count, 2: total pages count
+#: inc/modules/site-scanner/saas-client.php:944
+#, php-format
+msgid "Progress: %1$d of %2$d pages scanned."
+msgstr "Voortgang: %1$d van %2$d pagina's gescand."
+
+#. translators: %d: number of failed pages
+#: inc/modules/site-scanner/saas-client.php:954
+#, php-format
+msgid "%d page(s) failed to scan."
+msgstr "%d pagina('s) konden niet worden gescand."
+
+#: inc/modules/site-scanner/saas-client.php:977
+msgid "Scan completed!"
+msgstr "Scan voltooid!"
+
+#: inc/modules/site-scanner/saas-client.php:1002
+msgid "Scan is in progress. Checking again…"
+msgstr "Scan is bezig. Nogmaals controleren…"
+
+#: inc/utils/options.php:48
+msgid "We use cookies to improve your experience and understand how you use our site. You can review your choices at any time."
+msgstr "We gebruiken cookies om uw ervaring te verbeteren en te begrijpen hoe u onze site gebruikt. U kunt uw keuzes op elk moment bekijken."
+
+#: inc/utils/options.php:62
+#: build/admin.js:2
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Only Essential"
+msgstr "Alleen essentieel"
+
+#: inc/utils/options.php:174
+#: build/admin.js:4
+#: build/admin.js:75
+msgid "Cookie Preferences"
+msgstr "Cookievoorkeuren"
+
+#: build/admin.js:1
+msgid "Scan cancelled."
+msgstr "Scan geannuleerd."
+
+#: build/admin.js:1
+msgid "Failed to cancel scan."
+msgstr "Annuleren van scan mislukt."
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "90 days"
+msgstr "90 dagen"
+
+#: build/admin.js:1
+#: build/onboarding.js:1
+#: build/public.js:1
+msgid "365 days"
+msgstr "365 dagen"
+
+#: build/admin.js:2
+#: build/admin.js:75
+msgid "Re-Consent"
+msgstr "Her-toestemming"
+
+#: build/admin.js:2
+msgid "Google Consent Mode"
+msgstr "Google toestemmingsmodus"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication timeout. Please try again."
+msgstr "Authenticatietime-out. Probeer het opnieuw."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful!"
+msgstr "Authenticatie geslaagd!"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "An error occurred during authentication"
+msgstr "Er is een fout opgetreden tijdens de authenticatie"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication cancelled. Please try again."
+msgstr "Authenticatie geannuleerd. Probeer het opnieuw."
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication successful"
+msgstr "Authenticatie geslaagd"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication completed successfully. Closing tab in 3 seconds…"
+msgstr "Authenticatie succesvol voltooid. Tabblad wordt over 3 seconden gesloten…"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Authentication failed"
+msgstr "Authenticatie mislukt"
+
+#: build/admin.js:2
+msgid "Automatic Cookie Detection"
+msgstr "Automatische Cookie Detectie"
+
+#: build/admin.js:2
+msgid "Smart Categorization"
+msgstr "Slimme Categorisatie"
+
+#: build/admin.js:2
+msgid "Compliance Recommendations"
+msgstr "Nalevingsaanbevelingen"
+
+#: build/admin.js:2
+msgid "Connect to scan your website"
+msgstr "Verbind om je website te scannen"
+
+#: build/admin.js:2
+msgid "Connect your SureCookie account to automatically detect cookies on your website, categorize them, and get compliance recommendations."
+msgstr "Verbind je SureCookie-account om automatisch cookies op je website te detecteren, te categoriseren en nalevingsaanbevelingen te krijgen."
+
+#: build/admin.js:2
+msgid "Learn more"
+msgstr "Meer informatie"
+
+#: build/admin.js:2
+msgid "Free Plan Limit Reached"
+msgstr "Limiet Gratis Plan Bereikt"
+
+#: build/admin.js:2
+#: build/admin.js:6
+#: build/admin.js:47
+#: build/admin.js:53
+#: build/admin.js:63
+#: build/admin.js:75
+#: build/onboarding.js:7
+msgid "Upgrade Now"
+msgstr "Nu upgraden"
+
+#: build/admin.js:2
+msgid "Unlock this feature"
+msgstr "Ontgrendel deze functie"
+
+#: build/admin.js:2
+#: build/admin.js:43
+#: build/admin.js:53
+#: build/admin.js:75
+#: build/admin.js:77
+#: build/admin.js:78
+#: build/admin.js:87
+msgid "An error occurred while loading settings. Please refresh the page to try again."
+msgstr "Er is een fout opgetreden bij het laden van de instellingen. Vernieuw de pagina om het opnieuw te proberen."
+
+#: build/admin.js:2
+msgid "Show cookie consent banner to comply with privacy regulations."
+msgstr "Toon cookie-toestemmingsbanner om te voldoen aan privacyregelgeving."
+
+#: build/admin.js:2
+msgid "Banner Heading"
+msgstr "Bannerkop"
+
+#: build/admin.js:2
+msgid "Banner Message"
+msgstr "Bannermededeling"
+
+#: build/admin.js:2
+msgid "Banner message cannot be empty."
+msgstr "Bannerbericht mag niet leeg zijn."
+
+#: build/admin.js:2
+msgid "Drag and drop to reorder buttons. This order can be overridden per Geographic Targeting Rule."
+msgstr "Sleep en zet neer om knoppen te herschikken. Deze volgorde kan per geografische doelregel worden overschreven."
+
+#: build/admin.js:2
+msgid "Banner Animation"
+msgstr "Banneranimatie"
+
+#: build/admin.js:2
+msgid "Fade"
+msgstr "Vervagen"
+
+#: build/admin.js:2
+msgid "Slide"
+msgstr "Schuiven"
+
+#: build/admin.js:4
+msgid "Consent logs"
+msgstr "Toestemmingslogboeken"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:5
+#, js-format
+msgid "Download PDF for consent log from %s"
+msgstr "Download PDF voor toestemmingslog van %s"
+
+#: build/admin.js:4
+msgid "Session Summary"
+msgstr "Sessieoverzicht"
+
+#: build/admin.js:4
+msgid "Field"
+msgstr "Veld"
+
+#: build/admin.js:4
+msgid "Value"
+msgstr "Waarde"
+
+#: build/admin.js:4
+msgid "Session ID"
+msgstr "Sessie-ID"
+
+#: build/admin.js:4
+msgid "Total Records"
+msgstr "Totaal aantal records"
+
+#: build/admin.js:4
+msgid "Date Range"
+msgstr "Datumbereik"
+
+#: build/admin.js:4
+msgid "Consent Record"
+msgstr "Toestemmingsrecord"
+
+#: build/admin.js:4
+msgid "Log ID"
+msgstr "Log-ID"
+
+#: build/admin.js:4
+msgid "Timestamp"
+msgstr "Tijdstempel"
+
+#: build/admin.js:4
+msgid "Consent Status"
+msgstr "Toestemmingsstatus"
+
+#: build/admin.js:4
+msgid "Consent Preset"
+msgstr "Toestemmingspreset"
+
+#: build/admin.js:4
+msgid "Legal Information"
+msgstr "Juridische informatie"
+
+#: build/admin.js:4
+msgid "Date of Generation"
+msgstr "Datum van aanmaak"
+
+#: build/admin.js:4
+msgid "Website"
+msgstr "Website"
+
+#. translators: %s: consent log timestamp
+#: build/admin.js:6
+#, js-format
+msgid "Delete consent log from %s"
+msgstr "Verwijder toestemmingslog van %s"
+
+#: build/admin.js:6
+msgid "All Actions"
+msgstr "Alle acties"
+
+#: build/admin.js:6
+msgid "IP address or Session ID…"
+msgstr "IP-adres of Sessie-ID…"
+
+#: build/admin.js:6
+msgid "Clear Filters"
+msgstr "Filters wissen"
+
+#: build/admin.js:21
+msgid "Failed to load countries"
+msgstr "Landen laden mislukt"
+
+#: build/admin.js:2
+msgid "Please enter a value between 1 and 365 days."
+msgstr "Voer een waarde in tussen 1 en 365 dagen."
+
+#: build/admin.js:53
+msgid "SureCookie admin menu location toggle"
+msgstr "SureCookie beheermenu locatie schakelaar"
+
+#: build/admin.js:3
+msgid "Delete data on uninstall toggle"
+msgstr "Gegevens verwijderen bij deïnstallatie schakelaar"
+
+#: build/admin.js:3
+msgid "Delete Data on Uninstall"
+msgstr "Gegevens verwijderen bij deïnstallatie"
+
+#: build/admin.js:3
+msgid "When enabled, all plugin data including consent logs, settings, and scan results will be permanently deleted when you uninstall SureCookie. Leave disabled to preserve data for compliance records or future reinstallation."
+msgstr "Wanneer ingeschakeld, worden alle plug-in gegevens inclusief toestemmingslogboeken, instellingen en scanresultaten permanent verwijderd bij het deïnstalleren van SureCookie. Laat uitgeschakeld om gegevens te behouden voor nalevingsrecords of toekomstige herinstallatie."
+
+#: build/admin.js:3
+msgid "Compliance Notice"
+msgstr "Nalevingsmelding"
+
+#: build/admin.js:3
+msgid "Consent logs may be required to demonstrate proof of consent under GDPR Article 7(1). Consider exporting consent records before uninstalling."
+msgstr "Toestemmingslogboeken kunnen vereist zijn om bewijs van toestemming aan te tonen volgens AVG Artikel 7(1). Overweeg toestemmingsrecords te exporteren voordat je deïnstalleert."
+
+#: build/admin.js:53
+msgid "Hide SureCookie branding toggle"
+msgstr "Verberg SureCookie branding schakelaar"
+
+#: build/admin.js:53
+msgid "Hide SureCookie Branding"
+msgstr "Verberg SureCookie branding"
+
+#: build/admin.js:53
+msgid "Remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "Verwijder de tekst \"Powered by SureCookie\" van de toestemmingsbanner en voorkeurenmodal."
+
+#: build/admin.js:53
+msgid "to remove the \"Powered by SureCookie\" text from the consent banner and preferences modal."
+msgstr "om de tekst \"Powered by SureCookie\" te verwijderen uit de toestemmingsbanner en het voorkeurenvenster."
+
+#: build/admin.js:28
+msgid "Keep cookies when deleting category"
+msgstr "Cookies behouden bij het verwijderen van categorie"
+
+#: build/admin.js:43
+msgid "All your cookies will be displayed here"
+msgstr "Al je cookies worden hier weergegeven"
+
+#: build/admin.js:43
+msgid "Click the button below to create your first custom cookie"
+msgstr "Klik op de onderstaande knop om je eerste aangepaste cookie te maken"
+
+#: build/admin.js:43
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: build/admin.js:43
+msgid "Consent Logging"
+msgstr "Toestemmingslogboek"
+
+#: build/admin.js:43
+msgid "Enable consent logging to view consent analytics"
+msgstr "Schakel toestemmingslogboek in om toestemmingsanalyses te bekijken"
+
+#: build/admin.js:43
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "All cookies accepted."
+msgstr "Alle cookies geaccepteerd."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Non-essential cookies rejected."
+msgstr "Niet-essentiële cookies geweigerd."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preferences saved successfully."
+msgstr "Voorkeuren succesvol opgeslagen."
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Close privacy preferences dialog"
+msgstr "Privacyvoorkeurenvenster sluiten"
+
+#. translators: %s: cookie category name
+#: build/admin.js:52
+#: build/public.js:3
+#, js-format
+msgid "%s: always active, cannot be disabled"
+msgstr "%s: altijd actief, kan niet worden uitgeschakeld"
+
+#: build/admin.js:52
+#: build/public.js:3
+msgid "View Cookies"
+msgstr "Cookies bekijken"
+
+#. translators: %s: cookie category name
+#: build/admin.js:53
+#: build/public.js:4
+#, js-format
+msgid "%s cookies details"
+msgstr "%s cookiegegevens"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Expiry"
+msgstr "Vervaldatum"
+
+#: build/admin.js:53
+#: build/public.js:4
+msgid "Powered by SureCookie (opens in new tab)"
+msgstr "Powered by SureCookie (opent in nieuw tabblad)"
+
+#: build/admin.js:53
+msgid "Buttons are for reference only in preview."
+msgstr "Knoppen zijn alleen ter referentie in de preview."
+
+#: build/admin.js:53
+msgid "This is a preview"
+msgstr "Dit is een preview"
+
+#: build/admin.js:53
+msgid "Close preview"
+msgstr "Preview sluiten"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Complete"
+msgstr "Voltooid"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Queued…"
+msgstr "In wachtrij…"
+
+#: build/admin.js:54
+msgid "Scanning pages…"
+msgstr "Pagina's scannen…"
+
+#: build/admin.js:53
+#: build/admin.js:54
+msgid "Starting scan…"
+msgstr "Scan starten…"
+
+#: build/admin.js:54
+msgid "In progress…"
+msgstr "Bezig…"
+
+#. translators: 1: completed pages, 2: total pages
+#: build/admin.js:55
+#, js-format
+msgid "%1$d of %2$d pages scanned"
+msgstr "%1$d van %2$d pagina's gescand"
+
+#. translators: %s: estimated time remaining
+#: build/admin.js:56
+#, js-format
+msgid "· ~%s left"
+msgstr "· ~%s over"
+
+#: build/admin.js:56
+msgid "Scan Completed with Errors"
+msgstr "Scan voltooid met fouten"
+
+#. translators: %d: number of failed pages
+#: build/admin.js:57
+#, js-format
+msgid "%d page(s) could not be scanned. Check the logs for details."
+msgstr "%d pagina('s) konden niet worden gescand. Controleer de logs voor details."
+
+#: build/admin.js:57
+msgid "Scan appears stuck"
+msgstr "Scan lijkt vast te zitten"
+
+#. translators: 1: completed pages, 2: total pages, 3: elapsed time
+#: build/admin.js:58
+#, js-format
+msgid "%1$d of %2$d pages scanned after %3$s with no recent progress."
+msgstr "%1$d van %2$d pagina's gescand na %3$s zonder recente voortgang."
+
+#. translators: %s: elapsed time
+#: build/admin.js:59
+#, js-format
+msgid "No progress detected after %s."
+msgstr "Geen voortgang gedetecteerd na %s."
+
+#: build/admin.js:59
+#: build/admin.js:63
+msgid "Cancelling…"
+msgstr "Annuleren…"
+
+#: build/admin.js:59
+msgid "Cancel Scan"
+msgstr "Scan annuleren"
+
+#: build/admin.js:59
+msgid "Copy Logs for Support"
+msgstr "Logs kopiëren voor ondersteuning"
+
+#: build/admin.js:60
+msgid "The scan runs in the background - you can safely navigate away."
+msgstr "De scan draait op de achtergrond - je kunt veilig weg navigeren."
+
+#: build/admin.js:60
+msgid "Make sure your site is publicly accessible (not behind basic auth or maintenance mode)."
+msgstr "Zorg dat je site openbaar toegankelijk is (niet achter basisverificatie of onderhoudsmodus)."
+
+#: build/admin.js:60
+msgid "Check if a firewall or security plugin is blocking external requests to your site."
+msgstr "Controleer of een firewall of beveiligingsplugin externe verzoeken naar je site blokkeert."
+
+#: build/admin.js:60
+msgid "Pages with heavy JavaScript may take longer to scan. If scanning fails repeatedly, try fewer pages."
+msgstr "Pagina's met zware JavaScript kunnen langer duren om te scannen. Als scannen herhaaldelijk faalt, probeer dan minder pagina's."
+
+#: build/admin.js:60
+msgid "If issues persist, copy the logs and <a>contact our support team.</a>"
+msgstr "Als problemen aanhouden, kopieer dan de logs en <a>neem contact op met ons ondersteuningsteam.</a>"
+
+#: build/admin.js:73
+msgid "Daily Limit Reached"
+msgstr "Daglimiet bereikt"
+
+#. translators: 1: scans used, 2: scan limit
+#: build/admin.js:74
+#, js-format
+msgid "You've used %1$d of %2$d daily scans. Your credits will refresh automatically tomorrow."
+msgstr "Je hebt %1$d van %2$d dagelijkse scans gebruikt. Je credits worden morgen automatisch vernieuwd."
+
+#: build/admin.js:74
+msgid "You've used all your scan credits for today. Your credits will refresh automatically tomorrow."
+msgstr "Je hebt al je scancredits voor vandaag gebruikt. Je credits worden morgen automatisch vernieuwd."
+
+#: build/admin.js:63
+msgid "Cancel Stuck Scan"
+msgstr "Vastgelopen scan annuleren"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "The WordPress cron system is not working on your site. Cookie scanning may not work as expected. Please enable WP-Cron or set up a server cron job to ensure proper functionality."
+msgstr "Het WordPress cron-systeem werkt niet op je site. Het scannen van cookies werkt mogelijk niet zoals verwacht. Schakel WP-Cron in of stel een server cron-taak in om een goede werking te garanderen."
+
+#: build/admin.js:75
+msgid "Select"
+msgstr "Selecteren"
+
+#: build/admin.js:75
+msgid "Configure how the \"Cookie Preferences\" button appears on your site, allowing users to update their consent at any time."
+msgstr "Configureer hoe de knop \"Cookievoorkeuren\" op uw site verschijnt, zodat gebruikers hun toestemming op elk moment kunnen bijwerken."
+
+#: build/admin.js:75
+msgid "No re-consent method active"
+msgstr "Geen methode voor hernieuwde toestemming actief"
+
+#: build/admin.js:75
+msgid "Visitors won't be able to update their cookie preferences unless you add a menu item or place the shortcode on a page. You can safely ignore this if the shortcode is already added."
+msgstr "Bezoekers kunnen hun cookievoorkeuren niet bijwerken tenzij u een menu-item toevoegt of de shortcode op een pagina plaatst. U kunt dit veilig negeren als de shortcode al is toegevoegd."
+
+#: build/admin.js:75
+msgid "Button Label"
+msgstr "Knoplabel"
+
+#: build/admin.js:75
+msgid "The label shown on the Cookie Preferences link."
+msgstr "Het label dat wordt weergegeven op de link Cookievoorkeuren."
+
+#: build/admin.js:75
+msgid "Menu Level"
+msgstr "Menuniveau"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: build/admin.js:75
+msgid "Floating Widget"
+msgstr "Drijvend widget"
+
+#: build/admin.js:75
+msgid "Select a WordPress menu to automatically add the Cookie Preferences link to it. When clicked, it opens the consent preferences modal directly."
+msgstr "Selecteer een WordPress-menu om automatisch de link Cookievoorkeuren toe te voegen. Bij klikken opent het direct het toestemmingsvoorkeurenvenster."
+
+#: build/admin.js:75
+msgid "No WordPress menus found."
+msgstr "Geen WordPress-menu's gevonden."
+
+#: build/admin.js:75
+msgid "Create a menu in Appearance > Menus."
+msgstr "Maak een menu aan via Weergave > Menu's."
+
+#: build/admin.js:75
+msgid "Select Menu"
+msgstr "Selecteer menu"
+
+#: build/admin.js:75
+msgid "Use this shortcode to display the Cookie Preferences link anywhere on your site. When clicked, it opens the consent preferences modal directly."
+msgstr "Gebruik deze shortcode om de link Cookievoorkeuren overal op uw site weer te geven. Bij klikken opent het direct het toestemmingsvoorkeurenvenster."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Shortcode Copied!"
+msgstr "Shortcode gekopieerd!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Could not copy to clipboard. Please copy the shortcode manually."
+msgstr "Kon niet naar klembord kopiëren. Kopieer de shortcode handmatig."
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copied!"
+msgstr "Gekopieerd!"
+
+#: build/admin.js:75
+#: build/admin.js:78
+msgid "Copy shortcode"
+msgstr "Kopieer shortcode"
+
+#: build/admin.js:75
+msgid "Enable Floating Widget"
+msgstr "Drijvend widget inschakelen"
+
+#: build/admin.js:75
+msgid "to show a floating cookie preferences button on every page."
+msgstr "om een drijvende knop voor cookievoorkeuren op elke pagina te tonen."
+
+#: build/admin.js:75
+msgid "Free version"
+msgstr "Gratis versie"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Analytics"
+msgstr "Analyse"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Marketing"
+msgstr "Marketing"
+
+#: build/admin.js:78
+#: build/admin.js:83
+msgid "Functional"
+msgstr "Functioneel"
+
+#: build/admin.js:76
+msgid "Resource"
+msgstr "Bron"
+
+#: build/admin.js:76
+msgid "Script"
+msgstr "Script"
+
+#: build/admin.js:76
+msgid "Iframe"
+msgstr "Iframe"
+
+#: build/admin.js:78
+msgid "The selected page is not published and will not appear to visitors."
+msgstr "De geselecteerde pagina is niet gepubliceerd en zal niet zichtbaar zijn voor bezoekers."
+
+#: build/admin.js:78
+msgid "The previously selected page no longer exists or could not be loaded."
+msgstr "De eerder geselecteerde pagina bestaat niet meer of kon niet worden geladen."
+
+#: build/admin.js:78
+msgid "Cookie Policy Page"
+msgstr "Cookiebeleidpagina"
+
+#: build/admin.js:78
+msgid "A link to this page will appear in the consent preferences modal footer."
+msgstr "Een link naar deze pagina verschijnt in de voettekst van het toestemmingsvoorkeurenvenster."
+
+#: build/admin.js:78
+msgid "Auto Generate"
+msgstr "Automatisch genereren"
+
+#: build/admin.js:78
+msgid "Automatically create a published Cookie Policy page containing a dynamically generated cookie table that always stays up to date."
+msgstr "Maak automatisch een gepubliceerde cookiebeleidpagina aan met een dynamisch gegenereerde cookietabel die altijd up-to-date blijft."
+
+#: build/admin.js:78
+msgid "Cookie Policy page created successfully!"
+msgstr "Cookiebeleidpagina succesvol aangemaakt!"
+
+#: build/admin.js:78
+msgid "Failed to generate page. Please try again."
+msgstr "Pagina genereren mislukt. Probeer het opnieuw."
+
+#: build/admin.js:78
+msgid "An error occurred while generating the page. Please try again."
+msgstr "Er is een fout opgetreden bij het genereren van de pagina. Probeer het opnieuw."
+
+#: build/admin.js:78
+msgid "Page Already Linked"
+msgstr "Pagina al gekoppeld"
+
+#: build/admin.js:78
+msgid "Generate Cookie Policy Page"
+msgstr "Genereer cookiebeleidpagina"
+
+#: build/admin.js:78
+msgid "Edit Page"
+msgstr "Pagina bewerken"
+
+#: build/admin.js:78
+msgid "View Page"
+msgstr "Pagina bekijken"
+
+#: build/admin.js:78
+msgid "Use this shortcode to display the cookie policy with a dynamically generated cookie table on any page or post. The table always reflects the latest scanned and custom cookies."
+msgstr "Gebruik deze shortcode om het cookiebeleid weer te geven met een dynamisch gegenereerde cookietabel op elke pagina of bericht. De tabel weerspiegelt altijd de laatst gescande en aangepaste cookies."
+
+#: build/admin.js:84
+msgid "Google Consent Mode v2"
+msgstr "Google Consent Mode v2"
+
+#: build/admin.js:84
+msgid "Mandatory for EU/EEA as of March 2024"
+msgstr "Verplicht voor EU/EEA vanaf maart 2024"
+
+#: build/admin.js:84
+msgid "Google now requires Consent Mode v2 for all websites using Google services in the European Economic Area."
+msgstr "Google vereist nu Consent Mode v2 voor alle websites die Google-diensten gebruiken in de Europese Economische Ruimte."
+
+#: build/admin.js:84
+msgid "Learn more about Google Consent Mode v2 →"
+msgstr "Lees meer over Google Consent Mode v2 →"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode Switch"
+msgstr "Schakel Google Consent Mode-schakelaar in"
+
+#: build/admin.js:84
+msgid "Enable Google Consent Mode"
+msgstr "Schakel Google Consent Mode in"
+
+#: build/admin.js:84
+msgid "Wait Time (milliseconds)"
+msgstr "Wachttijd (milliseconden)"
+
+#: build/admin.js:84
+msgid "How long Google services wait for consent before making requests. Default: 500ms. Range: 0–2000ms."
+msgstr "Hoe lang Google-diensten wachten op toestemming voordat ze verzoeken doen. Standaard: 500ms. Bereik: 0–2000ms."
+
+#: build/admin.js:84
+msgid "Where should the banner appear?"
+msgstr "Waar moet de banner verschijnen?"
+
+#: build/admin.js:84
+msgid "Choose where the banner is shown. Visitors outside selected regions will not see it."
+msgstr "Kies waar de banner wordt getoond. Bezoekers buiten geselecteerde regio's zullen deze niet zien."
+
+#: build/admin.js:84
+msgid "Show to all visitors worldwide"
+msgstr "Toon aan alle bezoekers wereldwijd"
+
+#: build/admin.js:84
+msgid "Use the same experience for everyone, regardless of location."
+msgstr "Gebruik dezelfde ervaring voor iedereen, ongeacht locatie."
+
+#: build/admin.js:28
+#: build/admin.js:76
+#: build/admin.js:78
+#: build/admin.js:84
+msgid "Pro"
+msgstr "Pro"
+
+#: build/admin.js:84
+msgid "Show only where required by law"
+msgstr "Toon alleen waar wettelijk vereist"
+
+#: build/admin.js:84
+msgid "Target specific regions with tailored consent experiences."
+msgstr "Richt u op specifieke regio's met op maat gemaakte toestemmingservaringen."
+
+#: build/admin.js:84
+msgid "Mode: Show to all visitors worldwide"
+msgstr "Modus: Toon aan alle bezoekers wereldwijd"
+
+#: build/admin.js:84
+msgid "Your existing banner settings apply to all visitors. No geographic targeting is active."
+msgstr "Uw bestaande bannerinstellingen gelden voor alle bezoekers. Geen geografische targeting actief."
+
+#: build/admin.js:84
+msgid "Unlock Regional Targeting"
+msgstr "Ontgrendel regionale targeting"
+
+#: build/admin.js:84
+msgid "Show banner only in selected regions, create custom regional rules, and control fallback behavior."
+msgstr "Toon banner alleen in geselecteerde regio's, maak aangepaste regionale regels en beheer fallback-gedrag."
+
+#: build/admin.js:84
+msgid "Location detection uses GeoLite2 data by MaxMind, available from <link>https://www.maxmind.com</link>."
+msgstr "Locatiedetectie gebruikt GeoLite2-gegevens van MaxMind, beschikbaar via <link>https://www.maxmind.com</link>."
+
+#: build/onboarding.js:1
+msgid "An error occurred while connecting"
+msgstr "Er is een fout opgetreden bij het verbinden"
+
+#: build/onboarding.js:6
+msgid "Email address is required"
+msgstr "E-mailadres is vereist"
+
+#: build/onboarding.js:6
+msgid "Classify cookies automatically"
+msgstr "Classificeer cookies automatisch"
+
+#: build/onboarding.js:6
+msgid "Get smart compliance recommendations"
+msgstr "Ontvang slimme nalevingsaanbevelingen"
+
+#: build/onboarding.js:6
+msgid "Generate privacy-compliant descriptions"
+msgstr "Genereer privacy-conforme beschrijvingen"
+
+#: build/onboarding.js:6
+msgid "Connect Your Account"
+msgstr "Verbind uw account"
+
+#: build/onboarding.js:6
+msgid "Connect your SureCookie account to automatically classify cookies, generate compliant descriptions, and get smart recommendations for your privacy needs."
+msgstr "Verbind uw SureCookie-account om cookies automatisch te classificeren, conforme beschrijvingen te genereren en slimme aanbevelingen te krijgen voor uw privacybehoeften."
+
+#: build/onboarding.js:6
+msgid "Here's what you can do:"
+msgstr "Dit kunt u doen:"
+
+#: build/onboarding.js:6
+msgid "List of capabilities"
+msgstr "Lijst met mogelijkheden"
+
+#: build/onboarding.js:6
+msgid "Connected to SureCookie"
+msgstr "Verbonden met SureCookie"
+
+#: build/onboarding.js:6
+msgid "Connecting…"
+msgstr "Verbinden…"
+
+#: build/onboarding.js:6
+msgid "Connect"
+msgstr "Verbinden"
+
+#: build/onboarding.js:11
+msgid "Account not connected"
+msgstr "Account niet verbonden"
+
+#: build/onboarding.js:14
+msgid "Connect Required"
+msgstr "Verbinding vereist"
+
+#: build/onboarding.js:14
+msgid "Please connect your account to get free scanning credits."
+msgstr "Verbind uw account om gratis scancredits te ontvangen."
+
+#: build/onboarding.js:14
+msgid "Finish"
+msgstr "Voltooien"
+
+#: build/public.js:4
+msgid "Banner logo"
+msgstr "Bannerlogo"
+
+#: build/public.js:4
+msgid "Decline all non-essential cookies"
+msgstr "Weiger alle niet-essentiële cookies"
+
+#: build/public.js:4
+msgid "Manage cookie preferences"
+msgstr "Beheer cookievoorkeuren"
+
+#: build/public.js:4
+msgid "Accept only essential cookies"
+msgstr "Accepteer alleen essentiële cookies"
+
+#: build/public.js:4
+msgid "Accept all cookies"
+msgstr "Accepteer alle cookies"
+
+#. Description of the plugin
+#: surecookie.php
+msgid "Real cookie consent for WordPress. Browser-based scanning, smart categorization, strict script blocking, and consent logs stored in your database."
+msgstr "Echte cookie-toestemming voor WordPress. Browsergebaseerde scanning, slimme categorisering, strikte scriptblokkering en toestemmingslogboeken opgeslagen in uw database."
+
+#: admin/menu.php:300
+#: admin/menu.php:301
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: admin/rating-notice.php:234
+msgid "If SureCookie has been helpful, would you mind taking a moment to leave a 5-star review on WordPress.org?"
+msgstr "Als SureCookie nuttig is geweest, zou u dan een moment willen nemen om een 5-sterrenbeoordeling achter te laten op WordPress.org?"
+
+#: admin/rating-notice.php:243
+msgid "Rate SureCookie"
+msgstr "Beoordeel SureCookie"
+
+#: admin/rating-notice.php:251
+msgid "Maybe later"
+msgstr "Misschien later"
+
+#: admin/rating-notice.php:255
+msgid "I already did"
+msgstr "Ik heb het al gedaan"
+
+#: inc/integrations/wp-consent-api/actions.php:62
+msgid "days"
+msgstr "dagen"
+
+#: inc/integrations/wp-consent-api/actions.php:69
+msgid "Stores the user's cookie consent preferences."
+msgstr "Slaat de cookie-toestemmingsvoorkeuren van de gebruiker op."
+
+#: inc/integrations/wp-consent-api/actions.php:76
+msgid "1 year"
+msgstr "1 jaar"
+
+#: inc/integrations/wp-consent-api/actions.php:77
+msgid "Tracks consent log sessions for audit purposes."
+msgstr "Volgt toestemmingslog-sessies voor auditdoeleinden."
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie toggle"
+msgstr "Bijdragen aan SureCookie-schakelaar"
+
+#: build/admin.js:53
+msgid "Contribute to SureCookie"
+msgstr "Bijdragen aan SureCookie"
+
+#: build/admin.js:53
+#: build/admin.js:84
+msgid "Learn More"
+msgstr "Meer informatie"
+
+#: build/admin.js:44
+#: build/onboarding.js:4
+msgid "Launch Setup Wizard"
+msgstr "Setup Wizard starten"
+
+#. translators: %d: maximum pages
+#: build/admin.js:61
+#: build/admin.js:73
+#: build/onboarding.js:5
+#: build/onboarding.js:14
+#, js-format
+msgid "You have selected more than %d pages"
+msgstr "U heeft meer dan %d pagina's geselecteerd"
+
+#. translators: %d: maximum pages
+#: build/admin.js:65
+#: build/onboarding.js:9
+#, js-format
+msgid "Your plan supports scanning up to %d pages. Please remove extra pages to continue."
+msgstr "Uw abonnement ondersteunt het scannen van maximaal %d pagina's. Verwijder extra pagina's om door te gaan."
+
+#: build/admin.js:83
+msgid "Please enter at least one region code"
+msgstr "Voer alstublieft ten minste één regiocode in"
+
+#: build/admin.js:83
+msgid "Invalid region code format. Use ISO 3166 codes like EU, US, US-CA, or GB."
+msgstr "Ongeldig regiocodeformaat. Gebruik ISO 3166-codes zoals EU, US, US-CA of GB."
+
+#: build/admin.js:83
+msgid "EU/EEA (GDPR)"
+msgstr "EU/EEA (AVG)"
+
+#: build/admin.js:83
+msgid "California (CCPA)"
+msgstr "Californië (CCPA)"
+
+#: build/admin.js:83
+msgid "United Kingdom"
+msgstr "Verenigd Koninkrijk"
+
+#: build/admin.js:83
+msgid "Brazil (LGPD)"
+msgstr "Brazilië (LGPD)"
+
+#: build/admin.js:83
+msgid "Edit Regional Rule"
+msgstr "Regionale regel bewerken"
+
+#: build/admin.js:83
+msgid "Add Regional Rule"
+msgstr "Regionale regel toevoegen"
+
+#: build/admin.js:83
+msgid "Set default consent state for visitors from this region. Google uses the most specific match."
+msgstr "Stel de standaard toestemmingsstatus in voor bezoekers uit deze regio. Google gebruikt de meest specifieke match."
+
+#: build/admin.js:83
+msgid "Add Rule"
+msgstr "Regel toevoegen"
+
+#: build/admin.js:83
+msgid "Quick Presets"
+msgstr "Snelle presets"
+
+#: build/admin.js:83
+msgid "Apply preset:"
+msgstr "Preset toepassen:"
+
+#: build/admin.js:83
+msgid "Region Codes"
+msgstr "Regiocodes"
+
+#: build/admin.js:83
+msgid "Comma-separated ISO 3166 codes: EU, US, US-CA, GB, BR, etc."
+msgstr "Door komma's gescheiden ISO 3166-codes: EU, US, US-CA, GB, BR, enz."
+
+#: build/admin.js:83
+msgid "Default Consent State"
+msgstr "Standaard toestemmingsstatus"
+
+#: build/admin.js:83
+msgid "Choose which categories are granted by default for visitors from this region before they interact with the banner."
+msgstr "Kies welke categorieën standaard worden toegestaan voor bezoekers uit deze regio voordat ze met de banner interageren."
+
+#: build/admin.js:83
+msgid "Functional Storage"
+msgstr "Functionele opslag"
+
+#: build/admin.js:83
+msgid "Enables storage for site functionality like preferences and language."
+msgstr "Maakt opslag mogelijk voor sitefunctionaliteit zoals voorkeuren en taal."
+
+#: build/admin.js:83
+msgid "Functional storage default"
+msgstr "Standaard functionele opslag"
+
+#: build/admin.js:83
+msgid "Analytics Storage"
+msgstr "Analyse-opslag"
+
+#: build/admin.js:83
+msgid "Enables storage for analytics purposes like visit duration and page views."
+msgstr "Maakt opslag mogelijk voor analyse doeleinden zoals bezoektijd en paginaweergaven."
+
+#: build/admin.js:83
+msgid "Analytics storage default"
+msgstr "Standaard voor analyseopslag"
+
+#: build/admin.js:83
+msgid "Marketing / Ads Storage"
+msgstr "Marketing / Advertentieopslag"
+
+#: build/admin.js:83
+msgid "Enables storage for advertising purposes including ad personalization and user data."
+msgstr "Maakt opslag mogelijk voor advertentiedoeleinden, inclusief advertentiepersonalisatie en gebruikersgegevens."
+
+#: build/admin.js:83
+msgid "Marketing storage default"
+msgstr "Standaard voor marketingopslag"
+
+#: build/admin.js:83
+msgid "Essential cookies (security_storage) are always granted. These defaults apply before the visitor interacts with the consent banner."
+msgstr "Essentiële cookies (security_storage) worden altijd toegestaan. Deze standaarden gelden voordat de bezoeker interactie heeft met de toestemmingsbanner."
+
+#: build/admin.js:83
+msgid "Granted"
+msgstr "Toegewezen"
+
+#: build/admin.js:83
+msgid "Denied"
+msgstr "Geweigerd"
+
+#: build/admin.js:83
+msgid "Active Regional Rules"
+msgstr "Actieve regionale regels"
+
+#: build/admin.js:83
+msgid "Set different default consent states per region. Google uses the most specific match (e.g., US-CA overrides US)."
+msgstr "Stel verschillende standaard toestemmingsstatussen per regio in. Google gebruikt de meest specifieke match (bijv. US-CA overschrijft US)."
+
+#: build/admin.js:83
+msgid "Edit rule for"
+msgstr "Regel bewerken voor"
+
+#: build/admin.js:83
+msgid "Delete rule for"
+msgstr "Regel verwijderen voor"
+
+#: build/admin.js:83
+msgid "No regional rules configured. The global default (deny all except essential) applies to all visitors."
+msgstr "Geen regionale regels geconfigureerd. De globale standaard (alles weigeren behalve essentieel) geldt voor alle bezoekers."
+
+#. translators: %s: comma-separated duplicate region codes
+#: build/admin.js:84
+#, js-format
+msgid "These region codes already exist in another rule: %s"
+msgstr "Deze regiocodes bestaan al in een andere regel: %s"
+
+#: build/admin.js:84
+msgid "Delete Regional Rule"
+msgstr "Regionale regel verwijderen"
+
+#: build/admin.js:84
+msgid "Are you sure you want to delete this regional consent rule? Visitors from this region will use the global default."
+msgstr "Weet u zeker dat u deze regionale toestemmingsregel wilt verwijderen? Bezoekers uit deze regio gebruiken de globale standaard."
+
+#: build/admin.js:84
+msgid "Automatically communicate user consent preferences to Google services."
+msgstr "Communiceer automatisch gebruikersvoorkeuren voor toestemming aan Google-services."
+
+#: build/admin.js:84
+msgid "Supported services: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight, and DV360"
+msgstr "Ondersteunde services: Analytics 4, Google Ads, Tag Manager, Campaign Manager 360, Ad Manager, Floodlight en DV360"
+
+#: build/public.js:4
+msgid "Cookie Consent"
+msgstr "Cookie-toestemming"
+
+#: inc/api/consent-logs.php:318
+#: inc/api/consent-logs.php:345
+msgid "Request origin could not be verified."
+msgstr "Oorsprong van verzoek kon niet worden geverifieerd."
+
+#: inc/api/consent-logs.php:614
+msgid "Accept All is not enabled for this site."
+msgstr "Accepteer alles is niet ingeschakeld voor deze site."
+
+#: inc/api/posts.php:199
+msgid "Post not found."
+msgstr "Bericht niet gevonden."
+
+#: inc/modules/site-scanner/saas-client.php:1043
+msgid "Quota is not available on localhost or development sites."
+msgstr "Quota is niet beschikbaar op localhost of ontwikkelingssites."
+
+#: inc/modules/site-scanner/saas-client.php:1102
+msgid "Unexpected response from server."
+msgstr "Onverwachte reactie van de server."
+
+#: inc/modules/site-scanner/saas-client.php:1149
+msgid "Authentication required."
+msgstr "Authenticatie vereist."
+
+#: inc/modules/site-scanner/saas-client.php:1159
+msgid "Failed to fetch quota."
+msgstr "Kon quota niet ophalen."
+
+#: inc/utils/options.php:150
+msgid "We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience."
+msgstr "We gebruiken cookies en vergelijkbare technologieën om te helpen bij het personaliseren van inhoud, het afstemmen en meten van advertenties, en het bieden van een betere ervaring."
+
+#: build/admin.js:2
+msgid "Configure the text content that appears in your cookie consent banner and preference modal"
+msgstr "Configureer de tekstinhoud die verschijnt in uw cookie-toestemmingsbanner en voorkeurenmodal"
+
+#: build/admin.js:2
+msgid "Consent Banner"
+msgstr "Toestemmingsbanner"
+
+#: build/admin.js:2
+msgid "Preference Modal"
+msgstr "Voorkeurenmodal"
+
+#: build/admin.js:2
+msgid "Show the \"Accept All\" button on the consent banner. When off, the button is removed from the banner and from the Button Order list."
+msgstr "Toon de knop \"Alles accepteren\" op de toestemmingsbanner. Wanneer uitgeschakeld, wordt de knop verwijderd van de banner en uit de knopvolgordelijst."
+
+#: build/admin.js:2
+msgid "Preference Modal Title"
+msgstr "Titel voorkeurenmodal"
+
+#: build/admin.js:2
+msgid "Preference Modal Description"
+msgstr "Beschrijving voorkeurenmodal"
+
+#: build/admin.js:2
+msgid "Preference modal description cannot be empty."
+msgstr "Beschrijving van voorkeurenmodal mag niet leeg zijn."
+
+#: build/admin.js:53
+msgid "Help shape the future of SureCookie. Share how you use the plugin so we can build features that matter, fix issues faster, and make smarter decisions."
+msgstr "Help de toekomst van SureCookie vorm te geven. Deel hoe je de plugin gebruikt zodat we functies kunnen bouwen die ertoe doen, problemen sneller kunnen oplossen en slimmere beslissingen kunnen nemen."
+
+#. translators: 1: current page index, 2: total pages
+#: build/admin.js:54
+#, js-format
+msgid "Scanning page %1$d of %2$d…"
+msgstr "Pagina %1$d van %2$d scannen…"
+
+#: build/admin.js:54
+msgid "Analyzing cookies…"
+msgstr "Cookies analyseren…"
+
+#: build/admin.js:54
+msgid "Finalizing…"
+msgstr "Afronden…"
+
+#: build/admin.js:54
+msgid "Scan failed"
+msgstr "Scannen mislukt"
+
+#: build/admin.js:54
+msgid "Scan progress"
+msgstr "Voortgang scan"
+
+#: build/admin.js:55
+msgid "Preparing scan…"
+msgstr "Scan voorbereiden…"
+
+#: build/admin.js:60
+msgid "Your scan limit will reset tomorrow."
+msgstr "Je scanlimiet wordt morgen opnieuw ingesteld."
+
+#. translators: 1: remaining scans, 2: total daily scans
+#: build/admin.js:68
+#: build/onboarding.js:12
+#, js-format
+msgid "You have %1$d of %2$d daily scans remaining"
+msgstr "Je hebt nog %1$d van %2$d dagelijkse scans over"
+
+#. translators: %s: time until reset (e.g. "4h 22m")
+#: build/admin.js:69
+#: build/admin.js:71
+#, js-format
+msgid "Resets in %s"
+msgstr "Reset over %s"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Limits refreshed."
+msgstr "Limieten vernieuwd."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Failed to refresh limits."
+msgstr "Vernieuwen van limieten mislukt."
+
+#: build/admin.js:71
+msgid "Your session expired. Please reload to reconnect."
+msgstr "Je sessie is verlopen. Herlaad de pagina om opnieuw verbinding te maken."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "We couldn't fetch your limits right now. Please try again in a moment."
+msgstr "We kunnen je limieten nu niet ophalen. Probeer het over een moment opnieuw."
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refreshing…"
+msgstr "Bezig met vernieuwen…"
+
+#: build/admin.js:71
+#: build/onboarding.js:12
+msgid "Refresh limits"
+msgstr "Limieten vernieuwen"
+
+#: build/admin.js:78
+msgid "Clear selected page"
+msgstr "Geselecteerde pagina wissen"
+
+#: build/admin.js:78
+msgid "Select a Page"
+msgstr "Selecteer een pagina"
+
+#: build/onboarding.js:11
+msgid "Please <a>go back</a> and connect your SureCookie account to enable cookie scanning."
+msgstr "Ga alsjeblieft <a>terug</a> en verbind je SureCookie-account om het scannen van cookies mogelijk te maken."
+
+#: build/onboarding.js:12
+msgid "Your session expired. Please reconnect to continue."
+msgstr "Je sessie is verlopen. Verbind opnieuw om door te gaan."
+
+#: build/onboarding.js:14
+msgid "You're all set. Let's go live 🚀"
+msgstr "Alles is klaar. Laten we live gaan 🚀"
+
+#: build/onboarding.js:14
+msgid "From consent logs to region-based preferences, SureCookie helps you stay compliant while building visitor trust."
+msgstr "Van toestemmingslogs tot regio-gebaseerde voorkeuren, SureCookie helpt je compliant te blijven terwijl je het vertrouwen van bezoekers opbouwt."
+
+#: admin/menu.php:91
+#: build/admin.js:2
+msgid "Learn"
+msgstr "Leer"
+
+#: inc/api/consent-logs.php:376
+#: inc/api/consent-logs.php:515
+msgid "Too many requests. Please try again later."
+msgstr "Te veel verzoeken. Probeer het later opnieuw."
+
+#: inc/api/consent-logs.php:544
+msgid "Preferences data is too large."
+msgstr "Voorkeursgegevens zijn te groot."
+
+#: inc/api/consent-logs.php:555
+#: inc/api/consent-logs.php:566
+msgid "Invalid preferences format."
+msgstr "Ongeldig voorkeursformaat."
+
+#: inc/modules/auth/controller.php:71
+msgid "Could not generate secure auth key."
+msgstr "Kon geen veilige authenticatiesleutel genereren."
+
+#: inc/modules/auth/controller.php:179
+msgid "Invalid flow identifier."
+msgstr "Ongeldige flow-identificatie."
+
+#: inc/modules/site-scanner/cron.php:122
+msgid "Scan failed."
+msgstr "Scan mislukt."
+
+#: inc/modules/site-scanner/saas-client.php:422
+msgid "Could not generate a secure scan token. Please retry."
+msgstr "Kon geen veilige scantoken genereren. Probeer het opnieuw."
+
+#: inc/modules/site-scanner/saas-client.php:1056
+msgid "Scanner credentials are not yet issued. Run your first scan to register."
+msgstr "Scannerreferenties zijn nog niet uitgegeven. Voer uw eerste scan uit om te registreren."
+
+#: inc/modules/site-scanner/saas-client.php:1476
+msgid "Another registration is already in progress. Please try again in a moment."
+msgstr "Een andere registratie is al bezig. Probeer het over een moment opnieuw."
+
+#: inc/modules/site-scanner/saas-client.php:1506
+msgid "Could not determine site domain."
+msgstr "Kon de domeinnaam van de site niet bepalen."
+
+#: inc/modules/site-scanner/saas-client.php:1518
+msgid "Could not generate a secure registration nonce. Please retry."
+msgstr "Kon geen veilige registratie-nonce genereren. Probeer het opnieuw."
+
+#: inc/modules/site-scanner/saas-client.php:1546
+msgid "Failed to encode registration request."
+msgstr "Coderen van registratieverzoek mislukt."
+
+#. translators: %s: error message from the network call
+#: inc/modules/site-scanner/saas-client.php:1568
+#, php-format
+msgid "Could not reach the SureCookie service: %s"
+msgstr "Kon de SureCookie-service niet bereiken: %s"
+
+#: inc/modules/site-scanner/saas-client.php:1582
+msgid "Registration could not be initiated."
+msgstr "Registratie kon niet worden gestart."
+
+#: inc/modules/site-scanner/saas-client.php:1597
+msgid "Received an invalid verification token. Please retry."
+msgstr "Ontvangen verificatietoken is ongeldig. Probeer het opnieuw."
+
+#: inc/modules/site-scanner/saas-client.php:1615
+msgid "Failed to encode verification completion."
+msgstr "Coderen van verificatievoltooiing mislukt."
+
+#: build/admin.js:2
+#: build/admin.js:78
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+#: build/admin.js:2
+msgid "Additional Consent"
+msgstr "Aanvullende toestemming"
+
+#: build/admin.js:2
+#: build/onboarding.js:1
+msgid "Please return to the SureCookie dashboard and try again."
+msgstr "Ga terug naar het SureCookie-dashboard en probeer het opnieuw."
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:47
+#, js-format
+msgid "%1$d of %2$d steps complete"
+msgstr "%1$d van %2$d stappen voltooid"
+
+#: build/admin.js:47
+msgid "You're all set! SureCookie is ready to protect your site."
+msgstr "Alles is klaar! SureCookie is klaar om uw site te beschermen."
+
+#: build/admin.js:47
+msgid "Scan Your Site for Cookies"
+msgstr "Scan uw site op cookies"
+
+#: build/admin.js:47
+msgid "Run the cookie scanner to discover and categorize cookies your site uses."
+msgstr "Voer de cookiesscanner uit om cookies te ontdekken en te categoriseren die uw site gebruikt."
+
+#: build/admin.js:47
+msgid "Scan Now"
+msgstr "Nu scannen"
+
+#: build/admin.js:47
+msgid "Set up the Consent Banner"
+msgstr "Stel de toestemmingsbanner in"
+
+#: build/admin.js:47
+msgid "Customize your cookie consent banner - content, layout, and visibility."
+msgstr "Pas uw cookietoestemmingsbanner aan - inhoud, lay-out en zichtbaarheid."
+
+#: build/admin.js:47
+msgid "Review Consent Logs"
+msgstr "Bekijk toestemmingslogboeken"
+
+#: build/admin.js:47
+msgid "See who has consented and when - useful for compliance audits."
+msgstr "Zie wie toestemming heeft gegeven en wanneer - nuttig voor nalevingsaudits."
+
+#: build/admin.js:47
+msgid "View Logs"
+msgstr "Logboeken bekijken"
+
+#: build/admin.js:47
+msgid "Publish Your Cookie Policy"
+msgstr "Publiceer uw cookiebeleid"
+
+#: build/admin.js:47
+msgid "Review and publish the cookie policy page on your site."
+msgstr "Bekijk en publiceer de cookiebeleidpagina op uw site."
+
+#: build/admin.js:47
+msgid "Review Page"
+msgstr "Bekijk pagina"
+
+#: build/admin.js:47
+msgid "Generate a cookie policy page so visitors know how you handle their data."
+msgstr "Genereer een cookiebeleidpagina zodat bezoekers weten hoe u met hun gegevens omgaat."
+
+#: build/admin.js:47
+msgid "Create Page"
+msgstr "Pagina maken"
+
+#: build/admin.js:47
+msgid "Get Started with SureCookie"
+msgstr "Aan de slag met SureCookie"
+
+#: build/admin.js:47
+msgid "Follow these steps to set up cookie consent on your site in minutes."
+msgstr "Volg deze stappen om binnen enkele minuten cookietoestemming op uw site in te stellen."
+
+#: build/admin.js:47
+msgid "See full documentation →"
+msgstr "Bekijk volledige documentatie →"
+
+#: build/admin.js:47
+msgid "Continue Learning"
+msgstr "Blijf leren"
+
+#. translators: 1: number of completed steps, 2: total number of steps
+#: build/admin.js:50
+#, js-format
+msgid "%1$d of %2$d setup steps complete."
+msgstr "%1$d van %2$d installatiestappen voltooid."
+
+#: build/admin.js:50
+msgid "Open Learn"
+msgstr "Open Leer"
+
+#: build/admin.js:78
+msgid "Control where your cookie banner appears on your site."
+msgstr "Beheer waar uw cookiebanner op uw site verschijnt."
+
+#: build/admin.js:78
+msgid "Want More Control over Your Cookie Banner?"
+msgstr "Wilt u meer controle over uw cookiebanner?"
+
+#: build/admin.js:78
+msgid "Upgrade to hide it on selected pages, posts, archives, or on specific user roles."
+msgstr "Upgrade om deze te verbergen op geselecteerde pagina's, berichten, archieven of voor specifieke gebruikersrollen."
+
+#: build/admin.js:87
+msgid "IAB Transparency & Consent Framework"
+msgstr "IAB Transparantie- & Toestemmingskader"
+
+#: build/admin.js:87
+msgid "Make your consent banner compliant with IAB TCF 2.3 and integrate with the Global Vendor List."
+msgstr "Maak uw toestemmingsbanner conform IAB TCF 2.3 en integreer met de Global Vendor List."
+
+#: build/admin.js:87
+msgid "Unlock IAB TCF 2.3 Compliance - Coming Soon"
+msgstr "Ontgrendel IAB TCF 2.3-naleving - Binnenkort beschikbaar"
+
+#: build/admin.js:87
+msgid "Enable full TCF mode, generate TC strings, and display the IAB vendor list to your visitors."
+msgstr "Schakel de volledige TCF-modus in, genereer TC-strings en toon de IAB-verkoperslijst aan uw bezoekers."
+
+#: build/admin.js:87
+msgid "Google Additional Consent (AC)"
+msgstr "Google Extra Toestemming (AC)"
+
+#: build/admin.js:87
+msgid "Add Google Additional Consent alongside IAB TCF to handle ad-tech vendors not on the IAB Global Vendor List."
+msgstr "Voeg Google Extra Toestemming toe naast IAB TCF om advertentietechnologieverkopers te behandelen die niet op de IAB Global Vendor List staan."
+
+#: build/admin.js:87
+msgid "Unlock Google Additional Consent - Coming Soon"
+msgstr "Ontgrendel Google Extra Toestemming - Binnenkort beschikbaar"
+
+#: build/admin.js:87
+msgid "Generate the AC string, mirror the addtl_consent cookie, and display Google's Additional Consent provider list to your visitors - required for full Google Ads / GAM monetization."
+msgstr "Genereer de AC-string, spiegel de addtl_consent-cookie en toon de lijst met Google’s Extra Toestemmingsproviders aan uw bezoekers - vereist voor volledige Google Ads / GAM-monetisatie."
+
+#: build/onboarding.js:1
+msgid "Failed to get authentication payload"
+msgstr "Authenticatiegegevens ophalen mislukt"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Consent Forwarding"
+msgstr "Toestemming doorsturen"
+
+#: build/admin.js:2
+msgid "Want custom brand colors?"
+msgstr "Wilt u aangepaste merkkleuren?"
+
+#: build/admin.js:3
+#: build/admin.js:4
+msgid "Received from"
+msgstr "Ontvangen van"
+
+#: build/admin.js:3
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Received"
+msgstr "Ontvangen"
+
+#. translators: %d: number of sites
+#: build/admin.js:4
+#, js-format
+msgid "Shared to %d site(s)"
+msgstr "Gedeeld met %d site(s)"
+
+#: build/admin.js:4
+msgid "Consent not received for"
+msgstr "Toestemming niet ontvangen voor"
+
+#: build/admin.js:4
+msgid "These categories exist only on this site and were not part of the forwarded consent. The visitor will be prompted to set their preferences for these when they visit this site directly."
+msgstr "Deze categorieën bestaan alleen op deze site en maakten geen deel uit van de doorgestuurde toestemming. De bezoeker wordt gevraagd zijn voorkeuren voor deze categorieën in te stellen wanneer hij deze site rechtstreeks bezoekt."
+
+#: build/admin.js:4
+msgid "More information about these categories"
+msgstr "Meer informatie over deze categorieën"
+
+#: build/admin.js:4
+#: build/onboarding.js:1
+msgid "Shared"
+msgstr "Gedeeld"
+
+#: build/admin.js:4
+msgid "Shared to"
+msgstr "Gedeeld met"
+
+#: build/admin.js:4
+msgid "Consent Session ID"
+msgstr "Toestemmingssessie-ID"
+
+#: build/admin.js:4
+msgid "Localhost"
+msgstr "Localhost"
+
+#: build/admin.js:6
+msgid "Consent log export upgrade"
+msgstr "Upgrade voor exporteren toestemmingslog"
+
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Preference sections"
+msgstr "Voorkeurssecties"
+
+#: build/admin.js:2
+#: build/admin.js:50
+#: build/public.js:1
+msgid "Cookies"
+msgstr "Cookies"
+
+#. translators: %d: number of partner sites
+#: build/admin.js:51
+#: build/public.js:2
+#, js-format
+msgid "%d connected site(s)"
+msgstr "%d verbonden site(s)"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "Sites that will receive your consent"
+msgstr "Sites die uw toestemming ontvangen"
+
+#: build/admin.js:51
+#: build/public.js:2
+msgid "No partner sites configured."
+msgstr "Geen partner-sites geconfigureerd."
+
+#: build/admin.js:53
+msgid "Cookie Notice"
+msgstr "Cookie-melding"
+
+#: build/admin.js:84
+msgid "Automatically sync cookie consent across multiple domains and forward consent choices to connected services, without asking visitors to consent again."
+msgstr "Synchroniseer automatisch cookie-toestemming over meerdere domeinen en stuur toestemmingskeuzes door naar verbonden diensten, zonder bezoekers opnieuw om toestemming te vragen."
+
+#: inc/modules/mcp/server.php:100
+msgid "SureCookie MCP Server"
+msgstr "SureCookie MCP-server"
+
+#: inc/modules/mcp/server.php:101
+msgid "SureCookie MCP Server for cookie consent settings, consent logs, cookie management, and site scanning workflows."
+msgstr "SureCookie MCP-server voor cookie-toestemmingsinstellingen, toestemmingslogboeken, cookiebeheer en site-scanning workflows."
+
+#. translators: %s: navigation group label
+#: build/admin.js:2
+#, js-format
+msgid "%s submenu"
+msgstr "%s submenu"
+
+#: build/admin.js:2
+msgid "General"
+msgstr "Algemeen"
+
+#: build/admin.js:2
+msgid "Consent & Data"
+msgstr "Toestemming & Gegevens"
+
+#: build/admin.js:2
+msgid "Consent Frameworks"
+msgstr "Toestemmingskaders"
+
+#: build/admin.js:2
+msgid "IAB-TCF"
+msgstr "IAB-TCF"
+
+#: build/admin.js:2
+msgid "Enter text"
+msgstr "Voer tekst in"
+
+#: build/admin.js:2
+msgid "Enter Banner Message"
+msgstr "Voer bannerbericht in"
+
+#: build/admin.js:2
+msgid "Control how long consent stays valid and how consent records are stored."
+msgstr "Beheer hoe lang toestemming geldig blijft en hoe toestemmingsgegevens worden opgeslagen."
+
+#: build/admin.js:4
+msgid "N/A"
+msgstr "N.v.t."
+
+#. translators: %d: number of partner sites that received the forwarded consent.
+#: build/admin.js:15
+#, js-format
+msgid "This consent was shared with %d connected site. Deleting it here will also erase the copy from that site (GDPR Art. 17)."
+msgid_plural "This consent was shared with %d connected sites. Deleting it here will also erase the copies from those sites (GDPR Art. 17)."
+msgstr[0] "Deze toestemming is gedeeld met %d verbonden site. Verwijderen hier zal ook de kopie van die site wissen (AVG Art. 17)."
+msgstr[1] "Deze toestemming is gedeeld met %d verbonden sites. Verwijderen hier zal ook de kopieën van die sites wissen (AVG Art. 17)."
+
+#. translators: %d: number of selected logs that were forwarded to partner sites.
+#: build/admin.js:21
+#, js-format
+msgid "%d of these logs was shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgid_plural "%d of these logs were shared with connected partner sites. Deleting will also erase those forwarded copies (GDPR Art. 17)."
+msgstr[0] "%d van deze logboeken is gedeeld met verbonden partnerwebsites. Verwijderen wist ook die doorgestuurde kopieën (AVG Art. 17)."
+msgstr[1] "%d van deze logboeken zijn gedeeld met verbonden partnerwebsites. Verwijderen wist ook die doorgestuurde kopieën (AVG Art. 17)."
+
+#: build/admin.js:53
+msgid "Admin and plugin preferences for SureCookie."
+msgstr "Beheer- en pluginvoorkeuren voor SureCookie."
+
+#: build/admin.js:53
+msgid "SureCookie Admin Menu"
+msgstr "SureCookie beheermenu"
+
+#: build/admin.js:53
+msgid "Toggle to show SureCookie in the main menu or under Settings → SureCookie."
+msgstr "Schakel om SureCookie in het hoofdmenu of onder Instellingen → SureCookie weer te geven."
+
+#: build/admin.js:84
+msgid "Connect Your AI Client"
+msgstr "Verbind uw AI-client"
+
+#: build/admin.js:84
+msgid "Create an Application Password"
+msgstr "Maak een applicatiewachtwoord aan"
+
+#: build/admin.js:84
+msgid "Open Application Passwords"
+msgstr "Open applicatiewachtwoorden"
+
+#: build/admin.js:84
+msgid "Add to your AI client:"
+msgstr "Toevoegen aan uw AI-client:"
+
+#: build/admin.js:84
+msgid "Learn more about the WordPress MCP Adapter"
+msgstr "Meer informatie over de WordPress MCP Adapter"
+
+#: build/admin.js:84
+msgid "Claude Code"
+msgstr "Claude Code"
+
+#: build/admin.js:84
+msgid "Claude Desktop"
+msgstr "Claude Desktop"
+
+#: build/admin.js:84
+msgid "Cursor"
+msgstr "Cursor"
+
+#: build/admin.js:84
+msgid "VS Code"
+msgstr "VS Code"
+
+#: build/admin.js:84
+msgid "ChatGPT"
+msgstr "ChatGPT"
+
+#: build/admin.js:84
+msgid "go to Settings → Connectors → Add Connector, paste the endpoint URL, and use your WordPress username + Application Password."
+msgstr "Ga naar Instellingen → Connectors → Connector toevoegen, plak de eindpunt-URL en gebruik uw WordPress-gebruikersnaam + applicatiewachtwoord."
+
+#: build/admin.js:84
+msgid "Learn more about ChatGPT connectors"
+msgstr "Meer informatie over ChatGPT-connectors"
+
+#: build/admin.js:84
+msgid "SureCookie Only"
+msgstr "Alleen SureCookie"
+
+#: build/admin.js:84
+msgid "Global"
+msgstr "Globaal"
+
+#: build/admin.js:84
+msgid "Copy setup prompt for AI client"
+msgstr "Kopieer setup prompt voor AI-client"
+
+#: build/admin.js:84
+msgid "Prompt copied! Paste it into your AI client."
+msgstr "Prompt gekopieerd! Plak het in uw AI-client."
+
+#: build/admin.js:84
+msgid "Failed to copy prompt to clipboard"
+msgstr "Kon prompt niet naar klembord kopiëren"
+
+#: build/admin.js:84
+msgid "Copy JSON config"
+msgstr "Kopieer JSON-configuratie"
+
+#: build/admin.js:84
+msgid "Copied to clipboard"
+msgstr "Gekopieerd naar klembord"
+
+#: build/admin.js:84
+msgid "Failed to copy to clipboard"
+msgstr "Kon niet naar klembord kopiëren"
+
+#: build/admin.js:84
+msgid "MCP Adapter plugin not detected"
+msgstr "MCP Adapter-plugin niet gedetecteerd"
+
+#. translators: %s: WP MCP Adapter plugin name.
+#: build/admin.js:87
+#, js-format
+msgid "To connect AI clients to your site, the %s plugin is required. Download the latest release from GitHub, upload it via Plugins > Add New > Upload Plugin, and activate."
+msgstr "Om AI-clients met uw site te verbinden, is de %s-plugin vereist. Download de nieuwste versie van GitHub, upload deze via Plugins > Nieuwe toevoegen > Plugin uploaden en activeer."
+
+#: build/admin.js:87
+msgid "Download from GitHub"
+msgstr "Download van GitHub"
+
+#: build/admin.js:2
+#: build/admin.js:87
+msgid "MCP"
+msgstr "MCP"
+
+#: build/admin.js:87
+msgid "Configure AI client access to SureCookie through the Model Context Protocol."
+msgstr "Configureer AI-clienttoegang tot SureCookie via het Model Context Protocol."
+
+#: build/admin.js:87
+msgid "Enable MCP"
+msgstr "Schakel MCP in"
+
+#: build/admin.js:87
+msgid "Allow AI clients like Claude, ChatGPT, and Cursor to manage your cookie banner, scanner, and consent settings through SureCookie. When disabled, no abilities are registered and AI clients cannot connect."
+msgstr "Sta AI-clients zoals Claude, ChatGPT en Cursor toe om uw cookiebanner, scanner en toestemmingsinstellingen via SureCookie te beheren. Wanneer uitgeschakeld, worden er geen bevoegdheden geregistreerd en kunnen AI-clients geen verbinding maken."
+
+#: build/admin.js:87
+msgid "WordPress Abilities API not available"
+msgstr "WordPress Abilities API niet beschikbaar"
+
+#: build/admin.js:87
+msgid "MCP requires the WordPress Abilities API (WordPress 6.9 or later). Update WordPress to use this feature."
+msgstr "MCP vereist de WordPress Abilities API (WordPress 6.9 of later). Werk WordPress bij om deze functie te gebruiken."
+
+#: build/admin.js:87
+msgid "Unsaved changes"
+msgstr "Niet-opgeslagen wijzigingen"
+
+#: build/admin.js:87
+msgid "The MCP endpoint becomes active only after you save your settings."
+msgstr "Het MCP-eindpunt wordt pas actief nadat je je instellingen hebt opgeslagen."
+
+#: inc/api/consent-logs.php:404
+msgid "Unable to determine the current user."
+msgstr "Kan de huidige gebruiker niet bepalen."
+
+#: inc/api/consent-logs.php:415
+msgid "Consent logs marked as viewed."
+msgstr "Toestemmingslogboeken gemarkeerd als bekeken."
+
+#: inc/api/plugin.php:214
+msgid "This plugin is network-activated and must be deactivated by a Network Administrator from Network Admin > Plugins."
+msgstr "Deze plugin is netwerk-geactiveerd en moet worden gedeactiveerd door een Netwerkbeheerder via Netwerkbeheer > Plugins."
+
+#: inc/api/plugin.php:225
+msgid "Plugin could not be deactivated."
+msgstr "Plugin kon niet worden gedeactiveerd."
+
+#: inc/modules/automatic-scanning/api.php:118
+msgid "Enable Automatic Scanning before running a scan."
+msgstr "Schakel Automatisch Scannen in voordat u een scan uitvoert."
+
+#: inc/modules/automatic-scanning/api.php:122
+msgid "A scan is already in progress."
+msgstr "Er is al een scan bezig."
+
+#: inc/modules/automatic-scanning/api.php:128
+msgid "Could not start the scan. Please try again."
+msgstr "Kon de scan niet starten. Probeer het opnieuw."
+
+#: inc/modules/automatic-scanning/api.php:131
+msgid "Scan triggered."
+msgstr "Scan gestart."
+
+#: inc/modules/automatic-scanning/runner.php:100
+msgid "Automatic scan deferred: daily page budget reached. Retrying in ~24 hours."
+msgstr "Automatische scan uitgesteld: dagelijks pagina-budget bereikt. Probeert het opnieuw over ~24 uur."
+
+#: inc/modules/automatic-scanning/runner.php:124
+msgid "Automatic scan skipped: a scan is already in progress."
+msgstr "Automatische scan overgeslagen: er is al een scan bezig."
+
+#: inc/modules/automatic-scanning/runner.php:142
+msgid "Starting automatic (scheduled) scan."
+msgstr "Automatische (geplande) scan wordt gestart."
+
+#: inc/modules/automatic-scanning/scheduler.php:85
+msgid "Once Monthly (SureCookie)"
+msgstr "Eens per maand (SureCookie)"
+
+#: inc/modules/automatic-scanning/scheduler.php:92
+msgid "Once Weekly (SureCookie)"
+msgstr "Eens per week (SureCookie)"
+
+#: inc/modules/script-blocking/blocker.php:1279
+msgid "This content is currently blocked."
+msgstr "Deze inhoud is momenteel geblokkeerd."
+
+#: inc/modules/site-scanner/saas-client.php:519
+msgid "Scan deferred by server: daily page budget reached. It will retry automatically."
+msgstr "Scan uitgesteld door server: dagelijks pagina-budget bereikt. Het zal automatisch opnieuw proberen."
+
+#: inc/modules/site-scanner/saas-client.php:524
+msgid "Daily page budget reached. The scheduled scan will retry automatically."
+msgstr "Dagelijks pagina-budget bereikt. De geplande scan zal automatisch opnieuw proberen."
+
+#: build/admin.js:2
+#: build/admin.js:79
+msgid "Manual"
+msgstr "Handmatig"
+
+#: build/admin.js:2
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: build/admin.js:2
+msgid "Reset to default"
+msgstr "Terug naar standaard"
+
+#: build/admin.js:2
+msgid "Enable Background Overlay"
+msgstr "Achtergrondoverlay inschakelen"
+
+#: build/admin.js:2
+msgid "Background Overlay"
+msgstr "Achtergrondoverlay"
+
+#: build/admin.js:2
+msgid "Dim the page behind the banner and limit interaction until the visitor accepts or declines. The overlay is removed after a choice is made."
+msgstr "Dim de pagina achter de banner en beperk interactie totdat de bezoeker accepteert of weigert. De overlay wordt verwijderd nadat een keuze is gemaakt."
+
+#: build/admin.js:2
+msgid "This layout highlights the consent banner and may affect user experience. Ensure it aligns with your regional consent requirements."
+msgstr "Deze lay-out benadrukt de toestemmingsbanner en kan de gebruikerservaring beïnvloeden. Zorg ervoor dat het aansluit bij uw regionale toestemmingsvereisten."
+
+#: build/admin.js:2
+#: build/admin.js:3
+msgid "Re-request Consent"
+msgstr "Toestemming opnieuw vragen"
+
+#. translators: %s: date/time of the last renewal.
+#: build/admin.js:3
+#, js-format
+msgid "Last Requested: %s"
+msgstr "Laatst gevraagd: %s"
+
+#: build/admin.js:3
+msgid "Ask all visitors to provide consent again. Use this after updating your cookie policy or adding new trackers. Existing consent will be marked as outdated, and the banner will reappear on the next visit."
+msgstr "Vraag alle bezoekers opnieuw om toestemming. Gebruik dit na het bijwerken van uw cookiebeleid of het toevoegen van nieuwe trackers. Bestaande toestemming wordt als verouderd gemarkeerd en de banner verschijnt opnieuw bij het volgende bezoek."
+
+#: build/admin.js:3
+msgid "Consent requested. Visitors will be asked for consent again."
+msgstr "Toestemming gevraagd. Bezoekers zullen opnieuw om toestemming worden gevraagd."
+
+#: build/admin.js:3
+msgid "Could not Re-request Consent. Please try again."
+msgstr "Kon toestemming niet opnieuw vragen. Probeer het opnieuw."
+
+#: build/admin.js:3
+msgid "Renewing…"
+msgstr "Bezig met vernieuwen…"
+
+#: build/admin.js:3
+msgid "Confirm Re-request"
+msgstr "Bevestig opnieuw vragen"
+
+#: build/admin.js:22
+#: build/onboarding.js:2
+msgid "New"
+msgstr "Nieuw"
+
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Automatic Scanning"
+msgstr "Automatisch Scannen"
+
+#: build/admin.js:43
+msgid "Manage"
+msgstr "Beheren"
+
+#: build/admin.js:43
+msgid "Since the last scan:"
+msgstr "Sinds de laatste scan:"
+
+#: build/admin.js:43
+msgid "new cookie"
+msgid_plural "new cookies"
+msgstr[0] "nieuwe cookie"
+msgstr[1] "nieuwe cookies"
+
+#: build/admin.js:43
+msgid "removed"
+msgstr "verwijderd"
+
+#: build/admin.js:43
+msgid "new tracker domain"
+msgid_plural "new tracker domains"
+msgstr[0] "nieuw tracker-domein"
+msgstr[1] "nieuwe tracker-domeinen"
+
+#: build/admin.js:43
+msgid "No scans yet. Schedule automatic scans to track changes over time."
+msgstr "Nog geen scans. Plan automatische scans om veranderingen in de loop van de tijd te volgen."
+
+#. translators: %s: next scan date
+#: build/admin.js:44
+#, js-format
+msgid "Next scan: %s"
+msgstr "Volgende scan: %s"
+
+#: build/admin.js:44
+msgid "Scheduling is off"
+msgstr "Planning is uitgeschakeld"
+
+#: build/admin.js:75
+msgid "Network-activated"
+msgstr "Netwerk-geactiveerd"
+
+#: build/admin.js:75
+msgid "Manage in Network Admin"
+msgstr "Beheren in Netwerkbeheer"
+
+#: build/admin.js:76
+msgid "Google Consent Mode is enabled, so SureCookie allows Google's Consent Mode scripts to function correctly. As a result, this script cannot be blocked."
+msgstr "Google Consent Mode is ingeschakeld, dus SureCookie laat de scripts van Google's Consent Mode correct functioneren. Hierdoor kan dit script niet worden geblokkeerd."
+
+#: build/admin.js:78
+msgid "Necessary"
+msgstr "Noodzakelijk"
+
+#: build/admin.js:78
+msgid "What Changed in the Last Scan"
+msgstr "Wat is er veranderd bij de laatste scan"
+
+#: build/admin.js:78
+msgid "Cookies and tracker domains that changed compared to the previous scan."
+msgstr "Cookies en tracker-domeinen die zijn veranderd ten opzichte van de vorige scan."
+
+#: build/admin.js:78
+msgid "No differences were detected compared to the previous scan."
+msgstr "Er zijn geen verschillen gedetecteerd ten opzichte van de vorige scan."
+
+#: build/admin.js:78
+msgid "New Cookies"
+msgstr "Nieuwe cookies"
+
+#: build/admin.js:78
+msgid "No Longer Detected"
+msgstr "Niet langer gedetecteerd"
+
+#: build/admin.js:78
+msgid "Recategorized"
+msgstr "Herschikt"
+
+#: build/admin.js:78
+msgid "New Tracker Domains"
+msgstr "Nieuwe tracker-domeinen"
+
+#: build/admin.js:78
+msgid "Third-party"
+msgstr "Derde partij"
+
+#: build/admin.js:78
+msgid "Monthly"
+msgstr "Maandelijks"
+
+#: build/admin.js:78
+msgid "Re-scan your site once a month."
+msgstr "Scan uw site opnieuw eens per maand."
+
+#: build/admin.js:78
+msgid "Weekly"
+msgstr "Wekelijks"
+
+#: build/admin.js:78
+msgid "Re-scan every week for faster drift detection."
+msgstr "Scan elke week opnieuw voor snellere detectie van veranderingen."
+
+#: build/admin.js:78
+msgid "All Published Content"
+msgstr "Alle gepubliceerde inhoud"
+
+#: build/admin.js:78
+msgid "Enable Automatic Scanning"
+msgstr "Automatisch scannen inschakelen"
+
+#: build/admin.js:78
+msgid "Run scheduled scans in the background and detect changes automatically."
+msgstr "Voer geplande scans op de achtergrond uit en detecteer automatisch veranderingen."
+
+#: build/admin.js:78
+msgid "Scan Frequency"
+msgstr "Scanfrequentie"
+
+#: build/admin.js:78
+msgid "WordPress cron is disabled"
+msgstr "WordPress cron is uitgeschakeld"
+
+#: build/admin.js:78
+msgid "Scheduled scans rely on cron. Ask your host to set up a real server cron job so automatic scans run on time."
+msgstr "Geplande scans zijn afhankelijk van cron. Vraag uw host om een echte server cron-taak in te stellen zodat automatische scans op tijd worden uitgevoerd."
+
+#: build/admin.js:78
+msgid "Last Scan"
+msgstr "Laatste scan"
+
+#. translators: %s: last scan date-time
+#: build/admin.js:79
+#, js-format
+msgid "Scanned on %s"
+msgstr "Gescannd op %s"
+
+#: build/admin.js:79
+msgid "Scheduled"
+msgstr "Gepland"
+
+#. translators: %d: number of new cookies
+#: build/admin.js:80
+#, js-format
+msgid "%d New Cookies"
+msgstr "%d nieuwe cookies"
+
+#. translators: %d: number of cookies no longer detected
+#: build/admin.js:81
+#, js-format
+msgid "%d Removed"
+msgstr "%d verwijderd"
+
+#. translators: %d: number of recategorized cookies
+#: build/admin.js:82
+#, js-format
+msgid "%d Recategorized"
+msgstr "%d herschikt"
+
+#. translators: %d: number of new tracker domains
+#: build/admin.js:83
+#, js-format
+msgid "%d New Tracker Domains"
+msgstr "%d nieuwe tracker-domeinen"
+
+#: build/admin.js:83
+msgid "View Changes"
+msgstr "Wijzigingen bekijken"
+
+#: build/admin.js:83
+msgid "No scans yet - run your first scan to start monitoring changes."
+msgstr "Nog geen scans - voer uw eerste scan uit om veranderingen te gaan monitoren."
+
+#: build/admin.js:83
+msgid "Stay Compliant Automatically"
+msgstr "Blijf automatisch compliant"
+
+#: build/admin.js:83
+msgid "Get weekly scans, instant alerts, smart classification, and automatic protection from new trackers."
+msgstr "Ontvang wekelijkse scans, directe meldingen, slimme classificatie en automatische bescherming tegen nieuwe trackers."
+
+#. translators: %d: maximum pages
+#: build/onboarding.js:11
+#, js-format
+msgid "SureCookie agent will visit them like real users to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "SureCookie-agent zal ze bezoeken als echte gebruikers om alle gebruikte cookies te detecteren. Toegestaan %d pagina's per scan vanwege resourcebeperkingen."
+
+#. translators: 1: remaining pages, 2: total daily page budget
+#: build/admin.js:70
+#, js-format
+msgid "%1$d of %2$d daily pages remaining on this site"
+msgstr "%1$d van %2$d dagelijkse pagina's resterend op deze site"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "<p>By scanning you accept our <a>terms and conditions</a>.</p>"
+msgstr "<p>Door te scannen accepteert u onze <a>algemene voorwaarden</a>.</p>"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Terms and Conditions"
+msgstr "Algemene voorwaarden"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Cookie Scanning Not Available on Local Sites"
+msgstr "Cookie-scanning niet beschikbaar op lokale sites"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "This site is running on a local or development environment that our cloud scanner cannot reach. Cookie scanning will be available once your site is live on a publicly accessible domain."
+msgstr "Deze site draait op een lokale of ontwikkelomgeving die onze cloudscanner niet kan bereiken. Cookie-scanning is beschikbaar zodra uw site live is op een publiek toegankelijke domein."
+
+#: build/onboarding.js:14
+msgid "Skip for Now"
+msgstr "Nu overslaan"
+
+#: build/onboarding.js:14
+msgid "Stay in the loop and help shape SureCookie! Get feature updates, and help us build a better SureCookie by sharing how you use the plugin. <a>Terms and Conditions</a>"
+msgstr "Blijf op de hoogte en help SureCookie vorm te geven! Ontvang functie-updates en help ons een betere SureCookie te bouwen door te delen hoe u de plugin gebruikt. <a>Algemene voorwaarden</a>"
+
+#: admin/product-promotion.php:104
+msgid "Grow traffic of your website with SureRank - a lightweight SEO toolkit plugin for WordPress users who want better rankings without the complexity."
+msgstr "Vergroot het verkeer van uw website met SureRank - een lichtgewicht SEO-toolkitplugin voor WordPress-gebruikers die betere rankings willen zonder de complexiteit."
+
+#: admin/rating-notice.php:232
+msgid "Amazing! SureCookie discovered cookies on your site - let's keep growing together!"
+msgstr "Geweldig! SureCookie heeft cookies op uw site ontdekt - laten we samen blijven groeien!"
+
+#. translators: 1: page URL, 2: error message
+#: inc/modules/site-scanner/saas-client.php:989
+#, php-format
+msgid "Page failed: %1$s - %2$s"
+msgstr "Pagina mislukt: %1$s - %2$s"
+
+#: build/admin.js:43
+msgid "WP-Cron disabled - scans won’t run automatically"
+msgstr "WP-Cron uitgeschakeld - scans worden niet automatisch uitgevoerd"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Consider Plan Upgrade"
+msgstr "Overweeg een planupgrade"
+
+#. translators: 1: pages scanned, 2: pages submitted
+#: build/admin.js:75
+#, js-format
+msgid "Scanned %1$d of %2$d pages - your daily page budget is used up. The remaining pages will scan after it resets."
+msgstr "%1$d van %2$d pagina's gescand - uw dagelijkse paginabudget is opgebruikt. De resterende pagina's worden gescand nadat het is gereset."
+
+#: build/admin.js:84
+msgid "Update the environment variables"
+msgstr "Werk de omgevingsvariabelen bij"
+
+#: build/admin.js:84
+msgid "WP_API_USERNAME"
+msgstr "WP_API_USERNAME"
+
+#: build/admin.js:84
+msgid "Your WordPress username (prefilled)."
+msgstr "Uw WordPress-gebruikersnaam (vooraf ingevuld)."
+
+#: build/admin.js:84
+msgid "WP_API_PASSWORD"
+msgstr "WP_API_PASSWORD"
+
+#: build/admin.js:84
+msgid "Replace \"your-application-password\" with the password from Step 1."
+msgstr "Vervang \"your-application-password\" door het wachtwoord uit stap 1."
+
+#: build/admin.js:84
+msgid "Verify Node.js version"
+msgstr "Controleer de Node.js-versie"
+
+#: build/admin.js:84
+msgid "In your terminal, run:"
+msgstr "Voer in uw terminal het volgende uit:"
+
+#: build/admin.js:84
+msgid "The version must be 20.1 or higher."
+msgstr "De versie moet 20.1 of hoger zijn."
+
+#: build/admin.js:84
+msgid "If it is lower, run:"
+msgstr "Als deze lager is, voer dan uit:"
+
+#: build/admin.js:84
+msgid "Restart your AI client and paste the copied prompt again into your AI client."
+msgstr "Herstart uw AI-client en plak de gekopieerde prompt opnieuw in uw AI-client."
+
+#: build/admin.js:84
+msgid "Enjoy your AI client connected to your WordPress site!"
+msgstr "Veel plezier met uw AI-client die verbonden is met uw WordPress-site!"
+
+#: admin/rating-notice.php:156
+msgid "Invalid nonce."
+msgstr "Ongeldige nonce."
+
+#: admin/rating-notice.php:158
+msgid "Unauthorized user."
+msgstr "Ongeautoriseerde gebruiker."
+
+#: admin/rating-notice.php:171
+msgid "Invalid parameters."
+msgstr "Ongeldige parameters."
+
+#: build/admin.js:47
+msgid "More scan limits, geographic targeting, re-consent widget, and more."
+msgstr "Meer scanlimieten, geografische targeting, herinstemmingswidget en meer."
+
+#: inc/integrations/presto-player/block-handler.php:293
+msgid "This audio is blocked until you accept cookies to load it."
+msgstr "Deze audio is geblokkeerd totdat u cookies accepteert om deze te laden."
+
+#: inc/integrations/presto-player/block-handler.php:297
+msgid "This video is blocked until you accept cookies to load it."
+msgstr "Deze video is geblokkeerd totdat u cookies accepteert om deze te laden."
+
+#: build/admin.js:2
+msgid "Tools"
+msgstr "Gereedschappen"
+
+#: build/admin.js:2
+msgid "You've used all available AI requests in your Free Plan. Upgrade to SureCookie premium to keep using AI features."
+msgstr "U heeft alle beschikbare AI-verzoeken in uw Gratis Plan gebruikt. Upgrade naar SureCookie premium om AI-functies te blijven gebruiken."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to access this feature."
+msgstr "Upgrade naar SureCookie premium om toegang te krijgen tot deze functie."
+
+#: build/admin.js:2
+msgid "Is this button order not showing on the frontend?"
+msgstr "Wordt deze knopvolgorde niet weergegeven op de frontend?"
+
+#: build/admin.js:2
+msgid "Visitors who match a region-specific rule will see the button order defined for that region. This global order is shown only to visitors who don't match any regional rules."
+msgstr "Bezoekers die voldoen aan een regio-specifieke regel zien de knopvolgorde die voor die regio is gedefinieerd. Deze globale volgorde wordt alleen getoond aan bezoekers die niet aan regionale regels voldoen."
+
+#: build/admin.js:2
+msgid "Manage Geo Rules"
+msgstr "Beheer Geo-regels"
+
+#: build/admin.js:2
+msgid "You can add links and basic formatting like bold/italic/link to the banner message."
+msgstr "U kunt links en basisopmaak zoals vet/cursief/link toevoegen aan het bannerbericht."
+
+#: build/admin.js:2
+msgid "Upgrade to SureCookie premium to pick custom primary, secondary, foreground, and background colors for your banner."
+msgstr "Upgrade naar SureCookie premium om aangepaste primaire, secundaire, voorgrond- en achtergrondkleuren voor uw banner te kiezen."
+
+#: build/admin.js:6
+msgid "Export Consent Logs"
+msgstr "Exporteer toestemmingslogboeken"
+
+#: build/admin.js:6
+msgid "Upgrade to premium to download CSV report for legal audits and GDPR Article 7 documentation."
+msgstr "Upgrade naar premium om CSV-rapporten te downloaden voor juridische audits en GDPR Artikel 7-documentatie."
+
+#: build/admin.js:44
+msgid "Grab the Launch Offer"
+msgstr "Pak het lanceringsaanbod"
+
+#: build/admin.js:47
+msgid "Do More with SureCookie Premium"
+msgstr "Doe meer met SureCookie Premium"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Checking your scan limits…"
+msgstr "Uw scanlimieten controleren…"
+
+#: build/admin.js:66
+#: build/onboarding.js:10
+msgid "Run your first scan to connect this site with SureCookie. Your plan's full scan limits unlock automatically once the connection is established."
+msgstr "Voer uw eerste scan uit om deze site met SureCookie te verbinden. De volledige scanlimieten van uw plan worden automatisch ontgrendeld zodra de verbinding tot stand is gebracht."
+
+#. translators: %d: maximum pages
+#: build/admin.js:67
+#, js-format
+msgid "We'll visit the selected content to detect all cookies in use. Allowed %d pages per scan due to resource constraints."
+msgstr "We bezoeken de geselecteerde inhoud om alle gebruikte cookies te detecteren. Toegestaan %d pagina's per scan vanwege resourcebeperkingen."
+
+#. translators: %d: maximum items
+#: build/admin.js:72
+#: build/onboarding.js:13
+#, js-format
+msgid "Select up to %d items to scan…"
+msgstr "Selecteer maximaal %d items om te scannen…"
+
+#: build/admin.js:72
+#: build/onboarding.js:13
+msgid "Select Content"
+msgstr "Selecteer inhoud"
+
+#: build/admin.js:73
+#: build/onboarding.js:14
+msgid "Select the content you want to scan."
+msgstr "Selecteer de inhoud die u wilt scannen."
+
+#: build/admin.js:74
+msgid "Scanning your content for cookies. This may take a few minutes."
+msgstr "Uw inhoud wordt gescand op cookies. Dit kan enkele minuten duren."
+
+#: build/admin.js:75
+msgid "Unlock Geo Rules, Advanced Scanning & more with Pro - Grab the launching offer!"
+msgstr "Ontgrendel Geo-regels, geavanceerd scannen & meer met Pro - Pak het lanceringsaanbod!"
+
+#: build/admin.js:75
+#: build/onboarding.js:6
+msgid "Claim the Deal"
+msgstr "Claim de deal"
+
+#: build/admin.js:78
+msgid "Content from Manual Scan"
+msgstr "Inhoud van handmatige scan"
+
+#: build/admin.js:78
+msgid "Reuse the content selected on the Cookie Scanner."
+msgstr "Herbruik de inhoud geselecteerd in de Cookie Scanner."
+
+#: build/admin.js:78
+msgid "Scan all published content, as per plan limit."
+msgstr "Scan alle gepubliceerde inhoud, volgens de limiet van het plan."
+
+#: build/admin.js:78
+msgid "Selected Content"
+msgstr "Geselecteerde inhoud"
+
+#: build/admin.js:78
+msgid "Choose specific content to scan below."
+msgstr "Kies hieronder specifieke inhoud om te scannen."
+
+#: build/admin.js:78
+msgid "Content to Scan"
+msgstr "Inhoud om te scannen"
+
+#: build/admin.js:78
+msgid "Select content to scan…"
+msgstr "Selecteer inhoud om te scannen…"
+
+#: build/onboarding.js:6
+msgid "Launch Offer - Save Big"
+msgstr "Lanceringsaanbod - Bespaar veel"
+
+#: build/onboarding.js:6
+msgid "Limited Time"
+msgstr "Beperkte tijd"
+
+#: build/onboarding.js:6
+msgid "Upgrade to Premium and unlock advanced scanning, geo rules, custom branding, and priority support."
+msgstr "Upgrade naar Premium en ontgrendel geavanceerd scannen, geo-regels, aangepaste branding en prioriteitsondersteuning."
+
+#: build/onboarding.js:6
+msgid "Failed to activate license. Please try again."
+msgstr "Licentie activeren mislukt. Probeer het opnieuw."
+
+#: build/onboarding.js:6
+msgid "License Activated!"
+msgstr "Licentie geactiveerd!"
+
+#: build/onboarding.js:6
+msgid "Your license has been successfully activated."
+msgstr "Uw licentie is succesvol geactiveerd."
+
+#: build/onboarding.js:6
+msgid "Activation Failed"
+msgstr "Activering mislukt"
+
+#: build/onboarding.js:6
+msgid "An error occurred during activation. Please try again."
+msgstr "Er is een fout opgetreden tijdens de activering. Probeer het opnieuw."
+
+#: build/onboarding.js:6
+msgid "Invalid License Key"
+msgstr "Ongeldige licentiesleutel"
+
+#: build/onboarding.js:6
+msgid "Please enter a valid license key."
+msgstr "Voer een geldige licentiesleutel in."
+
+#: build/onboarding.js:6
+msgid "Activate Your License"
+msgstr "Activeer uw licentie"
+
+#: build/onboarding.js:6
+msgid "Activate your SureCookie license to unlock higher scan limits, automatically classify cookies, and get smart compliance recommendations."
+msgstr "Activeer uw SureCookie-licentie om hogere scanlimieten te ontgrendelen, cookies automatisch te classificeren en slimme nalevingsaanbevelingen te krijgen."
+
+#: build/onboarding.js:6
+msgid "License activated"
+msgstr "Licentie geactiveerd"
+
+#: build/onboarding.js:6
+msgid "Activating…"
+msgstr "Bezig met activeren…"
+
+#: build/admin.js:63
+#: build/onboarding.js:6
+#: build/onboarding.js:7
+msgid "Activate License"
+msgstr "Licentie activeren"
+
+#: build/onboarding.js:6
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+#: build/onboarding.js:6
+msgid "Paste your license key here"
+msgstr "Plak hier uw licentiesleutel"
+
+#. translators: %s: Package name (e.g., SureCookie Pro)
+#: build/onboarding.js:7
+#, js-format
+msgid "Activate your <strong>%s</strong> license to receive professional support and automatic updates directly from your WordPress dashboard. Don't have a license? <a>Get it here »</a>"
+msgstr "Activeer uw <strong>%s</strong>-licentie om professionele ondersteuning en automatische updates rechtstreeks vanuit uw WordPress-dashboard te ontvangen. Heeft u geen licentie? <a>Hier verkrijgen »</a>"
+
+#: build/onboarding.js:7
+msgid "Purchase a SureCookie license"
+msgstr "Koop een SureCookie-licentie"
+
+#: build/admin.js:2
+msgid "View Plans"
+msgstr "Bekijk plannen"
+
+#: build/admin.js:4
+msgid "CONSENT RECORD"
+msgstr "TOESTEMMINGSREGISTRATIE"
+
+#: build/admin.js:4
+msgid "This document contains a record of the consent choice stored by SureCookie. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Dit document bevat een registratie van de opgeslagen toestemmingskeuze door SureCookie. Het kan worden gebruikt voor interne documentatie en beoordeling. Wettelijke vereisten kunnen variëren."
+
+#: build/admin.js:4
+msgid "This document is automatically generated by the SureCookie plugin and contains a record of the consent choice stored at the time of export. It may be used for internal documentation and review. Legal requirements may vary."
+msgstr "Dit document wordt automatisch gegenereerd door de SureCookie-plugin en bevat een registratie van de toestemmingskeuze die is opgeslagen op het moment van export. Het kan worden gebruikt voor interne documentatie en beoordeling. Wettelijke vereisten kunnen variëren."
+
+#: build/admin.js:43
+msgid "Enter your custom CSS here"
+msgstr "Voer hier uw aangepaste CSS in"
+
+#: build/admin.js:43
+msgid "Use !important to override inline styles"
+msgstr "Gebruik !important om inline stijlen te overschrijven"
+
+#: build/admin.js:43
+msgid "Your cookie banner is enabled."
+msgstr "Uw cookiebanner is ingeschakeld."
+
+#: build/admin.js:43
+msgid "Your cookie banner is currently disabled."
+msgstr "Uw cookiebanner is momenteel uitgeschakeld."
+
+#: build/admin.js:2
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Activate SureCookie Pro"
+msgstr "Activeer SureCookie Pro"
+
+#. translators: %d: maximum pages
+#: build/admin.js:64
+#: build/onboarding.js:8
+#, js-format
+msgid "Your first scan can cover up to %d pages while we connect your site. Remove the extra pages to start - Your plan's full limits unlock automatically afterward."
+msgstr "Uw eerste scan kan tot %d pagina's omvatten terwijl we uw site verbinden. Verwijder de extra pagina's om te starten - de volledige limieten van uw plan worden daarna automatisch ontgrendeld."
+
+#. translators: %d: maximum pages
+#: build/admin.js:66
+#: build/onboarding.js:10
+#, js-format
+msgid "The free plan supports scanning up to %d pages. Upgrade now to scan more pages and keep your cookie list updated automatically."
+msgstr "Het gratis plan ondersteunt het scannen van maximaal %d pagina's. Upgrade nu om meer pagina's te scannen en uw cookielijst automatisch bijgewerkt te houden."
+
+#. translators: %s: SureCookie plan tier, e.g. "Business"
+#: build/admin.js:76
+#, js-format
+msgid "%s version"
+msgstr "%s versie"
+
+#: build/onboarding.js:6
+msgid "Let's help you discover cookies, configure consent choices, and improve how your website handles visitor privacy. SureCookie automatically detects and categorizes cookies so you can stay focused on growing your business."
+msgstr "Laten we u helpen cookies te ontdekken, toestemmingskeuzes te configureren en te verbeteren hoe uw website omgaat met de privacy van bezoekers. SureCookie detecteert en categoriseert cookies automatisch zodat u zich kunt blijven richten op het laten groeien van uw bedrijf."
+
+#: build/onboarding.js:14
+msgid "Keep consent records locally on the site and export individual records when needed"
+msgstr "Bewaar toestemmingsregistraties lokaal op de site en exporteer individuele registraties wanneer nodig"
+
+#: admin/menu.php:78
+#: build/admin.js:2
+msgid "Tracking Manager"
+msgstr "Trackingbeheerder"
+
+#: admin/product-promotion.php:116
+msgid "WordPress emails often go missing or land in spam because web hosts aren't built for reliable delivery. SureMail fixes this by connecting to trusted SMTP services, so your emails reach inboxes, no more lost messages or frustrated customers."
+msgstr "WordPress-e-mails verdwijnen vaak of belanden in de spam omdat webhosts niet zijn ontworpen voor betrouwbare levering. SureMail lost dit op door verbinding te maken met vertrouwde SMTP-diensten, zodat je e-mails de inbox bereiken, geen verloren berichten meer of gefrustreerde klanten."
+
+#: admin/product-promotion.php:122
+msgid "Spectra Blocks is a complete rebuild of Spectra on WordPress's modern core-block APIs - an AI website builder built directly into the Block Editor."
+msgstr "Spectra Blocks is een volledige herbouw van Spectra op de moderne core-block API's van WordPress - een AI-websitebouwer die direct in de Block Editor is ingebouwd."
+
+#: inc/api/cookies.php:395
+msgid "Failed to update cookie categories: "
+msgstr "Kon cookiecategorieën niet bijwerken:"
+
+#. translators: %s: Provider name (e.g., YouTube, Vimeo)
+#. translators: %s: Service name (e.g., YouTube, Google Maps)
+#: inc/integrations/presto-player/block-handler.php:236
+#: inc/modules/script-blocking/blocker.php:1294
+#, php-format
+msgid "Accept and load %s content"
+msgstr "Accepteer en laad %s-inhoud"
+
+#: inc/modules/assisted-scan/api.php:122
+msgid "An assisted scan is already running. Cancel it before starting another."
+msgstr "Een begeleide scan is al bezig. Annuleer deze voordat je een nieuwe start."
+
+#: inc/modules/assisted-scan/api.php:144
+#: inc/modules/assisted-scan/api.php:155
+msgid "Select at least one published page to scan."
+msgstr "Selecteer ten minste één gepubliceerde pagina om te scannen."
+
+#: inc/modules/assisted-scan/api.php:163
+msgid "Starting assisted scan (collected from your browser)."
+msgstr "Begeleide scan starten (verzameld vanuit je browser)."
+
+#. translators: %d: number of pages.
+#: inc/modules/assisted-scan/api.php:167
+#, php-format
+msgid "Pages to visit: %d."
+msgstr "Te bezoeken pagina's: %d."
+
+#: inc/modules/assisted-scan/api.php:197
+#: inc/modules/assisted-scan/api.php:253
+msgid "This scan session has expired. Start the scan again."
+msgstr "Deze scansessie is verlopen. Start de scan opnieuw."
+
+#: inc/modules/assisted-scan/api.php:210
+msgid "The scan sent more data than a single page should produce."
+msgstr "De scan heeft meer gegevens verzonden dan een enkele pagina zou moeten produceren."
+
+#: inc/modules/assisted-scan/api.php:222
+msgid "That page is not the one this scan was waiting for."
+msgstr "Die pagina is niet degene waar deze scan op wachtte."
+
+#: inc/modules/assisted-scan/api.php:275
+#: inc/modules/assisted-scan/api.php:277
+msgid "Assisted scan cancelled."
+msgstr "Begeleide scan geannuleerd."
+
+#. translators: 1: current page number, 2: total pages.
+#: inc/modules/assisted-scan/collector.php:322
+#, php-format
+msgid "SureCookie is scanning page %1$d of %2$d"
+msgstr "SureCookie scant pagina %1$d van %2$d"
+
+#: inc/modules/assisted-scan/collector.php:323
+msgid "Keep this tab in front so the scan can continue."
+msgstr "Houd dit tabblad vooraan zodat de scan kan doorgaan."
+
+#: inc/modules/assisted-scan/collector.php:324
+msgid "Paused. Bring this tab to the front to continue."
+msgstr "Gepauzeerd. Breng dit tabblad naar voren om door te gaan."
+
+#: inc/modules/assisted-scan/collector.php:325
+msgid "Preparing a clean visit…"
+msgstr "Een schone bezoek voorbereiden…"
+
+#. translators: 1: number of cookies, 2: number of services.
+#: inc/modules/assisted-scan/collector.php:327
+#, php-format
+msgid "Scan complete: %1$d cookies, %2$d services found"
+msgstr "Scan voltooid: %1$d cookies, %2$d services gevonden"
+
+#: inc/modules/assisted-scan/collector.php:328
+msgid "The scan could not be completed. Return to SureCookie to try again."
+msgstr "De scan kon niet worden voltooid. Ga terug naar SureCookie om het opnieuw te proberen."
+
+#: inc/modules/assisted-scan/collector.php:330
+msgid "SureCookie assisted scan progress"
+msgstr "Vooruitgang begeleide scan SureCookie"
+
+#. translators: 1: page number, 2: cookie count, 3: resource count.
+#: inc/modules/assisted-scan/ingest.php:119
+#, php-format
+msgid "Page %1$d collected: %2$d cookies, %3$d third-party resources."
+msgstr "Pagina %1$d verzameld: %2$d cookies, %3$d bronnen van derden."
+
+#. translators: 1: page number, 2: error reason.
+#: inc/modules/assisted-scan/ingest.php:129
+#, php-format
+msgid "Page %1$d could not be collected (%2$s)."
+msgstr "Pagina %1$d kon niet worden verzameld (%2$s)."
+
+#. translators: 1: cookie count, 2: service count.
+#: inc/modules/assisted-scan/ingest.php:222
+#, php-format
+msgid "Assisted scan finished: %1$d cookies, %2$d known services."
+msgstr "Begeleide scan voltooid: %1$d cookies, %2$d bekende services."
+
+#. translators: %s: comma-separated service names.
+#: inc/modules/assisted-scan/ingest.php:232
+#, php-format
+msgid "A first-party check also found: %s. Your browser may have blocked these."
+msgstr "Een first-party controle vond ook: %s. Je browser heeft deze mogelijk geblokkeerd."
+
+#: inc/modules/assisted-scan/session.php:466
+msgid "Assisted scan in progress..."
+msgstr "Begeleide scan bezig..."
+
+#: inc/modules/assisted-scan/session.php:576
+msgid "Assisted scan finished."
+msgstr "Begeleide scan voltooid."
+
+#: inc/modules/services/api.php:142
+msgid "Unknown service."
+msgstr "Onbekende service."
+
+#: inc/modules/services/api.php:153
+msgid "This is a Pro service. Upgrade to add it."
+msgstr "Dit is een Pro-service. Upgrade om deze toe te voegen."
+
+#: inc/modules/site-scanner/cron.php:210
+msgid "Assisted scan cancelled by user."
+msgstr "Begeleide scan geannuleerd door gebruiker."
+
+#: inc/modules/site-scanner/saas-client.php:1653
+msgid "We could not verify your domain because your site's SSL certificate could not be validated (it may be self-signed, expired, or issued for a different domain). Install a valid certificate (for example Let's Encrypt), or scan your live domain that already has one, then retry."
+msgstr "We konden je domein niet verifiëren omdat het SSL-certificaat van je site niet kon worden gevalideerd (het kan zelfondertekend, verlopen of voor een ander domein uitgegeven zijn). Installeer een geldig certificaat (bijvoorbeeld Let's Encrypt), of scan je live domein dat er al een heeft, en probeer het opnieuw."
+
+#: inc/modules/site-scanner/saas-client.php:1655
+msgid "We could not verify your domain because your host is blocking our verification request to /wp-json/. This is common on SiteGround. Allowlist our scanner IPs/User-Agent (or ask your host to) and retry - or add your services manually in the meantime."
+msgstr "We konden je domein niet verifiëren omdat je host ons verificatieverzoek naar /wp-json/ blokkeert. Dit komt vaak voor bij SiteGround. Zet onze scanner IP's/User-Agent op de whitelist (of vraag je host dit te doen) en probeer het opnieuw - of voeg je services voorlopig handmatig toe."
+
+#: inc/modules/site-scanner/saas-client.php:1657
+msgid "We could not reach your site's REST API at /wp-json/. Enable pretty permalinks and make sure no security plugin is disabling the REST API, then retry."
+msgstr "We konden de REST API van uw site op /wp-json/ niet bereiken. Schakel mooie permalinks in en zorg ervoor dat geen beveiligingsplugin de REST API uitschakelt, probeer het daarna opnieuw."
+
+#: inc/services/cookie-category-service.php:247
+msgid "Cookies cannot be moved to the category being deleted."
+msgstr "Cookies kunnen niet worden verplaatst naar de categorie die wordt verwijderd."
+
+#: inc/services/cookie-category-service.php:254
+#: inc/services/cookie-service.php:440
+msgid "The selected category no longer exists. Please reload and try again."
+msgstr "De geselecteerde categorie bestaat niet meer. Herlaad en probeer het opnieuw."
+
+#: inc/services/cookie-service.php:421
+msgid "No cookies selected."
+msgstr "Geen cookies geselecteerd."
+
+#. translators: %d: maximum number of cookies per request.
+#: inc/services/cookie-service.php:430
+#, php-format
+msgid "Too many cookies in one request. Please select up to %d."
+msgstr "Te veel cookies in één verzoek. Selecteer maximaal %d."
+
+#. translators: %d: number of cookies updated.
+#: inc/services/cookie-service.php:547
+#, php-format
+msgid "%d cookie moved to the selected category."
+msgid_plural "%d cookies moved to the selected category."
+msgstr[0] "%d cookie is verplaatst naar de geselecteerde categorie."
+msgstr[1] ""
+
+#: inc/services/cookie-service.php:555
+msgid "No cookies could be updated."
+msgstr "Er konden geen cookies worden bijgewerkt."
+
+#: build/admin.js:2
+msgid "Scanning"
+msgstr "Scannen"
+
+#: build/admin.js:2
+#: build/admin.js:41
+msgid "Known Services"
+msgstr "Bekende diensten"
+
+#: build/admin.js:2
+#: build/admin.js:77
+msgid "Scripts and Embeds"
+msgstr "Scripts en insluitingen"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Geographic Rules"
+msgstr "Geografische regels"
+
+#: build/admin.js:2
+#: build/admin.js:84
+msgid "Consent Sharing"
+msgstr "Toestemmingsdeling"
+
+#: build/admin.js:2
+msgid "Add License"
+msgstr "Licentie toevoegen"
+
+#. translators: %s: cookie name.
+#: build/admin.js:22
+#: build/onboarding.js:2
+#, js-format
+msgid "Select %s"
+msgstr "Selecteer %s"
+
+#. translators: %s: cookie name.
+#: build/admin.js:23
+#: build/onboarding.js:3
+#, js-format
+msgid "Category for %s"
+msgstr "Categorie voor %s"
+
+#: build/admin.js:23
+#: build/onboarding.js:3
+msgid "Select category"
+msgstr "Selecteer categorie"
+
+#. translators: 1: action label, 2: cookie name.
+#: build/admin.js:24
+#: build/onboarding.js:4
+#, js-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#. translators: %d: number of selected cookies.
+#: build/admin.js:25
+#, js-format
+msgid "%d selected"
+msgstr "%d geselecteerd"
+
+#: build/admin.js:25
+msgid "Bulk category"
+msgstr "Bulkcategorie"
+
+#: build/admin.js:25
+msgid "Move to category…"
+msgstr "Verplaatsen naar categorie…"
+
+#: build/admin.js:25
+msgid "Applying…"
+msgstr "Bezig met toepassen…"
+
+#: build/admin.js:25
+msgid "Apply"
+msgstr "Toepassen"
+
+#: build/admin.js:25
+msgid "Clear selection"
+msgstr "Selectie wissen"
+
+#: build/admin.js:25
+msgid "Select all cookies"
+msgstr "Selecteer alle cookies"
+
+#: build/admin.js:28
+msgid "Assigned cookies will be moved to another category instead of being deleted."
+msgstr "Toegewezen cookies worden naar een andere categorie verplaatst in plaats van verwijderd."
+
+#: build/admin.js:28
+msgid "Move Cookies To"
+msgstr "Cookies verplaatsen naar"
+
+#: build/admin.js:28
+msgid "Search services…"
+msgstr "Diensten zoeken…"
+
+#: build/admin.js:28
+msgid "Search services"
+msgstr "Diensten zoeken"
+
+#: build/admin.js:28
+#: build/admin.js:37
+msgid "All Categories"
+msgstr "Alle categorieën"
+
+#. translators: %d: number of cookies
+#: build/admin.js:29
+#, js-format
+msgid "%d cookie"
+msgid_plural "%d cookies"
+msgstr[0] "%d cookie"
+msgstr[1] ""
+
+#. translators: %d: number of iframes
+#: build/admin.js:30
+#, js-format
+msgid "%d iframe"
+msgid_plural "%d iframes"
+msgstr[0] "%d iframe"
+msgstr[1] ""
+
+#. translators: %d: number of scripts
+#: build/admin.js:31
+#, js-format
+msgid "%d script"
+msgid_plural "%d scripts"
+msgstr[0] "%d script"
+msgstr[1] ""
+
+#: build/admin.js:31
+msgid "Added"
+msgstr "Toegevoegd"
+
+#: build/admin.js:31
+msgid "Detected"
+msgstr "Gedetecteerd"
+
+#: build/admin.js:31
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: build/admin.js:31
+msgid "Add Service"
+msgstr "Dienst toevoegen"
+
+#: build/admin.js:31
+msgid "No services match your search."
+msgstr "Geen diensten komen overeen met uw zoekopdracht."
+
+#: build/admin.js:31
+msgid "Loads before consent"
+msgstr "Laden vóór toestemming"
+
+#. translators: %s: service name (e.g. Stripe)
+#: build/admin.js:32
+#, js-format
+msgid "%s is a necessary service, so it loads before consent - its cookies can be set without consent."
+msgstr "%s is een noodzakelijke dienst, dus deze wordt geladen vóór toestemming - de cookies kunnen zonder toestemming worden geplaatst."
+
+#: build/admin.js:32
+msgid "Blocked When \"Block Scripts until Consent\" Is On"
+msgstr "Geblokkeerd wanneer \"Scripts blokkeren tot toestemming\" is ingeschakeld"
+
+#. translators: %1$s: service name; %2$s: consent category name
+#: build/admin.js:33
+#, js-format
+msgid "When blocking is on, %1$s is blocked until visitors accept “%2$s”, so a scan never sees these cookies. Declaring them here keeps your cookie policy complete."
+msgstr "Wanneer blokkering is ingeschakeld, wordt %1$s geblokkeerd totdat bezoekers “%2$s” accepteren, dus een scan ziet deze cookies nooit. Door ze hier te declareren blijft uw cookiebeleid compleet."
+
+#. translators: %d: number of cookies
+#: build/admin.js:34
+#, js-format
+msgid "%d cookie added to your cookie policy"
+msgid_plural "%d cookies added to your cookie policy"
+msgstr[0] "%d cookie toegevoegd aan uw cookiebeleid"
+msgstr[1] ""
+
+#. translators: %d: number of iframes
+#: build/admin.js:35
+#, js-format
+msgid "%d embed blocked before consent"
+msgid_plural "%d embeds blocked before consent"
+msgstr[0] "%d insluiting geblokkeerd vóór toestemming"
+msgstr[1] ""
+
+#. translators: %d: number of scripts
+#: build/admin.js:36
+#, js-format
+msgid "%d script blocked before consent"
+msgid_plural "%d scripts blocked before consent"
+msgstr[0] "%d script geblokkeerd vóór toestemming"
+msgstr[1] ""
+
+#: build/admin.js:36
+msgid "No categories available"
+msgstr "Geen categorieën beschikbaar"
+
+#: build/admin.js:36
+msgid "Create a cookie category first - new cookies land in Uncategorized until then."
+msgstr "Maak eerst een cookiecategorie aan - nieuwe cookies komen tot die tijd in Uncategorized terecht."
+
+#. translators: %d: number of days
+#: build/admin.js:37
+#, js-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d dag"
+msgstr[1] ""
+
+#: build/admin.js:37
+msgid "Session"
+msgstr "Sessie"
+
+#: build/admin.js:37
+msgid "Failed to add service"
+msgstr "Dienst toevoegen mislukt"
+
+#: build/admin.js:37
+msgid "Failed to remove service"
+msgstr "Dienst verwijderen mislukt"
+
+#: build/admin.js:37
+msgid "Service removed"
+msgstr "Dienst verwijderd"
+
+#. translators: %s: service name (e.g. YouTube)
+#: build/admin.js:38
+#, js-format
+msgid "Added %s"
+msgstr "Toegevoegd %s"
+
+#. translators: %d: number of cookies declared
+#: build/admin.js:39
+#, js-format
+msgid "%d cookie was added to your cookie policy."
+msgid_plural "%d cookies were added to your cookie policy."
+msgstr[0] "%d cookie is toegevoegd aan uw cookiebeleid."
+msgstr[1] ""
+
+#: build/admin.js:39
+msgid "This service is now managed. It stays blocked before consent."
+msgstr "Deze dienst wordt nu beheerd. Hij blijft geblokkeerd vóór toestemming."
+
+#. translators: %s: service name
+#: build/admin.js:40
+#: build/admin.js:41
+#, js-format
+msgid "Add %s"
+msgstr "Toevoegen %s"
+
+#: build/admin.js:40
+#: build/admin.js:43
+#: build/admin.js:78
+msgid "Add from a Known Service"
+msgstr "Toevoegen vanuit een bekende dienst"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Review what this adds to your cookie policy, then confirm."
+msgstr "Bekijk wat dit toevoegt aan uw cookiebeleid en bevestig daarna."
+
+#: build/admin.js:40
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can't detect before consent - ensuring your cookie policy stays complete."
+msgstr "Voeg snel populaire diensten toe zoals YouTube of Google Analytics met één klik. Perfect voor scripts die scanners niet kunnen detecteren vóór toestemming - zo blijft uw cookiebeleid compleet."
+
+#: build/admin.js:40
+msgid "Could not load the services catalog. Please try again."
+msgstr "Kon de dienstencatalogus niet laden. Probeer het opnieuw."
+
+#: build/admin.js:40
+msgid "This is a Pro service"
+msgstr "Dit is een Pro-dienst"
+
+#: build/admin.js:40
+msgid "Upgrade to add this service and declare its cookies in one click."
+msgstr "Upgrade om deze dienst toe te voegen en de cookies met één klik te declareren."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Unlock Every Tracking Service"
+msgstr "Ontgrendel elke trackingdienst"
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Free covers the most common services. Upgrade to add any service in the catalog in one click."
+msgstr "Gratis dekt de meest voorkomende diensten. Upgrade om met één klik elke dienst uit de catalogus toe te voegen."
+
+#: build/admin.js:40
+#: build/admin.js:41
+msgid "Confirm Add"
+msgstr "Bevestig Toevoegen"
+
+#: build/admin.js:41
+msgid "Quickly add popular services like YouTube or Google Analytics in one click. Perfect for scripts that scanners can’t detect before consent - ensuring your cookie policy stays complete."
+msgstr "Voeg snel populaire diensten toe zoals YouTube of Google Analytics met één klik. Perfect voor scripts die scanners niet kunnen detecteren vóór toestemming - zodat je cookiebeleid compleet blijft."
+
+#: build/admin.js:41
+msgid "Failed to load services"
+msgstr "Diensten laden mislukt"
+
+#: build/admin.js:41
+msgid "An error occurred while loading services. Please refresh the page to try again."
+msgstr "Er is een fout opgetreden bij het laden van diensten. Vernieuw de pagina om het opnieuw te proberen."
+
+#: build/admin.js:41
+msgid "Installed Services"
+msgstr "Geïnstalleerde Diensten"
+
+#: build/admin.js:41
+msgid "Available Services"
+msgstr "Beschikbare Diensten"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Failed to update cookie categories"
+msgstr "Bijwerken van cookiecategorieën mislukt"
+
+#: build/admin.js:41
+#: build/admin.js:42
+msgid "Cookie categories updated"
+msgstr "Cookiecategorieën bijgewerkt"
+
+#. translators: %d: number of cookies that could not be updated.
+#: build/admin.js:42
+#, js-format
+msgid "%d cookie(s) could not be updated. Reload and try again."
+msgstr "%d cookie(s) konden niet worden bijgewerkt. Herlaad en probeer het opnieuw."
+
+#: build/admin.js:42
+msgid "Change Cookie Categories Carefully"
+msgstr "Wijzig Cookiecategorieën Zorgvuldig"
+
+#: build/admin.js:42
+msgid "A cookie's category determines how it behaves when users decline consent. Cookies marked as Essential always remain active. Moving a cookie out of Essential may cause it to be blocked or deleted, which can break features like login or checkout. Similarly, assigning tracking cookies to Essential may conflict with privacy regulations. Your choice is remembered, so a later scan will not move the cookie back."
+msgstr "De categorie van een cookie bepaalt hoe deze zich gedraagt wanneer gebruikers geen toestemming geven. Cookies gemarkeerd als Essentieel blijven altijd actief. Het verplaatsen van een cookie uit Essentieel kan ertoe leiden dat deze wordt geblokkeerd of verwijderd, wat functies zoals inloggen of afrekenen kan breken. Evenzo kan het toewijzen van trackingcookies aan Essentieel in strijd zijn met privacyregels. Je keuze wordt onthouden, dus een latere scan zal de cookie niet terugplaatsen."
+
+#. translators: %s: service name (e.g. Google Analytics)
+#: build/admin.js:43
+#, js-format
+msgid "Looks like %s"
+msgstr "Het lijkt erop dat %s"
+
+#: build/admin.js:43
+msgid "We spotted cookies from this service. Add it to declare its cookies in one step."
+msgstr "We hebben cookies van deze dienst gevonden. Voeg deze toe om de cookies in één stap te verklaren."
+
+#: build/admin.js:43
+#: build/admin.js:76
+msgid "Add as Service"
+msgstr "Toevoegen als Dienst"
+
+#: build/admin.js:43
+msgid "Dismiss"
+msgstr "Sluiten"
+
+#: build/admin.js:50
+msgid "Welcome to SureCookie!"
+msgstr "Welkom bij SureCookie!"
+
+#: build/admin.js:50
+msgid "Get your site compliant in minutes - show a cookie banner, block trackers before consent, and automatically detect cookies used on your site."
+msgstr "Maak je site binnen enkele minuten compliant - toon een cookiebanner, blokkeer trackers vóór toestemming, en detecteer automatisch cookies die op je site worden gebruikt."
+
+#: build/admin.js:50
+msgid "Set Up Cookie Banner"
+msgstr "Cookiebanner Instellen"
+
+#: build/admin.js:50
+msgid "Scan My Site"
+msgstr "Scan Mijn Site"
+
+#: build/admin.js:50
+msgid "Start with the banner, then scan your site to detect cookies."
+msgstr "Begin met de banner, scan daarna je site om cookies te detecteren."
+
+#: build/admin.js:50
+msgid "SureForms Video Thumbnail"
+msgstr "SureForms Video Miniatuur"
+
+#: build/admin.js:50
+msgid "SureForms: Custom WordPress Forms MADE SIMPLE"
+msgstr "SureForms: Aangepaste WordPress-formulieren GEMAKKELIJK GEMAAKT"
+
+#: build/admin.js:59
+msgid "Possible causes: Scan server under heavy load, your site is unreachable from our scanner, your site has CRON issues, or a page caused a browser timeout."
+msgstr "Mogelijke oorzaken: Scanserver onder zware belasting, je site is niet bereikbaar vanaf onze scanner, je site heeft CRON-problemen, of een pagina veroorzaakte een browser-timeout."
+
+#: build/admin.js:59
+msgid "Some pages could not be analyzed"
+msgstr "Sommige pagina's konden niet worden geanalyseerd"
+
+#. translators: 1: scanned pages, 2: total pages, 3: failed pages
+#: build/admin.js:60
+#, js-format
+msgid "Scanned %1$d of %2$d pages - %3$d could not be analyzed. The cookies we did find are saved, and results add up across scans, so you can re-run the scan to pick up the rest."
+msgstr "%1$d van de %2$d pagina's gescand - %3$d konden niet worden geanalyseerd. De cookies die we vonden zijn opgeslagen, en de resultaten worden bij elkaar opgeteld over scans, zodat je de scan opnieuw kunt uitvoeren om de rest te detecteren."
+
+#: build/admin.js:60
+msgid "Once the scan is complete, the cookies it found appear under <a>Cookies</a>, and the scripts and embeds under <b>Scripts and Embeds</b>."
+msgstr "Zodra de scan is voltooid, verschijnen de gevonden cookies onder <a>Cookies</a>, en de scripts en embeds onder <b>Scripts en Embeds</b>."
+
+#: build/admin.js:60
+msgid "Keep the scan tab in front until it finishes: browsers slow down background tabs."
+msgstr "Houd het scan-tabblad vooraan totdat het klaar is: browsers vertragen achtergrondtabbladen."
+
+#: build/admin.js:60
+msgid "Pages already collected are saved, so closing the tab early keeps what it found."
+msgstr "Pagina's die al zijn verzameld worden opgeslagen, dus het vroegtijdig sluiten van het tabblad behoudt wat er is gevonden."
+
+#: build/admin.js:60
+msgid "An ad blocker or privacy extension in this browser can hide trackers from the scan."
+msgstr "Een advertentieblokker of privacy-extensie in deze browser kan trackers voor de scan verbergen."
+
+#: build/admin.js:60
+msgid "If remote scanning fails, try Assisted Scanner method: <button></button>"
+msgstr "Als externe scanning mislukt, probeer dan de Assisted Scanner-methode: <button></button>"
+
+#: build/admin.js:60
+msgid "Switch to Default Scanner"
+msgstr "Overschakelen naar Standaard Scanner"
+
+#: build/admin.js:60
+msgid "Switch to Assisted Scanner"
+msgstr "Overschakelen naar Assisted Scanner"
+
+#: build/admin.js:60
+msgid "Scan From This Browser"
+msgstr "Scannen vanuit deze browser"
+
+#: build/admin.js:60
+msgid "Your host blocked the scanner"
+msgstr "Je host heeft de scanner geblokkeerd"
+
+#: build/admin.js:60
+msgid "Your site's firewall or bot protection served our scanner a security challenge instead of your page, so the scan completed without results. This does not affect your visitors, only automated scanners. Allowlist the SureCookie scanner (or ask your host to) and run the scan again."
+msgstr "De firewall of botbescherming van je site gaf onze scanner een beveiligingsuitdaging in plaats van je pagina, waardoor de scan zonder resultaten werd voltooid. Dit heeft geen invloed op je bezoekers, alleen op geautomatiseerde scanners. Zet de SureCookie-scanner op de witte lijst (of vraag je host dit te doen) en voer de scan opnieuw uit."
+
+#: build/admin.js:60
+msgid "Services we still detected on your site (via a first-party check):"
+msgstr "Diensten die we nog steeds op je site detecteerden (via een first-party controle):"
+
+#: build/admin.js:60
+msgid "How to allowlist the scanner"
+msgstr "Hoe je de scanner op de witte lijst zet"
+
+#: build/admin.js:60
+msgid "No cookies found in this browser scan"
+msgstr "Geen cookies gevonden in deze browserscan"
+
+#: build/admin.js:60
+msgid "We found services on your pages that your browser did not load, which usually means an ad blocker or privacy extension is active. Try again in a browser with extensions disabled, or add the cookies manually."
+msgstr "We vonden diensten op je pagina's die je browser niet heeft geladen, wat meestal betekent dat een advertentieblokker of privacy-extensie actief is. Probeer het opnieuw in een browser zonder extensies, of voeg de cookies handmatig toe."
+
+#: build/admin.js:60
+msgid "The scan visited your pages but no cookies were set. Some services only set cookies after a visitor accepts the banner, so they may not appear. You can also add cookies manually."
+msgstr "De scan bezocht je pagina's maar er werden geen cookies geplaatst. Sommige diensten plaatsen alleen cookies nadat een bezoeker de banner accepteert, dus ze kunnen mogelijk niet verschijnen. Je kunt ook cookies handmatig toevoegen."
+
+#: build/admin.js:60
+msgid "No cookies found in this scan"
+msgstr "Geen cookies gevonden in deze scan"
+
+#: build/admin.js:60
+msgid "The scanner reached your site but did not detect any cookies. Some services only set cookies after a visitor accepts the banner, so they may not appear in a scan. You can also add cookies manually."
+msgstr "De scanner heeft je site bereikt maar geen cookies gedetecteerd. Sommige diensten plaatsen alleen cookies nadat een bezoeker de banner accepteert, dus ze kunnen mogelijk niet verschijnen in een scan. Je kunt ook cookies handmatig toevoegen."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser (Best for this site)"
+msgstr "Scannen vanuit je browser (Beste voor deze site)"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Scan from Your Browser"
+msgstr "Scannen vanuit je browser"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Our scanner couldn't fully access your site due to server restrictions. This method runs the scan directly in your browser, ensuring accurate detection without being blocked."
+msgstr "Onze scanner kon niet volledig toegang krijgen tot je site vanwege serverbeperkingen. Deze methode voert de scan direct in je browser uit, wat zorgt voor een nauwkeurige detectie zonder blokkades."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Run the scan directly in your browser. This helps detect cookies, scripts, and embeds even when external scanners are blocked."
+msgstr "Voer de scan direct in je browser uit. Dit helpt bij het detecteren van cookies, scripts en embeds, zelfs wanneer externe scanners worden geblokkeerd."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Detects cookies, scripts, and embeds as your visitors would see them."
+msgstr "Detecteert cookies, scripts en embeds zoals je bezoekers ze zouden zien."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Works even when hosting or firewall blocks external scans."
+msgstr "Werkt zelfs wanneer hosting of firewall externe scans blokkeert."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Results appear automatically in your Tracking Manager."
+msgstr "Resultaten verschijnen automatisch in je Tracking Manager."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Some advanced detections may still require a remote scan when available."
+msgstr "Sommige geavanceerde detecties kunnen nog steeds een externe scan vereisen wanneer beschikbaar."
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "How this works"
+msgstr "Hoe dit werkt"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "Before You Start"
+msgstr "Voordat je begint"
+
+#: build/admin.js:60
+#: build/onboarding.js:4
+msgid "To measure cookie duration accurately, this scan temporarily clears cookies for your site in this browser (including your consent choice). Your WordPress login session is preserved, so you'll remain signed in."
+msgstr "Om de duur van cookies nauwkeurig te meten, wist deze scan tijdelijk cookies voor je site in deze browser (inclusief je toestemmingskeuze). Je WordPress-inlogsessie blijft behouden, zodat je ingelogd blijft."
+
+#. translators: %d: maximum pages
+#: build/admin.js:62
+#: build/onboarding.js:6
+#, js-format
+msgid "An assisted scan visits up to %d pages. Remove some pages to continue."
+msgstr "Een begeleide scan bezoekt maximaal %d pagina's. Verwijder enkele pagina's om door te gaan."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Scanning in your browser…"
+msgstr "Scannen in uw browser…"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Start Browser Scan"
+msgstr "Start Browser Scan"
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "A new tab opens to scan your selected pages - keep it active until it finishes."
+msgstr "Er opent een nieuw tabblad om uw geselecteerde pagina's te scannen - houd dit actief totdat het klaar is."
+
+#: build/admin.js:62
+#: build/onboarding.js:6
+msgid "Switch Back"
+msgstr "Terugschakelen"
+
+#: build/admin.js:62
+msgid "This page did not load the scanner, so it was skipped. A redirect or a login requirement usually causes this."
+msgstr "Deze pagina heeft de scanner niet geladen, dus deze is overgeslagen. Meestal wordt dit veroorzaakt door een omleiding of een inlogvereiste."
+
+#: build/admin.js:62
+msgid "This page took too long to respond."
+msgstr "Deze pagina reageerde te langzaam."
+
+#: build/admin.js:62
+msgid "Skipped because the scan was cancelled."
+msgstr "Overgeslagen omdat de scan werd geannuleerd."
+
+#: build/admin.js:62
+msgid "This page could not be collected."
+msgstr "Deze pagina kon niet worden verzameld."
+
+#: build/admin.js:62
+msgid "Pages In This Scan"
+msgstr "Pagina's in deze scan"
+
+#. translators: 1: cookie count, 2: script count
+#: build/admin.js:63
+#, js-format
+msgid "%1$d cookies, %2$d scripts"
+msgstr "%1$d cookies, %2$d scripts"
+
+#: build/admin.js:63
+msgid "Collecting…"
+msgstr "Bezig met verzamelen…"
+
+#: build/admin.js:63
+msgid "Waiting"
+msgstr "Wachten"
+
+#: build/admin.js:63
+msgid "Re-scan"
+msgstr "Opnieuw scannen"
+
+#: build/admin.js:63
+#: build/onboarding.js:7
+msgid "Could not start the assisted scan."
+msgstr "Kon de begeleide scan niet starten."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Could not start the assisted scan"
+msgstr "Kon de begeleide scan niet starten"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Please try again in a moment."
+msgstr "Probeer het over een moment opnieuw."
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Your browser blocked the scan window"
+msgstr "Uw browser heeft het scanvenster geblokkeerd"
+
+#: build/admin.js:63
+#: build/onboarding.js:14
+msgid "Allow pop-ups for this site, then start the scan again."
+msgstr "Sta pop-ups toe voor deze site en start de scan opnieuw."
+
+#: build/admin.js:63
+msgid "View Scan Logs"
+msgstr "Scanlogboeken bekijken"
+
+#: build/admin.js:67
+#: build/admin.js:75
+msgid "Scan your website to find cookies, scripts, and trackers that require consent."
+msgstr "Scan uw website om cookies, scripts en trackers te vinden die toestemming vereisen."
+
+#: build/admin.js:74
+msgid "This is taking a little longer than usual"
+msgstr "Dit duurt iets langer dan normaal"
+
+#: build/admin.js:74
+msgid "A page is taking a while to respond, but your scan is still running in the background. Any cookies already found have been saved. You can leave this page and come back - or cancel and try again with fewer pages."
+msgstr "Een pagina doet er even over om te reageren, maar uw scan loopt nog steeds op de achtergrond. Alle reeds gevonden cookies zijn opgeslagen. U kunt deze pagina verlaten en later terugkomen - of annuleren en opnieuw proberen met minder pagina's."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Queued for Later"
+msgstr "Scan in wachtrij voor later"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Today's page budget is used up, so the remaining pages will scan automatically once it resets. Any cookies already found are saved. To scan sooner, run it again with fewer pages."
+msgstr "Het paginabudget voor vandaag is op, dus de resterende pagina's worden automatisch gescand zodra het wordt gereset. Alle reeds gevonden cookies zijn opgeslagen. Om eerder te scannen, voer het opnieuw uit met minder pagina's."
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "Scan Couldn't Be Completed"
+msgstr "Scan kon niet worden voltooid"
+
+#: build/admin.js:75
+#: build/onboarding.js:14
+msgid "A page may have taken too long to respond. Any cookies already found have been saved, and results add up across scans - nothing is lost. Please try again, scanning fewer pages at a time for a more reliable run."
+msgstr "Een pagina heeft mogelijk te lang nodig gehad om te reageren. Alle reeds gevonden cookies zijn opgeslagen en de resultaten worden bij elkaar opgeteld over scans heen - er gaat niets verloren. Probeer het opnieuw en scan minder pagina's tegelijk voor een betrouwbaardere uitvoering."
+
+#: build/admin.js:76
+msgid "iFrame"
+msgstr "iFrame"
+
+#: build/admin.js:76
+msgid "Head"
+msgstr "Kop"
+
+#: build/admin.js:76
+msgid "Body"
+msgstr "Body"
+
+#: build/admin.js:76
+msgid "Footer"
+msgstr "Voettekst"
+
+#: build/admin.js:76
+msgid "Anywhere (fallback)"
+msgstr "Overal (terugval)"
+
+#: build/admin.js:76
+msgid "This resource is whitelisted, so it always loads - even before consent."
+msgstr "Deze bron staat op de witte lijst, dus deze wordt altijd geladen - zelfs vóór toestemming."
+
+#: build/admin.js:76
+msgid "This script is managed by Google Consent Mode and always loads while GCM is enabled."
+msgstr "Dit script wordt beheerd door Google Consent Mode en wordt altijd geladen zolang GCM is ingeschakeld."
+
+#: build/admin.js:76
+msgid "This resource matches a whitelist rule (custom entry or common service), so it always loads."
+msgstr "Deze bron komt overeen met een witte lijst-regel (aangepaste invoer of veelgebruikte service), dus deze wordt altijd geladen."
+
+#: build/admin.js:76
+msgid "Script & Iframe"
+msgstr "Script & iFrame"
+
+#: build/admin.js:76
+msgid "Blocked until consent"
+msgstr "Geblokkeerd tot toestemming"
+
+#: build/admin.js:76
+msgid "Not blocked"
+msgstr "Niet geblokkeerd"
+
+#: build/admin.js:76
+msgid "Whitelisted"
+msgstr "Op de witte lijst"
+
+#: build/admin.js:76
+msgid "Managed by GCM"
+msgstr "Beheerd door GCM"
+
+#: build/admin.js:76
+msgid "Source"
+msgstr "Bron"
+
+#: build/admin.js:76
+msgid "Managed via Known Services - its cookies are declared in your cookie policy."
+msgstr "Beheerd via Bekende Services - de cookies worden vermeld in uw cookiebeleid."
+
+#: build/admin.js:76
+msgid "Recognized Known Services catalog entry - Click \"Add as Service\" to declare its cookies."
+msgstr "Herkenning van Bekende Services-catalogus - Klik op \"Toevoegen als Service\" om de cookies te verklaren."
+
+#: build/admin.js:76
+msgid "Managed Service"
+msgstr "Beheerde Service"
+
+#: build/admin.js:76
+msgid "Known Service"
+msgstr "Bekende Service"
+
+#: build/admin.js:76
+msgid "Always Allowed"
+msgstr "Altijd toegestaan"
+
+#: build/admin.js:76
+msgid "Category for"
+msgstr "Categorie voor"
+
+#: build/admin.js:76
+msgid "Block until consent (recommended)"
+msgstr "Blokkeren tot toestemming (aanbevolen)"
+
+#: build/admin.js:76
+msgid "Always allowed"
+msgstr "Altijd toegestaan"
+
+#: build/admin.js:76
+msgid "Do not block (always load)"
+msgstr "Niet blokkeren (altijd laden)"
+
+#: build/admin.js:76
+msgid "Edit Resource"
+msgstr "Bron bewerken"
+
+#: build/admin.js:76
+msgid "Add Script or Embed"
+msgstr "Script of insluiting toevoegen"
+
+#: build/admin.js:76
+msgid "Update"
+msgstr "Bijwerken"
+
+#: build/admin.js:76
+msgid "Behavior"
+msgstr "Gedrag"
+
+#: build/admin.js:76
+msgid "Whitelisted Resource Warning"
+msgstr "Waarschuwing voor witgelijste bron"
+
+#: build/admin.js:76
+msgid "If a resource sets cookies, allowing it directly can be a GDPR violation - only whitelist resources you are sure about."
+msgstr "Als een bron cookies plaatst, kan het direct toestaan hiervan een GDPR-overtreding zijn - whitelist alleen bronnen waarvan je zeker bent."
+
+#: build/admin.js:76
+msgid "Detected by the scanner, so the value cannot be edited."
+msgstr "Gedetecteerd door de scanner, dus de waarde kan niet worden bewerkt."
+
+#: build/admin.js:76
+msgid "e.g. Support chat"
+msgstr "bijv. Ondersteuningschat"
+
+#: build/admin.js:76
+msgid "Domain / Host"
+msgstr "Domein / Host"
+
+#: build/admin.js:76
+msgid "e.g. connect.facebook.net"
+msgstr "bijv. connect.facebook.net"
+
+#: build/admin.js:76
+msgid "The host the resource loads from. Pasting a full tag or URL also works."
+msgstr "De host waarvan de bron wordt geladen. Het plakken van een volledige tag of URL werkt ook."
+
+#: build/admin.js:76
+msgid "Path / Pattern (advanced)"
+msgstr "Pad / Patroon (gevorderd)"
+
+#: build/admin.js:76
+msgid "e.g. /fbevents.js"
+msgstr "bijv. /fbevents.js"
+
+#: build/admin.js:76
+msgid "Optional: narrow the rule to resources that also contain this path, so only one file on the host is blocked."
+msgstr "Optioneel: beperk de regel tot bronnen die ook dit pad bevatten, zodat slechts één bestand op de host wordt geblokkeerd."
+
+#: build/admin.js:76
+msgid "Script Keywords"
+msgstr "Scripttrefwoorden"
+
+#: build/admin.js:76
+msgid "e.g. fbq, fbq.push"
+msgstr "bijv. fbq, fbq.push"
+
+#: build/admin.js:76
+msgid "JavaScript function names to block that depend on the main script (comma separated)."
+msgstr "JavaScript-functienamen om te blokkeren die afhankelijk zijn van het hoofdscript (komma gescheiden)."
+
+#: build/admin.js:76
+msgid "Script Location"
+msgstr "Scriptlocatie"
+
+#: build/admin.js:76
+msgid "Anywhere"
+msgstr "Overal"
+
+#: build/admin.js:76
+msgid "Where the script loads on the page. SureCookie only looks for it in this section."
+msgstr "Waar het script op de pagina wordt geladen. SureCookie zoekt er alleen in deze sectie naar."
+
+#: build/admin.js:76
+msgid "This resource stays blocked until the visitor consents to this category."
+msgstr "Deze bron blijft geblokkeerd totdat de bezoeker toestemming geeft voor deze categorie."
+
+#: build/admin.js:76
+msgid "Unlock Whitelisting"
+msgstr "Witlijst ontgrendelen"
+
+#: build/admin.js:76
+msgid "Whitelist your own scripts and common services so essential integrations keep working before consent."
+msgstr "Whitelist je eigen scripts en veelgebruikte diensten zodat essentiële integraties blijven werken vóór toestemming."
+
+#. translators: %d: number of GCM-managed services.
+#: build/admin.js:77
+#, js-format
+msgid "Managed by Google Consent Mode (%d)"
+msgstr "Beheerd door Google Consent Mode (%d)"
+
+#: build/admin.js:77
+msgid "View services"
+msgstr "Diensten bekijken"
+
+#: build/admin.js:77
+msgid "Managed by Google Consent Mode"
+msgstr "Beheerd door Google Consent Mode"
+
+#: build/admin.js:77
+msgid "Auto-whitelisted"
+msgstr "Automatisch witgelijst"
+
+#: build/admin.js:77
+msgid "Enter the script domain or host."
+msgstr "Voer het scriptdomein of de host in."
+
+#: build/admin.js:77
+msgid "Select a category."
+msgstr "Selecteer een categorie."
+
+#: build/admin.js:77
+msgid "A rule for this script already exists."
+msgstr "Er bestaat al een regel voor dit script."
+
+#: build/admin.js:77
+msgid "Control how scripts and embeds load based on user consent - block them until allowed or mark essential ones to always run."
+msgstr "Beheer hoe scripts en insluitingen laden op basis van gebruikersconsent - blokkeer ze tot ze zijn toegestaan of markeer essentiële scripts om altijd te draaien."
+
+#: build/admin.js:77
+msgid "Behavior: Always Allowed"
+msgstr "Gedrag: Altijd toegestaan"
+
+#: build/admin.js:77
+msgid "Choose scripts and domains that should never be blocked, so tools like reCAPTCHA and other essential integrations keep working. Google Consent Mode scripts are whitelisted automatically when it is enabled."
+msgstr "Kies scripts en domeinen die nooit geblokkeerd mogen worden, zodat tools zoals reCAPTCHA en andere essentiële integraties blijven werken. Google Consent Mode-scripts worden automatisch witgelijst wanneer deze is ingeschakeld."
+
+#: build/admin.js:77
+msgid "Block Scripts and Embeds Until Consent Switch"
+msgstr "Schakel Blokkeren van Scripts en Insluitingen tot Toestemming in"
+
+#: build/admin.js:77
+msgid "Block Scripts Until Consent"
+msgstr "Blokkeer scripts tot toestemming"
+
+#: build/admin.js:77
+msgid "Prevent non-essential scripts and embeds from loading until users give consent."
+msgstr "Voorkom dat niet-essentiële scripts en insluitingen laden totdat gebruikers toestemming geven."
+
+#: build/admin.js:77
+msgid "Detected and Managed Resources"
+msgstr "Gedetecteerde en Beheerde Bronnen"
+
+#. translators: 1: scanner-detected count, 2: custom rule count
+#: build/admin.js:78
+#, js-format
+msgid "%1$d detected by scanner, %2$d custom"
+msgstr "%1$d gedetecteerd door scanner, %2$d aangepast"
+
+#: build/admin.js:78
+msgid "New Resource"
+msgstr "Nieuwe Bron"
+
+#: build/admin.js:78
+msgid "All your scripts will be displayed here"
+msgstr "Al je scripts worden hier weergegeven"
+
+#: build/admin.js:78
+msgid "Run a scan to detect third-party resources, or add a script manually."
+msgstr "Voer een scan uit om bronnen van derden te detecteren, of voeg handmatig een script toe."
+
+#: build/admin.js:78
+msgid "Add New Resource"
+msgstr "Nieuwe Bron Toevoegen"
+
+#: build/admin.js:78
+msgid "Unlock Custom Script Rules & Whitelisting"
+msgstr "Ontgrendel Aangepaste Scriptregels & Witlijst"
+
+#: build/admin.js:78
+msgid "Add your own scripts to block under any category, whitelist trusted scripts, and manage it all from one place."
+msgstr "Voeg je eigen scripts toe om te blokkeren onder elke categorie, witlijst vertrouwde scripts en beheer alles vanaf één plek."
+
+#: build/admin.js:78
+msgid "Generate your cookie policy automatically from your settings, or display it anywhere using a shortcode."
+msgstr "Genereer je cookiebeleid automatisch vanuit je instellingen, of toon het overal met een shortcode."
+
+#: build/admin.js:78
+msgid "Automatically re-scan your site and get notified when new cookies or trackers appear."
+msgstr "Scan je site automatisch opnieuw en ontvang een melding wanneer nieuwe cookies of trackers verschijnen."
+
+#: build/admin.js:84
+msgid "Show your cookie banner only in regions where consent is required."
+msgstr "Toon je cookiebanner alleen in regio's waar toestemming vereist is."
+
+#: build/admin.js:84
+msgid "Share visitor consent across your sites so users don’t need to give consent again."
+msgstr "Deel bezoekersconsent over je sites zodat gebruikers niet opnieuw toestemming hoeven te geven."
+
+#: build/admin.js:84
+msgid "Unlock Consent Sharing"
+msgstr "Ontgrendel Consentdeling"
+
+#: build/admin.js:77
+msgid "Allowed to load while Google Consent Mode is active, instead of being blocked before consent."
+msgstr "Toegestaan om te laden terwijl de Google-toestemmingsmodus actief is, in plaats van te worden geblokkeerd vóór toestemming."
+
+#: build/admin.js:77
+msgid "These Google services are allowed to load while Google Consent Mode is active, instead of being blocked before consent. For Google tag products, Consent Mode then controls what they may store and which identifiers they may use. It does not stop them from contacting Google. They cannot be removed here."
+msgstr "Deze Google-services mogen worden geladen terwijl de Google-toestemmingsmodus actief is, in plaats van te worden geblokkeerd vóór toestemming. Voor Google-tagproducten regelt de toestemmingsmodus vervolgens wat ze mogen opslaan en welke identificatoren ze mogen gebruiken. Het voorkomt niet dat ze contact opnemen met Google. Ze kunnen hier niet worden verwijderd."
