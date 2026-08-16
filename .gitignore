@@ -25,3 +25,6 @@ public/wp-content/plugins/*/build/vendor/
 # System files
 .DS_Store
 Thumbs.db
+
+public/wp-content/uploads/surecookie/services/services.json
+public/wp-content/uploads/ast-block-templates-json/
